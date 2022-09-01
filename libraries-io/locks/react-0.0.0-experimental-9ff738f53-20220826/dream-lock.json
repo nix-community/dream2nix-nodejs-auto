@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "react",
+    "location": "",
+    "packages": {
+      "react": "unknown"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "0.0.0-experimental-9ff738f53-20220826": [
+        [ "loose-envify", "1.4.0" ]
+      ],
+      "unknown": [
+        [ "null", "2.0.0" ],
+        [ "react", "0.0.0-experimental-9ff738f53-20220826" ]
+      ]
+    }
+  },
+  "sources": {
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "null": {
+      "2.0.0": {
+        "hash": "sha512-CVSXPeB7Af0Sku7w8N8EKkgcwvQ6wGNfs6bly419A/q6dpIwzaHIk+65+La2g80ml21uxVXQo8xReTMI2WEYbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/null/-/null-2.0.0.tgz"
+      }
+    },
+    "react": {
+      "0.0.0-experimental-9ff738f53-20220826": {
+        "hash": "sha512-SDg6ppISVFp+fwjZGYs1fjH1A97vl866zcYEgzeVSZrG42AcAiDf/nFR0cQuj6SAPf0BHO6oHrD1f76jw2p4KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-0.0.0-experimental-9ff738f53-20220826.tgz"
+      },
+      "unknown": {
+        "hash": "sha512-SDg6ppISVFp+fwjZGYs1fjH1A97vl866zcYEgzeVSZrG42AcAiDf/nFR0cQuj6SAPf0BHO6oHrD1f76jw2p4KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-0.0.0-experimental-9ff738f53-20220826.tgz"
+      }
+    }
+  }
+}
