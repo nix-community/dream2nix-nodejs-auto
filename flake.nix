@@ -12,7 +12,7 @@
       indexes = {
         libraries-io = {
           platform = "npm";
-          number = 100;
+          number = 5000;
         };
       };
       packageOverrides = {
