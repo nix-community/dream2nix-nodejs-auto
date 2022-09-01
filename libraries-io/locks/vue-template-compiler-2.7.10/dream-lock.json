@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "vue-template-compiler",
+    "location": "",
+    "packages": {
+      "vue-template-compiler": "unknown"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "vue-template-compiler": {
+      "2.7.10": [
+        [ "de-indent", "1.0.2" ],
+        [ "he", "1.2.0" ]
+      ],
+      "unknown": [
+        [ "null", "2.0.0" ],
+        [ "vue-template-compiler", "2.7.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "de-indent": {
+      "1.0.2": {
+        "hash": "sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/de-indent/-/de-indent-1.0.2.tgz"
+      }
+    },
+    "he": {
+      "1.2.0": {
+        "hash": "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/he/-/he-1.2.0.tgz"
+      }
+    },
+    "null": {
+      "2.0.0": {
+        "hash": "sha512-CVSXPeB7Af0Sku7w8N8EKkgcwvQ6wGNfs6bly419A/q6dpIwzaHIk+65+La2g80ml21uxVXQo8xReTMI2WEYbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/null/-/null-2.0.0.tgz"
+      }
+    },
+    "vue-template-compiler": {
+      "2.7.10": {
+        "hash": "sha512-QO+8R9YRq1Gudm8ZMdo/lImZLJVUIAM8c07Vp84ojdDAf8HmPJc7XB556PcXV218k2AkKznsRz6xB5uOjAC4EQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.7.10.tgz"
+      },
+      "unknown": {
+        "hash": "sha512-QO+8R9YRq1Gudm8ZMdo/lImZLJVUIAM8c07Vp84ojdDAf8HmPJc7XB556PcXV218k2AkKznsRz6xB5uOjAC4EQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.7.10.tgz"
+      }
+    }
+  }
+}
