@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/tape",
+    "location": "",
+    "packages": {
+      "@types/tape": "4.13.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/tape": {
+      "4.13.2": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/tape", "4.13.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/tape": {
+      "4.13.2": {
+        "hash": "sha512-V1ez/RtYRGN9cNYApw5xf27DpMkTB0033X6a2i3KUmKhSojBfbWN0i3EgZxboUG96WJLHLdOyZ01aiZwVW5aSA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/tape/-/tape-4.13.2.tgz"
+      }
+    }
+  }
+}

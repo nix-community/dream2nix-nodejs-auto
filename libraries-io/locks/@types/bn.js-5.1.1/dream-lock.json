@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/bn.js",
+    "location": "",
+    "packages": {
+      "@types/bn.js": "5.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/bn.js": {
+      "5.1.1": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/bn.js", "5.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/bn.js": {
+      "5.1.1": {
+        "hash": "sha512-qNrYbZqMx0uJAfKnKclPh+dTwK33KfLHYqtyODwd5HnXOjnkhc4qgn3BrK6RWyGZm5+sIFE7Q7Vz6QQtJB7w7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bn.js/-/bn.js-5.1.1.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

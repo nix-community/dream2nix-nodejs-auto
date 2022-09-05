@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "falafel",
+    "location": "",
+    "packages": {
+      "falafel": "2.2.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "falafel": {
+      "2.2.5": [
+        [ "acorn", "7.4.1" ],
+        [ "isarray", "2.0.5" ]
+      ],
+      "unknown": [
+        [ "falafel", "2.2.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "acorn": {
+      "7.4.1": {
+        "hash": "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
+      }
+    },
+    "falafel": {
+      "2.2.5": {
+        "hash": "sha512-HuC1qF9iTnHDnML9YZAdCDQwT0yKl/U55K4XSUXqGAA2GLoafFgWRqdAbhWJxXaYD4pyoVxAJ8wH670jMpI9DQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/falafel/-/falafel-2.2.5.tgz"
+      }
+    },
+    "isarray": {
+      "2.0.5": {
+        "hash": "sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz"
+      }
+    }
+  }
+}

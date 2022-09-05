@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "superb",
+    "location": "",
+    "packages": {
+      "superb": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "superb": {
+      "4.0.0": [
+        [ "unique-random-array", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "superb", "4.0.0" ]
+      ]
+    },
+    "unique-random-array": {
+      "2.0.0": [
+        [ "unique-random", "2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "superb": {
+      "4.0.0": {
+        "hash": "sha512-4Kie62y4kBxNGXXWJAVR63sdQlswBZq2G/x1d37pRQbjqfhIH1WPhirZFHZUpI76uCDrFnxej0F3NtEy1/H+OQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/superb/-/superb-4.0.0.tgz"
+      }
+    },
+    "unique-random": {
+      "2.1.0": {
+        "hash": "sha512-iQ1ZgWac3b8YxGThecQFRQiqgk6xFERRwHZIWeVVsqlbmgCRl0PY13R4mUkodNgctmg5b5odG1nyW/IbOxQTqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unique-random/-/unique-random-2.1.0.tgz"
+      }
+    },
+    "unique-random-array": {
+      "2.0.0": {
+        "hash": "sha512-xR87O95fZ7hljw84J8r1YDXrvffPLWN513BNOP4Bv0KcgG5dyEUrHwsvP7mVAOKg4Y80uqRbpUk0GKr8il70qg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unique-random-array/-/unique-random-array-2.0.0.tgz"
+      }
+    }
+  }
+}

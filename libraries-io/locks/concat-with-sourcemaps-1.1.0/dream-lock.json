@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "concat-with-sourcemaps",
+    "location": "",
+    "packages": {
+      "concat-with-sourcemaps": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "concat-with-sourcemaps": {
+      "1.1.0": [
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "concat-with-sourcemaps", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "concat-with-sourcemaps": {
+      "1.1.0": {
+        "hash": "sha512-4gEjHJFT9e+2W/77h/DS5SGUgwDaOwprX8L/gl5+3ixnzkVJJsZWDSelmN3Oilw3LNDZjZV0yqH1hLG3k6nghg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/concat-with-sourcemaps/-/concat-with-sourcemaps-1.1.0.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    }
+  }
+}

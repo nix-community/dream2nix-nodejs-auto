@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "fibers",
+    "location": "",
+    "packages": {
+      "fibers": "5.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fibers": {
+      "5.0.3": [
+        [ "detect-libc", "1.0.3" ]
+      ],
+      "unknown": [
+        [ "fibers", "5.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "detect-libc": {
+      "1.0.3": {
+        "hash": "sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz"
+      }
+    },
+    "fibers": {
+      "5.0.3": {
+        "hash": "sha512-/qYTSoZydQkM21qZpGLDLuCq8c+B8KhuCQ1kLPvnRNhxhVbvrpmH9l2+Lblf5neDuEsY4bfT7LeO553TXQDvJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fibers/-/fibers-5.0.3.tgz"
+      }
+    }
+  }
+}

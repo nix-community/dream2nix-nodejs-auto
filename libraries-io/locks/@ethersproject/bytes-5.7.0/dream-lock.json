@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@ethersproject/bytes",
+    "location": "",
+    "packages": {
+      "@ethersproject/bytes": "5.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@ethersproject/bytes": {
+      "5.7.0": [
+        [ "@ethersproject/logger", "5.7.0" ]
+      ],
+      "unknown": [
+        [ "@ethersproject/bytes", "5.7.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ethersproject/bytes": {
+      "5.7.0": {
+        "hash": "sha512-nsbxwgFXWh9NyYWo+U8atvmMsSdKJprTcICAkvbBffT75qDocbuggBU0SJiVK2MuTrp0q+xvLkTnGMPK1+uA9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ethersproject/bytes/-/bytes-5.7.0.tgz"
+      }
+    },
+    "@ethersproject/logger": {
+      "5.7.0": {
+        "hash": "sha512-0odtFdXu/XHtjQXJYA3u9G0G8btm0ND5Cu8M7i5vhEcE8/HmF4Lbdqanwyv4uQTr2tx6b7fQRmgLrsnpQlmnig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ethersproject/logger/-/logger-5.7.0.tgz"
+      }
+    }
+  }
+}

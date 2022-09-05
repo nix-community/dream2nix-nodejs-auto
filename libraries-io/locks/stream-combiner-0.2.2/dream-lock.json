@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "stream-combiner",
+    "location": "",
+    "packages": {
+      "stream-combiner": "0.2.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "stream-combiner": {
+      "0.2.2": [
+        [ "duplexer", "0.1.2" ],
+        [ "through", "2.3.8" ]
+      ],
+      "unknown": [
+        [ "stream-combiner", "0.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "duplexer": {
+      "0.1.2": {
+        "hash": "sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz"
+      }
+    },
+    "stream-combiner": {
+      "0.2.2": {
+        "hash": "sha512-6yHMqgLYDzQDcAkL+tjJDC5nSNuNIx0vZtRZeiPh7Saef7VHX9H5Ijn9l2VIol2zaNYlYEX6KyuT/237A58qEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.2.tgz"
+      }
+    },
+    "through": {
+      "2.3.8": {
+        "hash": "sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
+      }
+    }
+  }
+}

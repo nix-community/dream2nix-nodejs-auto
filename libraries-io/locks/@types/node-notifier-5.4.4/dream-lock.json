@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/node-notifier",
+    "location": "",
+    "packages": {
+      "@types/node-notifier": "5.4.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/node-notifier": {
+      "5.4.4": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/node-notifier", "5.4.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/node-notifier": {
+      "5.4.4": {
+        "hash": "sha512-OU7LuXb86NnlyVzC7m5PEUSXt8DGEhB/NZa8uA6QULOrzXTAzoUtlVB440uRb8x5KiJsabFGW08QscQF5FUXnA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node-notifier/-/node-notifier-5.4.4.tgz"
+      }
+    }
+  }
+}

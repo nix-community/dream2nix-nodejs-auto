@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "rethinkdb",
+    "location": "",
+    "packages": {
+      "rethinkdb": "2.4.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rethinkdb": {
+      "2.4.2": [
+        [ "bluebird", "2.11.0" ]
+      ],
+      "unknown": [
+        [ "rethinkdb", "2.4.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "bluebird": {
+      "2.11.0": {
+        "hash": "sha512-UfFSr22dmHPQqPP9XWHRhq+gWnHCYguQGkXQlbyPtW5qTnhFWA8/iXg765tH0cAjy7l/zPJ1aBTO0g5XgA7kvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bluebird/-/bluebird-2.11.0.tgz"
+      }
+    },
+    "rethinkdb": {
+      "2.4.2": {
+        "hash": "sha512-6DzwqEpFc8cqesAdo07a845oBRxLiHvWzopTKBo/uY2ypGWIsJQFJk3wjRDtSEhczxJqLS0jnf37rwgzYAw8NQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rethinkdb/-/rethinkdb-2.4.2.tgz"
+      }
+    }
+  }
+}

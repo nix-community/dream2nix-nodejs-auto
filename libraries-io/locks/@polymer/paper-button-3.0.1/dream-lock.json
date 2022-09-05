@@ -1,0 +1,193 @@
+{
+  "_generic": {
+    "defaultPackage": "@polymer/paper-button",
+    "location": "",
+    "packages": {
+      "@polymer/paper-button": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@polymer/iron-a11y-keys-behavior": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-behaviors": {
+      "3.0.1": [
+        [ "@polymer/iron-a11y-keys-behavior", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-checked-element-behavior": {
+      "3.0.1": [
+        [ "@polymer/iron-form-element-behavior", "3.0.1" ],
+        [ "@polymer/iron-validatable-behavior", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-flex-layout": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-form-element-behavior": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-meta": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-validatable-behavior": {
+      "3.0.1": [
+        [ "@polymer/iron-meta", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/paper-behaviors": {
+      "3.0.1": [
+        [ "@polymer/iron-behaviors", "3.0.1" ],
+        [ "@polymer/iron-checked-element-behavior", "3.0.1" ],
+        [ "@polymer/paper-ripple", "3.0.2" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/paper-button": {
+      "3.0.1": [
+        [ "@polymer/iron-flex-layout", "3.0.1" ],
+        [ "@polymer/paper-behaviors", "3.0.1" ],
+        [ "@polymer/paper-styles", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ],
+      "unknown": [
+        [ "@polymer/paper-button", "3.0.1" ]
+      ]
+    },
+    "@polymer/paper-ripple": {
+      "3.0.2": [
+        [ "@polymer/iron-a11y-keys-behavior", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/paper-styles": {
+      "3.0.1": [
+        [ "@polymer/font-roboto", "3.0.2" ],
+        [ "@polymer/iron-flex-layout", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/polymer": {
+      "3.5.1": [
+        [ "@webcomponents/shadycss", "1.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@polymer/font-roboto": {
+      "3.0.2": {
+        "hash": "sha512-tx5TauYSmzsIvmSqepUPDYbs4/Ejz2XbZ1IkD7JEGqkdNUJlh+9KU85G56Tfdk/xjEZ8zorFfN09OSwiMrIQWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/font-roboto/-/font-roboto-3.0.2.tgz"
+      }
+    },
+    "@polymer/iron-a11y-keys-behavior": {
+      "3.0.1": {
+        "hash": "sha512-lnrjKq3ysbBPT/74l0Fj0U9H9C35Tpw2C/tpJ8a+5g8Y3YJs1WSZYnEl1yOkw6sEyaxOq/1DkzH0+60gGu5/PQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-behaviors": {
+      "3.0.1": {
+        "hash": "sha512-IMEwcv1lhf1HSQxuyWOUIL0lOBwmeaoSTpgCJeP9IBYnuB1SPQngmfRuHKgK6/m9LQ9F9miC7p3HeQQUdKAE0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-behaviors/-/iron-behaviors-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-checked-element-behavior": {
+      "3.0.1": {
+        "hash": "sha512-aDr0cbCNVq49q+pOqa6CZutFh+wWpwPMLpEth9swx+GkAj+gCURhuQkaUYhIo5f2egDbEioR1aeHMnPlU9dQZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-checked-element-behavior/-/iron-checked-element-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-flex-layout": {
+      "3.0.1": {
+        "hash": "sha512-7gB869czArF+HZcPTVSgvA7tXYFze9EKckvM95NB7SqYF+NnsQyhoXgKnpFwGyo95lUjUW9TFDLUwDXnCYFtkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-form-element-behavior": {
+      "3.0.1": {
+        "hash": "sha512-G/e2KXyL5AY7mMjmomHkGpgS0uAf4ovNpKhkuUTRnMuMJuf589bKqE85KN4ovE1Tzhv2hJoh/igyD6ekHiYU1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-meta": {
+      "3.0.1": {
+        "hash": "sha512-pWguPugiLYmWFV9UWxLWzZ6gm4wBwQdDy4VULKwdHCqR7OP7u98h+XDdGZsSlDPv6qoryV/e3tGHlTIT0mbzJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-meta/-/iron-meta-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-validatable-behavior": {
+      "3.0.1": {
+        "hash": "sha512-wwpYh6wOa4fNI+jH5EYKC7TVPYQ2OfgQqocWat7GsNWcsblKYhLYbwsvEY5nO0n2xKqNfZzDLrUom5INJN7msQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/paper-behaviors": {
+      "3.0.1": {
+        "hash": "sha512-6knhj69fPJejv8qR0kCSUY+Q0XjaUf0OSnkjRjmTJPAwSrRYtgqE+l6P1FfA+py1X/cUjgne9EF5rMZAKJIg1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/paper-behaviors/-/paper-behaviors-3.0.1.tgz"
+      }
+    },
+    "@polymer/paper-button": {
+      "3.0.1": {
+        "hash": "sha512-JRNBc+Oj9EWnmyLr7FcCr8T1KAnEHPh6mosln9BUdkM+qYaYsudSICh3cjTIbnj6AuF5OJidoLkM1dlyj0j6Zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/paper-button/-/paper-button-3.0.1.tgz"
+      }
+    },
+    "@polymer/paper-ripple": {
+      "3.0.2": {
+        "hash": "sha512-DnLNvYIMsiayeICroYxx6Q6Hg1cUU8HN2sbutXazlemAlGqdq80qz3TIaVdbpbt/pvjcFGX2HtntMlPstCge8Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/paper-ripple/-/paper-ripple-3.0.2.tgz"
+      }
+    },
+    "@polymer/paper-styles": {
+      "3.0.1": {
+        "hash": "sha512-y6hmObLqlCx602TQiSBKHqjwkE7xmDiFkoxdYGaNjtv4xcysOTdVJsDR/R9UHwIaxJ7gHlthMSykir1nv78++g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/paper-styles/-/paper-styles-3.0.1.tgz"
+      }
+    },
+    "@polymer/polymer": {
+      "3.5.1": {
+        "hash": "sha512-JlAHuy+1qIC6hL1ojEUfIVD58fzTpJAoCxFwV5yr0mYTXV1H8bz5zy0+rC963Cgr9iNXQ4T9ncSjC2fkF9BQfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/polymer/-/polymer-3.5.1.tgz"
+      }
+    },
+    "@webcomponents/shadycss": {
+      "1.11.0": {
+        "hash": "sha512-L5O/+UPum8erOleNjKq6k58GVl3fNsEQdSOyh0EUhNmi7tHUyRuCJy1uqJiWydWcLARE5IPsMoPYMZmUGrz1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@webcomponents/shadycss/-/shadycss-1.11.0.tgz"
+      }
+    }
+  }
+}

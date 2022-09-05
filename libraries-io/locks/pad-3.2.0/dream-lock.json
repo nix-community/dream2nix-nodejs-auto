@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "pad",
+    "location": "",
+    "packages": {
+      "pad": "3.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "defaults": {
+      "1.0.3": [
+        [ "clone", "1.0.4" ]
+      ]
+    },
+    "pad": {
+      "3.2.0": [
+        [ "wcwidth", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "pad", "3.2.0" ]
+      ]
+    },
+    "wcwidth": {
+      "1.0.1": [
+        [ "defaults", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "clone": {
+      "1.0.4": {
+        "hash": "sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
+      }
+    },
+    "defaults": {
+      "1.0.3": {
+        "hash": "sha512-s82itHOnYrN0Ib8r+z7laQz3sdE+4FP3d9Q7VLO7U+KRT+CR0GsWuyHxzdAY82I7cXv0G/twrqomTJLOssO5HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/defaults/-/defaults-1.0.3.tgz"
+      }
+    },
+    "pad": {
+      "3.2.0": {
+        "hash": "sha512-2u0TrjcGbOjBTJpyewEl4hBO3OeX5wWue7eIFPzQTg6wFSvoaHcBTTUY5m+n0hd04gmTCPuY0kCpVIVuw5etwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pad/-/pad-3.2.0.tgz"
+      }
+    },
+    "wcwidth": {
+      "1.0.1": {
+        "hash": "sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz"
+      }
+    }
+  }
+}

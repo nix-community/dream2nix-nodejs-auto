@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "strip-loader",
+    "location": "",
+    "packages": {
+      "strip-loader": "0.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loader-utils": {
+      "0.2.17": [
+        [ "big.js", "3.2.0" ],
+        [ "emojis-list", "2.1.0" ],
+        [ "json5", "0.5.1" ],
+        [ "object-assign", "4.1.1" ]
+      ]
+    },
+    "strip-loader": {
+      "0.1.2": [
+        [ "loader-utils", "0.2.17" ]
+      ],
+      "unknown": [
+        [ "strip-loader", "0.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "big.js": {
+      "3.2.0": {
+        "hash": "sha512-+hN/Zh2D08Mx65pZ/4g5bsmNiZUuChDiQfTUQ7qJr4/kuopCr88xZsAXv6mBoZEsUI4OuGHlX59qE94K2mMW8Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/big.js/-/big.js-3.2.0.tgz"
+      }
+    },
+    "emojis-list": {
+      "2.1.0": {
+        "hash": "sha512-knHEZMgs8BB+MInokmNTg/OyPlAddghe1YBgNwJBc5zsJi/uyIcXoSDsL/W9ymOsBoBGdPIHXYJ9+qKFwRwDng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emojis-list/-/emojis-list-2.1.0.tgz"
+      }
+    },
+    "json5": {
+      "0.5.1": {
+        "hash": "sha512-4xrs1aW+6N5DalkqSVA8fxh458CXvR99WU8WLKmq4v8eWAL86Xo3BVqyd3SkA9wEVjCMqyvvRRkshAdOnBp5rw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-0.5.1.tgz"
+      }
+    },
+    "loader-utils": {
+      "0.2.17": {
+        "hash": "sha512-tiv66G0SmiOx+pLWMtGEkfSEejxvb6N6uRrQjfWJIT79W9GMpgKeCAmm9aVBKtd4WEgntciI8CsGqjpDoCWJug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-0.2.17.tgz"
+      }
+    },
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
+    "strip-loader": {
+      "0.1.2": {
+        "hash": "sha512-oxilof7476ID2hyp0SRW689nC1R+45UTwobgKXXnrP6bb/l0napWjrHpzQTScYAmrp0E4bft7CQSCgE5PqyNCQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-loader/-/strip-loader-0.1.2.tgz"
+      }
+    }
+  }
+}

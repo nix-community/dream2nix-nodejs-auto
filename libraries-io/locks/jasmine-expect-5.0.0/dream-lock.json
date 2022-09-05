@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "jasmine-expect",
+    "location": "",
+    "packages": {
+      "jasmine-expect": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jasmine-expect": {
+      "5.0.0": [
+        [ "add-matchers", "0.6.2" ]
+      ],
+      "unknown": [
+        [ "jasmine-expect", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "add-matchers": {
+      "0.6.2": {
+        "hash": "sha512-hVO2wodMei9RF00qe+506MoeJ/NEOdCMEkSJ12+fC3hx/5Z4zmhNiP92nJEF6XhmXokeB0hOtuQrjHCx2vmXrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/add-matchers/-/add-matchers-0.6.2.tgz"
+      }
+    },
+    "jasmine-expect": {
+      "5.0.0": {
+        "hash": "sha512-byn1zq0EQBA9UKs5A+H6gk5TRcanV+TqQMRxrjurGuqKkclaqgjw/vV6aT/jtf5tabXGonTH6VDZJ33Z1pxSxw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jasmine-expect/-/jasmine-expect-5.0.0.tgz"
+      }
+    }
+  }
+}

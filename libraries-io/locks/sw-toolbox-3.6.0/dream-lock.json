@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "sw-toolbox",
+    "location": "",
+    "packages": {
+      "sw-toolbox": "3.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "path-to-regexp": {
+      "1.8.0": [
+        [ "isarray", "0.0.1" ]
+      ]
+    },
+    "sw-toolbox": {
+      "3.6.0": [
+        [ "path-to-regexp", "1.8.0" ],
+        [ "serviceworker-cache-polyfill", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "sw-toolbox", "3.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "isarray": {
+      "0.0.1": {
+        "hash": "sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+      }
+    },
+    "path-to-regexp": {
+      "1.8.0": {
+        "hash": "sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-1.8.0.tgz"
+      }
+    },
+    "serviceworker-cache-polyfill": {
+      "4.0.0": {
+        "hash": "sha512-VMl1n99TbtKdO7DYNX0J9FQt1doo69V6fBniKC7o+CoJerbmFlQbsoxDa7P+b4b0tmpsdRIuzzS9sSJI7vFY2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/serviceworker-cache-polyfill/-/serviceworker-cache-polyfill-4.0.0.tgz"
+      }
+    },
+    "sw-toolbox": {
+      "3.6.0": {
+        "hash": "sha512-v/hu7KQQtospyDLpZxz7m5c7s90aj53YEkJ/A8x3mLPlSgIkZ6RKJkTjBG75P1p/fo5IeSA4TycyJg3VSu/aPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sw-toolbox/-/sw-toolbox-3.6.0.tgz"
+      }
+    }
+  }
+}

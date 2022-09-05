@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@polymer/iron-test-helpers",
+    "location": "",
+    "packages": {
+      "@polymer/iron-test-helpers": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@polymer/iron-test-helpers": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ],
+      "unknown": [
+        [ "@polymer/iron-test-helpers", "3.0.1" ]
+      ]
+    },
+    "@polymer/polymer": {
+      "3.5.1": [
+        [ "@webcomponents/shadycss", "1.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@polymer/iron-test-helpers": {
+      "3.0.1": {
+        "hash": "sha512-2R7dnGcW2eg95i7LhYWWUO4AlAk6qXsPnKoyeN2R1t0km0ECMx0jjwqeLwCo8/7LwuVPZSiarI4DK7jyU7fJLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-test-helpers/-/iron-test-helpers-3.0.1.tgz"
+      }
+    },
+    "@polymer/polymer": {
+      "3.5.1": {
+        "hash": "sha512-JlAHuy+1qIC6hL1ojEUfIVD58fzTpJAoCxFwV5yr0mYTXV1H8bz5zy0+rC963Cgr9iNXQ4T9ncSjC2fkF9BQfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/polymer/-/polymer-3.5.1.tgz"
+      }
+    },
+    "@webcomponents/shadycss": {
+      "1.11.0": {
+        "hash": "sha512-L5O/+UPum8erOleNjKq6k58GVl3fNsEQdSOyh0EUhNmi7tHUyRuCJy1uqJiWydWcLARE5IPsMoPYMZmUGrz1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@webcomponents/shadycss/-/shadycss-1.11.0.tgz"
+      }
+    }
+  }
+}

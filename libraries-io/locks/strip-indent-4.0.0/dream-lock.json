@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "strip-indent",
+    "location": "",
+    "packages": {
+      "strip-indent": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "strip-indent": {
+      "4.0.0": [
+        [ "min-indent", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "strip-indent", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "min-indent": {
+      "1.0.1": {
+        "hash": "sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz"
+      }
+    },
+    "strip-indent": {
+      "4.0.0": {
+        "hash": "sha512-mnVSV2l+Zv6BLpSD/8V87CW/y9EmmbYzGCIavsnsI6/nwn26DwffM/yztm30Z/I2DY9wdS3vXVCMnHDgZaVNoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-indent/-/strip-indent-4.0.0.tgz"
+      }
+    }
+  }
+}

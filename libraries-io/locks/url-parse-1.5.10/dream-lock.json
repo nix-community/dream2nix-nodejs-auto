@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "url-parse",
+    "location": "",
+    "packages": {
+      "url-parse": "1.5.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "url-parse": {
+      "1.5.10": [
+        [ "querystringify", "2.2.0" ],
+        [ "requires-port", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "url-parse", "1.5.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "querystringify": {
+      "2.2.0": {
+        "hash": "sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz"
+      }
+    },
+    "requires-port": {
+      "1.0.0": {
+        "hash": "sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
+      }
+    },
+    "url-parse": {
+      "1.5.10": {
+        "hash": "sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/url-parse/-/url-parse-1.5.10.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "camelcase-keys",
+    "location": "",
+    "packages": {
+      "camelcase-keys": "8.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "camelcase-keys": {
+      "8.0.2": [
+        [ "camelcase", "7.0.0" ],
+        [ "map-obj", "4.3.0" ],
+        [ "quick-lru", "6.1.1" ],
+        [ "type-fest", "2.19.0" ]
+      ],
+      "unknown": [
+        [ "camelcase-keys", "8.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "camelcase": {
+      "7.0.0": {
+        "hash": "sha512-JToIvOmz6nhGsUhAYScbo2d6Py5wojjNfoxoc2mEVLUdJ70gJK2gnd+ABY1Tc3sVMyK7QDPtN0T/XdlCQWITyQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/camelcase/-/camelcase-7.0.0.tgz"
+      }
+    },
+    "camelcase-keys": {
+      "8.0.2": {
+        "hash": "sha512-qMKdlOfsjlezMqxkUGGMaWWs17i2HoL15tM+wtx8ld4nLrUwU58TFdvyGOz/piNP842KeO8yXvggVQSdQ828NA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-8.0.2.tgz"
+      }
+    },
+    "map-obj": {
+      "4.3.0": {
+        "hash": "sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/map-obj/-/map-obj-4.3.0.tgz"
+      }
+    },
+    "quick-lru": {
+      "6.1.1": {
+        "hash": "sha512-S27GBT+F0NTRiehtbrgaSE1idUAJ5bX8dPAQTdylEyNlrdcH5X4Lz7Edz3DYzecbsCluD5zO8ZNEe04z3D3u6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/quick-lru/-/quick-lru-6.1.1.tgz"
+      }
+    },
+    "type-fest": {
+      "2.19.0": {
+        "hash": "sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
+      }
+    }
+  }
+}

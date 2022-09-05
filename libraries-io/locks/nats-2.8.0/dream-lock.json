@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "nats",
+    "location": "",
+    "packages": {
+      "nats": "2.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nats": {
+      "2.8.0": [
+        [ "nkeys.js", "1.0.3" ],
+        [ "web-streams-polyfill", "3.2.1" ]
+      ],
+      "unknown": [
+        [ "nats", "2.8.0" ]
+      ]
+    },
+    "nkeys.js": {
+      "1.0.3": [
+        [ "tweetnacl", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "nats": {
+      "2.8.0": {
+        "hash": "sha512-FabrmbDYGH8x8iajdFqhr3RptxJ4qlK1uKuqaHf8EUNY3Zr8DtRw2naiJsIzex27GnSs0UqQG/upPU9Yh66zlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nats/-/nats-2.8.0.tgz"
+      }
+    },
+    "nkeys.js": {
+      "1.0.3": {
+        "hash": "sha512-p5Bpb/acPaQmCrbe4gNmMBY/naZJV8Q7m2B9UkXT8BQRC6wjX8zqD2ya8eZu9mpSXQffodV46HCP9OckmxcwYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nkeys.js/-/nkeys.js-1.0.3.tgz"
+      }
+    },
+    "tweetnacl": {
+      "1.0.3": {
+        "hash": "sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-1.0.3.tgz"
+      }
+    },
+    "web-streams-polyfill": {
+      "3.2.1": {
+        "hash": "sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.2.1.tgz"
+      }
+    }
+  }
+}

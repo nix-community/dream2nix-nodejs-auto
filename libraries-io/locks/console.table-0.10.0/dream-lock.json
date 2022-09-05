@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "console.table",
+    "location": "",
+    "packages": {
+      "console.table": "0.10.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "console.table": {
+      "0.10.0": [
+        [ "easy-table", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "console.table", "0.10.0" ]
+      ]
+    },
+    "defaults": {
+      "1.0.3": [
+        [ "clone", "1.0.4" ]
+      ]
+    },
+    "easy-table": {
+      "1.1.0": [
+        [ "wcwidth", "1.0.1" ]
+      ]
+    },
+    "wcwidth": {
+      "1.0.1": [
+        [ "defaults", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "clone": {
+      "1.0.4": {
+        "hash": "sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
+      }
+    },
+    "console.table": {
+      "0.10.0": {
+        "hash": "sha512-dPyZofqggxuvSf7WXvNjuRfnsOk1YazkVP8FdxH4tcH2c37wc79/Yl6Bhr7Lsu00KMgy2ql/qCMuNu8xctZM8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/console.table/-/console.table-0.10.0.tgz"
+      }
+    },
+    "defaults": {
+      "1.0.3": {
+        "hash": "sha512-s82itHOnYrN0Ib8r+z7laQz3sdE+4FP3d9Q7VLO7U+KRT+CR0GsWuyHxzdAY82I7cXv0G/twrqomTJLOssO5HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/defaults/-/defaults-1.0.3.tgz"
+      }
+    },
+    "easy-table": {
+      "1.1.0": {
+        "hash": "sha512-oq33hWOSSnl2Hoh00tZWaIPi1ievrD9aFG82/IgjlycAnW9hHx5PkJiXpxPsgEE+H7BsbVQXFVFST8TEXS6/pA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/easy-table/-/easy-table-1.1.0.tgz"
+      }
+    },
+    "wcwidth": {
+      "1.0.1": {
+        "hash": "sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz"
+      }
+    }
+  }
+}

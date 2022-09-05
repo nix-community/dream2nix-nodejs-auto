@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "dropzone",
+    "location": "",
+    "packages": {
+      "dropzone": "6.0.0-beta.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dropzone": {
+      "6.0.0-beta.2": [
+        [ "@swc/helpers", "0.2.14" ],
+        [ "just-extend", "5.1.1" ]
+      ],
+      "unknown": [
+        [ "dropzone", "6.0.0-beta.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@swc/helpers": {
+      "0.2.14": {
+        "hash": "sha512-wpCQMhf5p5GhNg2MmGKXzUNwxe7zRiCsmqYsamez2beP7mKPCSiu+BjZcdN95yYSzO857kr0VfQewmGpS77nqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@swc/helpers/-/helpers-0.2.14.tgz"
+      }
+    },
+    "dropzone": {
+      "6.0.0-beta.2": {
+        "hash": "sha512-k44yLuFFhRk53M8zP71FaaNzJYIzr99SKmpbO/oZKNslDjNXQsBTdfLs+iONd0U0L94zzlFzRnFdqbLcs7h9fQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dropzone/-/dropzone-6.0.0-beta.2.tgz"
+      }
+    },
+    "just-extend": {
+      "5.1.1": {
+        "hash": "sha512-b+z6yF1d4EOyDgylzQo5IminlUmzSeqR1hs/bzjBNjuGras4FXq/6TrzjxfN0j+TmI0ltJzTNlqXUMCniciwKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/just-extend/-/just-extend-5.1.1.tgz"
+      }
+    }
+  }
+}

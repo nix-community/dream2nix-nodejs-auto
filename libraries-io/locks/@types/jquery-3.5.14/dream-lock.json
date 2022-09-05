@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/jquery",
+    "location": "",
+    "packages": {
+      "@types/jquery": "3.5.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/jquery": {
+      "3.5.14": [
+        [ "@types/sizzle", "2.3.3" ]
+      ],
+      "unknown": [
+        [ "@types/jquery", "3.5.14" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/jquery": {
+      "3.5.14": {
+        "hash": "sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jquery/-/jquery-3.5.14.tgz"
+      }
+    },
+    "@types/sizzle": {
+      "2.3.3": {
+        "hash": "sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.3.tgz"
+      }
+    }
+  }
+}

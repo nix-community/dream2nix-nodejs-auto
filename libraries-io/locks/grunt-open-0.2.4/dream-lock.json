@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "grunt-open",
+    "location": "",
+    "packages": {
+      "grunt-open": "0.2.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "grunt-open": {
+      "0.2.4": [
+        [ "opn", "5.5.0" ]
+      ],
+      "unknown": [
+        [ "grunt-open", "0.2.4" ]
+      ]
+    },
+    "opn": {
+      "5.5.0": [
+        [ "is-wsl", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "grunt-open": {
+      "0.2.4": {
+        "hash": "sha512-3VxPWr6zZBVvEPtCMkjVtP30saT/VDIeUE8nWs8Y2tNgUPROKwWoWFwo1AUTNRM5oufJ2PL1eMVaL7Byv4NhQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/grunt-open/-/grunt-open-0.2.4.tgz"
+      }
+    },
+    "is-wsl": {
+      "1.1.0": {
+        "hash": "sha512-gfygJYZ2gLTDlmbWMI0CE2MwnFzSN/2SZfkMlItC4K/JBlsWVDB0bO6XhqcY13YXE7iMcAJnzTCJjPiTeJJ0Mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz"
+      }
+    },
+    "opn": {
+      "5.5.0": {
+        "hash": "sha512-PqHpggC9bLV0VeWcdKhkpxY+3JTzetLSqTCWL/z/tFIbI6G8JCjondXklT1JinczLz2Xib62sSp0T/gKT4KksA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/opn/-/opn-5.5.0.tgz"
+      }
+    }
+  }
+}

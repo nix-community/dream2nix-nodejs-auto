@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "terminal-link",
+    "location": "",
+    "packages": {
+      "terminal-link": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi-escapes": {
+      "5.0.0": [
+        [ "type-fest", "1.4.0" ]
+      ]
+    },
+    "supports-color": {
+      "7.2.0": [
+        [ "has-flag", "4.0.0" ]
+      ]
+    },
+    "supports-hyperlinks": {
+      "2.2.0": [
+        [ "has-flag", "4.0.0" ],
+        [ "supports-color", "7.2.0" ]
+      ]
+    },
+    "terminal-link": {
+      "3.0.0": [
+        [ "ansi-escapes", "5.0.0" ],
+        [ "supports-hyperlinks", "2.2.0" ]
+      ],
+      "unknown": [
+        [ "terminal-link", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-escapes": {
+      "5.0.0": {
+        "hash": "sha512-5GFMVX8HqE/TB+FuBJGuO5XG0WrsA6ptUqoODaT/n9mmUaZFkqnBueB4leqGBCmrUHnCnC4PCZTCd0E7QQ83bA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-5.0.0.tgz"
+      }
+    },
+    "has-flag": {
+      "4.0.0": {
+        "hash": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+      }
+    },
+    "supports-color": {
+      "7.2.0": {
+        "hash": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
+      }
+    },
+    "supports-hyperlinks": {
+      "2.2.0": {
+        "hash": "sha512-6sXEzV5+I5j8Bmq9/vUphGRM/RJNT9SCURJLjwfOg51heRtguGWDzcaBlgAzKhQa0EVNpPEKzQuBwZ8S8WaCeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-hyperlinks/-/supports-hyperlinks-2.2.0.tgz"
+      }
+    },
+    "terminal-link": {
+      "3.0.0": {
+        "hash": "sha512-flFL3m4wuixmf6IfhFJd1YPiLiMuxEc8uHRM1buzIeZPm22Au2pDqBJQgdo7n1WfPU1ONFGv7YDwpFBmHGF6lg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/terminal-link/-/terminal-link-3.0.0.tgz"
+      }
+    },
+    "type-fest": {
+      "1.4.0": {
+        "hash": "sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-1.4.0.tgz"
+      }
+    }
+  }
+}

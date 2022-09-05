@@ -1,0 +1,109 @@
+{
+  "_generic": {
+    "defaultPackage": "grunt-jsonlint",
+    "location": "",
+    "packages": {
+      "grunt-jsonlint": "2.1.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@prantlf/jsonlint": {
+      "10.2.0": [
+        [ "ajv", "6.10.2" ],
+        [ "commander", "4.0.1" ]
+      ]
+    },
+    "ajv": {
+      "6.10.2": [
+        [ "fast-deep-equal", "2.0.1" ],
+        [ "fast-json-stable-stringify", "2.1.0" ],
+        [ "json-schema-traverse", "0.4.1" ],
+        [ "uri-js", "4.4.1" ]
+      ]
+    },
+    "grunt-jsonlint": {
+      "2.1.3": [
+        [ "@prantlf/jsonlint", "10.2.0" ]
+      ],
+      "unknown": [
+        [ "grunt-jsonlint", "2.1.3" ]
+      ]
+    },
+    "uri-js": {
+      "4.4.1": [
+        [ "punycode", "2.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@prantlf/jsonlint": {
+      "10.2.0": {
+        "hash": "sha512-KMFfds0peWLLfCu3bhClTiEN0tdj/Z86QJvn1awKHws6r+Sx6T3a44Eadz6OvqN6ZpsRkqaRpZxqddvvDAdDZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@prantlf/jsonlint/-/jsonlint-10.2.0.tgz"
+      }
+    },
+    "ajv": {
+      "6.10.2": {
+        "hash": "sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ajv/-/ajv-6.10.2.tgz"
+      }
+    },
+    "commander": {
+      "4.0.1": {
+        "hash": "sha512-IPF4ouhCP+qdlcmCedhxX4xiGBPyigb8v5NeUp+0LyhwLgxMqyp3S0vl7TAPfS/hiP7FC3caI/PB9lTmP8r1NA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-4.0.1.tgz"
+      }
+    },
+    "fast-deep-equal": {
+      "2.0.1": {
+        "hash": "sha512-bCK/2Z4zLidyB4ReuIsvALH6w31YfAQDmXMqMx6FyfHqvBxtjC0eRumeSu4Bs3XtXwpyIywtSTrVT99BxY1f9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz"
+      }
+    },
+    "fast-json-stable-stringify": {
+      "2.1.0": {
+        "hash": "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz"
+      }
+    },
+    "grunt-jsonlint": {
+      "2.1.3": {
+        "hash": "sha512-h04qC969LIyhsJaASeJ/hDnnKnsnSNZKqjYHra6cc/WQzrfMZinQPdr11FhU4T8OzAq6ecMX5QauYiJkbjUV/Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/grunt-jsonlint/-/grunt-jsonlint-2.1.3.tgz"
+      }
+    },
+    "json-schema-traverse": {
+      "0.4.1": {
+        "hash": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz"
+      }
+    },
+    "punycode": {
+      "2.1.1": {
+        "hash": "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
+      }
+    },
+    "uri-js": {
+      "4.4.1": {
+        "hash": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz"
+      }
+    }
+  }
+}

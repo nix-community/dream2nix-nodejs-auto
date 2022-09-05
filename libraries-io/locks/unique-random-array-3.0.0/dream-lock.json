@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "unique-random-array",
+    "location": "",
+    "packages": {
+      "unique-random-array": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unique-random-array": {
+      "3.0.0": [
+        [ "unique-random", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "unique-random-array", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "unique-random": {
+      "3.0.0": {
+        "hash": "sha512-4vjtE3pH6xO5OmsSmjc6KPgHy2rbCw66BbMRLIyXkuq+WzOKA1oNkqQ+Y7Lh+sE0DrOrWMSpFkivhhzCF7J6HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unique-random/-/unique-random-3.0.0.tgz"
+      }
+    },
+    "unique-random-array": {
+      "3.0.0": {
+        "hash": "sha512-AETNmMf8dV7VfCu4pM5SO1nKkZZp3lZsbHk9VxkvR2ZjMYy4mzWwzez0g+ZtYIr+RaVH+UN8A003E7woM/ud7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unique-random-array/-/unique-random-array-3.0.0.tgz"
+      }
+    }
+  }
+}

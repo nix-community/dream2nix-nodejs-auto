@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-banner",
+    "location": "",
+    "packages": {
+      "rollup-plugin-banner": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lodash.template": {
+      "4.5.0": [
+        [ "lodash._reinterpolate", "3.0.0" ],
+        [ "lodash.templatesettings", "4.2.0" ]
+      ]
+    },
+    "lodash.templatesettings": {
+      "4.2.0": [
+        [ "lodash._reinterpolate", "3.0.0" ]
+      ]
+    },
+    "rollup-plugin-banner": {
+      "0.2.1": [
+        [ "lodash.template", "4.5.0" ]
+      ],
+      "unknown": [
+        [ "rollup-plugin-banner", "0.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "lodash._reinterpolate": {
+      "3.0.0": {
+        "hash": "sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz"
+      }
+    },
+    "lodash.template": {
+      "4.5.0": {
+        "hash": "sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.template/-/lodash.template-4.5.0.tgz"
+      }
+    },
+    "lodash.templatesettings": {
+      "4.2.0": {
+        "hash": "sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.templatesettings/-/lodash.templatesettings-4.2.0.tgz"
+      }
+    },
+    "rollup-plugin-banner": {
+      "0.2.1": {
+        "hash": "sha512-Bs1uIPCsGpKIkNOwmBsCqn+dJ/xaojWk9PNlvd+1MEScddr1yUQlO6McAXi72wJyNWYL+9u9EI2JAZMpLRH92w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-banner/-/rollup-plugin-banner-0.2.1.tgz"
+      }
+    }
+  }
+}

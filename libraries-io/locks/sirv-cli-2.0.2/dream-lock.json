@@ -1,0 +1,137 @@
+{
+  "_generic": {
+    "defaultPackage": "sirv-cli",
+    "location": "",
+    "packages": {
+      "sirv-cli": "2.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sade": {
+      "1.8.1": [
+        [ "mri", "1.2.0" ]
+      ]
+    },
+    "sirv": {
+      "2.0.2": [
+        [ "@polka/url", "1.0.0-next.21" ],
+        [ "mrmime", "1.0.1" ],
+        [ "totalist", "3.0.0" ]
+      ]
+    },
+    "sirv-cli": {
+      "2.0.2": [
+        [ "console-clear", "1.1.1" ],
+        [ "get-port", "3.2.0" ],
+        [ "kleur", "4.1.5" ],
+        [ "local-access", "1.1.0" ],
+        [ "sade", "1.8.1" ],
+        [ "semiver", "1.1.0" ],
+        [ "sirv", "2.0.2" ],
+        [ "tinydate", "1.3.0" ]
+      ],
+      "unknown": [
+        [ "sirv-cli", "2.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@polka/url": {
+      "1.0.0-next.21": {
+        "hash": "sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
+      }
+    },
+    "console-clear": {
+      "1.1.1": {
+        "hash": "sha512-pMD+MVR538ipqkG5JXeOEbKWS5um1H4LUUccUQG68qpeqBYbzYy79Gh55jkd2TtPdRfUaLWdv6LPP//5Zt0aPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/console-clear/-/console-clear-1.1.1.tgz"
+      }
+    },
+    "get-port": {
+      "3.2.0": {
+        "hash": "sha512-x5UJKlgeUiNT8nyo/AcnwLnZuZNcSjSw0kogRB+Whd1fjjFq4B1hySFxSFWWSn4mIBzg3sRNUDFYc4g5gjPoLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-port/-/get-port-3.2.0.tgz"
+      }
+    },
+    "kleur": {
+      "4.1.5": {
+        "hash": "sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz"
+      }
+    },
+    "local-access": {
+      "1.1.0": {
+        "hash": "sha512-XfegD5pyTAfb+GY6chk283Ox5z8WexG56OvM06RWLpAc/UHozO8X6xAxEkIitZOtsSMM1Yr3DkHgW5W+onLhCw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/local-access/-/local-access-1.1.0.tgz"
+      }
+    },
+    "mri": {
+      "1.2.0": {
+        "hash": "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz"
+      }
+    },
+    "mrmime": {
+      "1.0.1": {
+        "hash": "sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mrmime/-/mrmime-1.0.1.tgz"
+      }
+    },
+    "sade": {
+      "1.8.1": {
+        "hash": "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sade/-/sade-1.8.1.tgz"
+      }
+    },
+    "semiver": {
+      "1.1.0": {
+        "hash": "sha512-QNI2ChmuioGC1/xjyYwyZYADILWyW6AmS1UH6gDj/SFUUUS4MBAWs/7mxnkRPc/F4iHezDP+O8t0dO8WHiEOdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semiver/-/semiver-1.1.0.tgz"
+      }
+    },
+    "sirv": {
+      "2.0.2": {
+        "hash": "sha512-4Qog6aE29nIjAOKe/wowFTxOdmbEZKb+3tsLljaBRzJwtqto0BChD2zzH0LhgCSXiI+V7X+Y45v14wBZQ1TK3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sirv/-/sirv-2.0.2.tgz"
+      }
+    },
+    "sirv-cli": {
+      "2.0.2": {
+        "hash": "sha512-OtSJDwxsF1NWHc7ps3Sa0s+dPtP15iQNJzfKVz+MxkEo3z72mCD+yu30ct79rPr0CaV1HXSOBp+MIY5uIhHZ1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sirv-cli/-/sirv-cli-2.0.2.tgz"
+      }
+    },
+    "tinydate": {
+      "1.3.0": {
+        "hash": "sha512-7cR8rLy2QhYHpsBDBVYnnWXm8uRTr38RoZakFSW7Bs7PzfMPNZthuMLkwqZv7MTu8lhQ91cOFYS5a7iFj2oR3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tinydate/-/tinydate-1.3.0.tgz"
+      }
+    },
+    "totalist": {
+      "3.0.0": {
+        "hash": "sha512-eM+pCBxXO/njtF7vdFsHuqb+ElbxqtI4r5EAvk6grfAFyJ6IvWlSkfZ5T9ozC6xWw3Fj1fGoSmrl0gUs46JVIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/totalist/-/totalist-3.0.0.tgz"
+      }
+    }
+  }
+}

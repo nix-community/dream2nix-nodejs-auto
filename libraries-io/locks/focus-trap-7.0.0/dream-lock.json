@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "focus-trap",
+    "location": "",
+    "packages": {
+      "focus-trap": "7.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "focus-trap": {
+      "7.0.0": [
+        [ "tabbable", "6.0.0" ]
+      ],
+      "unknown": [
+        [ "focus-trap", "7.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "focus-trap": {
+      "7.0.0": {
+        "hash": "sha512-uT4Bl8TwU+5vVAx/DHil/1eVS54k9unqhK/vGy2KSh7esPmqgC0koAB9J2sJ+vtj8+vmiFyGk2unLkhNLQaxoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/focus-trap/-/focus-trap-7.0.0.tgz"
+      }
+    },
+    "tabbable": {
+      "6.0.0": {
+        "hash": "sha512-SxhZErfHc3Yozz/HLAl/iPOxuIj8AtUw13NRewVOjFW7vbsqT1f3PuiHrPQbUkRcLNEgAedAv2DnjLtzynJXiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tabbable/-/tabbable-6.0.0.tgz"
+      }
+    }
+  }
+}

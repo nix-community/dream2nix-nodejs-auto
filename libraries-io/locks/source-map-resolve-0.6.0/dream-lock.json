@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "source-map-resolve",
+    "location": "",
+    "packages": {
+      "source-map-resolve": "0.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "source-map-resolve": {
+      "0.6.0": [
+        [ "atob", "2.1.2" ],
+        [ "decode-uri-component", "0.2.0" ]
+      ],
+      "unknown": [
+        [ "source-map-resolve", "0.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "atob": {
+      "2.1.2": {
+        "hash": "sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
+      }
+    },
+    "decode-uri-component": {
+      "0.2.0": {
+        "hash": "sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+      }
+    },
+    "source-map-resolve": {
+      "0.6.0": {
+        "hash": "sha512-KXBr9d/fO/bWo97NXsPIAW1bFSBOuCnjbNTBMO7N59hsv5i9yzRDfcYwwt0l04+VqnKC+EwzvJZIP/qkuMgR/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-resolve/-/source-map-resolve-0.6.0.tgz"
+      }
+    }
+  }
+}

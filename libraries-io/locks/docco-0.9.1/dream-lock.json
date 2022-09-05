@@ -1,0 +1,107 @@
+{
+  "_generic": {
+    "defaultPackage": "docco",
+    "location": "",
+    "packages": {
+      "docco": "0.9.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "docco": {
+      "0.9.1": [
+        [ "commander", "8.3.0" ],
+        [ "fs-extra", "10.0.1" ],
+        [ "highlight.js", "11.3.1" ],
+        [ "marked", "4.0.19" ],
+        [ "underscore", "1.13.4" ]
+      ],
+      "unknown": [
+        [ "docco", "0.9.1" ]
+      ]
+    },
+    "fs-extra": {
+      "10.0.1": [
+        [ "graceful-fs", "4.2.10" ],
+        [ "jsonfile", "6.1.0" ],
+        [ "universalify", "2.0.0" ]
+      ]
+    },
+    "jsonfile": {
+      "6.1.0": [
+        [ "graceful-fs", "4.2.10" ],
+        [ "universalify", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "8.3.0": {
+        "hash": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
+      }
+    },
+    "docco": {
+      "0.9.1": {
+        "hash": "sha512-B1jUzcAc4AmicWUnmPTxUGM2lqJ11X4DiLUXyhzUVb7A1NNGTSNo3LtGzhHMyRAuJyxrHwHiOCDGuE/n9xRhmA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/docco/-/docco-0.9.1.tgz"
+      }
+    },
+    "fs-extra": {
+      "10.0.1": {
+        "hash": "sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs-extra/-/fs-extra-10.0.1.tgz"
+      }
+    },
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "highlight.js": {
+      "11.3.1": {
+        "hash": "sha512-PUhCRnPjLtiLHZAQ5A/Dt5F8cWZeMyj9KRsACsWT+OD6OP0x6dp5OmT5jdx0JgEyPxPZZIPQpRN2TciUT7occw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/highlight.js/-/highlight.js-11.3.1.tgz"
+      }
+    },
+    "jsonfile": {
+      "6.1.0": {
+        "hash": "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
+      }
+    },
+    "marked": {
+      "4.0.19": {
+        "hash": "sha512-rgQF/OxOiLcvgUAj1Q1tAf4Bgxn5h5JZTp04Fx4XUkVhs7B+7YA9JEWJhJpoO8eJt8MkZMwqLCNeNqj1bCREZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/marked/-/marked-4.0.19.tgz"
+      }
+    },
+    "underscore": {
+      "1.13.4": {
+        "hash": "sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.4.tgz"
+      }
+    },
+    "universalify": {
+      "2.0.0": {
+        "hash": "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz"
+      }
+    }
+  }
+}

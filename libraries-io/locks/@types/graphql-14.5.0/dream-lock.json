@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/graphql",
+    "location": "",
+    "packages": {
+      "@types/graphql": "14.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/graphql": {
+      "14.5.0": [
+        [ "graphql", "16.6.0" ]
+      ],
+      "unknown": [
+        [ "@types/graphql", "14.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/graphql": {
+      "14.5.0": {
+        "hash": "sha512-MOkzsEp1Jk5bXuAsHsUi6BVv0zCO+7/2PTiZMXWDSsMXvNU6w/PLMQT2vHn8hy2i0JqojPz1Sz6rsFjHtsU0lA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/graphql/-/graphql-14.5.0.tgz"
+      }
+    },
+    "graphql": {
+      "16.6.0": {
+        "hash": "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
+      }
+    }
+  }
+}

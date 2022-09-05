@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "is-type-of",
+    "location": "",
+    "packages": {
+      "is-type-of": "1.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "is-type-of": {
+      "1.2.1": [
+        [ "core-util-is", "1.0.3" ],
+        [ "is-class-hotfix", "0.0.6" ],
+        [ "isstream", "0.1.2" ]
+      ],
+      "unknown": [
+        [ "is-type-of", "1.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "core-util-is": {
+      "1.0.3": {
+        "hash": "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
+      }
+    },
+    "is-class-hotfix": {
+      "0.0.6": {
+        "hash": "sha512-0n+pzCC6ICtVr/WXnN2f03TK/3BfXY7me4cjCAqT8TYXEl0+JBRoqBo94JJHXcyDSLUeWbNX8Fvy5g5RJdAstQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-class-hotfix/-/is-class-hotfix-0.0.6.tgz"
+      }
+    },
+    "is-type-of": {
+      "1.2.1": {
+        "hash": "sha512-uK0kyX9LZYhSDS7H2sVJQJop1UnWPWmo5RvR3q2kFH6AUHYs7sOrVg0b4nyBHw29kRRNFofYN/JbHZDlHiItTA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-type-of/-/is-type-of-1.2.1.tgz"
+      }
+    },
+    "isstream": {
+      "0.1.2": {
+        "hash": "sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz"
+      }
+    }
+  }
+}

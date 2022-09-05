@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-node-polyfills",
+    "location": "",
+    "packages": {
+      "rollup-plugin-node-polyfills": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "magic-string": {
+      "0.25.9": [
+        [ "sourcemap-codec", "1.4.8" ]
+      ]
+    },
+    "rollup-plugin-inject": {
+      "3.0.2": [
+        [ "estree-walker", "0.6.1" ],
+        [ "magic-string", "0.25.9" ],
+        [ "rollup-pluginutils", "2.8.2" ]
+      ]
+    },
+    "rollup-plugin-node-polyfills": {
+      "0.2.1": [
+        [ "rollup-plugin-inject", "3.0.2" ]
+      ],
+      "unknown": [
+        [ "rollup-plugin-node-polyfills", "0.2.1" ]
+      ]
+    },
+    "rollup-pluginutils": {
+      "2.8.2": [
+        [ "estree-walker", "0.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "estree-walker": {
+      "0.6.1": {
+        "hash": "sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.6.1.tgz"
+      }
+    },
+    "magic-string": {
+      "0.25.9": {
+        "hash": "sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.25.9.tgz"
+      }
+    },
+    "rollup-plugin-inject": {
+      "3.0.2": {
+        "hash": "sha512-ptg9PQwzs3orn4jkgXJ74bfs5vYz1NCZlSQMBUA0wKcGp5i5pA1AO3fOUEte8enhGUC+iapTCzEWw2jEFFUO/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-inject/-/rollup-plugin-inject-3.0.2.tgz"
+      }
+    },
+    "rollup-plugin-node-polyfills": {
+      "0.2.1": {
+        "hash": "sha512-4kCrKPTJ6sK4/gLL/U5QzVT8cxJcofO0OU74tnB19F40cmuAKSzH5/siithxlofFEjwvw1YAhPmbvGNA6jEroA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-node-polyfills/-/rollup-plugin-node-polyfills-0.2.1.tgz"
+      }
+    },
+    "rollup-pluginutils": {
+      "2.8.2": {
+        "hash": "sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz"
+      }
+    },
+    "sourcemap-codec": {
+      "1.4.8": {
+        "hash": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
+      }
+    }
+  }
+}

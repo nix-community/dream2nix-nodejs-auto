@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "node-zip",
+    "location": "",
+    "packages": {
+      "node-zip": "1.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jszip": {
+      "2.5.0": [
+        [ "pako", "0.2.9" ]
+      ]
+    },
+    "node-zip": {
+      "1.1.1": [
+        [ "jszip", "2.5.0" ]
+      ],
+      "unknown": [
+        [ "node-zip", "1.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "jszip": {
+      "2.5.0": {
+        "hash": "sha512-IRoyf8JSYY3nx+uyh5xPc0qdy8pUDTp2UkHOWYNF/IO/3D8nx7899UlSAjD8rf8wUgOmm0lACWx/GbW3EaxIXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jszip/-/jszip-2.5.0.tgz"
+      }
+    },
+    "node-zip": {
+      "1.1.1": {
+        "hash": "sha512-sXfGL65EcaAJqNSXxuyf//i4D4geUtJgZDYUd7IBo2/CH8XY8vcWh1+CBCxuVVyR+S4vAFc3hr//JkCi2+V5vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-zip/-/node-zip-1.1.1.tgz"
+      }
+    },
+    "pako": {
+      "0.2.9": {
+        "hash": "sha512-NUcwaKxUxWrZLpDG+z/xZaCgQITkA/Dv4V/T6bw7VON6l1Xz/VnrBqrYjZQ12TamKHzITTfOEIYUj48y2KXImA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pako/-/pako-0.2.9.tgz"
+      }
+    }
+  }
+}

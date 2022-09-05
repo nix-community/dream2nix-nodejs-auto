@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "os-locale",
+    "location": "",
+    "packages": {
+      "os-locale": "6.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lcid": {
+      "3.1.1": [
+        [ "invert-kv", "3.0.1" ]
+      ]
+    },
+    "os-locale": {
+      "6.0.2": [
+        [ "lcid", "3.1.1" ]
+      ],
+      "unknown": [
+        [ "os-locale", "6.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "invert-kv": {
+      "3.0.1": {
+        "hash": "sha512-CYdFeFexxhv/Bcny+Q0BfOV+ltRlJcd4BBZBYFX/O0u4npJrgZtIcjokegtiSMAvlMTJ+Koq0GBCc//3bueQxw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/invert-kv/-/invert-kv-3.0.1.tgz"
+      }
+    },
+    "lcid": {
+      "3.1.1": {
+        "hash": "sha512-M6T051+5QCGLBQb8id3hdvIW8+zeFV2FyBGFS9IEK5H9Wt4MueD4bW1eWikpHgZp+5xR3l5c8pZUkQsIA0BFZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lcid/-/lcid-3.1.1.tgz"
+      }
+    },
+    "os-locale": {
+      "6.0.2": {
+        "hash": "sha512-qIb8bzRqaN/vVqEYZ7lTAg6PonskO7xOmM7OClD28F6eFa4s5XGe4bGpHUHMoCHbNNuR0pDYFeSLiW5bnjWXIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/os-locale/-/os-locale-6.0.2.tgz"
+      }
+    }
+  }
+}

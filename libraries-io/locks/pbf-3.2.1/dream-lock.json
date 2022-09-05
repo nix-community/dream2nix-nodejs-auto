@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "pbf",
+    "location": "",
+    "packages": {
+      "pbf": "3.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pbf": {
+      "3.2.1": [
+        [ "ieee754", "1.2.1" ],
+        [ "resolve-protobuf-schema", "2.1.0" ]
+      ],
+      "unknown": [
+        [ "pbf", "3.2.1" ]
+      ]
+    },
+    "resolve-protobuf-schema": {
+      "2.1.0": [
+        [ "protocol-buffers-schema", "3.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ieee754": {
+      "1.2.1": {
+        "hash": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
+      }
+    },
+    "pbf": {
+      "3.2.1": {
+        "hash": "sha512-ClrV7pNOn7rtmoQVF4TS1vyU0WhYRnP92fzbfF75jAIwpnzdJXf8iTd4CMEqO4yUenH6NDqLiwjqlh6QgZzgLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pbf/-/pbf-3.2.1.tgz"
+      }
+    },
+    "protocol-buffers-schema": {
+      "3.6.0": {
+        "hash": "sha512-TdDRD+/QNdrCGCE7v8340QyuXd4kIWIgapsE2+n/SaGiSSbomYl4TjHlvIoCWRpE7wFt02EpB35VVA2ImcBVqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/protocol-buffers-schema/-/protocol-buffers-schema-3.6.0.tgz"
+      }
+    },
+    "resolve-protobuf-schema": {
+      "2.1.0": {
+        "hash": "sha512-kI5ffTiZWmJaS/huM8wZfEMer1eRd7oJQhDuxeCLe3t7N7mX3z94CN0xPxBQxFYQTSNz9T0i+v6inKqSdK8xrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/resolve-protobuf-schema/-/resolve-protobuf-schema-2.1.0.tgz"
+      }
+    }
+  }
+}

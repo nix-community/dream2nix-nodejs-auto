@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/select2",
+    "location": "",
+    "packages": {
+      "@types/select2": "4.0.55"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/jquery": {
+      "3.5.14": [
+        [ "@types/sizzle", "2.3.3" ]
+      ]
+    },
+    "@types/select2": {
+      "4.0.55": [
+        [ "@types/jquery", "3.5.14" ]
+      ],
+      "unknown": [
+        [ "@types/select2", "4.0.55" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/jquery": {
+      "3.5.14": {
+        "hash": "sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jquery/-/jquery-3.5.14.tgz"
+      }
+    },
+    "@types/select2": {
+      "4.0.55": {
+        "hash": "sha512-lqngYTv7W1e8HiLSEq7cJhnnKqV3vuwCBkfka6ZXBoM0Z8aVoZrR9gxjbwRzcqBBw4EpAvVXZGPuaDOM+apeZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/select2/-/select2-4.0.55.tgz"
+      }
+    },
+    "@types/sizzle": {
+      "2.3.3": {
+        "hash": "sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.3.tgz"
+      }
+    }
+  }
+}

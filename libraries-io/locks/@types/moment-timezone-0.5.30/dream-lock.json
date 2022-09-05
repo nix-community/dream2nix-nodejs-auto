@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/moment-timezone",
+    "location": "",
+    "packages": {
+      "@types/moment-timezone": "0.5.30"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/moment-timezone": {
+      "0.5.30": [
+        [ "moment-timezone", "0.5.37" ]
+      ],
+      "unknown": [
+        [ "@types/moment-timezone", "0.5.30" ]
+      ]
+    },
+    "moment-timezone": {
+      "0.5.37": [
+        [ "moment", "2.29.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/moment-timezone": {
+      "0.5.30": {
+        "hash": "sha512-aDVfCsjYnAQaV/E9Qc24C5Njx1CoDjXsEgkxtp9NyXDpYu4CCbmclb6QhWloS9UTU/8YROUEEdEkWI0D7DxnKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/moment-timezone/-/moment-timezone-0.5.30.tgz"
+      }
+    },
+    "moment": {
+      "2.29.4": {
+        "hash": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+      }
+    },
+    "moment-timezone": {
+      "0.5.37": {
+        "hash": "sha512-uEDzDNFhfaywRl+vwXxffjjq1q0Vzr+fcQpQ1bU0kbzorfS7zVtZnCnGc8mhWmF39d4g4YriF6kwA75mJKE/Zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.37.tgz"
+      }
+    }
+  }
+}

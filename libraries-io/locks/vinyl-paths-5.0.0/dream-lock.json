@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "vinyl-paths",
+    "location": "",
+    "packages": {
+      "vinyl-paths": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "vinyl-paths": {
+      "5.0.0": [
+        [ "easy-transform-stream", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "vinyl-paths", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "easy-transform-stream": {
+      "1.0.0": {
+        "hash": "sha512-kIEXvPNtqUQ/lrgkULIP0/l2m88Ahlk2ySZhmuLdRidXBIEPyHuDgDt04b9DvnCy+nIQDjpygVft+Op3PZFUQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/easy-transform-stream/-/easy-transform-stream-1.0.0.tgz"
+      }
+    },
+    "vinyl-paths": {
+      "5.0.0": {
+        "hash": "sha512-mlclGXHx/ZWInRh92Ti/qaJAZSDmfXL9TsUVs5z8mKueiS76GtVaZYD2vEtm4RePAt69vGZGHKe5d790CPcd1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vinyl-paths/-/vinyl-paths-5.0.0.tgz"
+      }
+    }
+  }
+}

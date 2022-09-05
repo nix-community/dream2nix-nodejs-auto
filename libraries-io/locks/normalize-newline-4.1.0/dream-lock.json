@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "normalize-newline",
+    "location": "",
+    "packages": {
+      "normalize-newline": "4.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "normalize-newline": {
+      "4.1.0": [
+        [ "replace-buffer", "1.2.1" ]
+      ],
+      "unknown": [
+        [ "normalize-newline", "4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "normalize-newline": {
+      "4.1.0": {
+        "hash": "sha512-ff4jKqMI8Xl50/4Mms/9jPobzAV/UK+kXG2XJ/7AqOmxIx8mqfqTIHYxuAnEgJ2AQeBbLnlbmZ5+38Y9A0w/YA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/normalize-newline/-/normalize-newline-4.1.0.tgz"
+      }
+    },
+    "replace-buffer": {
+      "1.2.1": {
+        "hash": "sha512-ly3OKwKu+3T55DjP5PjIMzxgz9lFx6dQnBmAIxryZyRKl8f22juy12ShOyuq8WrQE5UlFOseZgQZDua0iF9DHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/replace-buffer/-/replace-buffer-1.2.1.tgz"
+      }
+    }
+  }
+}

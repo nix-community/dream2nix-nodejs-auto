@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/jsonwebtoken",
+    "location": "",
+    "packages": {
+      "@types/jsonwebtoken": "8.5.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/jsonwebtoken": {
+      "8.5.9": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/jsonwebtoken", "8.5.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/jsonwebtoken": {
+      "8.5.9": {
+        "hash": "sha512-272FMnFGzAVMGtu9tkr29hRL6bZj4Zs1KZNeHLnKqAvp06tAIcarTMwOh8/8bz4FmKRcMxZhZNeUAQsNLoiPhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-8.5.9.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

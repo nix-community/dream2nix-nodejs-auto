@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "@emotion/cache",
+    "location": "",
+    "packages": {
+      "@emotion/cache": "11.10.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@emotion/cache": {
+      "11.10.3": [
+        [ "@emotion/memoize", "0.8.0" ],
+        [ "@emotion/sheet", "1.2.0" ],
+        [ "@emotion/utils", "1.2.0" ],
+        [ "@emotion/weak-memoize", "0.3.0" ],
+        [ "stylis", "4.0.13" ]
+      ],
+      "unknown": [
+        [ "@emotion/cache", "11.10.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "@emotion/cache": {
+      "11.10.3": {
+        "hash": "sha512-Psmp/7ovAa8appWh3g51goxu/z3iVms7JXOreq136D8Bbn6dYraPnmL6mdM8GThEx9vwSn92Fz+mGSjBzN8UPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/cache/-/cache-11.10.3.tgz"
+      }
+    },
+    "@emotion/memoize": {
+      "0.8.0": {
+        "hash": "sha512-G/YwXTkv7Den9mXDO7AhLWkE3q+I92B+VqAE+dYG4NGPaHZGvt3G8Q0p9vmE+sq7rTGphUbAvmQ9YpbfMQGGlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/memoize/-/memoize-0.8.0.tgz"
+      }
+    },
+    "@emotion/sheet": {
+      "1.2.0": {
+        "hash": "sha512-OiTkRgpxescko+M51tZsMq7Puu/KP55wMT8BgpcXVG2hqXc0Vo0mfymJ/Uj24Hp0i083ji/o0aLddh08UEjq8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/sheet/-/sheet-1.2.0.tgz"
+      }
+    },
+    "@emotion/utils": {
+      "1.2.0": {
+        "hash": "sha512-sn3WH53Kzpw8oQ5mgMmIzzyAaH2ZqFEbozVVBSYp538E06OSE6ytOp7pRAjNQR+Q/orwqdQYJSe2m3hCOeznkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/utils/-/utils-1.2.0.tgz"
+      }
+    },
+    "@emotion/weak-memoize": {
+      "0.3.0": {
+        "hash": "sha512-AHPmaAx+RYfZz0eYu6Gviiagpmiyw98ySSlQvCUhVGDRtDFe4DBS0x1bSjdF3gqUDYOczB+yYvBTtEylYSdRhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz"
+      }
+    },
+    "stylis": {
+      "4.0.13": {
+        "hash": "sha512-xGPXiFVl4YED9Jh7Euv2V220mriG9u4B2TA6Ybjc1catrstKD2PpIdU3U0RKpkVBC2EhmL/F0sPCr9vrFTNRag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stylis/-/stylis-4.0.13.tgz"
+      }
+    }
+  }
+}

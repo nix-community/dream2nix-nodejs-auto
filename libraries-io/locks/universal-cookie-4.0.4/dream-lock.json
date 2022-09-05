@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "universal-cookie",
+    "location": "",
+    "packages": {
+      "universal-cookie": "4.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "universal-cookie": {
+      "4.0.4": [
+        [ "@types/cookie", "0.3.3" ],
+        [ "cookie", "0.4.2" ]
+      ],
+      "unknown": [
+        [ "universal-cookie", "4.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/cookie": {
+      "0.3.3": {
+        "hash": "sha512-LKVP3cgXBT9RYj+t+9FDKwS5tdI+rPBXaNSkma7hvqy35lc7mAokC2zsqWJH0LaqIt3B962nuYI77hsJoT1gow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/cookie/-/cookie-0.3.3.tgz"
+      }
+    },
+    "cookie": {
+      "0.4.2": {
+        "hash": "sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cookie/-/cookie-0.4.2.tgz"
+      }
+    },
+    "universal-cookie": {
+      "4.0.4": {
+        "hash": "sha512-lbRVHoOMtItjWbM7TwDLdl8wug7izB0tq3/YVKhT/ahB4VDvWMyvnADfnJI8y6fSvsjh51Ix7lTGC6Tn4rMPhw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/universal-cookie/-/universal-cookie-4.0.4.tgz"
+      }
+    }
+  }
+}

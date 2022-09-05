@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "include-all",
+    "location": "",
+    "packages": {
+      "include-all": "4.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "include-all": {
+      "4.0.3": [
+        [ "@sailshq/lodash", "3.10.4" ],
+        [ "merge-dictionaries", "0.0.3" ]
+      ],
+      "unknown": [
+        [ "include-all", "4.0.3" ]
+      ]
+    },
+    "merge-dictionaries": {
+      "0.0.3": [
+        [ "@sailshq/lodash", "3.10.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@sailshq/lodash": {
+      "3.10.4": {
+        "hash": "sha512-YXJqp9gdHcZKAmBY/WnwFpPtNQp2huD/ME2YMurH2YHJvxrVzYsmpKw/pb7yINArRpp8E++fwbQd3ajYXGA45Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sailshq/lodash/-/lodash-3.10.4.tgz"
+      }
+    },
+    "include-all": {
+      "4.0.3": {
+        "hash": "sha512-Wl+D+ZWe8jOQXnkdy0Zu0V6R5NAmJto7ChuDnfV5YFIZnmgye87e/1c0/lE523nc9NOiJveSz+F0abM+OWpY3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/include-all/-/include-all-4.0.3.tgz"
+      }
+    },
+    "merge-dictionaries": {
+      "0.0.3": {
+        "hash": "sha512-7KnOdGPqHF7ZeBqNtOskSmAJKVlgwla5km2ToavXP7ZJ761JvcSf15cjkrSD+FNuhAvKUGsFKkL9ynBvnCRTZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/merge-dictionaries/-/merge-dictionaries-0.0.3.tgz"
+      }
+    }
+  }
+}

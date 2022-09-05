@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "nopt",
+    "location": "",
+    "packages": {
+      "nopt": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nopt": {
+      "6.0.0": [
+        [ "abbrev", "1.1.1" ]
+      ],
+      "unknown": [
+        [ "nopt", "6.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "abbrev": {
+      "1.1.1": {
+        "hash": "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
+      }
+    },
+    "nopt": {
+      "6.0.0": {
+        "hash": "sha512-ZwLpbTgdhuZUnZzjd7nb1ZV+4DoiC6/sfiVKok72ym/4Tlf+DFdlHYmT2JPmcNNWV6Pi3SDf1kT+A4r9RTuT9g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nopt/-/nopt-6.0.0.tgz"
+      }
+    }
+  }
+}

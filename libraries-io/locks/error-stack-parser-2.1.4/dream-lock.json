@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "error-stack-parser",
+    "location": "",
+    "packages": {
+      "error-stack-parser": "2.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "error-stack-parser": {
+      "2.1.4": [
+        [ "stackframe", "1.3.4" ]
+      ],
+      "unknown": [
+        [ "error-stack-parser", "2.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "error-stack-parser": {
+      "2.1.4": {
+        "hash": "sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/error-stack-parser/-/error-stack-parser-2.1.4.tgz"
+      }
+    },
+    "stackframe": {
+      "1.3.4": {
+        "hash": "sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stackframe/-/stackframe-1.3.4.tgz"
+      }
+    }
+  }
+}

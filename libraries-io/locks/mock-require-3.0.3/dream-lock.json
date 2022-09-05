@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "mock-require",
+    "location": "",
+    "packages": {
+      "mock-require": "3.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mock-require": {
+      "3.0.3": [
+        [ "get-caller-file", "1.0.3" ],
+        [ "normalize-path", "2.1.1" ]
+      ],
+      "unknown": [
+        [ "mock-require", "3.0.3" ]
+      ]
+    },
+    "normalize-path": {
+      "2.1.1": [
+        [ "remove-trailing-separator", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "get-caller-file": {
+      "1.0.3": {
+        "hash": "sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz"
+      }
+    },
+    "mock-require": {
+      "3.0.3": {
+        "hash": "sha512-lLzfLHcyc10MKQnNUCv7dMcoY/2Qxd6wJfbqCcVk3LDb8An4hF6ohk5AztrvgKhJCqj36uyzi/p5se+tvyD+Wg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mock-require/-/mock-require-3.0.3.tgz"
+      }
+    },
+    "normalize-path": {
+      "2.1.1": {
+        "hash": "sha512-3pKJwH184Xo/lnH6oyP1q2pMd7HcypqqmRs91/6/i2CGtWwIKGCkOOMTm/zXbgTEWHw1uNpNi/igc3ePOYHb6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/normalize-path/-/normalize-path-2.1.1.tgz"
+      }
+    },
+    "remove-trailing-separator": {
+      "1.1.0": {
+        "hash": "sha512-/hS+Y0u3aOfIETiaiirUFwDBDzmXPvO+jAfKTitUngIPzdKc6Z0LoFjM/CK5PL4C+eKwHohlHAb6H0VFfmmUsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz"
+      }
+    }
+  }
+}

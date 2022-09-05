@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "parse5",
+    "location": "",
+    "packages": {
+      "parse5": "7.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "parse5": {
+      "7.1.1": [
+        [ "entities", "4.4.0" ]
+      ],
+      "unknown": [
+        [ "parse5", "7.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "entities": {
+      "4.4.0": {
+        "hash": "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
+      }
+    },
+    "parse5": {
+      "7.1.1": {
+        "hash": "sha512-kwpuwzB+px5WUg9pyK0IcK/shltJN5/OVhQagxhCQNtT9Y9QRZqNY2e1cmbu/paRh5LMnz/oVTVLBpjFmMZhSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parse5/-/parse5-7.1.1.tgz"
+      }
+    }
+  }
+}

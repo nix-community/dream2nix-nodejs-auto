@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "xml-js",
+    "location": "",
+    "packages": {
+      "xml-js": "1.6.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "xml-js": {
+      "1.6.11": [
+        [ "sax", "1.2.4" ]
+      ],
+      "unknown": [
+        [ "xml-js", "1.6.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "sax": {
+      "1.2.4": {
+        "hash": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
+      }
+    },
+    "xml-js": {
+      "1.6.11": {
+        "hash": "sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xml-js/-/xml-js-1.6.11.tgz"
+      }
+    }
+  }
+}

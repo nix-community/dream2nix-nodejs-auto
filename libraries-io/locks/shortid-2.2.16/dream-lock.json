@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "shortid",
+    "location": "",
+    "packages": {
+      "shortid": "2.2.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "shortid": {
+      "2.2.16": [
+        [ "nanoid", "2.1.11" ]
+      ],
+      "unknown": [
+        [ "shortid", "2.2.16" ]
+      ]
+    }
+  },
+  "sources": {
+    "nanoid": {
+      "2.1.11": {
+        "hash": "sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanoid/-/nanoid-2.1.11.tgz"
+      }
+    },
+    "shortid": {
+      "2.2.16": {
+        "hash": "sha512-Ugt+GIZqvGXCIItnsL+lvFJOiN7RYqlGy7QE41O3YC1xbNSeDGIRO7xg2JJXIAj1cAGnOeC1r7/T9pgrtQbv4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shortid/-/shortid-2.2.16.tgz"
+      }
+    }
+  }
+}

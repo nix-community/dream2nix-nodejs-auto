@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/archiver",
+    "location": "",
+    "packages": {
+      "@types/archiver": "5.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/archiver": {
+      "5.3.1": [
+        [ "@types/glob", "8.0.0" ]
+      ],
+      "unknown": [
+        [ "@types/archiver", "5.3.1" ]
+      ]
+    },
+    "@types/glob": {
+      "8.0.0": [
+        [ "@types/minimatch", "5.1.2" ],
+        [ "@types/node", "18.7.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/archiver": {
+      "5.3.1": {
+        "hash": "sha512-wKYZaSXaDvTZuInAWjCeGG7BEAgTWG2zZW0/f7IYFcoHB2X2d9lkVFnrOlXl3W6NrvO6Ml3FLLu8Uksyymcpnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/archiver/-/archiver-5.3.1.tgz"
+      }
+    },
+    "@types/glob": {
+      "8.0.0": {
+        "hash": "sha512-l6NQsDDyQUVeoTynNpC9uRvCUint/gSUXQA2euwmTuWGvPY5LSDUu6tkCtJB2SvGQlJQzLaKqcGZP4//7EDveA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/glob/-/glob-8.0.0.tgz"
+      }
+    },
+    "@types/minimatch": {
+      "5.1.2": {
+        "hash": "sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.2.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

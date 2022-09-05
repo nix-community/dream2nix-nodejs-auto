@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "node-sass-tilde-importer",
+    "location": "",
+    "packages": {
+      "node-sass-tilde-importer": "2.0.0-alpha.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node-sass-tilde-importer": {
+      "2.0.0-alpha.1": [
+        [ "find-parent-dir", "0.3.1" ]
+      ],
+      "unknown": [
+        [ "node-sass-tilde-importer", "2.0.0-alpha.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "find-parent-dir": {
+      "0.3.1": {
+        "hash": "sha512-o4UcykWV/XN9wm+jMEtWLPlV8RXCZnMhQI6F6OdHeSez7iiJWePw8ijOlskJZMsaQoGR/b7dH6lO02HhaTN7+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/find-parent-dir/-/find-parent-dir-0.3.1.tgz"
+      }
+    },
+    "node-sass-tilde-importer": {
+      "2.0.0-alpha.1": {
+        "hash": "sha512-XRnPx+wxbFyl546rxaQ/NAEZ8v1mfrvqvKpipdxrlxdrNYOiqg1rQT2Cp6J3293ZeqE+fqL1p4sHlOckTKFneg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-sass-tilde-importer/-/node-sass-tilde-importer-2.0.0-alpha.1.tgz"
+      }
+    }
+  }
+}

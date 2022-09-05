@@ -1,0 +1,195 @@
+{
+  "_generic": {
+    "defaultPackage": "@polymer/paper-input",
+    "location": "",
+    "packages": {
+      "@polymer/paper-input": "3.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@polymer/iron-a11y-announcer": {
+      "3.2.0": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-a11y-keys-behavior": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-autogrow-textarea": {
+      "3.0.3": [
+        [ "@polymer/iron-behaviors", "3.0.1" ],
+        [ "@polymer/iron-flex-layout", "3.0.1" ],
+        [ "@polymer/iron-validatable-behavior", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-behaviors": {
+      "3.0.1": [
+        [ "@polymer/iron-a11y-keys-behavior", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-flex-layout": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-form-element-behavior": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-input": {
+      "3.0.1": [
+        [ "@polymer/iron-a11y-announcer", "3.2.0" ],
+        [ "@polymer/iron-validatable-behavior", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-meta": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-validatable-behavior": {
+      "3.0.1": [
+        [ "@polymer/iron-meta", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/paper-input": {
+      "3.2.1": [
+        [ "@polymer/iron-a11y-keys-behavior", "3.0.1" ],
+        [ "@polymer/iron-autogrow-textarea", "3.0.3" ],
+        [ "@polymer/iron-behaviors", "3.0.1" ],
+        [ "@polymer/iron-form-element-behavior", "3.0.1" ],
+        [ "@polymer/iron-input", "3.0.1" ],
+        [ "@polymer/paper-styles", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ],
+      "unknown": [
+        [ "@polymer/paper-input", "3.2.1" ]
+      ]
+    },
+    "@polymer/paper-styles": {
+      "3.0.1": [
+        [ "@polymer/font-roboto", "3.0.2" ],
+        [ "@polymer/iron-flex-layout", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/polymer": {
+      "3.5.1": [
+        [ "@webcomponents/shadycss", "1.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@polymer/font-roboto": {
+      "3.0.2": {
+        "hash": "sha512-tx5TauYSmzsIvmSqepUPDYbs4/Ejz2XbZ1IkD7JEGqkdNUJlh+9KU85G56Tfdk/xjEZ8zorFfN09OSwiMrIQWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/font-roboto/-/font-roboto-3.0.2.tgz"
+      }
+    },
+    "@polymer/iron-a11y-announcer": {
+      "3.2.0": {
+        "hash": "sha512-We+hyaFHcg7Ke8ovsoxUpYEXFIJLHxMCDaLehTB4dELS+C+K0zMnGSiqQvb/YzGS+nSYpAfkQIyg1msOCdHMtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.2.0.tgz"
+      }
+    },
+    "@polymer/iron-a11y-keys-behavior": {
+      "3.0.1": {
+        "hash": "sha512-lnrjKq3ysbBPT/74l0Fj0U9H9C35Tpw2C/tpJ8a+5g8Y3YJs1WSZYnEl1yOkw6sEyaxOq/1DkzH0+60gGu5/PQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-autogrow-textarea": {
+      "3.0.3": {
+        "hash": "sha512-5r0VkWrIlm0JIp5E5wlnvkw7slK72lFRZXncmrsLZF+6n1dg2rI8jt7xpFzSmUWrqpcyXwyKaGaDvUjl3j4JLA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.3.tgz"
+      }
+    },
+    "@polymer/iron-behaviors": {
+      "3.0.1": {
+        "hash": "sha512-IMEwcv1lhf1HSQxuyWOUIL0lOBwmeaoSTpgCJeP9IBYnuB1SPQngmfRuHKgK6/m9LQ9F9miC7p3HeQQUdKAE0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-behaviors/-/iron-behaviors-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-flex-layout": {
+      "3.0.1": {
+        "hash": "sha512-7gB869czArF+HZcPTVSgvA7tXYFze9EKckvM95NB7SqYF+NnsQyhoXgKnpFwGyo95lUjUW9TFDLUwDXnCYFtkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-form-element-behavior": {
+      "3.0.1": {
+        "hash": "sha512-G/e2KXyL5AY7mMjmomHkGpgS0uAf4ovNpKhkuUTRnMuMJuf589bKqE85KN4ovE1Tzhv2hJoh/igyD6ekHiYU1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-input": {
+      "3.0.1": {
+        "hash": "sha512-WLx13kEcbH9GKbj9+pWR6pbJkA5kxn3796ynx6eQd2rueMyUfVTR3GzOvadBKsciUuIuzrxpBWZ2+3UcueVUQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-input/-/iron-input-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-meta": {
+      "3.0.1": {
+        "hash": "sha512-pWguPugiLYmWFV9UWxLWzZ6gm4wBwQdDy4VULKwdHCqR7OP7u98h+XDdGZsSlDPv6qoryV/e3tGHlTIT0mbzJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-meta/-/iron-meta-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-validatable-behavior": {
+      "3.0.1": {
+        "hash": "sha512-wwpYh6wOa4fNI+jH5EYKC7TVPYQ2OfgQqocWat7GsNWcsblKYhLYbwsvEY5nO0n2xKqNfZzDLrUom5INJN7msQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-3.0.1.tgz"
+      }
+    },
+    "@polymer/paper-input": {
+      "3.2.1": {
+        "hash": "sha512-6ghgwQKM6mS0hAQxQqj+tkeEY1VUBqAsrasAm8V5RpNcfSWQC/hhRFxU0beGuKTAhndzezDzWYP6Zz4b8fExGg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/paper-input/-/paper-input-3.2.1.tgz"
+      }
+    },
+    "@polymer/paper-styles": {
+      "3.0.1": {
+        "hash": "sha512-y6hmObLqlCx602TQiSBKHqjwkE7xmDiFkoxdYGaNjtv4xcysOTdVJsDR/R9UHwIaxJ7gHlthMSykir1nv78++g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/paper-styles/-/paper-styles-3.0.1.tgz"
+      }
+    },
+    "@polymer/polymer": {
+      "3.5.1": {
+        "hash": "sha512-JlAHuy+1qIC6hL1ojEUfIVD58fzTpJAoCxFwV5yr0mYTXV1H8bz5zy0+rC963Cgr9iNXQ4T9ncSjC2fkF9BQfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/polymer/-/polymer-3.5.1.tgz"
+      }
+    },
+    "@webcomponents/shadycss": {
+      "1.11.0": {
+        "hash": "sha512-L5O/+UPum8erOleNjKq6k58GVl3fNsEQdSOyh0EUhNmi7tHUyRuCJy1uqJiWydWcLARE5IPsMoPYMZmUGrz1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@webcomponents/shadycss/-/shadycss-1.11.0.tgz"
+      }
+    }
+  }
+}

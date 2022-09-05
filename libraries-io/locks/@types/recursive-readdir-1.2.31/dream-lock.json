@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/recursive-readdir",
+    "location": "",
+    "packages": {
+      "@types/recursive-readdir": "1.2.31"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/recursive-readdir": {
+      "1.2.31": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/recursive-readdir", "1.2.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/recursive-readdir": {
+      "1.2.31": {
+        "hash": "sha512-l0LPcO5DYwdPmsobfOKjLhJQbT7i0VABWv9XVp4+kw0asWKPdM1dav16vBFZzeriQgmF8wKKJY4jrLJJf4QcvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/recursive-readdir/-/recursive-readdir-1.2.31.tgz"
+      }
+    }
+  }
+}

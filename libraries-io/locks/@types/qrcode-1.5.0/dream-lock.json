@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/qrcode",
+    "location": "",
+    "packages": {
+      "@types/qrcode": "1.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/qrcode": {
+      "1.5.0": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/qrcode", "1.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/qrcode": {
+      "1.5.0": {
+        "hash": "sha512-x5ilHXRxUPIMfjtM+1vf/GPTRWZ81nqscursm5gMznJeK9M0YnZ1c3bEvRLQ0zSSgedLx1J6MGL231ObQGGhaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.0.tgz"
+      }
+    }
+  }
+}

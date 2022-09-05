@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "acorn-globals",
+    "location": "",
+    "packages": {
+      "acorn-globals": "7.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "acorn-globals": {
+      "7.0.1": [
+        [ "acorn", "8.8.0" ],
+        [ "acorn-walk", "8.2.0" ]
+      ],
+      "unknown": [
+        [ "acorn-globals", "7.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "acorn": {
+      "8.8.0": {
+        "hash": "sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn/-/acorn-8.8.0.tgz"
+      }
+    },
+    "acorn-globals": {
+      "7.0.1": {
+        "hash": "sha512-umOSDSDrfHbTNPuNpC2NSnnA3LUrqpevPb4T9jRx4MagXNS0rs+gwiTcAvqCRmsD6utzsrzNt+ebm00SNWiC3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn-globals/-/acorn-globals-7.0.1.tgz"
+      }
+    },
+    "acorn-walk": {
+      "8.2.0": {
+        "hash": "sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz"
+      }
+    }
+  }
+}

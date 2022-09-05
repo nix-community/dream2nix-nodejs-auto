@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "koa-mount",
+    "location": "",
+    "packages": {
+      "koa-mount": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "koa-mount": {
+      "4.0.0": [
+        [ "debug", "4.3.4" ],
+        [ "koa-compose", "4.1.0" ]
+      ],
+      "unknown": [
+        [ "koa-mount", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "koa-compose": {
+      "4.1.0": {
+        "hash": "sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/koa-compose/-/koa-compose-4.1.0.tgz"
+      }
+    },
+    "koa-mount": {
+      "4.0.0": {
+        "hash": "sha512-rm71jaA/P+6HeCpoRhmCv8KVBIi0tfGuO/dMKicbQnQW/YJntJ6MnnspkodoA4QstMVEZArsCphmd0bJEtoMjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/koa-mount/-/koa-mount-4.0.0.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    }
+  }
+}

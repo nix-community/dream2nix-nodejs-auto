@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "ftp",
+    "location": "",
+    "packages": {
+      "ftp": "0.3.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ftp": {
+      "0.3.10": [
+        [ "readable-stream", "1.1.14" ],
+        [ "xregexp", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "ftp", "0.3.10" ]
+      ]
+    },
+    "readable-stream": {
+      "1.1.14": [
+        [ "core-util-is", "1.0.3" ],
+        [ "inherits", "2.0.4" ],
+        [ "isarray", "0.0.1" ],
+        [ "string_decoder", "0.10.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "core-util-is": {
+      "1.0.3": {
+        "hash": "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
+      }
+    },
+    "ftp": {
+      "0.3.10": {
+        "hash": "sha512-faFVML1aBx2UoDStmLwv2Wptt4vw5x03xxX172nhA5Y5HBshW5JweqQ2W4xL4dezQTG8inJsuYcpPHHU3X5OTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ftp/-/ftp-0.3.10.tgz"
+      }
+    },
+    "inherits": {
+      "2.0.4": {
+        "hash": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+      }
+    },
+    "isarray": {
+      "0.0.1": {
+        "hash": "sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+      }
+    },
+    "readable-stream": {
+      "1.1.14": {
+        "hash": "sha512-+MeVjFf4L44XUkhM1eYbD8fyEsxcV81pqMSR5gblfcLCHfZvbrqy4/qYHE+/R5HoBUT11WV5O08Cr1n3YXkWVQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz"
+      }
+    },
+    "string_decoder": {
+      "0.10.31": {
+        "hash": "sha512-ev2QzSzWPYmy9GuqfIVildA4OdcGLeFZQrq5ys6RtiuF+RQQiZWr8TZNyAcuVXyQRYfEO+MsoB/1BuQVhOJuoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+      }
+    },
+    "xregexp": {
+      "2.0.0": {
+        "hash": "sha512-xl/50/Cf32VsGq/1R8jJE5ajH1yMCQkpmoS10QbFZWl2Oor4H0Me64Pu2yxvsRWK3m6soJbmGfzSR7BYmDcWAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz"
+      }
+    }
+  }
+}

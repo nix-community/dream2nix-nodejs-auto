@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "envify",
+    "location": "",
+    "packages": {
+      "envify": "4.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "envify": {
+      "4.1.0": [
+        [ "esprima", "4.0.1" ],
+        [ "through", "2.3.8" ]
+      ],
+      "unknown": [
+        [ "envify", "4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "envify": {
+      "4.1.0": {
+        "hash": "sha512-IKRVVoAYr4pIx4yIWNsz9mOsboxlNXiu7TNBnem/K/uTHdkyzXWDzHCK7UTolqBbgaBz0tQHsD3YNls0uIIjiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/envify/-/envify-4.1.0.tgz"
+      }
+    },
+    "esprima": {
+      "4.0.1": {
+        "hash": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
+      }
+    },
+    "through": {
+      "2.3.8": {
+        "hash": "sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
+      }
+    }
+  }
+}

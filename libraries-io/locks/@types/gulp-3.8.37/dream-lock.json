@@ -1,0 +1,83 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/gulp",
+    "location": "",
+    "packages": {
+      "@types/gulp": "3.8.37"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/gulp": {
+      "3.8.37": [
+        [ "@types/node", "18.7.15" ],
+        [ "@types/orchestrator", "0.3.3" ],
+        [ "@types/vinyl", "2.0.6" ]
+      ],
+      "unknown": [
+        [ "@types/gulp", "3.8.37" ]
+      ]
+    },
+    "@types/orchestrator": {
+      "0.3.3": [
+        [ "@types/node", "18.7.15" ],
+        [ "@types/q", "1.5.5" ]
+      ]
+    },
+    "@types/vinyl": {
+      "2.0.6": [
+        [ "@types/expect", "1.20.4" ],
+        [ "@types/node", "18.7.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/expect": {
+      "1.20.4": {
+        "hash": "sha512-Q5Vn3yjTDyCMV50TB6VRIbQNxSE4OmZR86VSbGaNpfUolm0iePBB4KdEEHmxoY5sT2+2DIvXW0rvMDP2nHZ4Mg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/expect/-/expect-1.20.4.tgz"
+      }
+    },
+    "@types/gulp": {
+      "3.8.37": {
+        "hash": "sha512-M358s75sr7LBdLAZ06wU4Y11yZ/5tAQDHFD8l4TMYXbhc5n/NWdDrfTiaIcX1g1X2eKThPNdrnGrB4eMqG+qRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/gulp/-/gulp-3.8.37.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/orchestrator": {
+      "0.3.3": {
+        "hash": "sha512-qGr+LWm+MwLLgOj2YixuVKlRZKX//0KwtWqJ1DwpVXGa/B8vfrqlHv7fc0YwRaaWJZOChLrmvlQYOEC5PgLhNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/orchestrator/-/orchestrator-0.3.3.tgz"
+      }
+    },
+    "@types/q": {
+      "1.5.5": {
+        "hash": "sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/q/-/q-1.5.5.tgz"
+      }
+    },
+    "@types/vinyl": {
+      "2.0.6": {
+        "hash": "sha512-ayJ0iOCDNHnKpKTgBG6Q6JOnHTj9zFta+3j2b8Ejza0e4cvRyMn0ZoLEmbPrTHe5YYRlDYPvPWVdV4cTaRyH7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/vinyl/-/vinyl-2.0.6.tgz"
+      }
+    }
+  }
+}

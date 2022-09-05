@@ -1,0 +1,97 @@
+{
+  "_generic": {
+    "defaultPackage": "electron-debug",
+    "location": "",
+    "packages": {
+      "electron-debug": "3.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "electron-debug": {
+      "3.2.0": [
+        [ "electron-is-dev", "1.2.0" ],
+        [ "electron-localshortcut", "3.2.1" ]
+      ],
+      "unknown": [
+        [ "electron-debug", "3.2.0" ]
+      ]
+    },
+    "electron-localshortcut": {
+      "3.2.1": [
+        [ "debug", "4.3.4" ],
+        [ "electron-is-accelerator", "0.1.2" ],
+        [ "keyboardevent-from-electron-accelerator", "2.0.0" ],
+        [ "keyboardevents-areequal", "0.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "electron-debug": {
+      "3.2.0": {
+        "hash": "sha512-7xZh+LfUvJ52M9rn6N+tPuDw6oRAjxUj9SoxAZfJ0hVCXhZCsdkrSt7TgXOiWiEOBgEV8qwUIO/ScxllsPS7ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-debug/-/electron-debug-3.2.0.tgz"
+      }
+    },
+    "electron-is-accelerator": {
+      "0.1.2": {
+        "hash": "sha512-fLGSAjXZtdn1sbtZxx52+krefmtNuVwnJCV2gNiVt735/ARUboMl8jnNC9fZEqQdlAv2ZrETfmBUsoQci5evJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-is-accelerator/-/electron-is-accelerator-0.1.2.tgz"
+      }
+    },
+    "electron-is-dev": {
+      "1.2.0": {
+        "hash": "sha512-R1oD5gMBPS7PVU8gJwH6CtT0e6VSoD0+SzSnYpNm+dBkcijgA+K7VAMHDfnRq/lkKPZArpzplTW6jfiMYosdzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-is-dev/-/electron-is-dev-1.2.0.tgz"
+      }
+    },
+    "electron-localshortcut": {
+      "3.2.1": {
+        "hash": "sha512-DWvhKv36GsdXKnaFFhEiK8kZZA+24/yFLgtTwJJHc7AFgDjNRIBJZ/jq62Y/dWv9E4ypYwrVWN2bVrCYw1uv7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-localshortcut/-/electron-localshortcut-3.2.1.tgz"
+      }
+    },
+    "keyboardevent-from-electron-accelerator": {
+      "2.0.0": {
+        "hash": "sha512-iQcmNA0M4ETMNi0kG/q0h/43wZk7rMeKYrXP7sqKIJbHkTU8Koowgzv+ieR/vWJbOwxx5nDC3UnudZ0aLSu4VA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/keyboardevent-from-electron-accelerator/-/keyboardevent-from-electron-accelerator-2.0.0.tgz"
+      }
+    },
+    "keyboardevents-areequal": {
+      "0.2.2": {
+        "hash": "sha512-Nv+Kr33T0mEjxR500q+I6IWisOQ0lK1GGOncV0kWE6n4KFmpcu7RUX5/2B0EUtX51Cb0HjZ9VJsSY3u4cBa0kw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/keyboardevents-areequal/-/keyboardevents-areequal-0.2.2.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    }
+  }
+}

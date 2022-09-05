@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "prompts",
+    "location": "",
+    "packages": {
+      "prompts": "2.4.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prompts": {
+      "2.4.2": [
+        [ "kleur", "3.0.3" ],
+        [ "sisteransi", "1.0.5" ]
+      ],
+      "unknown": [
+        [ "prompts", "2.4.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "kleur": {
+      "3.0.3": {
+        "hash": "sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
+      }
+    },
+    "prompts": {
+      "2.4.2": {
+        "hash": "sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz"
+      }
+    },
+    "sisteransi": {
+      "1.0.5": {
+        "hash": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz"
+      }
+    }
+  }
+}

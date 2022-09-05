@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/micromatch",
+    "location": "",
+    "packages": {
+      "@types/micromatch": "2.3.31"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/micromatch": {
+      "2.3.31": [
+        [ "@types/parse-glob", "3.0.29" ]
+      ],
+      "unknown": [
+        [ "@types/micromatch", "2.3.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/micromatch": {
+      "2.3.31": {
+        "hash": "sha512-17WSoNz/GKLSfcomM8cMoJJQG2cDKvsoDFTtbwjEMxcizGb0HT6EBRi8qR7NW+XSaVdxHzq/WV/TUOm5f/ksag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/micromatch/-/micromatch-2.3.31.tgz"
+      }
+    },
+    "@types/parse-glob": {
+      "3.0.29": {
+        "hash": "sha512-OFwMPH5eJOhtwR92GMjTNWukaKTdWQC12cBgRvrTQl5CwhruSq6734wi1CTSh5Qjm/pMJWaKOOPKZOp6FpIkXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/parse-glob/-/parse-glob-3.0.29.tgz"
+      }
+    }
+  }
+}

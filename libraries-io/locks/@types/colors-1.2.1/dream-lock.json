@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/colors",
+    "location": "",
+    "packages": {
+      "@types/colors": "1.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/colors": {
+      "1.2.1": [
+        [ "colors", "1.4.0" ]
+      ],
+      "unknown": [
+        [ "@types/colors", "1.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/colors": {
+      "1.2.1": {
+        "hash": "sha512-7jNkpfN2lVO07nJ1RWzyMnNhH/I5N9iWuMPx9pedptxJ4MODf8rRV0lbJi6RakQ4sKQk231Fw4e2W9n3D7gZ3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/colors/-/colors-1.2.1.tgz"
+      }
+    },
+    "colors": {
+      "1.4.0": {
+        "hash": "sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "make-dir",
+    "location": "",
+    "packages": {
+      "make-dir": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "make-dir": {
+      "3.1.0": [
+        [ "semver", "6.3.0" ]
+      ],
+      "unknown": [
+        [ "make-dir", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "make-dir": {
+      "3.1.0": {
+        "hash": "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"
+      }
+    },
+    "semver": {
+      "6.3.0": {
+        "hash": "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
+      }
+    }
+  }
+}

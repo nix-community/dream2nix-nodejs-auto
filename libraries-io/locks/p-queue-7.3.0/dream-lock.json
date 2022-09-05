@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "p-queue",
+    "location": "",
+    "packages": {
+      "p-queue": "7.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "p-queue": {
+      "7.3.0": [
+        [ "eventemitter3", "4.0.7" ],
+        [ "p-timeout", "5.1.0" ]
+      ],
+      "unknown": [
+        [ "p-queue", "7.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "eventemitter3": {
+      "4.0.7": {
+        "hash": "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz"
+      }
+    },
+    "p-queue": {
+      "7.3.0": {
+        "hash": "sha512-5fP+yVQ0qp0rEfZoDTlP2c3RYBgxvRsw30qO+VtPPc95lyvSG+x6USSh1TuLB4n96IO6I8/oXQGsTgtna4q2nQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-queue/-/p-queue-7.3.0.tgz"
+      }
+    },
+    "p-timeout": {
+      "5.1.0": {
+        "hash": "sha512-auFDyzzzGZZZdHz3BtET9VEz0SE/uMEAx7uWfGPucfzEwwe/xH0iVeZibQmANYE/hp9T2+UUZT5m+BKyrDp3Ew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-timeout/-/p-timeout-5.1.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "jest-css-modules",
+    "location": "",
+    "packages": {
+      "jest-css-modules": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "identity-obj-proxy": {
+      "3.0.0": [
+        [ "harmony-reflect", "1.6.2" ]
+      ]
+    },
+    "jest-css-modules": {
+      "2.1.0": [
+        [ "identity-obj-proxy", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "jest-css-modules", "2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "harmony-reflect": {
+      "1.6.2": {
+        "hash": "sha512-HIp/n38R9kQjDEziXyDTuW3vvoxxyxjxFzXLrBr18uB47GnSt+G9D29fqrpM5ZkspMcPICud3XsBJQ4Y2URg8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/harmony-reflect/-/harmony-reflect-1.6.2.tgz"
+      }
+    },
+    "identity-obj-proxy": {
+      "3.0.0": {
+        "hash": "sha512-00n6YnVHKrinT9t0d9+5yZC6UBNJANpYEQvL2LlX6Ab9lnmxzIRcEmTPuyGScvl1+jKuCICX1Z0Ab1pPKKdikA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz"
+      }
+    },
+    "jest-css-modules": {
+      "2.1.0": {
+        "hash": "sha512-my3Scnt6l2tOll/eGwNZeh1KLAFkNzdl4MyZRdpl46GO6/93JcKKdTjNqK6Nokg8A8rT84MFLOpY1pzqKBEqMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-css-modules/-/jest-css-modules-2.1.0.tgz"
+      }
+    }
+  }
+}

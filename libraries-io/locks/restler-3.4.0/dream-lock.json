@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "restler",
+    "location": "",
+    "packages": {
+      "restler": "3.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "restler": {
+      "3.4.0": [
+        [ "iconv-lite", "0.2.11" ],
+        [ "qs", "1.2.0" ],
+        [ "xml2js", "0.4.0" ],
+        [ "yaml", "0.2.3" ]
+      ],
+      "unknown": [
+        [ "restler", "3.4.0" ]
+      ]
+    },
+    "xml2js": {
+      "0.4.0": [
+        [ "sax", "0.5.8" ],
+        [ "xmlbuilder", "15.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "iconv-lite": {
+      "0.2.11": {
+        "hash": "sha512-KhmFWgaQZY83Cbhi+ADInoUQ8Etn6BG5fikM9syeOjQltvR45h7cRKJ/9uvQEuD61I3Uju77yYce0/LhKVClQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.2.11.tgz"
+      }
+    },
+    "qs": {
+      "1.2.0": {
+        "hash": "sha512-XUf0O7rlGjbH+n7uqyT+xn362fmoPe4ehtHL6VK1nbSgQ7CqG0ZZLr1nU2EyXlRq++YphPdQ/5scjIWNMSPnhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/qs/-/qs-1.2.0.tgz"
+      }
+    },
+    "restler": {
+      "3.4.0": {
+        "hash": "sha512-QqRzF7fToAKqd+8Sjqhc47oFuGWN766YcMTKXareLXDB4vVISq0BeHAkdYQpmSz+XUMZWMBxgmQhJztyk03JPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/restler/-/restler-3.4.0.tgz"
+      }
+    },
+    "sax": {
+      "0.5.8": {
+        "hash": "sha512-c0YL9VcSfcdH3F1Qij9qpYJFpKFKMXNOkLWFssBL3RuF7ZS8oZhllR2rWlCRjDTJsfq3R6wbSsaRU6o0rkEdNw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sax/-/sax-0.5.8.tgz"
+      }
+    },
+    "xml2js": {
+      "0.4.0": {
+        "hash": "sha512-Uo9irqHi4waSloqTJ37nHn/XzbYi8JL/TYzMb+pq8xkINNayVhPTGOh8XWhZTP2WD3dX8Ngm5bGc+7YDnIoYIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.0.tgz"
+      }
+    },
+    "xmlbuilder": {
+      "15.1.1": {
+        "hash": "sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-15.1.1.tgz"
+      }
+    },
+    "yaml": {
+      "0.2.3": {
+        "hash": "sha512-LzdhmhritYCRww8GLH95Sk5A2c18ddRQMeooOUnqWkDUnBbmVfqgg2fXH2MxAHYHCVTHDK1EEbmgItQ8kOpM0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yaml/-/yaml-0.2.3.tgz"
+      }
+    }
+  }
+}

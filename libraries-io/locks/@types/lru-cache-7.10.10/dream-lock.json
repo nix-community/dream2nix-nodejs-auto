@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/lru-cache",
+    "location": "",
+    "packages": {
+      "@types/lru-cache": "7.10.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/lru-cache": {
+      "7.10.10": [
+        [ "lru-cache", "7.14.0" ]
+      ],
+      "unknown": [
+        [ "@types/lru-cache", "7.10.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/lru-cache": {
+      "7.10.10": {
+        "hash": "sha512-nEpVRPWW9EBmx2SCfNn3ClYxPL7IktPX12HhIoSc/H5mMjdeW3+YsXIpseLQ2xF35+OcpwKQbEUw5VtqE4PDNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/lru-cache/-/lru-cache-7.10.10.tgz"
+      }
+    },
+    "lru-cache": {
+      "7.14.0": {
+        "hash": "sha512-EIRtP1GrSJny0dqb50QXRUNBxHJhcpxHC++M5tD7RYbvLLn5KVWKsbyswSSqDuU15UFi3bgTQIY8nhDMeF6aDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-7.14.0.tgz"
+      }
+    }
+  }
+}

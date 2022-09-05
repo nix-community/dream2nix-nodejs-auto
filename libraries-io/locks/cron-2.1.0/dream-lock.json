@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "cron",
+    "location": "",
+    "packages": {
+      "cron": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cron": {
+      "2.1.0": [
+        [ "luxon", "1.28.0" ]
+      ],
+      "unknown": [
+        [ "cron", "2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cron": {
+      "2.1.0": {
+        "hash": "sha512-Hq7u3P8y7UWYvsZbSKHHJDVG0VO9O7tp2qljxzTScelcTODBfCme8AIhnZsFwmQ9NchZ3hr2uNr+s3DSms7q6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cron/-/cron-2.1.0.tgz"
+      }
+    },
+    "luxon": {
+      "1.28.0": {
+        "hash": "sha512-TfTiyvZhwBYM/7QdAVDh+7dBTBA29v4ik0Ce9zda3Mnf8on1S5KJI8P2jKFZ8+5C0jhmr0KwJEO/Wdpm0VeWJQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/luxon/-/luxon-1.28.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "microtime",
+    "location": "",
+    "packages": {
+      "microtime": "3.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "microtime": {
+      "3.1.1": [
+        [ "node-addon-api", "5.0.0" ],
+        [ "node-gyp-build", "4.5.0" ]
+      ],
+      "unknown": [
+        [ "microtime", "3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "microtime": {
+      "3.1.1": {
+        "hash": "sha512-to1r7o24cDsud9IhN6/8wGmMx5R2kT0w2Xwm5okbYI3d1dk6Xv0m+Z+jg2vS9pt+ocgQHTCtgs/YuyJhySzxNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/microtime/-/microtime-3.1.1.tgz"
+      }
+    },
+    "node-addon-api": {
+      "5.0.0": {
+        "hash": "sha512-CvkDw2OEnme7ybCykJpVcKH+uAOLV2qLqiyla128dN9TkEWfrYmxG6C2boDe5KcNQqZF3orkqzGgOMvZ/JNekA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.0.0.tgz"
+      }
+    },
+    "node-gyp-build": {
+      "4.5.0": {
+        "hash": "sha512-2iGbaQBV+ITgCz76ZEjmhUKAKVf7xfY1sRl4UiKQspfZMH2h06SyhNsnSVy50cwkFQDGLyif6m/6uFXHkOZ6rg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.5.0.tgz"
+      }
+    }
+  }
+}

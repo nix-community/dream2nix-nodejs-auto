@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "elementtree",
+    "location": "",
+    "packages": {
+      "elementtree": "0.1.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "elementtree": {
+      "0.1.7": [
+        [ "sax", "1.1.4" ]
+      ],
+      "unknown": [
+        [ "elementtree", "0.1.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "elementtree": {
+      "0.1.7": {
+        "hash": "sha512-wkgGT6kugeQk/P6VZ/f4T+4HB41BVgNBq5CDIZVbQ02nvTVqAiVTbskxxu3eA/X96lMlfYOwnLQpN2v5E1zDEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/elementtree/-/elementtree-0.1.7.tgz"
+      }
+    },
+    "sax": {
+      "1.1.4": {
+        "hash": "sha512-5f3k2PbGGp+YtKJjOItpg3P99IMD84E4HOvcfleTb5joCHNXYLsR9yWFPOYGgaeMPDubQILTCMdsFb2OMeOjtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sax/-/sax-1.1.4.tgz"
+      }
+    }
+  }
+}

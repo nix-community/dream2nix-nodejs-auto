@@ -1,0 +1,329 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-preset-babili",
+    "location": "",
+    "packages": {
+      "babel-preset-babili": "0.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-plugin-minify-builtins": {
+      "0.1.3": [
+        [ "babel-helper-evaluate-path", "0.1.0" ]
+      ]
+    },
+    "babel-plugin-minify-constant-folding": {
+      "0.1.3": [
+        [ "babel-helper-evaluate-path", "0.1.0" ]
+      ]
+    },
+    "babel-plugin-minify-dead-code-elimination": {
+      "0.1.7": [
+        [ "babel-helper-mark-eval-scopes", "0.1.1" ],
+        [ "babel-helper-remove-or-void", "0.1.1" ],
+        [ "lodash.some", "4.6.0" ]
+      ]
+    },
+    "babel-plugin-minify-flip-comparisons": {
+      "0.1.2": [
+        [ "babel-helper-is-void-0", "0.1.1" ]
+      ]
+    },
+    "babel-plugin-minify-guarded-expressions": {
+      "0.1.2": [
+        [ "babel-helper-flip-expressions", "0.1.2" ]
+      ]
+    },
+    "babel-plugin-minify-mangle-names": {
+      "0.1.3": [
+        [ "babel-helper-mark-eval-scopes", "0.1.1" ]
+      ]
+    },
+    "babel-plugin-minify-simplify": {
+      "0.1.2": [
+        [ "babel-helper-flip-expressions", "0.1.2" ],
+        [ "babel-helper-is-nodes-equiv", "0.0.1" ],
+        [ "babel-helper-to-multiple-sequence-expressions", "0.1.1" ]
+      ]
+    },
+    "babel-plugin-minify-type-constructors": {
+      "0.1.2": [
+        [ "babel-helper-is-void-0", "0.1.1" ]
+      ]
+    },
+    "babel-plugin-transform-property-literals": {
+      "6.9.4": [
+        [ "esutils", "2.0.3" ]
+      ]
+    },
+    "babel-preset-babili": {
+      "0.1.4": [
+        [ "babel-plugin-minify-builtins", "0.1.3" ],
+        [ "babel-plugin-minify-constant-folding", "0.1.3" ],
+        [ "babel-plugin-minify-dead-code-elimination", "0.1.7" ],
+        [ "babel-plugin-minify-flip-comparisons", "0.1.2" ],
+        [ "babel-plugin-minify-guarded-expressions", "0.1.2" ],
+        [ "babel-plugin-minify-infinity", "0.1.2" ],
+        [ "babel-plugin-minify-mangle-names", "0.1.3" ],
+        [ "babel-plugin-minify-numeric-literals", "0.1.1" ],
+        [ "babel-plugin-minify-replace", "0.1.2" ],
+        [ "babel-plugin-minify-simplify", "0.1.2" ],
+        [ "babel-plugin-minify-type-constructors", "0.1.2" ],
+        [ "babel-plugin-transform-inline-consecutive-adds", "0.1.2" ],
+        [ "babel-plugin-transform-member-expression-literals", "6.9.4" ],
+        [ "babel-plugin-transform-merge-sibling-variables", "6.9.5" ],
+        [ "babel-plugin-transform-minify-booleans", "6.9.4" ],
+        [ "babel-plugin-transform-property-literals", "6.9.4" ],
+        [ "babel-plugin-transform-regexp-constructors", "0.1.1" ],
+        [ "babel-plugin-transform-remove-console", "6.9.4" ],
+        [ "babel-plugin-transform-remove-debugger", "6.9.4" ],
+        [ "babel-plugin-transform-remove-undefined", "0.1.2" ],
+        [ "babel-plugin-transform-simplify-comparison-operators", "6.9.4" ],
+        [ "babel-plugin-transform-undefined-to-void", "6.9.4" ],
+        [ "lodash.isplainobject", "4.0.6" ]
+      ],
+      "unknown": [
+        [ "babel-preset-babili", "0.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-helper-evaluate-path": {
+      "0.1.0": {
+        "hash": "sha512-uYUt1Nt6etJcanj62vbtlKNTtQWTir4UgSYZnm2RKHX2wNChecVdHBsIIlHZzMhFrpH1L8UKMWTdJCKNbbWR6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-evaluate-path/-/babel-helper-evaluate-path-0.1.0.tgz"
+      }
+    },
+    "babel-helper-flip-expressions": {
+      "0.1.2": {
+        "hash": "sha512-n43Vj4t2qos11252JZlgRnI1ow0/eWZ1f+WaFfuTVNwXm0ElK8rKTwZmfRuIywkHSKyiIkn7GeDngQQKKeJKeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-flip-expressions/-/babel-helper-flip-expressions-0.1.2.tgz"
+      }
+    },
+    "babel-helper-is-nodes-equiv": {
+      "0.0.1": {
+        "hash": "sha512-ri/nsMFVRqXn7IyT5qW4/hIAGQxuYUFHa3qsxmPtbk6spZQcYlyDogfVpNm2XYOslH/ULS4VEJGUqQX5u7ACQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-is-nodes-equiv/-/babel-helper-is-nodes-equiv-0.0.1.tgz"
+      }
+    },
+    "babel-helper-is-void-0": {
+      "0.1.1": {
+        "hash": "sha512-b2oNq04KPmSNNN0Iyq3/omLItSVdbq4RBysMYirwZ5Wg8esqAzze8rfmZl5U6aT163Bk0wKF15s9YJ1EJ2tj5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-is-void-0/-/babel-helper-is-void-0-0.1.1.tgz"
+      }
+    },
+    "babel-helper-mark-eval-scopes": {
+      "0.1.1": {
+        "hash": "sha512-wq2wKu6Q0YyMGOQZ5zy2o8Ut40rvOCWuUkPKnjyMaQV6GVXP8S1B8VzqyJg+RxJe+e4OU80+25ola4jIfZoGSQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-mark-eval-scopes/-/babel-helper-mark-eval-scopes-0.1.1.tgz"
+      }
+    },
+    "babel-helper-remove-or-void": {
+      "0.1.1": {
+        "hash": "sha512-FBOadheNEwMkiyrB7t6p36i22Ou5PY3RfV4CxvuTzyYigUod28ULUBu5Vz+cfyDuB4SA9ojf8Q74ekf8hLi42w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-remove-or-void/-/babel-helper-remove-or-void-0.1.1.tgz"
+      }
+    },
+    "babel-helper-to-multiple-sequence-expressions": {
+      "0.1.1": {
+        "hash": "sha512-VhZytJ9X8apSUsWc13TWcxuAkFbn9ljR5O3ajrYm8eDiYy1dG6nzISJQErg9lax5PuDj543WAjZr51+82fOFQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-to-multiple-sequence-expressions/-/babel-helper-to-multiple-sequence-expressions-0.1.1.tgz"
+      }
+    },
+    "babel-plugin-minify-builtins": {
+      "0.1.3": {
+        "hash": "sha512-ixrxAI1ba/N045RJzWvx0rN7u8jDm+5zvXh/FQ2SF+6AzOZ8cIgU/W2b5a4yerm5JRy+R/F3YL2k2ijWvkuKRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-builtins/-/babel-plugin-minify-builtins-0.1.3.tgz"
+      }
+    },
+    "babel-plugin-minify-constant-folding": {
+      "0.1.3": {
+        "hash": "sha512-qCd6l/8LOeaXaiPXpsHy1eNyyuvTRtXDF6lT8ET0Xns3R+3oa8n8ofROYh5kT894CJS4AtNzcI3Ll+HDLfje1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-constant-folding/-/babel-plugin-minify-constant-folding-0.1.3.tgz"
+      }
+    },
+    "babel-plugin-minify-dead-code-elimination": {
+      "0.1.7": {
+        "hash": "sha512-7I+X6fG7D4vs6GzgRUqNXo3t+C62D0+tAVw+e653UjzpepJ0fQR+hkRWTHhmtrejYWL+zIF2jdDy1URqowW4Ug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-dead-code-elimination/-/babel-plugin-minify-dead-code-elimination-0.1.7.tgz"
+      }
+    },
+    "babel-plugin-minify-flip-comparisons": {
+      "0.1.2": {
+        "hash": "sha512-IxE1BVm9QOyTIs444lgr6HzdrQH4HRnjRyyK1+HepH5OWkjy2InciaUm9zAd1LPj7v612IOmQbpP05TvToeDbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-flip-comparisons/-/babel-plugin-minify-flip-comparisons-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-minify-guarded-expressions": {
+      "0.1.2": {
+        "hash": "sha512-IqKnn9EXEs/Gbh3xvF1l/taaI/ZJrcPs/DZVO3L/6D4Ao0HI2HBoilq97UuUwKz4+yZDEGeOeHMN9gJi8QYbPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-guarded-expressions/-/babel-plugin-minify-guarded-expressions-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-minify-infinity": {
+      "0.1.2": {
+        "hash": "sha512-4BA0tL1TYsndVpHVBbSE3Y77ZLcEMjfSfv2UhiJOxFxaLHSxAo4DWmXvnZkk3yBt9GPtYeEnJNuztNKa9H8pDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-infinity/-/babel-plugin-minify-infinity-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-minify-mangle-names": {
+      "0.1.3": {
+        "hash": "sha512-/us4oWavsDoQwumBs1Bfy9pXs2jK7MVaHFSziQnNhgZSMWA/r7SAjqGN2jKB96Rirk1q1Ac3IPAU5wRSIePlkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-mangle-names/-/babel-plugin-minify-mangle-names-0.1.3.tgz"
+      }
+    },
+    "babel-plugin-minify-numeric-literals": {
+      "0.1.1": {
+        "hash": "sha512-Nl2Luu5Y0RI66nDbzybThgc/SDOJQD4qnOyqhhEkRB7c+8e+4Sat4CoDSxkMg7MzcYmFUy8LeXCfUTw527Oaxw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-numeric-literals/-/babel-plugin-minify-numeric-literals-0.1.1.tgz"
+      }
+    },
+    "babel-plugin-minify-replace": {
+      "0.1.2": {
+        "hash": "sha512-kQ4NYNzlsxJF/rC6YC6rnHLUC01gFy4PCdTvc1rV6tQHXSDVBEDFMSLaDl7yTXevaNDINasT7CcPVISSYY4qEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-replace/-/babel-plugin-minify-replace-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-minify-simplify": {
+      "0.1.2": {
+        "hash": "sha512-gVYVqkXZtNXk8VuWChzWeE2lulwnbmvuNWT+JzZlZJLPixsYBquKwMAtyIrtFHqAPgVt746aryTApE88/beRYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-simplify/-/babel-plugin-minify-simplify-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-minify-type-constructors": {
+      "0.1.2": {
+        "hash": "sha512-PS+pYQuw+yDZjLhWhZy8PBlsxEw607m5T066Twa2DnkOUh0O4Eioq5S21/4RSf11fDZM02FHdBs093QIQCvEZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-type-constructors/-/babel-plugin-minify-type-constructors-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-transform-inline-consecutive-adds": {
+      "0.1.2": {
+        "hash": "sha512-+pAfdjieyTmsiGzoAyaicdYuk9lApfWaNWFxapfO3JVsrDWl2mtM+uHNZPA0DrZPdqagzjwitqzmzPUMyrRXmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-inline-consecutive-adds/-/babel-plugin-transform-inline-consecutive-adds-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-transform-member-expression-literals": {
+      "6.9.4": {
+        "hash": "sha512-Xq9/Rarpj+bjOZSl1nBbZYETsNEDDJSrb6Plb1sS3/36FukWFLLRysgecva5KZECjUJTrJoQqjJgtWToaflk5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-member-expression-literals/-/babel-plugin-transform-member-expression-literals-6.9.4.tgz"
+      }
+    },
+    "babel-plugin-transform-merge-sibling-variables": {
+      "6.9.5": {
+        "hash": "sha512-xj/KrWi6/uP+DrD844h66Qh2cZN++iugEIgH8QcIxhmZZPNP6VpOE9b4gP2FFW39xDAY43kCmYMM6U0QNKN8fw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-merge-sibling-variables/-/babel-plugin-transform-merge-sibling-variables-6.9.5.tgz"
+      }
+    },
+    "babel-plugin-transform-minify-booleans": {
+      "6.9.4": {
+        "hash": "sha512-9pW9ePng6DZpzGPalcrULuhSCcauGAbn8AeU3bE34HcDkGm8Ldt0ysjGkyb64f0K3T5ilV4mriayOVv5fg0ASA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-minify-booleans/-/babel-plugin-transform-minify-booleans-6.9.4.tgz"
+      }
+    },
+    "babel-plugin-transform-property-literals": {
+      "6.9.4": {
+        "hash": "sha512-Pf8JHTjTPxecqVyL6KSwD/hxGpoTZjiEgV7nCx0KFQsJYM0nuuoCajbg09KRmZWeZbJ5NGTySABYv8b/hY1eEA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-property-literals/-/babel-plugin-transform-property-literals-6.9.4.tgz"
+      }
+    },
+    "babel-plugin-transform-regexp-constructors": {
+      "0.1.1": {
+        "hash": "sha512-H9uY55PHqO78HwiKaVp3Z4KgKukfug2cdM5AkNXVna1D/vnhxjMprCtajUfBngSyLt3WfO67XUnSTCV7qu8rug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-regexp-constructors/-/babel-plugin-transform-regexp-constructors-0.1.1.tgz"
+      }
+    },
+    "babel-plugin-transform-remove-console": {
+      "6.9.4": {
+        "hash": "sha512-88blrUrMX3SPiGkT1GnvVY8E/7A+k6oj3MNvUtTIxJflFzXTw1bHkuJ/y039ouhFMp2prRn5cQGzokViYi1dsg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-remove-console/-/babel-plugin-transform-remove-console-6.9.4.tgz"
+      }
+    },
+    "babel-plugin-transform-remove-debugger": {
+      "6.9.4": {
+        "hash": "sha512-Kd+eTBYlXfwoFzisburVwrngsrz4xh9I0ppoJnU/qlLysxVBRgI4Pj+dk3X8F5tDiehp3hhP8oarRMT9v2Z3lw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-remove-debugger/-/babel-plugin-transform-remove-debugger-6.9.4.tgz"
+      }
+    },
+    "babel-plugin-transform-remove-undefined": {
+      "0.1.2": {
+        "hash": "sha512-MOpvj4WxMuM7NvnE5ZWQoxWddVpadCpuhg+3W3gAcuEcLjuhymIqZzMkkUMeCRNUPt4Y7FWbW8pACyxNCKE1nw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-remove-undefined/-/babel-plugin-transform-remove-undefined-0.1.2.tgz"
+      }
+    },
+    "babel-plugin-transform-simplify-comparison-operators": {
+      "6.9.4": {
+        "hash": "sha512-GLInxhGAQWJ9YIdjwF6dAFlmh4U+kN8pL6Big7nkDzHoZcaDQOtBm28atEhQJq6m9GpAovbiGEShKqXv4BSp0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-simplify-comparison-operators/-/babel-plugin-transform-simplify-comparison-operators-6.9.4.tgz"
+      }
+    },
+    "babel-plugin-transform-undefined-to-void": {
+      "6.9.4": {
+        "hash": "sha512-D2UbwxawEY1xVc9svYAUZQM2xarwSNXue2qDIx6CeV2EuMGaes/0su78zlIDIAgE7BvnMw4UpmSo9fDy+znghg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-undefined-to-void/-/babel-plugin-transform-undefined-to-void-6.9.4.tgz"
+      }
+    },
+    "babel-preset-babili": {
+      "0.1.4": {
+        "hash": "sha512-WHGo9Vdv3t/qwUzk6L2jKaQrTlwnN4ftrOANspsFAA55LvcldF4bzCVMhJ7DaCyZzJb93sA2e/roC7rUzSK93A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-preset-babili/-/babel-preset-babili-0.1.4.tgz"
+      }
+    },
+    "esutils": {
+      "2.0.3": {
+        "hash": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz"
+      }
+    },
+    "lodash.isplainobject": {
+      "4.0.6": {
+        "hash": "sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
+      }
+    },
+    "lodash.some": {
+      "4.6.0": {
+        "hash": "sha512-j7MJE+TuT51q9ggt4fSgVqro163BEFjAt3u97IqU+JA2DkWl80nFTrowzLpZ/BnpN7rrl0JA/593NAdd8p/scQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.some/-/lodash.some-4.6.0.tgz"
+      }
+    }
+  }
+}

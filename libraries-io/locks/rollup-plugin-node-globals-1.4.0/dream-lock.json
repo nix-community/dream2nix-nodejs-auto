@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-node-globals",
+    "location": "",
+    "packages": {
+      "rollup-plugin-node-globals": "1.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "magic-string": {
+      "0.22.5": [
+        [ "vlq", "0.2.3" ]
+      ]
+    },
+    "rollup-plugin-node-globals": {
+      "1.4.0": [
+        [ "acorn", "5.7.4" ],
+        [ "buffer-es6", "4.9.3" ],
+        [ "estree-walker", "0.5.2" ],
+        [ "magic-string", "0.22.5" ],
+        [ "process-es6", "0.11.6" ],
+        [ "rollup-pluginutils", "2.8.2" ]
+      ],
+      "unknown": [
+        [ "rollup-plugin-node-globals", "1.4.0" ]
+      ]
+    },
+    "rollup-pluginutils": {
+      "2.8.2": [
+        [ "estree-walker", "0.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "acorn": {
+      "5.7.4": {
+        "hash": "sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz"
+      }
+    },
+    "buffer-es6": {
+      "4.9.3": {
+        "hash": "sha512-Ibt+oXxhmeYJSsCkODPqNpPmyegefiD8rfutH1NYGhMZQhSp95Rz7haemgnJ6dxa6LT+JLLbtgOMORRluwKktw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/buffer-es6/-/buffer-es6-4.9.3.tgz"
+      }
+    },
+    "estree-walker": {
+      "0.5.2": {
+        "hash": "sha512-XpCnW/AE10ws/kDAs37cngSkvgIR8aN3G0MS85m7dUpuK2EREo9VJ00uvw6Dg/hXEpfsE1I1TvJOJr+Z+TL+ig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.5.2.tgz"
+      },
+      "0.6.1": {
+        "hash": "sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.6.1.tgz"
+      }
+    },
+    "magic-string": {
+      "0.22.5": {
+        "hash": "sha512-oreip9rJZkzvA8Qzk9HFs8fZGF/u7H/gtrE8EN6RjKJ9kh2HlC+yQ2QezifqTZfGyiuAV0dRv5a+y/8gBb1m9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.22.5.tgz"
+      }
+    },
+    "process-es6": {
+      "0.11.6": {
+        "hash": "sha512-GYBRQtL4v3wgigq10Pv58jmTbFXlIiTbSfgnNqZLY0ldUPqy1rRxDI5fCjoCpnM6TqmHQI8ydzTBXW86OYc0gA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/process-es6/-/process-es6-0.11.6.tgz"
+      }
+    },
+    "rollup-plugin-node-globals": {
+      "1.4.0": {
+        "hash": "sha512-xRkB+W/m1KLIzPUmG0ofvR+CPNcvuCuNdjVBVS7ALKSxr3EDhnzNceGkGi1m8MToSli13AzKFYH4ie9w3I5L3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-node-globals/-/rollup-plugin-node-globals-1.4.0.tgz"
+      }
+    },
+    "rollup-pluginutils": {
+      "2.8.2": {
+        "hash": "sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz"
+      }
+    },
+    "vlq": {
+      "0.2.3": {
+        "hash": "sha512-DRibZL6DsNhIgYQ+wNdWDL2SL3bKPlVrRiBqV5yuMm++op8W4kGFtaQfCs4KEJn0wBZcHVHJ3eoywX8983k1ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vlq/-/vlq-0.2.3.tgz"
+      }
+    }
+  }
+}

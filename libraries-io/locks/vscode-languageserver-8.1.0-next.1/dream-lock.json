@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "vscode-languageserver",
+    "location": "",
+    "packages": {
+      "vscode-languageserver": "8.1.0-next.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "vscode-languageserver": {
+      "8.1.0-next.1": [
+        [ "vscode-languageserver-protocol", "3.17.3-next.1" ]
+      ],
+      "unknown": [
+        [ "vscode-languageserver", "8.1.0-next.1" ]
+      ]
+    },
+    "vscode-languageserver-protocol": {
+      "3.17.3-next.1": [
+        [ "vscode-jsonrpc", "8.1.0-next.1" ],
+        [ "vscode-languageserver-types", "3.17.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "vscode-jsonrpc": {
+      "8.1.0-next.1": {
+        "hash": "sha512-FiPG+9TuMIga3t+kkalQytwqMtJu1djI+Pq+Ut2tvAJpcNHDJ0PYdjFv5mgEvTEJLujrYwjWHVkNe+XfHPBD/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.1.0-next.1.tgz"
+      }
+    },
+    "vscode-languageserver": {
+      "8.1.0-next.1": {
+        "hash": "sha512-u14Rk4JgXI+7iS6AEXI2pNc1dWh/5JEXtaqa4TeBECKJlN+5242mbGBBPaHMOE7sSI1Kh66XhEMZJhPYjUfjHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-8.1.0-next.1.tgz"
+      }
+    },
+    "vscode-languageserver-protocol": {
+      "3.17.3-next.1": {
+        "hash": "sha512-vgjvPE0zox+1Fi4ljsSFJ+B3g8wGNbuAEEdulueVdv+R2VHtc06+dgxhWiG4LKPqXwjPDmiuxCnvd2xk3fzTTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.3-next.1.tgz"
+      }
+    },
+    "vscode-languageserver-types": {
+      "3.17.2": {
+        "hash": "sha512-zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.2.tgz"
+      }
+    }
+  }
+}

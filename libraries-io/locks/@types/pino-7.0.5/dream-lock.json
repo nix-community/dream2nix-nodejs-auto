@@ -1,0 +1,187 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/pino",
+    "location": "",
+    "packages": {
+      "@types/pino": "7.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/pino": {
+      "7.0.5": [
+        [ "pino", "8.5.0" ]
+      ],
+      "unknown": [
+        [ "@types/pino", "7.0.5" ]
+      ]
+    },
+    "abort-controller": {
+      "3.0.0": [
+        [ "event-target-shim", "5.0.1" ]
+      ]
+    },
+    "pino": {
+      "8.5.0": [
+        [ "atomic-sleep", "1.0.0" ],
+        [ "fast-redact", "3.1.2" ],
+        [ "on-exit-leak-free", "2.1.0" ],
+        [ "pino-abstract-transport", "1.0.0" ],
+        [ "pino-std-serializers", "6.0.0" ],
+        [ "process-warning", "2.0.0" ],
+        [ "quick-format-unescaped", "4.0.4" ],
+        [ "real-require", "0.2.0" ],
+        [ "safe-stable-stringify", "2.3.1" ],
+        [ "sonic-boom", "3.2.0" ],
+        [ "thread-stream", "2.1.0" ]
+      ]
+    },
+    "pino-abstract-transport": {
+      "1.0.0": [
+        [ "readable-stream", "4.1.0" ],
+        [ "split2", "4.1.0" ]
+      ]
+    },
+    "readable-stream": {
+      "4.1.0": [
+        [ "abort-controller", "3.0.0" ]
+      ]
+    },
+    "sonic-boom": {
+      "3.2.0": [
+        [ "atomic-sleep", "1.0.0" ]
+      ]
+    },
+    "thread-stream": {
+      "2.1.0": [
+        [ "real-require", "0.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/pino": {
+      "7.0.5": {
+        "hash": "sha512-wKoab31pknvILkxAF8ss+v9iNyhw5Iu/0jLtRkUD74cNfOOLJNnqfFKAv0r7wVaTQxRZtWrMpGfShwwBjOcgcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/pino/-/pino-7.0.5.tgz"
+      }
+    },
+    "abort-controller": {
+      "3.0.0": {
+        "hash": "sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz"
+      }
+    },
+    "atomic-sleep": {
+      "1.0.0": {
+        "hash": "sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/atomic-sleep/-/atomic-sleep-1.0.0.tgz"
+      }
+    },
+    "event-target-shim": {
+      "5.0.1": {
+        "hash": "sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz"
+      }
+    },
+    "fast-redact": {
+      "3.1.2": {
+        "hash": "sha512-+0em+Iya9fKGfEQGcd62Yv6onjBmmhV1uh86XVfOU8VwAe6kaFdQCWI9s0/Nnugx5Vd9tdbZ7e6gE2tR9dzXdw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-redact/-/fast-redact-3.1.2.tgz"
+      }
+    },
+    "on-exit-leak-free": {
+      "2.1.0": {
+        "hash": "sha512-VuCaZZAjReZ3vUwgOB8LxAosIurDiAW0s13rI1YwmaP++jvcxP77AWoQvenZebpCA2m8WC1/EosPYPMjnRAp/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/on-exit-leak-free/-/on-exit-leak-free-2.1.0.tgz"
+      }
+    },
+    "pino": {
+      "8.5.0": {
+        "hash": "sha512-PuD6sOti8Y+p9zRoNB5dibmfjfM/OU2tEtJFICxw5ulXi1d0qnq/Rt3CsR6aBEAOeyCXP+ZUfiNWW+tt55pNzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pino/-/pino-8.5.0.tgz"
+      }
+    },
+    "pino-abstract-transport": {
+      "1.0.0": {
+        "hash": "sha512-c7vo5OpW4wIS42hUVcT5REsL8ZljsUfBjqV/e2sFxmFEFZiq1XLUp5EYLtuDH6PEHq9W1egWqRbnLUP5FuZmOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pino-abstract-transport/-/pino-abstract-transport-1.0.0.tgz"
+      }
+    },
+    "pino-std-serializers": {
+      "6.0.0": {
+        "hash": "sha512-mMMOwSKrmyl+Y12Ri2xhH1lbzQxwwpuru9VjyJpgFIH4asSj88F2csdMwN6+M5g1Ll4rmsYghHLQJw81tgZ7LQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-6.0.0.tgz"
+      }
+    },
+    "process-warning": {
+      "2.0.0": {
+        "hash": "sha512-+MmoAXoUX+VTHAlwns0h+kFUWFs/3FZy+ZuchkgjyOu3oioLAo2LB5aCfKPh2+P9O18i3m43tUEv3YqttSy0Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/process-warning/-/process-warning-2.0.0.tgz"
+      }
+    },
+    "quick-format-unescaped": {
+      "4.0.4": {
+        "hash": "sha512-tYC1Q1hgyRuHgloV/YXs2w15unPVh8qfu/qCTfhTYamaw7fyhumKa2yGpdSo87vY32rIclj+4fWYQXUMs9EHvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz"
+      }
+    },
+    "readable-stream": {
+      "4.1.0": {
+        "hash": "sha512-sVisi3+P2lJ2t0BPbpK629j8wRW06yKGJUcaLAGXPAUhyUxVJm7VsCTit1PFgT4JHUDMrGNR+ZjSKpzGaRF3zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-4.1.0.tgz"
+      }
+    },
+    "real-require": {
+      "0.2.0": {
+        "hash": "sha512-57frrGM/OCTLqLOAh0mhVA9VBMHd+9U7Zb2THMGdBUoZVOtGbJzjxsYGDJ3A9AYYCP4hn6y1TVbaOfzWtm5GFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/real-require/-/real-require-0.2.0.tgz"
+      }
+    },
+    "safe-stable-stringify": {
+      "2.3.1": {
+        "hash": "sha512-kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz"
+      }
+    },
+    "sonic-boom": {
+      "3.2.0": {
+        "hash": "sha512-SbbZ+Kqj/XIunvIAgUZRlqd6CGQYq71tRRbXR92Za8J/R3Yh4Av+TWENiSiEgnlwckYLyP0YZQWVfyNC0dzLaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sonic-boom/-/sonic-boom-3.2.0.tgz"
+      }
+    },
+    "split2": {
+      "4.1.0": {
+        "hash": "sha512-VBiJxFkxiXRlUIeyMQi8s4hgvKCSjtknJv/LVYbrgALPwf5zSKmEwV9Lst25AkvMDnvxODugjdl6KZgwKM1WYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/split2/-/split2-4.1.0.tgz"
+      }
+    },
+    "thread-stream": {
+      "2.1.0": {
+        "hash": "sha512-5+Pf2Ya31CsZyIPYYkhINzdTZ3guL+jHq7D8lkBybgGcSQIKDbid3NJku3SpCKeE/gACWAccDA/rH2B6doC5aA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/thread-stream/-/thread-stream-2.1.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "grunt-env",
+    "location": "",
+    "packages": {
+      "grunt-env": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "grunt-env": {
+      "1.0.1": [
+        [ "ini", "1.3.8" ],
+        [ "lodash", "4.17.21" ]
+      ],
+      "unknown": [
+        [ "grunt-env", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "grunt-env": {
+      "1.0.1": {
+        "hash": "sha512-Hw4iIJ58yYA8kJaP4UUyfw807DUI1FRnow9hhRMnq366bwCnxiBWOgfZsYilcs3Jh1qsGC/i3+G+7/W18hA1TA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/grunt-env/-/grunt-env-1.0.1.tgz"
+      }
+    },
+    "ini": {
+      "1.3.8": {
+        "hash": "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    }
+  }
+}

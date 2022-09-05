@@ -3,7 +3,7 @@
     "defaultPackage": "tape",
     "location": "",
     "packages": {
-      "tape": "unknown"
+      "tape": "4.16.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -14,17 +14,17 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.5": [
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.5": [
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     }
   },
@@ -63,7 +63,7 @@
       ]
     },
     "es-abstract": {
-      "1.20.1": [
+      "1.20.2": [
         [ "call-bind", "1.0.2" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
@@ -105,7 +105,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ],
+        [ "es-abstract", "1.20.2" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -272,21 +272,21 @@
       "1.2.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "tape": {
@@ -308,7 +308,6 @@
         [ "through", "2.3.8" ]
       ],
       "unknown": [
-        [ "null", "2.0.0" ],
         [ "tape", "4.16.0" ]
       ]
     },
@@ -388,10 +387,10 @@
       }
     },
     "es-abstract": {
-      "1.20.1": {
-        "hash": "sha512-WEm2oBhfoI2sImeM4OF2zE2V3BYdSF+KnSi9Sidz51fQHd7+JuF8Xgcj9/0o+OWeIeIS/MiuNnlruQrJf16GQA==",
+      "1.20.2": {
+        "hash": "sha512-XxXQuVNrySBNlEkTYJoDNFe5+s2yIOpzq80sUHEdPdQr0S5nTLz4ZPPPswNIpKseDDUS5yghX1gfLIHQZ1iNuQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.1.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.2.tgz"
       }
     },
     "es-to-primitive": {
@@ -618,13 +617,6 @@
         "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
       }
     },
-    "null": {
-      "2.0.0": {
-        "hash": "sha512-CVSXPeB7Af0Sku7w8N8EKkgcwvQ6wGNfs6bly419A/q6dpIwzaHIk+65+La2g80ml21uxVXQo8xReTMI2WEYbA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/null/-/null-2.0.0.tgz"
-      }
-    },
     "object-inspect": {
       "1.12.2": {
         "hash": "sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==",
@@ -732,11 +724,6 @@
     },
     "tape": {
       "4.16.0": {
-        "hash": "sha512-mBlqYFr2mHysgCFXAuSarIQ+ffhielpb7a5/IbeOhMaLnQYhkJLUm6CwO1RszWeHRxnIpMessZ3xL2Cfo94BWw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/tape/-/tape-4.16.0.tgz"
-      },
-      "unknown": {
         "hash": "sha512-mBlqYFr2mHysgCFXAuSarIQ+ffhielpb7a5/IbeOhMaLnQYhkJLUm6CwO1RszWeHRxnIpMessZ3xL2Cfo94BWw==",
         "type": "http",
         "url": "https://registry.npmjs.org/tape/-/tape-4.16.0.tgz"

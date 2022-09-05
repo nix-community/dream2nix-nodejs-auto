@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "pretty-ms",
+    "location": "",
+    "packages": {
+      "pretty-ms": "8.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pretty-ms": {
+      "8.0.0": [
+        [ "parse-ms", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "pretty-ms", "8.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "parse-ms": {
+      "3.0.0": {
+        "hash": "sha512-Tpb8Z7r7XbbtBTrM9UhpkzzaMrqA2VXMT3YChzYltwV3P3pM6t8wl7TvpMnSTosz1aQAdVib7kdoys7vYOPerw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parse-ms/-/parse-ms-3.0.0.tgz"
+      }
+    },
+    "pretty-ms": {
+      "8.0.0": {
+        "hash": "sha512-ASJqOugUF1bbzI35STMBUpZqdfYKlJugy6JBziGi2EE+AL5JPJGSzvpeVXojxrr0ViUYoToUjb5kjSEGf7Y83Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pretty-ms/-/pretty-ms-8.0.0.tgz"
+      }
+    }
+  }
+}

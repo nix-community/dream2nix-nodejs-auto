@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "react-mixin",
+    "location": "",
+    "packages": {
+      "react-mixin": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "react-mixin": {
+      "5.0.0": [
+        [ "object-assign", "4.1.1" ],
+        [ "smart-mixin", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "react-mixin", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
+    "react-mixin": {
+      "5.0.0": {
+        "hash": "sha512-bGSF0/jTLDb5yW2BHYfN6PQg7FYRaNLXcUWisedAipL9+avrmrGKXfbOTMjE/heXcbS/po7ESTiahdF7iOKnGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-mixin/-/react-mixin-5.0.0.tgz"
+      }
+    },
+    "smart-mixin": {
+      "2.0.0": {
+        "hash": "sha512-ZsbOrUEqBiRMLqZltlg/E6tYBTQjw3q0iboj1KiOyJ/Mp75+fc5YAKoYqvDXdtr5RAk4UYNi3hHUREdrUWRzRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/smart-mixin/-/smart-mixin-2.0.0.tgz"
+      }
+    }
+  }
+}

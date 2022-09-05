@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "yaml-loader",
+    "location": "",
+    "packages": {
+      "yaml-loader": "0.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loader-utils": {
+      "2.0.2": [
+        [ "big.js", "5.2.2" ],
+        [ "emojis-list", "3.0.0" ],
+        [ "json5", "2.2.1" ]
+      ]
+    },
+    "yaml-loader": {
+      "0.8.0": [
+        [ "javascript-stringify", "2.1.0" ],
+        [ "loader-utils", "2.0.2" ],
+        [ "yaml", "2.1.1" ]
+      ],
+      "unknown": [
+        [ "yaml-loader", "0.8.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "big.js": {
+      "5.2.2": {
+        "hash": "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+      }
+    },
+    "emojis-list": {
+      "3.0.0": {
+        "hash": "sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+      }
+    },
+    "javascript-stringify": {
+      "2.1.0": {
+        "hash": "sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/javascript-stringify/-/javascript-stringify-2.1.0.tgz"
+      }
+    },
+    "json5": {
+      "2.2.1": {
+        "hash": "sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
+      }
+    },
+    "loader-utils": {
+      "2.0.2": {
+        "hash": "sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz"
+      }
+    },
+    "yaml": {
+      "2.1.1": {
+        "hash": "sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yaml/-/yaml-2.1.1.tgz"
+      }
+    },
+    "yaml-loader": {
+      "0.8.0": {
+        "hash": "sha512-LjeKnTzVBKWiQBeE2L9ssl6WprqaUIxCSNs5tle8PaDydgu3wVFXTbMfsvF2MSErpy9TDVa092n4q6adYwJaWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yaml-loader/-/yaml-loader-0.8.0.tgz"
+      }
+    }
+  }
+}

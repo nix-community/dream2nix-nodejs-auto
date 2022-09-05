@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "request-progress",
+    "location": "",
+    "packages": {
+      "request-progress": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "request-progress": {
+      "3.0.0": [
+        [ "throttleit", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "request-progress", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "request-progress": {
+      "3.0.0": {
+        "hash": "sha512-MnWzEHHaxHO2iWiQuHrUPBi/1WeBf5PkxQqNyNvLl9VAYSdXkP8tQ3pBSeCPD+yw0v0Aq1zosWLz0BdeXpWwZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/request-progress/-/request-progress-3.0.0.tgz"
+      }
+    },
+    "throttleit": {
+      "1.0.0": {
+        "hash": "sha512-rkTVqu6IjfQ/6+uNuuc3sZek4CEYxTJom3IktzgdSxcZqdARuebbA/f4QmAxMQIxqq9ZLEUkSYqvuk1I6VKq4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/throttleit/-/throttleit-1.0.0.tgz"
+      }
+    }
+  }
+}

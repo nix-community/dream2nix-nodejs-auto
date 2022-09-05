@@ -1,0 +1,163 @@
+{
+  "_generic": {
+    "defaultPackage": "radium",
+    "location": "",
+    "packages": {
+      "radium": "0.26.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "css-in-js-utils": {
+      "2.0.1": [
+        [ "hyphenate-style-name", "1.0.4" ],
+        [ "isobject", "3.0.1" ]
+      ]
+    },
+    "hoist-non-react-statics": {
+      "3.3.0": [
+        [ "react-is", "16.13.1" ]
+      ]
+    },
+    "inline-style-prefixer": {
+      "4.0.2": [
+        [ "bowser", "1.9.4" ],
+        [ "css-in-js-utils", "2.0.1" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "prop-types": {
+      "15.8.1": [
+        [ "loose-envify", "1.4.0" ],
+        [ "object-assign", "4.1.1" ],
+        [ "react-is", "16.13.1" ]
+      ]
+    },
+    "radium": {
+      "0.26.2": [
+        [ "exenv", "1.2.2" ],
+        [ "hoist-non-react-statics", "3.3.0" ],
+        [ "inline-style-prefixer", "4.0.2" ],
+        [ "prop-types", "15.8.1" ]
+      ],
+      "unknown": [
+        [ "radium", "0.26.2" ]
+      ]
+    },
+    "react": {
+      "17.0.2": [
+        [ "loose-envify", "1.4.0" ],
+        [ "object-assign", "4.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "bowser": {
+      "1.9.4": {
+        "hash": "sha512-9IdMmj2KjigRq6oWhmwv1W36pDuA4STQZ8q6YO9um+x07xgYNCD3Oou+WP/3L1HNz7iqythGet3/p4wvc8AAwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bowser/-/bowser-1.9.4.tgz"
+      }
+    },
+    "css-in-js-utils": {
+      "2.0.1": {
+        "hash": "sha512-PJF0SpJT+WdbVVt0AOYp9C8GnuruRlL/UFW7932nLWmFLQTaWEzTBQEx7/hn4BuV+WON75iAViSUJLiU3PKbpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-in-js-utils/-/css-in-js-utils-2.0.1.tgz"
+      }
+    },
+    "exenv": {
+      "1.2.2": {
+        "hash": "sha512-Z+ktTxTwv9ILfgKCk32OX3n/doe+OcLTRtqK9pcL+JsP3J1/VW8Uvl4ZjLlKqeW4rzK4oesDOGMEMRIZqtP4Iw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/exenv/-/exenv-1.2.2.tgz"
+      }
+    },
+    "hoist-non-react-statics": {
+      "3.3.0": {
+        "hash": "sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz"
+      }
+    },
+    "hyphenate-style-name": {
+      "1.0.4": {
+        "hash": "sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
+      }
+    },
+    "inline-style-prefixer": {
+      "4.0.2": {
+        "hash": "sha512-N8nVhwfYga9MiV9jWlwfdj1UDIaZlBFu4cJSJkIr7tZX7sHpHhGR5su1qdpW+7KPL8ISTvCIkcaFi/JdBknvPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inline-style-prefixer/-/inline-style-prefixer-4.0.2.tgz"
+      }
+    },
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
+    "prop-types": {
+      "15.8.1": {
+        "hash": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+      }
+    },
+    "radium": {
+      "0.26.2": {
+        "hash": "sha512-vWwhFZoMk5Rd9obPTa1M7y85tEDohI7+dDlYtwTgS3ubJpzdPL52/AmUcfAj+9phNnH/L0KWFXEgCndAgBus9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/radium/-/radium-0.26.2.tgz"
+      }
+    },
+    "react": {
+      "17.0.2": {
+        "hash": "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
+      }
+    },
+    "react-is": {
+      "16.13.1": {
+        "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
+      }
+    }
+  }
+}

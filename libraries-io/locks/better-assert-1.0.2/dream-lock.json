@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "better-assert",
+    "location": "",
+    "packages": {
+      "better-assert": "1.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "better-assert": {
+      "1.0.2": [
+        [ "callsite", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "better-assert", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "better-assert": {
+      "1.0.2": {
+        "hash": "sha512-bYeph2DFlpK1XmGs6fvlLRUN29QISM3GBuUwSFsMY2XRx4AvC0WNCS57j4c/xGrK2RS24C1w3YoBOsw9fT46tQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/better-assert/-/better-assert-1.0.2.tgz"
+      }
+    },
+    "callsite": {
+      "1.0.0": {
+        "hash": "sha512-0vdNRFXn5q+dtOqjfFtmtlI9N2eVZ7LMyEV2iKC5mEEFvSg/69Ml6b/WU2qF8W1nLRa0wiSrDT3Y5jOHZCwKPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "wrtc",
+    "location": "",
+    "packages": {
+      "wrtc": "0.4.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "domexception": {
+      "1.0.1": [
+        [ "webidl-conversions", "4.0.2" ]
+      ]
+    },
+    "wrtc": {
+      "0.4.7": [
+        [ "domexception", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "wrtc", "0.4.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "domexception": {
+      "1.0.1": {
+        "hash": "sha512-raigMkn7CJNNo6Ihro1fzG7wr3fHuYVytzquZKX5n0yizGsTcYgzdIUwj1X9pK0VvjeihV+XiclP+DjwbsSKug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domexception/-/domexception-1.0.1.tgz"
+      }
+    },
+    "webidl-conversions": {
+      "4.0.2": {
+        "hash": "sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-4.0.2.tgz"
+      }
+    },
+    "wrtc": {
+      "0.4.7": {
+        "hash": "sha512-P6Hn7VT4lfSH49HxLHcHhDq+aFf/jd9dPY7lDHeFhZ22N3858EKuwm2jmnlPzpsRGEPaoF6XwkcxY5SYnt4f/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wrtc/-/wrtc-0.4.7.tgz"
+      }
+    }
+  }
+}

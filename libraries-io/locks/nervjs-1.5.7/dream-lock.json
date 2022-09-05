@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "nervjs",
+    "location": "",
+    "packages": {
+      "nervjs": "1.5.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nervjs": {
+      "1.5.7": [
+        [ "nerv-shared", "1.4.0" ],
+        [ "nerv-utils", "1.4.5" ]
+      ],
+      "unknown": [
+        [ "nervjs", "1.5.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "nerv-shared": {
+      "1.4.0": {
+        "hash": "sha512-cCyeP1hnnnMfM5HRcmMKconGwI8Wl0xwekAU4DvqDC1M8NxCOF4TwDmedgdgyNt9EkWNbiotBRUV5zJsbfOQWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nerv-shared/-/nerv-shared-1.4.0.tgz"
+      }
+    },
+    "nerv-utils": {
+      "1.4.5": {
+        "hash": "sha512-9XeifC0l+aDXhA0aXcklxS2o7o87xJxMQAl1+iIHrD5Sei/61ubap0oOzb4t9VMhSEvwWm4/rJRd8PGMKZiwiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nerv-utils/-/nerv-utils-1.4.5.tgz"
+      }
+    },
+    "nervjs": {
+      "1.5.7": {
+        "hash": "sha512-x+hGSOETqA+7lbChW+c/NIXEMrCCvm6IaEHlDbZmaNVX0TAyKZinRIHcYr7o5K/pA4qGWjJQmjoNyx+Mx+rVLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nervjs/-/nervjs-1.5.7.tgz"
+      }
+    }
+  }
+}

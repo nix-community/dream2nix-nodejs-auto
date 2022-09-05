@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@fortawesome/fontawesome",
+    "location": "",
+    "packages": {
+      "@fortawesome/fontawesome": "1.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome": {
+      "1.1.8": [
+        [ "@fortawesome/fontawesome-common-types", "0.1.7" ]
+      ],
+      "unknown": [
+        [ "@fortawesome/fontawesome", "1.1.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@fortawesome/fontawesome": {
+      "1.1.8": {
+        "hash": "sha512-c0/MtkPVT0fmiFcCyYoPjkG9PkMOvfrZw2+0BaJ+Rh6UEcK1AR/LaRgrHHjUkbAbs9LXxQJhFS8CJ4uSnK2+JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome/-/fontawesome-1.1.8.tgz"
+      }
+    },
+    "@fortawesome/fontawesome-common-types": {
+      "0.1.7": {
+        "hash": "sha512-ego8jRVSHfq/iq4KRZJKQeUAdi3ZjGNrqw4oPN3fNdvTBnLCSntwVCnc37bsAJP9UB8MhrTfPnZYxkv2vpS4pg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.7.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "set-value",
+    "location": "",
+    "packages": {
+      "set-value": "3.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "is-plain-object": {
+      "2.0.4": [
+        [ "isobject", "3.0.1" ]
+      ]
+    },
+    "set-value": {
+      "3.0.3": [
+        [ "is-plain-object", "2.0.4" ]
+      ],
+      "unknown": [
+        [ "set-value", "3.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "is-plain-object": {
+      "2.0.4": {
+        "hash": "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz"
+      }
+    },
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    },
+    "set-value": {
+      "3.0.3": {
+        "hash": "sha512-Xsn/XSatoVOGBbp5hs3UylFDs5Bi9i+ArpVJKdHPniZHoEgRniXTqHWrWrGQ0PbEClVT6WtfnBwR8CAHC9sveg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/set-value/-/set-value-3.0.3.tgz"
+      }
+    }
+  }
+}

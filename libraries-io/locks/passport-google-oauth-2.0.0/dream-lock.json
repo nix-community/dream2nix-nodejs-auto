@@ -1,0 +1,124 @@
+{
+  "_generic": {
+    "defaultPackage": "passport-google-oauth",
+    "location": "",
+    "packages": {
+      "passport-google-oauth": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "passport-google-oauth": {
+      "2.0.0": [
+        [ "passport-google-oauth1", "1.0.0" ],
+        [ "passport-google-oauth20", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "passport-google-oauth", "2.0.0" ]
+      ]
+    },
+    "passport-google-oauth1": {
+      "1.0.0": [
+        [ "passport-oauth1", "1.2.0" ]
+      ]
+    },
+    "passport-google-oauth20": {
+      "2.0.0": [
+        [ "passport-oauth2", "1.6.1" ]
+      ]
+    },
+    "passport-oauth1": {
+      "1.2.0": [
+        [ "oauth", "0.9.15" ],
+        [ "passport-strategy", "1.0.0" ],
+        [ "utils-merge", "1.0.1" ]
+      ]
+    },
+    "passport-oauth2": {
+      "1.6.1": [
+        [ "base64url", "3.0.1" ],
+        [ "oauth", "0.9.15" ],
+        [ "passport-strategy", "1.0.0" ],
+        [ "uid2", "0.0.4" ],
+        [ "utils-merge", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "base64url": {
+      "3.0.1": {
+        "hash": "sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/base64url/-/base64url-3.0.1.tgz"
+      }
+    },
+    "oauth": {
+      "0.9.15": {
+        "hash": "sha512-a5ERWK1kh38ExDEfoO6qUHJb32rd7aYmPHuyCu3Fta/cnICvYmgd2uhuKXvPD+PXB+gCEYYEaQdIRAjCOwAKNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/oauth/-/oauth-0.9.15.tgz"
+      }
+    },
+    "passport-google-oauth": {
+      "2.0.0": {
+        "hash": "sha512-JKxZpBx6wBQXX1/a1s7VmdBgwOugohH+IxCy84aPTZNq/iIPX6u7Mqov1zY7MKRz3niFPol0KJz8zPLBoHKtYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-google-oauth/-/passport-google-oauth-2.0.0.tgz"
+      }
+    },
+    "passport-google-oauth1": {
+      "1.0.0": {
+        "hash": "sha512-qpCEhuflJgYrdg5zZIpAq/K3gTqa1CtHjbubsEsidIdpBPLkEVq6tB1I8kBNcH89RdSiYbnKpCBXAZXX/dtx1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-google-oauth1/-/passport-google-oauth1-1.0.0.tgz"
+      }
+    },
+    "passport-google-oauth20": {
+      "2.0.0": {
+        "hash": "sha512-KSk6IJ15RoxuGq7D1UKK/8qKhNfzbLeLrG3gkLZ7p4A6DBCcv7xpyQwuXtWdpyR0+E0mwkpjY1VfPOhxQrKzdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-google-oauth20/-/passport-google-oauth20-2.0.0.tgz"
+      }
+    },
+    "passport-oauth1": {
+      "1.2.0": {
+        "hash": "sha512-Sv2YWodC6jN12M/OXwmR4BIXeeIHjjbwYTQw4kS6tHK4zYzSEpxBgSJJnknBjICA5cj0ju3FSnG1XmHgIhYnLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-oauth1/-/passport-oauth1-1.2.0.tgz"
+      }
+    },
+    "passport-oauth2": {
+      "1.6.1": {
+        "hash": "sha512-ZbV43Hq9d/SBSYQ22GOiglFsjsD1YY/qdiptA+8ej+9C1dL1TVB+mBE5kDH/D4AJo50+2i8f4bx0vg4/yDDZCQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-oauth2/-/passport-oauth2-1.6.1.tgz"
+      }
+    },
+    "passport-strategy": {
+      "1.0.0": {
+        "hash": "sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+      }
+    },
+    "uid2": {
+      "0.0.4": {
+        "hash": "sha512-IevTus0SbGwQzYh3+fRsAMTVVPOoIVufzacXcHPmdlle1jUpq7BRL+mw3dgeLanvGZdwwbWhRV6XrcFNdBmjWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uid2/-/uid2-0.0.4.tgz"
+      }
+    },
+    "utils-merge": {
+      "1.0.1": {
+        "hash": "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
+      }
+    }
+  }
+}

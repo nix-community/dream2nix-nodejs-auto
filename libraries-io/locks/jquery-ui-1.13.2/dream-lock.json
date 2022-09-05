@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "jquery-ui",
+    "location": "",
+    "packages": {
+      "jquery-ui": "1.13.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jquery-ui": {
+      "1.13.2": [
+        [ "jquery", "3.6.1" ]
+      ],
+      "unknown": [
+        [ "jquery-ui", "1.13.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "jquery": {
+      "3.6.1": {
+        "hash": "sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jquery/-/jquery-3.6.1.tgz"
+      }
+    },
+    "jquery-ui": {
+      "1.13.2": {
+        "hash": "sha512-wBZPnqWs5GaYJmo1Jj0k/mrSkzdQzKDwhXNtHKcBdAcKVxMM3KNYFq+iJ2i1rwiG53Z8M4mTn3Qxrm17uH1D4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.13.2.tgz"
+      }
+    }
+  }
+}

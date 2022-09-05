@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "koa-route",
+    "location": "",
+    "packages": {
+      "koa-route": "3.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "koa-route": {
+      "3.2.0": [
+        [ "debug", "4.3.4" ],
+        [ "methods", "1.1.2" ],
+        [ "path-to-regexp", "1.8.0" ]
+      ],
+      "unknown": [
+        [ "koa-route", "3.2.0" ]
+      ]
+    },
+    "path-to-regexp": {
+      "1.8.0": [
+        [ "isarray", "0.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "isarray": {
+      "0.0.1": {
+        "hash": "sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+      }
+    },
+    "koa-route": {
+      "3.2.0": {
+        "hash": "sha512-8FsuWw/L+CUWJfpgN6vrlYUDNTheEinG8Zkm97GyuLJNyWjCVUs9p10Ih3jTIWwmDVQcz6827l0RKadAS5ibqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/koa-route/-/koa-route-3.2.0.tgz"
+      }
+    },
+    "methods": {
+      "1.1.2": {
+        "hash": "sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    },
+    "path-to-regexp": {
+      "1.8.0": {
+        "hash": "sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-1.8.0.tgz"
+      }
+    }
+  }
+}

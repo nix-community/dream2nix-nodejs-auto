@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "webpack-bundle-size-analyzer",
+    "location": "",
+    "packages": {
+      "webpack-bundle-size-analyzer": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "webpack-bundle-size-analyzer": {
+      "3.1.0": [
+        [ "commander", "2.20.3" ],
+        [ "filesize", "3.6.1" ],
+        [ "humanize", "0.0.9" ]
+      ],
+      "unknown": [
+        [ "webpack-bundle-size-analyzer", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "filesize": {
+      "3.6.1": {
+        "hash": "sha512-7KjR1vv6qnicaPMi1iiTcI85CyYwRO/PSFCu6SvqL8jN2Wjt/NIYQTFtFs7fSDCYOstUkEWIQGFUg5YZQfjlcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/filesize/-/filesize-3.6.1.tgz"
+      }
+    },
+    "humanize": {
+      "0.0.9": {
+        "hash": "sha512-bvZZ7vXpr1RKoImjuQ45hJb5OvE2oJafHysiD/AL3nkqTZH2hFCjQ3YZfCd63FefDitbJze/ispUPP0gfDsT2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/humanize/-/humanize-0.0.9.tgz"
+      }
+    },
+    "webpack-bundle-size-analyzer": {
+      "3.1.0": {
+        "hash": "sha512-8WlTT6uuCxZgZYNnCB0pRGukWRGH+Owg+HsqQUe1Zexakdno1eDYO+lE7ihBo9G0aCCZCJa8JWjYr9eLYfZrBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webpack-bundle-size-analyzer/-/webpack-bundle-size-analyzer-3.1.0.tgz"
+      }
+    }
+  }
+}

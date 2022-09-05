@@ -1,0 +1,173 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/hapi",
+    "location": "",
+    "packages": {
+      "@types/hapi": "17.8.12"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@hapi/topo": {
+      "5.1.0": [
+        [ "@hapi/hoek", "9.3.0" ]
+      ]
+    },
+    "@sideway/address": {
+      "4.1.4": [
+        [ "@hapi/hoek", "9.3.0" ]
+      ]
+    },
+    "@types/hapi": {
+      "17.8.12": [
+        [ "@types/boom", "7.3.2" ],
+        [ "@types/catbox", "10.0.7" ],
+        [ "@types/iron", "5.0.2" ],
+        [ "@types/mimos", "3.0.3" ],
+        [ "@types/node", "18.7.15" ],
+        [ "@types/podium", "1.0.1" ],
+        [ "@types/shot", "4.0.1" ],
+        [ "joi", "17.6.0" ]
+      ],
+      "unknown": [
+        [ "@types/hapi", "17.8.12" ]
+      ]
+    },
+    "@types/iron": {
+      "5.0.2": [
+        [ "@types/node", "18.7.15" ]
+      ]
+    },
+    "@types/mimos": {
+      "3.0.3": [
+        [ "@types/mime-db", "1.43.1" ]
+      ]
+    },
+    "@types/shot": {
+      "4.0.1": [
+        [ "@types/node", "18.7.15" ]
+      ]
+    },
+    "joi": {
+      "17.6.0": [
+        [ "@hapi/hoek", "9.3.0" ],
+        [ "@hapi/topo", "5.1.0" ],
+        [ "@sideway/address", "4.1.4" ],
+        [ "@sideway/formula", "3.0.0" ],
+        [ "@sideway/pinpoint", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@hapi/hoek": {
+      "9.3.0": {
+        "hash": "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
+      }
+    },
+    "@hapi/topo": {
+      "5.1.0": {
+        "hash": "sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
+      }
+    },
+    "@sideway/address": {
+      "4.1.4": {
+        "hash": "sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/address/-/address-4.1.4.tgz"
+      }
+    },
+    "@sideway/formula": {
+      "3.0.0": {
+        "hash": "sha512-vHe7wZ4NOXVfkoRb8T5otiENVlT7a3IAiw7H5M2+GO+9CDgcVUUsX1zalAztCmwyOr2RUTGJdgB+ZvSVqmdHmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.0.tgz"
+      }
+    },
+    "@sideway/pinpoint": {
+      "2.0.0": {
+        "hash": "sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
+      }
+    },
+    "@types/boom": {
+      "7.3.2": {
+        "hash": "sha512-W8+6CANZz/BmgzATboKXvEDtO3SHSj86omcU/2pMCkUQhqhgucB8sgcmdRadXDEvXFRiRhME0rcyj1GIj3LC9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/boom/-/boom-7.3.2.tgz"
+      }
+    },
+    "@types/catbox": {
+      "10.0.7": {
+        "hash": "sha512-8vjnM1eyHKwWfcbq7qb2NN4ltUgm4nVsT9QIM6IW4KqxbQbfQLbRApNTN+B3hvHvuFTHyvhJjZrBY3wNPp4tjA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/catbox/-/catbox-10.0.7.tgz"
+      }
+    },
+    "@types/hapi": {
+      "17.8.12": {
+        "hash": "sha512-LHBw5CngMDNZTPJhd6cfmCnrj8FVB5ckGNm5NQ28cfbIa76a1CvEURtMRL8Cqfy5pzvPkEA6COp+HECIn/sm0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/hapi/-/hapi-17.8.12.tgz"
+      }
+    },
+    "@types/iron": {
+      "5.0.2": {
+        "hash": "sha512-u1l5xO5BtLlPfeiy60vrC9Y30cR8gM7chD5npIAETZaOlGoT8KHqtQQpmlU5dZejhJSfIBSX0zBHnKW+0fw5qA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/iron/-/iron-5.0.2.tgz"
+      }
+    },
+    "@types/mime-db": {
+      "1.43.1": {
+        "hash": "sha512-kGZJY+R+WnR5Rk+RPHUMERtb2qBRViIHCBdtUrY+NmwuGb8pQdfTqQiCKPrxpdoycl8KWm2DLdkpoSdt479XoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/mime-db/-/mime-db-1.43.1.tgz"
+      }
+    },
+    "@types/mimos": {
+      "3.0.3": {
+        "hash": "sha512-jtStUPuHpJ+LVK+e1K9SbD2V00IOAqAKgVVkBRmCdHG20VQaE3KOt7FincknY1uyyZNq7MKF44Gs0fon2v9oig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/mimos/-/mimos-3.0.3.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/podium": {
+      "1.0.1": {
+        "hash": "sha512-dcg8V5wKgrvNIBk2hzgK3gHobZ0u7pXW36NigfJq+lBA+/fqI6GAI0bdjLAEkZC67EsaVErtePkqipJPsszN7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/podium/-/podium-1.0.1.tgz"
+      }
+    },
+    "@types/shot": {
+      "4.0.1": {
+        "hash": "sha512-LUJWxDKYWmmUpVXDWZ78hFIrqb/ho9RoKqBAFRJw4OHOS3qCKCoXCyzrfmf24lbO4COYfqL0iEWNArOfKEYW9g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/shot/-/shot-4.0.1.tgz"
+      }
+    },
+    "joi": {
+      "17.6.0": {
+        "hash": "sha512-OX5dG6DTbcr/kbMFj0KGYxuew69HPcAE3K/sZpEV2nP6e/j/C0HV+HNiBPCASxdx5T7DMoa0s8UeHWMnb6n2zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/joi/-/joi-17.6.0.tgz"
+      }
+    }
+  }
+}

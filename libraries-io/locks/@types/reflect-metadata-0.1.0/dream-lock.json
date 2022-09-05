@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/reflect-metadata",
+    "location": "",
+    "packages": {
+      "@types/reflect-metadata": "0.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/reflect-metadata": {
+      "0.1.0": [
+        [ "reflect-metadata", "0.1.13" ]
+      ],
+      "unknown": [
+        [ "@types/reflect-metadata", "0.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/reflect-metadata": {
+      "0.1.0": {
+        "hash": "sha512-bXltFLY3qhzCnVYP5iUpeSICagQ8rc9K2liS+8M0lBcz54BHs3O6W5UvqespVSuebo1BXLi+/y9ioELAW9SC2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/reflect-metadata/-/reflect-metadata-0.1.0.tgz"
+      }
+    },
+    "reflect-metadata": {
+      "0.1.13": {
+        "hash": "sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.13.tgz"
+      }
+    }
+  }
+}

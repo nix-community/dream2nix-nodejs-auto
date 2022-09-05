@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "z-schema",
+    "location": "",
+    "packages": {
+      "z-schema": "5.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "z-schema": {
+      "5.0.4": [
+        [ "commander", "2.20.3" ],
+        [ "lodash.get", "4.4.2" ],
+        [ "lodash.isequal", "4.5.0" ],
+        [ "validator", "13.7.0" ]
+      ],
+      "unknown": [
+        [ "z-schema", "5.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "lodash.get": {
+      "4.4.2": {
+        "hash": "sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz"
+      }
+    },
+    "lodash.isequal": {
+      "4.5.0": {
+        "hash": "sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz"
+      }
+    },
+    "validator": {
+      "13.7.0": {
+        "hash": "sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/validator/-/validator-13.7.0.tgz"
+      }
+    },
+    "z-schema": {
+      "5.0.4": {
+        "hash": "sha512-gm/lx3hDzJNcLwseIeQVm1UcwhWIKpSB4NqH89pTBtFns4k/HDHudsICtvG05Bvw/Mv3jMyk700y5dadueLHdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/z-schema/-/z-schema-5.0.4.tgz"
+      }
+    }
+  }
+}

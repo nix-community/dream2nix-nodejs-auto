@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "prettyjson",
+    "location": "",
+    "packages": {
+      "prettyjson": "1.2.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prettyjson": {
+      "1.2.5": [
+        [ "colors", "1.4.0" ],
+        [ "minimist", "1.2.6" ]
+      ],
+      "unknown": [
+        [ "prettyjson", "1.2.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "colors": {
+      "1.4.0": {
+        "hash": "sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    },
+    "prettyjson": {
+      "1.2.5": {
+        "hash": "sha512-rksPWtoZb2ZpT5OVgtmy0KHVM+Dca3iVwWY9ifwhcexfjebtgjg3wmrUt9PvJ59XIYBcknQeYHD8IAnVlh9lAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prettyjson/-/prettyjson-1.2.5.tgz"
+      }
+    }
+  }
+}

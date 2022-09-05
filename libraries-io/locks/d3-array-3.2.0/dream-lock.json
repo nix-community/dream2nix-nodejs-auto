@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "d3-array",
+    "location": "",
+    "packages": {
+      "d3-array": "3.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "d3-array": {
+      "3.2.0": [
+        [ "internmap", "2.0.3" ]
+      ],
+      "unknown": [
+        [ "d3-array", "3.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "d3-array": {
+      "3.2.0": {
+        "hash": "sha512-3yXFQo0oG3QCxbF06rMPFyGRMGJNS7NvsV1+2joOjbBE+9xvWQ8+GcMJAjRCzw06zQ3/arXeJgbPYcjUCuC+3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-array/-/d3-array-3.2.0.tgz"
+      }
+    },
+    "internmap": {
+      "2.0.3": {
+        "hash": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz"
+      }
+    }
+  }
+}

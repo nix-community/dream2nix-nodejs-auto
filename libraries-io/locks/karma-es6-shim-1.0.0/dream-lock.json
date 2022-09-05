@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "karma-es6-shim",
+    "location": "",
+    "packages": {
+      "karma-es6-shim": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "karma-es6-shim": {
+      "1.0.0": [
+        [ "es5-shim", "4.5.15" ],
+        [ "es6-shim", "0.35.6" ]
+      ],
+      "unknown": [
+        [ "karma-es6-shim", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "es5-shim": {
+      "4.5.15": {
+        "hash": "sha512-FYpuxEjMeDvU4rulKqFdukQyZSTpzhg4ScQHrAosrlVpR6GFyaw14f74yn2+4BugniIS0Frpg7TvwZocU4ZMTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/es5-shim/-/es5-shim-4.5.15.tgz"
+      }
+    },
+    "es6-shim": {
+      "0.35.6": {
+        "hash": "sha512-EmTr31wppcaIAgblChZiuN/l9Y7DPyw8Xtbg7fIVngn6zMW+IEBJDJngeKC3x6wr0V/vcA2wqeFnaw1bFJbDdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.6.tgz"
+      }
+    },
+    "karma-es6-shim": {
+      "1.0.0": {
+        "hash": "sha512-G2AiltA80A/MLgANB57m2LOPf4e0MiqiwbEm7NsuELpSQ4vvwcsGHlEYFhW7E86AUH56Rf5v3lo1ro+Sx1KjkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/karma-es6-shim/-/karma-es6-shim-1.0.0.tgz"
+      }
+    }
+  }
+}

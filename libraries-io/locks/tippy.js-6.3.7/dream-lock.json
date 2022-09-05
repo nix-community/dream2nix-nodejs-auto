@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "tippy.js",
+    "location": "",
+    "packages": {
+      "tippy.js": "6.3.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tippy.js": {
+      "6.3.7": [
+        [ "@popperjs/core", "2.11.6" ]
+      ],
+      "unknown": [
+        [ "tippy.js", "6.3.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "@popperjs/core": {
+      "2.11.6": {
+        "hash": "sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
+      }
+    },
+    "tippy.js": {
+      "6.3.7": {
+        "hash": "sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz"
+      }
+    }
+  }
+}

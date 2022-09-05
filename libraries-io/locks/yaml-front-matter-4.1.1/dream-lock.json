@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "yaml-front-matter",
+    "location": "",
+    "packages": {
+      "yaml-front-matter": "4.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "argparse": {
+      "1.0.10": [
+        [ "sprintf-js", "1.0.3" ]
+      ]
+    },
+    "js-yaml": {
+      "3.14.1": [
+        [ "argparse", "1.0.10" ],
+        [ "esprima", "4.0.1" ]
+      ]
+    },
+    "yaml-front-matter": {
+      "4.1.1": [
+        [ "commander", "6.2.1" ],
+        [ "js-yaml", "3.14.1" ]
+      ],
+      "unknown": [
+        [ "yaml-front-matter", "4.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "argparse": {
+      "1.0.10": {
+        "hash": "sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz"
+      }
+    },
+    "commander": {
+      "6.2.1": {
+        "hash": "sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz"
+      }
+    },
+    "esprima": {
+      "4.0.1": {
+        "hash": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
+      }
+    },
+    "js-yaml": {
+      "3.14.1": {
+        "hash": "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz"
+      }
+    },
+    "sprintf-js": {
+      "1.0.3": {
+        "hash": "sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
+      }
+    },
+    "yaml-front-matter": {
+      "4.1.1": {
+        "hash": "sha512-ULGbghCLsN8Hs8vfExlqrJIe8Hl2TUjD7/zsIGMP8U+dgRXEsDXk4yydxeZJgdGiimP1XB7zhmhOB4/HyfqOyQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yaml-front-matter/-/yaml-front-matter-4.1.1.tgz"
+      }
+    }
+  }
+}

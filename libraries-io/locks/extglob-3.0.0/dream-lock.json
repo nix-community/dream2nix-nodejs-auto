@@ -1,0 +1,465 @@
+{
+  "_generic": {
+    "defaultPackage": "extglob",
+    "location": "",
+    "packages": {
+      "extglob": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {
+    "snapdragon-util": {
+      "1.0.6": [
+        [ "snapdragon-node", "1.0.6" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "define-property": {
+      "0.2.5": [
+        [ "is-descriptor", "0.1.6" ]
+      ],
+      "2.0.2": [
+        [ "is-descriptor", "1.0.2" ],
+        [ "isobject", "3.0.1" ]
+      ]
+    },
+    "expand-brackets": {
+      "4.0.0": [
+        [ "posix-character-classes", "1.0.0" ],
+        [ "regex-not", "1.0.2" ],
+        [ "snapdragon", "0.12.1" ],
+        [ "to-regex", "3.0.2" ]
+      ]
+    },
+    "extend-shallow": {
+      "3.0.2": [
+        [ "assign-symbols", "1.0.0" ],
+        [ "is-extendable", "1.0.1" ]
+      ]
+    },
+    "extglob": {
+      "3.0.0": [
+        [ "array-unique", "0.3.2" ],
+        [ "define-property", "2.0.2" ],
+        [ "expand-brackets", "4.0.0" ],
+        [ "fragment-cache", "0.2.1" ],
+        [ "regex-not", "1.0.2" ],
+        [ "snapdragon", "0.12.1" ],
+        [ "snapdragon-capture", "0.2.0" ],
+        [ "to-regex", "3.0.2" ]
+      ],
+      "unknown": [
+        [ "extglob", "3.0.0" ]
+      ]
+    },
+    "fragment-cache": {
+      "0.2.1": [
+        [ "map-cache", "0.2.2" ]
+      ]
+    },
+    "is-accessor-descriptor": {
+      "0.1.6": [
+        [ "kind-of", "3.2.2" ]
+      ],
+      "1.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-data-descriptor": {
+      "0.1.4": [
+        [ "kind-of", "3.2.2" ]
+      ],
+      "1.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-descriptor": {
+      "0.1.6": [
+        [ "is-accessor-descriptor", "0.1.6" ],
+        [ "is-data-descriptor", "0.1.4" ],
+        [ "kind-of", "5.1.0" ]
+      ],
+      "1.0.2": [
+        [ "is-accessor-descriptor", "1.0.0" ],
+        [ "is-data-descriptor", "1.0.0" ],
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-extendable": {
+      "1.0.1": [
+        [ "is-plain-object", "2.0.4" ]
+      ]
+    },
+    "is-plain-object": {
+      "2.0.4": [
+        [ "isobject", "3.0.1" ]
+      ]
+    },
+    "kind-of": {
+      "3.2.2": [
+        [ "is-buffer", "1.1.6" ]
+      ]
+    },
+    "lazy-cache": {
+      "2.0.2": [
+        [ "set-getter", "0.1.1" ]
+      ]
+    },
+    "regex-not": {
+      "1.0.2": [
+        [ "extend-shallow", "3.0.2" ],
+        [ "safe-regex", "1.1.0" ]
+      ]
+    },
+    "safe-regex": {
+      "1.1.0": [
+        [ "ret", "0.1.15" ]
+      ]
+    },
+    "set-getter": {
+      "0.1.1": [
+        [ "to-object-path", "0.3.0" ]
+      ]
+    },
+    "snapdragon": {
+      "0.12.1": [
+        [ "component-emitter", "1.3.0" ],
+        [ "define-property", "2.0.2" ],
+        [ "extend-shallow", "3.0.2" ],
+        [ "get-value", "2.0.6" ],
+        [ "isobject", "3.0.1" ],
+        [ "map-cache", "0.2.2" ],
+        [ "snapdragon-node", "1.0.6" ],
+        [ "snapdragon-util", "4.0.0" ],
+        [ "source-map", "0.5.7" ],
+        [ "source-map-resolve", "0.6.0" ],
+        [ "use", "3.1.1" ]
+      ]
+    },
+    "snapdragon-node": {
+      "1.0.6": [
+        [ "define-property", "0.2.5" ],
+        [ "isobject", "3.0.1" ],
+        [ "lazy-cache", "2.0.2" ],
+        [ "snapdragon-util", "1.0.6" ]
+      ]
+    },
+    "snapdragon-util": {
+      "1.0.6": [
+        [ "define-property", "0.2.5" ],
+        [ "kind-of", "3.2.2" ],
+        [ "lazy-cache", "2.0.2" ],
+        [ "snapdragon-node", "1.0.6" ]
+      ],
+      "4.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "source-map-resolve": {
+      "0.6.0": [
+        [ "atob", "2.1.2" ],
+        [ "decode-uri-component", "0.2.0" ]
+      ]
+    },
+    "to-object-path": {
+      "0.3.0": [
+        [ "kind-of", "3.2.2" ]
+      ]
+    },
+    "to-regex": {
+      "3.0.2": [
+        [ "define-property", "2.0.2" ],
+        [ "extend-shallow", "3.0.2" ],
+        [ "regex-not", "1.0.2" ],
+        [ "safe-regex", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "array-unique": {
+      "0.3.2": {
+        "hash": "sha512-SleRWjh9JUud2wH1hPs9rZBZ33H6T9HOiL0uwGnGx9FpE6wKGyfWugmbkEOIs6qWrZhg0LWeLziLrEwQJhs5mQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz"
+      }
+    },
+    "assign-symbols": {
+      "1.0.0": {
+        "hash": "sha512-Q+JC7Whu8HhmTdBph/Tq59IoRtoy6KAm5zzPv00WdujX82lbAL8K7WVjne7vdCsAmbF4AYaDOPyO3k0kl8qIrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz"
+      }
+    },
+    "atob": {
+      "2.1.2": {
+        "hash": "sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
+      }
+    },
+    "component-emitter": {
+      "1.3.0": {
+        "hash": "sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/component-emitter/-/component-emitter-1.3.0.tgz"
+      }
+    },
+    "decode-uri-component": {
+      "0.2.0": {
+        "hash": "sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+      }
+    },
+    "define-property": {
+      "0.2.5": {
+        "hash": "sha512-Rr7ADjQZenceVOAKop6ALkkRAmH1A4Gx9hV/7ZujPUN2rkATqFO0JZLZInbAjpZYoJ1gUx8MRMQVkYemcbMSTA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz"
+      },
+      "2.0.2": {
+        "hash": "sha512-jwK2UV4cnPpbcG7+VRARKTZPUWowwXA8bzH5NP6ud0oeAxyYPuGZUAC7hMugpCdz4BeSZl2Dl9k66CHJ/46ZYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/define-property/-/define-property-2.0.2.tgz"
+      }
+    },
+    "expand-brackets": {
+      "4.0.0": {
+        "hash": "sha512-TGRazgOxrwafQdSPISIXScDPew3h6mIvXBE72cbgZgweqRila6892tk+fYT6UBkHvSNUooC5rP2zRF/x1ay+Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/expand-brackets/-/expand-brackets-4.0.0.tgz"
+      }
+    },
+    "extend-shallow": {
+      "3.0.2": {
+        "hash": "sha512-BwY5b5Ql4+qZoefgMj2NUmx+tehVTH/Kf4k1ZEtOHNFcm2wSxMRo992l6X3TIgni2eZVTZ85xMOjF31fwZAj6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/extend-shallow/-/extend-shallow-3.0.2.tgz"
+      }
+    },
+    "extglob": {
+      "3.0.0": {
+        "hash": "sha512-tbNnRL4IMn8VdTyDTZWgT2EpI7nYcQbDncFpltVSsyairady2OttEjUowI5gHyc1/gbOI2RaqcJvUPaAU42z2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/extglob/-/extglob-3.0.0.tgz"
+      }
+    },
+    "fragment-cache": {
+      "0.2.1": {
+        "hash": "sha512-GMBAbW9antB8iZRHLoGw0b3HANt57diZYFO/HL1JGIC1MjKrdmhxvrJbupnVvpys0zsz7yBApXdQyfepKly2kA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz"
+      }
+    },
+    "get-value": {
+      "2.0.6": {
+        "hash": "sha512-Ln0UQDlxH1BapMu3GPtf7CuYNwRZf2gwCuPqbyG6pB8WfmFpzqcy4xtAaAMUhnNqjMKTiCPZG2oMT3YSx8U2NA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-value/-/get-value-2.0.6.tgz"
+      }
+    },
+    "is-accessor-descriptor": {
+      "0.1.6": {
+        "hash": "sha512-e1BM1qnDbMRG3ll2U9dSK0UMHuWOs3pY3AtcFsmvwPtKL3MML/Q86i+GilLfvqEs4GW+ExB91tQ3Ig9noDIZ+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz"
+      },
+      "1.0.0": {
+        "hash": "sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz"
+      }
+    },
+    "is-buffer": {
+      "1.1.6": {
+        "hash": "sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz"
+      }
+    },
+    "is-data-descriptor": {
+      "0.1.4": {
+        "hash": "sha512-+w9D5ulSoBNlmw9OHn3U2v51SyoCd0he+bB3xMl62oijhrspxowjU+AIcDY0N3iEJbUEkB15IlMASQsxYigvXg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz"
+      },
+      "1.0.0": {
+        "hash": "sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz"
+      }
+    },
+    "is-descriptor": {
+      "0.1.6": {
+        "hash": "sha512-avDYr0SB3DwO9zsMov0gKCESFYqCnE4hq/4z3TdUlukEy5t9C0YRq7HLrsN52NAcqXKaepeCD0n+B0arnVG3Hg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.6.tgz"
+      },
+      "1.0.2": {
+        "hash": "sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz"
+      }
+    },
+    "is-extendable": {
+      "1.0.1": {
+        "hash": "sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tgz"
+      }
+    },
+    "is-plain-object": {
+      "2.0.4": {
+        "hash": "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz"
+      }
+    },
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    },
+    "kind-of": {
+      "3.2.2": {
+        "hash": "sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz"
+      },
+      "5.1.0": {
+        "hash": "sha512-NGEErnH6F2vUuXDh+OlbcKW7/wOcfdRHaZ7VWtqCztfHri/++YKmP51OdWeGPuqCOba6kk2OTe5d02VmTB80Pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-5.1.0.tgz"
+      },
+      "6.0.3": {
+        "hash": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+      }
+    },
+    "lazy-cache": {
+      "2.0.2": {
+        "hash": "sha512-7vp2Acd2+Kz4XkzxGxaB1FWOi8KjWIWsgdfD5MCb86DWvlLqhRPM+d6Pro3iNEL5VT9mstz5hKAlcd+QR6H3aA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lazy-cache/-/lazy-cache-2.0.2.tgz"
+      }
+    },
+    "map-cache": {
+      "0.2.2": {
+        "hash": "sha512-8y/eV9QQZCiyn1SprXSrCmqJN0yNRATe+PO8ztwqrvrbdRLA3eYJF0yaR0YayLWkMbsQSKWS9N2gPcGEc4UsZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz"
+      }
+    },
+    "posix-character-classes": {
+      "1.0.0": {
+        "hash": "sha512-YXx/VWf+oJ08fmz0nwXPAQ7lxUe/HgQO2gmT0KLaX9oAWEYclXUOuZD+jDaTlqMED5OMoqOzeyOpSEt83D0HDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-1.0.0.tgz"
+      }
+    },
+    "regex-not": {
+      "1.0.2": {
+        "hash": "sha512-J6SDjUgDxQj5NusnOtdFxDwN/+HWykR8GELwctJ7mdqhcyy1xEc4SRFHUXvxTp661YaVKAjfRLZ9cCqS6tn32A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regex-not/-/regex-not-1.0.2.tgz"
+      }
+    },
+    "ret": {
+      "0.1.15": {
+        "hash": "sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ret/-/ret-0.1.15.tgz"
+      }
+    },
+    "safe-regex": {
+      "1.1.0": {
+        "hash": "sha512-aJXcif4xnaNUzvUuC5gcb46oTS7zvg4jpMTnuqtrEPlR3vFr4pxtdTwaF1Qs3Enjn9HK+ZlwQui+a7z0SywIzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
+      }
+    },
+    "set-getter": {
+      "0.1.1": {
+        "hash": "sha512-9sVWOy+gthr+0G9DzqqLaYNA7+5OKkSmcqjL9cBpDEaZrr3ShQlyX2cZ/O/ozE41oxn/Tt0LGEM/w4Rub3A3gw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/set-getter/-/set-getter-0.1.1.tgz"
+      }
+    },
+    "snapdragon": {
+      "0.12.1": {
+        "hash": "sha512-tx1/y64FQypLGStl7vJlqy3KflqZQ8cmRshrTquByxbjhTusjclsFZ+M3MpwirkF0lxcejpI4dIfNOQ+3Hshyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/snapdragon/-/snapdragon-0.12.1.tgz"
+      }
+    },
+    "snapdragon-capture": {
+      "0.2.0": {
+        "hash": "sha512-rT3nb6KcUxYjlivJlIi7M3mDsfO9GXN1nonHgCyRX63CNYvrDYX3/XoAYHqzXpKHLKi9HW923rfBUqqcn9zHwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/snapdragon-capture/-/snapdragon-capture-0.2.0.tgz"
+      }
+    },
+    "snapdragon-node": {
+      "1.0.6": {
+        "hash": "sha512-6hQdgKWLpeHi6cAwNy6lvIRDzy5wd5+RtEUtmS/xhJp8cQbo3BR/FILFOGV3G1wUtFhJTUyNNy6BVDm6HIQx8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/snapdragon-node/-/snapdragon-node-1.0.6.tgz"
+      }
+    },
+    "snapdragon-util": {
+      "1.0.6": {
+        "hash": "sha512-fCSsy4Wzm9Gq7xhiwS1nuaqHWUiDYfoTX5AjdF7YH+BwpPT1Jb1eHt9itsP5Qr9symeFY2fMckcEQCxKhSJPCw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/snapdragon-util/-/snapdragon-util-1.0.6.tgz"
+      },
+      "4.0.0": {
+        "hash": "sha512-EthB2f44R7/fdbUrGmlOIJ15k5nkC3/LvWaD6u7wu9fo4Eabk7qq1MTkSGoTWWm1hxb2lxG/r9H3KKhhNOGkgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/snapdragon-util/-/snapdragon-util-4.0.0.tgz"
+      }
+    },
+    "source-map": {
+      "0.5.7": {
+        "hash": "sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
+      }
+    },
+    "source-map-resolve": {
+      "0.6.0": {
+        "hash": "sha512-KXBr9d/fO/bWo97NXsPIAW1bFSBOuCnjbNTBMO7N59hsv5i9yzRDfcYwwt0l04+VqnKC+EwzvJZIP/qkuMgR/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-resolve/-/source-map-resolve-0.6.0.tgz"
+      }
+    },
+    "to-object-path": {
+      "0.3.0": {
+        "hash": "sha512-9mWHdnGRuh3onocaHzukyvCZhzvr6tiflAy/JRFXcJX0TjgfWA9pk9t8CMbzmBE4Jfw58pXbkngtBtqYxzNEyg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0.tgz"
+      }
+    },
+    "to-regex": {
+      "3.0.2": {
+        "hash": "sha512-FWtleNAtZ/Ki2qtqej2CXTOayOH9bHDQF+Q48VpWyDXjbYxA4Yz8iDB31zXOBUlOHHKidDbqGVrTUvQMPmBGBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/to-regex/-/to-regex-3.0.2.tgz"
+      }
+    },
+    "use": {
+      "3.1.1": {
+        "hash": "sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/use/-/use-3.1.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-plugin-react-transform",
+    "location": "",
+    "packages": {
+      "babel-plugin-react-transform": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-plugin-react-transform": {
+      "3.0.0": [
+        [ "lodash", "4.17.21" ]
+      ],
+      "unknown": [
+        [ "babel-plugin-react-transform", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-plugin-react-transform": {
+      "3.0.0": {
+        "hash": "sha512-4vJGddwPiHAOgshzZdGwYy4zRjjIr5SMY7gkOaCyIASjgpcsyLTlZNuB5rHOFoaTvGlhfo8/g4pobXPyHqm/3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-react-transform/-/babel-plugin-react-transform-3.0.0.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    }
+  }
+}

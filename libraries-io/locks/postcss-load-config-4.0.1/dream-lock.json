@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "postcss-load-config",
+    "location": "",
+    "packages": {
+      "postcss-load-config": "4.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "postcss-load-config": {
+      "4.0.1": [
+        [ "lilconfig", "2.0.6" ],
+        [ "yaml", "2.1.1" ]
+      ],
+      "unknown": [
+        [ "postcss-load-config", "4.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "lilconfig": {
+      "2.0.6": {
+        "hash": "sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.6.tgz"
+      }
+    },
+    "postcss-load-config": {
+      "4.0.1": {
+        "hash": "sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-4.0.1.tgz"
+      }
+    },
+    "yaml": {
+      "2.1.1": {
+        "hash": "sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yaml/-/yaml-2.1.1.tgz"
+      }
+    }
+  }
+}

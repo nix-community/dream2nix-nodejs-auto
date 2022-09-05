@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "rmdir",
+    "location": "",
+    "packages": {
+      "rmdir": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node.extend": {
+      "1.0.8": [
+        [ "is", "0.2.7" ],
+        [ "object-keys", "0.4.0" ]
+      ]
+    },
+    "node.flow": {
+      "1.2.3": [
+        [ "node.extend", "1.0.8" ]
+      ]
+    },
+    "rmdir": {
+      "1.2.0": [
+        [ "node.flow", "1.2.3" ]
+      ],
+      "unknown": [
+        [ "rmdir", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "is": {
+      "0.2.7": {
+        "hash": "sha512-ajQCouIvkcSnl2iRdK70Jug9mohIHVX9uKpoWnl115ov0R5mzBvRrXxrnHbsA+8AdwCwc/sfw7HXmd4I5EJBdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is/-/is-0.2.7.tgz"
+      }
+    },
+    "node.extend": {
+      "1.0.8": {
+        "hash": "sha512-yvo/DZY0kijlDF192KqLX59/Yz0S5eUrV0GnRcjsoRXVqCGt7EVK+ONq3ZlijJvH/z/447qJaOeTgOGfyFQNPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node.extend/-/node.extend-1.0.8.tgz"
+      }
+    },
+    "node.flow": {
+      "1.2.3": {
+        "hash": "sha512-f6bmAiB6wte7YTVWn5rWpz7Fh9OFHMmj8FwNkI3XnwIHRbg7H3nVncr1Kz8DnGS3idUFpRQ8D6lsecUAvjlqKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node.flow/-/node.flow-1.2.3.tgz"
+      }
+    },
+    "object-keys": {
+      "0.4.0": {
+        "hash": "sha512-ncrLw+X55z7bkl5PnUvHwFK9FcGuFYo9gtjws2XtSzL+aZ8tm830P60WJ0dSmFVaSalWieW5MD7kEdnXda9yJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-keys/-/object-keys-0.4.0.tgz"
+      }
+    },
+    "rmdir": {
+      "1.2.0": {
+        "hash": "sha512-nzZwoUqCVv00Z1YiRxledUM6MBSR2/Ij9ny6QsMJDl9nOAdwWD+Ak7FnVjHIKITdBZ8oqWpa71TrpiFOPCoKPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rmdir/-/rmdir-1.2.0.tgz"
+      }
+    }
+  }
+}

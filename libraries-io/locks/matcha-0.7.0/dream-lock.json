@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "matcha",
+    "location": "",
+    "packages": {
+      "matcha": "0.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "drip": {
+      "1.1.0": [
+        [ "tea-concat", "0.1.0" ]
+      ]
+    },
+    "electron": {
+      "0.4.1": [
+        [ "drip", "1.1.0" ]
+      ]
+    },
+    "matcha": {
+      "0.7.0": [
+        [ "electron", "0.4.1" ],
+        [ "v8-argv", "0.1.0" ]
+      ],
+      "unknown": [
+        [ "matcha", "0.7.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "drip": {
+      "1.1.0": {
+        "hash": "sha512-Db1uWNrndUsEpUSS86wUSAk71O70CBBtht5G9EaK8WsDP8ukOViXSupMog/aLjeAhhf/mMO77Ng04YpwuBtSMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/drip/-/drip-1.1.0.tgz"
+      }
+    },
+    "electron": {
+      "0.4.1": {
+        "hash": "sha512-Df03T/lkxnFmI+yxDTgZcVqc4fLLpZHTnfkUFAlgL8T4h/rIwI/KFBTqPfqIRs9TVo9rv27+YHVx9l/0tiIQ7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron/-/electron-0.4.1.tgz"
+      }
+    },
+    "matcha": {
+      "0.7.0": {
+        "hash": "sha512-RL4/GKENqz+bUFP3PPAfJrTxnsSHl+lAJBV/dNj9asqzbtWmh9Rv2rW5zWaEtg9x60SakKX3U/s52HeQyQhT1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/matcha/-/matcha-0.7.0.tgz"
+      }
+    },
+    "tea-concat": {
+      "0.1.0": {
+        "hash": "sha512-DtBfLLwLBUKht/GDHCsfIyLrygum21JdPW438Srutjj2xVtDNrD0RCP/1TGw9as+R2p3W2nPYtkiGqCpVYes+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tea-concat/-/tea-concat-0.1.0.tgz"
+      }
+    },
+    "v8-argv": {
+      "0.1.0": {
+        "hash": "sha512-fbsJRIy2BP/J6V09MP0FqMFUnsTYsLy3QO1MUooCWVtSLHLo33eMZJdnSnirHROvzxBK2HIqtXMNwINUBO0yXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/v8-argv/-/v8-argv-0.1.0.tgz"
+      }
+    }
+  }
+}

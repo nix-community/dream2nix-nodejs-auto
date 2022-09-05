@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "serialize-error",
+    "location": "",
+    "packages": {
+      "serialize-error": "11.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "serialize-error": {
+      "11.0.0": [
+        [ "type-fest", "2.19.0" ]
+      ],
+      "unknown": [
+        [ "serialize-error", "11.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "serialize-error": {
+      "11.0.0": {
+        "hash": "sha512-YKrURWDqcT3VGX/s/pCwaWtpfJEEaEw5Y4gAnQDku92b/HjVj4r4UhA5QrMVMFotymK2wIWs5xthny5SMFu7Vw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/serialize-error/-/serialize-error-11.0.0.tgz"
+      }
+    },
+    "type-fest": {
+      "2.19.0": {
+        "hash": "sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
+      }
+    }
+  }
+}

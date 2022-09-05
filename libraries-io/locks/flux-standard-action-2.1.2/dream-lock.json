@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "flux-standard-action",
+    "location": "",
+    "packages": {
+      "flux-standard-action": "2.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "flux-standard-action": {
+      "2.1.2": [
+        [ "lodash.isplainobject", "4.0.6" ],
+        [ "lodash.isstring", "4.0.1" ]
+      ],
+      "unknown": [
+        [ "flux-standard-action", "2.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "flux-standard-action": {
+      "2.1.2": {
+        "hash": "sha512-7vdgawlphCjzaMLdpZv8hlGC/FJCXu6sqE3Wuqe3HLZ22KcDiO4IFplxLDePDhEt6hgCrugt45RoUObuzZP6Kg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-2.1.2.tgz"
+      }
+    },
+    "lodash.isplainobject": {
+      "4.0.6": {
+        "hash": "sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
+      }
+    },
+    "lodash.isstring": {
+      "4.0.1": {
+        "hash": "sha512-0wJxfxH1wgO3GrbuP+dTTk7op+6L41QCXbGINEmD+ny/G/eCqGzxyCsh7159S+mgDDcoarnBw6PC1PS5+wUGgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz"
+      }
+    }
+  }
+}

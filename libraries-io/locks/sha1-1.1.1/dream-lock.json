@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "sha1",
+    "location": "",
+    "packages": {
+      "sha1": "1.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sha1": {
+      "1.1.1": [
+        [ "charenc", "0.0.2" ],
+        [ "crypt", "0.0.2" ]
+      ],
+      "unknown": [
+        [ "sha1", "1.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "charenc": {
+      "0.0.2": {
+        "hash": "sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/charenc/-/charenc-0.0.2.tgz"
+      }
+    },
+    "crypt": {
+      "0.0.2": {
+        "hash": "sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/crypt/-/crypt-0.0.2.tgz"
+      }
+    },
+    "sha1": {
+      "1.1.1": {
+        "hash": "sha512-dZBS6OrMjtgVkopB1Gmo4RQCDKiZsqcpAQpkV/aaj+FCrCg8r4I4qMkDPQjBgLIxlmu9k4nUbWq6ohXahOneYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sha1/-/sha1-1.1.1.tgz"
+      }
+    }
+  }
+}

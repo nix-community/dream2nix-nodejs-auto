@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "get-value",
+    "location": "",
+    "packages": {
+      "get-value": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "get-value": {
+      "3.0.1": [
+        [ "isobject", "3.0.1" ]
+      ],
+      "unknown": [
+        [ "get-value", "3.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "get-value": {
+      "3.0.1": {
+        "hash": "sha512-mKZj9JLQrwMBtj5wxi6MH8Z5eSKaERpAwjg43dPtlGI1ZVEgH/qC7T8/6R2OBSUA+zzHBZgICsVJaEIV2tKTDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-value/-/get-value-3.0.1.tgz"
+      }
+    },
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    }
+  }
+}

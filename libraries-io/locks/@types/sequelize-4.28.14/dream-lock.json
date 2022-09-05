@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/sequelize",
+    "location": "",
+    "packages": {
+      "@types/sequelize": "4.28.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/continuation-local-storage": {
+      "3.2.4": [
+        [ "@types/node", "18.7.15" ]
+      ]
+    },
+    "@types/sequelize": {
+      "4.28.14": [
+        [ "@types/bluebird", "3.5.36" ],
+        [ "@types/continuation-local-storage", "3.2.4" ],
+        [ "@types/lodash", "4.14.184" ],
+        [ "@types/validator", "13.7.6" ]
+      ],
+      "unknown": [
+        [ "@types/sequelize", "4.28.14" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/bluebird": {
+      "3.5.36": {
+        "hash": "sha512-HBNx4lhkxN7bx6P0++W8E289foSu8kO8GCk2unhuVggO+cE7rh9DhZUyPhUxNRG9m+5B5BTKxZQ5ZP92x/mx9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.36.tgz"
+      }
+    },
+    "@types/continuation-local-storage": {
+      "3.2.4": {
+        "hash": "sha512-OT32vCVMymU1JMPKDeY0lX3cduAr0Pm/VwIbxygMeDS4lRcv57qYXn9bMwBRcRnEpXKBb/r4xYaZCARTZllP0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/continuation-local-storage/-/continuation-local-storage-3.2.4.tgz"
+      }
+    },
+    "@types/lodash": {
+      "4.14.184": {
+        "hash": "sha512-RoZphVtHbxPZizt4IcILciSWiC6dcn+eZ8oX9IWEYfDMcocdd42f7NPI6fQj+6zI8y4E0L7gu2pcZKLGTRaV9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.184.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/sequelize": {
+      "4.28.14": {
+        "hash": "sha512-O8lTJ8YPVVaoY9xjduchDlo0MOS3w262pro2H1QMuFIo/kc/p1elP/UxLOTP2wcVO2cFd6Gvghg9ZSAiJi0GLA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sequelize/-/sequelize-4.28.14.tgz"
+      }
+    },
+    "@types/validator": {
+      "13.7.6": {
+        "hash": "sha512-uBsnWETsUagQ0n6G2wcXNIufpTNJir0zqzG4p62fhnwzs48d/iuOWEEo0d3iUxN7D+9R/8CSvWGKS+KmaD0mWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/validator/-/validator-13.7.6.tgz"
+      }
+    }
+  }
+}

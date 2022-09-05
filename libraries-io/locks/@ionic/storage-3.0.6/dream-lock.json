@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "@ionic/storage",
+    "location": "",
+    "packages": {
+      "@ionic/storage": "3.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@ionic/storage": {
+      "3.0.6": [
+        [ "localforage", "1.10.0" ]
+      ],
+      "unknown": [
+        [ "@ionic/storage", "3.0.6" ]
+      ]
+    },
+    "lie": {
+      "3.1.1": [
+        [ "immediate", "3.0.6" ]
+      ]
+    },
+    "localforage": {
+      "1.10.0": [
+        [ "lie", "3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ionic/storage": {
+      "3.0.6": {
+        "hash": "sha512-sw+zSJINIpbQCGZR9mEtb9N0WmZLuhcMVqOZJBqLuDACAMdXqG39zmp5nSVqhGI1/9X3nd0K5gVn6icyVfUnUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ionic/storage/-/storage-3.0.6.tgz"
+      }
+    },
+    "immediate": {
+      "3.0.6": {
+        "hash": "sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz"
+      }
+    },
+    "lie": {
+      "3.1.1": {
+        "hash": "sha512-RiNhHysUjhrDQntfYSfY4MU24coXXdEOgw9WGcKHNeEwffDYbF//u87M1EWaMGzuFoSbqW0C9C6lEEhDOAswfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lie/-/lie-3.1.1.tgz"
+      }
+    },
+    "localforage": {
+      "1.10.0": {
+        "hash": "sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/localforage/-/localforage-1.10.0.tgz"
+      }
+    }
+  }
+}

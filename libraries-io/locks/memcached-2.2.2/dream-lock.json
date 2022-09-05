@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "memcached",
+    "location": "",
+    "packages": {
+      "memcached": "2.2.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hashring": {
+      "3.2.0": [
+        [ "connection-parse", "0.0.7" ],
+        [ "simple-lru-cache", "0.0.2" ]
+      ]
+    },
+    "jackpot": {
+      "0.0.6": [
+        [ "retry", "0.6.0" ]
+      ]
+    },
+    "memcached": {
+      "2.2.2": [
+        [ "hashring", "3.2.0" ],
+        [ "jackpot", "0.0.6" ]
+      ],
+      "unknown": [
+        [ "memcached", "2.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "connection-parse": {
+      "0.0.7": {
+        "hash": "sha512-bTTG28diWg7R7/+qE5NZumwPbCiJOT8uPdZYu674brDjBWQctbaQbYlDKhalS+4i5HxIx+G8dZsnBHKzWpp01A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/connection-parse/-/connection-parse-0.0.7.tgz"
+      }
+    },
+    "hashring": {
+      "3.2.0": {
+        "hash": "sha512-xCMovURClsQZ+TR30icCZj+34Fq1hs0y6YCASD6ZqdRfYRybb5Iadws2WS+w09mGM/kf9xyA5FCdJQGcgcraSA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hashring/-/hashring-3.2.0.tgz"
+      }
+    },
+    "jackpot": {
+      "0.0.6": {
+        "hash": "sha512-rbWXX+A9ooq03/dfavLg9OXQ8YB57Wa7PY5c4LfU3CgFpwEhhl3WyXTQVurkaT7zBM5I9SSOaiLyJ4I0DQmC0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jackpot/-/jackpot-0.0.6.tgz"
+      }
+    },
+    "memcached": {
+      "2.2.2": {
+        "hash": "sha512-lHwUmqkT9WdUUgRsAvquO4xsKXYaBd644Orz31tuth+w/BIfFNuJMWwsG7sa7H3XXytaNfPTZ5R/yOG3d9zJMA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/memcached/-/memcached-2.2.2.tgz"
+      }
+    },
+    "retry": {
+      "0.6.0": {
+        "hash": "sha512-RgncoxLF1GqwAzTZs/K2YpZkWrdIYbXsmesdomi+iPilSzjUyr/wzNIuteoTVaWokzdwZIJ9NHRNQa/RUiOB2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/retry/-/retry-0.6.0.tgz"
+      }
+    },
+    "simple-lru-cache": {
+      "0.0.2": {
+        "hash": "sha512-uEv/AFO0ADI7d99OHDmh1QfYzQk/izT1vCmu/riQfh7qjBVUUgRT87E5s5h7CxWCA/+YoZerykpEthzVrW3LIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/simple-lru-cache/-/simple-lru-cache-0.0.2.tgz"
+      }
+    }
+  }
+}

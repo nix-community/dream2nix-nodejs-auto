@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "extend-shallow",
+    "location": "",
+    "packages": {
+      "extend-shallow": "3.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "extend-shallow": {
+      "3.0.2": [
+        [ "assign-symbols", "1.0.0" ],
+        [ "is-extendable", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "extend-shallow", "3.0.2" ]
+      ]
+    },
+    "is-extendable": {
+      "1.0.1": [
+        [ "is-plain-object", "2.0.4" ]
+      ]
+    },
+    "is-plain-object": {
+      "2.0.4": [
+        [ "isobject", "3.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "assign-symbols": {
+      "1.0.0": {
+        "hash": "sha512-Q+JC7Whu8HhmTdBph/Tq59IoRtoy6KAm5zzPv00WdujX82lbAL8K7WVjne7vdCsAmbF4AYaDOPyO3k0kl8qIrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz"
+      }
+    },
+    "extend-shallow": {
+      "3.0.2": {
+        "hash": "sha512-BwY5b5Ql4+qZoefgMj2NUmx+tehVTH/Kf4k1ZEtOHNFcm2wSxMRo992l6X3TIgni2eZVTZ85xMOjF31fwZAj6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/extend-shallow/-/extend-shallow-3.0.2.tgz"
+      }
+    },
+    "is-extendable": {
+      "1.0.1": {
+        "hash": "sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tgz"
+      }
+    },
+    "is-plain-object": {
+      "2.0.4": {
+        "hash": "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz"
+      }
+    },
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    }
+  }
+}

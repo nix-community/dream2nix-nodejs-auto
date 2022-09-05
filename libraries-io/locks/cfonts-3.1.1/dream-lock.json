@@ -1,0 +1,153 @@
+{
+  "_generic": {
+    "defaultPackage": "cfonts",
+    "location": "",
+    "packages": {
+      "cfonts": "3.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cfonts": {
+      "3.1.1": [
+        [ "supports-color", "8.1.1" ],
+        [ "window-size", "1.1.1" ]
+      ],
+      "unknown": [
+        [ "cfonts", "3.1.1" ]
+      ]
+    },
+    "define-property": {
+      "1.0.0": [
+        [ "is-descriptor", "1.0.2" ]
+      ]
+    },
+    "is-accessor-descriptor": {
+      "1.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-data-descriptor": {
+      "1.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-descriptor": {
+      "1.0.2": [
+        [ "is-accessor-descriptor", "1.0.0" ],
+        [ "is-data-descriptor", "1.0.0" ],
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-number": {
+      "3.0.0": [
+        [ "kind-of", "3.2.2" ]
+      ]
+    },
+    "kind-of": {
+      "3.2.2": [
+        [ "is-buffer", "1.1.6" ]
+      ]
+    },
+    "supports-color": {
+      "8.1.1": [
+        [ "has-flag", "4.0.0" ]
+      ]
+    },
+    "window-size": {
+      "1.1.1": [
+        [ "define-property", "1.0.0" ],
+        [ "is-number", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cfonts": {
+      "3.1.1": {
+        "hash": "sha512-PFknL/y+QVzoVmnm4X/PLd+t5Bt4aSvFBebpvyjcVUb81jHIVHFKvAopADbTk9tnfLLC2RHFZgdVa9YAwQp1mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cfonts/-/cfonts-3.1.1.tgz"
+      }
+    },
+    "define-property": {
+      "1.0.0": {
+        "hash": "sha512-cZTYKFWspt9jZsMscWo8sc/5lbPC9Q0N5nBLgb+Yd915iL3udB1uFgS3B8YCx66UVHq018DAVFoee7x+gxggeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz"
+      }
+    },
+    "has-flag": {
+      "4.0.0": {
+        "hash": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+      }
+    },
+    "is-accessor-descriptor": {
+      "1.0.0": {
+        "hash": "sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz"
+      }
+    },
+    "is-buffer": {
+      "1.1.6": {
+        "hash": "sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz"
+      }
+    },
+    "is-data-descriptor": {
+      "1.0.0": {
+        "hash": "sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz"
+      }
+    },
+    "is-descriptor": {
+      "1.0.2": {
+        "hash": "sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz"
+      }
+    },
+    "is-number": {
+      "3.0.0": {
+        "hash": "sha512-4cboCqIpliH+mAvFNegjZQ4kgKc3ZUhQVr3HvWbSh5q3WH2v82ct+T2Y1hdU5Gdtorx/cLifQjqCbL7bpznLTg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz"
+      }
+    },
+    "kind-of": {
+      "3.2.2": {
+        "hash": "sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz"
+      },
+      "6.0.3": {
+        "hash": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+      }
+    },
+    "supports-color": {
+      "8.1.1": {
+        "hash": "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz"
+      }
+    },
+    "window-size": {
+      "1.1.1": {
+        "hash": "sha512-5D/9vujkmVQ7pSmc0SCBmHXbkv6eaHwXEx65MywhmUMsI8sGqJ972APq1lotfcwMKPFLuCFfL8xGHLIp7jaBmA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/window-size/-/window-size-1.1.1.tgz"
+      }
+    }
+  }
+}

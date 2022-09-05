@@ -1,0 +1,106 @@
+{
+  "_generic": {
+    "defaultPackage": "@polymer/iron-icons",
+    "location": "",
+    "packages": {
+      "@polymer/iron-icons": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@polymer/iron-flex-layout": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-icon": {
+      "3.0.1": [
+        [ "@polymer/iron-flex-layout", "3.0.1" ],
+        [ "@polymer/iron-meta", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-icons": {
+      "3.0.1": [
+        [ "@polymer/iron-icon", "3.0.1" ],
+        [ "@polymer/iron-iconset-svg", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ],
+      "unknown": [
+        [ "@polymer/iron-icons", "3.0.1" ]
+      ]
+    },
+    "@polymer/iron-iconset-svg": {
+      "3.0.1": [
+        [ "@polymer/iron-meta", "3.0.1" ],
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/iron-meta": {
+      "3.0.1": [
+        [ "@polymer/polymer", "3.5.1" ]
+      ]
+    },
+    "@polymer/polymer": {
+      "3.5.1": [
+        [ "@webcomponents/shadycss", "1.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@polymer/iron-flex-layout": {
+      "3.0.1": {
+        "hash": "sha512-7gB869czArF+HZcPTVSgvA7tXYFze9EKckvM95NB7SqYF+NnsQyhoXgKnpFwGyo95lUjUW9TFDLUwDXnCYFtkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-icon": {
+      "3.0.1": {
+        "hash": "sha512-QLPwirk+UPZNaLnMew9VludXA4CWUCenRewgEcGYwdzVgDPCDbXxy6vRJjmweZobMQv/oVLppT2JZtJFnPxX6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-icon/-/iron-icon-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-icons": {
+      "3.0.1": {
+        "hash": "sha512-xtEI8erH2GIBiF3QxEMyW81XuVjguu6Le5WjEEpX67qd9z7jjmc4T/ke3zRUlnDydex9p8ytcwVpMIKcyvjYAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-icons/-/iron-icons-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-iconset-svg": {
+      "3.0.1": {
+        "hash": "sha512-XNwURbNHRw6u2fJe05O5fMYye6GSgDlDqCO+q6K1zAnKIrpgZwf2vTkBd5uCcZwsN0FyCB3mvNZx4jkh85dRDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.1.tgz"
+      }
+    },
+    "@polymer/iron-meta": {
+      "3.0.1": {
+        "hash": "sha512-pWguPugiLYmWFV9UWxLWzZ6gm4wBwQdDy4VULKwdHCqR7OP7u98h+XDdGZsSlDPv6qoryV/e3tGHlTIT0mbzJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/iron-meta/-/iron-meta-3.0.1.tgz"
+      }
+    },
+    "@polymer/polymer": {
+      "3.5.1": {
+        "hash": "sha512-JlAHuy+1qIC6hL1ojEUfIVD58fzTpJAoCxFwV5yr0mYTXV1H8bz5zy0+rC963Cgr9iNXQ4T9ncSjC2fkF9BQfw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/polymer/-/polymer-3.5.1.tgz"
+      }
+    },
+    "@webcomponents/shadycss": {
+      "1.11.0": {
+        "hash": "sha512-L5O/+UPum8erOleNjKq6k58GVl3fNsEQdSOyh0EUhNmi7tHUyRuCJy1uqJiWydWcLARE5IPsMoPYMZmUGrz1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@webcomponents/shadycss/-/shadycss-1.11.0.tgz"
+      }
+    }
+  }
+}

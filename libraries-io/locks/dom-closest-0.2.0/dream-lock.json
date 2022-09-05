@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "dom-closest",
+    "location": "",
+    "packages": {
+      "dom-closest": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dom-closest": {
+      "0.2.0": [
+        [ "dom-matches", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "dom-closest", "0.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "dom-closest": {
+      "0.2.0": {
+        "hash": "sha512-6neTn1BtJlTSt+XSISXpnOsF1uni1CHsP/tmzZMGWxasYFHsBOqrHPnzmneqEgKhpagnfnfSfbvRRW0xFsBHAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-closest/-/dom-closest-0.2.0.tgz"
+      }
+    },
+    "dom-matches": {
+      "2.0.0": {
+        "hash": "sha512-2VI856xEDCLXi19W+4BechR5/oIS6bKCKqcf16GR8Pg7dGLJ/eBOWVbCmQx2ISvYH6wTNx5Ef7JTOw1dRGRx6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-matches/-/dom-matches-2.0.0.tgz"
+      }
+    }
+  }
+}

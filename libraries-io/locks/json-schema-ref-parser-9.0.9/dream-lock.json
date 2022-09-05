@@ -1,0 +1,89 @@
+{
+  "_generic": {
+    "defaultPackage": "json-schema-ref-parser",
+    "location": "",
+    "packages": {
+      "json-schema-ref-parser": "9.0.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": {
+      "9.0.9": [
+        [ "@jsdevtools/ono", "7.1.3" ],
+        [ "@types/json-schema", "7.0.11" ],
+        [ "call-me-maybe", "1.0.1" ],
+        [ "js-yaml", "4.1.0" ]
+      ]
+    },
+    "js-yaml": {
+      "4.1.0": [
+        [ "argparse", "2.0.1" ]
+      ]
+    },
+    "json-schema-ref-parser": {
+      "9.0.9": [
+        [ "@apidevtools/json-schema-ref-parser", "9.0.9" ]
+      ],
+      "unknown": [
+        [ "json-schema-ref-parser", "9.0.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@apidevtools/json-schema-ref-parser": {
+      "9.0.9": {
+        "hash": "sha512-GBD2Le9w2+lVFoc4vswGI/TjkNIZSVp7+9xPf+X3uidBfWnAeUWmquteSyt0+VCrhNMWj/FTABISQrD3Z/YA+w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.0.9.tgz"
+      }
+    },
+    "@jsdevtools/ono": {
+      "7.1.3": {
+        "hash": "sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jsdevtools/ono/-/ono-7.1.3.tgz"
+      }
+    },
+    "@types/json-schema": {
+      "7.0.11": {
+        "hash": "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
+      }
+    },
+    "argparse": {
+      "2.0.1": {
+        "hash": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz"
+      }
+    },
+    "call-me-maybe": {
+      "1.0.1": {
+        "hash": "sha512-wCyFsDQkKPwwF8BDwOiWNx/9K45L/hvggQiDbve+viMNMQnWhrlYIuBk09offfwCRtCO9P6XwUttufzU11WCVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.1.tgz"
+      }
+    },
+    "js-yaml": {
+      "4.1.0": {
+        "hash": "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz"
+      }
+    },
+    "json-schema-ref-parser": {
+      "9.0.9": {
+        "hash": "sha512-qcP2lmGy+JUoQJ4DOQeLaZDqH9qSkeGCK3suKWxJXS82dg728Mn3j97azDMaOUmJAN4uCq91LdPx4K7E8F1a7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json-schema-ref-parser/-/json-schema-ref-parser-9.0.9.tgz"
+      }
+    }
+  }
+}

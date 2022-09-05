@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "merge-options",
+    "location": "",
+    "packages": {
+      "merge-options": "3.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "merge-options": {
+      "3.0.4": [
+        [ "is-plain-obj", "2.1.0" ]
+      ],
+      "unknown": [
+        [ "merge-options", "3.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "is-plain-obj": {
+      "2.1.0": {
+        "hash": "sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-2.1.0.tgz"
+      }
+    },
+    "merge-options": {
+      "3.0.4": {
+        "hash": "sha512-2Sug1+knBjkaMsMgf1ctR1Ujx+Ayku4EdJN4Z+C2+JzoeF7A3OZ9KM2GY0CpQS51NR61LTurMJrRKPhSs3ZRTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/merge-options/-/merge-options-3.0.4.tgz"
+      }
+    }
+  }
+}

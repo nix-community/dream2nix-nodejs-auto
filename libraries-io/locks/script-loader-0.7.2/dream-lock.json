@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "script-loader",
+    "location": "",
+    "packages": {
+      "script-loader": "0.7.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "script-loader": {
+      "0.7.2": [
+        [ "raw-loader", "0.5.1" ]
+      ],
+      "unknown": [
+        [ "script-loader", "0.7.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "raw-loader": {
+      "0.5.1": {
+        "hash": "sha512-sf7oGoLuaYAScB4VGr0tzetsYlS8EJH6qnTCfQ/WVEa89hALQ4RQfCKt5xCyPQKPDUbVUAIP1QsxAwfAjlDp7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/raw-loader/-/raw-loader-0.5.1.tgz"
+      }
+    },
+    "script-loader": {
+      "0.7.2": {
+        "hash": "sha512-UMNLEvgOAQuzK8ji8qIscM3GIrRCWN6MmMXGD4SD5l6cSycgGsCo0tX5xRnfQcoghqct0tjHjcykgI1PyBE2aA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/script-loader/-/script-loader-0.7.2.tgz"
+      }
+    }
+  }
+}

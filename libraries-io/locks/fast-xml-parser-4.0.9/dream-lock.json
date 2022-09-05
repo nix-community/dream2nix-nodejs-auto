@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "fast-xml-parser",
+    "location": "",
+    "packages": {
+      "fast-xml-parser": "4.0.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fast-xml-parser": {
+      "4.0.9": [
+        [ "strnum", "1.0.5" ]
+      ],
+      "unknown": [
+        [ "fast-xml-parser", "4.0.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "fast-xml-parser": {
+      "4.0.9": {
+        "hash": "sha512-4G8EzDg2Nb1Qurs3f7BpFV4+jpMVsdgLVuG1Uv8O2OHJfVCg7gcA53obuKbmVqzd4Y7YXVBK05oJG7hzGIdyzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.0.9.tgz"
+      }
+    },
+    "strnum": {
+      "1.0.5": {
+        "hash": "sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strnum/-/strnum-1.0.5.tgz"
+      }
+    }
+  }
+}

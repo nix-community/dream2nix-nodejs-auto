@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "gzip-size",
+    "location": "",
+    "packages": {
+      "gzip-size": "7.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "gzip-size": {
+      "7.0.0": [
+        [ "duplexer", "0.1.2" ]
+      ],
+      "unknown": [
+        [ "gzip-size", "7.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "duplexer": {
+      "0.1.2": {
+        "hash": "sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz"
+      }
+    },
+    "gzip-size": {
+      "7.0.0": {
+        "hash": "sha512-O1Ld7Dr+nqPnmGpdhzLmMTQ4vAsD+rHwMm1NLUmoUFFymBOMKxCCrtDxqdBRYXdeEPEi3SyoR4TizJLQrnKBNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gzip-size/-/gzip-size-7.0.0.tgz"
+      }
+    }
+  }
+}

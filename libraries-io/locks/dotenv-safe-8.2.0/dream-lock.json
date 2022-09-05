@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "dotenv-safe",
+    "location": "",
+    "packages": {
+      "dotenv-safe": "8.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dotenv-safe": {
+      "8.2.0": [
+        [ "dotenv", "8.6.0" ]
+      ],
+      "unknown": [
+        [ "dotenv-safe", "8.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "dotenv": {
+      "8.6.0": {
+        "hash": "sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dotenv/-/dotenv-8.6.0.tgz"
+      }
+    },
+    "dotenv-safe": {
+      "8.2.0": {
+        "hash": "sha512-uWwWWdUQkSs5a3mySDB22UtNwyEYi0JtEQu+vDzIqr9OjbDdC2Ip13PnSpi/fctqlYmzkxCeabiyCAOROuAIaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dotenv-safe/-/dotenv-safe-8.2.0.tgz"
+      }
+    }
+  }
+}

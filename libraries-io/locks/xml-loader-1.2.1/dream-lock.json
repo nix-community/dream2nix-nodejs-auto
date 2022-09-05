@@ -1,0 +1,109 @@
+{
+  "_generic": {
+    "defaultPackage": "xml-loader",
+    "location": "",
+    "packages": {
+      "xml-loader": "1.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "json5": {
+      "1.0.1": [
+        [ "minimist", "1.2.6" ]
+      ]
+    },
+    "loader-utils": {
+      "1.4.0": [
+        [ "big.js", "5.2.2" ],
+        [ "emojis-list", "3.0.0" ],
+        [ "json5", "1.0.1" ]
+      ]
+    },
+    "xml-loader": {
+      "1.2.1": [
+        [ "loader-utils", "1.4.0" ],
+        [ "xml2js", "0.4.23" ]
+      ],
+      "unknown": [
+        [ "xml-loader", "1.2.1" ]
+      ]
+    },
+    "xml2js": {
+      "0.4.23": [
+        [ "sax", "1.2.4" ],
+        [ "xmlbuilder", "11.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "big.js": {
+      "5.2.2": {
+        "hash": "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+      }
+    },
+    "emojis-list": {
+      "3.0.0": {
+        "hash": "sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+      }
+    },
+    "json5": {
+      "1.0.1": {
+        "hash": "sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-1.0.1.tgz"
+      }
+    },
+    "loader-utils": {
+      "1.4.0": {
+        "hash": "sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.0.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    },
+    "sax": {
+      "1.2.4": {
+        "hash": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
+      }
+    },
+    "xml-loader": {
+      "1.2.1": {
+        "hash": "sha512-3PYzgwxsRHDFawXZ2r//SuIJ77PksRnyRfV6Ke+3c5ArcJsZOrc+kFnzFO8iVu4mcXBkVTzIBotPyv1Y2ufGkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xml-loader/-/xml-loader-1.2.1.tgz"
+      }
+    },
+    "xml2js": {
+      "0.4.23": {
+        "hash": "sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz"
+      }
+    },
+    "xmlbuilder": {
+      "11.0.1": {
+        "hash": "sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz"
+      }
+    }
+  }
+}

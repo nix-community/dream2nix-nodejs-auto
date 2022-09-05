@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "@s-ui/component-dependencies",
+    "location": "",
+    "packages": {
+      "@s-ui/component-dependencies": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@s-ui/component-dependencies": {
+      "1.7.0": [
+        [ "@s-ui/theme", "8.123.0" ],
+        [ "@schibstedspain/sui-theme", "8.69.0" ],
+        [ "@schibstedspain/theme-basic", "7.28.0" ],
+        [ "classnames", "2.2.5" ]
+      ],
+      "unknown": [
+        [ "@s-ui/component-dependencies", "1.7.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@s-ui/component-dependencies": {
+      "1.7.0": {
+        "hash": "sha512-WWqnhZm1cP19w5rswotAaLlsT1HY28oX6FJyDKeQAQiOgymklfeb3BjYBO9QGqmGzOi4gYe4kdGOZbcW6kG6ig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@s-ui/component-dependencies/-/component-dependencies-1.7.0.tgz"
+      }
+    },
+    "@s-ui/theme": {
+      "8.123.0": {
+        "hash": "sha512-2AsCYvdF3ZNPDdeB32T7FFz7kzIwsgll6Yk8YX4MFMmZFKCYwVhXecaojPy/a2yVugx8EhMyMV8kFNOdN9H/Xw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@s-ui/theme/-/theme-8.123.0.tgz"
+      }
+    },
+    "@schibstedspain/sui-theme": {
+      "8.69.0": {
+        "hash": "sha512-0WzFXGOITJug30rBq1M7Ndmdaeizu6biTN/BdrHhfivYlfBd8xDJ8p7P2JcrH8cCXsmo1aL/ql1HtC8Y5l/i1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@schibstedspain/sui-theme/-/sui-theme-8.69.0.tgz"
+      }
+    },
+    "@schibstedspain/theme-basic": {
+      "7.28.0": {
+        "hash": "sha512-oyKPJnn9HZMVDuNKSrj1gtKUKntnctGiiRGt00QXlHNfGngKcGQmC42KiuCG6XmhFs9oTY38+BL8jCtkGrs+Lw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@schibstedspain/theme-basic/-/theme-basic-7.28.0.tgz"
+      }
+    },
+    "classnames": {
+      "2.2.5": {
+        "hash": "sha512-DTt3GhOUDKhh4ONwIJW4lmhyotQmV2LjNlGK/J2hkwUcqcbKkCLAdJPtxQnxnlc7SR3f1CEXCyMmc7WLUsWbNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/classnames/-/classnames-2.2.5.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "prompt-sync",
+    "location": "",
+    "packages": {
+      "prompt-sync": "4.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prompt-sync": {
+      "4.2.0": [
+        [ "strip-ansi", "5.2.0" ]
+      ],
+      "unknown": [
+        [ "prompt-sync", "4.2.0" ]
+      ]
+    },
+    "strip-ansi": {
+      "5.2.0": [
+        [ "ansi-regex", "4.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-regex": {
+      "4.1.1": {
+        "hash": "sha512-ILlv4k/3f6vfQ4OoP2AGvirOktlQ98ZEL1k9FaQjxa3L1abBgbuTDAdPOpvbGncC0BTVQrl+OM8xZGK6tWXt7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz"
+      }
+    },
+    "prompt-sync": {
+      "4.2.0": {
+        "hash": "sha512-BuEzzc5zptP5LsgV5MZETjDaKSWfchl5U9Luiu8SKp7iZWD5tZalOxvNcZRwv+d2phNFr8xlbxmFNcRKfJOzJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.2.0.tgz"
+      }
+    },
+    "strip-ansi": {
+      "5.2.0": {
+        "hash": "sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz"
+      }
+    }
+  }
+}

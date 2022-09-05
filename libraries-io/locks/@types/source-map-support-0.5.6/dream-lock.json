@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/source-map-support",
+    "location": "",
+    "packages": {
+      "@types/source-map-support": "0.5.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/source-map-support": {
+      "0.5.6": [
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "@types/source-map-support", "0.5.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/source-map-support": {
+      "0.5.6": {
+        "hash": "sha512-b2nJ9YyXmkhGaa2b8VLM0kJ04xxwNyijcq12/kDoomCt43qbHBeK2SLNJ9iJmETaAj+bKUT05PQUu3Q66GvLhQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/source-map-support/-/source-map-support-0.5.6.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    }
+  }
+}

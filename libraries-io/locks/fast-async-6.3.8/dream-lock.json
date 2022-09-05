@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "fast-async",
+    "location": "",
+    "packages": {
+      "fast-async": "6.3.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fast-async": {
+      "6.3.8": [
+        [ "nodent-compiler", "3.2.13" ],
+        [ "nodent-runtime", "3.2.1" ]
+      ],
+      "unknown": [
+        [ "fast-async", "6.3.8" ]
+      ]
+    },
+    "nodent-compiler": {
+      "3.2.13": [
+        [ "acorn", "5.7.4" ],
+        [ "acorn-es7-plugin", "1.1.7" ],
+        [ "nodent-transform", "3.2.9" ],
+        [ "source-map", "0.5.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "acorn": {
+      "5.7.4": {
+        "hash": "sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz"
+      }
+    },
+    "acorn-es7-plugin": {
+      "1.1.7": {
+        "hash": "sha512-7D+8kscFMf6F2t+8ZRYmv82CncDZETsaZ4dEl5lh3qQez7FVABk2Vz616SAbnIq1PbNsLVaZjl2oSkk5BWAKng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn-es7-plugin/-/acorn-es7-plugin-1.1.7.tgz"
+      }
+    },
+    "fast-async": {
+      "6.3.8": {
+        "hash": "sha512-TjlooyqrYm/gOXjD2UHNwfrWkvTbzU105Nk4bvcRTeRoL+wIeK6rqbqDg3CN9z5p37cE2iXhP6SxQFz8OVIaUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-async/-/fast-async-6.3.8.tgz"
+      }
+    },
+    "nodent-compiler": {
+      "3.2.13": {
+        "hash": "sha512-nzzWPXZwSdsWie34om+4dLrT/5l1nT/+ig1v06xuSgMtieJVAnMQFuZihUwREM+M7dFso9YoHfDmweexEXXrrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodent-compiler/-/nodent-compiler-3.2.13.tgz"
+      }
+    },
+    "nodent-runtime": {
+      "3.2.1": {
+        "hash": "sha512-7Ws63oC+215smeKJQCxzrK21VFVlCFBkwl0MOObt0HOpVQXs3u483sAmtkF33nNqZ5rSOQjB76fgyPBmAUrtCA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodent-runtime/-/nodent-runtime-3.2.1.tgz"
+      }
+    },
+    "nodent-transform": {
+      "3.2.9": {
+        "hash": "sha512-4a5FH4WLi+daH/CGD5o/JWRR8W5tlCkd3nrDSkxbOzscJTyTUITltvOJeQjg3HJ1YgEuNyiPhQbvbtRjkQBByQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodent-transform/-/nodent-transform-3.2.9.tgz"
+      }
+    },
+    "source-map": {
+      "0.5.7": {
+        "hash": "sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_generic": {
+    "defaultPackage": "apollo-client",
+    "location": "",
+    "packages": {
+      "apollo-client": "2.6.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@wry/equality": {
+      "0.1.11": [
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "apollo-cache": {
+      "1.3.5": [
+        [ "apollo-utilities", "1.3.4" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "apollo-client": {
+      "2.6.10": [
+        [ "@types/zen-observable", "0.8.3" ],
+        [ "apollo-cache", "1.3.5" ],
+        [ "apollo-link", "1.2.14" ],
+        [ "apollo-utilities", "1.3.4" ],
+        [ "symbol-observable", "1.2.0" ],
+        [ "ts-invariant", "0.4.4" ],
+        [ "tslib", "1.14.1" ],
+        [ "zen-observable", "0.8.15" ]
+      ],
+      "unknown": [
+        [ "apollo-client", "2.6.10" ]
+      ]
+    },
+    "apollo-link": {
+      "1.2.14": [
+        [ "apollo-utilities", "1.3.4" ],
+        [ "ts-invariant", "0.4.4" ],
+        [ "tslib", "1.14.1" ],
+        [ "zen-observable-ts", "0.8.21" ]
+      ]
+    },
+    "apollo-utilities": {
+      "1.3.4": [
+        [ "@wry/equality", "0.1.11" ],
+        [ "fast-json-stable-stringify", "2.1.0" ],
+        [ "ts-invariant", "0.4.4" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "ts-invariant": {
+      "0.4.4": [
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "zen-observable-ts": {
+      "0.8.21": [
+        [ "tslib", "1.14.1" ],
+        [ "zen-observable", "0.8.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/zen-observable": {
+      "0.8.3": {
+        "hash": "sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/zen-observable/-/zen-observable-0.8.3.tgz"
+      }
+    },
+    "@wry/equality": {
+      "0.1.11": {
+        "hash": "sha512-mwEVBDUVODlsQQ5dfuLUS5/Tf7jqUKyhKYHmVi4fPB6bDMOfWvUPJmKgS1Z7Za/sOI3vzWt4+O7yCiL/70MogA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@wry/equality/-/equality-0.1.11.tgz"
+      }
+    },
+    "apollo-cache": {
+      "1.3.5": {
+        "hash": "sha512-1XoDy8kJnyWY/i/+gLTEbYLnoiVtS8y7ikBr/IfmML4Qb+CM7dEEbIUOjnY716WqmZ/UpXIxTfJsY7rMcqiCXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/apollo-cache/-/apollo-cache-1.3.5.tgz"
+      }
+    },
+    "apollo-client": {
+      "2.6.10": {
+        "hash": "sha512-jiPlMTN6/5CjZpJOkGeUV0mb4zxx33uXWdj/xQCfAMkuNAC3HN7CvYDyMHHEzmcQ5GV12LszWoQ/VlxET24CtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/apollo-client/-/apollo-client-2.6.10.tgz"
+      }
+    },
+    "apollo-link": {
+      "1.2.14": {
+        "hash": "sha512-p67CMEFP7kOG1JZ0ZkYZwRDa369w5PIjtMjvrQd/HnIV8FRsHRqLqK+oAZQnFa1DDdZtOtHTi+aMIW6EatC2jg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/apollo-link/-/apollo-link-1.2.14.tgz"
+      }
+    },
+    "apollo-utilities": {
+      "1.3.4": {
+        "hash": "sha512-pk2hiWrCXMAy2fRPwEyhvka+mqwzeP60Jr1tRYi5xru+3ko94HI9o6lK0CT33/w4RDlxWchmdhDCrvdr+pHCig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/apollo-utilities/-/apollo-utilities-1.3.4.tgz"
+      }
+    },
+    "fast-json-stable-stringify": {
+      "2.1.0": {
+        "hash": "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz"
+      }
+    },
+    "graphql": {
+      "15.8.0": {
+        "hash": "sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graphql/-/graphql-15.8.0.tgz"
+      }
+    },
+    "symbol-observable": {
+      "1.2.0": {
+        "hash": "sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz"
+      }
+    },
+    "ts-invariant": {
+      "0.4.4": {
+        "hash": "sha512-uEtWkFM/sdZvRNNDL3Ehu4WVpwaulhwQszV8mrtcdeE8nN00BV9mAmQ88RkrBhFgl9gMgvjJLAQcZbnPXI9mlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ts-invariant/-/ts-invariant-0.4.4.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    },
+    "zen-observable": {
+      "0.8.15": {
+        "hash": "sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/zen-observable/-/zen-observable-0.8.15.tgz"
+      }
+    },
+    "zen-observable-ts": {
+      "0.8.21": {
+        "hash": "sha512-Yj3yXweRc8LdRMrCC8nIc4kkjWecPAUVh0TI0OUrWXx6aX790vLcDlWca6I4vsyCGH3LpWxq0dJRcMOFoVqmeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/zen-observable-ts/-/zen-observable-ts-0.8.21.tgz"
+      }
+    }
+  }
+}

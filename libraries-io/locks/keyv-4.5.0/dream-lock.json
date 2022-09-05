@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "keyv",
+    "location": "",
+    "packages": {
+      "keyv": "4.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "keyv": {
+      "4.5.0": [
+        [ "json-buffer", "3.0.1" ]
+      ],
+      "unknown": [
+        [ "keyv", "4.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "json-buffer": {
+      "3.0.1": {
+        "hash": "sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz"
+      }
+    },
+    "keyv": {
+      "4.5.0": {
+        "hash": "sha512-2YvuMsA+jnFGtBareKqgANOEKe1mk3HKiXu2fRmAfyxG0MJAywNhi5ttWA3PMjl4NmpyjZNbFifR2vNjW1znfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/keyv/-/keyv-4.5.0.tgz"
+      }
+    }
+  }
+}

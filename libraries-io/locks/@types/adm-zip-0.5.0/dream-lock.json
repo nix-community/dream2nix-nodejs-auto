@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/adm-zip",
+    "location": "",
+    "packages": {
+      "@types/adm-zip": "0.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/adm-zip": {
+      "0.5.0": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/adm-zip", "0.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/adm-zip": {
+      "0.5.0": {
+        "hash": "sha512-FCJBJq9ODsQZUNURo5ILAQueuA8WJhRvuihS3ke2iI25mJlfV2LK8jG2Qj2z2AWg8U0FtWWqBHVRetceLskSaw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/adm-zip/-/adm-zip-0.5.0.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "cookies",
+    "location": "",
+    "packages": {
+      "cookies": "0.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cookies": {
+      "0.8.0": [
+        [ "depd", "2.0.0" ],
+        [ "keygrip", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "cookies", "0.8.0" ]
+      ]
+    },
+    "keygrip": {
+      "1.1.0": [
+        [ "tsscmp", "1.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "cookies": {
+      "0.8.0": {
+        "hash": "sha512-8aPsApQfebXnuI+537McwYsDtjVxGm8gTIzQI3FDW6t5t/DAhERxtnbEPN/8RX+uZthoz4eCOgloXaE5cYyNow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cookies/-/cookies-0.8.0.tgz"
+      }
+    },
+    "depd": {
+      "2.0.0": {
+        "hash": "sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz"
+      }
+    },
+    "keygrip": {
+      "1.1.0": {
+        "hash": "sha512-iYSchDJ+liQ8iwbSI2QqsQOvqv58eJCEanyJPJi+Khyu8smkcKSFUCbPwzFcL7YVtZ6eONjqRX/38caJ7QjRAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/keygrip/-/keygrip-1.1.0.tgz"
+      }
+    },
+    "tsscmp": {
+      "1.0.6": {
+        "hash": "sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tsscmp/-/tsscmp-1.0.6.tgz"
+      }
+    }
+  }
+}

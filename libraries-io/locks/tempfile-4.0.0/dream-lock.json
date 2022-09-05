@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "tempfile",
+    "location": "",
+    "packages": {
+      "tempfile": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tempfile": {
+      "4.0.0": [
+        [ "temp-dir", "2.0.0" ],
+        [ "uuid", "8.3.2" ]
+      ],
+      "unknown": [
+        [ "tempfile", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "temp-dir": {
+      "2.0.0": {
+        "hash": "sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/temp-dir/-/temp-dir-2.0.0.tgz"
+      }
+    },
+    "tempfile": {
+      "4.0.0": {
+        "hash": "sha512-dNH6UWyI8kijDmLVb0IJvCG4JZ5uOmy40CLoi/dVySL49v0f0Y+jIN2rE6Hj85y8mIIya1vwpKZlL9jASs5ktg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tempfile/-/tempfile-4.0.0.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_generic": {
+    "defaultPackage": "passport-twitter",
+    "location": "",
+    "packages": {
+      "passport-twitter": "1.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "passport-oauth1": {
+      "1.2.0": [
+        [ "oauth", "0.9.15" ],
+        [ "passport-strategy", "1.0.0" ],
+        [ "utils-merge", "1.0.1" ]
+      ]
+    },
+    "passport-twitter": {
+      "1.0.4": [
+        [ "passport-oauth1", "1.2.0" ],
+        [ "xtraverse", "0.1.0" ]
+      ],
+      "unknown": [
+        [ "passport-twitter", "1.0.4" ]
+      ]
+    },
+    "xtraverse": {
+      "0.1.0": [
+        [ "xmldom", "0.1.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "oauth": {
+      "0.9.15": {
+        "hash": "sha512-a5ERWK1kh38ExDEfoO6qUHJb32rd7aYmPHuyCu3Fta/cnICvYmgd2uhuKXvPD+PXB+gCEYYEaQdIRAjCOwAKNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/oauth/-/oauth-0.9.15.tgz"
+      }
+    },
+    "passport-oauth1": {
+      "1.2.0": {
+        "hash": "sha512-Sv2YWodC6jN12M/OXwmR4BIXeeIHjjbwYTQw4kS6tHK4zYzSEpxBgSJJnknBjICA5cj0ju3FSnG1XmHgIhYnLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-oauth1/-/passport-oauth1-1.2.0.tgz"
+      }
+    },
+    "passport-strategy": {
+      "1.0.0": {
+        "hash": "sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+      }
+    },
+    "passport-twitter": {
+      "1.0.4": {
+        "hash": "sha512-qvdauqCqCJJci82mJ9hZZQ6nAv7aSHV31svL8+9H7mRlDdXCdfU6AARQrmmJu3DRmv9fvIebM7zzxR7mVufN3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-twitter/-/passport-twitter-1.0.4.tgz"
+      }
+    },
+    "utils-merge": {
+      "1.0.1": {
+        "hash": "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
+      }
+    },
+    "xmldom": {
+      "0.1.31": {
+        "hash": "sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xmldom/-/xmldom-0.1.31.tgz"
+      }
+    },
+    "xtraverse": {
+      "0.1.0": {
+        "hash": "sha512-MANQdlG2hl1nQobxz1Rv8hsS1RuBS0C1N6qTOupv+9vmfrReePdxhmB2ecYjvsp4stJ80HD7erjkoF1Hd/FK9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xtraverse/-/xtraverse-0.1.0.tgz"
+      }
+    }
+  }
+}

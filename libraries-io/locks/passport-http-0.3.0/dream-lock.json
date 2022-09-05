@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "passport-http",
+    "location": "",
+    "packages": {
+      "passport-http": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "passport-http": {
+      "0.3.0": [
+        [ "passport-strategy", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "passport-http", "0.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "passport-http": {
+      "0.3.0": {
+        "hash": "sha512-OwK9DkqGVlJfO8oD0Bz1VDIo+ijD3c1ZbGGozIZw+joIP0U60pXY7goB+8wiDWtNqHpkTaQiJ9Ux1jE3Ykmpuw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-http/-/passport-http-0.3.0.tgz"
+      }
+    },
+    "passport-strategy": {
+      "1.0.0": {
+        "hash": "sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_generic": {
+    "defaultPackage": "fs.extra",
+    "location": "",
+    "packages": {
+      "fs.extra": "1.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fs-extra": {
+      "0.6.4": [
+        [ "jsonfile", "1.0.1" ],
+        [ "mkdirp", "0.3.5" ],
+        [ "ncp", "0.4.2" ],
+        [ "rimraf", "2.2.8" ]
+      ]
+    },
+    "fs.extra": {
+      "1.3.2": [
+        [ "fs-extra", "0.6.4" ],
+        [ "mkdirp", "0.3.5" ],
+        [ "walk", "2.3.15" ]
+      ],
+      "unknown": [
+        [ "fs.extra", "1.3.2" ]
+      ]
+    },
+    "walk": {
+      "2.3.15": [
+        [ "foreachasync", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "foreachasync": {
+      "3.0.0": {
+        "hash": "sha512-J+ler7Ta54FwwNcx6wQRDhTIbNeyDcARMkOcguEqnEdtm0jKvN3Li3PDAb2Du3ubJYEWfYL83XMROXdsXAXycw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/foreachasync/-/foreachasync-3.0.0.tgz"
+      }
+    },
+    "fs-extra": {
+      "0.6.4": {
+        "hash": "sha512-5rU898vl/Z948L+kkJedbmo/iltzmiF5bn/eEk0j/SgrPpI+Ydau9xlJPicV7Av2CHYBGz5LAlwTnBU80j1zPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.4.tgz"
+      }
+    },
+    "fs.extra": {
+      "1.3.2": {
+        "hash": "sha512-Ig401VXtyrWrz23k9KxAx9OrnL8AHSLNhQ8YJH2wSYuH0ZUfxwBeY6zXkd/oOyVRFTlpEu/0n5gHeuZt7aqbkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs.extra/-/fs.extra-1.3.2.tgz"
+      }
+    },
+    "jsonfile": {
+      "1.0.1": {
+        "hash": "sha512-KbsDJNRfRPF5v49tMNf9sqyyGqGLBcz1v5kZT01kG5ns5mQSltwxCKVmUzVKtEinkUnTDtSrp6ngWpV7Xw0ZlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsonfile/-/jsonfile-1.0.1.tgz"
+      }
+    },
+    "mkdirp": {
+      "0.3.5": {
+        "hash": "sha512-8OCq0De/h9ZxseqzCH8Kw/Filf5pF/vMI6+BH7Lu0jXz2pqYCjTAQRolSxRIi+Ax+oCCjlxoJMP0YQ4XlrQNHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+      }
+    },
+    "ncp": {
+      "0.4.2": {
+        "hash": "sha512-PfGU8jYWdRl4FqJfCy0IzbkGyFHntfWygZg46nFk/dJD/XRrk2cj0SsKSX9n5u5gE0E0YfEpKWrEkfjnlZSTXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
+      }
+    },
+    "rimraf": {
+      "2.2.8": {
+        "hash": "sha512-R5KMKHnPAQaZMqLOsyuyUmcIjSeDm+73eoqQpaXA7AZ22BL+6C+1mcUscgOsNd8WVlJuvlgAPsegcx7pjlV0Dg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz"
+      }
+    },
+    "walk": {
+      "2.3.15": {
+        "hash": "sha512-4eRTBZljBfIISK1Vnt69Gvr2w/wc3U6Vtrw7qiN5iqYJPH7LElcYh/iU4XWhdCy2dZqv1ToMyYlybDylfG/5Vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/walk/-/walk-2.3.15.tgz"
+      }
+    }
+  }
+}

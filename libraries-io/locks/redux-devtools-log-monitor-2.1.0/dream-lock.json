@@ -1,0 +1,437 @@
+{
+  "_generic": {
+    "defaultPackage": "redux-devtools-log-monitor",
+    "location": "",
+    "packages": {
+      "redux-devtools-log-monitor": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.18.9": [
+        [ "regenerator-runtime", "0.13.9" ]
+      ]
+    },
+    "@types/hoist-non-react-statics": {
+      "3.3.1": [
+        [ "@types/react", "16.14.31" ],
+        [ "hoist-non-react-statics", "3.3.2" ]
+      ]
+    },
+    "@types/lodash.debounce": {
+      "4.0.7": [
+        [ "@types/lodash", "4.14.184" ]
+      ]
+    },
+    "@types/react": {
+      "16.14.31": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/scheduler", "0.16.2" ],
+        [ "csstype", "3.1.0" ]
+      ]
+    },
+    "@types/react-redux": {
+      "7.1.24": [
+        [ "@types/hoist-non-react-statics", "3.3.1" ],
+        [ "@types/react", "16.14.31" ],
+        [ "hoist-non-react-statics", "3.3.2" ],
+        [ "redux", "4.2.0" ]
+      ]
+    },
+    "@types/redux-devtools-themes": {
+      "1.0.0": [
+        [ "@types/base16", "1.0.2" ]
+      ]
+    },
+    "color": {
+      "3.2.1": [
+        [ "color-convert", "1.9.3" ],
+        [ "color-string", "1.9.1" ]
+      ]
+    },
+    "color-convert": {
+      "1.9.3": [
+        [ "color-name", "1.1.3" ]
+      ]
+    },
+    "color-string": {
+      "1.9.1": [
+        [ "color-name", "1.1.3" ],
+        [ "simple-swizzle", "0.2.2" ]
+      ]
+    },
+    "hoist-non-react-statics": {
+      "3.3.2": [
+        [ "react-is", "16.13.1" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "prop-types": {
+      "15.8.1": [
+        [ "loose-envify", "1.4.0" ],
+        [ "object-assign", "4.1.1" ],
+        [ "react-is", "16.13.1" ]
+      ]
+    },
+    "react": {
+      "16.14.0": [
+        [ "loose-envify", "1.4.0" ],
+        [ "object-assign", "4.1.1" ],
+        [ "prop-types", "15.8.1" ]
+      ]
+    },
+    "react-base16-styling": {
+      "0.8.2": [
+        [ "@types/base16", "1.0.2" ],
+        [ "@types/lodash", "4.14.184" ],
+        [ "base16", "1.0.0" ],
+        [ "color", "3.2.1" ],
+        [ "csstype", "3.1.0" ],
+        [ "lodash.curry", "4.1.1" ]
+      ]
+    },
+    "react-json-tree": {
+      "0.13.0": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "prop-types", "15.8.1" ],
+        [ "react-base16-styling", "0.8.2" ]
+      ]
+    },
+    "react-redux": {
+      "7.2.8": [
+        [ "@babel/runtime", "7.18.9" ],
+        [ "@types/react-redux", "7.1.24" ],
+        [ "hoist-non-react-statics", "3.3.2" ],
+        [ "loose-envify", "1.4.0" ],
+        [ "prop-types", "15.8.1" ],
+        [ "react-is", "17.0.2" ]
+      ]
+    },
+    "redux": {
+      "4.2.0": [
+        [ "@babel/runtime", "7.18.9" ]
+      ]
+    },
+    "redux-devtools": {
+      "3.7.0": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "lodash", "4.17.21" ],
+        [ "prop-types", "15.8.1" ],
+        [ "redux-devtools-instrument", "1.10.0" ]
+      ]
+    },
+    "redux-devtools-instrument": {
+      "1.10.0": [
+        [ "lodash", "4.17.21" ],
+        [ "symbol-observable", "1.2.0" ]
+      ]
+    },
+    "redux-devtools-log-monitor": {
+      "2.1.0": [
+        [ "@types/lodash.debounce", "4.0.7" ],
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/redux-devtools-themes", "1.0.0" ],
+        [ "lodash.debounce", "4.0.8" ],
+        [ "prop-types", "15.8.1" ],
+        [ "react-json-tree", "0.13.0" ],
+        [ "redux-devtools-themes", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "redux-devtools-log-monitor", "2.1.0" ]
+      ]
+    },
+    "redux-devtools-themes": {
+      "1.0.0": [
+        [ "base16", "1.0.0" ]
+      ]
+    },
+    "simple-swizzle": {
+      "0.2.2": [
+        [ "is-arrayish", "0.3.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.18.9": {
+        "hash": "sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.18.9.tgz"
+      }
+    },
+    "@types/base16": {
+      "1.0.2": {
+        "hash": "sha512-oYO/U4VD1DavwrKuCSQWdLG+5K22SLPem2OQaHmFcQuwHoVeGC+JGVRji2MUqZUAIQZHEonOeVfAX09hYiLsdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/base16/-/base16-1.0.2.tgz"
+      }
+    },
+    "@types/hoist-non-react-statics": {
+      "3.3.1": {
+        "hash": "sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz"
+      }
+    },
+    "@types/lodash": {
+      "4.14.184": {
+        "hash": "sha512-RoZphVtHbxPZizt4IcILciSWiC6dcn+eZ8oX9IWEYfDMcocdd42f7NPI6fQj+6zI8y4E0L7gu2pcZKLGTRaV9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.184.tgz"
+      }
+    },
+    "@types/lodash.debounce": {
+      "4.0.7": {
+        "hash": "sha512-X1T4wMZ+gT000M2/91SYj0d/7JfeNZ9PeeOldSNoE/lunLeQXKvkmIumI29IaKMotU/ln/McOIvgzZcQ/3TrSA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/lodash.debounce/-/lodash.debounce-4.0.7.tgz"
+      }
+    },
+    "@types/prop-types": {
+      "15.7.5": {
+        "hash": "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
+      }
+    },
+    "@types/react": {
+      "16.14.31": {
+        "hash": "sha512-CD3LuBW4xIeGy6BxuNZdXBOsuP00OHFuNOq/4e2xKDq6z02XvdH9wIkuPNmz7BRQpo5ncy1zT9fz4tTDqXbjzQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react/-/react-16.14.31.tgz"
+      }
+    },
+    "@types/react-redux": {
+      "7.1.24": {
+        "hash": "sha512-7FkurKcS1k0FHZEtdbbgN8Oc6b+stGSfZYjQGicofJ0j4U0qIn/jaSvnP2pLwZKiai3/17xqqxkkrxTgN8UNbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react-redux/-/react-redux-7.1.24.tgz"
+      }
+    },
+    "@types/redux-devtools-themes": {
+      "1.0.0": {
+        "hash": "sha512-ul3x0MYM5Nzj57Fh9wINyHFne8vZL04RC4nWAUWLYcL105vHoa/oJyopuKOrQmqVmhqmDiL4c9FfLbUmIB7TWQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/redux-devtools-themes/-/redux-devtools-themes-1.0.0.tgz"
+      }
+    },
+    "@types/scheduler": {
+      "0.16.2": {
+        "hash": "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
+      }
+    },
+    "base16": {
+      "1.0.0": {
+        "hash": "sha512-pNdYkNPiJUnEhnfXV56+sQy8+AaPcG3POZAUnwr4EeqCUZFz4u2PePbo3e5Gj4ziYPCWGUZT9RHisvJKnwFuBQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/base16/-/base16-1.0.0.tgz"
+      }
+    },
+    "color": {
+      "3.2.1": {
+        "hash": "sha512-aBl7dZI9ENN6fUGC7mWpMTPNHmWUSNan9tuWN6ahh5ZLNk9baLJOnSMlrQkHcrfFgz2/RigjUVAjdx36VcemKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color/-/color-3.2.1.tgz"
+      }
+    },
+    "color-convert": {
+      "1.9.3": {
+        "hash": "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
+      }
+    },
+    "color-name": {
+      "1.1.3": {
+        "hash": "sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
+      }
+    },
+    "color-string": {
+      "1.9.1": {
+        "hash": "sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-string/-/color-string-1.9.1.tgz"
+      }
+    },
+    "csstype": {
+      "3.1.0": {
+        "hash": "sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csstype/-/csstype-3.1.0.tgz"
+      }
+    },
+    "hoist-non-react-statics": {
+      "3.3.2": {
+        "hash": "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
+      }
+    },
+    "is-arrayish": {
+      "0.3.2": {
+        "hash": "sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "lodash.curry": {
+      "4.1.1": {
+        "hash": "sha512-/u14pXGviLaweY5JI0IUzgzF2J6Ne8INyzAZjImcryjgkZ+ebruBxy2/JaOOkTqScddcYtakjhSaeemV8lR0tA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.curry/-/lodash.curry-4.1.1.tgz"
+      }
+    },
+    "lodash.debounce": {
+      "4.0.8": {
+        "hash": "sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
+    "prop-types": {
+      "15.8.1": {
+        "hash": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+      }
+    },
+    "react": {
+      "16.14.0": {
+        "hash": "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+      }
+    },
+    "react-base16-styling": {
+      "0.8.2": {
+        "hash": "sha512-5bxHCNKT/FfU9yMzNB/CaCQLGqZ/Nr4FnaIRJUTkwwPTRaCfYAP+/3opeQb61XvesmofJ4FloTSYW9aw1tMXqQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-base16-styling/-/react-base16-styling-0.8.2.tgz"
+      }
+    },
+    "react-is": {
+      "16.13.1": {
+        "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
+      },
+      "17.0.2": {
+        "hash": "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
+      }
+    },
+    "react-json-tree": {
+      "0.13.0": {
+        "hash": "sha512-FPJUQzYWi7pvBUAnMd9ENOnAUT2mXLhe01VUbPfKH9Q4gk4FQ0fpS1e1WZ3o7g6zfYJpYJeBTo1WwlMHlMlZOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-json-tree/-/react-json-tree-0.13.0.tgz"
+      }
+    },
+    "react-redux": {
+      "7.2.8": {
+        "hash": "sha512-6+uDjhs3PSIclqoCk0kd6iX74gzrGc3W5zcAjbrFgEdIjRSQObdIwfx80unTkVUYvbQ95Y8Av3OvFHq1w5EOUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-redux/-/react-redux-7.2.8.tgz"
+      }
+    },
+    "redux": {
+      "4.2.0": {
+        "hash": "sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux/-/redux-4.2.0.tgz"
+      }
+    },
+    "redux-devtools": {
+      "3.7.0": {
+        "hash": "sha512-Lnx3UX7mnJij2Xs+RicPK1GyKkbuodrCKtfYmJsN603wC0mc99W//xCAskGVNmRhIXg4e57m2k1CyX0kVzCsBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-devtools/-/redux-devtools-3.7.0.tgz"
+      }
+    },
+    "redux-devtools-instrument": {
+      "1.10.0": {
+        "hash": "sha512-X8JRBCzX2ADSMp+iiV7YQ8uoTNyEm0VPFPd4T854coz6lvRiBrFSqAr9YAS2n8Kzxx8CJQotR0QF9wsMM+3DvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-devtools-instrument/-/redux-devtools-instrument-1.10.0.tgz"
+      }
+    },
+    "redux-devtools-log-monitor": {
+      "2.1.0": {
+        "hash": "sha512-68YOl45psVVXNzE4LZEnbb6Jsc2JiNyy6SZDgaJDXUOODVdzIQbjd30wUODoRx4P0J/1oSyJdYrb8PUtmtYbtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-devtools-log-monitor/-/redux-devtools-log-monitor-2.1.0.tgz"
+      }
+    },
+    "redux-devtools-themes": {
+      "1.0.0": {
+        "hash": "sha512-hBWqdZX+dioMWnTjf8+uSm0q1wCdYO4kU5gERzHcMMbu0Qg7JDR42TnJ6GHJ6r7k/tIpsCSygc9U0ehAtR24TQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-devtools-themes/-/redux-devtools-themes-1.0.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.9": {
+        "hash": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+      }
+    },
+    "simple-swizzle": {
+      "0.2.2": {
+        "hash": "sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
+      }
+    },
+    "symbol-observable": {
+      "1.2.0": {
+        "hash": "sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz"
+      }
+    }
+  }
+}

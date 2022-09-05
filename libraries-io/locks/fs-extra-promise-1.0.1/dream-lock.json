@@ -1,0 +1,74 @@
+{
+  "_generic": {
+    "defaultPackage": "fs-extra-promise",
+    "location": "",
+    "packages": {
+      "fs-extra-promise": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fs-extra": {
+      "2.1.2": [
+        [ "graceful-fs", "4.2.10" ],
+        [ "jsonfile", "2.4.0" ]
+      ]
+    },
+    "fs-extra-promise": {
+      "1.0.1": [
+        [ "bluebird", "3.7.2" ],
+        [ "fs-extra", "2.1.2" ]
+      ],
+      "unknown": [
+        [ "fs-extra-promise", "1.0.1" ]
+      ]
+    },
+    "jsonfile": {
+      "2.4.0": [
+        [ "graceful-fs", "4.2.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "bluebird": {
+      "3.7.2": {
+        "hash": "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+      }
+    },
+    "fs-extra": {
+      "2.1.2": {
+        "hash": "sha512-9ztMtDZtSKC78V8mev+k31qaTabbmuH5jatdvPBMikrFHvw5BqlYnQIn/WGK3WHeRooSTkRvLa2IPlaHjPq5Sg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs-extra/-/fs-extra-2.1.2.tgz"
+      }
+    },
+    "fs-extra-promise": {
+      "1.0.1": {
+        "hash": "sha512-cRYYkBgRgl6rOxSLw8IaxDj+5ZkbV/QNbt4LjrH7qFvJm3MIyKkgVH0nIKtm6+jxDXhdzLR5ePotDhQMm0sYjw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs-extra-promise/-/fs-extra-promise-1.0.1.tgz"
+      }
+    },
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "jsonfile": {
+      "2.4.0": {
+        "hash": "sha512-PKllAqbgLgxHaj8TElYymKCAgrASebJrWpTnEkOaTowt23VKXXN0sUeriJ+eh7y6ufb/CC5ap11pz71/cM0hUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@hapi/code",
+    "location": "",
+    "packages": {
+      "@hapi/code": "9.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@hapi/code": {
+      "9.0.1": [
+        [ "@hapi/hoek", "10.0.1" ]
+      ],
+      "unknown": [
+        [ "@hapi/code", "9.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@hapi/code": {
+      "9.0.1": {
+        "hash": "sha512-mJS+UNpGHo3O2+tazy8W7Bsh8ozLnDfZsCbUxrc74LVSqRcC4la6Ue8kM5e+xMWh79zA4E+8tOJTnrydFiEELQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/code/-/code-9.0.1.tgz"
+      }
+    },
+    "@hapi/hoek": {
+      "10.0.1": {
+        "hash": "sha512-CvlW7jmOhWzuqOqiJQ3rQVLMcREh0eel4IBnxDx2FAcK8g7qoJRQK4L1CPBASoCY6y8e6zuCy3f2g+HWdkzcMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-10.0.1.tgz"
+      }
+    }
+  }
+}

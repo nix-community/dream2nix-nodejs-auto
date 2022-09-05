@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "uuidv4",
+    "location": "",
+    "packages": {
+      "uuidv4": "6.2.13"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "uuidv4": {
+      "6.2.13": [
+        [ "@types/uuid", "8.3.4" ],
+        [ "uuid", "8.3.2" ]
+      ],
+      "unknown": [
+        [ "uuidv4", "6.2.13" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/uuid": {
+      "8.3.4": {
+        "hash": "sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/uuid/-/uuid-8.3.4.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      }
+    },
+    "uuidv4": {
+      "6.2.13": {
+        "hash": "sha512-AXyzMjazYB3ovL3q051VLH06Ixj//Knx7QnUSi1T//Ie3io6CpsPu9nVMOx5MoLWh6xV0B9J0hIaxungxXUbPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuidv4/-/uuidv4-6.2.13.tgz"
+      }
+    }
+  }
+}

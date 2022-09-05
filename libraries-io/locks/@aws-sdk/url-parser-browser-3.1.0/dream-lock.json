@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/url-parser-browser",
+    "location": "",
+    "packages": {
+      "@aws-sdk/url-parser-browser": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/querystring-parser": {
+      "3.1.0": [
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "@aws-sdk/url-parser-browser": {
+      "3.1.0": [
+        [ "@aws-sdk/querystring-parser", "3.1.0" ],
+        [ "tslib", "1.14.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/url-parser-browser", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/querystring-parser": {
+      "3.1.0": {
+        "hash": "sha512-tqwHKLKplyv940+cR8uW6w2K3IEcGOskJ/8oP1R3RSyyidONSVEShNlpApTQlccfYriieDuEDLVCo4pT7S55kw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/querystring-parser/-/querystring-parser-3.1.0.tgz"
+      }
+    },
+    "@aws-sdk/url-parser-browser": {
+      "3.1.0": {
+        "hash": "sha512-XtiorfIxhbJuU1TLp7rL7qMzNY/+9FYisFtCFcrcy7/fsvXUTjjB2u3O4J01m/T6/HVmenV+SFQvs+fYC9U7dA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/url-parser-browser/-/url-parser-browser-3.1.0.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    }
+  }
+}

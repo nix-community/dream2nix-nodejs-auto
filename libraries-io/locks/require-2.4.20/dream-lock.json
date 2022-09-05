@@ -1,0 +1,101 @@
+{
+  "_generic": {
+    "defaultPackage": "require",
+    "location": "",
+    "packages": {
+      "require": "2.4.20"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "optimist": {
+      "0.3.7": [
+        [ "wordwrap", "0.0.3" ]
+      ]
+    },
+    "require": {
+      "2.4.20": [
+        [ "std", "0.1.40" ],
+        [ "uglify-js", "2.3.0" ]
+      ],
+      "unknown": [
+        [ "require", "2.4.20" ]
+      ]
+    },
+    "source-map": {
+      "0.1.43": [
+        [ "amdefine", "1.0.1" ]
+      ]
+    },
+    "uglify-js": {
+      "2.3.0": [
+        [ "async", "0.2.10" ],
+        [ "optimist", "0.3.7" ],
+        [ "source-map", "0.1.43" ]
+      ]
+    }
+  },
+  "sources": {
+    "amdefine": {
+      "1.0.1": {
+        "hash": "sha512-S2Hw0TtNkMJhIabBwIojKL9YHO5T0n5eNqWJ7Lrlel/zDbftQpxpapi8tZs3X1HWa+u+QeydGmzzNU0m09+Rcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz"
+      }
+    },
+    "async": {
+      "0.2.10": {
+        "hash": "sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/async/-/async-0.2.10.tgz"
+      }
+    },
+    "optimist": {
+      "0.3.7": {
+        "hash": "sha512-TCx0dXQzVtSCg2OgY/bO9hjM9cV4XYx09TVK+s3+FhkjT6LovsLe+pPMzpWf+6yXK/hUizs2gUoTw3jHM0VaTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz"
+      }
+    },
+    "require": {
+      "2.4.20": {
+        "hash": "sha512-7eop5rvh38qhQQQOoUyf68meVIcxT2yFySNywTbxoEECgkX4KDqqDRaEszfvFnuB3fuZVjDdJZ1TI/Esr16RRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/require/-/require-2.4.20.tgz"
+      }
+    },
+    "source-map": {
+      "0.1.43": {
+        "hash": "sha512-VtCvB9SIQhk3aF6h+N85EaqIaBFIAfZ9Cu+NJHHVvc8BbEcnvDcFw6sqQ2dQrT6SlOrZq3tIvyD9+EGq/lJryQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz"
+      }
+    },
+    "std": {
+      "0.1.40": {
+        "hash": "sha512-wUf57hkDGCoVShrhPA8Q7lAg2Qosk+FaMlECmAsr1A4/rL2NRXFHQGBcgMUFKVkPEemJFW9gzjCQisRty14ohg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/std/-/std-0.1.40.tgz"
+      }
+    },
+    "uglify-js": {
+      "2.3.0": {
+        "hash": "sha512-AQvbxRKdaQeYADywQaao0k8Tj+7NGEVTne6xwgX1yQpv/G8b0CKdIw70HkCptwfvNGDsVe+0Bng3U9hfWbxxfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.3.0.tgz"
+      }
+    },
+    "wordwrap": {
+      "0.0.3": {
+        "hash": "sha512-1tMA907+V4QmxV7dbRvb4/8MaRALK6q9Abid3ndMYnbyo8piisCmeONVqVSXqQA3KaP4SLt5b7ud6E2sqP8TFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
+      }
+    }
+  }
+}

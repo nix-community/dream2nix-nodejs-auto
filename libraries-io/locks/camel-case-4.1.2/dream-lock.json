@@ -1,0 +1,80 @@
+{
+  "_generic": {
+    "defaultPackage": "camel-case",
+    "location": "",
+    "packages": {
+      "camel-case": "4.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "camel-case": {
+      "4.1.2": [
+        [ "pascal-case", "3.1.2" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "camel-case", "4.1.2" ]
+      ]
+    },
+    "lower-case": {
+      "2.0.2": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "no-case": {
+      "3.0.4": [
+        [ "lower-case", "2.0.2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "pascal-case": {
+      "3.1.2": [
+        [ "no-case", "3.0.4" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "camel-case": {
+      "4.1.2": {
+        "hash": "sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/camel-case/-/camel-case-4.1.2.tgz"
+      }
+    },
+    "lower-case": {
+      "2.0.2": {
+        "hash": "sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lower-case/-/lower-case-2.0.2.tgz"
+      }
+    },
+    "no-case": {
+      "3.0.4": {
+        "hash": "sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/no-case/-/no-case-3.0.4.tgz"
+      }
+    },
+    "pascal-case": {
+      "3.1.2": {
+        "hash": "sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pascal-case/-/pascal-case-3.1.2.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

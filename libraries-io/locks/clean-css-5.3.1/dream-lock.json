@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "clean-css",
+    "location": "",
+    "packages": {
+      "clean-css": "5.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clean-css": {
+      "5.3.1": [
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "clean-css", "5.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "clean-css": {
+      "5.3.1": {
+        "hash": "sha512-lCr8OHhiWCTw4v8POJovCoh4T7I9U11yVsPjMWWnnMmp9ZowCxyad1Pathle/9HjaDp+fdQKjO9fQydE6RHTZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clean-css/-/clean-css-5.3.1.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    }
+  }
+}

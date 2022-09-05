@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "hogan.js",
+    "location": "",
+    "packages": {
+      "hogan.js": "3.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hogan.js": {
+      "3.0.2": [
+        [ "mkdirp", "0.3.0" ],
+        [ "nopt", "1.0.10" ]
+      ],
+      "unknown": [
+        [ "hogan.js", "3.0.2" ]
+      ]
+    },
+    "nopt": {
+      "1.0.10": [
+        [ "abbrev", "1.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "abbrev": {
+      "1.1.1": {
+        "hash": "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
+      }
+    },
+    "hogan.js": {
+      "3.0.2": {
+        "hash": "sha512-RqGs4wavGYJWE07t35JQccByczmNUXQT0E12ZYV1VKYu5UiAU9lsos/yBAcf840+zrUQQxgVduCR5/B8nNtibg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hogan.js/-/hogan.js-3.0.2.tgz"
+      }
+    },
+    "mkdirp": {
+      "0.3.0": {
+        "hash": "sha512-OHsdUcVAQ6pOtg5JYWpCBo9W/GySVuwvP9hueRMW7UqshC0tbfzLv8wjySTPm3tfUZ/21CE9E1pJagOA91Pxew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz"
+      }
+    },
+    "nopt": {
+      "1.0.10": {
+        "hash": "sha512-NWmpvLSqUrgrAC9HCuxEvb+PSloHpqVu+FqcO4eeF2h5qYRhA7ev6KvelyQAKtegUbC6RypJnlEOhd8vloNKYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz"
+      }
+    }
+  }
+}

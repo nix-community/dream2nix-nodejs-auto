@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "less-plugin-clean-css",
+    "location": "",
+    "packages": {
+      "less-plugin-clean-css": "1.5.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clean-css": {
+      "3.4.28": [
+        [ "commander", "2.8.1" ],
+        [ "source-map", "0.4.4" ]
+      ]
+    },
+    "commander": {
+      "2.8.1": [
+        [ "graceful-readlink", "1.0.1" ]
+      ]
+    },
+    "less-plugin-clean-css": {
+      "1.5.1": [
+        [ "clean-css", "3.4.28" ]
+      ],
+      "unknown": [
+        [ "less-plugin-clean-css", "1.5.1" ]
+      ]
+    },
+    "source-map": {
+      "0.4.4": [
+        [ "amdefine", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "amdefine": {
+      "1.0.1": {
+        "hash": "sha512-S2Hw0TtNkMJhIabBwIojKL9YHO5T0n5eNqWJ7Lrlel/zDbftQpxpapi8tZs3X1HWa+u+QeydGmzzNU0m09+Rcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz"
+      }
+    },
+    "clean-css": {
+      "3.4.28": {
+        "hash": "sha512-aTWyttSdI2mYi07kWqHi24NUU9YlELFKGOAgFzZjDN1064DMAOy2FBuoyGmkKRlXkbpXd0EVHmiVkbKhKoirTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clean-css/-/clean-css-3.4.28.tgz"
+      }
+    },
+    "commander": {
+      "2.8.1": {
+        "hash": "sha512-+pJLBFVk+9ZZdlAOB5WuIElVPPth47hILFkmGym57aq8kwxsowvByvB0DHs1vQAhyMZzdcpTtF0VDKGkSDR4ZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.8.1.tgz"
+      }
+    },
+    "graceful-readlink": {
+      "1.0.1": {
+        "hash": "sha512-8tLu60LgxF6XpdbK8OW3FA+IfTNBn1ZHGHKF4KQbEeSkajYw5PlYJcKluntgegDPTg8UkHjpet1T82vk6TQ68w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz"
+      }
+    },
+    "less-plugin-clean-css": {
+      "1.5.1": {
+        "hash": "sha512-Pc68AFHAEJO3aAoRvnUTW5iAiAv6y+TQsWLTTwVNqjiDno6xCvxz1AtfQl7Y0MZSpHPalFajM1EU4RB5UVINpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/less-plugin-clean-css/-/less-plugin-clean-css-1.5.1.tgz"
+      }
+    },
+    "source-map": {
+      "0.4.4": {
+        "hash": "sha512-Y8nIfcb1s/7DcobUz1yOO1GSp7gyL+D9zLHDehT7iRESqGSxjJ448Sg7rvfgsRJCnKLdSl11uGf0s9X80cH0/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz"
+      }
+    }
+  }
+}

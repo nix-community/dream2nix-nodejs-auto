@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@capacitor/core",
+    "location": "",
+    "packages": {
+      "@capacitor/core": "4.1.1-nightly-9658fe15.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@capacitor/core": {
+      "4.1.1-nightly-9658fe15.0": [
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@capacitor/core", "4.1.1-nightly-9658fe15.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@capacitor/core": {
+      "4.1.1-nightly-9658fe15.0": {
+        "hash": "sha512-SI1yCOnyn1Msc8+pX+4sA+rujUm+qewav6NRrCGE4hZe4MxrdR+4atTORVkzjGlZB56ibFQQlOjxVs9NOiH9Ng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@capacitor/core/-/core-4.1.1-nightly-9658fe15.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

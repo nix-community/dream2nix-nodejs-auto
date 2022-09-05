@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/yaml",
+    "location": "",
+    "packages": {
+      "@types/yaml": "1.9.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/yaml": {
+      "1.9.7": [
+        [ "yaml", "2.1.1" ]
+      ],
+      "unknown": [
+        [ "@types/yaml", "1.9.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/yaml": {
+      "1.9.7": {
+        "hash": "sha512-8WMXRDD1D+wCohjfslHDgICd2JtMATZU8CkhH8LVJqcJs6dyYj5TGptzP8wApbmEullGBSsCEzzap73DQ1HJaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/yaml/-/yaml-1.9.7.tgz"
+      }
+    },
+    "yaml": {
+      "2.1.1": {
+        "hash": "sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yaml/-/yaml-2.1.1.tgz"
+      }
+    }
+  }
+}

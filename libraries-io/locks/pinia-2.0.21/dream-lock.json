@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "pinia",
+    "location": "",
+    "packages": {
+      "pinia": "2.0.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pinia": {
+      "2.0.21": [
+        [ "@vue/devtools-api", "6.2.1" ],
+        [ "vue-demi", "0.13.11" ]
+      ],
+      "unknown": [
+        [ "pinia", "2.0.21" ]
+      ]
+    }
+  },
+  "sources": {
+    "@vue/devtools-api": {
+      "6.2.1": {
+        "hash": "sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.2.1.tgz"
+      }
+    },
+    "pinia": {
+      "2.0.21": {
+        "hash": "sha512-6ol04PtL29O0Z6JHI47O3JUSoyOJ7Og0rstXrHVMZSP4zAldsQBXJCNF0i/H7m8vp/Hjd/CSmuPl7C5QAwpeWQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pinia/-/pinia-2.0.21.tgz"
+      }
+    },
+    "vue": {
+      "2.6.14": {
+        "hash": "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
+      }
+    },
+    "vue-demi": {
+      "0.13.11": {
+        "hash": "sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz"
+      }
+    }
+  }
+}

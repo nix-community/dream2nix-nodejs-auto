@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "katex",
+    "location": "",
+    "packages": {
+      "katex": "0.16.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "katex": {
+      "0.16.2": [
+        [ "commander", "8.3.0" ]
+      ],
+      "unknown": [
+        [ "katex", "0.16.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "8.3.0": {
+        "hash": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
+      }
+    },
+    "katex": {
+      "0.16.2": {
+        "hash": "sha512-70DJdQAyh9EMsthw3AaQlDyFf54X7nWEUIa5W+rq8XOpEk//w5Th7/8SqFqpvi/KZ2t6MHUj4f9wLmztBmAYQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/katex/-/katex-0.16.2.tgz"
+      }
+    }
+  }
+}

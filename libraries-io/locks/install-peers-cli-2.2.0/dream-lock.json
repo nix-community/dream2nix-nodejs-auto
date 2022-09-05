@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "install-peers-cli",
+    "location": "",
+    "packages": {
+      "install-peers-cli": "2.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "executioner": {
+      "2.0.1": [
+        [ "mixly", "1.0.0" ]
+      ]
+    },
+    "install-peers-cli": {
+      "2.2.0": [
+        [ "commander", "2.20.3" ],
+        [ "executioner", "2.0.1" ]
+      ],
+      "unknown": [
+        [ "install-peers-cli", "2.2.0" ]
+      ]
+    },
+    "mixly": {
+      "1.0.0": [
+        [ "fulcon", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "executioner": {
+      "2.0.1": {
+        "hash": "sha512-idZAlKsxEZASjaIqP4PQ1txyS1bOcDwWCHy/8p5oMmLGV0XNCQPD6WWAOwJCUVsWItWzAN2BEash5N78PliaIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/executioner/-/executioner-2.0.1.tgz"
+      }
+    },
+    "fulcon": {
+      "1.0.2": {
+        "hash": "sha512-vYwUBqbdo9XK0NmN7cFmURmy2T1YHpEsTCbxGO3aErxx6a0Z/HkWXcqcPkk7yOuJ74mSAHGWGBSBBd6v3GKebA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fulcon/-/fulcon-1.0.2.tgz"
+      }
+    },
+    "install-peers-cli": {
+      "2.2.0": {
+        "hash": "sha512-scSNvF49HDOLNm2xLFwST23g/OvfsceiA087bcGBgZP/ZNCrvpSaCn5IrWNZ2XYmFFykXF/6J1Zgm+D/JgRgtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/install-peers-cli/-/install-peers-cli-2.2.0.tgz"
+      }
+    },
+    "mixly": {
+      "1.0.0": {
+        "hash": "sha512-ks+xIMVeIDwuYK4LnOMXTfmiEI8oo3tFNFirpHd60C4r2H0wMwKN5/qHCrFBKFK+BYx2Gp7qs+evUJw7QO9D2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mixly/-/mixly-1.0.0.tgz"
+      }
+    }
+  }
+}

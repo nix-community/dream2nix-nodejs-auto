@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "co-prompt",
+    "location": "",
+    "packages": {
+      "co-prompt": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "co-prompt": {
+      "1.0.0": [
+        [ "keypress", "0.2.1" ]
+      ],
+      "unknown": [
+        [ "co-prompt", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "co-prompt": {
+      "1.0.0": {
+        "hash": "sha512-uKmEbjDnL9SJTb+TNfIFsATe1F3IsNsR7KDGUG1hq7ColkMV0MSn7dg3eKVS+3wwtyvVqrgfIwi39NOJiknO7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/co-prompt/-/co-prompt-1.0.0.tgz"
+      }
+    },
+    "keypress": {
+      "0.2.1": {
+        "hash": "sha512-HjorDJFNhnM4SicvaUXac0X77NiskggxJdesG72+O5zBKpSqKFCrqmndKVqpu3pFqkla0St6uGk8Ju0sCurrmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/keypress/-/keypress-0.2.1.tgz"
+      }
+    }
+  }
+}

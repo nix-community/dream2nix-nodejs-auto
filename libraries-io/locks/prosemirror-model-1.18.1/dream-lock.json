@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "prosemirror-model",
+    "location": "",
+    "packages": {
+      "prosemirror-model": "1.18.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prosemirror-model": {
+      "1.18.1": [
+        [ "orderedmap", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "prosemirror-model", "1.18.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "orderedmap": {
+      "2.0.0": {
+        "hash": "sha512-buf4PoAMlh45b8a8gsGy/X6w279TSqkyAS0C0wdTSJwFSU+ljQFJON5I8NfjLHoCXwpSROIo2wr0g33T+kQshQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/orderedmap/-/orderedmap-2.0.0.tgz"
+      }
+    },
+    "prosemirror-model": {
+      "1.18.1": {
+        "hash": "sha512-IxSVBKAEMjD7s3n8cgtwMlxAXZrC7Mlag7zYsAKDndAqnDScvSmp/UdnRTV/B33lTCVU3CCm7dyAn/rVVD0mcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prosemirror-model/-/prosemirror-model-1.18.1.tgz"
+      }
+    }
+  }
+}

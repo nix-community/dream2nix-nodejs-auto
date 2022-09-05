@@ -1,0 +1,102 @@
+{
+  "_generic": {
+    "defaultPackage": "elliptic",
+    "location": "",
+    "packages": {
+      "elliptic": "6.5.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "elliptic": {
+      "6.5.4": [
+        [ "bn.js", "4.12.0" ],
+        [ "brorand", "1.1.0" ],
+        [ "hash.js", "1.1.7" ],
+        [ "hmac-drbg", "1.0.1" ],
+        [ "inherits", "2.0.4" ],
+        [ "minimalistic-assert", "1.0.1" ],
+        [ "minimalistic-crypto-utils", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "elliptic", "6.5.4" ]
+      ]
+    },
+    "hash.js": {
+      "1.1.7": [
+        [ "inherits", "2.0.4" ],
+        [ "minimalistic-assert", "1.0.1" ]
+      ]
+    },
+    "hmac-drbg": {
+      "1.0.1": [
+        [ "hash.js", "1.1.7" ],
+        [ "minimalistic-assert", "1.0.1" ],
+        [ "minimalistic-crypto-utils", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "bn.js": {
+      "4.12.0": {
+        "hash": "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
+      }
+    },
+    "brorand": {
+      "1.1.0": {
+        "hash": "sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz"
+      }
+    },
+    "elliptic": {
+      "6.5.4": {
+        "hash": "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz"
+      }
+    },
+    "hash.js": {
+      "1.1.7": {
+        "hash": "sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz"
+      }
+    },
+    "hmac-drbg": {
+      "1.0.1": {
+        "hash": "sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz"
+      }
+    },
+    "inherits": {
+      "2.0.4": {
+        "hash": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+      }
+    },
+    "minimalistic-assert": {
+      "1.0.1": {
+        "hash": "sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
+      }
+    },
+    "minimalistic-crypto-utils": {
+      "1.0.1": {
+        "hash": "sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz"
+      }
+    }
+  }
+}

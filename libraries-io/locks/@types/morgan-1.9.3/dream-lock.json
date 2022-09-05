@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/morgan",
+    "location": "",
+    "packages": {
+      "@types/morgan": "1.9.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/morgan": {
+      "1.9.3": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/morgan", "1.9.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/morgan": {
+      "1.9.3": {
+        "hash": "sha512-BiLcfVqGBZCyNCnCH3F4o2GmDLrpy0HeBVnNlyZG4fo88ZiE9SoiBe3C+2ezuwbjlEyT+PDZ17//TAlRxAn75Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/morgan/-/morgan-1.9.3.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/bunyan",
+    "location": "",
+    "packages": {
+      "@types/bunyan": "1.8.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/bunyan": {
+      "1.8.8": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/bunyan", "1.8.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/bunyan": {
+      "1.8.8": {
+        "hash": "sha512-Cblq+Yydg3u+sGiz2mjHjC5MPmdjY+No4qvHrF+BUhblsmSfMvsHLbOG62tPbonsqBj6sbWv1LHcsoe5Jw+/Ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bunyan/-/bunyan-1.8.8.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

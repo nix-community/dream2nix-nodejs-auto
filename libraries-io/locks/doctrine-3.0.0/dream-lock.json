@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "doctrine",
+    "location": "",
+    "packages": {
+      "doctrine": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine": {
+      "3.0.0": [
+        [ "esutils", "2.0.3" ]
+      ],
+      "unknown": [
+        [ "doctrine", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine": {
+      "3.0.0": {
+        "hash": "sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz"
+      }
+    },
+    "esutils": {
+      "2.0.3": {
+        "hash": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz"
+      }
+    }
+  }
+}

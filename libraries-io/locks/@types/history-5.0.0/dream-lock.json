@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/history",
+    "location": "",
+    "packages": {
+      "@types/history": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.18.9": [
+        [ "regenerator-runtime", "0.13.9" ]
+      ]
+    },
+    "@types/history": {
+      "5.0.0": [
+        [ "history", "5.3.0" ]
+      ],
+      "unknown": [
+        [ "@types/history", "5.0.0" ]
+      ]
+    },
+    "history": {
+      "5.3.0": [
+        [ "@babel/runtime", "7.18.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.18.9": {
+        "hash": "sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.18.9.tgz"
+      }
+    },
+    "@types/history": {
+      "5.0.0": {
+        "hash": "sha512-hy8b7Y1J8OGe6LbAjj3xniQrj3v6lsivCcrmf4TzSgPzLkhIeKgc5IZnT7ReIqmEuodjfO8EYAuoFvIrHi/+jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/history/-/history-5.0.0.tgz"
+      }
+    },
+    "history": {
+      "5.3.0": {
+        "hash": "sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/history/-/history-5.3.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.9": {
+        "hash": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "node-static",
+    "location": "",
+    "packages": {
+      "node-static": "0.7.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node-static": {
+      "0.7.11": [
+        [ "colors", "1.4.0" ],
+        [ "mime", "1.6.0" ],
+        [ "optimist", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "node-static", "0.7.11" ]
+      ]
+    },
+    "optimist": {
+      "0.6.1": [
+        [ "minimist", "0.0.10" ],
+        [ "wordwrap", "0.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "colors": {
+      "1.4.0": {
+        "hash": "sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz"
+      }
+    },
+    "mime": {
+      "1.6.0": {
+        "hash": "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz"
+      }
+    },
+    "minimist": {
+      "0.0.10": {
+        "hash": "sha512-iotkTvxc+TwOm5Ieim8VnSNvCDjCK9S8G3scJ50ZthspSxa7jx50jkhYduuAtAjvfDUwSgOwf8+If99AlOEhyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz"
+      }
+    },
+    "node-static": {
+      "0.7.11": {
+        "hash": "sha512-zfWC/gICcqb74D9ndyvxZWaI1jzcoHmf4UTHWQchBNuNMxdBLJMDiUgZ1tjGLEIe/BMhj2DxKD8HOuc2062pDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-static/-/node-static-0.7.11.tgz"
+      }
+    },
+    "optimist": {
+      "0.6.1": {
+        "hash": "sha512-snN4O4TkigujZphWLN0E//nQmm7790RYaE53DdL7ZYwee2D8DDo9/EyYiKUfN3rneWUjhJnueija3G9I2i0h3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz"
+      }
+    },
+    "wordwrap": {
+      "0.0.3": {
+        "hash": "sha512-1tMA907+V4QmxV7dbRvb4/8MaRALK6q9Abid3ndMYnbyo8piisCmeONVqVSXqQA3KaP4SLt5b7ud6E2sqP8TFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
+      }
+    }
+  }
+}

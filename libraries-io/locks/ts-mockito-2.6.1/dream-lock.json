@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "ts-mockito",
+    "location": "",
+    "packages": {
+      "ts-mockito": "2.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ts-mockito": {
+      "2.6.1": [
+        [ "lodash", "4.17.21" ]
+      ],
+      "unknown": [
+        [ "ts-mockito", "2.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "ts-mockito": {
+      "2.6.1": {
+        "hash": "sha512-qU9m/oEBQrKq5hwfbJ7MgmVN5Gu6lFnIGWvpxSjrqq6YYEVv+RwVFWySbZMBgazsWqv6ctAyVBpo9TmAxnOEKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ts-mockito/-/ts-mockito-2.6.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/websocket",
+    "location": "",
+    "packages": {
+      "@types/websocket": "1.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/websocket": {
+      "1.0.5": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/websocket", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/websocket": {
+      "1.0.5": {
+        "hash": "sha512-NbsqiNX9CnEfC1Z0Vf4mE1SgAJ07JnRYcNex7AJ9zAVzmiGHmjKFEk7O4TJIsgv2B1sLEb6owKFZrACwdYngsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/websocket/-/websocket-1.0.5.tgz"
+      }
+    }
+  }
+}

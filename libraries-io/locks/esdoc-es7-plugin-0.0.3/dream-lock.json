@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "esdoc-es7-plugin",
+    "location": "",
+    "packages": {
+      "esdoc-es7-plugin": "0.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "esdoc-es7-plugin": {
+      "0.0.3": [
+        [ "babylon", "5.8.20" ],
+        [ "core-js", "1.0.1" ],
+        [ "estraverse", "4.1.0" ]
+      ],
+      "unknown": [
+        [ "esdoc-es7-plugin", "0.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "babylon": {
+      "5.8.20": {
+        "hash": "sha512-C2FmUgJHSyHRJYsM5hBHoudaqw6zAI9TJWdNpdmdphgZI/n4TlOAhR3UvitV6MmJ1m285Nwy8cbKYpltRSZB+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babylon/-/babylon-5.8.20.tgz"
+      }
+    },
+    "core-js": {
+      "1.0.1": {
+        "hash": "sha512-zJjMnWELJrSpquUFc5MD9dAvFitwDmrBNAwOjQu+z4y+e8kyotQx/x6vLRxIuy0AFtKNKbNG9uRDaGM99U8+1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-1.0.1.tgz"
+      }
+    },
+    "esdoc-es7-plugin": {
+      "0.0.3": {
+        "hash": "sha512-2Ztev0mX/xLCBKJ5Aez0VjBcd3O9UUAJ0lSpperceJ/xii9elfr7xkOPYZkbnwr8HI102t97tptDfxJkI1Ogbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esdoc-es7-plugin/-/esdoc-es7-plugin-0.0.3.tgz"
+      }
+    },
+    "estraverse": {
+      "4.1.0": {
+        "hash": "sha512-oczetKWPj5mF6hd8/g9tvdUtGHsJdTVwRYRpLVy68CCoJGVE2uWKfmjHEVzx7SEuDGFaUlYbaecePMlC7pVaIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estraverse/-/estraverse-4.1.0.tgz"
+      }
+    }
+  }
+}

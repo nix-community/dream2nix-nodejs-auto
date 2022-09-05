@@ -1,0 +1,90 @@
+{
+  "_generic": {
+    "defaultPackage": "is-my-json-valid",
+    "location": "",
+    "packages": {
+      "is-my-json-valid": "2.20.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "generate-function": {
+      "2.3.1": [
+        [ "is-property", "1.0.2" ]
+      ]
+    },
+    "generate-object-property": {
+      "1.2.0": [
+        [ "is-property", "1.0.2" ]
+      ]
+    },
+    "is-my-json-valid": {
+      "2.20.6": [
+        [ "generate-function", "2.3.1" ],
+        [ "generate-object-property", "1.2.0" ],
+        [ "is-my-ip-valid", "1.0.1" ],
+        [ "jsonpointer", "5.0.1" ],
+        [ "xtend", "4.0.2" ]
+      ],
+      "unknown": [
+        [ "is-my-json-valid", "2.20.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "generate-function": {
+      "2.3.1": {
+        "hash": "sha512-eeB5GfMNeevm/GRYq20ShmsaGcmI81kIX2K9XQx5miC8KdHaC6Jm0qQ8ZNeGOi7wYB8OsdxKs+Y2oVuTFuVwKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz"
+      }
+    },
+    "generate-object-property": {
+      "1.2.0": {
+        "hash": "sha512-TuOwZWgJ2VAMEGJvAyPWvpqxSANF0LDpmyHauMjFYzaACvn+QTT/AZomvPCzVBV7yDN3OmwHQ5OvHaeLKre3JQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/generate-object-property/-/generate-object-property-1.2.0.tgz"
+      }
+    },
+    "is-my-ip-valid": {
+      "1.0.1": {
+        "hash": "sha512-jxc8cBcOWbNK2i2aTkCZP6i7wkHF1bqKFrwEHuN5Jtg5BSaZHUZQ/JTOJwoV41YvHnOaRyWWh72T/KvfNz9DJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-my-ip-valid/-/is-my-ip-valid-1.0.1.tgz"
+      }
+    },
+    "is-my-json-valid": {
+      "2.20.6": {
+        "hash": "sha512-1JQwulVNjx8UqkPE/bqDaxtH4PXCe/2VRh/y3p99heOV87HG4Id5/VfDswd+YiAfHcRTfDlWgISycnHuhZq1aw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-my-json-valid/-/is-my-json-valid-2.20.6.tgz"
+      }
+    },
+    "is-property": {
+      "1.0.2": {
+        "hash": "sha512-Ks/IoX00TtClbGQr4TWXemAnktAQvYB7HzcCxDGqEZU6oCmb2INHuOoKxbtR+HFkmYWBKv/dOZtGRiAjDhj92g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz"
+      }
+    },
+    "jsonpointer": {
+      "5.0.1": {
+        "hash": "sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jsonpointer/-/jsonpointer-5.0.1.tgz"
+      }
+    },
+    "xtend": {
+      "4.0.2": {
+        "hash": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
+      }
+    }
+  }
+}

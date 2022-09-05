@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "redux-mock-store",
+    "location": "",
+    "packages": {
+      "redux-mock-store": "1.5.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "redux-mock-store": {
+      "1.5.4": [
+        [ "lodash.isplainobject", "4.0.6" ]
+      ],
+      "unknown": [
+        [ "redux-mock-store", "1.5.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "lodash.isplainobject": {
+      "4.0.6": {
+        "hash": "sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
+      }
+    },
+    "redux-mock-store": {
+      "1.5.4": {
+        "hash": "sha512-xmcA0O/tjCLXhh9Fuiq6pMrJCwFRaouA8436zcikdIpYWWCjU76CRk+i2bHx8EeiSiMGnB85/lZdU3wIJVXHTA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-mock-store/-/redux-mock-store-1.5.4.tgz"
+      }
+    }
+  }
+}

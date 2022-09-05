@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "msgpack-lite",
+    "location": "",
+    "packages": {
+      "msgpack-lite": "0.1.26"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "msgpack-lite": {
+      "0.1.26": [
+        [ "event-lite", "0.1.2" ],
+        [ "ieee754", "1.2.1" ],
+        [ "int64-buffer", "0.1.10" ],
+        [ "isarray", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "msgpack-lite", "0.1.26" ]
+      ]
+    }
+  },
+  "sources": {
+    "event-lite": {
+      "0.1.2": {
+        "hash": "sha512-HnSYx1BsJ87/p6swwzv+2v6B4X+uxUteoDfRxsAb1S1BePzQqOLevVmkdA15GHJVd9A9Ok6wygUR18Hu0YeV9g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/event-lite/-/event-lite-0.1.2.tgz"
+      }
+    },
+    "ieee754": {
+      "1.2.1": {
+        "hash": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
+      }
+    },
+    "int64-buffer": {
+      "0.1.10": {
+        "hash": "sha512-v7cSY1J8ydZ0GyjUHqF+1bshJ6cnEVLo9EnjB8p+4HDRPZc9N5jjmvUV7NvEsqQOKyH0pmIBFWXVQbiS0+OBbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/int64-buffer/-/int64-buffer-0.1.10.tgz"
+      }
+    },
+    "isarray": {
+      "1.0.0": {
+        "hash": "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+      }
+    },
+    "msgpack-lite": {
+      "0.1.26": {
+        "hash": "sha512-SZ2IxeqZ1oRFGo0xFGbvBJWMp3yLIY9rlIJyxy8CGrwZn1f0ZK4r6jV/AM1r0FZMDUkWkglOk/eeKIL9g77Nxw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/msgpack-lite/-/msgpack-lite-0.1.26.tgz"
+      }
+    }
+  }
+}

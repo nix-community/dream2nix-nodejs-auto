@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "d3-shape",
+    "location": "",
+    "packages": {
+      "d3-shape": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "d3-shape": {
+      "3.1.0": [
+        [ "d3-path", "3.0.1" ]
+      ],
+      "unknown": [
+        [ "d3-shape", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "d3-path": {
+      "3.0.1": {
+        "hash": "sha512-gq6gZom9AFZby0YLduxT1qmrp4xpBA1YZr19OI717WIdKE2OM5ETq5qrHLb301IgxhLwcuxvGZVLeeWc/k1I6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-path/-/d3-path-3.0.1.tgz"
+      }
+    },
+    "d3-shape": {
+      "3.1.0": {
+        "hash": "sha512-tGDh1Muf8kWjEDT/LswZJ8WF85yDZLvVJpYU9Nq+8+yW1Z5enxrmXOhTArlkaElU+CTn0OTVNli+/i+HP45QEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-shape/-/d3-shape-3.1.0.tgz"
+      }
+    }
+  }
+}

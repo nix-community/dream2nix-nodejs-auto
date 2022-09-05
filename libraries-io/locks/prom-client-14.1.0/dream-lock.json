@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "prom-client",
+    "location": "",
+    "packages": {
+      "prom-client": "14.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prom-client": {
+      "14.1.0": [
+        [ "tdigest", "0.1.2" ]
+      ],
+      "unknown": [
+        [ "prom-client", "14.1.0" ]
+      ]
+    },
+    "tdigest": {
+      "0.1.2": [
+        [ "bintrees", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "bintrees": {
+      "1.0.2": {
+        "hash": "sha512-VOMgTMwjAaUG580SXn3LacVgjurrbMme7ZZNYGSSV7mmtY6QQRh0Eg3pwIcntQ77DErK1L0NxkbetjcoXzVwKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bintrees/-/bintrees-1.0.2.tgz"
+      }
+    },
+    "prom-client": {
+      "14.1.0": {
+        "hash": "sha512-iFWCchQmi4170omLpFXbzz62SQTmPhtBL35v0qGEVRHKcqIeiexaoYeP0vfZTujxEq3tA87iqOdRbC9svS1B9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prom-client/-/prom-client-14.1.0.tgz"
+      }
+    },
+    "tdigest": {
+      "0.1.2": {
+        "hash": "sha512-+G0LLgjjo9BZX2MfdvPfH+MKLCrxlXSYec5DaPYP1fe6Iyhf0/fSmJ0bFiZ1F8BT6cGXl2LpltQptzjXKWEkKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tdigest/-/tdigest-0.1.2.tgz"
+      }
+    }
+  }
+}

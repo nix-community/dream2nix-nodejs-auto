@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "sugar",
+    "location": "",
+    "packages": {
+      "sugar": "2.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sugar": {
+      "2.0.6": [
+        [ "sugar-core", "2.0.6" ]
+      ],
+      "unknown": [
+        [ "sugar", "2.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "sugar": {
+      "2.0.6": {
+        "hash": "sha512-s0P2/pjJtAD9VA44+2Gqm3NdC4v+08melA6YubOxzshu628krTbn95/M2GWMrI9rYspZMpYBIrChR46fjQ7xsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sugar/-/sugar-2.0.6.tgz"
+      }
+    },
+    "sugar-core": {
+      "2.0.6": {
+        "hash": "sha512-YmLFysR3Si6RImqL1+aB6JH81EXxvXn5iXhPf2PsjfoUYEwCxFDYCQY+zC3WqviuGWzxFaSkkJvkUE05Y03L5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sugar-core/-/sugar-core-2.0.6.tgz"
+      }
+    }
+  }
+}

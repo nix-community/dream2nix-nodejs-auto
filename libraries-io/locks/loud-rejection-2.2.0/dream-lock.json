@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "loud-rejection",
+    "location": "",
+    "packages": {
+      "loud-rejection": "2.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "currently-unhandled": {
+      "0.4.1": [
+        [ "array-find-index", "1.0.2" ]
+      ]
+    },
+    "loud-rejection": {
+      "2.2.0": [
+        [ "currently-unhandled", "0.4.1" ],
+        [ "signal-exit", "3.0.7" ]
+      ],
+      "unknown": [
+        [ "loud-rejection", "2.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "array-find-index": {
+      "1.0.2": {
+        "hash": "sha512-M1HQyIXcBGtVywBt8WVdim+lrNaK7VHp99Qt5pSNziXznKHViIBbXWtfRTpEFpF/c4FdfxNAsCCwPp5phBYJtw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-find-index/-/array-find-index-1.0.2.tgz"
+      }
+    },
+    "currently-unhandled": {
+      "0.4.1": {
+        "hash": "sha512-/fITjgjGU50vjQ4FH6eUoYu+iUoUKIXws2hL15JJpIR+BbTxaXQsMuuyjtNh2WqsSBS5nsaZHFsFecyw5CCAng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/currently-unhandled/-/currently-unhandled-0.4.1.tgz"
+      }
+    },
+    "loud-rejection": {
+      "2.2.0": {
+        "hash": "sha512-S0FayMXku80toa5sZ6Ro4C+s+EtFDCsyJNG/AzFMfX3AxD5Si4dZsgzm/kKnbOxHl5Cv8jBlno8+3XYIh2pNjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loud-rejection/-/loud-rejection-2.2.0.tgz"
+      }
+    },
+    "signal-exit": {
+      "3.0.7": {
+        "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
+      }
+    }
+  }
+}

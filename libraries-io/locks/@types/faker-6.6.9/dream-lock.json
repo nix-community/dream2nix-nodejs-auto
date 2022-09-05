@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/faker",
+    "location": "",
+    "packages": {
+      "@types/faker": "6.6.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/faker": {
+      "6.6.9": [
+        [ "faker", "6.6.6" ]
+      ],
+      "unknown": [
+        [ "@types/faker", "6.6.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/faker": {
+      "6.6.9": {
+        "hash": "sha512-Y9YYm5L//8ooiiknO++4Gr539zzdI0j3aXnOBjo1Vk+kTvffY10GuE2wn78AFPECwZ5MYGTjiDVw1naLLdDimw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/faker/-/faker-6.6.9.tgz"
+      }
+    },
+    "faker": {
+      "6.6.6": {
+        "hash": "sha512-9tCqYEDHI5RYFQigXFwF1hnCwcWCOJl/hmll0lr5D2Ljjb0o4wphb69wikeJDz5qCEzXCoPvG6ss5SDP6IfOdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/faker/-/faker-6.6.6.tgz"
+      }
+    }
+  }
+}

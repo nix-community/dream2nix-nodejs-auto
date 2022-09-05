@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/mz",
+    "location": "",
+    "packages": {
+      "@types/mz": "2.7.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/mz": {
+      "2.7.4": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/mz", "2.7.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/mz": {
+      "2.7.4": {
+        "hash": "sha512-Zs0imXxyWT20j3Z2NwKpr0IO2LmLactBblNyLua5Az4UHuqOQ02V3jPTgyKwDkuc33/ahw+C3O1PIZdrhFMuQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/mz/-/mz-2.7.4.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

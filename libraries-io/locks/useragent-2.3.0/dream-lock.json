@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "useragent",
+    "location": "",
+    "packages": {
+      "useragent": "2.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lru-cache": {
+      "4.1.5": [
+        [ "pseudomap", "1.0.2" ],
+        [ "yallist", "2.1.2" ]
+      ]
+    },
+    "tmp": {
+      "0.0.33": [
+        [ "os-tmpdir", "1.0.2" ]
+      ]
+    },
+    "useragent": {
+      "2.3.0": [
+        [ "lru-cache", "4.1.5" ],
+        [ "tmp", "0.0.33" ]
+      ],
+      "unknown": [
+        [ "useragent", "2.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "lru-cache": {
+      "4.1.5": {
+        "hash": "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz"
+      }
+    },
+    "os-tmpdir": {
+      "1.0.2": {
+        "hash": "sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+      }
+    },
+    "pseudomap": {
+      "1.0.2": {
+        "hash": "sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
+      }
+    },
+    "tmp": {
+      "0.0.33": {
+        "hash": "sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz"
+      }
+    },
+    "useragent": {
+      "2.3.0": {
+        "hash": "sha512-4AoH4pxuSvHCjqLO04sU6U/uE65BYza8l/KKBS0b0hnUPWi+cQ2BpeTEwejCSx9SPV5/U03nniDTrWx5NrmKdw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/useragent/-/useragent-2.3.0.tgz"
+      }
+    },
+    "yallist": {
+      "2.1.2": {
+        "hash": "sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz"
+      }
+    }
+  }
+}

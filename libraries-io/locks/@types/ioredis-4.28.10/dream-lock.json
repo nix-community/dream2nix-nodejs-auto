@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/ioredis",
+    "location": "",
+    "packages": {
+      "@types/ioredis": "4.28.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/ioredis": {
+      "4.28.10": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/ioredis", "4.28.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/ioredis": {
+      "4.28.10": {
+        "hash": "sha512-69LyhUgrXdgcNDv7ogs1qXZomnfOEnSmrmMFqKgt1XMJxmoOSG/u3wYy13yACIfKuMJ8IhKgHafDO3sx19zVQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/ioredis/-/ioredis-4.28.10.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

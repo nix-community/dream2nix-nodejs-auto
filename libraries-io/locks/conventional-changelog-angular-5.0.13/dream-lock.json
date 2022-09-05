@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "conventional-changelog-angular",
+    "location": "",
+    "packages": {
+      "conventional-changelog-angular": "5.0.13"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "compare-func": {
+      "2.0.0": [
+        [ "array-ify", "1.0.0" ],
+        [ "dot-prop", "5.3.0" ]
+      ]
+    },
+    "conventional-changelog-angular": {
+      "5.0.13": [
+        [ "compare-func", "2.0.0" ],
+        [ "q", "1.5.1" ]
+      ],
+      "unknown": [
+        [ "conventional-changelog-angular", "5.0.13" ]
+      ]
+    },
+    "dot-prop": {
+      "5.3.0": [
+        [ "is-obj", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "array-ify": {
+      "1.0.0": {
+        "hash": "sha512-c5AMf34bKdvPhQ7tBGhqkgKNUzMr4WUs+WDtC2ZUGOUncbxKMTvqxYctiseW3+L4bA8ec+GcZ6/A/FW4m8ukng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-ify/-/array-ify-1.0.0.tgz"
+      }
+    },
+    "compare-func": {
+      "2.0.0": {
+        "hash": "sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/compare-func/-/compare-func-2.0.0.tgz"
+      }
+    },
+    "conventional-changelog-angular": {
+      "5.0.13": {
+        "hash": "sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-5.0.13.tgz"
+      }
+    },
+    "dot-prop": {
+      "5.3.0": {
+        "hash": "sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dot-prop/-/dot-prop-5.3.0.tgz"
+      }
+    },
+    "is-obj": {
+      "2.0.0": {
+        "hash": "sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-obj/-/is-obj-2.0.0.tgz"
+      }
+    },
+    "q": {
+      "1.5.1": {
+        "hash": "sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/q/-/q-1.5.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "backbone",
+    "location": "",
+    "packages": {
+      "backbone": "1.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "backbone": {
+      "1.4.1": [
+        [ "underscore", "1.13.4" ]
+      ],
+      "unknown": [
+        [ "backbone", "1.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "backbone": {
+      "1.4.1": {
+        "hash": "sha512-ADy1ztN074YkWbHi8ojJVFe3vAanO/lrzMGZWUClIP7oDD/Pjy2vrASraUP+2EVCfIiTtCW4FChVow01XneivA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/backbone/-/backbone-1.4.1.tgz"
+      }
+    },
+    "underscore": {
+      "1.13.4": {
+        "hash": "sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.4.tgz"
+      }
+    }
+  }
+}

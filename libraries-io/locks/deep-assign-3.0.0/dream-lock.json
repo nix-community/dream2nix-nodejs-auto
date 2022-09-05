@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "deep-assign",
+    "location": "",
+    "packages": {
+      "deep-assign": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "deep-assign": {
+      "3.0.0": [
+        [ "is-obj", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "deep-assign", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "deep-assign": {
+      "3.0.0": {
+        "hash": "sha512-YX2i9XjJ7h5q/aQ/IM9PEwEnDqETAIYbggmdDB3HLTlSgo1CxPsj6pvhPG68rq6SVE0+p+6Ywsm5fTYNrYtBWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deep-assign/-/deep-assign-3.0.0.tgz"
+      }
+    },
+    "is-obj": {
+      "1.0.1": {
+        "hash": "sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-obj/-/is-obj-1.0.1.tgz"
+      }
+    }
+  }
+}

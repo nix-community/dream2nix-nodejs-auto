@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "string-length",
+    "location": "",
+    "packages": {
+      "string-length": "5.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "string-length": {
+      "5.0.1": [
+        [ "char-regex", "2.0.1" ],
+        [ "strip-ansi", "7.0.1" ]
+      ],
+      "unknown": [
+        [ "string-length", "5.0.1" ]
+      ]
+    },
+    "strip-ansi": {
+      "7.0.1": [
+        [ "ansi-regex", "6.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-regex": {
+      "6.0.1": {
+        "hash": "sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
+      }
+    },
+    "char-regex": {
+      "2.0.1": {
+        "hash": "sha512-oSvEeo6ZUD7NepqAat3RqoucZ5SeqLJgOvVIwkafu6IP3V0pO38s/ypdVUmDDK6qIIHNlYHJAKX9E7R7HoKElw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/char-regex/-/char-regex-2.0.1.tgz"
+      }
+    },
+    "string-length": {
+      "5.0.1": {
+        "hash": "sha512-9Ep08KAMUn0OadnVaBuRdE2l615CQ508kr0XMadjClfYpdCyvrbFp6Taebo8yyxokQ4viUd/xPPUA4FGgUa0ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string-length/-/string-length-5.0.1.tgz"
+      }
+    },
+    "strip-ansi": {
+      "7.0.1": {
+        "hash": "sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.0.1.tgz"
+      }
+    }
+  }
+}

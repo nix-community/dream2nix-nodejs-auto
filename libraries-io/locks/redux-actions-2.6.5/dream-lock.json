@@ -1,0 +1,114 @@
+{
+  "_generic": {
+    "defaultPackage": "redux-actions",
+    "location": "",
+    "packages": {
+      "redux-actions": "2.6.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "invariant": {
+      "2.2.4": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "redux-actions": {
+      "2.6.5": [
+        [ "invariant", "2.2.4" ],
+        [ "just-curry-it", "3.2.1" ],
+        [ "loose-envify", "1.4.0" ],
+        [ "reduce-reducers", "0.4.3" ],
+        [ "to-camel-case", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "redux-actions", "2.6.5" ]
+      ]
+    },
+    "to-camel-case": {
+      "1.0.0": [
+        [ "to-space-case", "1.0.0" ]
+      ]
+    },
+    "to-space-case": {
+      "1.0.0": [
+        [ "to-no-case", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "invariant": {
+      "2.2.4": {
+        "hash": "sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "just-curry-it": {
+      "3.2.1": {
+        "hash": "sha512-Q8206k8pTY7krW32cdmPsP+DqqLgWx/hYPSj9/+7SYqSqz7UuwPbfSe07lQtvuuaVyiSJveXk0E5RydOuWwsEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/just-curry-it/-/just-curry-it-3.2.1.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "reduce-reducers": {
+      "0.4.3": {
+        "hash": "sha512-+CNMnI8QhgVMtAt54uQs3kUxC3Sybpa7Y63HR14uGLgI9/QR5ggHvpxwhGGe3wmx5V91YwqQIblN9k5lspAmGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.4.3.tgz"
+      }
+    },
+    "redux-actions": {
+      "2.6.5": {
+        "hash": "sha512-pFhEcWFTYNk7DhQgxMGnbsB1H2glqhQJRQrtPb96kD3hWiZRzXHwwmFPswg6V2MjraXRXWNmuP9P84tvdLAJmw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-actions/-/redux-actions-2.6.5.tgz"
+      }
+    },
+    "to-camel-case": {
+      "1.0.0": {
+        "hash": "sha512-nD8pQi5H34kyu1QDMFjzEIYqk0xa9Alt6ZfrdEMuHCFOfTLhDG5pgTu/aAM9Wt9lXILwlXmWP43b8sav0GNE8Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/to-camel-case/-/to-camel-case-1.0.0.tgz"
+      }
+    },
+    "to-no-case": {
+      "1.0.2": {
+        "hash": "sha512-Z3g735FxuZY8rodxV4gH7LxClE4H0hTIyHNIHdk+vpQxjLm0cwnKXq/OFVZ76SOQmto7txVcwSCwkU5kqp+FKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/to-no-case/-/to-no-case-1.0.2.tgz"
+      }
+    },
+    "to-space-case": {
+      "1.0.0": {
+        "hash": "sha512-rLdvwXZ39VOn1IxGL3V6ZstoTbwLRckQmn/U8ZDLuWwIXNpuZDhQ3AiRUlhTbOXFVE9C+dR51wM0CBDhk31VcA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/to-space-case/-/to-space-case-1.0.0.tgz"
+      }
+    }
+  }
+}

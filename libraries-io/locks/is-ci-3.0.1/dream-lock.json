@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "is-ci",
+    "location": "",
+    "packages": {
+      "is-ci": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "is-ci": {
+      "3.0.1": [
+        [ "ci-info", "3.3.2" ]
+      ],
+      "unknown": [
+        [ "is-ci", "3.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ci-info": {
+      "3.3.2": {
+        "hash": "sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ci-info/-/ci-info-3.3.2.tgz"
+      }
+    },
+    "is-ci": {
+      "3.0.1": {
+        "hash": "sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-ci/-/is-ci-3.0.1.tgz"
+      }
+    }
+  }
+}

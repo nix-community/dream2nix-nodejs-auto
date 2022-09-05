@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "qiniu-js",
+    "location": "",
+    "packages": {
+      "qiniu-js": "3.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime-corejs2": {
+      "7.18.9": [
+        [ "core-js", "2.6.12" ],
+        [ "regenerator-runtime", "0.13.9" ]
+      ]
+    },
+    "qiniu-js": {
+      "3.4.1": [
+        [ "@babel/runtime-corejs2", "7.18.9" ],
+        [ "querystring", "0.2.1" ],
+        [ "spark-md5", "3.0.2" ]
+      ],
+      "unknown": [
+        [ "qiniu-js", "3.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime-corejs2": {
+      "7.18.9": {
+        "hash": "sha512-l057ZarpDX2QnXM89ViR2BgRFgTy2l5UFGDt0SbInhim1N/ljBgPeTJV0kRG1/Bo7CkHfYfrNNwTeQ2CPph9xQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime-corejs2/-/runtime-corejs2-7.18.9.tgz"
+      }
+    },
+    "core-js": {
+      "2.6.12": {
+        "hash": "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+      }
+    },
+    "qiniu-js": {
+      "3.4.1": {
+        "hash": "sha512-8vxrLqDPlJUk3fUAaTozh3TAT3ww9B5KqGogmGuTiFHnewXDoMxTCSY5z8Ab5UNdrCo6ZxDM07G/o++CICRUFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/qiniu-js/-/qiniu-js-3.4.1.tgz"
+      }
+    },
+    "querystring": {
+      "0.2.1": {
+        "hash": "sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/querystring/-/querystring-0.2.1.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.9": {
+        "hash": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+      }
+    },
+    "spark-md5": {
+      "3.0.2": {
+        "hash": "sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/spark-md5/-/spark-md5-3.0.2.tgz"
+      }
+    }
+  }
+}

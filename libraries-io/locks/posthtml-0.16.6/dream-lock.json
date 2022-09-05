@@ -1,0 +1,140 @@
+{
+  "_generic": {
+    "defaultPackage": "posthtml",
+    "location": "",
+    "packages": {
+      "posthtml": "0.16.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dom-serializer": {
+      "1.4.1": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "4.3.1" ],
+        [ "entities", "2.2.0" ]
+      ]
+    },
+    "domhandler": {
+      "4.3.1": [
+        [ "domelementtype", "2.3.0" ]
+      ]
+    },
+    "domutils": {
+      "2.8.0": [
+        [ "dom-serializer", "1.4.1" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "4.3.1" ]
+      ]
+    },
+    "htmlparser2": {
+      "7.2.0": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "4.3.1" ],
+        [ "domutils", "2.8.0" ],
+        [ "entities", "3.0.1" ]
+      ]
+    },
+    "posthtml": {
+      "0.16.6": [
+        [ "posthtml-parser", "0.11.0" ],
+        [ "posthtml-render", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "posthtml", "0.16.6" ]
+      ]
+    },
+    "posthtml-parser": {
+      "0.11.0": [
+        [ "htmlparser2", "7.2.0" ]
+      ]
+    },
+    "posthtml-render": {
+      "3.0.0": [
+        [ "is-json", "2.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dom-serializer": {
+      "1.4.1": {
+        "hash": "sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.4.1.tgz"
+      }
+    },
+    "domelementtype": {
+      "2.3.0": {
+        "hash": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+      }
+    },
+    "domhandler": {
+      "4.3.1": {
+        "hash": "sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-4.3.1.tgz"
+      }
+    },
+    "domutils": {
+      "2.8.0": {
+        "hash": "sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
+      }
+    },
+    "entities": {
+      "2.2.0": {
+        "hash": "sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz"
+      },
+      "3.0.1": {
+        "hash": "sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-3.0.1.tgz"
+      }
+    },
+    "htmlparser2": {
+      "7.2.0": {
+        "hash": "sha512-H7MImA4MS6cw7nbyURtLPO1Tms7C5H602LRETv95z1MxO/7CP7rDVROehUYeYBUYEON94NXXDEPmZuq+hX4sog==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-7.2.0.tgz"
+      }
+    },
+    "is-json": {
+      "2.0.1": {
+        "hash": "sha512-6BEnpVn1rcf3ngfmViLM6vjUjGErbdrL4rwlv+u1NO1XO8kqT4YGL8+19Q+Z/bas8tY90BTWMk2+fW1g6hQjbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-json/-/is-json-2.0.1.tgz"
+      }
+    },
+    "posthtml": {
+      "0.16.6": {
+        "hash": "sha512-JcEmHlyLK/o0uGAlj65vgg+7LIms0xKXe60lcDOTU7oVX/3LuEuLwrQpW3VJ7de5TaFKiW4kWkaIpJL42FEgxQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/posthtml/-/posthtml-0.16.6.tgz"
+      }
+    },
+    "posthtml-parser": {
+      "0.11.0": {
+        "hash": "sha512-QecJtfLekJbWVo/dMAA+OSwY79wpRmbqS5TeXvXSX+f0c6pW4/SE6inzZ2qkU7oAMCPqIDkZDvd/bQsSFUnKyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/posthtml-parser/-/posthtml-parser-0.11.0.tgz"
+      }
+    },
+    "posthtml-render": {
+      "3.0.0": {
+        "hash": "sha512-z+16RoxK3fUPgwaIgH9NGnK1HKY9XIDpydky5eQGgAFVXTCSezalv9U2jQuNV+Z9qV1fDWNzldcw4eK0SSbqKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/posthtml-render/-/posthtml-render-3.0.0.tgz"
+      }
+    }
+  }
+}

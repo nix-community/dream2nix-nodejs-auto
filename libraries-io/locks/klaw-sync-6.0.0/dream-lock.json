@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "klaw-sync",
+    "location": "",
+    "packages": {
+      "klaw-sync": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "klaw-sync": {
+      "6.0.0": [
+        [ "graceful-fs", "4.2.10" ]
+      ],
+      "unknown": [
+        [ "klaw-sync", "6.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "klaw-sync": {
+      "6.0.0": {
+        "hash": "sha512-nIeuVSzdCCs6TDPTqI8w1Yre34sSq7AkZ4B3sfOBbI2CgVSB4Du4aLQijFU2+lhAFCwt9+42Hel6lQNIv6AntQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/klaw-sync/-/klaw-sync-6.0.0.tgz"
+      }
+    }
+  }
+}

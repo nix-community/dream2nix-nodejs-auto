@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "sanitize-filename",
+    "location": "",
+    "packages": {
+      "sanitize-filename": "1.6.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sanitize-filename": {
+      "1.6.3": [
+        [ "truncate-utf8-bytes", "1.0.2" ]
+      ],
+      "unknown": [
+        [ "sanitize-filename", "1.6.3" ]
+      ]
+    },
+    "truncate-utf8-bytes": {
+      "1.0.2": [
+        [ "utf8-byte-length", "1.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "sanitize-filename": {
+      "1.6.3": {
+        "hash": "sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sanitize-filename/-/sanitize-filename-1.6.3.tgz"
+      }
+    },
+    "truncate-utf8-bytes": {
+      "1.0.2": {
+        "hash": "sha512-95Pu1QXQvruGEhv62XCMO3Mm90GscOCClvrIUwCM0PYOXK3kaF3l3sIHxx71ThJfcbM2O5Au6SO3AWCSEfW4mQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.2.tgz"
+      }
+    },
+    "utf8-byte-length": {
+      "1.0.4": {
+        "hash": "sha512-4+wkEYLBbWxqTahEsWrhxepcoVOJ+1z5PGIjPZxRkytcdSUaNjIjBM7Xn8E+pdSuV7SzvWovBFA54FO0JSoqhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/utf8-byte-length/-/utf8-byte-length-1.0.4.tgz"
+      }
+    }
+  }
+}

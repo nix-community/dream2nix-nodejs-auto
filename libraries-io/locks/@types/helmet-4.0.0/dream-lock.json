@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/helmet",
+    "location": "",
+    "packages": {
+      "@types/helmet": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/helmet": {
+      "4.0.0": [
+        [ "helmet", "6.0.0" ]
+      ],
+      "unknown": [
+        [ "@types/helmet", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/helmet": {
+      "4.0.0": {
+        "hash": "sha512-ONIn/nSNQA57yRge3oaMQESef/6QhoeX7llWeDli0UZIfz8TQMkfNPTXA8VnnyeA1WUjG2pGqdjEIueYonMdfQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/helmet/-/helmet-4.0.0.tgz"
+      }
+    },
+    "helmet": {
+      "6.0.0": {
+        "hash": "sha512-FO9RpR1wNJepH/GbLPQVtkE2eESglXL641p7SdyoT4LngHFJcZheHMoyUcjCZF4qpuMMO1u5q6RK0l9Ux8JBcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/helmet/-/helmet-6.0.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "uppercamelcase",
+    "location": "",
+    "packages": {
+      "uppercamelcase": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "uppercamelcase": {
+      "3.0.0": [
+        [ "camelcase", "4.1.0" ]
+      ],
+      "unknown": [
+        [ "uppercamelcase", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "camelcase": {
+      "4.1.0": {
+        "hash": "sha512-FxAv7HpHrXbh3aPo4o2qxHay2lkLY3x5Mw3KeE4KQE8ysVfziWeRZDwcjauvwBSGEC/nXUPzZy8zeh4HokqOnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz"
+      }
+    },
+    "uppercamelcase": {
+      "3.0.0": {
+        "hash": "sha512-zTWmRiOJACCdFGWjzye3L5cjSuVdZ/c8C0iHIwVbfORFD8IhGNAO6BOWkZ+fj+SI6/aFbdjGXE6gwPG780H4gQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uppercamelcase/-/uppercamelcase-3.0.0.tgz"
+      }
+    }
+  }
+}

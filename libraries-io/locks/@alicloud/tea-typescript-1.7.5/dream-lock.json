@@ -1,0 +1,79 @@
+{
+  "_generic": {
+    "defaultPackage": "@alicloud/tea-typescript",
+    "location": "",
+    "packages": {
+      "@alicloud/tea-typescript": "1.7.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@alicloud/tea-typescript": {
+      "1.7.5": [
+        [ "@types/node", "12.20.55" ],
+        [ "httpx", "2.2.7" ]
+      ],
+      "unknown": [
+        [ "@alicloud/tea-typescript", "1.7.5" ]
+      ]
+    },
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "httpx": {
+      "2.2.7": [
+        [ "@types/node", "14.18.27" ],
+        [ "debug", "4.3.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@alicloud/tea-typescript": {
+      "1.7.5": {
+        "hash": "sha512-YyRMQaR+zURKBYkA+ckzS/m/5FH6x5P2oihCXLNZ6y0zmeRZPBfl8Rmr+mfPdCQA8ujkRDUn0zvj8M5kd7T0MQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@alicloud/tea-typescript/-/tea-typescript-1.7.5.tgz"
+      }
+    },
+    "@types/node": {
+      "12.20.55": {
+        "hash": "sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-12.20.55.tgz"
+      },
+      "14.18.27": {
+        "hash": "sha512-DcTUcwT9xEcf4rp2UHyGAcmlqG4Mhe7acozl5vY2xzSrwP1z19ZVyjzQ6DsNUrvIadpiyZoQCTHFt4t2omYIZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-14.18.27.tgz"
+      }
+    },
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "httpx": {
+      "2.2.7": {
+        "hash": "sha512-Wjh2JOAah0pdczfqL8NC5378G7jMt0Zcpn8U+yyxAiejjlagzSTQgJHuVvka2VNPQlKfoGehYRc79WKq9E4gDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/httpx/-/httpx-2.2.7.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    }
+  }
+}

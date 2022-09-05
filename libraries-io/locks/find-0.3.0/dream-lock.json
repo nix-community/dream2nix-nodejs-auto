@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "find",
+    "location": "",
+    "packages": {
+      "find": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "find": {
+      "0.3.0": [
+        [ "traverse-chain", "0.1.0" ]
+      ],
+      "unknown": [
+        [ "find", "0.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "find": {
+      "0.3.0": {
+        "hash": "sha512-iSd+O4OEYV/I36Zl8MdYJO0xD82wH528SaCieTVHhclgiYNe9y+yPKSwK+A7/WsmHL1EZ+pYUJBXWTL5qofksw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/find/-/find-0.3.0.tgz"
+      }
+    },
+    "traverse-chain": {
+      "0.1.0": {
+        "hash": "sha512-up6Yvai4PYKhpNp5PkYtx50m3KbwQrqDwbuZP/ItyL64YEWHAvH6Md83LFLV/GRSk/BoUVwwgUzX6SOQSbsfAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/traverse-chain/-/traverse-chain-0.1.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/amqplib",
+    "location": "",
+    "packages": {
+      "@types/amqplib": "0.8.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/amqplib": {
+      "0.8.2": [
+        [ "@types/bluebird", "3.5.36" ],
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/amqplib", "0.8.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/amqplib": {
+      "0.8.2": {
+        "hash": "sha512-p+TFLzo52f8UanB+Nq6gyUi65yecAcRY3nYowU6MPGFtaJvEDxcnFWrxssSTkF+ts1W3zyQDvgVICLQem5WxRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/amqplib/-/amqplib-0.8.2.tgz"
+      }
+    },
+    "@types/bluebird": {
+      "3.5.36": {
+        "hash": "sha512-HBNx4lhkxN7bx6P0++W8E289foSu8kO8GCk2unhuVggO+cE7rh9DhZUyPhUxNRG9m+5B5BTKxZQ5ZP92x/mx9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.36.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

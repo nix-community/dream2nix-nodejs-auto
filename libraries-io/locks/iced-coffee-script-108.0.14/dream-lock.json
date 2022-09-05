@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "iced-coffee-script",
+    "location": "",
+    "packages": {
+      "iced-coffee-script": "108.0.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "iced-coffee-script": {
+      "108.0.14": [
+        [ "iced-runtime", "1.0.4" ],
+        [ "uglify-js", "3.17.0" ]
+      ],
+      "unknown": [
+        [ "iced-coffee-script", "108.0.14" ]
+      ]
+    }
+  },
+  "sources": {
+    "iced-coffee-script": {
+      "108.0.14": {
+        "hash": "sha512-e0CNmz51UGWRa2glPnUMnJM7oKQE81cxeC0WAgCjJDRImv3FDHldZr/Ngkbrgdbf1drGGzYWp+PWeJwXIfHwDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-108.0.14.tgz"
+      }
+    },
+    "iced-runtime": {
+      "1.0.4": {
+        "hash": "sha512-rgiJXNF6ZgF2Clh/TKUlBDW3q51YPDJUXmxGQXx1b8tbZpVpTn+1RX9q1sjNkujXIIaVxZByQzPHHORg7KV51g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/iced-runtime/-/iced-runtime-1.0.4.tgz"
+      }
+    },
+    "uglify-js": {
+      "3.17.0": {
+        "hash": "sha512-aTeNPVmgIMPpm1cxXr2Q/nEbvkmV8yq66F3om7X3P/cvOXQ0TMQ64Wk63iyT1gPlmdmGzjGpyLh1f3y8MZWXGg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.0.tgz"
+      }
+    }
+  }
+}

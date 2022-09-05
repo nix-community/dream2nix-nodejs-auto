@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "asn1",
+    "location": "",
+    "packages": {
+      "asn1": "0.2.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "asn1": {
+      "0.2.6": [
+        [ "safer-buffer", "2.1.2" ]
+      ],
+      "unknown": [
+        [ "asn1", "0.2.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "asn1": {
+      "0.2.6": {
+        "hash": "sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/asn1/-/asn1-0.2.6.tgz"
+      }
+    },
+    "safer-buffer": {
+      "2.1.2": {
+        "hash": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
+      }
+    }
+  }
+}

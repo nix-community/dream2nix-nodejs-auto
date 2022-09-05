@@ -1,0 +1,229 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-defaults-mode-node",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-defaults-mode-node": "3.163.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/config-resolver": {
+      "3.163.0": [
+        [ "@aws-sdk/signature-v4", "3.163.0" ],
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "@aws-sdk/util-config-provider", "3.109.0" ],
+        [ "@aws-sdk/util-middleware", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/credential-provider-imds": {
+      "3.162.0": [
+        [ "@aws-sdk/node-config-provider", "3.162.0" ],
+        [ "@aws-sdk/property-provider", "3.162.0" ],
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "@aws-sdk/url-parser", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/is-array-buffer": {
+      "3.55.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/node-config-provider": {
+      "3.162.0": [
+        [ "@aws-sdk/property-provider", "3.162.0" ],
+        [ "@aws-sdk/shared-ini-file-loader", "3.162.0" ],
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/property-provider": {
+      "3.162.0": [
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/querystring-parser": {
+      "3.162.0": [
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/shared-ini-file-loader": {
+      "3.162.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/signature-v4": {
+      "3.163.0": [
+        [ "@aws-sdk/is-array-buffer", "3.55.0" ],
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "@aws-sdk/util-hex-encoding", "3.109.0" ],
+        [ "@aws-sdk/util-middleware", "3.162.0" ],
+        [ "@aws-sdk/util-uri-escape", "3.55.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/url-parser": {
+      "3.162.0": [
+        [ "@aws-sdk/querystring-parser", "3.162.0" ],
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-config-provider": {
+      "3.109.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-defaults-mode-node": {
+      "3.163.0": [
+        [ "@aws-sdk/config-resolver", "3.163.0" ],
+        [ "@aws-sdk/credential-provider-imds", "3.162.0" ],
+        [ "@aws-sdk/node-config-provider", "3.162.0" ],
+        [ "@aws-sdk/property-provider", "3.162.0" ],
+        [ "@aws-sdk/types", "3.162.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-defaults-mode-node", "3.163.0" ]
+      ]
+    },
+    "@aws-sdk/util-hex-encoding": {
+      "3.109.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-middleware": {
+      "3.162.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-uri-escape": {
+      "3.55.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/config-resolver": {
+      "3.163.0": {
+        "hash": "sha512-iBl5Zc3+VRGJy6n+aMcg++7tzYi4G1bHia6v/eF93SvdKxtRv40M9QnqoNfaNUuw9U2ltwKOHepw7J3bkOA8cQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/config-resolver/-/config-resolver-3.163.0.tgz"
+      }
+    },
+    "@aws-sdk/credential-provider-imds": {
+      "3.162.0": {
+        "hash": "sha512-ohrHMIu2MNauPjbE8mEMKtlEQH/VZdpNswPigaEejUGVumz0NSft9PlIn2X79sNX5Y+uXopynMQF4MZj773hTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-imds/-/credential-provider-imds-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/is-array-buffer": {
+      "3.55.0": {
+        "hash": "sha512-NbiPHVYuPxdqdFd6FxzzN3H1BQn/iWA3ri3Ry7AyLeP/tGs1yzEWMwf8BN8TSMALI0GXT6Sh0GDWy3Ok5xB6DA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/is-array-buffer/-/is-array-buffer-3.55.0.tgz"
+      }
+    },
+    "@aws-sdk/node-config-provider": {
+      "3.162.0": {
+        "hash": "sha512-PgaekXCCyz/gKkbukt9zYLBJDEVgmCm0l78q5J84yJbu0FhcZY4LaAgCHdzhsgEYWTX497hokzNc3rgLdVu46A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/node-config-provider/-/node-config-provider-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/property-provider": {
+      "3.162.0": {
+        "hash": "sha512-kQLpibZRIrF58axcKY4Pr17YGoVBKBOWKol8jI8vlDhbFJqn14pVLohv4wZ8TzG2kKhWCF+t25YQCefWz2/lkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/property-provider/-/property-provider-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/querystring-parser": {
+      "3.162.0": {
+        "hash": "sha512-0ccaGsR1O7e3BsprdYBMwGf8gmycTv1Dfz2EB5R6MiTqzcuQJ/lxpIcRh3jhUJaD1TPlUziyrBEAxtLka3HDDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/querystring-parser/-/querystring-parser-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/shared-ini-file-loader": {
+      "3.162.0": {
+        "hash": "sha512-AGxISXns+1o6Pw+SPizFJDTw4Lwm+JSwhycCNhFU3JfdLsKfLY08JV4JHlcc+TyY4a8HhnGvE3r5t2f2dPLIsA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/shared-ini-file-loader/-/shared-ini-file-loader-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/signature-v4": {
+      "3.163.0": {
+        "hash": "sha512-1iein+7iAHKcRIXaZhl/lG6JrOR/Qmk27zMqfARzxDF7o/W5arSs3DHIKytO1sOEn9zV6Mqm21dRAumD21VCCg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/signature-v4/-/signature-v4-3.163.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.162.0": {
+        "hash": "sha512-NBmuwVujH8fURDMvBHkHrYu/JAfG6Js/Bu0mC4o2Kdo5mRa3fD/N9kK0dEAxU1Rxp4wY2E++V9j2ZCw1KBGrSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/url-parser": {
+      "3.162.0": {
+        "hash": "sha512-aJQ2awXYDceLAzPMQETpvI1XQd8oYuqH1EriFzXHqoJTNmYnHb7awtKSqwaS8pq48x1rS/eVtJAi85BG93fXyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/url-parser/-/url-parser-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/util-config-provider": {
+      "3.109.0": {
+        "hash": "sha512-GrAZl/aBv0A28LkyNyq8SPJ5fmViCwz80fWLMeWx/6q5AbivuILogjlWwEZSvZ9zrlHOcFC0+AnCa5pQrjaslw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-config-provider/-/util-config-provider-3.109.0.tgz"
+      }
+    },
+    "@aws-sdk/util-defaults-mode-node": {
+      "3.163.0": {
+        "hash": "sha512-IM5BVeUXzLpb9m8qBSpUc2iO+topP1F7Ojq1GNrl5G/b22f7b1FCL5qkTem/UIXkkgI+efI7jr05xPRGiU73Hg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-defaults-mode-node/-/util-defaults-mode-node-3.163.0.tgz"
+      }
+    },
+    "@aws-sdk/util-hex-encoding": {
+      "3.109.0": {
+        "hash": "sha512-s8CgTNrn3cLkrdiohfxLuOYPCanzvHn/aH5RW6DaMoeQiG5Hl9QUiP/WtdQ9QQx3xvpQFpmvxIaSBwSgFNLQxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-hex-encoding/-/util-hex-encoding-3.109.0.tgz"
+      }
+    },
+    "@aws-sdk/util-middleware": {
+      "3.162.0": {
+        "hash": "sha512-jDqZZ5nst+NtzvAPIQBdQqGY14Z3HeGANGm5NUoxWp8IlHnEV7GhTFDjFgubf8mgTBCzHnvbuBY1bfkzAeXWBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-middleware/-/util-middleware-3.162.0.tgz"
+      }
+    },
+    "@aws-sdk/util-uri-escape": {
+      "3.55.0": {
+        "hash": "sha512-mmdDLUpFCN2nkfwlLdOM54lTD528GiGSPN1qb8XtGLgZsJUmg3uJSFIN2lPeSbEwJB3NFjVas/rnQC48i7mV8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-uri-escape/-/util-uri-escape-3.55.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

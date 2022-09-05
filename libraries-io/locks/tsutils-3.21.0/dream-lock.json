@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "tsutils",
+    "location": "",
+    "packages": {
+      "tsutils": "3.21.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tsutils": {
+      "3.21.0": [
+        [ "tslib", "1.14.1" ]
+      ],
+      "unknown": [
+        [ "tsutils", "3.21.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    },
+    "tsutils": {
+      "3.21.0": {
+        "hash": "sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tsutils/-/tsutils-3.21.0.tgz"
+      }
+    },
+    "typescript": {
+      "4.8.2": {
+        "hash": "sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typescript/-/typescript-4.8.2.tgz"
+      }
+    }
+  }
+}

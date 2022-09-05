@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "d3-time-format",
+    "location": "",
+    "packages": {
+      "d3-time-format": "4.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "d3-array": {
+      "3.2.0": [
+        [ "internmap", "2.0.3" ]
+      ]
+    },
+    "d3-time": {
+      "3.0.0": [
+        [ "d3-array", "3.2.0" ]
+      ]
+    },
+    "d3-time-format": {
+      "4.1.0": [
+        [ "d3-time", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "d3-time-format", "4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "d3-array": {
+      "3.2.0": {
+        "hash": "sha512-3yXFQo0oG3QCxbF06rMPFyGRMGJNS7NvsV1+2joOjbBE+9xvWQ8+GcMJAjRCzw06zQ3/arXeJgbPYcjUCuC+3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-array/-/d3-array-3.2.0.tgz"
+      }
+    },
+    "d3-time": {
+      "3.0.0": {
+        "hash": "sha512-zmV3lRnlaLI08y9IMRXSDshQb5Nj77smnfpnd2LrBa/2K281Jijactokeak14QacHs/kKq0AQ121nidNYlarbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-time/-/d3-time-3.0.0.tgz"
+      }
+    },
+    "d3-time-format": {
+      "4.1.0": {
+        "hash": "sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz"
+      }
+    },
+    "internmap": {
+      "2.0.3": {
+        "hash": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz"
+      }
+    }
+  }
+}

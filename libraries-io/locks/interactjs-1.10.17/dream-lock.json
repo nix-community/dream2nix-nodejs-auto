@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "interactjs",
+    "location": "",
+    "packages": {
+      "interactjs": "1.10.17"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "interactjs": {
+      "1.10.17": [
+        [ "@interactjs/types", "1.10.17" ]
+      ],
+      "unknown": [
+        [ "interactjs", "1.10.17" ]
+      ]
+    }
+  },
+  "sources": {
+    "@interactjs/types": {
+      "1.10.17": {
+        "hash": "sha512-X2JpoM7xUw0p9Me0tMaI0HNfcF/Hd07ZZlzpnpEMpGerUZOLoyeThrV9P+CrBHxZrluWJrigJbcdqXliFd0YMA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@interactjs/types/-/types-1.10.17.tgz"
+      }
+    },
+    "interactjs": {
+      "1.10.17": {
+        "hash": "sha512-grjHJgnWkCoQLmAlk2yalNd1r0ztUhXLJNVjSOfWn1wfNNgU2tx1cDEkro9WYerDNC9UG3MZTeD4O6zOM5gbIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/interactjs/-/interactjs-1.10.17.tgz"
+      }
+    }
+  }
+}

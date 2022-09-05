@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "toastr",
+    "location": "",
+    "packages": {
+      "toastr": "2.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "toastr": {
+      "2.1.4": [
+        [ "jquery", "3.6.1" ]
+      ],
+      "unknown": [
+        [ "toastr", "2.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "jquery": {
+      "3.6.1": {
+        "hash": "sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jquery/-/jquery-3.6.1.tgz"
+      }
+    },
+    "toastr": {
+      "2.1.4": {
+        "hash": "sha512-LIy77F5n+sz4tefMmFOntcJ6HL0Fv3k1TDnNmFZ0bU/GcvIIfy6eG2v7zQmMiYgaalAiUv75ttFrPn5s0gyqlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/toastr/-/toastr-2.1.4.tgz"
+      }
+    }
+  }
+}

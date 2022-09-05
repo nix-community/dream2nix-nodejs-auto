@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "passport-local",
+    "location": "",
+    "packages": {
+      "passport-local": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "passport-local": {
+      "1.0.0": [
+        [ "passport-strategy", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "passport-local", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "passport-local": {
+      "1.0.0": {
+        "hash": "sha512-9wCE6qKznvf9mQYYbgJ3sVOHmCWoUNMVFoZzNoznmISbhnNNPhN9xfY3sLmScHMetEJeoY7CXwfhCe7argfQow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz"
+      }
+    },
+    "passport-strategy": {
+      "1.0.0": {
+        "hash": "sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+      }
+    }
+  }
+}

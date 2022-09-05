@@ -1,0 +1,101 @@
+{
+  "_generic": {
+    "defaultPackage": "istanbul-reports",
+    "location": "",
+    "packages": {
+      "istanbul-reports": "3.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "istanbul-lib-report": {
+      "3.0.0": [
+        [ "istanbul-lib-coverage", "3.2.0" ],
+        [ "make-dir", "3.1.0" ],
+        [ "supports-color", "7.2.0" ]
+      ]
+    },
+    "istanbul-reports": {
+      "3.1.5": [
+        [ "html-escaper", "2.0.2" ],
+        [ "istanbul-lib-report", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "istanbul-reports", "3.1.5" ]
+      ]
+    },
+    "make-dir": {
+      "3.1.0": [
+        [ "semver", "6.3.0" ]
+      ]
+    },
+    "supports-color": {
+      "7.2.0": [
+        [ "has-flag", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "has-flag": {
+      "4.0.0": {
+        "hash": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+      }
+    },
+    "html-escaper": {
+      "2.0.2": {
+        "hash": "sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-escaper/-/html-escaper-2.0.2.tgz"
+      }
+    },
+    "istanbul-lib-coverage": {
+      "3.2.0": {
+        "hash": "sha512-eOeJ5BHCmHYvQK7xt9GkdHuzuCGS1Y6g9Gvnx3Ym33fz/HpLRYxiS0wHNr+m/MBC8B647Xt608vCDEvhl9c6Mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.0.tgz"
+      }
+    },
+    "istanbul-lib-report": {
+      "3.0.0": {
+        "hash": "sha512-wcdi+uAKzfiGT2abPpKZ0hSU1rGQjUQnLvtY5MpQ7QCTahD3VODhcu4wcfY1YtkGaDD5yuydOLINXsfbus9ROw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz"
+      }
+    },
+    "istanbul-reports": {
+      "3.1.5": {
+        "hash": "sha512-nUsEMa9pBt/NOHqbcbeJEgqIlY/K7rVWUX6Lql2orY5e9roQOthbR3vtY4zzf2orPELg80fnxxk9zUyPlgwD1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/istanbul-reports/-/istanbul-reports-3.1.5.tgz"
+      }
+    },
+    "make-dir": {
+      "3.1.0": {
+        "hash": "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"
+      }
+    },
+    "semver": {
+      "6.3.0": {
+        "hash": "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
+      }
+    },
+    "supports-color": {
+      "7.2.0": {
+        "hash": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
+      }
+    }
+  }
+}

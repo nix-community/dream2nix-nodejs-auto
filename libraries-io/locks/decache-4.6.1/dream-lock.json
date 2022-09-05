@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "decache",
+    "location": "",
+    "packages": {
+      "decache": "4.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "decache": {
+      "4.6.1": [
+        [ "callsite", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "decache", "4.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "callsite": {
+      "1.0.0": {
+        "hash": "sha512-0vdNRFXn5q+dtOqjfFtmtlI9N2eVZ7LMyEV2iKC5mEEFvSg/69Ml6b/WU2qF8W1nLRa0wiSrDT3Y5jOHZCwKPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz"
+      }
+    },
+    "decache": {
+      "4.6.1": {
+        "hash": "sha512-ohApBM8u9ygepJCjgBrEZSSxPjc0T/PJkD+uNyxXPkqudyUpdXpwJYp0VISm2WrPVzASU6DZyIi6BWdyw7uJ2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/decache/-/decache-4.6.1.tgz"
+      }
+    }
+  }
+}

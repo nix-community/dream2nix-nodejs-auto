@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "git-directory-deploy",
+    "location": "",
+    "packages": {
+      "git-directory-deploy": "1.5.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "git-directory-deploy": {
+      "1.5.1": [
+        [ "lodash", "4.17.21" ],
+        [ "minimist", "1.2.6" ]
+      ],
+      "unknown": [
+        [ "git-directory-deploy", "1.5.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "git-directory-deploy": {
+      "1.5.1": {
+        "hash": "sha512-EKPNaAZBvSE0ZH/jy9awJAzuCOHqEKLj+ESa/rKxnGCiW+tbraWdd0admPAkFps7Aq87VKG5fWP4ldk4ATqXlg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/git-directory-deploy/-/git-directory-deploy-1.5.1.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    }
+  }
+}

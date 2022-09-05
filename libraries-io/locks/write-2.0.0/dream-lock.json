@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "write",
+    "location": "",
+    "packages": {
+      "write": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "add-filename-increment": {
+      "1.0.0": [
+        [ "strip-filename-increment", "2.0.1" ]
+      ]
+    },
+    "write": {
+      "2.0.0": [
+        [ "add-filename-increment", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "write", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "add-filename-increment": {
+      "1.0.0": {
+        "hash": "sha512-pFV8VZX8jxuVMIycKvGZkWF/ihnUubu9lbQVnOnZWp7noVxbKQTNj7zG2y9fXdPcuZ6lAN3Drr517HaivGCjdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/add-filename-increment/-/add-filename-increment-1.0.0.tgz"
+      }
+    },
+    "strip-filename-increment": {
+      "2.0.1": {
+        "hash": "sha512-+v5xsiTTsdYqkPj7qz1zlngIsjZedhHDi3xp/9bMurV8kXe9DAr732gNVqtt4X8sI3hOqS3nlFfps5gyVcux6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-filename-increment/-/strip-filename-increment-2.0.1.tgz"
+      }
+    },
+    "write": {
+      "2.0.0": {
+        "hash": "sha512-yam9TAqN8sAZokECAejo9HpT2j2s39OgK8i8yxadrFBVo+iSWLfnipRVFulfAw1d2dz5vSuGmlMHYRKG4fysOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/write/-/write-2.0.0.tgz"
+      }
+    }
+  }
+}

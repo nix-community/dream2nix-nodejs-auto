@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "typemoq",
+    "location": "",
+    "packages": {
+      "typemoq": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "typemoq": {
+      "2.1.0": [
+        [ "circular-json", "0.3.3" ],
+        [ "lodash", "4.17.21" ],
+        [ "postinstall-build", "5.0.3" ]
+      ],
+      "unknown": [
+        [ "typemoq", "2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "circular-json": {
+      "0.3.3": {
+        "hash": "sha512-UZK3NBx2Mca+b5LsG7bY183pHWt5Y1xts4P3Pz7ENTwGVnJOUWbRb3ocjvX7hx9tq/yTAdclXm9sZ38gNuem4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/circular-json/-/circular-json-0.3.3.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "postinstall-build": {
+      "5.0.3": {
+        "hash": "sha512-vPvPe8TKgp4FLgY3+DfxCE5PIfoXBK2lyLfNCxsRbDsV6vS4oU5RG/IWxrblMn6heagbnMED3MemUQllQ2bQUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postinstall-build/-/postinstall-build-5.0.3.tgz"
+      }
+    },
+    "typemoq": {
+      "2.1.0": {
+        "hash": "sha512-DtRNLb7x8yCTv/KHlwes+NI+aGb4Vl1iPC63Hhtcvk1DpxSAZzKWQv0RQFY0jX2Uqj0SDBNl8Na4e6MV6TNDgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typemoq/-/typemoq-2.1.0.tgz"
+      }
+    }
+  }
+}

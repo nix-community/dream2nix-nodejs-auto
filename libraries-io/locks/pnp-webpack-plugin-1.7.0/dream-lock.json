@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "pnp-webpack-plugin",
+    "location": "",
+    "packages": {
+      "pnp-webpack-plugin": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pnp-webpack-plugin": {
+      "1.7.0": [
+        [ "ts-pnp", "1.2.0" ]
+      ],
+      "unknown": [
+        [ "pnp-webpack-plugin", "1.7.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "pnp-webpack-plugin": {
+      "1.7.0": {
+        "hash": "sha512-2Rb3vm+EXble/sMXNSu6eoBx8e79gKqhNq9F5ZWW6ERNCTE/Q0wQNne5541tE5vKjfM8hpNCYL+LGc1YTfI0dg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pnp-webpack-plugin/-/pnp-webpack-plugin-1.7.0.tgz"
+      }
+    },
+    "ts-pnp": {
+      "1.2.0": {
+        "hash": "sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ts-pnp/-/ts-pnp-1.2.0.tgz"
+      }
+    }
+  }
+}

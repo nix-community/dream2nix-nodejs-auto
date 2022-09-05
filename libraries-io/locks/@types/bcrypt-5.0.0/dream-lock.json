@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/bcrypt",
+    "location": "",
+    "packages": {
+      "@types/bcrypt": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/bcrypt": {
+      "5.0.0": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/bcrypt", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/bcrypt": {
+      "5.0.0": {
+        "hash": "sha512-agtcFKaruL8TmcvqbndlqHPSJgsolhf/qPWchFlgnW1gECTN/nKbFcoFnvKAQRFfKbh+BO6A3SWdJu9t+xF3Lw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bcrypt/-/bcrypt-5.0.0.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

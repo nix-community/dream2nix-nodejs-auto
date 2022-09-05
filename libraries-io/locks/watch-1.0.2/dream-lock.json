@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "watch",
+    "location": "",
+    "packages": {
+      "watch": "1.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "exec-sh": {
+      "0.2.2": [
+        [ "merge", "1.2.1" ]
+      ]
+    },
+    "watch": {
+      "1.0.2": [
+        [ "exec-sh", "0.2.2" ],
+        [ "minimist", "1.2.6" ]
+      ],
+      "unknown": [
+        [ "watch", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "exec-sh": {
+      "0.2.2": {
+        "hash": "sha512-FIUCJz1RbuS0FKTdaAafAByGS0CPvU3R0MeHxgtl+djzCc//F8HakL8GzmVNZanasTbTAY/3DRFA0KpVqj/eAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/exec-sh/-/exec-sh-0.2.2.tgz"
+      }
+    },
+    "merge": {
+      "1.2.1": {
+        "hash": "sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/merge/-/merge-1.2.1.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    },
+    "watch": {
+      "1.0.2": {
+        "hash": "sha512-1u+Z5n9Jc1E2c7qDO8SinPoZuHj7FgbgU1olSFoyaklduDvvtX7GMMtlE6OC9FTXq4KvNAOfj6Zu4vI1e9bAKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/watch/-/watch-1.0.2.tgz"
+      }
+    }
+  }
+}

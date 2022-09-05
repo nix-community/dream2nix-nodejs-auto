@@ -1,0 +1,146 @@
+{
+  "_generic": {
+    "defaultPackage": "static-server",
+    "location": "",
+    "packages": {
+      "static-server": "2.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "chalk": {
+      "0.5.1": [
+        [ "ansi-styles", "1.1.0" ],
+        [ "escape-string-regexp", "1.0.5" ],
+        [ "has-ansi", "0.1.0" ],
+        [ "strip-ansi", "0.3.0" ],
+        [ "supports-color", "0.2.0" ]
+      ]
+    },
+    "has-ansi": {
+      "0.1.0": [
+        [ "ansi-regex", "0.2.1" ]
+      ]
+    },
+    "opn": {
+      "5.5.0": [
+        [ "is-wsl", "1.1.0" ]
+      ]
+    },
+    "static-server": {
+      "2.2.1": [
+        [ "chalk", "0.5.1" ],
+        [ "commander", "2.20.3" ],
+        [ "file-size", "0.0.5" ],
+        [ "mime", "1.6.0" ],
+        [ "opn", "5.5.0" ]
+      ],
+      "unknown": [
+        [ "static-server", "2.2.1" ]
+      ]
+    },
+    "strip-ansi": {
+      "0.3.0": [
+        [ "ansi-regex", "0.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-regex": {
+      "0.2.1": {
+        "hash": "sha512-sGwIGMjhYdW26/IhwK2gkWWI8DRCVO6uj3hYgHT+zD+QL1pa37tM3ujhyfcJIYSbsxp7Gxhy7zrRW/1AHm4BmA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz"
+      }
+    },
+    "ansi-styles": {
+      "1.1.0": {
+        "hash": "sha512-f2PKUkN5QngiSemowa6Mrk9MPCdtFiOSmibjZ+j1qhLGHHYsqZwmBMRF3IRMVXo8sybDqx2fJl2d/8OphBoWkA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz"
+      }
+    },
+    "chalk": {
+      "0.5.1": {
+        "hash": "sha512-bIKA54hP8iZhyDT81TOsJiQvR1gW+ZYSXFaZUAvoD4wCHdbHY2actmpTE4x344ZlFqHbvoxKOaESULTZN2gstg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz"
+      }
+    },
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "escape-string-regexp": {
+      "1.0.5": {
+        "hash": "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+      }
+    },
+    "file-size": {
+      "0.0.5": {
+        "hash": "sha512-ZW056dw8Ta1RWHVOQue3LMZe+mSOnHkcM7AN9is8JoHSIHRiLD5szwPAHM3fM7P5SGJ1bkAmCv3PvUTGoluDqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/file-size/-/file-size-0.0.5.tgz"
+      }
+    },
+    "has-ansi": {
+      "0.1.0": {
+        "hash": "sha512-1YsTg1fk2/6JToQhtZkArMkurq8UoWU1Qe0aR3VUHjgij4nOylSWLWAtBXoZ4/dXOmugfLGm1c+QhuD0JyedFA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz"
+      }
+    },
+    "is-wsl": {
+      "1.1.0": {
+        "hash": "sha512-gfygJYZ2gLTDlmbWMI0CE2MwnFzSN/2SZfkMlItC4K/JBlsWVDB0bO6XhqcY13YXE7iMcAJnzTCJjPiTeJJ0Mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz"
+      }
+    },
+    "mime": {
+      "1.6.0": {
+        "hash": "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz"
+      }
+    },
+    "opn": {
+      "5.5.0": {
+        "hash": "sha512-PqHpggC9bLV0VeWcdKhkpxY+3JTzetLSqTCWL/z/tFIbI6G8JCjondXklT1JinczLz2Xib62sSp0T/gKT4KksA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/opn/-/opn-5.5.0.tgz"
+      }
+    },
+    "static-server": {
+      "2.2.1": {
+        "hash": "sha512-j5eeW6higxYNmXMIT8iHjsdiViTpQDthg7o+SHsRtqdbxscdHqBHXwrXjHC8hL3F0Tsu34ApUpDkwzMBPBsrLw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/static-server/-/static-server-2.2.1.tgz"
+      }
+    },
+    "strip-ansi": {
+      "0.3.0": {
+        "hash": "sha512-DerhZL7j6i6/nEnVG0qViKXI0OKouvvpsAiaj7c+LfqZZZxdwZtv8+UiA/w4VUJpT8UzX0pR1dcHOii1GbmruQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz"
+      }
+    },
+    "supports-color": {
+      "0.2.0": {
+        "hash": "sha512-tdCZ28MnM7k7cJDJc7Eq80A9CsRFAAOZUy41npOZCs++qSjfIy7o5Rh46CBk+Dk5FbKJ33X3Tqg4YrV07N5RaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz"
+      }
+    }
+  }
+}

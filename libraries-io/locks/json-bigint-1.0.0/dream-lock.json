@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "json-bigint",
+    "location": "",
+    "packages": {
+      "json-bigint": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "json-bigint": {
+      "1.0.0": [
+        [ "bignumber.js", "9.1.0" ]
+      ],
+      "unknown": [
+        [ "json-bigint", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "bignumber.js": {
+      "9.1.0": {
+        "hash": "sha512-4LwHK4nfDOraBCtst+wOWIHbu1vhvAPJK8g8nROd4iuc3PSEjWif/qwbkh8jwCJz6yDBvtU4KPynETgrfh7y3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.1.0.tgz"
+      }
+    },
+    "json-bigint": {
+      "1.0.0": {
+        "hash": "sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json-bigint/-/json-bigint-1.0.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "urlencode",
+    "location": "",
+    "packages": {
+      "urlencode": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "iconv-lite": {
+      "0.4.24": [
+        [ "safer-buffer", "2.1.2" ]
+      ]
+    },
+    "urlencode": {
+      "1.1.0": [
+        [ "iconv-lite", "0.4.24" ]
+      ],
+      "unknown": [
+        [ "urlencode", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "iconv-lite": {
+      "0.4.24": {
+        "hash": "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
+      }
+    },
+    "safer-buffer": {
+      "2.1.2": {
+        "hash": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
+      }
+    },
+    "urlencode": {
+      "1.1.0": {
+        "hash": "sha512-OOAOh9owHXr/rCN1tteSnYwIvsrGHamSz0hafMhmQa7RcS4+Ets6/2iVClVGjt9jkDW84UqoMw/Gmpc7QolX6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/urlencode/-/urlencode-1.1.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "has-ansi",
+    "location": "",
+    "packages": {
+      "has-ansi": "5.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "has-ansi": {
+      "5.0.1": [
+        [ "ansi-regex", "6.0.1" ]
+      ],
+      "unknown": [
+        [ "has-ansi", "5.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-regex": {
+      "6.0.1": {
+        "hash": "sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
+      }
+    },
+    "has-ansi": {
+      "5.0.1": {
+        "hash": "sha512-Fp2IsZDnnyoJkKg22ZyQFvD7QRCcMTsLAtloKXyXWJ1joGLtItRU9Bv/k1o0tELL2NF3ZZBcycSKryZUM+Yl3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-ansi/-/has-ansi-5.0.1.tgz"
+      }
+    }
+  }
+}

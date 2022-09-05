@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "lodash.template",
+    "location": "",
+    "packages": {
+      "lodash.template": "4.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lodash.template": {
+      "4.5.0": [
+        [ "lodash._reinterpolate", "3.0.0" ],
+        [ "lodash.templatesettings", "4.2.0" ]
+      ],
+      "unknown": [
+        [ "lodash.template", "4.5.0" ]
+      ]
+    },
+    "lodash.templatesettings": {
+      "4.2.0": [
+        [ "lodash._reinterpolate", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "lodash._reinterpolate": {
+      "3.0.0": {
+        "hash": "sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz"
+      }
+    },
+    "lodash.template": {
+      "4.5.0": {
+        "hash": "sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.template/-/lodash.template-4.5.0.tgz"
+      }
+    },
+    "lodash.templatesettings": {
+      "4.2.0": {
+        "hash": "sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.templatesettings/-/lodash.templatesettings-4.2.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "object-visit",
+    "location": "",
+    "packages": {
+      "object-visit": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "object-visit": {
+      "1.0.1": [
+        [ "isobject", "3.0.1" ]
+      ],
+      "unknown": [
+        [ "object-visit", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    },
+    "object-visit": {
+      "1.0.1": {
+        "hash": "sha512-GBaMwwAVK9qbQN3Scdo0OyvgPW7l3lnaVMj84uTOZlswkX0KpF6fyDBJhtTthf7pymztoN36/KEr1DyhF96zEA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-visit/-/object-visit-1.0.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/superagent",
+    "location": "",
+    "packages": {
+      "@types/superagent": "4.1.15"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/superagent": {
+      "4.1.15": [
+        [ "@types/cookiejar", "2.1.2" ],
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/superagent", "4.1.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/cookiejar": {
+      "2.1.2": {
+        "hash": "sha512-t73xJJrvdTjXrn4jLS9VSGRbz0nUY3cl2DMGDU48lKl+HR9dbbjW2A9r3g40VA++mQpy6uuHg33gy7du2BKpog==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/cookiejar/-/cookiejar-2.1.2.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/superagent": {
+      "4.1.15": {
+        "hash": "sha512-mu/N4uvfDN2zVQQ5AYJI/g4qxn2bHB6521t1UuH09ShNWjebTqN0ZFuYK9uYjcgmI0dTQEs+Owi1EO6U0OkOZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/superagent/-/superagent-4.1.15.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "tape-promise",
+    "location": "",
+    "packages": {
+      "tape-promise": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "onetime": {
+      "2.0.1": [
+        [ "mimic-fn", "1.2.0" ]
+      ]
+    },
+    "tape-promise": {
+      "4.0.0": [
+        [ "is-promise", "2.2.2" ],
+        [ "onetime", "2.0.1" ]
+      ],
+      "unknown": [
+        [ "tape-promise", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "is-promise": {
+      "2.2.2": {
+        "hash": "sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-promise/-/is-promise-2.2.2.tgz"
+      }
+    },
+    "mimic-fn": {
+      "1.2.0": {
+        "hash": "sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz"
+      }
+    },
+    "onetime": {
+      "2.0.1": {
+        "hash": "sha512-oyyPpiMaKARvvcgip+JV+7zci5L8D1W9RZIz2l1o08AM3pfspitVWnPt3mzHcBPp12oYMTy0pqrFs/C+m3EwsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/onetime/-/onetime-2.0.1.tgz"
+      }
+    },
+    "tape-promise": {
+      "4.0.0": {
+        "hash": "sha512-mNi5yhWAKDuNgZCfFKeZbsXvraVOf+I8UZG+lf+aoRrzX4+jd4mpNBjYh16/VcpEMUtS0iFndBgnfxxZbtyLFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tape-promise/-/tape-promise-4.0.0.tgz"
+      }
+    }
+  }
+}

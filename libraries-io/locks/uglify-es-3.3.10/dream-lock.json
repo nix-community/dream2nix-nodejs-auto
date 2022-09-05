@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "uglify-es",
+    "location": "",
+    "packages": {
+      "uglify-es": "3.3.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "uglify-es": {
+      "3.3.10": [
+        [ "commander", "2.14.1" ],
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "uglify-es", "3.3.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "2.14.1": {
+        "hash": "sha512-+YR16o3rK53SmWHU3rEM3tPAh2rwb1yPcQX5irVn7mb0gXbwuCCrnkbV5+PBfETdfg1vui07nM6PCG1zndcjQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.14.1.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    },
+    "uglify-es": {
+      "3.3.10": {
+        "hash": "sha512-rPzPisCzW68Okj1zNrfa2dR9uEm43SevDmpR6FChoZABFk9dANGnzzBMgHYUXI3609//63fnVkyQ1SQmAMyjww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uglify-es/-/uglify-es-3.3.10.tgz"
+      }
+    }
+  }
+}

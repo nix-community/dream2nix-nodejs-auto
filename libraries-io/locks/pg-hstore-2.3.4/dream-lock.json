@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "pg-hstore",
+    "location": "",
+    "packages": {
+      "pg-hstore": "2.3.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pg-hstore": {
+      "2.3.4": [
+        [ "underscore", "1.13.4" ]
+      ],
+      "unknown": [
+        [ "pg-hstore", "2.3.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "pg-hstore": {
+      "2.3.4": {
+        "hash": "sha512-N3SGs/Rf+xA1M2/n0JBiXFDVMzdekwLZLAO0g7mpDY9ouX+fDI7jS6kTq3JujmYbtNSJ53TJ0q4G98KVZSM4EA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pg-hstore/-/pg-hstore-2.3.4.tgz"
+      }
+    },
+    "underscore": {
+      "1.13.4": {
+        "hash": "sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.4.tgz"
+      }
+    }
+  }
+}

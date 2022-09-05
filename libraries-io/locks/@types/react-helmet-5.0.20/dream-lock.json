@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/react-helmet",
+    "location": "",
+    "packages": {
+      "@types/react-helmet": "5.0.20"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/react": {
+      "18.0.18": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/scheduler", "0.16.2" ],
+        [ "csstype", "3.1.0" ]
+      ]
+    },
+    "@types/react-helmet": {
+      "5.0.20": [
+        [ "@types/react", "18.0.18" ]
+      ],
+      "unknown": [
+        [ "@types/react-helmet", "5.0.20" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/prop-types": {
+      "15.7.5": {
+        "hash": "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
+      }
+    },
+    "@types/react": {
+      "18.0.18": {
+        "hash": "sha512-6hI08umYs6NaiHFEEGioXnxJ+oEhY3eRz8VCUaudZmGdtvPviCJB8mgaMxaDWAdPSYd4eFavrPk2QIolwbLYrg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.18.tgz"
+      }
+    },
+    "@types/react-helmet": {
+      "5.0.20": {
+        "hash": "sha512-0gv4NbI5dqBR9l5iMAfDo0udcPfjvv0H8V3tCL1JxCYvXfqYixzsEPVuOIrLCwezELie90S3r+gQuHpEy7SHvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react-helmet/-/react-helmet-5.0.20.tgz"
+      }
+    },
+    "@types/scheduler": {
+      "0.16.2": {
+        "hash": "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
+      }
+    },
+    "csstype": {
+      "3.1.0": {
+        "hash": "sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csstype/-/csstype-3.1.0.tgz"
+      }
+    }
+  }
+}

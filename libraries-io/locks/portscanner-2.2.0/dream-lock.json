@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "portscanner",
+    "location": "",
+    "packages": {
+      "portscanner": "2.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async": {
+      "2.6.4": [
+        [ "lodash", "4.17.21" ]
+      ]
+    },
+    "is-number-like": {
+      "1.0.8": [
+        [ "lodash.isfinite", "3.3.2" ]
+      ]
+    },
+    "portscanner": {
+      "2.2.0": [
+        [ "async", "2.6.4" ],
+        [ "is-number-like", "1.0.8" ]
+      ],
+      "unknown": [
+        [ "portscanner", "2.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "async": {
+      "2.6.4": {
+        "hash": "sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/async/-/async-2.6.4.tgz"
+      }
+    },
+    "is-number-like": {
+      "1.0.8": {
+        "hash": "sha512-6rZi3ezCyFcn5L71ywzz2bS5b2Igl1En3eTlZlvKjpz1n3IZLAYMbKYAIQgFmEu0GENg92ziU/faEOA/aixjbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-number-like/-/is-number-like-1.0.8.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "lodash.isfinite": {
+      "3.3.2": {
+        "hash": "sha512-7FGG40uhC8Mm633uKW1r58aElFlBlxCrg9JfSi3P6aYiWmfiWF0PgMd86ZUsxE5GwWPdHoS2+48bwTh2VPkIQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isfinite/-/lodash.isfinite-3.3.2.tgz"
+      }
+    },
+    "portscanner": {
+      "2.2.0": {
+        "hash": "sha512-IFroCz/59Lqa2uBvzK3bKDbDDIEaAY8XJ1jFxcLWTqosrsc32//P4VuSB2vZXoHiHqOmx8B5L5hnKOxL/7FlPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/portscanner/-/portscanner-2.2.0.tgz"
+      }
+    }
+  }
+}

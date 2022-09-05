@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/echarts",
+    "location": "",
+    "packages": {
+      "@types/echarts": "4.9.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/echarts": {
+      "4.9.16": [
+        [ "@types/zrender", "4.0.3" ]
+      ],
+      "unknown": [
+        [ "@types/echarts", "4.9.16" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/echarts": {
+      "4.9.16": {
+        "hash": "sha512-bfiagfPw3dWauAIJ9fgoJQoL4hLWlGcltqwbE6LGye0NIY5xnbZau+mDmadCzGojic3MWuFDCUiO25kl4sRGeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/echarts/-/echarts-4.9.16.tgz"
+      }
+    },
+    "@types/zrender": {
+      "4.0.3": {
+        "hash": "sha512-EPI269lkHNsObwILJ1k1z7znLjKyePuWRy/XKK0shSGpBb9cIX307arcwJV4+2NeZj5wEjN06r4D8yFv7sI06g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/zrender/-/zrender-4.0.3.tgz"
+      }
+    }
+  }
+}

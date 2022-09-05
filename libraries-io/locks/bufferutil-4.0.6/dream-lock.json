@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "bufferutil",
+    "location": "",
+    "packages": {
+      "bufferutil": "4.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bufferutil": {
+      "4.0.6": [
+        [ "node-gyp-build", "4.5.0" ]
+      ],
+      "unknown": [
+        [ "bufferutil", "4.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "bufferutil": {
+      "4.0.6": {
+        "hash": "sha512-jduaYOYtnio4aIAyc6UbvPCVcgq7nYpVnucyxr6eCYg/Woad9Hf/oxxBRDnGGjPfjUm6j5O/uBWhIu4iLebFaw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.6.tgz"
+      }
+    },
+    "node-gyp-build": {
+      "4.5.0": {
+        "hash": "sha512-2iGbaQBV+ITgCz76ZEjmhUKAKVf7xfY1sRl4UiKQspfZMH2h06SyhNsnSVy50cwkFQDGLyif6m/6uFXHkOZ6rg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.5.0.tgz"
+      }
+    }
+  }
+}

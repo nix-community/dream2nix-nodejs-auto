@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "passport",
+    "location": "",
+    "packages": {
+      "passport": "0.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "passport": {
+      "0.6.0": [
+        [ "passport-strategy", "1.0.0" ],
+        [ "pause", "0.0.1" ],
+        [ "utils-merge", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "passport", "0.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "passport": {
+      "0.6.0": {
+        "hash": "sha512-0fe+p3ZnrWRW74fe8+SvCyf4a3Pb2/h7gFkQ8yTJpAO50gDzlfjZUZTO1k5Eg9kUct22OxHLqDZoKUWRHOh9ug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport/-/passport-0.6.0.tgz"
+      }
+    },
+    "passport-strategy": {
+      "1.0.0": {
+        "hash": "sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+      }
+    },
+    "pause": {
+      "0.0.1": {
+        "hash": "sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pause/-/pause-0.0.1.tgz"
+      }
+    },
+    "utils-merge": {
+      "1.0.1": {
+        "hash": "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
+      }
+    }
+  }
+}

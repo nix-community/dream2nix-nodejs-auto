@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "enhanced-resolve",
+    "location": "",
+    "packages": {
+      "enhanced-resolve": "5.10.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "enhanced-resolve": {
+      "5.10.0": [
+        [ "graceful-fs", "4.2.10" ],
+        [ "tapable", "2.2.1" ]
+      ],
+      "unknown": [
+        [ "enhanced-resolve", "5.10.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "enhanced-resolve": {
+      "5.10.0": {
+        "hash": "sha512-T0yTFjdpldGY8PmuXXR0PyQ1ufZpEGiHVrp7zHKB7jdR4qlmZHhONVM5AQOAWXuF/w3dnHbEQVrNptJgt7F+cQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.10.0.tgz"
+      }
+    },
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "tapable": {
+      "2.2.1": {
+        "hash": "sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tapable/-/tapable-2.2.1.tgz"
+      }
+    }
+  }
+}

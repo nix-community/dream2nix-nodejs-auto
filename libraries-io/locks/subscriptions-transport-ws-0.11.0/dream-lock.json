@@ -1,0 +1,80 @@
+{
+  "_generic": {
+    "defaultPackage": "subscriptions-transport-ws",
+    "location": "",
+    "packages": {
+      "subscriptions-transport-ws": "0.11.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "subscriptions-transport-ws": {
+      "0.11.0": [
+        [ "backo2", "1.0.2" ],
+        [ "eventemitter3", "3.1.2" ],
+        [ "iterall", "1.3.0" ],
+        [ "symbol-observable", "1.2.0" ],
+        [ "ws", "7.5.9" ]
+      ],
+      "unknown": [
+        [ "subscriptions-transport-ws", "0.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "backo2": {
+      "1.0.2": {
+        "hash": "sha512-zj6Z6M7Eq+PBZ7PQxl5NT665MvJdAkzp0f60nAJ+sLaSCBPMwVak5ZegFbgVCzFcCJTKFoMizvM5Ld7+JrRJHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/backo2/-/backo2-1.0.2.tgz"
+      }
+    },
+    "eventemitter3": {
+      "3.1.2": {
+        "hash": "sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-3.1.2.tgz"
+      }
+    },
+    "graphql": {
+      "16.6.0": {
+        "hash": "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
+      }
+    },
+    "iterall": {
+      "1.3.0": {
+        "hash": "sha512-QZ9qOMdF+QLHxy1QIpUHUU1D5pS2CG2P69LF6L6CPjPYA/XMOmKV3PZpawHoAjHNyB0swdVTRxdYT4tbBbxqwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/iterall/-/iterall-1.3.0.tgz"
+      }
+    },
+    "subscriptions-transport-ws": {
+      "0.11.0": {
+        "hash": "sha512-8D4C6DIH5tGiAIpp5I0wD/xRlNiZAPGHygzCe7VzyzUoxHtawzjNAY9SUTXU05/EY2NMY9/9GF0ycizkXr1CWQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/subscriptions-transport-ws/-/subscriptions-transport-ws-0.11.0.tgz"
+      }
+    },
+    "symbol-observable": {
+      "1.2.0": {
+        "hash": "sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz"
+      }
+    },
+    "ws": {
+      "7.5.9": {
+        "hash": "sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz"
+      }
+    }
+  }
+}

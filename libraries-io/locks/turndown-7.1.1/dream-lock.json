@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "turndown",
+    "location": "",
+    "packages": {
+      "turndown": "7.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "turndown": {
+      "7.1.1": [
+        [ "domino", "2.1.6" ]
+      ],
+      "unknown": [
+        [ "turndown", "7.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "domino": {
+      "2.1.6": {
+        "hash": "sha512-3VdM/SXBZX2omc9JF9nOPCtDaYQ67BGp5CoLpIQlO2KCAPETs8TcDHacF26jXadGbvUteZzRTeos2fhID5+ucQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domino/-/domino-2.1.6.tgz"
+      }
+    },
+    "turndown": {
+      "7.1.1": {
+        "hash": "sha512-BEkXaWH7Wh7e9bd2QumhfAXk5g34+6QUmmWx+0q6ThaVOLuLUqsnkq35HQ5SBHSaxjSfSM7US5o4lhJNH7B9MA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/turndown/-/turndown-7.1.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "cp-file",
+    "location": "",
+    "packages": {
+      "cp-file": "10.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cp-file": {
+      "10.0.0": [
+        [ "graceful-fs", "4.2.10" ],
+        [ "nested-error-stacks", "2.1.1" ],
+        [ "p-event", "5.0.1" ]
+      ],
+      "unknown": [
+        [ "cp-file", "10.0.0" ]
+      ]
+    },
+    "p-event": {
+      "5.0.1": [
+        [ "p-timeout", "5.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cp-file": {
+      "10.0.0": {
+        "hash": "sha512-vy2Vi1r2epK5WqxOLnskeKeZkdZvTKfFZQCplE3XWsP+SUJyd5XAUFC9lFgTjjXJF2GMne/UML14iEmkAaDfFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cp-file/-/cp-file-10.0.0.tgz"
+      }
+    },
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "nested-error-stacks": {
+      "2.1.1": {
+        "hash": "sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz"
+      }
+    },
+    "p-event": {
+      "5.0.1": {
+        "hash": "sha512-dd589iCQ7m1L0bmC5NLlVYfy3TbBEsMUfWx9PyAgPeIcFZ/E2yaTZ4Rz4MiBmmJShviiftHVXOqfnfzJ6kyMrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-event/-/p-event-5.0.1.tgz"
+      }
+    },
+    "p-timeout": {
+      "5.1.0": {
+        "hash": "sha512-auFDyzzzGZZZdHz3BtET9VEz0SE/uMEAx7uWfGPucfzEwwe/xH0iVeZibQmANYE/hp9T2+UUZT5m+BKyrDp3Ew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-timeout/-/p-timeout-5.1.0.tgz"
+      }
+    }
+  }
+}

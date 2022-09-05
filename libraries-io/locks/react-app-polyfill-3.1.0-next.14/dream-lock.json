@@ -1,0 +1,105 @@
+{
+  "_generic": {
+    "defaultPackage": "react-app-polyfill",
+    "location": "",
+    "packages": {
+      "react-app-polyfill": "3.1.0-next.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "promise": {
+      "8.2.0": [
+        [ "asap", "2.0.6" ]
+      ]
+    },
+    "raf": {
+      "3.4.1": [
+        [ "performance-now", "2.1.0" ]
+      ]
+    },
+    "react-app-polyfill": {
+      "3.1.0-next.14": [
+        [ "core-js", "3.25.0" ],
+        [ "object-assign", "4.1.1" ],
+        [ "promise", "8.2.0" ],
+        [ "raf", "3.4.1" ],
+        [ "regenerator-runtime", "0.13.9" ],
+        [ "whatwg-fetch", "3.6.2" ]
+      ],
+      "unknown": [
+        [ "react-app-polyfill", "3.1.0-next.14" ]
+      ]
+    }
+  },
+  "sources": {
+    "asap": {
+      "2.0.6": {
+        "hash": "sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
+      }
+    },
+    "core-js": {
+      "3.25.0": {
+        "hash": "sha512-CVU1xvJEfJGhyCpBrzzzU1kjCfgsGUxhEvwUV2e/cOedYWHdmluamx+knDnmhqALddMG16fZvIqvs9aijsHHaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-3.25.0.tgz"
+      }
+    },
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
+    "performance-now": {
+      "2.1.0": {
+        "hash": "sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
+      }
+    },
+    "promise": {
+      "8.2.0": {
+        "hash": "sha512-+CMAlLHqwRYwBMXKCP+o8ns7DN+xHDUiI+0nArsiJ9y+kJVPLFxEaSw6Ha9s9H0tftxg2Yzl25wqj9G7m5wLZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/promise/-/promise-8.2.0.tgz"
+      }
+    },
+    "raf": {
+      "3.4.1": {
+        "hash": "sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/raf/-/raf-3.4.1.tgz"
+      }
+    },
+    "react-app-polyfill": {
+      "3.1.0-next.14": {
+        "hash": "sha512-ki6Vg6IbszoxR0L70KiAUc+Fg7snl3X9nDMM3aP9cwmnj3kJE33pEIxjQwACBOjGpx/kVRQ7JzQD4VLSrGqNYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-3.1.0-next.14.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.9": {
+        "hash": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+      }
+    },
+    "whatwg-fetch": {
+      "3.6.2": {
+        "hash": "sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz"
+      }
+    }
+  }
+}

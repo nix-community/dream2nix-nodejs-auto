@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/jwt-decode",
+    "location": "",
+    "packages": {
+      "@types/jwt-decode": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/jwt-decode": {
+      "3.1.0": [
+        [ "jwt-decode", "3.1.2" ]
+      ],
+      "unknown": [
+        [ "@types/jwt-decode", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/jwt-decode": {
+      "3.1.0": {
+        "hash": "sha512-tthwik7TKkou3mVnBnvVuHnHElbjtdbM63pdBCbZTirCt3WAdM73Y79mOri7+ljsS99ZVwUFZHLMxJuJnv/z1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jwt-decode/-/jwt-decode-3.1.0.tgz"
+      }
+    },
+    "jwt-decode": {
+      "3.1.2": {
+        "hash": "sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jwt-decode/-/jwt-decode-3.1.2.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "_generic": {
+    "defaultPackage": "nodemailer-smtp-transport",
+    "location": "",
+    "packages": {
+      "nodemailer-smtp-transport": "2.7.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "httpntlm": {
+      "1.6.1": [
+        [ "httpreq", "0.5.2" ],
+        [ "underscore", "1.7.0" ]
+      ]
+    },
+    "nodemailer-shared": {
+      "1.1.0": [
+        [ "nodemailer-fetch", "1.6.0" ]
+      ]
+    },
+    "nodemailer-smtp-transport": {
+      "2.7.4": [
+        [ "nodemailer-shared", "1.1.0" ],
+        [ "nodemailer-wellknown", "0.1.10" ],
+        [ "smtp-connection", "2.12.0" ]
+      ],
+      "unknown": [
+        [ "nodemailer-smtp-transport", "2.7.4" ]
+      ]
+    },
+    "smtp-connection": {
+      "2.12.0": [
+        [ "httpntlm", "1.6.1" ],
+        [ "nodemailer-shared", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "httpntlm": {
+      "1.6.1": {
+        "hash": "sha512-Tcz3Ct9efvNqw3QdTl3h6IgRRlIQxwKkJELN/aAIGnzi2xvb3pDHdnMs8BrxWLV6OoT4DlVyhzSVhFt/tk0lIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/httpntlm/-/httpntlm-1.6.1.tgz"
+      }
+    },
+    "httpreq": {
+      "0.5.2": {
+        "hash": "sha512-2Jm+x9WkExDOeFRrdBCBSpLPT5SokTcRHkunV3pjKmX/cx6av8zQ0WtHUMDrYb6O4hBFzNU6sxJEypvRUVYKnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/httpreq/-/httpreq-0.5.2.tgz"
+      }
+    },
+    "nodemailer-fetch": {
+      "1.6.0": {
+        "hash": "sha512-P7S5CEVGAmDrrpn351aXOLYs1R/7fD5NamfMCHyi6WIkbjS2eeZUB/TkuvpOQr0bvRZicVqo59+8wbhR3yrJbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodemailer-fetch/-/nodemailer-fetch-1.6.0.tgz"
+      }
+    },
+    "nodemailer-shared": {
+      "1.1.0": {
+        "hash": "sha512-68xW5LSyPWv8R0GLm6veAvm7E+XFXkVgvE3FW0FGxNMMZqMkPFeGDVALfR1DPdSfcoO36PnW7q5AAOgFImEZGg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodemailer-shared/-/nodemailer-shared-1.1.0.tgz"
+      }
+    },
+    "nodemailer-smtp-transport": {
+      "2.7.4": {
+        "hash": "sha512-1e86YhJ633OZWk3OHWS5TpuoYXG/LtY2/RzNiB5+EkFifDdqHCNHBnExd5cobx0ZSHJLNGM8EKnDuHRFIjFi6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodemailer-smtp-transport/-/nodemailer-smtp-transport-2.7.4.tgz"
+      }
+    },
+    "nodemailer-wellknown": {
+      "0.1.10": {
+        "hash": "sha512-/VV4mjAEjfm2fn0loUvrpjvugw5rgurNjPO4WU24CuVSoeumsyLOTgaEWG8WoGdPxh1biOAp5JxDoy1hlA2zsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nodemailer-wellknown/-/nodemailer-wellknown-0.1.10.tgz"
+      }
+    },
+    "smtp-connection": {
+      "2.12.0": {
+        "hash": "sha512-UP5jK4s5SGcUcqPN4U9ingqKt9mXYSKa52YhqxPuMecAnUOsVJpOmtgGaOm1urUBJZlzDt1M9WhZZkgbhxQlvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/smtp-connection/-/smtp-connection-2.12.0.tgz"
+      }
+    },
+    "underscore": {
+      "1.7.0": {
+        "hash": "sha512-cp0oQQyZhUM1kpJDLdGO1jPZHgS/MpzoWYfe9+CM2h/QGDZlqwT2T3YGukuBdaNJ/CAPoeyAZRRHz8JFo176vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz"
+      }
+    }
+  }
+}

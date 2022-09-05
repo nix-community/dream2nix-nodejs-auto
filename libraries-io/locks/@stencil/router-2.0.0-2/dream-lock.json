@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "@stencil/router",
+    "location": "",
+    "packages": {
+      "@stencil/router": "2.0.0-2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@stencil/router": {
+      "2.0.0-2": [
+        [ "@stencil/store", "1.5.0" ]
+      ],
+      "unknown": [
+        [ "@stencil/router", "2.0.0-2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@stencil/core": {
+      "2.17.4": {
+        "hash": "sha512-SGRlHpjV1RyFvzw6jFMVKpLNox9Eds3VvpbpD2SW9CuxdLonHDSFtQks5zmT4zs1Rse9I6kFc2mFK/dHNTalkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@stencil/core/-/core-2.17.4.tgz"
+      }
+    },
+    "@stencil/router": {
+      "2.0.0-2": {
+        "hash": "sha512-GTRZC/kttqUyFuu/mb3ua3MmLFXhS9q1msWfNquopuVYH7j29LclQ/13nV7sLR8h3BWNKWOYjLSIykhxKJ6UUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@stencil/router/-/router-2.0.0-2.tgz"
+      }
+    },
+    "@stencil/store": {
+      "1.5.0": {
+        "hash": "sha512-fe5fCF6dgVlDM1iLRkkJUyUh0Tfx305asVGgMAJjIs7Q+x/b1pGgTLROm9Ibr53PZuFwr5Kg+4h9p4FLbYqHgA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@stencil/store/-/store-1.5.0.tgz"
+      }
+    }
+  }
+}

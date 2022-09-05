@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "eslint-plugin-optimize-regex",
+    "location": "",
+    "packages": {
+      "eslint-plugin-optimize-regex": "1.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "eslint-plugin-optimize-regex": {
+      "1.2.1": [
+        [ "regexp-tree", "0.1.24" ]
+      ],
+      "unknown": [
+        [ "eslint-plugin-optimize-regex", "1.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "eslint-plugin-optimize-regex": {
+      "1.2.1": {
+        "hash": "sha512-fUaU7Tj1G/KSTDTABJw4Wp427Rl7RPl9ViYTu1Jrv36fJw4DFhd4elPdXiuYtdPsNsvzn9GcVlKEssGIVjw0UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eslint-plugin-optimize-regex/-/eslint-plugin-optimize-regex-1.2.1.tgz"
+      }
+    },
+    "regexp-tree": {
+      "0.1.24": {
+        "hash": "sha512-s2aEVuLhvnVJW6s/iPgEGK6R+/xngd2jNQ+xy4bXNDKxZKJH6jpPHY6kVeVv1IeLCHgswRj+Kl3ELaDjG6V1iw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regexp-tree/-/regexp-tree-0.1.24.tgz"
+      }
+    }
+  }
+}

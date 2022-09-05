@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/elliptic",
+    "location": "",
+    "packages": {
+      "@types/elliptic": "6.4.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/bn.js": {
+      "5.1.1": [
+        [ "@types/node", "18.7.15" ]
+      ]
+    },
+    "@types/elliptic": {
+      "6.4.14": [
+        [ "@types/bn.js", "5.1.1" ]
+      ],
+      "unknown": [
+        [ "@types/elliptic", "6.4.14" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/bn.js": {
+      "5.1.1": {
+        "hash": "sha512-qNrYbZqMx0uJAfKnKclPh+dTwK33KfLHYqtyODwd5HnXOjnkhc4qgn3BrK6RWyGZm5+sIFE7Q7Vz6QQtJB7w7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bn.js/-/bn.js-5.1.1.tgz"
+      }
+    },
+    "@types/elliptic": {
+      "6.4.14": {
+        "hash": "sha512-z4OBcDAU0GVwDTuwJzQCiL6188QvZMkvoERgcVjq0/mPM8jCfdwZ3x5zQEVoL9WCAru3aG5wl3Z5Ww5wBWn7ZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/elliptic/-/elliptic-6.4.14.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/chart.js",
+    "location": "",
+    "packages": {
+      "@types/chart.js": "2.9.37"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/chart.js": {
+      "2.9.37": [
+        [ "moment", "2.29.4" ]
+      ],
+      "unknown": [
+        [ "@types/chart.js", "2.9.37" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/chart.js": {
+      "2.9.37": {
+        "hash": "sha512-9bosRfHhkXxKYfrw94EmyDQcdjMaQPkU1fH2tDxu8DWXxf1mjzWQAV4laJF51ZbC2ycYwNDvIm1rGez8Bug0vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/chart.js/-/chart.js-2.9.37.tgz"
+      }
+    },
+    "moment": {
+      "2.29.4": {
+        "hash": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+      }
+    }
+  }
+}

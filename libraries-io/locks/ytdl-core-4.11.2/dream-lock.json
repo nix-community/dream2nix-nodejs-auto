@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "ytdl-core",
+    "location": "",
+    "packages": {
+      "ytdl-core": "4.11.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "m3u8stream": {
+      "0.8.6": [
+        [ "miniget", "4.2.2" ],
+        [ "sax", "1.2.4" ]
+      ]
+    },
+    "ytdl-core": {
+      "4.11.2": [
+        [ "m3u8stream", "0.8.6" ],
+        [ "miniget", "4.2.2" ],
+        [ "sax", "1.2.4" ]
+      ],
+      "unknown": [
+        [ "ytdl-core", "4.11.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "m3u8stream": {
+      "0.8.6": {
+        "hash": "sha512-LZj8kIVf9KCphiHmH7sbFQTVe4tOemb202fWwvJwR9W5ENW/1hxJN6ksAWGhQgSBSa3jyWhnjKU1Fw1GaOdbyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/m3u8stream/-/m3u8stream-0.8.6.tgz"
+      }
+    },
+    "miniget": {
+      "4.2.2": {
+        "hash": "sha512-a7voNL1N5lDMxvTMExOkg+Fq89jM2vY8pAi9ZEWzZtfNmdfP6RXkvUtFnCAXoCv2T9k1v/fUJVaAEuepGcvLYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/miniget/-/miniget-4.2.2.tgz"
+      }
+    },
+    "sax": {
+      "1.2.4": {
+        "hash": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
+      }
+    },
+    "ytdl-core": {
+      "4.11.2": {
+        "hash": "sha512-D939t9b4ZzP3v0zDvehR2q+KgG97UTgrTKju3pOPGQcXtl4W6W5z0EpznzcJFu+OOpl7S7Ge8hv8zU65QnxYug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ytdl-core/-/ytdl-core-4.11.2.tgz"
+      }
+    }
+  }
+}

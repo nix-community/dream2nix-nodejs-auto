@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "osenv",
+    "location": "",
+    "packages": {
+      "osenv": "0.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "osenv": {
+      "0.1.5": [
+        [ "os-homedir", "1.0.2" ],
+        [ "os-tmpdir", "1.0.2" ]
+      ],
+      "unknown": [
+        [ "osenv", "0.1.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "os-homedir": {
+      "1.0.2": {
+        "hash": "sha512-B5JU3cabzk8c67mRRd3ECmROafjYMXbuzlwtqdM8IbS8ktlTix8aFGb2bAGKrSRIlnfKwovGUUr72JUPyOb6kQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz"
+      }
+    },
+    "os-tmpdir": {
+      "1.0.2": {
+        "hash": "sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+      }
+    },
+    "osenv": {
+      "0.1.5": {
+        "hash": "sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/osenv/-/osenv-0.1.5.tgz"
+      }
+    }
+  }
+}

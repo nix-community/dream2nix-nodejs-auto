@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-cdk/core",
+    "location": "",
+    "packages": {
+      "@aws-cdk/core": "1.171.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-cdk/core": {
+      "1.171.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.171.0" ],
+        [ "@aws-cdk/cx-api", "1.171.0" ],
+        [ "@aws-cdk/region-info", "1.171.0" ],
+        [ "constructs", "3.4.87" ]
+      ],
+      "unknown": [
+        [ "@aws-cdk/core", "1.171.0" ]
+      ]
+    },
+    "@aws-cdk/cx-api": {
+      "1.171.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.171.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-cdk/cloud-assembly-schema": {
+      "1.171.0": {
+        "hash": "sha512-4ylFZt9kMow1cmJ68i6Dx1k3oWAMqgilrkOC2ES63iEYm6EJMGkndrKa1VBAwPeQdGxNEpcLlXteQFlmP7sGrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.171.0.tgz"
+      }
+    },
+    "@aws-cdk/core": {
+      "1.171.0": {
+        "hash": "sha512-/W4jrpXnhqBhmq7hyYaHe791PYEaf5oEKE2hs3bIvGtkGLCKCt9vO7pqd+MstJ4ZFCGprSInyTB2PeU/HzDDwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/core/-/core-1.171.0.tgz"
+      }
+    },
+    "@aws-cdk/cx-api": {
+      "1.171.0": {
+        "hash": "sha512-5V4mkfS7cLctht+YEe+ZBwpKKDH/KLWsPz8RhWqogwggiBHn5dNXcXS8dkMBGNADv7SBZdOCsldBskjtTjo0/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cx-api/-/cx-api-1.171.0.tgz"
+      }
+    },
+    "@aws-cdk/region-info": {
+      "1.171.0": {
+        "hash": "sha512-32xXBKNpr2Nh8iD1v6qI5TZE0H9OeyscvmUIkzr2KZ/SRG27FJqBcfyD7K/bcK4rn5F1NWfqHxAzjlQNZ+mJHQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/region-info/-/region-info-1.171.0.tgz"
+      }
+    },
+    "constructs": {
+      "3.4.87": {
+        "hash": "sha512-9q3lNeo37SzW+O37ArM6fSo2muVEaTqgYoFM5QNf7aslGwZ2qaJm4fZWzfMqsqrHDrWlXXhLcy6D0b2vIZ4u7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/constructs/-/constructs-3.4.87.tgz"
+      }
+    }
+  }
+}

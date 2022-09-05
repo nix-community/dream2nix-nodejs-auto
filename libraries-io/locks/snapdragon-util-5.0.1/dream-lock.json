@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "snapdragon-util",
+    "location": "",
+    "packages": {
+      "snapdragon-util": "5.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "snapdragon-util": {
+      "5.0.1": [
+        [ "kind-of", "6.0.3" ]
+      ],
+      "unknown": [
+        [ "snapdragon-util", "5.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "kind-of": {
+      "6.0.3": {
+        "hash": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+      }
+    },
+    "snapdragon-util": {
+      "5.0.1": {
+        "hash": "sha512-0F6MbgMMKw37GfnJjrNX4WbNdAacz+I7mzgVLKPa4sB9zQ7XeMVtaqoDrrSv2sHnhX5noL55tZSaHI5FQOLGMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/snapdragon-util/-/snapdragon-util-5.0.1.tgz"
+      }
+    }
+  }
+}

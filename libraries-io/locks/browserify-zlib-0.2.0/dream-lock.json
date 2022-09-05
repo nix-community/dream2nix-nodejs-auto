@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "browserify-zlib",
+    "location": "",
+    "packages": {
+      "browserify-zlib": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "browserify-zlib": {
+      "0.2.0": [
+        [ "pako", "1.0.11" ]
+      ],
+      "unknown": [
+        [ "browserify-zlib", "0.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "browserify-zlib": {
+      "0.2.0": {
+        "hash": "sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.2.0.tgz"
+      }
+    },
+    "pako": {
+      "1.0.11": {
+        "hash": "sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz"
+      }
+    }
+  }
+}

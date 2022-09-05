@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "on-finished",
+    "location": "",
+    "packages": {
+      "on-finished": "2.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "on-finished": {
+      "2.4.1": [
+        [ "ee-first", "1.1.1" ]
+      ],
+      "unknown": [
+        [ "on-finished", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ee-first": {
+      "1.1.1": {
+        "hash": "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
+      }
+    },
+    "on-finished": {
+      "2.4.1": {
+        "hash": "sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz"
+      }
+    }
+  }
+}

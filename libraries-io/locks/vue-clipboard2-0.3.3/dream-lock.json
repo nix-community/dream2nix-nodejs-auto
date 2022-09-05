@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "vue-clipboard2",
+    "location": "",
+    "packages": {
+      "vue-clipboard2": "0.3.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clipboard": {
+      "2.0.11": [
+        [ "good-listener", "1.2.2" ],
+        [ "select", "1.1.2" ],
+        [ "tiny-emitter", "2.1.0" ]
+      ]
+    },
+    "good-listener": {
+      "1.2.2": [
+        [ "delegate", "3.2.0" ]
+      ]
+    },
+    "vue-clipboard2": {
+      "0.3.3": [
+        [ "clipboard", "2.0.11" ]
+      ],
+      "unknown": [
+        [ "vue-clipboard2", "0.3.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "clipboard": {
+      "2.0.11": {
+        "hash": "sha512-C+0bbOqkezLIsmWSvlsXS0Q0bmkugu7jcfMIACB+RDEntIzQIkdr148we28AfSloQLRdZlYL/QYyrq05j/3Faw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clipboard/-/clipboard-2.0.11.tgz"
+      }
+    },
+    "delegate": {
+      "3.2.0": {
+        "hash": "sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz"
+      }
+    },
+    "good-listener": {
+      "1.2.2": {
+        "hash": "sha512-goW1b+d9q/HIwbVYZzZ6SsTr4IgE+WA44A0GmPIQstuOrgsFcT7VEJ48nmr9GaRtNu0XTKacFLGnBPAM6Afouw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz"
+      }
+    },
+    "select": {
+      "1.1.2": {
+        "hash": "sha512-OwpTSOfy6xSs1+pwcNrv0RBMOzI39Lp3qQKUTPVVPRjCdNa5JH/oPRiqsesIskK8TVgmRiHwO4KXlV2Li9dANA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/select/-/select-1.1.2.tgz"
+      }
+    },
+    "tiny-emitter": {
+      "2.1.0": {
+        "hash": "sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz"
+      }
+    },
+    "vue-clipboard2": {
+      "0.3.3": {
+        "hash": "sha512-aNWXIL2DKgJyY/1OOeITwAQz1fHaCIGvUFHf9h8UcoQBG5a74MkdhS/xqoYe7DNZdQmZRL+TAdIbtUs9OyVjbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue-clipboard2/-/vue-clipboard2-0.3.3.tgz"
+      }
+    }
+  }
+}

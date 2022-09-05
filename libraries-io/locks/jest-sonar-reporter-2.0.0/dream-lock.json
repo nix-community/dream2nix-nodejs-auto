@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "jest-sonar-reporter",
+    "location": "",
+    "packages": {
+      "jest-sonar-reporter": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jest-sonar-reporter": {
+      "2.0.0": [
+        [ "xml", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "jest-sonar-reporter", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "jest-sonar-reporter": {
+      "2.0.0": {
+        "hash": "sha512-ZervDCgEX5gdUbdtWsjdipLN3bKJwpxbvhkYNXTAYvAckCihobSLr9OT/IuyNIRT1EZMDDwR6DroWtrq+IL64w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-sonar-reporter/-/jest-sonar-reporter-2.0.0.tgz"
+      }
+    },
+    "xml": {
+      "1.0.1": {
+        "hash": "sha512-huCv9IH9Tcf95zuYCsQraZtWnJvBtLVE0QHMOs8bWyZAFZNDcYjsPq1nEx8jKA9y+Beo9v+7OBPRisQTjinQMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xml/-/xml-1.0.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "natural",
+    "location": "",
+    "packages": {
+      "natural": "5.2.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "apparatus": {
+      "0.0.10": [
+        [ "sylvester", "0.0.12" ]
+      ]
+    },
+    "natural": {
+      "5.2.3": [
+        [ "afinn-165", "1.0.4" ],
+        [ "apparatus", "0.0.10" ],
+        [ "safe-stable-stringify", "2.3.1" ],
+        [ "sylvester", "0.0.12" ],
+        [ "underscore", "1.13.4" ],
+        [ "wordnet-db", "3.1.14" ]
+      ],
+      "unknown": [
+        [ "natural", "5.2.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "afinn-165": {
+      "1.0.4": {
+        "hash": "sha512-7+Wlx3BImrK0HiG6y3lU4xX7SpBPSSu8T9iguPMlaueRFxjbYwAQrp9lqZUuFikqKbd/en8lVREILvP2J80uJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/afinn-165/-/afinn-165-1.0.4.tgz"
+      }
+    },
+    "apparatus": {
+      "0.0.10": {
+        "hash": "sha512-KLy/ugo33KZA7nugtQ7O0E1c8kQ52N3IvD/XgIh4w/Nr28ypfkwDfA67F1ev4N1m5D+BOk1+b2dEJDfpj/VvZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/apparatus/-/apparatus-0.0.10.tgz"
+      }
+    },
+    "natural": {
+      "5.2.3": {
+        "hash": "sha512-fsGGpbU15YBc2oQCEsi0t7ZeF3VmKyxDhgWucQTPk4zaDFzeZtquRbZt4xlznN2ZUlH88215HcThMYaDHFM48Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/natural/-/natural-5.2.3.tgz"
+      }
+    },
+    "safe-stable-stringify": {
+      "2.3.1": {
+        "hash": "sha512-kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz"
+      }
+    },
+    "sylvester": {
+      "0.0.12": {
+        "hash": "sha512-SzRP5LQ6Ts2G5NyAa/jg16s8e3R7rfdFjizy1zeoecYWw+nGL+YA1xZvW/+iJmidBGSdLkuvdwTYEyJEb+EiUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sylvester/-/sylvester-0.0.12.tgz"
+      }
+    },
+    "underscore": {
+      "1.13.4": {
+        "hash": "sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.4.tgz"
+      }
+    },
+    "wordnet-db": {
+      "3.1.14": {
+        "hash": "sha512-zVyFsvE+mq9MCmwXUWHIcpfbrHHClZWZiVOzKSxNJruIcFn2RbY55zkhiAMMxM8zCVSmtNiViq8FsAZSFpMYag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wordnet-db/-/wordnet-db-3.1.14.tgz"
+      }
+    }
+  }
+}

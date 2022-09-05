@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "ast-types",
+    "location": "",
+    "packages": {
+      "ast-types": "0.15.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ast-types": {
+      "0.15.2": [
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "ast-types", "0.15.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "ast-types": {
+      "0.15.2": {
+        "hash": "sha512-c27loCv9QkZinsa5ProX751khO9DJl/AcB5c2KNtA6NRvHKS0PgLfcftz72KVq504vB0Gku5s2kUZzDBvQWvHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ast-types/-/ast-types-0.15.2.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/enzyme-adapter-react-16",
+    "location": "",
+    "packages": {
+      "@types/enzyme-adapter-react-16": "1.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/cheerio": {
+      "0.22.31": [
+        [ "@types/node", "18.7.15" ]
+      ]
+    },
+    "@types/enzyme": {
+      "3.10.12": [
+        [ "@types/cheerio", "0.22.31" ],
+        [ "@types/react", "18.0.18" ]
+      ]
+    },
+    "@types/enzyme-adapter-react-16": {
+      "1.0.6": [
+        [ "@types/enzyme", "3.10.12" ]
+      ],
+      "unknown": [
+        [ "@types/enzyme-adapter-react-16", "1.0.6" ]
+      ]
+    },
+    "@types/react": {
+      "18.0.18": [
+        [ "@types/prop-types", "15.7.5" ],
+        [ "@types/scheduler", "0.16.2" ],
+        [ "csstype", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/cheerio": {
+      "0.22.31": {
+        "hash": "sha512-Kt7Cdjjdi2XWSfrZ53v4Of0wG3ZcmaegFXjMmz9tfNrZSkzzo36G0AL1YqSdcIA78Etjt6E609pt5h1xnQkPUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/cheerio/-/cheerio-0.22.31.tgz"
+      }
+    },
+    "@types/enzyme": {
+      "3.10.12": {
+        "hash": "sha512-xryQlOEIe1TduDWAOphR0ihfebKFSWOXpIsk+70JskCfRfW+xALdnJ0r1ZOTo85F9Qsjk6vtlU7edTYHbls9tA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/enzyme/-/enzyme-3.10.12.tgz"
+      }
+    },
+    "@types/enzyme-adapter-react-16": {
+      "1.0.6": {
+        "hash": "sha512-VonDkZ15jzqDWL8mPFIQnnLtjwebuL9YnDkqeCDYnB4IVgwUm0mwKkqhrxLL6mb05xm7qqa3IE95m8CZE9imCg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.6.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/prop-types": {
+      "15.7.5": {
+        "hash": "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
+      }
+    },
+    "@types/react": {
+      "18.0.18": {
+        "hash": "sha512-6hI08umYs6NaiHFEEGioXnxJ+oEhY3eRz8VCUaudZmGdtvPviCJB8mgaMxaDWAdPSYd4eFavrPk2QIolwbLYrg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.18.tgz"
+      }
+    },
+    "@types/scheduler": {
+      "0.16.2": {
+        "hash": "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
+      }
+    },
+    "csstype": {
+      "3.1.0": {
+        "hash": "sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csstype/-/csstype-3.1.0.tgz"
+      }
+    }
+  }
+}

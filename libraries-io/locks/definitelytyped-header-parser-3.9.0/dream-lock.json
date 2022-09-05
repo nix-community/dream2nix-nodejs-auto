@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "definitelytyped-header-parser",
+    "location": "",
+    "packages": {
+      "definitelytyped-header-parser": "3.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "definitelytyped-header-parser": {
+      "3.9.0": [
+        [ "@types/parsimmon", "1.10.6" ],
+        [ "parsimmon", "1.18.1" ]
+      ],
+      "unknown": [
+        [ "definitelytyped-header-parser", "3.9.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/parsimmon": {
+      "1.10.6": {
+        "hash": "sha512-FwAQwMRbkhx0J6YELkwIpciVzCcgEqXEbIrIn3a2P5d3kGEHQ3wVhlN3YdVepYP+bZzCYO6OjmD4o9TGOZ40rA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/parsimmon/-/parsimmon-1.10.6.tgz"
+      }
+    },
+    "definitelytyped-header-parser": {
+      "3.9.0": {
+        "hash": "sha512-slbwZ5h5lasB12t+9EAGYr060aCMqEXp6cwD7CoTriK40HNDYU56/XQ6S4sbjBK8ReGRMnB/uDx0elKkb4kuQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/definitelytyped-header-parser/-/definitelytyped-header-parser-3.9.0.tgz"
+      }
+    },
+    "parsimmon": {
+      "1.18.1": {
+        "hash": "sha512-u7p959wLfGAhJpSDJVYXoyMCXWYwHia78HhRBWqk7AIbxdmlrfdp5wX0l3xv/iTSH5HvhN9K7o26hwwpgS5Nmw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parsimmon/-/parsimmon-1.18.1.tgz"
+      }
+    }
+  }
+}

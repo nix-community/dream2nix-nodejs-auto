@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "less-plugin-npm-import",
+    "location": "",
+    "packages": {
+      "less-plugin-npm-import": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "less-plugin-npm-import": {
+      "2.1.0": [
+        [ "promise", "7.0.4" ],
+        [ "resolve", "1.1.7" ]
+      ],
+      "unknown": [
+        [ "less-plugin-npm-import", "2.1.0" ]
+      ]
+    },
+    "promise": {
+      "7.0.4": [
+        [ "asap", "2.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "asap": {
+      "2.0.6": {
+        "hash": "sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
+      }
+    },
+    "less-plugin-npm-import": {
+      "2.1.0": {
+        "hash": "sha512-f7pVkEooRq2/jge/M/Y+spoPXj5rRIY30q1as+3kZsDG8Rs+loNJUCVQjzXB9Ao/9FeIJULiq2zrXymv+OMTbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/less-plugin-npm-import/-/less-plugin-npm-import-2.1.0.tgz"
+      }
+    },
+    "promise": {
+      "7.0.4": {
+        "hash": "sha512-8z1gTSL9cMgqCx8zvMYhzT0eQURAQNSQqR8B2hGfCYkAzt1vjReVdKBv4YwGw3OXAPaxfm4aR0gLoBUon4VmmA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/promise/-/promise-7.0.4.tgz"
+      }
+    },
+    "resolve": {
+      "1.1.7": {
+        "hash": "sha512-9znBF0vBcaSN3W2j7wKvdERPwqTxSpCq+if5C0WoTCyV9n24rua28jeuQ2pL/HOf+yUe/Mef+H/5p60K0Id3bg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz"
+      }
+    }
+  }
+}

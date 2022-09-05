@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "d3-interpolate",
+    "location": "",
+    "packages": {
+      "d3-interpolate": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "d3-interpolate": {
+      "3.0.1": [
+        [ "d3-color", "3.1.0" ]
+      ],
+      "unknown": [
+        [ "d3-interpolate", "3.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "d3-color": {
+      "3.1.0": {
+        "hash": "sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz"
+      }
+    },
+    "d3-interpolate": {
+      "3.0.1": {
+        "hash": "sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz"
+      }
+    }
+  }
+}

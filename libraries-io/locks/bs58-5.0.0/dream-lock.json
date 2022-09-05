@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "bs58",
+    "location": "",
+    "packages": {
+      "bs58": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bs58": {
+      "5.0.0": [
+        [ "base-x", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "bs58", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "base-x": {
+      "4.0.0": {
+        "hash": "sha512-FuwxlW4H5kh37X/oW59pwTzzTKRzfrrQwhmyspRM7swOEZcHtDZSCt45U6oKgtuFE+WYPblePMVIPR4RZrh/hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/base-x/-/base-x-4.0.0.tgz"
+      }
+    },
+    "bs58": {
+      "5.0.0": {
+        "hash": "sha512-r+ihvQJvahgYT50JD05dyJNKlmmSlMoOGwn1lCcEzanPglg7TxYjioQUYehQ9mAR/+hOSd2jRc/Z2y5UxBymvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bs58/-/bs58-5.0.0.tgz"
+      }
+    }
+  }
+}

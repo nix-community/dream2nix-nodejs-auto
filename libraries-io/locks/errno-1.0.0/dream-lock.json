@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "errno",
+    "location": "",
+    "packages": {
+      "errno": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "errno": {
+      "1.0.0": [
+        [ "prr", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "errno", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "errno": {
+      "1.0.0": {
+        "hash": "sha512-3zV5mFS1E8/1bPxt/B0xxzI1snsg3uSCIh6Zo1qKg6iMw93hzPANk9oBFzSFBFrwuVoQuE3rLoouAUfwOAj1wQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/errno/-/errno-1.0.0.tgz"
+      }
+    },
+    "prr": {
+      "1.0.1": {
+        "hash": "sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prr/-/prr-1.0.1.tgz"
+      }
+    }
+  }
+}

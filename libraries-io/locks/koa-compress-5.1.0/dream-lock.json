@@ -1,0 +1,127 @@
+{
+  "_generic": {
+    "defaultPackage": "koa-compress",
+    "location": "",
+    "packages": {
+      "koa-compress": "5.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "compressible": {
+      "2.0.18": [
+        [ "mime-db", "1.52.0" ]
+      ]
+    },
+    "http-errors": {
+      "1.8.1": [
+        [ "depd", "1.1.2" ],
+        [ "inherits", "2.0.4" ],
+        [ "setprototypeof", "1.2.0" ],
+        [ "statuses", "1.5.0" ],
+        [ "toidentifier", "1.0.1" ]
+      ]
+    },
+    "koa-compress": {
+      "5.1.0": [
+        [ "bytes", "3.1.2" ],
+        [ "compressible", "2.0.18" ],
+        [ "http-errors", "1.8.1" ],
+        [ "koa-is-json", "1.0.0" ],
+        [ "statuses", "2.0.1" ]
+      ],
+      "unknown": [
+        [ "koa-compress", "5.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "bytes": {
+      "3.1.2": {
+        "hash": "sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz"
+      }
+    },
+    "compressible": {
+      "2.0.18": {
+        "hash": "sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/compressible/-/compressible-2.0.18.tgz"
+      }
+    },
+    "depd": {
+      "1.1.2": {
+        "hash": "sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz"
+      }
+    },
+    "http-errors": {
+      "1.8.1": {
+        "hash": "sha512-Kpk9Sm7NmI+RHhnj6OIWDI1d6fIoFAtFt9RLaTMRlg/8w49juAStsrBgp0Dp4OdxdVbRIeKhtCUvoi/RuAhO4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/http-errors/-/http-errors-1.8.1.tgz"
+      }
+    },
+    "inherits": {
+      "2.0.4": {
+        "hash": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+      }
+    },
+    "koa-compress": {
+      "5.1.0": {
+        "hash": "sha512-G3Ppo9jrUwlchp6qdoRgQNMiGZtM0TAHkxRZQ7EoVvIG8E47J4nAsMJxXHAUQ+0oc7t0MDxSdONWTFcbzX7/Bg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/koa-compress/-/koa-compress-5.1.0.tgz"
+      }
+    },
+    "koa-is-json": {
+      "1.0.0": {
+        "hash": "sha512-+97CtHAlWDx0ndt0J8y3P12EWLwTLMXIfMnYDev3wOTwH/RpBGMlfn4bDXlMEg1u73K6XRE9BbUp+5ZAYoRYWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/koa-is-json/-/koa-is-json-1.0.0.tgz"
+      }
+    },
+    "mime-db": {
+      "1.52.0": {
+        "hash": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+      }
+    },
+    "setprototypeof": {
+      "1.2.0": {
+        "hash": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz"
+      }
+    },
+    "statuses": {
+      "1.5.0": {
+        "hash": "sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
+      },
+      "2.0.1": {
+        "hash": "sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz"
+      }
+    },
+    "toidentifier": {
+      "1.0.1": {
+        "hash": "sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz"
+      }
+    }
+  }
+}

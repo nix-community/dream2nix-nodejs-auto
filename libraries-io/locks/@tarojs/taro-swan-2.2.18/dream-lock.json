@@ -1,0 +1,137 @@
+{
+  "_generic": {
+    "defaultPackage": "@tarojs/taro-swan",
+    "location": "",
+    "packages": {
+      "@tarojs/taro-swan": "2.2.18"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@tarojs/taro": {
+      "2.2.18": [
+        [ "@tarojs/utils", "2.2.18" ]
+      ]
+    },
+    "@tarojs/taro-swan": {
+      "2.2.18": [
+        [ "@tarojs/taro", "2.2.18" ],
+        [ "@tarojs/utils", "2.2.18" ],
+        [ "lodash", "4.17.21" ],
+        [ "prop-types", "15.8.1" ]
+      ],
+      "unknown": [
+        [ "@tarojs/taro-swan", "2.2.18" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "nervjs": {
+      "1.5.7": [
+        [ "nerv-shared", "1.4.0" ],
+        [ "nerv-utils", "1.4.5" ]
+      ]
+    },
+    "prop-types": {
+      "15.8.1": [
+        [ "loose-envify", "1.4.0" ],
+        [ "object-assign", "4.1.1" ],
+        [ "react-is", "16.13.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@tarojs/taro": {
+      "2.2.18": {
+        "hash": "sha512-hXyHo9/TEnNNE1IINL81FsBA7WZP4dNkfqp9i5mCTsV+a7nEgbXhLcBmUwChoGuIO4k3uo525AwNKSdUvqAkaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/taro/-/taro-2.2.18.tgz"
+      }
+    },
+    "@tarojs/taro-swan": {
+      "2.2.18": {
+        "hash": "sha512-etPbBesoAh9ZUuBxWwzLEAivU2lMPKdAW8hOT6T5LNVXjqi+8CITSES3UgxfruT3S3M18QNHkwED8YPU01T6jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/taro-swan/-/taro-swan-2.2.18.tgz"
+      }
+    },
+    "@tarojs/utils": {
+      "2.2.18": {
+        "hash": "sha512-TJpwCDbX7aDsjtmx9d5HEhwAnsUYW8apVqqw0OJ6SGnigJfABKXXsUcEBesttQdDxxLamDhA5gMROtR/Wd5yLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/utils/-/utils-2.2.18.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "nerv-shared": {
+      "1.4.0": {
+        "hash": "sha512-cCyeP1hnnnMfM5HRcmMKconGwI8Wl0xwekAU4DvqDC1M8NxCOF4TwDmedgdgyNt9EkWNbiotBRUV5zJsbfOQWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nerv-shared/-/nerv-shared-1.4.0.tgz"
+      }
+    },
+    "nerv-utils": {
+      "1.4.5": {
+        "hash": "sha512-9XeifC0l+aDXhA0aXcklxS2o7o87xJxMQAl1+iIHrD5Sei/61ubap0oOzb4t9VMhSEvwWm4/rJRd8PGMKZiwiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nerv-utils/-/nerv-utils-1.4.5.tgz"
+      }
+    },
+    "nervjs": {
+      "1.5.7": {
+        "hash": "sha512-x+hGSOETqA+7lbChW+c/NIXEMrCCvm6IaEHlDbZmaNVX0TAyKZinRIHcYr7o5K/pA4qGWjJQmjoNyx+Mx+rVLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nervjs/-/nervjs-1.5.7.tgz"
+      }
+    },
+    "object-assign": {
+      "4.1.1": {
+        "hash": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+      }
+    },
+    "prop-types": {
+      "15.8.1": {
+        "hash": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+      }
+    },
+    "react-is": {
+      "16.13.1": {
+        "hash": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
+      }
+    }
+  }
+}

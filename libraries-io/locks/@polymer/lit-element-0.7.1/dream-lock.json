@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@polymer/lit-element",
+    "location": "",
+    "packages": {
+      "@polymer/lit-element": "0.7.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@polymer/lit-element": {
+      "0.7.1": [
+        [ "lit-html", "1.4.1" ]
+      ],
+      "unknown": [
+        [ "@polymer/lit-element", "0.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@polymer/lit-element": {
+      "0.7.1": {
+        "hash": "sha512-aYSzVhC19l7xSm73aHI06VPcD/H+GxpFNZrhbJ+zVIpgAveOgGp5Ga7UtTBHQCdHlJbZ0dMlaBXMZ3twgXCokg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polymer/lit-element/-/lit-element-0.7.1.tgz"
+      }
+    },
+    "lit-html": {
+      "1.4.1": {
+        "hash": "sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lit-html/-/lit-html-1.4.1.tgz"
+      }
+    }
+  }
+}

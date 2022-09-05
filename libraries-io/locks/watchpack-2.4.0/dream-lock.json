@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "watchpack",
+    "location": "",
+    "packages": {
+      "watchpack": "2.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "watchpack": {
+      "2.4.0": [
+        [ "glob-to-regexp", "0.4.1" ],
+        [ "graceful-fs", "4.2.10" ]
+      ],
+      "unknown": [
+        [ "watchpack", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "glob-to-regexp": {
+      "0.4.1": {
+        "hash": "sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz"
+      }
+    },
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "watchpack": {
+      "2.4.0": {
+        "hash": "sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/watchpack/-/watchpack-2.4.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "co-fs",
+    "location": "",
+    "packages": {
+      "co-fs": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "co-from-stream": {
+      "0.0.0": [
+        [ "co-read", "0.0.1" ]
+      ]
+    },
+    "co-fs": {
+      "1.2.0": [
+        [ "co-from-stream", "0.0.0" ],
+        [ "thunkify", "0.0.1" ]
+      ],
+      "unknown": [
+        [ "co-fs", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "co-from-stream": {
+      "0.0.0": {
+        "hash": "sha512-w1GOkQmvYMWr5B3VsjyS/gxXd5YLhy4wcC1YxwajoGgMFJQLSsuzTxb6o9SiK+TMKN+DRJpsj4MN0CeOKSDAQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/co-from-stream/-/co-from-stream-0.0.0.tgz"
+      }
+    },
+    "co-fs": {
+      "1.2.0": {
+        "hash": "sha512-a7pWQjGecVliQyvP5ZU3vMz+7D1S23jiScOiH+AWW269wdN6JjvDmjEOyfGnJH9+DBQZKkPc/QVfqBgVOwjhng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/co-fs/-/co-fs-1.2.0.tgz"
+      }
+    },
+    "co-read": {
+      "0.0.1": {
+        "hash": "sha512-OLceyyztHxwNtjuS2NjQ3QlczQIwOIW+n18DXAk89ej0wDso3exNvNrB7A3AiTVvFNEFe8LdqETIvRhtpkvLeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/co-read/-/co-read-0.0.1.tgz"
+      }
+    },
+    "thunkify": {
+      "0.0.1": {
+        "hash": "sha512-PlJsf0UYJw6Z4bdCYljva3x5tI1y8Imc7hsaVauy099I0dg5bFF6Y0FL7C1Dn7n3vIumN9GNuEgzsQbzucYJrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/thunkify/-/thunkify-0.0.1.tgz"
+      }
+    }
+  }
+}

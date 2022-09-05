@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "build-plugin-moment-locales",
+    "location": "",
+    "packages": {
+      "build-plugin-moment-locales": "0.1.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@rollup/pluginutils": {
+      "4.2.1": [
+        [ "estree-walker", "2.0.2" ],
+        [ "picomatch", "2.3.1" ]
+      ]
+    },
+    "build-plugin-moment-locales": {
+      "0.1.3": [
+        [ "@rollup/pluginutils", "4.2.1" ],
+        [ "magic-string", "0.25.9" ]
+      ],
+      "unknown": [
+        [ "build-plugin-moment-locales", "0.1.3" ]
+      ]
+    },
+    "magic-string": {
+      "0.25.9": [
+        [ "sourcemap-codec", "1.4.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@rollup/pluginutils": {
+      "4.2.1": {
+        "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
+      }
+    },
+    "build-plugin-moment-locales": {
+      "0.1.3": {
+        "hash": "sha512-HJjz88TnlVg+u68yij6zHX04n/2Gcw6Ae43SaPZa3+cIgbfbtykLxBzK3WE87oh5RRerm7f73ovNBSnSDigr7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/build-plugin-moment-locales/-/build-plugin-moment-locales-0.1.3.tgz"
+      }
+    },
+    "estree-walker": {
+      "2.0.2": {
+        "hash": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
+      }
+    },
+    "magic-string": {
+      "0.25.9": {
+        "hash": "sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.25.9.tgz"
+      }
+    },
+    "picomatch": {
+      "2.3.1": {
+        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+      }
+    },
+    "sourcemap-codec": {
+      "1.4.8": {
+        "hash": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
+      }
+    }
+  }
+}

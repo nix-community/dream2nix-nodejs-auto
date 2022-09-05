@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "safe-regex",
+    "location": "",
+    "packages": {
+      "safe-regex": "2.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "safe-regex": {
+      "2.1.1": [
+        [ "regexp-tree", "0.1.24" ]
+      ],
+      "unknown": [
+        [ "safe-regex", "2.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "regexp-tree": {
+      "0.1.24": {
+        "hash": "sha512-s2aEVuLhvnVJW6s/iPgEGK6R+/xngd2jNQ+xy4bXNDKxZKJH6jpPHY6kVeVv1IeLCHgswRj+Kl3ELaDjG6V1iw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regexp-tree/-/regexp-tree-0.1.24.tgz"
+      }
+    },
+    "safe-regex": {
+      "2.1.1": {
+        "hash": "sha512-rx+x8AMzKb5Q5lQ95Zoi6ZbJqwCLkqi3XuJXp5P3rT8OEc6sZCJG5AE5dU3lsgRr/F4Bs31jSlVN+j5KrsGu9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-regex/-/safe-regex-2.1.1.tgz"
+      }
+    }
+  }
+}

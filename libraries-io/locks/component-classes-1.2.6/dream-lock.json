@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "component-classes",
+    "location": "",
+    "packages": {
+      "component-classes": "1.2.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "component-classes": {
+      "1.2.6": [
+        [ "component-indexof", "0.0.3" ]
+      ],
+      "unknown": [
+        [ "component-classes", "1.2.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "component-classes": {
+      "1.2.6": {
+        "hash": "sha512-hPFGULxdwugu1QWW3SvVOCUHLzO34+a2J6Wqy0c5ASQkfi9/8nZcBB0ZohaEbXOQlCflMAEMmEWk7u7BVs4koA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/component-classes/-/component-classes-1.2.6.tgz"
+      }
+    },
+    "component-indexof": {
+      "0.0.3": {
+        "hash": "sha512-puDQKvx/64HZXb4hBwIcvQLaLgux8o1CbWl39s41hrIIZDl1lJiD5jc22gj3RBeGK0ovxALDYpIbyjqDUUl0rw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/component-indexof/-/component-indexof-0.0.3.tgz"
+      }
+    }
+  }
+}

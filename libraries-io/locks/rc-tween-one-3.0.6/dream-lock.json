@@ -1,0 +1,237 @@
+{
+  "_generic": {
+    "defaultPackage": "rc-tween-one",
+    "location": "",
+    "packages": {
+      "rc-tween-one": "3.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.18.9": [
+        [ "regenerator-runtime", "0.13.9" ]
+      ]
+    },
+    "flubber": {
+      "0.4.2": [
+        [ "d3-array", "1.2.4" ],
+        [ "d3-polygon", "1.0.6" ],
+        [ "earcut", "2.2.4" ],
+        [ "svg-path-properties", "0.2.2" ],
+        [ "svgpath", "2.5.0" ],
+        [ "topojson-client", "3.1.0" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "raf": {
+      "3.4.1": [
+        [ "performance-now", "2.1.0" ]
+      ]
+    },
+    "rc-tween-one": {
+      "3.0.6": [
+        [ "@babel/runtime", "7.18.9" ],
+        [ "style-utils", "0.3.8" ],
+        [ "tween-one", "1.1.8" ]
+      ],
+      "unknown": [
+        [ "rc-tween-one", "3.0.6" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-dom": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.23.0" ]
+      ]
+    },
+    "scheduler": {
+      "0.23.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "topojson-client": {
+      "3.1.0": [
+        [ "commander", "2.20.3" ]
+      ]
+    },
+    "tween-one": {
+      "1.1.8": [
+        [ "@babel/runtime", "7.18.9" ],
+        [ "flubber", "0.4.2" ],
+        [ "raf", "3.4.1" ],
+        [ "style-utils", "0.3.8" ],
+        [ "svg-path-properties", "1.0.11" ],
+        [ "tween-functions", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.18.9": {
+        "hash": "sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.18.9.tgz"
+      }
+    },
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "d3-array": {
+      "1.2.4": {
+        "hash": "sha512-KHW6M86R+FUPYGb3R5XiYjXPq7VzwxZ22buHhAEVG5ztoEcZZMLov530mmccaqA1GghZArjQV46fuc8kUqhhHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-array/-/d3-array-1.2.4.tgz"
+      }
+    },
+    "d3-polygon": {
+      "1.0.6": {
+        "hash": "sha512-k+RF7WvI08PC8reEoXa/w2nSg5AUMTi+peBD9cmFc+0ixHfbs4QmxxkarVal1IkVkgxVuk9JSHhJURHiyHKAuQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/d3-polygon/-/d3-polygon-1.0.6.tgz"
+      }
+    },
+    "earcut": {
+      "2.2.4": {
+        "hash": "sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/earcut/-/earcut-2.2.4.tgz"
+      }
+    },
+    "flubber": {
+      "0.4.2": {
+        "hash": "sha512-79RkJe3rA4nvRCVc2uXjj7U/BAUq84TS3KHn6c0Hr9K64vhj83ZNLUziNx4pJoBumSPhOl5VjH+Z0uhi+eE8Uw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/flubber/-/flubber-0.4.2.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "performance-now": {
+      "2.1.0": {
+        "hash": "sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
+      }
+    },
+    "raf": {
+      "3.4.1": {
+        "hash": "sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/raf/-/raf-3.4.1.tgz"
+      }
+    },
+    "rc-tween-one": {
+      "3.0.6": {
+        "hash": "sha512-5zTSXyyv7bahDBQ/kJw/kNxxoBqTouttoelw8FOVOyWqmTMndizJEpvaj1N+yES5Xjss6Y2iVw+9vSJQZE8Z6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rc-tween-one/-/rc-tween-one-3.0.6.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-dom": {
+      "18.2.0": {
+        "hash": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.9": {
+        "hash": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+      }
+    },
+    "scheduler": {
+      "0.23.0": {
+        "hash": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+      }
+    },
+    "style-utils": {
+      "0.3.8": {
+        "hash": "sha512-RmGftIhY4tqtD1ERwKsVEDlt/M6UyxN/rcr95UmlooWmhtL0RwVUYJkpo1kSx3ppd9/JZzbknhy742zbMAawjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/style-utils/-/style-utils-0.3.8.tgz"
+      }
+    },
+    "svg-path-properties": {
+      "0.2.2": {
+        "hash": "sha512-GmrB+b6woz6CCdQe6w1GHs/1lt25l7SR5hmhF8jRdarpv/OgjLyuQygLu1makJapixeb1aQhP/Oa1iKi93o/aQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svg-path-properties/-/svg-path-properties-0.2.2.tgz"
+      },
+      "1.0.11": {
+        "hash": "sha512-Wo6SjzONZPL9UAgrnwcCkDGRYP9CbHJGkNcPFIgEVRjiOiJxSd/AtwnGk/4N4iOLGUoas57TMxY0xASDeb9YJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svg-path-properties/-/svg-path-properties-1.0.11.tgz"
+      }
+    },
+    "svgpath": {
+      "2.5.0": {
+        "hash": "sha512-o/vohwqjUO9nDAh4rcjE3KaW/v//At8UJu2LJMybXidf5QLQLVA4bxH0//4YCsr+1H4Gw1Wi/Jc62ynzSBYidw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svgpath/-/svgpath-2.5.0.tgz"
+      }
+    },
+    "topojson-client": {
+      "3.1.0": {
+        "hash": "sha512-605uxS6bcYxGXw9qi62XyrV6Q3xwbndjachmNxu8HWTtVPxZfEJN9fd/SZS1Q54Sn2y0TMyMxFj/cJINqGHrKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/topojson-client/-/topojson-client-3.1.0.tgz"
+      }
+    },
+    "tween-functions": {
+      "1.2.0": {
+        "hash": "sha512-PZBtLYcCLtEcjL14Fzb1gSxPBeL7nWvGhO5ZFPGqziCcr8uvHp0NDmdjBchp6KHL+tExcg0m3NISmKxhU394dA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tween-functions/-/tween-functions-1.2.0.tgz"
+      }
+    },
+    "tween-one": {
+      "1.1.8": {
+        "hash": "sha512-b9WD0/ZauKmhpomV5skXkTw6MMOEKLmBsWXV754Vp0WuJALcDP5u7PQSvMMFqVSQ/eg8R8DAxiaNebHZtB57fg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tween-one/-/tween-one-1.1.8.tgz"
+      }
+    }
+  }
+}

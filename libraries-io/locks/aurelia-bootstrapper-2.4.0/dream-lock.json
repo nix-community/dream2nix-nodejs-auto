@@ -1,0 +1,330 @@
+{
+  "_generic": {
+    "defaultPackage": "aurelia-bootstrapper",
+    "location": "",
+    "packages": {
+      "aurelia-bootstrapper": "2.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aurelia-binding": {
+      "2.5.4": [
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ],
+        [ "aurelia-task-queue", "1.3.3" ]
+      ]
+    },
+    "aurelia-bootstrapper": {
+      "2.4.0": [
+        [ "aurelia-event-aggregator", "1.0.3" ],
+        [ "aurelia-framework", "1.4.1" ],
+        [ "aurelia-history", "1.2.1" ],
+        [ "aurelia-history-browser", "1.4.0" ],
+        [ "aurelia-loader-default", "1.2.1" ],
+        [ "aurelia-logging-console", "1.1.1" ],
+        [ "aurelia-pal", "1.8.2" ],
+        [ "aurelia-pal-browser", "1.8.1" ],
+        [ "aurelia-polyfills", "1.3.4" ],
+        [ "aurelia-router", "1.7.1" ],
+        [ "aurelia-templating", "1.11.1" ],
+        [ "aurelia-templating-binding", "1.6.0" ],
+        [ "aurelia-templating-resources", "1.14.3" ],
+        [ "aurelia-templating-router", "1.5.0" ]
+      ],
+      "unknown": [
+        [ "aurelia-bootstrapper", "2.4.0" ]
+      ]
+    },
+    "aurelia-dependency-injection": {
+      "1.5.2": [
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-event-aggregator": {
+      "1.0.3": [
+        [ "aurelia-logging", "1.5.2" ]
+      ]
+    },
+    "aurelia-framework": {
+      "1.4.1": [
+        [ "aurelia-binding", "2.5.4" ],
+        [ "aurelia-dependency-injection", "1.5.2" ],
+        [ "aurelia-loader", "1.0.2" ],
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ],
+        [ "aurelia-path", "1.1.7" ],
+        [ "aurelia-task-queue", "1.3.3" ],
+        [ "aurelia-templating", "1.11.1" ]
+      ]
+    },
+    "aurelia-history-browser": {
+      "1.4.0": [
+        [ "aurelia-history", "1.2.1" ],
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-loader": {
+      "1.0.2": [
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-path", "1.1.7" ]
+      ]
+    },
+    "aurelia-loader-default": {
+      "1.2.1": [
+        [ "aurelia-loader", "1.0.2" ],
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-metadata": {
+      "1.0.7": [
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-pal-browser": {
+      "1.8.1": [
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-polyfills": {
+      "1.3.4": [
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-route-recognizer": {
+      "1.3.2": [
+        [ "aurelia-path", "1.1.7" ]
+      ]
+    },
+    "aurelia-router": {
+      "1.7.1": [
+        [ "aurelia-dependency-injection", "1.5.2" ],
+        [ "aurelia-event-aggregator", "1.0.3" ],
+        [ "aurelia-history", "1.2.1" ],
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-path", "1.1.7" ],
+        [ "aurelia-route-recognizer", "1.3.2" ]
+      ]
+    },
+    "aurelia-task-queue": {
+      "1.3.3": [
+        [ "aurelia-pal", "1.8.2" ]
+      ]
+    },
+    "aurelia-templating": {
+      "1.11.1": [
+        [ "aurelia-binding", "2.5.4" ],
+        [ "aurelia-dependency-injection", "1.5.2" ],
+        [ "aurelia-loader", "1.0.2" ],
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ],
+        [ "aurelia-path", "1.1.7" ],
+        [ "aurelia-task-queue", "1.3.3" ]
+      ]
+    },
+    "aurelia-templating-binding": {
+      "1.6.0": [
+        [ "aurelia-binding", "2.5.4" ],
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-templating", "1.11.1" ]
+      ]
+    },
+    "aurelia-templating-resources": {
+      "1.14.3": [
+        [ "aurelia-binding", "2.5.4" ],
+        [ "aurelia-dependency-injection", "1.5.2" ],
+        [ "aurelia-loader", "1.0.2" ],
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ],
+        [ "aurelia-path", "1.1.7" ],
+        [ "aurelia-task-queue", "1.3.3" ],
+        [ "aurelia-templating", "1.11.1" ]
+      ]
+    },
+    "aurelia-templating-router": {
+      "1.5.0": [
+        [ "aurelia-binding", "2.5.4" ],
+        [ "aurelia-dependency-injection", "1.5.2" ],
+        [ "aurelia-logging", "1.5.2" ],
+        [ "aurelia-metadata", "1.0.7" ],
+        [ "aurelia-pal", "1.8.2" ],
+        [ "aurelia-path", "1.1.7" ],
+        [ "aurelia-templating", "1.11.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "aurelia-binding": {
+      "2.5.4": {
+        "hash": "sha512-tYhYCFvQne+chO3p8KntCWj0r8oCXiCOGQ0yFbthHDBpjjTA4QlBwpGQ8nlGoGDKj7n4PoobeIjN3lEDKgKUyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-binding/-/aurelia-binding-2.5.4.tgz"
+      }
+    },
+    "aurelia-bootstrapper": {
+      "2.4.0": {
+        "hash": "sha512-BdJZiAm1cL+CalLkN2DxkqxckzvdpOv8MFXXyKDUfFPxDHMiUvtdoei//JzW+QPPeGdvhl8hMh+1IpwucAWQXw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-bootstrapper/-/aurelia-bootstrapper-2.4.0.tgz"
+      }
+    },
+    "aurelia-dependency-injection": {
+      "1.5.2": {
+        "hash": "sha512-LnKgpXzKuG2A/YPGeg5OOw8zvkbvDBMRJA9QDCjZlxymsPI98dwggNSQHI8UK+hTIBqOmjjRxqdMoeROo2Gpbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-dependency-injection/-/aurelia-dependency-injection-1.5.2.tgz"
+      }
+    },
+    "aurelia-event-aggregator": {
+      "1.0.3": {
+        "hash": "sha512-8fSWNCgh3gIsq/MgE+njVnUlYS05D6acyC8aJECekNWYecdBz46ckEblywP1ZNHLIt3u/Ws0oMqiOp1Jjw+0hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-event-aggregator/-/aurelia-event-aggregator-1.0.3.tgz"
+      }
+    },
+    "aurelia-framework": {
+      "1.4.1": {
+        "hash": "sha512-oFnJyqqIDk2Kk7iSy2YNm2MNQMbTVEiPpa9q0oGfDLclqUgv+L05rnkEW9vEpVTUMV8gmOTxIrDidNICrDT7HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-framework/-/aurelia-framework-1.4.1.tgz"
+      }
+    },
+    "aurelia-history": {
+      "1.2.1": {
+        "hash": "sha512-mHRgGtOKkvSc7ggdJvQGhjERSW0X4TNasa6JojkWGz9e6swe0HpFysKyMt+Hp7jYmGgiuCcQnM09lhDU1YExPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-history/-/aurelia-history-1.2.1.tgz"
+      }
+    },
+    "aurelia-history-browser": {
+      "1.4.0": {
+        "hash": "sha512-cJdQmHHFMbv3U+xV1FwQVwBQZoJvCxKUh/sbSjwfBbguAqtwWQaj4TFkVe7kYcJaSXzbebbpnTUkSwOfRAojpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-history-browser/-/aurelia-history-browser-1.4.0.tgz"
+      }
+    },
+    "aurelia-loader": {
+      "1.0.2": {
+        "hash": "sha512-3owEe5Zsk8cIJG+zcxN6gzqUr2z2c+FKhtrL49e1j8vE4ccQQjXg+tvKFnfBVf3pwma6A474WsdK8poYhoVZyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-loader/-/aurelia-loader-1.0.2.tgz"
+      }
+    },
+    "aurelia-loader-default": {
+      "1.2.1": {
+        "hash": "sha512-V142AYyBFs8m+YD80wWwcjJ4E8lzIv3uAbgUCmgQuBjPxeyWEbaIzxvQvRrrHCI90L64boRNWDiU1VxKlPB1pA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-loader-default/-/aurelia-loader-default-1.2.1.tgz"
+      }
+    },
+    "aurelia-logging": {
+      "1.5.2": {
+        "hash": "sha512-R0UdpGYBNSosBZ9WefmoIpgr36szFwQrRk2pbblhI+Vx911dUEEW85QXb6BRKVAP1ykz52Fuq8lCZxR6UupQXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-logging/-/aurelia-logging-1.5.2.tgz"
+      }
+    },
+    "aurelia-logging-console": {
+      "1.1.1": {
+        "hash": "sha512-fruw56b5P6qgVcbtwGok2m85hm/TI2Tt6Nzs1DOWUTnG8aeNLfCx6pRYBDZIQc/7VjX481e1tn4VqTncwXWCog==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-logging-console/-/aurelia-logging-console-1.1.1.tgz"
+      }
+    },
+    "aurelia-metadata": {
+      "1.0.7": {
+        "hash": "sha512-6Q3VV5VvCRjvJyICESwCNSWLkaYml9PAxHo5SjzVv+HNmvFtQRKRazczwECbTD6IWiE+O90+PmamPy4Ac2YnTA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-metadata/-/aurelia-metadata-1.0.7.tgz"
+      }
+    },
+    "aurelia-pal": {
+      "1.8.2": {
+        "hash": "sha512-6erozUK5aaD88PvThs/L87kLsqxqPaBU59PGECr36v9yezhve0BHqpKgbtJ8haHJSiH80K9lsJtXfefedS/3sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-pal/-/aurelia-pal-1.8.2.tgz"
+      }
+    },
+    "aurelia-pal-browser": {
+      "1.8.1": {
+        "hash": "sha512-wUZ/9EEaYKN7omQKESUakZO5aYrNslK1xLY3huMOpZGRsZJT6O76uPS2dDxefGWQEjUBtueMBq9Um7IcQGWXFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-pal-browser/-/aurelia-pal-browser-1.8.1.tgz"
+      }
+    },
+    "aurelia-path": {
+      "1.1.7": {
+        "hash": "sha512-D6/Tz8jE8b2+Y8Pt6P/fxF6xfJGef+TA6YEljzo1kEzyzbxIvwfqc7pK6i/XGY3LowlumPqrhxkfMjPxLpFIcA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-path/-/aurelia-path-1.1.7.tgz"
+      }
+    },
+    "aurelia-polyfills": {
+      "1.3.4": {
+        "hash": "sha512-NvOBYi4aWnxWCxfCfyW5DObggevOwfkC0riGMicgXNQg/ngpaQpFIXQgc4jMlI6jyE+/e38J36Hd9CeUcj04BA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-polyfills/-/aurelia-polyfills-1.3.4.tgz"
+      }
+    },
+    "aurelia-route-recognizer": {
+      "1.3.2": {
+        "hash": "sha512-nBlNSVmN1aX6KpzCzbISrolX8ETqt/Otet+Lp2qpI98ib9ZoSXVrFDZSgPaOSJaUs3A0r+felLSqBm3NNHqy4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-route-recognizer/-/aurelia-route-recognizer-1.3.2.tgz"
+      }
+    },
+    "aurelia-router": {
+      "1.7.1": {
+        "hash": "sha512-P6xxikeHHzVLxpZD8tvTwGJmEHY3M1MPTiIYzk32s85scd4kQ77FgQWo77ujYNv6hjrExifLFbrxIB7pUEziIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-router/-/aurelia-router-1.7.1.tgz"
+      }
+    },
+    "aurelia-task-queue": {
+      "1.3.3": {
+        "hash": "sha512-ua3J2YO+cZgpn1MqxPlanSDXG4SB0BXotxYDW1iL5f6AsoEvJ3BycZJYw/N9hMQKmWniOeaBr7wGQ+KDiZFywQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-task-queue/-/aurelia-task-queue-1.3.3.tgz"
+      }
+    },
+    "aurelia-templating": {
+      "1.11.1": {
+        "hash": "sha512-7Zrb/yvnIYBIlqGaLXIiBsmWMoFwo3SSoxyoucqWe/M80YpR4LJaTEKoZxhZZI6x9pU+tlFOBkwd/sA1JqPR8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-templating/-/aurelia-templating-1.11.1.tgz"
+      }
+    },
+    "aurelia-templating-binding": {
+      "1.6.0": {
+        "hash": "sha512-ffWqrLyEryn3XXlKMsC2z5c6QWYXjQcHG+HMFR2F/ldrBL09IFj5CY2MWKIxymA217/nPCREYbv9YBkc4/Ds+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-templating-binding/-/aurelia-templating-binding-1.6.0.tgz"
+      }
+    },
+    "aurelia-templating-resources": {
+      "1.14.3": {
+        "hash": "sha512-8JbBSUC0PWg8/MQ3cui5JUnIrJs30iD4QM6C1g1cv5Uv17yLMnDdaRQd1TIDN1S4kAIUjubkV2M8IaYP0BY+2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-templating-resources/-/aurelia-templating-resources-1.14.3.tgz"
+      }
+    },
+    "aurelia-templating-router": {
+      "1.5.0": {
+        "hash": "sha512-UixnQzi6BHL20F5V7euk8b4y6/PLS9etEbmXdicnAPU9gLKDTMB6+SOCKNPRlTb5C00aQlCSbmkDrrdIdN6Vxg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aurelia-templating-router/-/aurelia-templating-router-1.5.0.tgz"
+      }
+    }
+  }
+}

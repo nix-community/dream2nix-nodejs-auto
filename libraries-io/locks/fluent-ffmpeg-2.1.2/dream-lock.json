@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "fluent-ffmpeg",
+    "location": "",
+    "packages": {
+      "fluent-ffmpeg": "2.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fluent-ffmpeg": {
+      "2.1.2": [
+        [ "async", "3.2.4" ],
+        [ "which", "1.3.1" ]
+      ],
+      "unknown": [
+        [ "fluent-ffmpeg", "2.1.2" ]
+      ]
+    },
+    "which": {
+      "1.3.1": [
+        [ "isexe", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "async": {
+      "3.2.4": {
+        "hash": "sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/async/-/async-3.2.4.tgz"
+      }
+    },
+    "fluent-ffmpeg": {
+      "2.1.2": {
+        "hash": "sha512-IZTB4kq5GK0DPp7sGQ0q/BWurGHffRtQQwVkiqDgeO6wYJLLV5ZhgNOQ65loZxxuPMKZKZcICCUnaGtlxBiR0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fluent-ffmpeg/-/fluent-ffmpeg-2.1.2.tgz"
+      }
+    },
+    "isexe": {
+      "2.0.0": {
+        "hash": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+      }
+    },
+    "which": {
+      "1.3.1": {
+        "hash": "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which/-/which-1.3.1.tgz"
+      }
+    }
+  }
+}

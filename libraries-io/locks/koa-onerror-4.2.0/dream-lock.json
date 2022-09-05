@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "koa-onerror",
+    "location": "",
+    "packages": {
+      "koa-onerror": "4.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "koa-onerror": {
+      "4.2.0": [
+        [ "escape-html", "1.0.3" ],
+        [ "stream-wormhole", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "koa-onerror", "4.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "escape-html": {
+      "1.0.3": {
+        "hash": "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+      }
+    },
+    "koa-onerror": {
+      "4.2.0": {
+        "hash": "sha512-D15tp5rxevHqqcvOiEDbtQolG6z3NpBNupz3EUZz43pjYv5SGMom2Xz1FKM8oTya56+aq+hejPW/iBrNnC/UGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/koa-onerror/-/koa-onerror-4.2.0.tgz"
+      }
+    },
+    "stream-wormhole": {
+      "1.1.0": {
+        "hash": "sha512-gHFfL3px0Kctd6Po0M8TzEvt3De/xu6cnRrjlfYNhwbhLPLwigI2t1nc6jrzNuaYg5C4YF78PPFuQPzRiqn9ew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stream-wormhole/-/stream-wormhole-1.1.0.tgz"
+      }
+    }
+  }
+}

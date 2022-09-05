@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "deep-eql",
+    "location": "",
+    "packages": {
+      "deep-eql": "4.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "deep-eql": {
+      "4.1.0": [
+        [ "type-detect", "4.0.8" ]
+      ],
+      "unknown": [
+        [ "deep-eql", "4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "deep-eql": {
+      "4.1.0": {
+        "hash": "sha512-4YM7QHOMBoVWqGPnp3OPPK7+WCIhUR2OTpahlNQFiyTH3QEeiu9MtBiTAJBkfny4PNhpFbV/jm3lv0iCfb40MA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deep-eql/-/deep-eql-4.1.0.tgz"
+      }
+    },
+    "type-detect": {
+      "4.0.8": {
+        "hash": "sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz"
+      }
+    }
+  }
+}

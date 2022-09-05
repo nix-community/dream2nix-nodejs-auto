@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "unist-builder",
+    "location": "",
+    "packages": {
+      "unist-builder": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unist-builder": {
+      "3.0.0": [
+        [ "@types/unist", "2.0.6" ]
+      ],
+      "unknown": [
+        [ "unist-builder", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/unist": {
+      "2.0.6": {
+        "hash": "sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"
+      }
+    },
+    "unist-builder": {
+      "3.0.0": {
+        "hash": "sha512-GFxmfEAa0vi9i5sd0R2kcrI9ks0r82NasRq5QHh2ysGngrc6GiqD5CDf1FjPenY4vApmFASBIIlk/jj5J5YbmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-builder/-/unist-builder-3.0.0.tgz"
+      }
+    }
+  }
+}

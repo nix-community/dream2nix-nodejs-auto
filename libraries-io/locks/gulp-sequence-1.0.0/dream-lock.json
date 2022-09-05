@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "gulp-sequence",
+    "location": "",
+    "packages": {
+      "gulp-sequence": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "gulp-sequence": {
+      "1.0.0": [
+        [ "thunks", "4.9.6" ]
+      ],
+      "unknown": [
+        [ "gulp-sequence", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "gulp-sequence": {
+      "1.0.0": {
+        "hash": "sha512-c+p+EcyBl1UCpbfFA/vUD6MuC7uxoY6Y4g2lq9lLtzOHh9o1wijAQ4o0TIRQ14C7cG6zR6Zi+bpA0cW78CFt6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gulp-sequence/-/gulp-sequence-1.0.0.tgz"
+      }
+    },
+    "thunks": {
+      "4.9.6": {
+        "hash": "sha512-ulXG17ZokTO8j0rTx/23YHsBuz6KAK1xdBPLH4zB1FRDUkttCQeli3DxGhhYtrrsRwzacSG+ZIebjSgLseluMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/thunks/-/thunks-4.9.6.tgz"
+      }
+    }
+  }
+}

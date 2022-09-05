@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "lie",
+    "location": "",
+    "packages": {
+      "lie": "3.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lie": {
+      "3.3.0": [
+        [ "immediate", "3.0.6" ]
+      ],
+      "unknown": [
+        [ "lie", "3.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "immediate": {
+      "3.0.6": {
+        "hash": "sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz"
+      }
+    },
+    "lie": {
+      "3.3.0": {
+        "hash": "sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz"
+      }
+    }
+  }
+}

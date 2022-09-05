@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "ansi-to-html",
+    "location": "",
+    "packages": {
+      "ansi-to-html": "0.7.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi-to-html": {
+      "0.7.2": [
+        [ "entities", "2.2.0" ]
+      ],
+      "unknown": [
+        [ "ansi-to-html", "0.7.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-to-html": {
+      "0.7.2": {
+        "hash": "sha512-v6MqmEpNlxF+POuyhKkidusCHWWkaLcGRURzivcU3I9tv7k4JVhFcnukrM5Rlk2rUywdZuzYAZ+kbZqWCnfN3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-to-html/-/ansi-to-html-0.7.2.tgz"
+      }
+    },
+    "entities": {
+      "2.2.0": {
+        "hash": "sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz"
+      }
+    }
+  }
+}

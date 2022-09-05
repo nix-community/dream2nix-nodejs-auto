@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "uri-js",
+    "location": "",
+    "packages": {
+      "uri-js": "4.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "uri-js": {
+      "4.4.1": [
+        [ "punycode", "2.1.1" ]
+      ],
+      "unknown": [
+        [ "uri-js", "4.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "punycode": {
+      "2.1.1": {
+        "hash": "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
+      }
+    },
+    "uri-js": {
+      "4.4.1": {
+        "hash": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz"
+      }
+    }
+  }
+}

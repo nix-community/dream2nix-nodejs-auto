@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "mkdirp-promise",
+    "location": "",
+    "packages": {
+      "mkdirp-promise": "5.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mkdirp-promise": {
+      "5.0.1": [
+        [ "mkdirp", "1.0.4" ]
+      ],
+      "unknown": [
+        [ "mkdirp-promise", "5.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "mkdirp": {
+      "1.0.4": {
+        "hash": "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+      }
+    },
+    "mkdirp-promise": {
+      "5.0.1": {
+        "hash": "sha512-Hepn5kb1lJPtVW84RFT40YG1OddBNTOVUZR2bzQUHc+Z03en8/3uX0+060JDhcEzyO08HmipsN9DcnFMxhIL9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp-promise/-/mkdirp-promise-5.0.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/power-assert",
+    "location": "",
+    "packages": {
+      "@types/power-assert": "1.5.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/empower": {
+      "1.2.32": [
+        [ "@types/empower-core", "1.2.1" ],
+        [ "@types/power-assert-formatter", "1.4.30" ]
+      ]
+    },
+    "@types/power-assert": {
+      "1.5.8": [
+        [ "@types/empower", "1.2.32" ],
+        [ "@types/power-assert-formatter", "1.4.30" ]
+      ],
+      "unknown": [
+        [ "@types/power-assert", "1.5.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/empower": {
+      "1.2.32": {
+        "hash": "sha512-eOVhBTyotB+I6VXdS8gE4J9eqdRzuohpxrV1X1v4WRWhUnmlB2sBKerqAAjw4WTQdQGcUOebRSeL3X991OiFiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/empower/-/empower-1.2.32.tgz"
+      }
+    },
+    "@types/empower-core": {
+      "1.2.1": {
+        "hash": "sha512-Xil5SHiyOa/kgpw5iWwzCn1L5cL1r9eBOGeMVp7MNK21ibzewPF8UK71t5Sew3MhBYysR46jrD+sSxFw6/0BUA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/empower-core/-/empower-core-1.2.1.tgz"
+      }
+    },
+    "@types/power-assert": {
+      "1.5.8": {
+        "hash": "sha512-WL6zeV1mKirC3bngOC1Nv0psFz0BMPJaLORCHH21LrQ2ZjiY5RZnF0GWVle3cZyfgJijZpqNDF6mpkm51hRDBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/power-assert/-/power-assert-1.5.8.tgz"
+      }
+    },
+    "@types/power-assert-formatter": {
+      "1.4.30": {
+        "hash": "sha512-QpLIRAdxW9dgGanSJc18RL1J8IYYHRarrkC2fuXxtBFC37PPcfquJiVzj12j5WR3LbVyK4n2FcRBZ11JckjXyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/power-assert-formatter/-/power-assert-formatter-1.4.30.tgz"
+      }
+    }
+  }
+}

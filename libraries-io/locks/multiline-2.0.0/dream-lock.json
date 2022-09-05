@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "multiline",
+    "location": "",
+    "packages": {
+      "multiline": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "multiline": {
+      "2.0.0": [
+        [ "strip-indent", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "multiline", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "multiline": {
+      "2.0.0": {
+        "hash": "sha512-+HpXaUcV8PIGNNmuhtlaVmw4NH0W30/A5WP+rq6pxZYBjDslX/sXkFgL3Mgk1cSGGIICjWu4gNStkJXL6ZM2DQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/multiline/-/multiline-2.0.0.tgz"
+      }
+    },
+    "strip-indent": {
+      "2.0.0": {
+        "hash": "sha512-RsSNPLpq6YUL7QYy44RnPVTn/lcVZtb48Uof3X5JLbF4zD/Gs7ZFDv2HWol+leoQN2mT86LAzSshGfkTlSOpsA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-indent/-/strip-indent-2.0.0.tgz"
+      }
+    }
+  }
+}

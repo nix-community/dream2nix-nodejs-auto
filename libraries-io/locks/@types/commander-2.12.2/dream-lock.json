@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/commander",
+    "location": "",
+    "packages": {
+      "@types/commander": "2.12.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/commander": {
+      "2.12.2": [
+        [ "commander", "9.4.0" ]
+      ],
+      "unknown": [
+        [ "@types/commander", "2.12.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/commander": {
+      "2.12.2": {
+        "hash": "sha512-0QEFiR8ljcHp9bAbWxecjVRuAMr16ivPiGOw6KFQBVrVd0RQIcM3xKdRisH2EDWgVWujiYtHwhSkSUoAAGzH7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/commander/-/commander-2.12.2.tgz"
+      }
+    },
+    "commander": {
+      "9.4.0": {
+        "hash": "sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-9.4.0.tgz"
+      }
+    }
+  }
+}

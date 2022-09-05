@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "autosuggest-highlight",
+    "location": "",
+    "packages": {
+      "autosuggest-highlight": "3.3.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "autosuggest-highlight": {
+      "3.3.4": [
+        [ "remove-accents", "0.4.2" ]
+      ],
+      "unknown": [
+        [ "autosuggest-highlight", "3.3.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "autosuggest-highlight": {
+      "3.3.4": {
+        "hash": "sha512-j6RETBD2xYnrVcoV1S5R4t3WxOlWZKyDQjkwnggDPSjF5L4jV98ZltBpvPvbkM1HtoSe5o+bNrTHyjPbieGeYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/autosuggest-highlight/-/autosuggest-highlight-3.3.4.tgz"
+      }
+    },
+    "remove-accents": {
+      "0.4.2": {
+        "hash": "sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/remove-accents/-/remove-accents-0.4.2.tgz"
+      }
+    }
+  }
+}

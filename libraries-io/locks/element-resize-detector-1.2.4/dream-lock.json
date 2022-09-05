@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "element-resize-detector",
+    "location": "",
+    "packages": {
+      "element-resize-detector": "1.2.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "element-resize-detector": {
+      "1.2.4": [
+        [ "batch-processor", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "element-resize-detector", "1.2.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "batch-processor": {
+      "1.0.0": {
+        "hash": "sha512-xoLQD8gmmR32MeuBHgH0Tzd5PuSZx71ZsbhVxOCRbgktZEPe4SQy7s9Z50uPp0F/f7iw2XmkHN2xkgbMfckMDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/batch-processor/-/batch-processor-1.0.0.tgz"
+      }
+    },
+    "element-resize-detector": {
+      "1.2.4": {
+        "hash": "sha512-Fl5Ftk6WwXE0wqCgNoseKWndjzZlDCwuPTcoVZfCP9R3EHQF8qUtr3YUPNETegRBOKqQKPW3n4kiIWngGi8tKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/element-resize-detector/-/element-resize-detector-1.2.4.tgz"
+      }
+    }
+  }
+}

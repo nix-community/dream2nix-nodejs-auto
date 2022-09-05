@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/sqlite3",
+    "location": "",
+    "packages": {
+      "@types/sqlite3": "3.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/sqlite3": {
+      "3.1.8": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/sqlite3", "3.1.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/sqlite3": {
+      "3.1.8": {
+        "hash": "sha512-sQMt/qnyUWnqiTcJXm5ZfNPIBeJ/DVvJDwxw+0tAxPJvadzfiP1QhryO1JOR6t1yfb8NpzQb/Rud06mob5laIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sqlite3/-/sqlite3-3.1.8.tgz"
+      }
+    }
+  }
+}

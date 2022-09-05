@@ -3,7 +3,7 @@
     "defaultPackage": "browserify",
     "location": "",
     "packages": {
-      "browserify": "unknown"
+      "browserify": "17.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -14,17 +14,17 @@
   "cyclicDependencies": {
     "function.prototype.name": {
       "1.1.5": [
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimend": {
       "1.0.5": [
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.5": [
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     }
   },
@@ -129,8 +129,7 @@
         [ "xtend", "4.0.2" ]
       ],
       "unknown": [
-        [ "browserify", "17.0.0" ],
-        [ "null", "2.0.0" ]
+        [ "browserify", "17.0.0" ]
       ]
     },
     "browserify-aes": {
@@ -307,7 +306,7 @@
       ]
     },
     "es-abstract": {
-      "1.20.1": [
+      "1.20.2": [
         [ "call-bind", "1.0.2" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
@@ -355,7 +354,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ],
+        [ "es-abstract", "1.20.2" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -511,7 +510,7 @@
       "1.1.9": [
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
-        [ "es-abstract", "1.20.1" ],
+        [ "es-abstract", "1.20.2" ],
         [ "for-each", "0.3.3" ],
         [ "has-tostringtag", "1.0.0" ]
       ]
@@ -710,14 +709,14 @@
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.1" ]
+        [ "es-abstract", "1.20.2" ]
       ]
     },
     "string_decoder": {
@@ -798,7 +797,7 @@
       "1.1.8": [
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
-        [ "es-abstract", "1.20.1" ],
+        [ "es-abstract", "1.20.2" ],
         [ "for-each", "0.3.3" ],
         [ "has-tostringtag", "1.0.0" ],
         [ "is-typed-array", "1.1.9" ]
@@ -911,11 +910,6 @@
     },
     "browserify": {
       "17.0.0": {
-        "hash": "sha512-SaHqzhku9v/j6XsQMRxPyBrSP3gnwmE27gLJYZgMT2GeK3J0+0toN+MnuNYDfHwVGQfLiMZ7KSNSIXHemy905w==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/browserify/-/browserify-17.0.0.tgz"
-      },
-      "unknown": {
         "hash": "sha512-SaHqzhku9v/j6XsQMRxPyBrSP3gnwmE27gLJYZgMT2GeK3J0+0toN+MnuNYDfHwVGQfLiMZ7KSNSIXHemy905w==",
         "type": "http",
         "url": "https://registry.npmjs.org/browserify/-/browserify-17.0.0.tgz"
@@ -1160,10 +1154,10 @@
       }
     },
     "es-abstract": {
-      "1.20.1": {
-        "hash": "sha512-WEm2oBhfoI2sImeM4OF2zE2V3BYdSF+KnSi9Sidz51fQHd7+JuF8Xgcj9/0o+OWeIeIS/MiuNnlruQrJf16GQA==",
+      "1.20.2": {
+        "hash": "sha512-XxXQuVNrySBNlEkTYJoDNFe5+s2yIOpzq80sUHEdPdQr0S5nTLz4ZPPPswNIpKseDDUS5yghX1gfLIHQZ1iNuQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.1.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.2.tgz"
       }
     },
     "es-to-primitive": {
@@ -1568,13 +1562,6 @@
         "hash": "sha512-fg7OZaQBcL4/L+AK5f4iVqf9OMbCclXfy/znXRxTVhJSeW5AIlS9AwheYwDaXM3lVW7OBeaeUEY3gbaC6cLlSA==",
         "type": "http",
         "url": "https://registry.npmjs.org/module-deps/-/module-deps-6.2.3.tgz"
-      }
-    },
-    "null": {
-      "2.0.0": {
-        "hash": "sha512-CVSXPeB7Af0Sku7w8N8EKkgcwvQ6wGNfs6bly419A/q6dpIwzaHIk+65+La2g80ml21uxVXQo8xReTMI2WEYbA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/null/-/null-2.0.0.tgz"
       }
     },
     "object-assign": {

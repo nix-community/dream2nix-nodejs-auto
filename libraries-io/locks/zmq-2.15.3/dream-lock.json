@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "zmq",
+    "location": "",
+    "packages": {
+      "zmq": "2.15.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "zmq": {
+      "2.15.3": [
+        [ "bindings", "1.2.1" ],
+        [ "nan", "2.3.5" ]
+      ],
+      "unknown": [
+        [ "zmq", "2.15.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "bindings": {
+      "1.2.1": {
+        "hash": "sha512-u4cBQNepWxYA55FunZSM7wMi55yQaN0otnhhilNoWHq0MfOfJeQx0v0mRRpolGOExPjZcl6FtB0BB8Xkb88F0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz"
+      }
+    },
+    "nan": {
+      "2.3.5": {
+        "hash": "sha512-+1vWEe1RBUNgjZJGAXxVDyNmH3TTG8AaLj0Qw5Ye/gqwrpDWn43WNF3/HcHnRpzm+gWqW65oXYQdu6UvBC/+vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nan/-/nan-2.3.5.tgz"
+      }
+    },
+    "zmq": {
+      "2.15.3": {
+        "hash": "sha512-IKkS1Vn3kCLSxKtxG8xI85Xf2skxEXpBjvO/S9cF+7a8gSY+iQJXoG8HX6NM5JkjrK/awpD4nWDC/+6kIia7Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/zmq/-/zmq-2.15.3.tgz"
+      }
+    }
+  }
+}

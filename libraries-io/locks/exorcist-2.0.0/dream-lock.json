@@ -1,0 +1,97 @@
+{
+  "_generic": {
+    "defaultPackage": "exorcist",
+    "location": "",
+    "packages": {
+      "exorcist": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "convert-source-map": {
+      "1.8.0": [
+        [ "safe-buffer", "5.1.2" ]
+      ]
+    },
+    "exorcist": {
+      "2.0.0": [
+        [ "is-stream", "2.0.1" ],
+        [ "minimist", "1.2.6" ],
+        [ "mkdirp", "1.0.4" ],
+        [ "mold-source-map", "0.4.0" ]
+      ],
+      "unknown": [
+        [ "exorcist", "2.0.0" ]
+      ]
+    },
+    "mold-source-map": {
+      "0.4.0": [
+        [ "convert-source-map", "1.8.0" ],
+        [ "through", "2.2.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "convert-source-map": {
+      "1.8.0": {
+        "hash": "sha512-+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.8.0.tgz"
+      }
+    },
+    "exorcist": {
+      "2.0.0": {
+        "hash": "sha512-+c63SvhBq/HjmbV9cu9vkDkjXFiuI4lpqOZU5Y3t5GSV2l4TQCqVli9c7nIASHxkUL4THaOZDUcb6XNBI/eYjw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/exorcist/-/exorcist-2.0.0.tgz"
+      }
+    },
+    "is-stream": {
+      "2.0.1": {
+        "hash": "sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    },
+    "mkdirp": {
+      "1.0.4": {
+        "hash": "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+      }
+    },
+    "mold-source-map": {
+      "0.4.0": {
+        "hash": "sha512-Y0uA/sDKVuPgLd7BmaJOai+fqzjrOlR6vZgx5cJIvturI/xOPQPgbf3X7ZbzJd6MvqQ6ucIfK8dSteFyc2Mw2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mold-source-map/-/mold-source-map-0.4.0.tgz"
+      }
+    },
+    "safe-buffer": {
+      "5.1.2": {
+        "hash": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
+      }
+    },
+    "through": {
+      "2.2.7": {
+        "hash": "sha512-JIR0m0ybkmTcR8URann+HbwKmodP+OE8UCbsifQDYMLD5J3em1Cdn3MYPpbEd5elGDwmP98T+WbqP/tvzA5Mjg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/through/-/through-2.2.7.tgz"
+      }
+    }
+  }
+}

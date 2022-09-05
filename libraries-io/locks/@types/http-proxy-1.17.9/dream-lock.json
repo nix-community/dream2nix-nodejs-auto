@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/http-proxy",
+    "location": "",
+    "packages": {
+      "@types/http-proxy": "1.17.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/http-proxy": {
+      "1.17.9": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/http-proxy", "1.17.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/http-proxy": {
+      "1.17.9": {
+        "hash": "sha512-QsbSjA/fSk7xB+UXlCT3wHBy5ai9wOcNDWwZAtud+jXhwOM3l+EYZh8Lng4+/6n8uar0J7xILzqftJdJ/Wdfkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.9.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

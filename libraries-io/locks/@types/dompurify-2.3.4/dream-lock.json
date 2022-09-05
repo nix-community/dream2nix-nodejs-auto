@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/dompurify",
+    "location": "",
+    "packages": {
+      "@types/dompurify": "2.3.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/dompurify": {
+      "2.3.4": [
+        [ "@types/trusted-types", "2.0.2" ]
+      ],
+      "unknown": [
+        [ "@types/dompurify", "2.3.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/dompurify": {
+      "2.3.4": {
+        "hash": "sha512-EXzDatIb5EspL2eb/xPGmaC8pePcTHrkDCONjeisusLFrVfl38Pjea/R0YJGu3k9ZQadSvMqW0WXPI2hEo2Ajg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/dompurify/-/dompurify-2.3.4.tgz"
+      }
+    },
+    "@types/trusted-types": {
+      "2.0.2": {
+        "hash": "sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.2.tgz"
+      }
+    }
+  }
+}

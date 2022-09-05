@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/mkdirp",
+    "location": "",
+    "packages": {
+      "@types/mkdirp": "1.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/mkdirp": {
+      "1.0.2": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/mkdirp", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/mkdirp": {
+      "1.0.2": {
+        "hash": "sha512-o0K1tSO0Dx5X6xlU5F1D6625FawhC3dU3iqr25lluNv/+/QIVH8RLNEiVokgIZo+mz+87w/3Mkg/VvQS+J51fQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/mkdirp/-/mkdirp-1.0.2.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

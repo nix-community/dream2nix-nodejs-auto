@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "less-vars-to-js",
+    "location": "",
+    "packages": {
+      "less-vars-to-js": "1.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "less-vars-to-js": {
+      "1.3.0": [
+        [ "strip-json-comments", "2.0.1" ]
+      ],
+      "unknown": [
+        [ "less-vars-to-js", "1.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "less-vars-to-js": {
+      "1.3.0": {
+        "hash": "sha512-xeiLLn/IMCGtdyCkYQnW8UuzoW2oYMCKg9boZRaGI58fLz5r90bNJDlqGzmVt/1Uqk75/DxIVtQSNCMkE5fRZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/less-vars-to-js/-/less-vars-to-js-1.3.0.tgz"
+      }
+    },
+    "strip-json-comments": {
+      "2.0.1": {
+        "hash": "sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz"
+      }
+    }
+  }
+}

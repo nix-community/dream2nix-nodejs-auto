@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "cryptiles",
+    "location": "",
+    "packages": {
+      "cryptiles": "3.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "boom": {
+      "5.2.0": [
+        [ "hoek", "4.2.1" ]
+      ]
+    },
+    "cryptiles": {
+      "3.1.4": [
+        [ "boom", "5.2.0" ]
+      ],
+      "unknown": [
+        [ "cryptiles", "3.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "boom": {
+      "5.2.0": {
+        "hash": "sha512-Z5BTk6ZRe4tXXQlkqftmsAUANpXmuwlsF5Oov8ThoMbQRzdGTA1ngYRW160GexgOgjsFOKJz0LYhoNi+2AMBUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/boom/-/boom-5.2.0.tgz"
+      }
+    },
+    "cryptiles": {
+      "3.1.4": {
+        "hash": "sha512-8I1sgZHfVwcSOY6mSGpVU3lw/GSIZvusg8dD2+OGehCJpOhQRLNcH0qb9upQnOH4XhgxxFJSg6E2kx95deb1Tw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cryptiles/-/cryptiles-3.1.4.tgz"
+      }
+    },
+    "hoek": {
+      "4.2.1": {
+        "hash": "sha512-QLg82fGkfnJ/4iy1xZ81/9SIJiq1NGFUMGs6ParyjBZr6jW2Ufj/snDqTHixNlHdPNwN2RLVD0Pi3igeK9+JfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hoek/-/hoek-4.2.1.tgz"
+      }
+    }
+  }
+}

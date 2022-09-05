@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "p-retry",
+    "location": "",
+    "packages": {
+      "p-retry": "4.6.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "p-retry": {
+      "4.6.2": [
+        [ "@types/retry", "0.12.0" ],
+        [ "retry", "0.13.1" ]
+      ],
+      "unknown": [
+        [ "p-retry", "4.6.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/retry": {
+      "0.12.0": {
+        "hash": "sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/retry/-/retry-0.12.0.tgz"
+      }
+    },
+    "p-retry": {
+      "4.6.2": {
+        "hash": "sha512-312Id396EbJdvRONlngUx0NydfrIQ5lsYu0znKVUzVvArzEIt08V1qhtyESbGVd1FGX7UKtiFp5uwKZdM8wIuQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-retry/-/p-retry-4.6.2.tgz"
+      }
+    },
+    "retry": {
+      "0.13.1": {
+        "hash": "sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/retry/-/retry-0.13.1.tgz"
+      }
+    }
+  }
+}

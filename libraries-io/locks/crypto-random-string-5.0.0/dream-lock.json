@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "crypto-random-string",
+    "location": "",
+    "packages": {
+      "crypto-random-string": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "crypto-random-string": {
+      "5.0.0": [
+        [ "type-fest", "2.19.0" ]
+      ],
+      "unknown": [
+        [ "crypto-random-string", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "crypto-random-string": {
+      "5.0.0": {
+        "hash": "sha512-KWjTXWwxFd6a94m5CdRGW/t82Tr8DoBc9dNnPCAbFI1EBweN6v1tv8y4Y1m7ndkp/nkIBRxUxAzpaBnR2k3bcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/crypto-random-string/-/crypto-random-string-5.0.0.tgz"
+      }
+    },
+    "type-fest": {
+      "2.19.0": {
+        "hash": "sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
+      }
+    }
+  }
+}

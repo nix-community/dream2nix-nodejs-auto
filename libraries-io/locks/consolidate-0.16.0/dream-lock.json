@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "consolidate",
+    "location": "",
+    "packages": {
+      "consolidate": "0.16.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "consolidate": {
+      "0.16.0": [
+        [ "bluebird", "3.7.2" ]
+      ],
+      "unknown": [
+        [ "consolidate", "0.16.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "bluebird": {
+      "3.7.2": {
+        "hash": "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+      }
+    },
+    "consolidate": {
+      "0.16.0": {
+        "hash": "sha512-Nhl1wzCslqXYTJVDyJCu3ODohy9OfBMB5uD2BiBTzd7w+QY0lBzafkR8y8755yMYHAaMD4NuzbAw03/xzfw+eQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/consolidate/-/consolidate-0.16.0.tgz"
+      }
+    }
+  }
+}

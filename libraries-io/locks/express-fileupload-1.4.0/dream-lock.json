@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "express-fileupload",
+    "location": "",
+    "packages": {
+      "express-fileupload": "1.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "busboy": {
+      "1.6.0": [
+        [ "streamsearch", "1.1.0" ]
+      ]
+    },
+    "express-fileupload": {
+      "1.4.0": [
+        [ "busboy", "1.6.0" ]
+      ],
+      "unknown": [
+        [ "express-fileupload", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "busboy": {
+      "1.6.0": {
+        "hash": "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz"
+      }
+    },
+    "express-fileupload": {
+      "1.4.0": {
+        "hash": "sha512-RjzLCHxkv3umDeZKeFeMg8w7qe0V09w3B7oGZprr/oO2H/ISCgNzuqzn7gV3HRWb37GjRk429CCpSLS2KNTqMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/express-fileupload/-/express-fileupload-1.4.0.tgz"
+      }
+    },
+    "streamsearch": {
+      "1.1.0": {
+        "hash": "sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz"
+      }
+    }
+  }
+}

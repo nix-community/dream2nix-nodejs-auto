@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "mem",
+    "location": "",
+    "packages": {
+      "mem": "9.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "map-age-cleaner": {
+      "0.1.3": [
+        [ "p-defer", "1.0.0" ]
+      ]
+    },
+    "mem": {
+      "9.0.2": [
+        [ "map-age-cleaner", "0.1.3" ],
+        [ "mimic-fn", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "mem", "9.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "map-age-cleaner": {
+      "0.1.3": {
+        "hash": "sha512-bJzx6nMoP6PDLPBFmg7+xRKeFZvFboMrGlxmNj9ClvX53KrmvM5bXFXEWjbz4cz1AFn+jWJ9z/DJSz7hrs0w3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/map-age-cleaner/-/map-age-cleaner-0.1.3.tgz"
+      }
+    },
+    "mem": {
+      "9.0.2": {
+        "hash": "sha512-F2t4YIv9XQUBHt6AOJ0y7lSmP1+cY7Fm1DRh9GClTGzKST7UWLMx6ly9WZdLH/G/ppM5RL4MlQfRT71ri9t19A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mem/-/mem-9.0.2.tgz"
+      }
+    },
+    "mimic-fn": {
+      "4.0.0": {
+        "hash": "sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-4.0.0.tgz"
+      }
+    },
+    "p-defer": {
+      "1.0.0": {
+        "hash": "sha512-wB3wfAxZpk2AzOfUMJNL+d36xothRSyj8EXOa4f6GMqYDN9BJaaSISbsk+wS9abmnebVw95C2Kb5t85UmpCxuw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-defer/-/p-defer-1.0.0.tgz"
+      }
+    }
+  }
+}

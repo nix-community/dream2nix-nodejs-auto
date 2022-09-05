@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "unist-util-visit",
+    "location": "",
+    "packages": {
+      "unist-util-visit": "4.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unist-util-visit": {
+      "4.1.1": [
+        [ "@types/unist", "2.0.6" ],
+        [ "unist-util-is", "5.1.1" ],
+        [ "unist-util-visit-parents", "5.1.1" ]
+      ],
+      "unknown": [
+        [ "unist-util-visit", "4.1.1" ]
+      ]
+    },
+    "unist-util-visit-parents": {
+      "5.1.1": [
+        [ "@types/unist", "2.0.6" ],
+        [ "unist-util-is", "5.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/unist": {
+      "2.0.6": {
+        "hash": "sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"
+      }
+    },
+    "unist-util-is": {
+      "5.1.1": {
+        "hash": "sha512-F5CZ68eYzuSvJjGhCLPL3cYx45IxkqXSetCcRgUXtbcm50X2L9oOWQlfUfDdAf+6Pd27YDblBfdtmsThXmwpbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-is/-/unist-util-is-5.1.1.tgz"
+      }
+    },
+    "unist-util-visit": {
+      "4.1.1": {
+        "hash": "sha512-n9KN3WV9k4h1DxYR1LoajgN93wpEi/7ZplVe02IoB4gH5ctI1AaF2670BLHQYbwj+pY83gFtyeySFiyMHJklrg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-4.1.1.tgz"
+      }
+    },
+    "unist-util-visit-parents": {
+      "5.1.1": {
+        "hash": "sha512-gks4baapT/kNRaWxuGkl5BIhoanZo7sC/cUT/JToSRNL1dYoXRFl75d++NkjYk4TAu2uv2Px+l8guMajogeuiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-5.1.1.tgz"
+      }
+    }
+  }
+}

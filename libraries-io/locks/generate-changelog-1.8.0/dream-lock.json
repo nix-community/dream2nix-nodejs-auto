@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "generate-changelog",
+    "location": "",
+    "packages": {
+      "generate-changelog": "1.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "generate-changelog": {
+      "1.8.0": [
+        [ "bluebird", "3.7.2" ],
+        [ "commander", "2.20.3" ],
+        [ "github-url-from-git", "1.5.0" ]
+      ],
+      "unknown": [
+        [ "generate-changelog", "1.8.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "bluebird": {
+      "3.7.2": {
+        "hash": "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+      }
+    },
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "generate-changelog": {
+      "1.8.0": {
+        "hash": "sha512-msgpxeB75Ziyg3wGsZuPNl7c5RxChMKmYcAX5obnhUow90dBZW3nLic6nxGtst7Bpx453oS6zAIHcX7F3QVasw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/generate-changelog/-/generate-changelog-1.8.0.tgz"
+      }
+    },
+    "github-url-from-git": {
+      "1.5.0": {
+        "hash": "sha512-WWOec4aRI7YAykQ9+BHmzjyNlkfJFG8QLXnDTsLz/kZefq7qkzdfo4p6fkYYMIq1aj+gZcQs/1HQhQh3DPPxlQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/github-url-from-git/-/github-url-from-git-1.5.0.tgz"
+      }
+    }
+  }
+}

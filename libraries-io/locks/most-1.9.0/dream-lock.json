@@ -1,0 +1,147 @@
+{
+  "_generic": {
+    "defaultPackage": "most",
+    "location": "",
+    "packages": {
+      "most": "1.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@most/multicast": {
+      "1.3.0": [
+        [ "@most/prelude", "1.8.0" ]
+      ]
+    },
+    "define-properties": {
+      "1.1.4": [
+        [ "has-property-descriptors", "1.0.0" ],
+        [ "object-keys", "1.1.1" ]
+      ]
+    },
+    "get-intrinsic": {
+      "1.1.2": [
+        [ "function-bind", "1.1.1" ],
+        [ "has", "1.0.3" ],
+        [ "has-symbols", "1.0.3" ]
+      ]
+    },
+    "globalthis": {
+      "1.0.3": [
+        [ "define-properties", "1.1.4" ]
+      ]
+    },
+    "has": {
+      "1.0.3": [
+        [ "function-bind", "1.1.1" ]
+      ]
+    },
+    "has-property-descriptors": {
+      "1.0.0": [
+        [ "get-intrinsic", "1.1.2" ]
+      ]
+    },
+    "most": {
+      "1.9.0": [
+        [ "@most/multicast", "1.3.0" ],
+        [ "@most/prelude", "1.8.0" ],
+        [ "globalthis", "1.0.3" ],
+        [ "symbol-observable", "2.0.3" ]
+      ],
+      "unknown": [
+        [ "most", "1.9.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@most/multicast": {
+      "1.3.0": {
+        "hash": "sha512-DWH8AShgp5bXn+auGzf5tzPxvpmEvQJd0CNsApOci1LDF4eAEcnw4HQOr2Jaa+L92NbDYFKBSXxll+i7r1ikvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@most/multicast/-/multicast-1.3.0.tgz"
+      }
+    },
+    "@most/prelude": {
+      "1.8.0": {
+        "hash": "sha512-t1CcURpZzfmBA6fEWwqmCqeNzWAj1w2WqEmCk/2yXMe/p8Ut000wFmVKMy8A1Rl9VVxZEZ5nBHd/pU0dR4bv/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@most/prelude/-/prelude-1.8.0.tgz"
+      }
+    },
+    "define-properties": {
+      "1.1.4": {
+        "hash": "sha512-uckOqKcfaVvtBdsVkdPv3XjveQJsNQqmhXgRi8uhvWWuPYZCNlzT8qAyblUgNoXdHdjMTzAqeGjAoli8f+bzPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/define-properties/-/define-properties-1.1.4.tgz"
+      }
+    },
+    "function-bind": {
+      "1.1.1": {
+        "hash": "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
+      }
+    },
+    "get-intrinsic": {
+      "1.1.2": {
+        "hash": "sha512-Jfm3OyCxHh9DJyc28qGk+JmfkpO41A4XkneDSujN9MDXrm4oDKdHvndhZ2dN94+ERNfkYJWDclW6k2L/ZGHjXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.2.tgz"
+      }
+    },
+    "globalthis": {
+      "1.0.3": {
+        "hash": "sha512-sFdI5LyBiNTHjRd7cGPWapiHWMOXKyuBNX/cWJ3NfzrZQVa8GI/8cofCl74AOVqq9W5kNmguTIzJ/1s2gyI9wA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/globalthis/-/globalthis-1.0.3.tgz"
+      }
+    },
+    "has": {
+      "1.0.3": {
+        "hash": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has/-/has-1.0.3.tgz"
+      }
+    },
+    "has-property-descriptors": {
+      "1.0.0": {
+        "hash": "sha512-62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz"
+      }
+    },
+    "has-symbols": {
+      "1.0.3": {
+        "hash": "sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz"
+      }
+    },
+    "most": {
+      "1.9.0": {
+        "hash": "sha512-M7yHMcMGaclzEL6eg8Yh8PlAsaWfL/oSThF4+ZuWKM5CKXcbzmLh+qESwgZFzMKHJ+iVJwb28yFvDEOobI653w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/most/-/most-1.9.0.tgz"
+      }
+    },
+    "object-keys": {
+      "1.1.1": {
+        "hash": "sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz"
+      }
+    },
+    "symbol-observable": {
+      "2.0.3": {
+        "hash": "sha512-sQV7phh2WCYAn81oAkakC5qjq2Ml0g8ozqz03wOGnx9dDlG1de6yrF+0RAzSJD8fPUow3PTSMf2SAbOGxb93BA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-2.0.3.tgz"
+      }
+    }
+  }
+}

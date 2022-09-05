@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "chrono-node",
+    "location": "",
+    "packages": {
+      "chrono-node": "2.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "chrono-node": {
+      "2.4.1": [
+        [ "dayjs", "1.11.5" ]
+      ],
+      "unknown": [
+        [ "chrono-node", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "chrono-node": {
+      "2.4.1": {
+        "hash": "sha512-23lqpMF2i0lr6dAVpVyYmvVGgX/EtkHBEIgFUd6LQiP7CHLzYeROYvl5X59ZBK73KAV+FGPo4rQv0Fym8CIktw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/chrono-node/-/chrono-node-2.4.1.tgz"
+      }
+    },
+    "dayjs": {
+      "1.11.5": {
+        "hash": "sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.5.tgz"
+      }
+    }
+  }
+}

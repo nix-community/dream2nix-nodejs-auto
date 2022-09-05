@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "bytebuffer",
+    "location": "",
+    "packages": {
+      "bytebuffer": "5.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bytebuffer": {
+      "5.0.1": [
+        [ "long", "3.2.0" ]
+      ],
+      "unknown": [
+        [ "bytebuffer", "5.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "bytebuffer": {
+      "5.0.1": {
+        "hash": "sha512-IuzSdmADppkZ6DlpycMkm8l9zeEq16fWtLvunEwFiYciR/BHo4E8/xs5piFquG+Za8OWmMqHF8zuRviz2LHvRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bytebuffer/-/bytebuffer-5.0.1.tgz"
+      }
+    },
+    "long": {
+      "3.2.0": {
+        "hash": "sha512-ZYvPPOMqUwPoDsbJaR10iQJYnMuZhRTvHYl62ErLIEX7RgFlziSBUUvrt3OVfc47QlHHpzPZYP17g3Fv7oeJkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/long/-/long-3.2.0.tgz"
+      }
+    }
+  }
+}

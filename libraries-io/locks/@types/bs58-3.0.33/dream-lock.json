@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/bs58",
+    "location": "",
+    "packages": {
+      "@types/bs58": "3.0.33"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/bs58": {
+      "3.0.33": [
+        [ "@types/base-x", "1.0.30" ]
+      ],
+      "unknown": [
+        [ "@types/bs58", "3.0.33" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/base-x": {
+      "1.0.30": {
+        "hash": "sha512-P++3AZsto5971TC6Cfuvzy57O3qhvhDrFNDgZeTg9UHq5gUyaQ9K1xXTgMXo/4oETVMa6aeDu+XcvkOTJa9zzA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/base-x/-/base-x-1.0.30.tgz"
+      }
+    },
+    "@types/bs58": {
+      "3.0.33": {
+        "hash": "sha512-emGSyQiTgyoCdo/u2ZCBqjF7YNarLftu9CW6oeoTLy3RwDdKthHqMt7E1+BHeDybbNmxSaUagqHz+Dsvpym/MQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bs58/-/bs58-3.0.33.tgz"
+      }
+    }
+  }
+}

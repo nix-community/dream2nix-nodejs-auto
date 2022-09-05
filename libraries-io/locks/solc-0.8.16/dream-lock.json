@@ -1,0 +1,101 @@
+{
+  "_generic": {
+    "defaultPackage": "solc",
+    "location": "",
+    "packages": {
+      "solc": "0.8.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "solc": {
+      "0.8.16": [
+        [ "command-exists", "1.2.9" ],
+        [ "commander", "8.3.0" ],
+        [ "follow-redirects", "1.15.1" ],
+        [ "js-sha3", "0.8.0" ],
+        [ "memorystream", "0.3.1" ],
+        [ "semver", "5.7.1" ],
+        [ "tmp", "0.0.33" ]
+      ],
+      "unknown": [
+        [ "solc", "0.8.16" ]
+      ]
+    },
+    "tmp": {
+      "0.0.33": [
+        [ "os-tmpdir", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "command-exists": {
+      "1.2.9": {
+        "hash": "sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz"
+      }
+    },
+    "commander": {
+      "8.3.0": {
+        "hash": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
+      }
+    },
+    "follow-redirects": {
+      "1.15.1": {
+        "hash": "sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.1.tgz"
+      }
+    },
+    "js-sha3": {
+      "0.8.0": {
+        "hash": "sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz"
+      }
+    },
+    "memorystream": {
+      "0.3.1": {
+        "hash": "sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/memorystream/-/memorystream-0.3.1.tgz"
+      }
+    },
+    "os-tmpdir": {
+      "1.0.2": {
+        "hash": "sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+      }
+    },
+    "semver": {
+      "5.7.1": {
+        "hash": "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
+      }
+    },
+    "solc": {
+      "0.8.16": {
+        "hash": "sha512-6oZg7FAhIouj2zYLvoR3Q4fMP/+BGPR7sY7GcrEXKIp+DRd8RmpDEFO1LUBKpClUiaYguNgmthTFmnPl4MeiMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/solc/-/solc-0.8.16.tgz"
+      }
+    },
+    "tmp": {
+      "0.0.33": {
+        "hash": "sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz"
+      }
+    }
+  }
+}

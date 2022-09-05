@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "globalize",
+    "location": "",
+    "packages": {
+      "globalize": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "globalize": {
+      "1.7.0": [
+        [ "cldrjs", "0.5.5" ]
+      ],
+      "unknown": [
+        [ "globalize", "1.7.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cldrjs": {
+      "0.5.5": {
+        "hash": "sha512-KDwzwbmLIPfCgd8JERVDpQKrUUM1U4KpFJJg2IROv89rF172lLufoJnqJ/Wea6fXL5bO6WjuLMzY8V52UWPvkA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cldrjs/-/cldrjs-0.5.5.tgz"
+      }
+    },
+    "globalize": {
+      "1.7.0": {
+        "hash": "sha512-faR46vTIbFCeAemyuc9E6/d7Wrx9k2ae2L60UhakztFg6VuE42gENVJNuPFtt7Sdjrk9m2w8+py7Jj+JTNy59w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/globalize/-/globalize-1.7.0.tgz"
+      }
+    }
+  }
+}

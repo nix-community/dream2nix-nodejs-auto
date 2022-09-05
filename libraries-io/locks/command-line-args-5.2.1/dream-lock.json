@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "command-line-args",
+    "location": "",
+    "packages": {
+      "command-line-args": "5.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "command-line-args": {
+      "5.2.1": [
+        [ "array-back", "3.1.0" ],
+        [ "find-replace", "3.0.0" ],
+        [ "lodash.camelcase", "4.3.0" ],
+        [ "typical", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "command-line-args", "5.2.1" ]
+      ]
+    },
+    "find-replace": {
+      "3.0.0": [
+        [ "array-back", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "array-back": {
+      "3.1.0": {
+        "hash": "sha512-TkuxA4UCOvxuDK6NZYXCalszEzj+TLszyASooky+i742l9TqsOdYCMJJupxRic61hwquNtppB3hgcuq9SVSH1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-back/-/array-back-3.1.0.tgz"
+      }
+    },
+    "command-line-args": {
+      "5.2.1": {
+        "hash": "sha512-H4UfQhZyakIjC74I9d34fGYDwk3XpSr17QhEd0Q3I9Xq1CETHo4Hcuo87WyWHpAF1aSLjLRf5lD9ZGX2qStUvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/command-line-args/-/command-line-args-5.2.1.tgz"
+      }
+    },
+    "find-replace": {
+      "3.0.0": {
+        "hash": "sha512-6Tb2myMioCAgv5kfvP5/PkZZ/ntTpVK39fHY7WkWBgvbeE+VHd/tZuZ4mrC+bxh4cfOZeYKVPaJIZtZXV7GNCQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/find-replace/-/find-replace-3.0.0.tgz"
+      }
+    },
+    "lodash.camelcase": {
+      "4.3.0": {
+        "hash": "sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz"
+      }
+    },
+    "typical": {
+      "4.0.0": {
+        "hash": "sha512-VAH4IvQ7BDFYglMd7BPRDfLgxZZX4O4TFcRDA6EN5X7erNJJq+McIEp8np9aVtxrCJ6qx4GTYVfOWNjcqwZgRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typical/-/typical-4.0.0.tgz"
+      }
+    }
+  }
+}

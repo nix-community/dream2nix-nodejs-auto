@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "css-tree",
+    "location": "",
+    "packages": {
+      "css-tree": "2.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "css-tree": {
+      "2.2.1": [
+        [ "mdn-data", "2.0.28" ],
+        [ "source-map-js", "1.0.2" ]
+      ],
+      "unknown": [
+        [ "css-tree", "2.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "css-tree": {
+      "2.2.1": {
+        "hash": "sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-tree/-/css-tree-2.2.1.tgz"
+      }
+    },
+    "mdn-data": {
+      "2.0.28": {
+        "hash": "sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.28.tgz"
+      }
+    },
+    "source-map-js": {
+      "1.0.2": {
+        "hash": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+      }
+    }
+  }
+}

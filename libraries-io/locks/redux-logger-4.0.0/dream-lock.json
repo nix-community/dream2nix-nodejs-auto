@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "redux-logger",
+    "location": "",
+    "packages": {
+      "redux-logger": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "redux-logger": {
+      "4.0.0": [
+        [ "deep-diff", "0.3.8" ]
+      ],
+      "unknown": [
+        [ "redux-logger", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "deep-diff": {
+      "0.3.8": {
+        "hash": "sha512-yVn6RZmHiGnxRKR9sJb3iVV2XTF1Ghh2DiWRZ3dMnGc43yUdWWF/kX6lQyk3+P84iprfWKU/8zFTrlkvtFm1ug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deep-diff/-/deep-diff-0.3.8.tgz"
+      }
+    },
+    "redux-logger": {
+      "4.0.0": {
+        "hash": "sha512-dl+5mQjk70HIlrgOgPMAL0d0hOhBTPQcG5zPPlPZKa/Yf4lU6A37mv3Xqn3lFp0eUguSApIa2GD/YJVOIQQi5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redux-logger/-/redux-logger-4.0.0.tgz"
+      }
+    }
+  }
+}

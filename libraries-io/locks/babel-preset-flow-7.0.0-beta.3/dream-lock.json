@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-preset-flow",
+    "location": "",
+    "packages": {
+      "babel-preset-flow": "7.0.0-beta.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-plugin-transform-flow-strip-types": {
+      "7.0.0-beta.3": [
+        [ "babel-plugin-syntax-flow", "7.0.0-beta.3" ]
+      ]
+    },
+    "babel-preset-flow": {
+      "7.0.0-beta.3": [
+        [ "babel-plugin-transform-flow-strip-types", "7.0.0-beta.3" ]
+      ],
+      "unknown": [
+        [ "babel-preset-flow", "7.0.0-beta.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-plugin-syntax-flow": {
+      "7.0.0-beta.3": {
+        "hash": "sha512-ICjURxIiOU54kzbdZJnmFlGN6HnZ6HFUzU/6wrrgfhnleIwwSfYUDs5c9ubg8ib5yFLiR3u2PkPXnntUT1Aadg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-7.0.0-beta.3.tgz"
+      }
+    },
+    "babel-plugin-transform-flow-strip-types": {
+      "7.0.0-beta.3": {
+        "hash": "sha512-3pefz3Z4ce8RvwMAwJX4QVWzkCfIcJMW/WUtB6QEkRMnsYnAxZyQkUzWEVULGHly0MQoBRdB3m+cRrD9Zi0xoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-7.0.0-beta.3.tgz"
+      }
+    },
+    "babel-preset-flow": {
+      "7.0.0-beta.3": {
+        "hash": "sha512-Dv59OC+oR/XICgHenCeMpRUKZIWPgTYJAZSz6h9+DChk6Tm2Z3LdJLD69vHYn3EL5WR2mFfpiOrskLkBbwufLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-preset-flow/-/babel-preset-flow-7.0.0-beta.3.tgz"
+      }
+    }
+  }
+}

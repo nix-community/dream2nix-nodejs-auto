@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/express-serve-static-core",
+    "location": "",
+    "packages": {
+      "@types/express-serve-static-core": "4.17.30"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/express-serve-static-core": {
+      "4.17.30": [
+        [ "@types/node", "18.7.15" ],
+        [ "@types/qs", "6.9.7" ],
+        [ "@types/range-parser", "1.2.4" ]
+      ],
+      "unknown": [
+        [ "@types/express-serve-static-core", "4.17.30" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/express-serve-static-core": {
+      "4.17.30": {
+        "hash": "sha512-gstzbTWro2/nFed1WXtf+TtrpwxH7Ggs4RLYTLbeVgIkUQOI3WG/JKjgeOU1zXDvezllupjrf8OPIdvTbIaVOQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.30.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/qs": {
+      "6.9.7": {
+        "hash": "sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/qs/-/qs-6.9.7.tgz"
+      }
+    },
+    "@types/range-parser": {
+      "1.2.4": {
+        "hash": "sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz"
+      }
+    }
+  }
+}

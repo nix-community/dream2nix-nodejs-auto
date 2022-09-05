@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "whatwg-url",
+    "location": "",
+    "packages": {
+      "whatwg-url": "11.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tr46": {
+      "3.0.0": [
+        [ "punycode", "2.1.1" ]
+      ]
+    },
+    "whatwg-url": {
+      "11.0.0": [
+        [ "tr46", "3.0.0" ],
+        [ "webidl-conversions", "7.0.0" ]
+      ],
+      "unknown": [
+        [ "whatwg-url", "11.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "punycode": {
+      "2.1.1": {
+        "hash": "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
+      }
+    },
+    "tr46": {
+      "3.0.0": {
+        "hash": "sha512-l7FvfAHlcmulp8kr+flpQZmVwtu7nfRV7NZujtN0OqES8EL4O4e0qqzL0DC5gAvx/ZC/9lk6rhcUwYvkBnBnYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tr46/-/tr46-3.0.0.tgz"
+      }
+    },
+    "webidl-conversions": {
+      "7.0.0": {
+        "hash": "sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
+      }
+    },
+    "whatwg-url": {
+      "11.0.0": {
+        "hash": "sha512-RKT8HExMpoYx4igMiVMY83lN6UeITKJlBQ+vR/8ZJ8OCdSiN3RwCq+9gH0+Xzj0+5IrM6i4j/6LuvzbZIQgEcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-11.0.0.tgz"
+      }
+    }
+  }
+}

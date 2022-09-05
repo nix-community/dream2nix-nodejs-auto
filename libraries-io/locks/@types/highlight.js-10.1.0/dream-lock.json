@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/highlight.js",
+    "location": "",
+    "packages": {
+      "@types/highlight.js": "10.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/highlight.js": {
+      "10.1.0": [
+        [ "highlight.js", "11.6.0" ]
+      ],
+      "unknown": [
+        [ "@types/highlight.js", "10.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/highlight.js": {
+      "10.1.0": {
+        "hash": "sha512-77hF2dGBsOgnvZll1vymYiNUtqJ8cJfXPD6GG/2M0aLRc29PkvB7Au6sIDjIEFcSICBhCh2+Pyq6WSRS7LUm6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/highlight.js/-/highlight.js-10.1.0.tgz"
+      }
+    },
+    "highlight.js": {
+      "11.6.0": {
+        "hash": "sha512-ig1eqDzJaB0pqEvlPVIpSSyMaO92bH1N2rJpLMN/nX396wTpDA4Eq0uK+7I/2XG17pFaaKE0kjV/XPeGt7Evjw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/highlight.js/-/highlight.js-11.6.0.tgz"
+      }
+    }
+  }
+}

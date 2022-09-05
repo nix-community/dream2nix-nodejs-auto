@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/stream-collector-browser",
+    "location": "",
+    "packages": {
+      "@aws-sdk/stream-collector-browser": "1.0.0-beta.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/stream-collector-browser": {
+      "1.0.0-beta.4": [
+        [ "@aws-sdk/types", "1.0.0-beta.4" ],
+        [ "tslib", "1.14.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/stream-collector-browser", "1.0.0-beta.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/stream-collector-browser": {
+      "1.0.0-beta.4": {
+        "hash": "sha512-A1BSuQBxKZfDKcbKN1dlp4AAvbBaLJb3/DD4wHK+/2sQxO30xrENZo8T3gebEdhidb3nxgPs887qFbNwvzTZ0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/stream-collector-browser/-/stream-collector-browser-1.0.0-beta.4.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "1.0.0-beta.4": {
+        "hash": "sha512-32ZVLz5r7XUEZdvL1zonL8idVozxKQifgqiNf5BNFrHo7Fx26rm18c3Hx2jDFN9xh71iNlVpP6EUDPkSDZlq3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-1.0.0-beta.4.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    }
+  }
+}

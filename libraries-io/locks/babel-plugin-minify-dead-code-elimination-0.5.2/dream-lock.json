@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-plugin-minify-dead-code-elimination",
+    "location": "",
+    "packages": {
+      "babel-plugin-minify-dead-code-elimination": "0.5.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-plugin-minify-dead-code-elimination": {
+      "0.5.2": [
+        [ "babel-helper-evaluate-path", "0.5.0" ],
+        [ "babel-helper-mark-eval-scopes", "0.4.3" ],
+        [ "babel-helper-remove-or-void", "0.4.3" ],
+        [ "lodash", "4.17.21" ]
+      ],
+      "unknown": [
+        [ "babel-plugin-minify-dead-code-elimination", "0.5.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-helper-evaluate-path": {
+      "0.5.0": {
+        "hash": "sha512-mUh0UhS607bGh5wUMAQfOpt2JX2ThXMtppHRdRU1kL7ZLRWIXxoV2UIV1r2cAeeNeU1M5SB5/RSUgUxrK8yOkA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-evaluate-path/-/babel-helper-evaluate-path-0.5.0.tgz"
+      }
+    },
+    "babel-helper-mark-eval-scopes": {
+      "0.4.3": {
+        "hash": "sha512-+d/mXPP33bhgHkdVOiPkmYoeXJ+rXRWi7OdhwpyseIqOS8CmzHQXHUp/+/Qr8baXsT0kjGpMHHofHs6C3cskdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-mark-eval-scopes/-/babel-helper-mark-eval-scopes-0.4.3.tgz"
+      }
+    },
+    "babel-helper-remove-or-void": {
+      "0.4.3": {
+        "hash": "sha512-eYNceYtcGKpifHDir62gHJadVXdg9fAhuZEXiRQnJJ4Yi4oUTpqpNY//1pM4nVyjjDMPYaC2xSf0I+9IqVzwdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-remove-or-void/-/babel-helper-remove-or-void-0.4.3.tgz"
+      }
+    },
+    "babel-plugin-minify-dead-code-elimination": {
+      "0.5.2": {
+        "hash": "sha512-krq9Lwi0QIzyAlcNBXTL4usqUvevB4BzktdEsb8srcXC1AaYqRJiAQw6vdKdJSaXbz6snBvziGr6ch/aoRCfpA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-minify-dead-code-elimination/-/babel-plugin-minify-dead-code-elimination-0.5.2.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    }
+  }
+}

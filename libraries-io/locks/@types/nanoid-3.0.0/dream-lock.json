@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/nanoid",
+    "location": "",
+    "packages": {
+      "@types/nanoid": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/nanoid": {
+      "3.0.0": [
+        [ "nanoid", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "@types/nanoid", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/nanoid": {
+      "3.0.0": {
+        "hash": "sha512-UXitWSmXCwhDmAKe7D3hNQtQaHeHt5L8LO1CB8GF8jlYVzOv5cBWDNqiJ+oPEWrWei3i3dkZtHY/bUtd0R/uOQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/nanoid/-/nanoid-3.0.0.tgz"
+      }
+    },
+    "nanoid": {
+      "4.0.0": {
+        "hash": "sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanoid/-/nanoid-4.0.0.tgz"
+      }
+    }
+  }
+}

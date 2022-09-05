@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "node-cron",
+    "location": "",
+    "packages": {
+      "node-cron": "3.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node-cron": {
+      "3.0.2": [
+        [ "uuid", "8.3.2" ]
+      ],
+      "unknown": [
+        [ "node-cron", "3.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "node-cron": {
+      "3.0.2": {
+        "hash": "sha512-iP8l0yGlNpE0e6q1o185yOApANRe47UPbLf4YxfbiNHt/RU5eBcGB/e0oudruheSf+LQeDMezqC5BVAb5wwRcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-cron/-/node-cron-3.0.2.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      }
+    }
+  }
+}

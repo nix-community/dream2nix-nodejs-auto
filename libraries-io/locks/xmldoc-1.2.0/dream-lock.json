@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "xmldoc",
+    "location": "",
+    "packages": {
+      "xmldoc": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "xmldoc": {
+      "1.2.0": [
+        [ "sax", "1.2.4" ]
+      ],
+      "unknown": [
+        [ "xmldoc", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "sax": {
+      "1.2.4": {
+        "hash": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
+      }
+    },
+    "xmldoc": {
+      "1.2.0": {
+        "hash": "sha512-2eN8QhjBsMW2uVj7JHLHkMytpvGHLHxKXBy4J3fAT/HujsEtM6yU84iGjpESYGHg6XwK0Vu4l+KgqQ2dv2cCqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xmldoc/-/xmldoc-1.2.0.tgz"
+      }
+    }
+  }
+}

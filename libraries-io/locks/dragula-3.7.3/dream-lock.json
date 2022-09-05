@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "dragula",
+    "location": "",
+    "packages": {
+      "dragula": "3.7.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "contra": {
+      "1.9.4": [
+        [ "atoa", "1.0.0" ],
+        [ "ticky", "1.0.1" ]
+      ]
+    },
+    "crossvent": {
+      "1.5.5": [
+        [ "custom-event", "1.0.1" ]
+      ]
+    },
+    "dragula": {
+      "3.7.3": [
+        [ "contra", "1.9.4" ],
+        [ "crossvent", "1.5.5" ]
+      ],
+      "unknown": [
+        [ "dragula", "3.7.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "atoa": {
+      "1.0.0": {
+        "hash": "sha512-VVE1H6cc4ai+ZXo/CRWoJiHXrA1qfA31DPnx6D20+kSI547hQN5Greh51LQ1baMRMfxO5K5M4ImMtZbZt2DODQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/atoa/-/atoa-1.0.0.tgz"
+      }
+    },
+    "contra": {
+      "1.9.4": {
+        "hash": "sha512-N9ArHAqwR/lhPq4OdIAwH4e1btn6EIZMAz4TazjnzCiVECcWUPTma+dRAM38ERImEJBh8NiCCpjoQruSZ+agYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/contra/-/contra-1.9.4.tgz"
+      }
+    },
+    "crossvent": {
+      "1.5.5": {
+        "hash": "sha512-MY4xhBYEnVi+pmTpHCOCsCLYczc0PVtGdPBz6NXNXxikLaUZo4HdAeUb1UqAo3t3yXAloSelTmfxJ+/oUqkW5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/crossvent/-/crossvent-1.5.5.tgz"
+      }
+    },
+    "custom-event": {
+      "1.0.1": {
+        "hash": "sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/custom-event/-/custom-event-1.0.1.tgz"
+      }
+    },
+    "dragula": {
+      "3.7.3": {
+        "hash": "sha512-/rRg4zRhcpf81TyDhaHLtXt6sEywdfpv1cRUMeFFy7DuypH2U0WUL0GTdyAQvXegviT4PJK4KuMmOaIDpICseQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dragula/-/dragula-3.7.3.tgz"
+      }
+    },
+    "ticky": {
+      "1.0.1": {
+        "hash": "sha512-RX35iq/D+lrsqhcPWIazM9ELkjOe30MSeoBHQHSsRwd1YuhJO5ui1K1/R0r7N3mFvbLBs33idw+eR6j+w6i/DA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ticky/-/ticky-1.0.1.tgz"
+      }
+    }
+  }
+}

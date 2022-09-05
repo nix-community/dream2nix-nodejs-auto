@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@fortawesome/fontawesome-svg-core",
+    "location": "",
+    "packages": {
+      "@fortawesome/fontawesome-svg-core": "6.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": {
+      "6.2.0": [
+        [ "@fortawesome/fontawesome-common-types", "6.2.0" ]
+      ],
+      "unknown": [
+        [ "@fortawesome/fontawesome-svg-core", "6.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@fortawesome/fontawesome-common-types": {
+      "6.2.0": {
+        "hash": "sha512-rBevIsj2nclStJ7AxTdfsa3ovHb1H+qApwrxcTVo+NNdeJiB9V75hsKfrkG5AwNcRUNxrPPiScGYCNmLMoh8pg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.2.0.tgz"
+      }
+    },
+    "@fortawesome/fontawesome-svg-core": {
+      "6.2.0": {
+        "hash": "sha512-Cf2mAAeMWFMzpLC7Y9H1I4o3wEU+XovVJhTiNG8ZNgSQj53yl7OCJaS80K4YjrABWZzbAHVaoHE1dVJ27AAYXw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.2.0.tgz"
+      }
+    }
+  }
+}

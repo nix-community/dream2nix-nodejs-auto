@@ -1,0 +1,188 @@
+{
+  "_generic": {
+    "defaultPackage": "html-react-parser",
+    "location": "",
+    "packages": {
+      "html-react-parser": "3.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dom-serializer": {
+      "2.0.0": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "domhandler": {
+      "5.0.3": [
+        [ "domelementtype", "2.3.0" ]
+      ]
+    },
+    "domutils": {
+      "3.0.1": [
+        [ "dom-serializer", "2.0.0" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ]
+      ]
+    },
+    "html-dom-parser": {
+      "3.1.2": [
+        [ "domhandler", "5.0.3" ],
+        [ "htmlparser2", "8.0.1" ]
+      ]
+    },
+    "html-react-parser": {
+      "3.0.4": [
+        [ "domhandler", "5.0.3" ],
+        [ "html-dom-parser", "3.1.2" ],
+        [ "react-property", "2.0.0" ],
+        [ "style-to-js", "1.1.1" ]
+      ],
+      "unknown": [
+        [ "html-react-parser", "3.0.4" ]
+      ]
+    },
+    "htmlparser2": {
+      "8.0.1": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "domutils", "3.0.1" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "style-to-js": {
+      "1.1.1": [
+        [ "style-to-object", "0.3.0" ]
+      ]
+    },
+    "style-to-object": {
+      "0.3.0": [
+        [ "inline-style-parser", "0.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dom-serializer": {
+      "2.0.0": {
+        "hash": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
+      }
+    },
+    "domelementtype": {
+      "2.3.0": {
+        "hash": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+      }
+    },
+    "domhandler": {
+      "5.0.3": {
+        "hash": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz"
+      }
+    },
+    "domutils": {
+      "3.0.1": {
+        "hash": "sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domutils/-/domutils-3.0.1.tgz"
+      }
+    },
+    "entities": {
+      "4.4.0": {
+        "hash": "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
+      }
+    },
+    "html-dom-parser": {
+      "3.1.2": {
+        "hash": "sha512-mLTtl3pVn3HnqZSZzW3xVs/mJAKrG1yIw3wlp+9bdoZHHLaBRvELdpfShiPVLyjPypq1Fugv2KMDoGHW4lVXnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-dom-parser/-/html-dom-parser-3.1.2.tgz"
+      }
+    },
+    "html-react-parser": {
+      "3.0.4": {
+        "hash": "sha512-va68PSmC7uA6PbOEc9yuw5Mu3OHPXmFKUpkLGvUPdTuNrZ0CJZk1s/8X/FaHjswK/6uZghu2U02tJjussT8+uw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-react-parser/-/html-react-parser-3.0.4.tgz"
+      }
+    },
+    "htmlparser2": {
+      "8.0.1": {
+        "hash": "sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.1.tgz"
+      }
+    },
+    "inline-style-parser": {
+      "0.1.1": {
+        "hash": "sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inline-style-parser/-/inline-style-parser-0.1.1.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-property": {
+      "2.0.0": {
+        "hash": "sha512-kzmNjIgU32mO4mmH5+iUyrqlpFQhF8K2k7eZ4fdLSOPFrD1XgEuSBv9LDEgxRXTMBqMd8ppT0x6TIzqE5pdGdw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-property/-/react-property-2.0.0.tgz"
+      }
+    },
+    "style-to-js": {
+      "1.1.1": {
+        "hash": "sha512-RJ18Z9t2B02sYhZtfWKQq5uplVctgvjTfLWT7+Eb1zjUjIrWzX5SdlkwLGQozrqarTmEzJJ/YmdNJCUNI47elg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/style-to-js/-/style-to-js-1.1.1.tgz"
+      }
+    },
+    "style-to-object": {
+      "0.3.0": {
+        "hash": "sha512-CzFnRRXhzWIdItT3OmF8SQfWyahHhjq3HwcMNCNLn+N7klOOqPjMeG/4JSu77D7ypZdGvSzvkrbyeTMizz2VrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/style-to-object/-/style-to-object-0.3.0.tgz"
+      }
+    }
+  }
+}

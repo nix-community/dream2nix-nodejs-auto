@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "string-width",
+    "location": "",
+    "packages": {
+      "string-width": "5.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "string-width": {
+      "5.1.2": [
+        [ "eastasianwidth", "0.2.0" ],
+        [ "emoji-regex", "9.2.2" ],
+        [ "strip-ansi", "7.0.1" ]
+      ],
+      "unknown": [
+        [ "string-width", "5.1.2" ]
+      ]
+    },
+    "strip-ansi": {
+      "7.0.1": [
+        [ "ansi-regex", "6.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-regex": {
+      "6.0.1": {
+        "hash": "sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz"
+      }
+    },
+    "eastasianwidth": {
+      "0.2.0": {
+        "hash": "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eastasianwidth/-/eastasianwidth-0.2.0.tgz"
+      }
+    },
+    "emoji-regex": {
+      "9.2.2": {
+        "hash": "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz"
+      }
+    },
+    "string-width": {
+      "5.1.2": {
+        "hash": "sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string-width/-/string-width-5.1.2.tgz"
+      }
+    },
+    "strip-ansi": {
+      "7.0.1": {
+        "hash": "sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.0.1.tgz"
+      }
+    }
+  }
+}

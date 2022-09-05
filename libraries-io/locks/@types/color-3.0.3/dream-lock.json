@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/color",
+    "location": "",
+    "packages": {
+      "@types/color": "3.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/color": {
+      "3.0.3": [
+        [ "@types/color-convert", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "@types/color", "3.0.3" ]
+      ]
+    },
+    "@types/color-convert": {
+      "2.0.0": [
+        [ "@types/color-name", "1.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/color": {
+      "3.0.3": {
+        "hash": "sha512-X//qzJ3d3Zj82J9sC/C18ZY5f43utPbAJ6PhYt/M7uG6etcF6MRpKdN880KBy43B0BMzSfeT96MzrsNjFI3GbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/color/-/color-3.0.3.tgz"
+      }
+    },
+    "@types/color-convert": {
+      "2.0.0": {
+        "hash": "sha512-m7GG7IKKGuJUXvkZ1qqG3ChccdIM/qBBo913z+Xft0nKCX4hAU/IxKwZBU4cpRZ7GS5kV4vOblUkILtSShCPXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/color-convert/-/color-convert-2.0.0.tgz"
+      }
+    },
+    "@types/color-name": {
+      "1.1.1": {
+        "hash": "sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz"
+      }
+    }
+  }
+}

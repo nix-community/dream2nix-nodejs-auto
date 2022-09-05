@@ -1,0 +1,114 @@
+{
+  "_generic": {
+    "defaultPackage": "cson",
+    "location": "",
+    "packages": {
+      "cson": "7.20.0-next.1604240078.5fb7d8328d0b91b6cdadde2e6400e694cfc49884"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cson": {
+      "7.20.0-next.1604240078.5fb7d8328d0b91b6cdadde2e6400e694cfc49884": [
+        [ "cson-parser", "4.0.9" ],
+        [ "extract-opts", "4.3.0" ],
+        [ "requirefresh", "4.13.0" ],
+        [ "safefs", "6.16.0" ]
+      ],
+      "unknown": [
+        [ "cson", "7.20.0-next.1604240078.5fb7d8328d0b91b6cdadde2e6400e694cfc49884" ]
+      ]
+    },
+    "cson-parser": {
+      "4.0.9": [
+        [ "coffeescript", "1.12.7" ]
+      ]
+    },
+    "eachr": {
+      "4.5.0": [
+        [ "typechecker", "6.4.0" ]
+      ]
+    },
+    "extract-opts": {
+      "4.3.0": [
+        [ "eachr", "4.5.0" ],
+        [ "typechecker", "6.4.0" ]
+      ]
+    },
+    "safefs": {
+      "6.16.0": [
+        [ "graceful-fs", "4.2.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "coffeescript": {
+      "1.12.7": {
+        "hash": "sha512-pLXHFxQMPklVoEekowk8b3erNynC+DVJzChxS/LCBBgR6/8AJkHivkm//zbowcfc7BTCAjryuhx6gPqPRfsFoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/coffeescript/-/coffeescript-1.12.7.tgz"
+      }
+    },
+    "cson": {
+      "7.20.0-next.1604240078.5fb7d8328d0b91b6cdadde2e6400e694cfc49884": {
+        "hash": "sha512-OWkUb8kfu8WiZGFadygvg3BENG/A+FIpMcf/Gz3uOxg2Pf5ElIFyIawoklalNgD9MxlJWAV4d+ojMU5KnbddQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cson/-/cson-7.20.0-next.1604240078.5fb7d8328d0b91b6cdadde2e6400e694cfc49884.tgz"
+      }
+    },
+    "cson-parser": {
+      "4.0.9": {
+        "hash": "sha512-I79SAcCYquWnEfXYj8hBqOOWKj6eH6zX1hhX3yqmS4K3bYp7jME3UFpHPzu3rUew0oyfc0s8T6IlWGXRAheHag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cson-parser/-/cson-parser-4.0.9.tgz"
+      }
+    },
+    "eachr": {
+      "4.5.0": {
+        "hash": "sha512-9I664RWp6p8jvcHZIwo7bWaiSaUmA1wNSLKwNZEiaYjqiTARq3cGjyRiIunsopZv4QMmX3T5Hs17QoPAzdYxfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eachr/-/eachr-4.5.0.tgz"
+      }
+    },
+    "extract-opts": {
+      "4.3.0": {
+        "hash": "sha512-Dmssi1tgKJkQsVmbP7TgW/kbdc42SAsNf6h9ClweP+dS7O24YYMTXsNwPelxhx0LF15npiWwY5ahKtyQiNgxWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/extract-opts/-/extract-opts-4.3.0.tgz"
+      }
+    },
+    "graceful-fs": {
+      "4.2.10": {
+        "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+      }
+    },
+    "requirefresh": {
+      "4.13.0": {
+        "hash": "sha512-APrzWWxqnwE2Bz3ysFepAU0Dc0aYjn8jsDLFIegedn+KVCS9LykAclkf+6YaJXk3ON9l6QAm04rN+bEA89cGIg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/requirefresh/-/requirefresh-4.13.0.tgz"
+      }
+    },
+    "safefs": {
+      "6.16.0": {
+        "hash": "sha512-IUIN5h+r2acNVkbsM5VoBUsRnaSFwQFZnzyvQsiLlgFsncLi7rrtmM4FsEgwv+xDTJzsrp79rd+/GJu2zWcR9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safefs/-/safefs-6.16.0.tgz"
+      }
+    },
+    "typechecker": {
+      "6.4.0": {
+        "hash": "sha512-EbOu+9szY13mhl0EsvLXnR+pTCa3gTHQQPLdce72ujcC9fRHXlVFBNXtHeRhgzLxLlKUh4zA9C0tezLDgshf+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typechecker/-/typechecker-6.4.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@fortawesome/fontawesome-free-solid",
+    "location": "",
+    "packages": {
+      "@fortawesome/fontawesome-free-solid": "5.0.13"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free-solid": {
+      "5.0.13": [
+        [ "@fortawesome/fontawesome-common-types", "0.1.7" ]
+      ],
+      "unknown": [
+        [ "@fortawesome/fontawesome-free-solid", "5.0.13" ]
+      ]
+    }
+  },
+  "sources": {
+    "@fortawesome/fontawesome-common-types": {
+      "0.1.7": {
+        "hash": "sha512-ego8jRVSHfq/iq4KRZJKQeUAdi3ZjGNrqw4oPN3fNdvTBnLCSntwVCnc37bsAJP9UB8MhrTfPnZYxkv2vpS4pg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.7.tgz"
+      }
+    },
+    "@fortawesome/fontawesome-free-solid": {
+      "5.0.13": {
+        "hash": "sha512-b+krVnqkdDt52Yfev0x0ZZgtxBQsLw00Zfa3uaVWIDzpNZVtrEXuxldUSUaN/ihgGhSNi8VpvDAdNPVgCKOSxw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free-solid/-/fontawesome-free-solid-5.0.13.tgz"
+      }
+    }
+  }
+}

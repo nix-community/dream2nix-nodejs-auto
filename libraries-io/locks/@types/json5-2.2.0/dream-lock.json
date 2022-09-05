@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/json5",
+    "location": "",
+    "packages": {
+      "@types/json5": "2.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/json5": {
+      "2.2.0": [
+        [ "json5", "2.2.1" ]
+      ],
+      "unknown": [
+        [ "@types/json5", "2.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/json5": {
+      "2.2.0": {
+        "hash": "sha512-NrVug5woqbvNZ0WX+Gv4R+L4TGddtmFek2u8RtccAgFZWtS9QXF2xCXY22/M4nzkaKF0q9Fc6M/5rxLDhfwc/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/json5/-/json5-2.2.0.tgz"
+      }
+    },
+    "json5": {
+      "2.2.1": {
+        "hash": "sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "dagre",
+    "location": "",
+    "packages": {
+      "dagre": "0.8.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dagre": {
+      "0.8.5": [
+        [ "graphlib", "2.1.8" ],
+        [ "lodash", "4.17.21" ]
+      ],
+      "unknown": [
+        [ "dagre", "0.8.5" ]
+      ]
+    },
+    "graphlib": {
+      "2.1.8": [
+        [ "lodash", "4.17.21" ]
+      ]
+    }
+  },
+  "sources": {
+    "dagre": {
+      "0.8.5": {
+        "hash": "sha512-/aTqmnRta7x7MCCpExk7HQL2O4owCT2h8NT//9I1OQ9vt29Pa0BzSAkR5lwFUcQ7491yVi/3CXU9jQ5o0Mn2Sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dagre/-/dagre-0.8.5.tgz"
+      }
+    },
+    "graphlib": {
+      "2.1.8": {
+        "hash": "sha512-jcLLfkpoVGmH7/InMC/1hIvOPSUh38oJtGhvrOFGzioE1DZ+0YW16RgmOJhHiuWTvGiJQ9Z1Ik43JvkRPRvE+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graphlib/-/graphlib-2.1.8.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    }
+  }
+}

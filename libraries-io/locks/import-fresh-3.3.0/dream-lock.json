@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "import-fresh",
+    "location": "",
+    "packages": {
+      "import-fresh": "3.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "import-fresh": {
+      "3.3.0": [
+        [ "parent-module", "1.0.1" ],
+        [ "resolve-from", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "import-fresh", "3.3.0" ]
+      ]
+    },
+    "parent-module": {
+      "1.0.1": [
+        [ "callsites", "3.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "callsites": {
+      "3.1.0": {
+        "hash": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz"
+      }
+    },
+    "import-fresh": {
+      "3.3.0": {
+        "hash": "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz"
+      }
+    },
+    "parent-module": {
+      "1.0.1": {
+        "hash": "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz"
+      }
+    },
+    "resolve-from": {
+      "4.0.0": {
+        "hash": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz"
+      }
+    }
+  }
+}

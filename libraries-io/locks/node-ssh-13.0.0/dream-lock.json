@@ -1,0 +1,171 @@
+{
+  "_generic": {
+    "defaultPackage": "node-ssh",
+    "location": "",
+    "packages": {
+      "node-ssh": "13.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "asn1": {
+      "0.2.6": [
+        [ "safer-buffer", "2.1.2" ]
+      ]
+    },
+    "bcrypt-pbkdf": {
+      "1.0.2": [
+        [ "tweetnacl", "0.14.5" ]
+      ]
+    },
+    "cpu-features": {
+      "0.0.4": [
+        [ "buildcheck", "0.0.3" ],
+        [ "nan", "2.16.0" ]
+      ]
+    },
+    "make-dir": {
+      "3.1.0": [
+        [ "semver", "6.3.0" ]
+      ]
+    },
+    "node-ssh": {
+      "13.0.0": [
+        [ "is-stream", "2.0.1" ],
+        [ "make-dir", "3.1.0" ],
+        [ "sb-promise-queue", "2.1.0" ],
+        [ "sb-scandir", "3.1.0" ],
+        [ "shell-escape", "0.2.0" ],
+        [ "ssh2", "1.11.0" ]
+      ],
+      "unknown": [
+        [ "node-ssh", "13.0.0" ]
+      ]
+    },
+    "sb-scandir": {
+      "3.1.0": [
+        [ "sb-promise-queue", "2.1.0" ]
+      ]
+    },
+    "ssh2": {
+      "1.11.0": [
+        [ "asn1", "0.2.6" ],
+        [ "bcrypt-pbkdf", "1.0.2" ],
+        [ "cpu-features", "0.0.4" ],
+        [ "nan", "2.16.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "asn1": {
+      "0.2.6": {
+        "hash": "sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/asn1/-/asn1-0.2.6.tgz"
+      }
+    },
+    "bcrypt-pbkdf": {
+      "1.0.2": {
+        "hash": "sha512-qeFIXtP4MSoi6NLqO12WfqARWWuCKi2Rn/9hJLEmtB5yTNr9DqFWkJRCf2qShWzPeAMRnOgCrq0sg/KLv5ES9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz"
+      }
+    },
+    "buildcheck": {
+      "0.0.3": {
+        "hash": "sha512-pziaA+p/wdVImfcbsZLNF32EiWyujlQLwolMqUQE8xpKNOH7KmZQaY8sXN7DGOEzPAElo9QTaeNRfGnf3iOJbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/buildcheck/-/buildcheck-0.0.3.tgz"
+      }
+    },
+    "cpu-features": {
+      "0.0.4": {
+        "hash": "sha512-fKiZ/zp1mUwQbnzb9IghXtHtDoTMtNeb8oYGx6kX2SYfhnG0HNdBEBIzB9b5KlXu5DQPhfy3mInbBxFcgwAr3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cpu-features/-/cpu-features-0.0.4.tgz"
+      }
+    },
+    "is-stream": {
+      "2.0.1": {
+        "hash": "sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz"
+      }
+    },
+    "make-dir": {
+      "3.1.0": {
+        "hash": "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"
+      }
+    },
+    "nan": {
+      "2.16.0": {
+        "hash": "sha512-UdAqHyFngu7TfQKsCBgAA6pWDkT8MAO7d0jyOecVhN5354xbLqdn8mV9Tat9gepAupm0bt2DbeaSC8vS52MuFA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nan/-/nan-2.16.0.tgz"
+      }
+    },
+    "node-ssh": {
+      "13.0.0": {
+        "hash": "sha512-8yfPvuB8z1M5rXFR8Z1Tl0a0M43N64VjZfjXRwOGCcImFphuXhMPniPksf1FkVj9djKbpHvLUMIVS399H9yCSQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-ssh/-/node-ssh-13.0.0.tgz"
+      }
+    },
+    "safer-buffer": {
+      "2.1.2": {
+        "hash": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
+      }
+    },
+    "sb-promise-queue": {
+      "2.1.0": {
+        "hash": "sha512-zwq4YuP1FQFkGx2Q7GIkZYZ6PqWpV+bg0nIO1sJhWOyGyhqbj0MsTvK6lCFo5TQwX5pZr6SCQ75e8PCDCuNvkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sb-promise-queue/-/sb-promise-queue-2.1.0.tgz"
+      }
+    },
+    "sb-scandir": {
+      "3.1.0": {
+        "hash": "sha512-70BVm2xz9jn94zSQdpvYrEG101/UV9TVGcfWr9T5iob3QhCK4lYXeculfBqPGFv3XTeKgx4dpWyYIDeZUqo4kg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sb-scandir/-/sb-scandir-3.1.0.tgz"
+      }
+    },
+    "semver": {
+      "6.3.0": {
+        "hash": "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
+      }
+    },
+    "shell-escape": {
+      "0.2.0": {
+        "hash": "sha512-uRRBT2MfEOyxuECseCZd28jC1AJ8hmqqneWQ4VWUTgCAFvb3wKU1jLqj6egC4Exrr88ogg3dp+zroH4wJuaXzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shell-escape/-/shell-escape-0.2.0.tgz"
+      }
+    },
+    "ssh2": {
+      "1.11.0": {
+        "hash": "sha512-nfg0wZWGSsfUe/IBJkXVll3PEZ//YH2guww+mP88gTpuSU4FtZN7zu9JoeTGOyCNx2dTDtT9fOpWwlzyj4uOOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ssh2/-/ssh2-1.11.0.tgz"
+      }
+    },
+    "tweetnacl": {
+      "0.14.5": {
+        "hash": "sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz"
+      }
+    }
+  }
+}

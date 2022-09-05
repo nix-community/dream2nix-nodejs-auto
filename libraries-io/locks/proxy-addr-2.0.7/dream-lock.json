@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "proxy-addr",
+    "location": "",
+    "packages": {
+      "proxy-addr": "2.0.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proxy-addr": {
+      "2.0.7": [
+        [ "forwarded", "0.2.0" ],
+        [ "ipaddr.js", "1.9.1" ]
+      ],
+      "unknown": [
+        [ "proxy-addr", "2.0.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "forwarded": {
+      "0.2.0": {
+        "hash": "sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz"
+      }
+    },
+    "ipaddr.js": {
+      "1.9.1": {
+        "hash": "sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz"
+      }
+    },
+    "proxy-addr": {
+      "2.0.7": {
+        "hash": "sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz"
+      }
+    }
+  }
+}

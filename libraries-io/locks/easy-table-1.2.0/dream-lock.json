@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "easy-table",
+    "location": "",
+    "packages": {
+      "easy-table": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "defaults": {
+      "1.0.3": [
+        [ "clone", "1.0.4" ]
+      ]
+    },
+    "easy-table": {
+      "1.2.0": [
+        [ "ansi-regex", "5.0.1" ],
+        [ "wcwidth", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "easy-table", "1.2.0" ]
+      ]
+    },
+    "wcwidth": {
+      "1.0.1": [
+        [ "defaults", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-regex": {
+      "5.0.1": {
+        "hash": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+      }
+    },
+    "clone": {
+      "1.0.4": {
+        "hash": "sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
+      }
+    },
+    "defaults": {
+      "1.0.3": {
+        "hash": "sha512-s82itHOnYrN0Ib8r+z7laQz3sdE+4FP3d9Q7VLO7U+KRT+CR0GsWuyHxzdAY82I7cXv0G/twrqomTJLOssO5HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/defaults/-/defaults-1.0.3.tgz"
+      }
+    },
+    "easy-table": {
+      "1.2.0": {
+        "hash": "sha512-OFzVOv03YpvtcWGe5AayU5G2hgybsg3iqA6drU8UaoZyB9jLGMTrz9+asnLp/E+6qPh88yEI1gvyZFZ41dmgww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/easy-table/-/easy-table-1.2.0.tgz"
+      }
+    },
+    "wcwidth": {
+      "1.0.1": {
+        "hash": "sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@koa/cors",
+    "location": "",
+    "packages": {
+      "@koa/cors": "3.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@koa/cors": {
+      "3.4.1": [
+        [ "vary", "1.1.2" ]
+      ],
+      "unknown": [
+        [ "@koa/cors", "3.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@koa/cors": {
+      "3.4.1": {
+        "hash": "sha512-/sG9NlpGZ/aBpnRamIlGs+wX+C/IJ5DodNK7iPQIVCG4eUQdGeshGhWQ6JCi7tpnD9sCtFXcS04iTimuaJfh4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@koa/cors/-/cors-3.4.1.tgz"
+      }
+    },
+    "vary": {
+      "1.1.2": {
+        "hash": "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
+      }
+    }
+  }
+}

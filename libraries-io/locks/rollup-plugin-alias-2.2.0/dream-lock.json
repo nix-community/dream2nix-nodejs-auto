@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "rollup-plugin-alias",
+    "location": "",
+    "packages": {
+      "rollup-plugin-alias": "2.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rollup-plugin-alias": {
+      "2.2.0": [
+        [ "slash", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "rollup-plugin-alias", "2.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "rollup-plugin-alias": {
+      "2.2.0": {
+        "hash": "sha512-9ZK410qeFed4gGrHoojBpxLsHF74vPgsheGg9JRW5RbALAxqdvJbd357mSqWBqUrBfRVnZnNUXTZdYLxxQEA5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rollup-plugin-alias/-/rollup-plugin-alias-2.2.0.tgz"
+      }
+    },
+    "slash": {
+      "3.0.0": {
+        "hash": "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
+      }
+    }
+  }
+}

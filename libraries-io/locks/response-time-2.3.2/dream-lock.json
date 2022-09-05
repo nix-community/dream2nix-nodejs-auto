@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "response-time",
+    "location": "",
+    "packages": {
+      "response-time": "2.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "response-time": {
+      "2.3.2": [
+        [ "depd", "1.1.2" ],
+        [ "on-headers", "1.0.2" ]
+      ],
+      "unknown": [
+        [ "response-time", "2.3.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "depd": {
+      "1.1.2": {
+        "hash": "sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz"
+      }
+    },
+    "on-headers": {
+      "1.0.2": {
+        "hash": "sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/on-headers/-/on-headers-1.0.2.tgz"
+      }
+    },
+    "response-time": {
+      "2.3.2": {
+        "hash": "sha512-MUIDaDQf+CVqflfTdQ5yam+aYCkXj1PY8fjlPDQ6ppxJlmgZb864pHtA750mayywNg8tx4rS7qH9JXd/OF+3gw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/response-time/-/response-time-2.3.2.tgz"
+      }
+    }
+  }
+}

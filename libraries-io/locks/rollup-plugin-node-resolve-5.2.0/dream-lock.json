@@ -3,7 +3,7 @@
     "defaultPackage": "rollup-plugin-node-resolve",
     "location": "",
     "packages": {
-      "rollup-plugin-node-resolve": "unknown"
+      "rollup-plugin-node-resolve": "5.2.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "nodejs"
@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/resolve": {
       "0.0.8": [
-        [ "@types/node", "18.7.14" ]
+        [ "@types/node", "18.7.15" ]
       ]
     },
     "has": {
@@ -49,7 +49,6 @@
         [ "rollup-pluginutils", "2.8.2" ]
       ],
       "unknown": [
-        [ "null", "2.0.0" ],
         [ "rollup-plugin-node-resolve", "5.2.0" ]
       ]
     },
@@ -61,10 +60,10 @@
   },
   "sources": {
     "@types/node": {
-      "18.7.14": {
-        "hash": "sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==",
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.14.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
       }
     },
     "@types/resolve": {
@@ -123,13 +122,6 @@
         "url": "https://registry.npmjs.org/is-module/-/is-module-1.0.0.tgz"
       }
     },
-    "null": {
-      "2.0.0": {
-        "hash": "sha512-CVSXPeB7Af0Sku7w8N8EKkgcwvQ6wGNfs6bly419A/q6dpIwzaHIk+65+La2g80ml21uxVXQo8xReTMI2WEYbA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/null/-/null-2.0.0.tgz"
-      }
-    },
     "path-parse": {
       "1.0.7": {
         "hash": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
@@ -153,11 +145,6 @@
     },
     "rollup-plugin-node-resolve": {
       "5.2.0": {
-        "hash": "sha512-jUlyaDXts7TW2CqQ4GaO5VJ4PwwaV8VUGA7+km3n6k6xtOEacf61u0VXwN80phY/evMcaS+9eIeJ9MOyDxt5Zw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-5.2.0.tgz"
-      },
-      "unknown": {
         "hash": "sha512-jUlyaDXts7TW2CqQ4GaO5VJ4PwwaV8VUGA7+km3n6k6xtOEacf61u0VXwN80phY/evMcaS+9eIeJ9MOyDxt5Zw==",
         "type": "http",
         "url": "https://registry.npmjs.org/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-5.2.0.tgz"

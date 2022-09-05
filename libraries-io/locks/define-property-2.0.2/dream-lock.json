@@ -1,0 +1,87 @@
+{
+  "_generic": {
+    "defaultPackage": "define-property",
+    "location": "",
+    "packages": {
+      "define-property": "2.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "define-property": {
+      "2.0.2": [
+        [ "is-descriptor", "1.0.2" ],
+        [ "isobject", "3.0.1" ]
+      ],
+      "unknown": [
+        [ "define-property", "2.0.2" ]
+      ]
+    },
+    "is-accessor-descriptor": {
+      "1.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-data-descriptor": {
+      "1.0.0": [
+        [ "kind-of", "6.0.3" ]
+      ]
+    },
+    "is-descriptor": {
+      "1.0.2": [
+        [ "is-accessor-descriptor", "1.0.0" ],
+        [ "is-data-descriptor", "1.0.0" ],
+        [ "kind-of", "6.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "define-property": {
+      "2.0.2": {
+        "hash": "sha512-jwK2UV4cnPpbcG7+VRARKTZPUWowwXA8bzH5NP6ud0oeAxyYPuGZUAC7hMugpCdz4BeSZl2Dl9k66CHJ/46ZYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/define-property/-/define-property-2.0.2.tgz"
+      }
+    },
+    "is-accessor-descriptor": {
+      "1.0.0": {
+        "hash": "sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz"
+      }
+    },
+    "is-data-descriptor": {
+      "1.0.0": {
+        "hash": "sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz"
+      }
+    },
+    "is-descriptor": {
+      "1.0.2": {
+        "hash": "sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz"
+      }
+    },
+    "isobject": {
+      "3.0.1": {
+        "hash": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
+      }
+    },
+    "kind-of": {
+      "6.0.3": {
+        "hash": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+      }
+    }
+  }
+}

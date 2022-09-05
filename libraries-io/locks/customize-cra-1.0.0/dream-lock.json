@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "customize-cra",
+    "location": "",
+    "packages": {
+      "customize-cra": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "customize-cra": {
+      "1.0.0": [
+        [ "lodash.flow", "3.5.0" ]
+      ],
+      "unknown": [
+        [ "customize-cra", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "customize-cra": {
+      "1.0.0": {
+        "hash": "sha512-DbtaLuy59224U+xCiukkxSq8clq++MOtJ1Et7LED1fLszWe88EoblEYFBJ895sB1mC6B4uu3xPT/IjClELhMbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/customize-cra/-/customize-cra-1.0.0.tgz"
+      }
+    },
+    "lodash.flow": {
+      "3.5.0": {
+        "hash": "sha512-ff3BX/tSioo+XojX4MOsOMhJw0nZoUEF011LX8g8d3gvjVbxd89cCio4BCXronjxcTUIJUoqKEUA+n4CqvvRPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.flow/-/lodash.flow-3.5.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@glimmer/tracking",
+    "location": "",
+    "packages": {
+      "@glimmer/tracking": "1.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@glimmer/tracking": {
+      "1.1.2": [
+        [ "@glimmer/env", "0.1.7" ],
+        [ "@glimmer/validator", "0.44.0" ]
+      ],
+      "unknown": [
+        [ "@glimmer/tracking", "1.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@glimmer/env": {
+      "0.1.7": {
+        "hash": "sha512-JKF/a9I9jw6fGoz8kA7LEQslrwJ5jms5CXhu/aqkBWk+PmZ6pTl8mlb/eJ/5ujBGTiQzBhy5AIWF712iA+4/mw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@glimmer/env/-/env-0.1.7.tgz"
+      }
+    },
+    "@glimmer/tracking": {
+      "1.1.2": {
+        "hash": "sha512-cyV32zsHh+CnftuRX84ALZpd2rpbDrhLhJnTXn9W//QpqdRZ5rdMsxSY9fOsj0CKEc706tmEU299oNnDc0d7tA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@glimmer/tracking/-/tracking-1.1.2.tgz"
+      }
+    },
+    "@glimmer/validator": {
+      "0.44.0": {
+        "hash": "sha512-i01plR0EgFVz69GDrEuFgq1NheIjZcyTy3c7q+w7d096ddPVeVcRzU3LKaqCfovvLJ+6lJx40j45ecycASUUyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@glimmer/validator/-/validator-0.44.0.tgz"
+      }
+    }
+  }
+}

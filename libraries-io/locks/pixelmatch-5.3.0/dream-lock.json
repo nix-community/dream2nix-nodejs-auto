@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "pixelmatch",
+    "location": "",
+    "packages": {
+      "pixelmatch": "5.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pixelmatch": {
+      "5.3.0": [
+        [ "pngjs", "6.0.0" ]
+      ],
+      "unknown": [
+        [ "pixelmatch", "5.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "pixelmatch": {
+      "5.3.0": {
+        "hash": "sha512-o8mkY4E/+LNUf6LzX96ht6k6CEDi65k9G2rjMtBe9Oo+VPKSvl+0GKHuH/AlG+GA5LPG/i5hrekkxUc3s2HU+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pixelmatch/-/pixelmatch-5.3.0.tgz"
+      }
+    },
+    "pngjs": {
+      "6.0.0": {
+        "hash": "sha512-TRzzuFRRmEoSW/p1KVAmiOgPco2Irlah+bGFCeNfJXxxYGwSw7YwAOAcd7X28K/m5bjBWKsC29KyoMfHbypayg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz"
+      }
+    }
+  }
+}

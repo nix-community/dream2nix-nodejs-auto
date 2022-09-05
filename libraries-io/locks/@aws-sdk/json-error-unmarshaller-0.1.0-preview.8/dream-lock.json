@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/json-error-unmarshaller",
+    "location": "",
+    "packages": {
+      "@aws-sdk/json-error-unmarshaller": "0.1.0-preview.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/json-error-unmarshaller": {
+      "0.1.0-preview.8": [
+        [ "@aws-sdk/response-metadata-extractor", "0.1.0-preview.8" ],
+        [ "@aws-sdk/types", "0.1.0-preview.7" ],
+        [ "@aws-sdk/util-error-constructor", "0.1.0-preview.7" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/json-error-unmarshaller", "0.1.0-preview.8" ]
+      ]
+    },
+    "@aws-sdk/response-metadata-extractor": {
+      "0.1.0-preview.8": [
+        [ "@aws-sdk/types", "0.1.0-preview.7" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "@aws-sdk/util-error-constructor": {
+      "0.1.0-preview.7": [
+        [ "@aws-sdk/types", "0.1.0-preview.7" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/json-error-unmarshaller": {
+      "0.1.0-preview.8": {
+        "hash": "sha512-yCua3FUxKIahjDugSdQMj8g+DNT+R5gViL2CYZ05kXaUla+Qml8UDV5bPr/z21FM91Oe2d532eORXixWnWCVOQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/json-error-unmarshaller/-/json-error-unmarshaller-0.1.0-preview.8.tgz"
+      }
+    },
+    "@aws-sdk/response-metadata-extractor": {
+      "0.1.0-preview.8": {
+        "hash": "sha512-c5aJGYDiEwWqYpsROCqrmR60d0yeVdvRtzMptcpCI95BvIizS3hTc+PfuOq3Gcz7L+EQysbzQyqZutCJ/zLbew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/response-metadata-extractor/-/response-metadata-extractor-0.1.0-preview.8.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "0.1.0-preview.7": {
+        "hash": "sha512-gpyU8N9XEs8diE4uW9B6/hjKDrB/c4a1GF4ICwkaGYpXrbJy9QLrEU8Hk4rC6P1l++YYyJKMl7RjMmTyBtNOzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-0.1.0-preview.7.tgz"
+      }
+    },
+    "@aws-sdk/util-error-constructor": {
+      "0.1.0-preview.7": {
+        "hash": "sha512-sb8gruiOadl0YXG2yn0EMBkB/Oy/7y4mt8Wfl7G3crvWXcHtD7flbW7wjbFiMcQU91vi5sTaZ56hwvDA9lu0ug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-error-constructor/-/util-error-constructor-0.1.0-preview.7.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    }
+  }
+}

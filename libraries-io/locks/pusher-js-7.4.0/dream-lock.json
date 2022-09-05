@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "pusher-js",
+    "location": "",
+    "packages": {
+      "pusher-js": "7.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pusher-js": {
+      "7.4.0": [
+        [ "@types/node", "14.18.27" ],
+        [ "tweetnacl", "1.0.3" ]
+      ],
+      "unknown": [
+        [ "pusher-js", "7.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "14.18.27": {
+        "hash": "sha512-DcTUcwT9xEcf4rp2UHyGAcmlqG4Mhe7acozl5vY2xzSrwP1z19ZVyjzQ6DsNUrvIadpiyZoQCTHFt4t2omYIZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-14.18.27.tgz"
+      }
+    },
+    "pusher-js": {
+      "7.4.0": {
+        "hash": "sha512-4ewETSlJEdRZ2eHGEMH3pHxMVB+sB4oMmOWbgYbSRsYbTFPOpRBumSEm9NSNse3pfjiluTrB98PaXijJ6BL3lg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pusher-js/-/pusher-js-7.4.0.tgz"
+      }
+    },
+    "tweetnacl": {
+      "1.0.3": {
+        "hash": "sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-1.0.3.tgz"
+      }
+    }
+  }
+}

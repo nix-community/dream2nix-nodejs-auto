@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/body-parser",
+    "location": "",
+    "packages": {
+      "@types/body-parser": "1.19.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/body-parser": {
+      "1.19.2": [
+        [ "@types/connect", "3.4.35" ],
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/body-parser", "1.19.2" ]
+      ]
+    },
+    "@types/connect": {
+      "3.4.35": [
+        [ "@types/node", "18.7.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/body-parser": {
+      "1.19.2": {
+        "hash": "sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz"
+      }
+    },
+    "@types/connect": {
+      "3.4.35": {
+        "hash": "sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/connect/-/connect-3.4.35.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

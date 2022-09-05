@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "es6-module-loader",
+    "location": "",
+    "packages": {
+      "es6-module-loader": "0.17.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "es6-module-loader": {
+      "0.17.11": [
+        [ "when", "3.7.8" ]
+      ],
+      "unknown": [
+        [ "es6-module-loader", "0.17.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "es6-module-loader": {
+      "0.17.11": {
+        "hash": "sha512-6u2nrCQQ0fg7llO02vHAg8MZSxE+Y+fjy+9906ICIR5qaZLUlx7CePFvEJf1Fz7CnUUkKDt7woYtYTYpy9jVQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/es6-module-loader/-/es6-module-loader-0.17.11.tgz"
+      }
+    },
+    "when": {
+      "3.7.8": {
+        "hash": "sha512-5cZ7mecD3eYcMiCH4wtRPA5iFJZ50BJYDfckI5RRpQiktMiYTcn0ccLTZOvcbBume+1304fQztxeNzNS9Gvrnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/when/-/when-3.7.8.tgz"
+      }
+    }
+  }
+}

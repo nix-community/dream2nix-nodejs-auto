@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "angular-ui-router",
+    "location": "",
+    "packages": {
+      "angular-ui-router": "1.0.30"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "angular-ui-router": {
+      "1.0.30": [
+        [ "@uirouter/core", "6.0.8" ]
+      ],
+      "unknown": [
+        [ "angular-ui-router", "1.0.30" ]
+      ]
+    }
+  },
+  "sources": {
+    "@uirouter/core": {
+      "6.0.8": {
+        "hash": "sha512-Gc/BAW47i4L54p8dqYCJJZuv2s3tqlXQ0fvl6Zp2xrblELPVfxmjnc0eurx3XwfQdaqm3T6uls6tQKkof/4QMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@uirouter/core/-/core-6.0.8.tgz"
+      }
+    },
+    "angular": {
+      "1.8.3": {
+        "hash": "sha512-5qjkWIQQVsHj4Sb5TcEs4WZWpFeVFHXwxEBHUhrny41D8UrBAd6T/6nPPAsLngJCReIOqi95W3mxdveveutpZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/angular/-/angular-1.8.3.tgz"
+      }
+    },
+    "angular-ui-router": {
+      "1.0.30": {
+        "hash": "sha512-8xMpxbOtCJbRnGR1fhbyZ5BhFXr3zs1L2ytXQiBACTJjot309QNFFCaWx0lDM2eVXp8qte4idigU9gwWdspmtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-1.0.30.tgz"
+      }
+    }
+  }
+}

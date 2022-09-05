@@ -1,0 +1,80 @@
+{
+  "_generic": {
+    "defaultPackage": "topojson",
+    "location": "",
+    "packages": {
+      "topojson": "3.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "topojson": {
+      "3.0.2": [
+        [ "topojson-client", "3.0.0" ],
+        [ "topojson-server", "3.0.0" ],
+        [ "topojson-simplify", "3.0.2" ]
+      ],
+      "unknown": [
+        [ "topojson", "3.0.2" ]
+      ]
+    },
+    "topojson-client": {
+      "3.0.0": [
+        [ "commander", "2.20.3" ]
+      ]
+    },
+    "topojson-server": {
+      "3.0.0": [
+        [ "commander", "2.20.3" ]
+      ]
+    },
+    "topojson-simplify": {
+      "3.0.2": [
+        [ "commander", "2.20.3" ],
+        [ "topojson-client", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "topojson": {
+      "3.0.2": {
+        "hash": "sha512-u3zeuL6WEVL0dmsRn7uHZKc4Ao4gpW3sORUv+N3ezLTvY3JdCuyg0hvpWiIfFw8p/JwVN++SvAsFgcFEeR15rQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/topojson/-/topojson-3.0.2.tgz"
+      }
+    },
+    "topojson-client": {
+      "3.0.0": {
+        "hash": "sha512-2phZ98wg/iKvsWxbB6JQcq0/N0f+sRx8ZogdvjCg+CjaJdmV0knP0OQwK5XbgnytAPx5lPZk41kiWpgH2w9FHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/topojson-client/-/topojson-client-3.0.0.tgz"
+      }
+    },
+    "topojson-server": {
+      "3.0.0": {
+        "hash": "sha512-UhhwQk4e2+lwhAVYkja3J5nQHQmKwORDuIQPkMnFFZFcLqWKLQWI3u7fZWtNIXTElBjTYdBUL1kzi1+oS/qDQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/topojson-server/-/topojson-server-3.0.0.tgz"
+      }
+    },
+    "topojson-simplify": {
+      "3.0.2": {
+        "hash": "sha512-gyYSVRt4jO/0RJXKZQPzTDQRWV+D/nOfiljNUv0HBXslFLtq3yxRHrl7jbrjdbda5Ytdr7M8BZUI4OxU7tnbRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/topojson-simplify/-/topojson-simplify-3.0.2.tgz"
+      }
+    }
+  }
+}

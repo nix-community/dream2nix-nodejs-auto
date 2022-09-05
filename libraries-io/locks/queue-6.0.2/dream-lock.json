@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "queue",
+    "location": "",
+    "packages": {
+      "queue": "6.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "queue": {
+      "6.0.2": [
+        [ "inherits", "2.0.4" ]
+      ],
+      "unknown": [
+        [ "queue", "6.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "inherits": {
+      "2.0.4": {
+        "hash": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+      }
+    },
+    "queue": {
+      "6.0.2": {
+        "hash": "sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/queue/-/queue-6.0.2.tgz"
+      }
+    }
+  }
+}

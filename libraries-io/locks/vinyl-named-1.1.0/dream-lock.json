@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "vinyl-named",
+    "location": "",
+    "packages": {
+      "vinyl-named": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "vinyl-named": {
+      "1.1.0": [
+        [ "through", "2.3.8" ]
+      ],
+      "unknown": [
+        [ "vinyl-named", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "through": {
+      "2.3.8": {
+        "hash": "sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
+      }
+    },
+    "vinyl-named": {
+      "1.1.0": {
+        "hash": "sha512-ElYBnsSw8Y1Hz11WPw0DFmi+TBNTEBhZ9zXaHluDSIZZnkFIGCjGRBpsW5QmbMMLwv+lRpUD3VbKdJCbNpct7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vinyl-named/-/vinyl-named-1.1.0.tgz"
+      }
+    }
+  }
+}

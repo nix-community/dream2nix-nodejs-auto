@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/query-string",
+    "location": "",
+    "packages": {
+      "@types/query-string": "6.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/query-string": {
+      "6.3.0": [
+        [ "query-string", "7.1.1" ]
+      ],
+      "unknown": [
+        [ "@types/query-string", "6.3.0" ]
+      ]
+    },
+    "query-string": {
+      "7.1.1": [
+        [ "decode-uri-component", "0.2.0" ],
+        [ "filter-obj", "1.1.0" ],
+        [ "split-on-first", "1.1.0" ],
+        [ "strict-uri-encode", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/query-string": {
+      "6.3.0": {
+        "hash": "sha512-yuIv/WRffRzL7cBW+sla4HwBZrEXRNf1MKQ5SklPEadth+BKbDxiVG8A3iISN5B3yC4EeSCzMZP8llHTcUhOzQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/query-string/-/query-string-6.3.0.tgz"
+      }
+    },
+    "decode-uri-component": {
+      "0.2.0": {
+        "hash": "sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+      }
+    },
+    "filter-obj": {
+      "1.1.0": {
+        "hash": "sha512-8rXg1ZnX7xzy2NGDVkBVaAy+lSlPNwad13BtgSlLuxfIslyt5Vg64U7tFcCt4WS1R0hvtnQybT/IyCkGZ3DpXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.1.0.tgz"
+      }
+    },
+    "query-string": {
+      "7.1.1": {
+        "hash": "sha512-MplouLRDHBZSG9z7fpuAAcI7aAYjDLhtsiVZsevsfaHWDS2IDdORKbSd1kWUA+V4zyva/HZoSfpwnYMMQDhb0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/query-string/-/query-string-7.1.1.tgz"
+      }
+    },
+    "split-on-first": {
+      "1.1.0": {
+        "hash": "sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/split-on-first/-/split-on-first-1.1.0.tgz"
+      }
+    },
+    "strict-uri-encode": {
+      "2.0.0": {
+        "hash": "sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz"
+      }
+    }
+  }
+}

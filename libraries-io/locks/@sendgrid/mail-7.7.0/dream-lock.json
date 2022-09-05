@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "@sendgrid/mail",
+    "location": "",
+    "packages": {
+      "@sendgrid/mail": "7.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@sendgrid/client": {
+      "7.7.0": [
+        [ "@sendgrid/helpers", "7.7.0" ],
+        [ "axios", "0.26.1" ]
+      ]
+    },
+    "@sendgrid/helpers": {
+      "7.7.0": [
+        [ "deepmerge", "4.2.2" ]
+      ]
+    },
+    "@sendgrid/mail": {
+      "7.7.0": [
+        [ "@sendgrid/client", "7.7.0" ],
+        [ "@sendgrid/helpers", "7.7.0" ]
+      ],
+      "unknown": [
+        [ "@sendgrid/mail", "7.7.0" ]
+      ]
+    },
+    "axios": {
+      "0.26.1": [
+        [ "follow-redirects", "1.15.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@sendgrid/client": {
+      "7.7.0": {
+        "hash": "sha512-SxH+y8jeAQSnDavrTD0uGDXYIIkFylCo+eDofVmZLQ0f862nnqbC3Vd1ej6b7Le7lboyzQF6F7Fodv02rYspuA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sendgrid/client/-/client-7.7.0.tgz"
+      }
+    },
+    "@sendgrid/helpers": {
+      "7.7.0": {
+        "hash": "sha512-3AsAxfN3GDBcXoZ/y1mzAAbKzTtUZ5+ZrHOmWQ279AuaFXUNCh9bPnRpN504bgveTqoW+11IzPg3I0WVgDINpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sendgrid/helpers/-/helpers-7.7.0.tgz"
+      }
+    },
+    "@sendgrid/mail": {
+      "7.7.0": {
+        "hash": "sha512-5+nApPE9wINBvHSUxwOxkkQqM/IAAaBYoP9hw7WwgDNQPxraruVqHizeTitVtKGiqWCKm2mnjh4XGN3fvFLqaw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sendgrid/mail/-/mail-7.7.0.tgz"
+      }
+    },
+    "axios": {
+      "0.26.1": {
+        "hash": "sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
+      }
+    },
+    "deepmerge": {
+      "4.2.2": {
+        "hash": "sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
+      }
+    },
+    "follow-redirects": {
+      "1.15.1": {
+        "hash": "sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.1.tgz"
+      }
+    }
+  }
+}

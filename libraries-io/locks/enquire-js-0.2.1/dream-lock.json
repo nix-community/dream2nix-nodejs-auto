@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "enquire-js",
+    "location": "",
+    "packages": {
+      "enquire-js": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "enquire-js": {
+      "0.2.1": [
+        [ "enquire.js", "2.1.6" ]
+      ],
+      "unknown": [
+        [ "enquire-js", "0.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "enquire-js": {
+      "0.2.1": {
+        "hash": "sha512-4vbcWD0ncK6VQ5M5giOImQb2hFPrKDZH5U+uRX9S6e9vfC6Q5PX6A38PVS6RMnCdr/luDTtJjjLuJinH/+a+Lw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/enquire-js/-/enquire-js-0.2.1.tgz"
+      }
+    },
+    "enquire.js": {
+      "2.1.6": {
+        "hash": "sha512-/KujNpO+PT63F7Hlpu4h3pE3TokKRHN26JYmQpPyjkRD/N57R7bPDNojMXdi7uveAKjYB7yQnartCxZnFWr0Xw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/enquire.js/-/enquire.js-2.1.6.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "underscore-plus",
+    "location": "",
+    "packages": {
+      "underscore-plus": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "underscore-plus": {
+      "1.7.0": [
+        [ "underscore", "1.13.4" ]
+      ],
+      "unknown": [
+        [ "underscore-plus", "1.7.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "underscore": {
+      "1.13.4": {
+        "hash": "sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.4.tgz"
+      }
+    },
+    "underscore-plus": {
+      "1.7.0": {
+        "hash": "sha512-A3BEzkeicFLnr+U/Q3EyWwJAQPbA19mtZZ4h+lLq3ttm9kn8WC4R3YpuJZEXmWdLjYP47Zc8aLZm9kwdv+zzvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore-plus/-/underscore-plus-1.7.0.tgz"
+      }
+    }
+  }
+}

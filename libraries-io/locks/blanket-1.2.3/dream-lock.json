@@ -1,0 +1,89 @@
+{
+  "_generic": {
+    "defaultPackage": "blanket",
+    "location": "",
+    "packages": {
+      "blanket": "1.2.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "blanket": {
+      "1.2.3": [
+        [ "acorn", "1.2.2" ],
+        [ "falafel", "1.2.0" ],
+        [ "foreach", "2.0.6" ],
+        [ "isarray", "0.0.1" ],
+        [ "object-keys", "1.1.1" ],
+        [ "xtend", "4.0.2" ]
+      ],
+      "unknown": [
+        [ "blanket", "1.2.3" ]
+      ]
+    },
+    "falafel": {
+      "1.2.0": [
+        [ "acorn", "1.2.2" ],
+        [ "foreach", "2.0.6" ],
+        [ "isarray", "0.0.1" ],
+        [ "object-keys", "1.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "acorn": {
+      "1.2.2": {
+        "hash": "sha512-FsqWmApWGMGLKKNpHt12PMc5AK7BaZee0WRh04fCysmTzHe+rrKOa2MKjORhnzfpe4r0JnfdqHn02iDA9Dqj2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/acorn/-/acorn-1.2.2.tgz"
+      }
+    },
+    "blanket": {
+      "1.2.3": {
+        "hash": "sha512-u0jo0RgUaVK45tEWOBq8BhexulW74S0NcGmmqTXRyCc3bSl76TQgk6+NP0/+EWvBVAMBMyd9AffGXKFWkN8Eww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/blanket/-/blanket-1.2.3.tgz"
+      }
+    },
+    "falafel": {
+      "1.2.0": {
+        "hash": "sha512-oKyHugGk3tYQcZmj3+J+0PlcU59JYOZL60Lr3dYwsLDDYYR/+GYvAhW5WO3NTfh2FJOcGRoXJxxtGpda1qE5Sg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/falafel/-/falafel-1.2.0.tgz"
+      }
+    },
+    "foreach": {
+      "2.0.6": {
+        "hash": "sha512-k6GAGDyqLe9JaebCsFCoudPPWfihKu8pylYXRlqP1J7ms39iPoTtk2fviNglIeQEwdh0bQeKJ01ZPyuyQvKzwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/foreach/-/foreach-2.0.6.tgz"
+      }
+    },
+    "isarray": {
+      "0.0.1": {
+        "hash": "sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+      }
+    },
+    "object-keys": {
+      "1.1.1": {
+        "hash": "sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz"
+      }
+    },
+    "xtend": {
+      "4.0.2": {
+        "hash": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
+      }
+    }
+  }
+}

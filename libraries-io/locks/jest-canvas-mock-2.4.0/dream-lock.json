@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "jest-canvas-mock",
+    "location": "",
+    "packages": {
+      "jest-canvas-mock": "2.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jest-canvas-mock": {
+      "2.4.0": [
+        [ "cssfontparser", "1.2.1" ],
+        [ "moo-color", "1.0.3" ]
+      ],
+      "unknown": [
+        [ "jest-canvas-mock", "2.4.0" ]
+      ]
+    },
+    "moo-color": {
+      "1.0.3": [
+        [ "color-name", "1.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "color-name": {
+      "1.1.4": {
+        "hash": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+      }
+    },
+    "cssfontparser": {
+      "1.2.1": {
+        "hash": "sha512-6tun4LoZnj7VN6YeegOVb67KBX/7JJsqvj+pv3ZA7F878/eN33AbGa5b/S/wXxS/tcp8nc40xRUrsPlxIyNUPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cssfontparser/-/cssfontparser-1.2.1.tgz"
+      }
+    },
+    "jest-canvas-mock": {
+      "2.4.0": {
+        "hash": "sha512-mmMpZzpmLzn5vepIaHk5HoH3Ka4WykbSoLuG/EKoJd0x0ID/t+INo1l8ByfcUJuDM+RIsL4QDg/gDnBbrj2/IQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-canvas-mock/-/jest-canvas-mock-2.4.0.tgz"
+      }
+    },
+    "moo-color": {
+      "1.0.3": {
+        "hash": "sha512-i/+ZKXMDf6aqYtBhuOcej71YSlbjT3wCO/4H1j8rPvxDJEifdwgg5MaFyu6iYAT8GBZJg2z0dkgK4YMzvURALQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moo-color/-/moo-color-1.0.3.tgz"
+      }
+    }
+  }
+}

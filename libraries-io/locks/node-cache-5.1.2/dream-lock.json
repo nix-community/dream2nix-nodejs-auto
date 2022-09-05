@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "node-cache",
+    "location": "",
+    "packages": {
+      "node-cache": "5.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node-cache": {
+      "5.1.2": [
+        [ "clone", "2.1.2" ]
+      ],
+      "unknown": [
+        [ "node-cache", "5.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "clone": {
+      "2.1.2": {
+        "hash": "sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clone/-/clone-2.1.2.tgz"
+      }
+    },
+    "node-cache": {
+      "5.1.2": {
+        "hash": "sha512-t1QzWwnk4sjLWaQAS8CHgOJ+RAfmHpxFWmc36IWTiWHQfs0w5JDMBS1b1ZxQteo0vVVuWJvIUKHDkkeK7vIGCg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-cache/-/node-cache-5.1.2.tgz"
+      }
+    }
+  }
+}

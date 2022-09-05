@@ -1,0 +1,114 @@
+{
+  "_generic": {
+    "defaultPackage": "babel-preset-react-optimize",
+    "location": "",
+    "packages": {
+      "babel-preset-react-optimize": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "babel-plugin-transform-react-constant-elements": {
+      "6.23.0": [
+        [ "babel-runtime", "6.26.0" ]
+      ]
+    },
+    "babel-plugin-transform-react-inline-elements": {
+      "6.22.0": [
+        [ "babel-runtime", "6.26.0" ]
+      ]
+    },
+    "babel-plugin-transform-react-pure-class-to-function": {
+      "1.0.1": [
+        [ "babel-helper-is-react-class", "1.0.0" ]
+      ]
+    },
+    "babel-preset-react-optimize": {
+      "1.0.1": [
+        [ "babel-plugin-transform-react-constant-elements", "6.23.0" ],
+        [ "babel-plugin-transform-react-inline-elements", "6.22.0" ],
+        [ "babel-plugin-transform-react-pure-class-to-function", "1.0.1" ],
+        [ "babel-plugin-transform-react-remove-prop-types", "0.2.12" ]
+      ],
+      "unknown": [
+        [ "babel-preset-react-optimize", "1.0.1" ]
+      ]
+    },
+    "babel-runtime": {
+      "6.26.0": [
+        [ "core-js", "2.6.12" ],
+        [ "regenerator-runtime", "0.11.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "babel-helper-is-react-class": {
+      "1.0.0": {
+        "hash": "sha512-9rulVgj7gg5/m33Z2zcYov042fe4WcNDGT52M0S5RjiNREg6Izreo/beEdAAiQTSnkb6/tzJ5c2cNaZN3fYHVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-helper-is-react-class/-/babel-helper-is-react-class-1.0.0.tgz"
+      }
+    },
+    "babel-plugin-transform-react-constant-elements": {
+      "6.23.0": {
+        "hash": "sha512-22TG15ONh0FWXj98Y5KOpMmEfDIMJa66rg58LzxssT0LUEFN8utkM1NmBEBx1WKkJFa6spK9aR4yLbDQntPxhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-react-constant-elements/-/babel-plugin-transform-react-constant-elements-6.23.0.tgz"
+      }
+    },
+    "babel-plugin-transform-react-inline-elements": {
+      "6.22.0": {
+        "hash": "sha512-+MtsC5c6n97B7+Ai76yJK9IZR/BLuTT5nljbNEC3iQ9ukaNOKqJG42WnOtLkVs6n52Tazpe7hwK0Ngn/2NoOYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-react-inline-elements/-/babel-plugin-transform-react-inline-elements-6.22.0.tgz"
+      }
+    },
+    "babel-plugin-transform-react-pure-class-to-function": {
+      "1.0.1": {
+        "hash": "sha512-gKq6ZjnblsWqlDazV8u3JU/gIovFa1XyCqwqJAfR+C/k1FiSYISKKI9L2bSYKOMX3Yn5QUKIVX23uE3kNTaQkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-react-pure-class-to-function/-/babel-plugin-transform-react-pure-class-to-function-1.0.1.tgz"
+      }
+    },
+    "babel-plugin-transform-react-remove-prop-types": {
+      "0.2.12": {
+        "hash": "sha512-vvo7Bj6fAcs41BegHABNBe4fDArkjwXkoGIwb77+WwCBxArPgYNDnaD3d3HdcNrP2F75oigEBEkPpAb5EMuaQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.2.12.tgz"
+      }
+    },
+    "babel-preset-react-optimize": {
+      "1.0.1": {
+        "hash": "sha512-tmB6WqvJ137CQ5a4c4tYHutAc05EQi0zr1hj55Lmqiseg6gYWrE4J5r55eRJkJNVVkjxpvIDkVbAcdSbT8b5Sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-preset-react-optimize/-/babel-preset-react-optimize-1.0.1.tgz"
+      }
+    },
+    "babel-runtime": {
+      "6.26.0": {
+        "hash": "sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz"
+      }
+    },
+    "core-js": {
+      "2.6.12": {
+        "hash": "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.11.1": {
+        "hash": "sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz"
+      }
+    }
+  }
+}

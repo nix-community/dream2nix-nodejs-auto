@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "concat",
+    "location": "",
+    "packages": {
+      "concat": "1.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "concat": {
+      "1.0.3": [
+        [ "commander", "2.20.3" ]
+      ],
+      "unknown": [
+        [ "concat", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "2.20.3": {
+        "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+      }
+    },
+    "concat": {
+      "1.0.3": {
+        "hash": "sha512-f/ZaH1aLe64qHgTILdldbvyfGiGF4uzeo9IuXUloIOLQzFmIPloy9QbZadNsuVv0j5qbKQvQb/H/UYf2UsKTpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/concat/-/concat-1.0.3.tgz"
+      }
+    }
+  }
+}

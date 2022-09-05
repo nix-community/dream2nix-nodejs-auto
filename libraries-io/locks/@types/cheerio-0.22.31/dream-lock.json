@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/cheerio",
+    "location": "",
+    "packages": {
+      "@types/cheerio": "0.22.31"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/cheerio": {
+      "0.22.31": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/cheerio", "0.22.31" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/cheerio": {
+      "0.22.31": {
+        "hash": "sha512-Kt7Cdjjdi2XWSfrZ53v4Of0wG3ZcmaegFXjMmz9tfNrZSkzzo36G0AL1YqSdcIA78Etjt6E609pt5h1xnQkPUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/cheerio/-/cheerio-0.22.31.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    }
+  }
+}

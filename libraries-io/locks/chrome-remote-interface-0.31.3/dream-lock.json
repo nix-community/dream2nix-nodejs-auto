@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "chrome-remote-interface",
+    "location": "",
+    "packages": {
+      "chrome-remote-interface": "0.31.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "chrome-remote-interface": {
+      "0.31.3": [
+        [ "commander", "2.11.0" ],
+        [ "ws", "7.5.9" ]
+      ],
+      "unknown": [
+        [ "chrome-remote-interface", "0.31.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "chrome-remote-interface": {
+      "0.31.3": {
+        "hash": "sha512-NTwb1YNPHXLTus1RjqsLxJmdViKwKJg/lrFEcM6pbyQy04Ow2QKWHXyPpxzwE+dFsJghWuvSAdTy4W0trluz1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/chrome-remote-interface/-/chrome-remote-interface-0.31.3.tgz"
+      }
+    },
+    "commander": {
+      "2.11.0": {
+        "hash": "sha512-b0553uYA5YAEGgyYIGYROzKQ7X5RAqedkfjiZxwi0kL1g3bOaBNNZfYkzt/CL0umgD5wc9Jec2FbB98CjkMRvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-2.11.0.tgz"
+      }
+    },
+    "ws": {
+      "7.5.9": {
+        "hash": "sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz"
+      }
+    }
+  }
+}

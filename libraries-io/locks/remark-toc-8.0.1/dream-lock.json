@@ -1,0 +1,229 @@
+{
+  "_generic": {
+    "defaultPackage": "remark-toc",
+    "location": "",
+    "packages": {
+      "remark-toc": "8.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/mdast": {
+      "3.0.10": [
+        [ "@types/unist", "2.0.6" ]
+      ]
+    },
+    "mdast-util-toc": {
+      "6.1.0": [
+        [ "@types/extend", "3.0.1" ],
+        [ "@types/github-slugger", "1.3.0" ],
+        [ "@types/mdast", "3.0.10" ],
+        [ "extend", "3.0.2" ],
+        [ "github-slugger", "1.4.0" ],
+        [ "mdast-util-to-string", "3.1.0" ],
+        [ "unist-util-is", "5.1.1" ],
+        [ "unist-util-visit", "3.1.0" ]
+      ]
+    },
+    "remark-toc": {
+      "8.0.1": [
+        [ "@types/mdast", "3.0.10" ],
+        [ "mdast-util-toc", "6.1.0" ],
+        [ "unified", "10.1.2" ]
+      ],
+      "unknown": [
+        [ "remark-toc", "8.0.1" ]
+      ]
+    },
+    "unified": {
+      "10.1.2": [
+        [ "@types/unist", "2.0.6" ],
+        [ "bail", "2.0.2" ],
+        [ "extend", "3.0.2" ],
+        [ "is-buffer", "2.0.5" ],
+        [ "is-plain-obj", "4.1.0" ],
+        [ "trough", "2.1.0" ],
+        [ "vfile", "5.3.4" ]
+      ]
+    },
+    "unist-util-stringify-position": {
+      "3.0.2": [
+        [ "@types/unist", "2.0.6" ]
+      ]
+    },
+    "unist-util-visit": {
+      "3.1.0": [
+        [ "@types/unist", "2.0.6" ],
+        [ "unist-util-is", "5.1.1" ],
+        [ "unist-util-visit-parents", "4.1.1" ]
+      ]
+    },
+    "unist-util-visit-parents": {
+      "4.1.1": [
+        [ "@types/unist", "2.0.6" ],
+        [ "unist-util-is", "5.1.1" ]
+      ]
+    },
+    "vfile": {
+      "5.3.4": [
+        [ "@types/unist", "2.0.6" ],
+        [ "is-buffer", "2.0.5" ],
+        [ "unist-util-stringify-position", "3.0.2" ],
+        [ "vfile-message", "3.1.2" ]
+      ]
+    },
+    "vfile-message": {
+      "3.1.2": [
+        [ "@types/unist", "2.0.6" ],
+        [ "unist-util-stringify-position", "3.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/extend": {
+      "3.0.1": {
+        "hash": "sha512-R1g/VyKFFI2HLC1QGAeTtCBWCo6n75l41OnsVYNbmKG+kempOESaodf6BeJyUM3Q0rKa/NQcTHbB2+66lNnxLw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/extend/-/extend-3.0.1.tgz"
+      }
+    },
+    "@types/github-slugger": {
+      "1.3.0": {
+        "hash": "sha512-J/rMZa7RqiH/rT29TEVZO4nBoDP9XJOjnbbIofg7GQKs4JIduEO3WLpte+6WeUz/TcrXKlY+bM7FYrp8yFB+3g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/github-slugger/-/github-slugger-1.3.0.tgz"
+      }
+    },
+    "@types/mdast": {
+      "3.0.10": {
+        "hash": "sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/mdast/-/mdast-3.0.10.tgz"
+      }
+    },
+    "@types/unist": {
+      "2.0.6": {
+        "hash": "sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"
+      }
+    },
+    "bail": {
+      "2.0.2": {
+        "hash": "sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bail/-/bail-2.0.2.tgz"
+      }
+    },
+    "extend": {
+      "3.0.2": {
+        "hash": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz"
+      }
+    },
+    "github-slugger": {
+      "1.4.0": {
+        "hash": "sha512-w0dzqw/nt51xMVmlaV1+JRzN+oCa1KfcgGEWhxUG16wbdA+Xnt/yoFO8Z8x/V82ZcZ0wy6ln9QDup5avbhiDhQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/github-slugger/-/github-slugger-1.4.0.tgz"
+      }
+    },
+    "is-buffer": {
+      "2.0.5": {
+        "hash": "sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz"
+      }
+    },
+    "is-plain-obj": {
+      "4.1.0": {
+        "hash": "sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz"
+      }
+    },
+    "mdast-util-to-string": {
+      "3.1.0": {
+        "hash": "sha512-n4Vypz/DZgwo0iMHLQL49dJzlp7YtAJP+N07MZHpjPf/5XJuHUWstviF4Mn2jEiR/GNmtnRRqnwsXExk3igfFA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-3.1.0.tgz"
+      }
+    },
+    "mdast-util-toc": {
+      "6.1.0": {
+        "hash": "sha512-0PuqZELXZl4ms1sF7Lqigrqik4Ll3UhbI+jdTrfw7pZ9QPawgl7LD4GQ8MkU7bT/EwiVqChNTbifa2jLLKo76A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mdast-util-toc/-/mdast-util-toc-6.1.0.tgz"
+      }
+    },
+    "remark-toc": {
+      "8.0.1": {
+        "hash": "sha512-7he2VOm/cy13zilnOTZcyAoyoolV26ULlon6XyCFU+vG54Z/LWJnwphj/xKIDLOt66QmJUgTyUvLVHi2aAElyg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/remark-toc/-/remark-toc-8.0.1.tgz"
+      }
+    },
+    "trough": {
+      "2.1.0": {
+        "hash": "sha512-AqTiAOLcj85xS7vQ8QkAV41hPDIJ71XJB4RCUrzo/1GM2CQwhkJGaf9Hgr7BOugMRpgGUrqRg/DrBDl4H40+8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/trough/-/trough-2.1.0.tgz"
+      }
+    },
+    "unified": {
+      "10.1.2": {
+        "hash": "sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unified/-/unified-10.1.2.tgz"
+      }
+    },
+    "unist-util-is": {
+      "5.1.1": {
+        "hash": "sha512-F5CZ68eYzuSvJjGhCLPL3cYx45IxkqXSetCcRgUXtbcm50X2L9oOWQlfUfDdAf+6Pd27YDblBfdtmsThXmwpbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-is/-/unist-util-is-5.1.1.tgz"
+      }
+    },
+    "unist-util-stringify-position": {
+      "3.0.2": {
+        "hash": "sha512-7A6eiDCs9UtjcwZOcCpM4aPII3bAAGv13E96IkawkOAW0OhH+yRxtY0lzo8KiHpzEMfH7Q+FizUmwp8Iqy5EWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-3.0.2.tgz"
+      }
+    },
+    "unist-util-visit": {
+      "3.1.0": {
+        "hash": "sha512-Szoh+R/Ll68QWAyQyZZpQzZQm2UPbxibDvaY8Xc9SUtYgPsDzx5AWSk++UUt2hJuow8mvwR+rG+LQLw+KsuAKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-3.1.0.tgz"
+      }
+    },
+    "unist-util-visit-parents": {
+      "4.1.1": {
+        "hash": "sha512-1xAFJXAKpnnJl8G7K5KgU7FY55y3GcLIXqkzUj5QF/QVP7biUm0K0O2oqVkYsdjzJKifYeWn9+o6piAK2hGSHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-4.1.1.tgz"
+      }
+    },
+    "vfile": {
+      "5.3.4": {
+        "hash": "sha512-KI+7cnst03KbEyN1+JE504zF5bJBZa+J+CrevLeyIMq0aPU681I2rQ5p4PlnQ6exFtWiUrg26QUdFMnAKR6PIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vfile/-/vfile-5.3.4.tgz"
+      }
+    },
+    "vfile-message": {
+      "3.1.2": {
+        "hash": "sha512-QjSNP6Yxzyycd4SVOtmKKyTsSvClqBPJcd00Z0zuPj3hOIjg0rUPG6DbFGPvUKRgYyaIWLPKpuEclcuvb3H8qA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vfile-message/-/vfile-message-3.1.2.tgz"
+      }
+    }
+  }
+}

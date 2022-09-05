@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/papaparse",
+    "location": "",
+    "packages": {
+      "@types/papaparse": "5.3.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/papaparse": {
+      "5.3.5": [
+        [ "@types/node", "18.7.15" ]
+      ],
+      "unknown": [
+        [ "@types/papaparse", "5.3.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.15": {
+        "hash": "sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz"
+      }
+    },
+    "@types/papaparse": {
+      "5.3.5": {
+        "hash": "sha512-R1icl/hrJPFRpuYj9PVG03WBAlghJj4JW9Py5QdR8FFSxaLmZRyu7xYDCCBZIJNfUv3MYaeBbhBoX958mUTAaw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/papaparse/-/papaparse-5.3.5.tgz"
+      }
+    }
+  }
+}

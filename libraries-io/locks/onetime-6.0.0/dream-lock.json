@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "onetime",
+    "location": "",
+    "packages": {
+      "onetime": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "onetime": {
+      "6.0.0": [
+        [ "mimic-fn", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "onetime", "6.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "mimic-fn": {
+      "4.0.0": {
+        "hash": "sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-4.0.0.tgz"
+      }
+    },
+    "onetime": {
+      "6.0.0": {
+        "hash": "sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/onetime/-/onetime-6.0.0.tgz"
+      }
+    }
+  }
+}

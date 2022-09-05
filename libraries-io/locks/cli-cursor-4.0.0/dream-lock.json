@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "cli-cursor",
+    "location": "",
+    "packages": {
+      "cli-cursor": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cli-cursor": {
+      "4.0.0": [
+        [ "restore-cursor", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "cli-cursor", "4.0.0" ]
+      ]
+    },
+    "onetime": {
+      "5.1.2": [
+        [ "mimic-fn", "2.1.0" ]
+      ]
+    },
+    "restore-cursor": {
+      "4.0.0": [
+        [ "onetime", "5.1.2" ],
+        [ "signal-exit", "3.0.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "cli-cursor": {
+      "4.0.0": {
+        "hash": "sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cli-cursor/-/cli-cursor-4.0.0.tgz"
+      }
+    },
+    "mimic-fn": {
+      "2.1.0": {
+        "hash": "sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
+      }
+    },
+    "onetime": {
+      "5.1.2": {
+        "hash": "sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz"
+      }
+    },
+    "restore-cursor": {
+      "4.0.0": {
+        "hash": "sha512-I9fPXU9geO9bHOt9pHHOhOkYerIMsmVaWB0rA2AI9ERh/+x/i7MV5HKBNrg+ljO5eoPVgCcnFuRjJ9uH6I/3eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/restore-cursor/-/restore-cursor-4.0.0.tgz"
+      }
+    },
+    "signal-exit": {
+      "3.0.7": {
+        "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
+      }
+    }
+  }
+}

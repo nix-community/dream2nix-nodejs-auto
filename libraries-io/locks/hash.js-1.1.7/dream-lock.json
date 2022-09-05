@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "hash.js",
+    "location": "",
+    "packages": {
+      "hash.js": "1.1.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hash.js": {
+      "1.1.7": [
+        [ "inherits", "2.0.4" ],
+        [ "minimalistic-assert", "1.0.1" ]
+      ],
+      "unknown": [
+        [ "hash.js", "1.1.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "hash.js": {
+      "1.1.7": {
+        "hash": "sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz"
+      }
+    },
+    "inherits": {
+      "2.0.4": {
+        "hash": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+      }
+    },
+    "minimalistic-assert": {
+      "1.0.1": {
+        "hash": "sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
+      }
+    }
+  }
+}

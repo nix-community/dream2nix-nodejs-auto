@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/lodash.camelcase",
+    "location": "",
+    "packages": {
+      "@types/lodash.camelcase": "4.3.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/lodash.camelcase": {
+      "4.3.7": [
+        [ "@types/lodash", "4.14.184" ]
+      ],
+      "unknown": [
+        [ "@types/lodash.camelcase", "4.3.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/lodash": {
+      "4.14.184": {
+        "hash": "sha512-RoZphVtHbxPZizt4IcILciSWiC6dcn+eZ8oX9IWEYfDMcocdd42f7NPI6fQj+6zI8y4E0L7gu2pcZKLGTRaV9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.184.tgz"
+      }
+    },
+    "@types/lodash.camelcase": {
+      "4.3.7": {
+        "hash": "sha512-Nfi6jpo9vuEOSIJP+mpbTezKyEt75DQlbwjiDvs/JctWkbnHDoyQo5lWqdvgNiJmVUjcmkfvlrvSEgJYvurOKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/lodash.camelcase/-/lodash.camelcase-4.3.7.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "@ionic-native/status-bar",
+    "location": "",
+    "packages": {
+      "@ionic-native/status-bar": "5.36.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@ionic-native/core": {
+      "5.36.0": [
+        [ "@types/cordova", "0.0.34" ]
+      ]
+    },
+    "@ionic-native/status-bar": {
+      "5.36.0": [
+        [ "@types/cordova", "0.0.34" ]
+      ],
+      "unknown": [
+        [ "@ionic-native/status-bar", "5.36.0" ]
+      ]
+    },
+    "rxjs": {
+      "6.6.7": [
+        [ "tslib", "1.14.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ionic-native/core": {
+      "5.36.0": {
+        "hash": "sha512-lOrkktadlKYbYf1LrDyAtsu1JnQ0oCCdkOU7iHQ8oXnNOkMwobFfD2m62F1CoOr0u9LIkpYnZSPjng8lZbmbNw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ionic-native/core/-/core-5.36.0.tgz"
+      }
+    },
+    "@ionic-native/status-bar": {
+      "5.36.0": {
+        "hash": "sha512-OXC1z+4Iba4lo1dc2+0h4Gvpud3z0XQmEbw0ny9UflCuSkLqBxvmiNRU7CRQwPnT1KaGVXkaSokdwxO8H9IlNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ionic-native/status-bar/-/status-bar-5.36.0.tgz"
+      }
+    },
+    "@types/cordova": {
+      "0.0.34": {
+        "hash": "sha512-rkiiTuf/z2wTd4RxFOb+clE7PF4AEJU0hsczbUdkHHBtkUmpWQpEddynNfJYKYtZFJKbq4F+brfekt1kx85IZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/cordova/-/cordova-0.0.34.tgz"
+      }
+    },
+    "rxjs": {
+      "6.6.7": {
+        "hash": "sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    }
+  }
+}

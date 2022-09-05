@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "read-chunk",
+    "location": "",
+    "packages": {
+      "read-chunk": "4.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "read-chunk": {
+      "4.0.3": [
+        [ "pify", "5.0.0" ]
+      ],
+      "unknown": [
+        [ "read-chunk", "4.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "pify": {
+      "5.0.0": {
+        "hash": "sha512-eW/gHNMlxdSP6dmG6uJip6FXN0EQBwm2clYYd8Wul42Cwu/DK8HEftzsapcNdYe2MfLiIwZqsDk2RDEsTE79hA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pify/-/pify-5.0.0.tgz"
+      }
+    },
+    "read-chunk": {
+      "4.0.3": {
+        "hash": "sha512-wOYymxRWkxn3MlStSt7LxrMLRvynHKjzHVQPTCBbT29ViUwsT3EE09dE5iMDDGYQTL/s5TQZvBLuJTeZFeGQ4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/read-chunk/-/read-chunk-4.0.3.tgz"
+      }
+    }
+  }
+}

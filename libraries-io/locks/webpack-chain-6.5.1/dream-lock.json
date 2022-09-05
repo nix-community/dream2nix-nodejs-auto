@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "webpack-chain",
+    "location": "",
+    "packages": {
+      "webpack-chain": "6.5.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "webpack-chain": {
+      "6.5.1": [
+        [ "deepmerge", "1.5.2" ],
+        [ "javascript-stringify", "2.1.0" ]
+      ],
+      "unknown": [
+        [ "webpack-chain", "6.5.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "deepmerge": {
+      "1.5.2": {
+        "hash": "sha512-95k0GDqvBjZavkuvzx/YqVLv/6YYa17fz6ILMSf7neqQITCPbnfEnQvEgMPNjH4kgobe7+WIL0yJEHku+H3qtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deepmerge/-/deepmerge-1.5.2.tgz"
+      }
+    },
+    "javascript-stringify": {
+      "2.1.0": {
+        "hash": "sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/javascript-stringify/-/javascript-stringify-2.1.0.tgz"
+      }
+    },
+    "webpack-chain": {
+      "6.5.1": {
+        "hash": "sha512-7doO/SRtLu8q5WM0s7vPKPWX580qhi0/yBHkOxNkv50f6qB76Zy9o2wRTrrPULqYTvQlVHuvbA8v+G5ayuUDsA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webpack-chain/-/webpack-chain-6.5.1.tgz"
+      }
+    }
+  }
+}
