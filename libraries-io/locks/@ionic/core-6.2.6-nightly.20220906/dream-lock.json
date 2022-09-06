@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "@ionic/core",
+    "location": "",
+    "packages": {
+      "@ionic/core": "6.2.6-nightly.20220906"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@ionic/core": {
+      "6.2.6-nightly.20220906": [
+        [ "@stencil/core", "2.17.4" ],
+        [ "ionicons", "6.0.3" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@ionic/core", "6.2.6-nightly.20220906" ]
+      ]
+    },
+    "ionicons": {
+      "6.0.3": [
+        [ "@stencil/core", "2.16.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ionic/core": {
+      "6.2.6-nightly.20220906": {
+        "hash": "sha512-OaH1B91nFVL7z3w0GUbjMYGMtq0dsKDPUJKPRBnWT3tBs7Y5HF/zCwi1QfouZaxVtdbkzxEcMSuPm+qCr4t/bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ionic/core/-/core-6.2.6-nightly.20220906.tgz"
+      }
+    },
+    "@stencil/core": {
+      "2.16.1": {
+        "hash": "sha512-s/UJp9qxExL3DyQPT70kiuWeb3AdjbUZM+5lEIXn30I2DLcLYPOPXfsoWJODieQywq+3vPiLZeIdkoqjf6jcSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@stencil/core/-/core-2.16.1.tgz"
+      },
+      "2.17.4": {
+        "hash": "sha512-SGRlHpjV1RyFvzw6jFMVKpLNox9Eds3VvpbpD2SW9CuxdLonHDSFtQks5zmT4zs1Rse9I6kFc2mFK/dHNTalkg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@stencil/core/-/core-2.17.4.tgz"
+      }
+    },
+    "ionicons": {
+      "6.0.3": {
+        "hash": "sha512-kVOWER991EMqLiVShrCSWKMHkgHZP7XfVdyN6YPMuoO33W7pc5CPNVNfR8OMe/I8rYEbaunyBs6dXNYpR6gGZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ionicons/-/ionicons-6.0.3.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

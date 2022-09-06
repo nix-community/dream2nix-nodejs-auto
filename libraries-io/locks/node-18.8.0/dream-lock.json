@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "node",
+    "location": "",
+    "packages": {
+      "node": "18.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "node": {
+      "18.8.0": [
+        [ "node-bin-setup", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "node", "18.8.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "node": {
+      "18.8.0": {
+        "hash": "sha512-4HfBoHqqzAZwP5D7lZk5R1K0IPQMa9ZNb62BtAFLTEY5YleMF3qK5zJwlyDfBG+zafeg8jToOu3gTC++ubOCfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node/-/node-18.8.0.tgz"
+      }
+    },
+    "node-bin-setup": {
+      "1.1.0": {
+        "hash": "sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.1.0.tgz"
+      }
+    }
+  }
+}

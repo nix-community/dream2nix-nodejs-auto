@@ -40,13 +40,13 @@
   },
   "dependencies": {
     "@babel/runtime": {
-      "7.18.9": [
+      "7.19.0": [
         [ "regenerator-runtime", "0.13.9" ]
       ]
     },
     "@polkadot/api": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/api-augment", "9.3.2" ],
         [ "@polkadot/api-base", "9.3.2" ],
         [ "@polkadot/api-derive", "9.3.2" ],
@@ -70,7 +70,7 @@
     },
     "@polkadot/api-augment": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/api-base", "9.3.2" ],
         [ "@polkadot/rpc-augment", "9.3.2" ],
         [ "@polkadot/types", "9.3.2" ],
@@ -81,7 +81,7 @@
     },
     "@polkadot/api-base": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/rpc-core", "9.3.2" ],
         [ "@polkadot/types", "9.3.2" ],
         [ "@polkadot/util", "10.1.7" ],
@@ -90,7 +90,7 @@
     },
     "@polkadot/api-derive": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/api", "9.3.2" ],
         [ "@polkadot/api-augment", "9.3.2" ],
         [ "@polkadot/api-base", "9.3.2" ],
@@ -104,21 +104,21 @@
     },
     "@polkadot/keyring": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/util", "10.1.7" ],
         [ "@polkadot/util-crypto", "10.1.7" ]
       ]
     },
     "@polkadot/networks": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/util", "10.1.7" ],
         [ "@substrate/ss58-registry", "1.28.0" ]
       ]
     },
     "@polkadot/rpc-augment": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/rpc-core", "9.3.2" ],
         [ "@polkadot/types", "9.3.2" ],
         [ "@polkadot/types-codec", "9.3.2" ],
@@ -127,7 +127,7 @@
     },
     "@polkadot/rpc-core": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/rpc-augment", "9.3.2" ],
         [ "@polkadot/rpc-provider", "9.3.2" ],
         [ "@polkadot/types", "9.3.2" ],
@@ -137,7 +137,7 @@
     },
     "@polkadot/rpc-provider": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/keyring", "10.1.7" ],
         [ "@polkadot/types", "9.3.2" ],
         [ "@polkadot/types-support", "9.3.2" ],
@@ -154,7 +154,7 @@
     },
     "@polkadot/types": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/keyring", "10.1.7" ],
         [ "@polkadot/types-augment", "9.3.2" ],
         [ "@polkadot/types-codec", "9.3.2" ],
@@ -166,7 +166,7 @@
     },
     "@polkadot/types-augment": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/types", "9.3.2" ],
         [ "@polkadot/types-codec", "9.3.2" ],
         [ "@polkadot/util", "10.1.7" ]
@@ -174,21 +174,21 @@
     },
     "@polkadot/types-codec": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/util", "10.1.7" ],
         [ "@polkadot/x-bigint", "10.1.7" ]
       ]
     },
     "@polkadot/types-create": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/types-codec", "9.3.2" ],
         [ "@polkadot/util", "10.1.7" ]
       ]
     },
     "@polkadot/types-known": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/networks", "10.1.7" ],
         [ "@polkadot/types", "9.3.2" ],
         [ "@polkadot/types-codec", "9.3.2" ],
@@ -198,13 +198,13 @@
     },
     "@polkadot/types-support": {
       "9.3.2": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/util", "10.1.7" ]
       ]
     },
     "@polkadot/util": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-bigint", "10.1.7" ],
         [ "@polkadot/x-global", "10.1.7" ],
         [ "@polkadot/x-textdecoder", "10.1.7" ],
@@ -215,7 +215,7 @@
     },
     "@polkadot/util-crypto": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@noble/hashes", "1.1.2" ],
         [ "@noble/secp256k1", "1.6.3" ],
         [ "@polkadot/networks", "10.1.7" ],
@@ -230,12 +230,12 @@
     },
     "@polkadot/wasm-bridge": {
       "6.3.1": [
-        [ "@babel/runtime", "7.18.9" ]
+        [ "@babel/runtime", "7.19.0" ]
       ]
     },
     "@polkadot/wasm-crypto": {
       "6.3.1": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/wasm-bridge", "6.3.1" ],
         [ "@polkadot/wasm-crypto-asmjs", "6.3.1" ],
         [ "@polkadot/wasm-crypto-init", "6.3.1" ],
@@ -245,12 +245,12 @@
     },
     "@polkadot/wasm-crypto-asmjs": {
       "6.3.1": [
-        [ "@babel/runtime", "7.18.9" ]
+        [ "@babel/runtime", "7.19.0" ]
       ]
     },
     "@polkadot/wasm-crypto-init": {
       "6.3.1": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/wasm-bridge", "6.3.1" ],
         [ "@polkadot/wasm-crypto-asmjs", "6.3.1" ],
         [ "@polkadot/wasm-crypto-wasm", "6.3.1" ]
@@ -258,24 +258,24 @@
     },
     "@polkadot/wasm-crypto-wasm": {
       "6.3.1": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/wasm-util", "6.3.1" ]
       ]
     },
     "@polkadot/wasm-util": {
       "6.3.1": [
-        [ "@babel/runtime", "7.18.9" ]
+        [ "@babel/runtime", "7.19.0" ]
       ]
     },
     "@polkadot/x-bigint": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-global", "10.1.7" ]
       ]
     },
     "@polkadot/x-fetch": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-global", "10.1.7" ],
         [ "@types/node-fetch", "2.6.2" ],
         [ "node-fetch", "3.2.10" ]
@@ -283,30 +283,30 @@
     },
     "@polkadot/x-global": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ]
+        [ "@babel/runtime", "7.19.0" ]
       ]
     },
     "@polkadot/x-randomvalues": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-global", "10.1.7" ]
       ]
     },
     "@polkadot/x-textdecoder": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-global", "10.1.7" ]
       ]
     },
     "@polkadot/x-textencoder": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-global", "10.1.7" ]
       ]
     },
     "@polkadot/x-ws": {
       "10.1.7": [
-        [ "@babel/runtime", "7.18.9" ],
+        [ "@babel/runtime", "7.19.0" ],
         [ "@polkadot/x-global", "10.1.7" ],
         [ "@types/websocket", "1.0.5" ],
         [ "websocket", "1.0.34" ]
@@ -461,10 +461,10 @@
   },
   "sources": {
     "@babel/runtime": {
-      "7.18.9": {
-        "hash": "sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==",
+      "7.19.0": {
+        "hash": "sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.18.9.tgz"
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.0.tgz"
       }
     },
     "@noble/hashes": {
