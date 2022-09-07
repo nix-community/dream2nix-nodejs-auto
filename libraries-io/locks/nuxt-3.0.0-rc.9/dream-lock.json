@@ -13,7 +13,7 @@
   },
   "cyclicDependencies": {
     "pkg-types": {
-      "0.3.4": [
+      "0.3.5": [
         [ "mlly", "0.5.14" ]
       ]
     }
@@ -230,7 +230,7 @@
       ]
     },
     "@mapbox/node-pre-gyp": {
-      "1.0.9": [
+      "1.0.10": [
         [ "detect-libc", "2.0.1" ],
         [ "https-proxy-agent", "5.0.1" ],
         [ "make-dir", "3.1.0" ],
@@ -262,18 +262,18 @@
     "@nuxt/kit": {
       "3.0.0-rc.9": [
         [ "@nuxt/schema", "3.0.0-rc.9" ],
-        [ "c12", "0.2.10" ],
+        [ "c12", "0.2.11" ],
         [ "consola", "2.15.3" ],
         [ "defu", "6.1.0" ],
         [ "globby", "13.1.2" ],
         [ "hash-sum", "2.0.0" ],
         [ "ignore", "5.2.0" ],
-        [ "jiti", "1.14.0" ],
+        [ "jiti", "1.15.0" ],
         [ "knitwork", "0.1.2" ],
         [ "lodash.template", "4.5.0" ],
         [ "mlly", "0.5.14" ],
-        [ "pathe", "0.3.5" ],
-        [ "pkg-types", "0.3.4" ],
+        [ "pathe", "0.3.7" ],
+        [ "pkg-types", "0.3.5" ],
         [ "scule", "0.3.2" ],
         [ "semver", "7.3.7" ],
         [ "unctx", "2.0.2" ],
@@ -283,11 +283,11 @@
     },
     "@nuxt/schema": {
       "3.0.0-rc.9": [
-        [ "c12", "0.2.10" ],
+        [ "c12", "0.2.11" ],
         [ "create-require", "1.1.1" ],
         [ "defu", "6.1.0" ],
-        [ "jiti", "1.14.0" ],
-        [ "pathe", "0.3.5" ],
+        [ "jiti", "1.15.0" ],
+        [ "pathe", "0.3.7" ],
         [ "postcss-import-resolver", "2.0.0" ],
         [ "scule", "0.3.2" ],
         [ "std-env", "3.2.1" ],
@@ -309,7 +309,7 @@
         [ "git-url-parse", "13.0.0" ],
         [ "inquirer", "9.1.1" ],
         [ "is-docker", "3.0.0" ],
-        [ "jiti", "1.14.0" ],
+        [ "jiti", "1.15.0" ],
         [ "mri", "1.2.0" ],
         [ "nanoid", "4.0.0" ],
         [ "node-fetch", "3.2.10" ],
@@ -340,9 +340,9 @@
         [ "magic-string", "0.26.3" ],
         [ "mlly", "0.5.14" ],
         [ "ohash", "0.1.5" ],
-        [ "pathe", "0.3.5" ],
+        [ "pathe", "0.3.7" ],
         [ "perfect-debounce", "0.1.3" ],
-        [ "pkg-types", "0.3.4" ],
+        [ "pkg-types", "0.3.5" ],
         [ "postcss", "8.4.16" ],
         [ "postcss-import", "15.0.0" ],
         [ "postcss-url", "10.1.3" ],
@@ -418,7 +418,7 @@
     },
     "@vercel/nft": {
       "0.22.1": [
-        [ "@mapbox/node-pre-gyp", "1.0.9" ],
+        [ "@mapbox/node-pre-gyp", "1.0.10" ],
         [ "acorn", "8.8.0" ],
         [ "async-sema", "3.1.1" ],
         [ "bindings", "1.5.0" ],
@@ -637,13 +637,14 @@
       ]
     },
     "c12": {
-      "0.2.10": [
+      "0.2.11": [
         [ "defu", "6.1.0" ],
         [ "dotenv", "16.0.2" ],
         [ "gittar", "0.1.1" ],
-        [ "jiti", "1.14.0" ],
+        [ "jiti", "1.15.0" ],
         [ "mlly", "0.5.14" ],
-        [ "pathe", "0.3.5" ],
+        [ "pathe", "0.3.7" ],
+        [ "pkg-types", "0.3.5" ],
         [ "rc9", "1.2.2" ]
       ]
     },
@@ -926,7 +927,7 @@
       "0.2.2": [
         [ "enhanced-resolve", "5.10.0" ],
         [ "mlly", "0.5.14" ],
-        [ "pathe", "0.3.5" ],
+        [ "pathe", "0.3.7" ],
         [ "ufo", "0.8.5" ]
       ]
     },
@@ -1183,7 +1184,7 @@
         [ "defu", "6.1.0" ],
         [ "get-port-please", "2.6.1" ],
         [ "http-shutdown", "1.2.2" ],
-        [ "selfsigned", "2.0.1" ],
+        [ "selfsigned", "2.1.1" ],
         [ "ufo", "0.8.5" ]
       ]
     },
@@ -1271,8 +1272,8 @@
     "mlly": {
       "0.5.14": [
         [ "acorn", "8.8.0" ],
-        [ "pathe", "0.3.5" ],
-        [ "pkg-types", "0.3.4" ],
+        [ "pathe", "0.3.7" ],
+        [ "pkg-types", "0.3.5" ],
         [ "ufo", "0.8.5" ]
       ]
     },
@@ -1290,7 +1291,7 @@
         [ "@rollup/pluginutils", "4.2.1" ],
         [ "@vercel/nft", "0.22.1" ],
         [ "archiver", "5.3.1" ],
-        [ "c12", "0.2.10" ],
+        [ "c12", "0.2.11" ],
         [ "chalk", "5.0.1" ],
         [ "chokidar", "3.5.3" ],
         [ "consola", "2.15.3" ],
@@ -1308,7 +1309,7 @@
         [ "hookable", "5.3.0" ],
         [ "http-proxy", "1.18.1" ],
         [ "is-primitive", "3.0.1" ],
-        [ "jiti", "1.14.0" ],
+        [ "jiti", "1.15.0" ],
         [ "klona", "2.0.5" ],
         [ "knitwork", "0.1.2" ],
         [ "listhen", "0.2.15" ],
@@ -1318,9 +1319,9 @@
         [ "node-fetch-native", "0.1.4" ],
         [ "ohash", "0.1.5" ],
         [ "ohmyfetch", "0.4.18" ],
-        [ "pathe", "0.3.5" ],
+        [ "pathe", "0.3.7" ],
         [ "perfect-debounce", "0.1.3" ],
-        [ "pkg-types", "0.3.4" ],
+        [ "pkg-types", "0.3.5" ],
         [ "pretty-bytes", "6.0.0" ],
         [ "radix3", "0.1.2" ],
         [ "rollup", "2.79.0" ],
@@ -1404,7 +1405,7 @@
         [ "nuxi", "3.0.0-rc.9" ],
         [ "ohash", "0.1.5" ],
         [ "ohmyfetch", "0.4.18" ],
-        [ "pathe", "0.3.5" ],
+        [ "pathe", "0.3.7" ],
         [ "perfect-debounce", "0.1.3" ],
         [ "scule", "0.3.2" ],
         [ "strip-literal", "0.4.0" ],
@@ -1483,10 +1484,10 @@
       ]
     },
     "pkg-types": {
-      "0.3.4": [
+      "0.3.5": [
         [ "jsonc-parser", "3.2.0" ],
         [ "mlly", "0.5.14" ],
-        [ "pathe", "0.3.5" ]
+        [ "pathe", "0.3.7" ]
       ]
     },
     "postcss": {
@@ -1756,7 +1757,7 @@
       ]
     },
     "selfsigned": {
-      "2.0.1": [
+      "2.1.1": [
         [ "node-forge", "1.3.1" ]
       ]
     },
@@ -1928,7 +1929,7 @@
         [ "defu", "6.1.0" ],
         [ "mime", "3.0.0" ],
         [ "node-fetch-native", "0.1.4" ],
-        [ "pathe", "0.3.5" ]
+        [ "pathe", "0.3.7" ]
       ]
     },
     "unimport": {
@@ -1939,7 +1940,7 @@
         [ "local-pkg", "0.4.2" ],
         [ "magic-string", "0.26.3" ],
         [ "mlly", "0.5.14" ],
-        [ "pathe", "0.3.5" ],
+        [ "pathe", "0.3.7" ],
         [ "scule", "0.3.2" ],
         [ "strip-literal", "0.4.0" ],
         [ "unplugin", "0.9.5" ]
@@ -2417,10 +2418,10 @@
       }
     },
     "@mapbox/node-pre-gyp": {
-      "1.0.9": {
-        "hash": "sha512-aDF3S3rK9Q2gey/WAttUlISduDItz5BU3306M9Eyv6/oS40aMprnopshtlKTykxRNIBEZuRMaZAnbrQ4QtKGyw==",
+      "1.0.10": {
+        "hash": "sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.9.tgz"
+        "url": "https://registry.npmjs.org/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz"
       }
     },
     "@netlify/functions": {
@@ -2933,10 +2934,10 @@
       }
     },
     "c12": {
-      "0.2.10": {
-        "hash": "sha512-9QcNp918N40QCLHymuzxlVSR/S5ef79vbuODSrIbOUQRGPqWivPf5UUbpL0KRvBn3S2wtszP37Ee8VMTO+s3cQ==",
+      "0.2.11": {
+        "hash": "sha512-DOy85AO8HN66IgqCDUmMrLb+r4/z8f8Cu8oUIfERbzi/vxZ/GS99SU7lIMz0EQgJktZp6FtcisuiyCdQ6VaTTQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/c12/-/c12-0.2.10.tgz"
+        "url": "https://registry.npmjs.org/c12/-/c12-0.2.11.tgz"
       }
     },
     "camelcase": {
@@ -4362,10 +4363,10 @@
       }
     },
     "jiti": {
-      "1.14.0": {
-        "hash": "sha512-4IwstlaKQc9vCTC+qUXLM1hajy2ImiL9KnLvVYiaHOtS/v3wRjhLlGl121AmgDgx/O43uKmxownJghS5XMya2A==",
+      "1.15.0": {
+        "hash": "sha512-cClBkETOCVIpPMjX3ULlivuBvmt8l2Xtz+SHrULO06OqdtV0QFR2cuhc4FJnXByjUUX4CY0pl1nph0aFh9D3yA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/jiti/-/jiti-1.14.0.tgz"
+        "url": "https://registry.npmjs.org/jiti/-/jiti-1.15.0.tgz"
       }
     },
     "js-tokens": {
@@ -4987,10 +4988,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/pathe/-/pathe-0.2.0.tgz"
       },
-      "0.3.5": {
-        "hash": "sha512-grU/QeYP0ChuE5kjU2/k8VtAeODzbernHlue0gTa27+ayGIu3wqYBIPGfP9r5xSqgCgDd4nWrjKXEfxMillByg==",
+      "0.3.7": {
+        "hash": "sha512-yz7GK+kSsS27x727jtXpd5VT4dDfP/JDIQmaowfxyWCnFjOWtE1VIh7i6TzcSfzW0n4+bRQztj1VdKnITNq/MA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/pathe/-/pathe-0.3.5.tgz"
+        "url": "https://registry.npmjs.org/pathe/-/pathe-0.3.7.tgz"
       }
     },
     "perfect-debounce": {
@@ -5022,10 +5023,10 @@
       }
     },
     "pkg-types": {
-      "0.3.4": {
-        "hash": "sha512-s214f/xkRpwlwVBToWq9Mu0XlU3HhZMYCnr2var8+jjbavBHh/VCh4pBLsJW29rJ//B1jb4HlpMIaNIMH+W2/w==",
+      "0.3.5": {
+        "hash": "sha512-VkxCBFVgQhNHYk9subx+HOhZ4jzynH11ah63LZsprTKwPCWG9pfWBlkElWFbvkP9BVR0dP1jS9xPdhaHQNK74Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/pkg-types/-/pkg-types-0.3.4.tgz"
+        "url": "https://registry.npmjs.org/pkg-types/-/pkg-types-0.3.5.tgz"
       }
     },
     "postcss": {
@@ -5499,10 +5500,10 @@
       }
     },
     "selfsigned": {
-      "2.0.1": {
-        "hash": "sha512-LmME957M1zOsUhG+67rAjKfiWFox3SBxE/yymatMZsAx+oMrJ0YQ8AToOnyCm7xbeg2ep37IHLxdu0o2MavQOQ==",
+      "2.1.1": {
+        "hash": "sha512-GSL3aowiF7wa/WtSFwnUrludWFoNhftq8bUkH9pkzjpN2XSPOAYEgg6e0sS9s0rZwgJzJiQRPU18A6clnoW5wQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/selfsigned/-/selfsigned-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/selfsigned/-/selfsigned-2.1.1.tgz"
       }
     },
     "semver": {
