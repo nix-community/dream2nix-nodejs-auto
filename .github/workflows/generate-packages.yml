@@ -30,5 +30,6 @@ jobs:
       run: |
         git config --local user.email "${{ github.actor }}@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        nix flake lock --update-input dream2nix
         nix run .#ci-job-all
         git push --set-upstream origin data

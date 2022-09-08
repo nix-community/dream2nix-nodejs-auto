@@ -2,21 +2,21 @@ name: "Build Packages"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
 
 env:
   API_KEY: ${{ secrets.LIBRARIES_IO_API_KEY }}
-  JOBS: 10
+  JOBS: 5
 
 jobs:
-  regenerate-index:
+  build-packages:
     runs-on: ubuntu-latest
     steps:
 
     - name: Checkout repo
       uses: actions/checkout@v3
       with:
-        ref: main
+        ref: data
         fetch-depth: 1
 
     - name: Install nix
@@ -26,9 +26,12 @@ jobs:
           experimental-features = nix-command flakes
           max-jobs = 10
 
-    - name: Index and Translate
+    - name: Eval and Build Packages
       run: |
         git config --local user.email "${{ github.actor }}@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        nix run .#ci-job-all
+        nix flake lock --update-input dream2nix
+        nix run .#build-all
+        git add ./errors.json ./stats.json
+        git commit -m "eval and build - $(date --rfc-3339=seconds)"
         git push --set-upstream origin data
