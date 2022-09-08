@@ -1,0 +1,79 @@
+{
+  "_generic": {
+    "defaultPackage": "mobx-react",
+    "location": "",
+    "packages": {
+      "mobx-react": "7.5.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "mobx-react": {
+      "7.5.3": [
+        [ "mobx-react-lite", "3.4.0" ]
+      ],
+      "unknown": [
+        [ "mobx-react", "7.5.3" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "mobx": {
+      "6.6.2": {
+        "hash": "sha512-IOpS0bf3+hXIhDIy+CmlNMBfFpAbHS0aVHcNC+xH/TFYEKIIVDKNYRh9eKlXuVfJ1iRKAp0cRVmO145CyJAMVQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mobx/-/mobx-6.6.2.tgz"
+      }
+    },
+    "mobx-react": {
+      "7.5.3": {
+        "hash": "sha512-+ltotliKt4Bjn3d8taZH/VFAcRUbaASvsM8/QSvmHXcZ++RZwaFtjl9JkIosy1byaJGEDS3EFFx2InRm2VaSUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mobx-react/-/mobx-react-7.5.3.tgz"
+      }
+    },
+    "mobx-react-lite": {
+      "3.4.0": {
+        "hash": "sha512-bRuZp3C0itgLKHu/VNxi66DN/XVkQG7xtoBVWxpvC5FhAqbOCP21+nPhULjnzEqd7xBMybp6KwytdUpZKEgpIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mobx-react-lite/-/mobx-react-lite-3.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    }
+  }
+}

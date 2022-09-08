@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "scheduler",
+    "location": "",
+    "packages": {
+      "scheduler": "0.0.0-experimental-7028ce745-20220907"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "scheduler": {
+      "0.0.0-experimental-7028ce745-20220907": [
+        [ "loose-envify", "1.4.0" ]
+      ],
+      "unknown": [
+        [ "scheduler", "0.0.0-experimental-7028ce745-20220907" ]
+      ]
+    }
+  },
+  "sources": {
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "scheduler": {
+      "0.0.0-experimental-7028ce745-20220907": {
+        "hash": "sha512-vmk4QI8sXQYFk7rtB9omwlsyNOhdsai4BKvud+XE+CfZuI5iTV+Nzj2EQq19PcfS7cmf1UOQ83wgv4yGgsefUQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.0.0-experimental-7028ce745-20220907.tgz"
+      }
+    }
+  }
+}

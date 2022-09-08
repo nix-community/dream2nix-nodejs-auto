@@ -14,16 +14,16 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@aws-crypto/ie11-detection": {
-      "2.0.0": [
+      "2.0.2": [
         [ "tslib", "1.14.1" ]
       ]
     },
     "@aws-crypto/sha256-browser": {
       "2.0.0": [
-        [ "@aws-crypto/ie11-detection", "2.0.0" ],
+        [ "@aws-crypto/ie11-detection", "2.0.2" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
-        [ "@aws-crypto/supports-web-crypto", "2.0.0" ],
-        [ "@aws-crypto/util", "2.0.1" ],
+        [ "@aws-crypto/supports-web-crypto", "2.0.2" ],
+        [ "@aws-crypto/util", "2.0.2" ],
         [ "@aws-sdk/types", "3.162.0" ],
         [ "@aws-sdk/util-locate-window", "3.55.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.109.0" ],
@@ -32,18 +32,18 @@
     },
     "@aws-crypto/sha256-js": {
       "2.0.0": [
-        [ "@aws-crypto/util", "2.0.1" ],
+        [ "@aws-crypto/util", "2.0.2" ],
         [ "@aws-sdk/types", "3.162.0" ],
         [ "tslib", "1.14.1" ]
       ]
     },
     "@aws-crypto/supports-web-crypto": {
-      "2.0.0": [
+      "2.0.2": [
         [ "tslib", "1.14.1" ]
       ]
     },
     "@aws-crypto/util": {
-      "2.0.1": [
+      "2.0.2": [
         [ "@aws-sdk/types", "3.162.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.109.0" ],
         [ "tslib", "1.14.1" ]
@@ -478,10 +478,10 @@
   },
   "sources": {
     "@aws-crypto/ie11-detection": {
-      "2.0.0": {
-        "hash": "sha512-pkVXf/dq6PITJ0jzYZ69VhL8VFOFoPZLZqtU/12SGnzYuJOOGNfF41q9GxdI1yqC8R13Rq3jOLKDFpUJFT5eTA==",
+      "2.0.2": {
+        "hash": "sha512-5XDMQY98gMAf/WRTic5G++jfmS/VLM0rwpiOpaainKi4L0nqWMSB1SzsrEG5rjFZGYN6ZAefO+/Yta2dFM0kMw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-crypto/ie11-detection/-/ie11-detection-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-crypto/ie11-detection/-/ie11-detection-2.0.2.tgz"
       }
     },
     "@aws-crypto/sha256-browser": {
@@ -499,17 +499,17 @@
       }
     },
     "@aws-crypto/supports-web-crypto": {
-      "2.0.0": {
-        "hash": "sha512-Ge7WQ3E0OC7FHYprsZV3h0QIcpdyJLvIeg+uTuHqRYm8D6qCFJoiC+edSzSyFiHtZf+NOQDJ1q46qxjtzIY2nA==",
+      "2.0.2": {
+        "hash": "sha512-6mbSsLHwZ99CTOOswvCRP3C+VCWnzBf+1SnbWxzzJ9lR0mA0JnY2JEAhp8rqmTE0GPFy88rrM27ffgp62oErMQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-crypto/supports-web-crypto/-/supports-web-crypto-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-crypto/supports-web-crypto/-/supports-web-crypto-2.0.2.tgz"
       }
     },
     "@aws-crypto/util": {
-      "2.0.1": {
-        "hash": "sha512-JJmFFwvbm08lULw4Nm5QOLg8+lAQeC8aCXK5xrtxntYzYXCGfHwUJ4Is3770Q7HmICsXthGQ+ZsDL7C2uH3yBQ==",
+      "2.0.2": {
+        "hash": "sha512-Lgu5v/0e/BcrZ5m/IWqzPUf3UYFTy/PpeED+uc9SWUR1iZQL8XXbGQg10UfllwwBryO3hFF5dizK+78aoXC1eA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-crypto/util/-/util-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/@aws-crypto/util/-/util-2.0.2.tgz"
       }
     },
     "@aws-sdk/abort-controller": {
