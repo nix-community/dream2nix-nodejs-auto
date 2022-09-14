@@ -1,0 +1,80 @@
+{
+  "_generic": {
+    "defaultPackage": "prosemirror-view",
+    "location": "",
+    "packages": {
+      "prosemirror-view": "1.28.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prosemirror-model": {
+      "1.18.1": [
+        [ "orderedmap", "2.0.0" ]
+      ]
+    },
+    "prosemirror-state": {
+      "1.4.1": [
+        [ "prosemirror-model", "1.18.1" ],
+        [ "prosemirror-transform", "1.7.0" ]
+      ]
+    },
+    "prosemirror-transform": {
+      "1.7.0": [
+        [ "prosemirror-model", "1.18.1" ]
+      ]
+    },
+    "prosemirror-view": {
+      "1.28.0": [
+        [ "prosemirror-model", "1.18.1" ],
+        [ "prosemirror-state", "1.4.1" ],
+        [ "prosemirror-transform", "1.7.0" ]
+      ],
+      "unknown": [
+        [ "prosemirror-view", "1.28.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "orderedmap": {
+      "2.0.0": {
+        "hash": "sha512-buf4PoAMlh45b8a8gsGy/X6w279TSqkyAS0C0wdTSJwFSU+ljQFJON5I8NfjLHoCXwpSROIo2wr0g33T+kQshQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/orderedmap/-/orderedmap-2.0.0.tgz"
+      }
+    },
+    "prosemirror-model": {
+      "1.18.1": {
+        "hash": "sha512-IxSVBKAEMjD7s3n8cgtwMlxAXZrC7Mlag7zYsAKDndAqnDScvSmp/UdnRTV/B33lTCVU3CCm7dyAn/rVVD0mcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prosemirror-model/-/prosemirror-model-1.18.1.tgz"
+      }
+    },
+    "prosemirror-state": {
+      "1.4.1": {
+        "hash": "sha512-U/LBDW2gNmVa07sz/D229XigSdDQ5CLFwVB1Vb32MJbAHHhWe/6pOc721faI17tqw4pZ49i1xfY/jEZ9tbIhPg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prosemirror-state/-/prosemirror-state-1.4.1.tgz"
+      }
+    },
+    "prosemirror-transform": {
+      "1.7.0": {
+        "hash": "sha512-O4T697Cqilw06Zvc3Wm+e237R6eZtJL/xGMliCi+Uo8VL6qHk6afz1qq0zNjT3eZMuYwnP8ZS0+YxX/tfcE9TQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prosemirror-transform/-/prosemirror-transform-1.7.0.tgz"
+      }
+    },
+    "prosemirror-view": {
+      "1.28.0": {
+        "hash": "sha512-cmFK9osE7WAQptye6o/I5LjURZkSF4z3H7+LZmQtpJDZ9x4X/Z9v85oOeDvfRiX/J2rsaRYbEkWWbu3l9eBsdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prosemirror-view/-/prosemirror-view-1.28.0.tgz"
+      }
+    }
+  }
+}

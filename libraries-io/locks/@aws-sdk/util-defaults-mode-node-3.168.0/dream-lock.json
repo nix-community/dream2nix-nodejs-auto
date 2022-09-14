@@ -1,0 +1,229 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-defaults-mode-node",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-defaults-mode-node": "3.168.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/config-resolver": {
+      "3.168.0": [
+        [ "@aws-sdk/signature-v4", "3.168.0" ],
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "@aws-sdk/util-config-provider", "3.168.0" ],
+        [ "@aws-sdk/util-middleware", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/credential-provider-imds": {
+      "3.168.0": [
+        [ "@aws-sdk/node-config-provider", "3.168.0" ],
+        [ "@aws-sdk/property-provider", "3.168.0" ],
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "@aws-sdk/url-parser", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/is-array-buffer": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/node-config-provider": {
+      "3.168.0": [
+        [ "@aws-sdk/property-provider", "3.168.0" ],
+        [ "@aws-sdk/shared-ini-file-loader", "3.168.0" ],
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/property-provider": {
+      "3.168.0": [
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/querystring-parser": {
+      "3.168.0": [
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/shared-ini-file-loader": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/signature-v4": {
+      "3.168.0": [
+        [ "@aws-sdk/is-array-buffer", "3.168.0" ],
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "@aws-sdk/util-hex-encoding", "3.168.0" ],
+        [ "@aws-sdk/util-middleware", "3.168.0" ],
+        [ "@aws-sdk/util-uri-escape", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/url-parser": {
+      "3.168.0": [
+        [ "@aws-sdk/querystring-parser", "3.168.0" ],
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-config-provider": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-defaults-mode-node": {
+      "3.168.0": [
+        [ "@aws-sdk/config-resolver", "3.168.0" ],
+        [ "@aws-sdk/credential-provider-imds", "3.168.0" ],
+        [ "@aws-sdk/node-config-provider", "3.168.0" ],
+        [ "@aws-sdk/property-provider", "3.168.0" ],
+        [ "@aws-sdk/types", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-defaults-mode-node", "3.168.0" ]
+      ]
+    },
+    "@aws-sdk/util-hex-encoding": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-middleware": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-uri-escape": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/config-resolver": {
+      "3.168.0": {
+        "hash": "sha512-eSGHsa5kDIpBtBr1HhM9n0Deb+uSyr5pvk39WPFf5CTGvIqe52Fg9s1/Jz54rDwlgsfPzufX7TrCXgUhMwb8+w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/config-resolver/-/config-resolver-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/credential-provider-imds": {
+      "3.168.0": {
+        "hash": "sha512-Ua2zTmo0eep/fGh3SL9W0ERlGRkEAiP2IEC63QbRZKK+5Xg6RIgqij7hQHvKLY78zBDd7exnU9W1AMnt9lOd1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-imds/-/credential-provider-imds-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/is-array-buffer": {
+      "3.168.0": {
+        "hash": "sha512-Zvt8a/g1UfvwmhxOnt/hDrFprC3+DQivFQGnzwBpv+ZyM1BfdgAruAkUZF+GtXI22DXZUumBrposCH1CcgjeIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/is-array-buffer/-/is-array-buffer-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/node-config-provider": {
+      "3.168.0": {
+        "hash": "sha512-8su32ifopNLb835NudTdxyv4fQ+7Eie17MjbqnvOeWmjFAgzJyIVJjyvMI+N8Gu3dDCTxSbBh3hl++VOzL+oXg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/node-config-provider/-/node-config-provider-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/property-provider": {
+      "3.168.0": {
+        "hash": "sha512-syvXTexP2t9HQY3dsfpPgUP5GjFcpBVzPfxd8GjLWFRcqBCQ5frdetkAfvnhPpytL/stauXuT1xv6jcN1vBAZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/property-provider/-/property-provider-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/querystring-parser": {
+      "3.168.0": {
+        "hash": "sha512-O82vxPyoLRuqcCFxAQYuvDwOdMOaQ/hqlaC8Tw6qNE3wpJ1296M51Zgb7lPfIlSxzAc96H//Q+d1t5MViK2SFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/querystring-parser/-/querystring-parser-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/shared-ini-file-loader": {
+      "3.168.0": {
+        "hash": "sha512-K97HWEySV6HJC4CLyimVuqit4FILW4BtTU62jCaEwoPvg1XPAolCzzWfLClJ0GWfyf32+o30wJj8SgHuIuN2Qw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/shared-ini-file-loader/-/shared-ini-file-loader-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/signature-v4": {
+      "3.168.0": {
+        "hash": "sha512-jb98UrZ4d07Wr1mUVDY1HRlbEOVoPFZ38e4k20AUEXybxhsvlQhfAfaDITFg3UwMO978m4VAsjpzw8h8WGsNQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/signature-v4/-/signature-v4-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.168.0": {
+        "hash": "sha512-J9VmQAakmqrdYKt3N0T/zQR6ZkfvQ7Y3WufjEWRTdslYcQ9f7UyI93Q21baCHvgcp3E5c4w62x18o6mEA/cHPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/url-parser": {
+      "3.168.0": {
+        "hash": "sha512-spFHA6NpsmAF3NCYyljjvl7uavHRvFDCNN32ce9RuRUXXuK8emAtwzXW95OUqtgCcyyKIA5p5p+gujrT7Npmeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/url-parser/-/url-parser-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-config-provider": {
+      "3.168.0": {
+        "hash": "sha512-4AyBOlV2w8fqQ1Os9khnjrsAogBN7ou0bRS1Q34Y9zwtFL+T+xhHO0pp9+Yfw+E6s2Uy3DZWbq8PWyBZze6nuw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-config-provider/-/util-config-provider-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-defaults-mode-node": {
+      "3.168.0": {
+        "hash": "sha512-462U5waEl495rP0WaKHXS6rrKHusMMBYvHzMzD3/gpSEwMZti0ZWLzhHNRcWp7d3uRVVdAsjF4UM6QwhJrScmA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-defaults-mode-node/-/util-defaults-mode-node-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-hex-encoding": {
+      "3.168.0": {
+        "hash": "sha512-KmJkd0eKXGd2z5h2N0yV6WUBqulwumq2eppv6pYrVfyQc0bBwSOYRG0NcXDvQB7rd+spbQjgbeqrHnsk34fQbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-hex-encoding/-/util-hex-encoding-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-middleware": {
+      "3.168.0": {
+        "hash": "sha512-PInwsmxfXj4HhZytF5kZP6BYJ3mVW2QTzxSnKobkIfRnZHwBEGL74voaArfbbAfqvxzptDY6x4vo4N5Mo7M4hA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-middleware/-/util-middleware-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-uri-escape": {
+      "3.168.0": {
+        "hash": "sha512-EnNdhxRif4B4PM+CQcq+2s+dRiYVBPMZHZepq6W/eSOvZfW/T8BvDjUzRW9NjGV/Ld3XKk6dMuoWmBKt7J6I7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-uri-escape/-/util-uri-escape-3.168.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

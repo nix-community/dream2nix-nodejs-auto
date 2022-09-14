@@ -14,7 +14,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@eslint/eslintrc": {
-      "1.3.1": [
+      "1.3.2": [
         [ "ajv", "6.12.6" ],
         [ "debug", "4.3.4" ],
         [ "espree", "9.4.0" ],
@@ -103,8 +103,8 @@
       ]
     },
     "eslint": {
-      "8.23.0": [
-        [ "@eslint/eslintrc", "1.3.1" ],
+      "8.23.1": [
+        [ "@eslint/eslintrc", "1.3.2" ],
         [ "@humanwhocodes/config-array", "0.10.4" ],
         [ "@humanwhocodes/gitignore-to-minimatch", "1.0.2" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
@@ -123,7 +123,6 @@
         [ "fast-deep-equal", "3.1.3" ],
         [ "file-entry-cache", "6.0.1" ],
         [ "find-up", "5.0.0" ],
-        [ "functional-red-black-tree", "1.0.1" ],
         [ "glob-parent", "6.0.2" ],
         [ "globals", "13.17.0" ],
         [ "globby", "11.1.0" ],
@@ -132,6 +131,7 @@
         [ "import-fresh", "3.3.0" ],
         [ "imurmurhash", "0.1.4" ],
         [ "is-glob", "4.0.3" ],
+        [ "js-sdsl", "4.1.4" ],
         [ "js-yaml", "4.1.0" ],
         [ "json-stable-stringify-without-jsonify", "1.0.1" ],
         [ "levn", "0.4.1" ],
@@ -179,7 +179,7 @@
       ]
     },
     "fast-glob": {
-      "3.2.11": [
+      "3.2.12": [
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
         [ "glob-parent", "5.1.2" ],
@@ -241,7 +241,7 @@
       "11.1.0": [
         [ "array-union", "2.1.0" ],
         [ "dir-glob", "3.0.1" ],
-        [ "fast-glob", "3.2.11" ],
+        [ "fast-glob", "3.2.12" ],
         [ "ignore", "5.2.0" ],
         [ "merge2", "1.4.1" ],
         [ "slash", "3.0.0" ]
@@ -369,10 +369,10 @@
   },
   "sources": {
     "@eslint/eslintrc": {
-      "1.3.1": {
-        "hash": "sha512-OhSY22oQQdw3zgPOOwdoj01l/Dzl1Z+xyUP33tkSN+aqyEhymJCcPHyXt+ylW8FSe0TfRC2VG+ROQOapD0aZSQ==",
+      "1.3.2": {
+        "hash": "sha512-AXYd23w1S/bv3fTs3Lz0vjiYemS08jWkI3hYyS9I1ry+0f+Yjs1wm+sU0BS8qDOPrBIkp4qHYC16I8uVtpLajQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.1.tgz"
+        "url": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.2.tgz"
       }
     },
     "@humanwhocodes/config-array": {
@@ -572,10 +572,10 @@
       }
     },
     "eslint": {
-      "8.23.0": {
-        "hash": "sha512-pBG/XOn0MsJcKcTRLr27S5HpzQo4kLr+HjLQIyK4EiCsijDl/TB+h5uEuJU6bQ8Edvwz1XWOjpaP2qgnXGpTcA==",
+      "8.23.1": {
+        "hash": "sha512-w7C1IXCc6fNqjpuYd0yPlcTKKmHlHHktRkzmBPZ+7cvNBQuiNjx0xaMTjAJGCafJhQkrFJooREv0CtrVzmHwqg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint/-/eslint-8.23.0.tgz"
+        "url": "https://registry.npmjs.org/eslint/-/eslint-8.23.1.tgz"
       }
     },
     "eslint-plugin-no-null": {
@@ -654,10 +654,10 @@
       }
     },
     "fast-glob": {
-      "3.2.11": {
-        "hash": "sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==",
+      "3.2.12": {
+        "hash": "sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz"
+        "url": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz"
       }
     },
     "fast-json-stable-stringify": {
@@ -721,13 +721,6 @@
         "hash": "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==",
         "type": "http",
         "url": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
-      }
-    },
-    "functional-red-black-tree": {
-      "1.0.1": {
-        "hash": "sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
       }
     },
     "glob": {
@@ -838,6 +831,13 @@
         "hash": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
         "type": "http",
         "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+      }
+    },
+    "js-sdsl": {
+      "4.1.4": {
+        "hash": "sha512-Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.1.4.tgz"
       }
     },
     "js-yaml": {

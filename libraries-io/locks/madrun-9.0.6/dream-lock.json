@@ -179,7 +179,7 @@
     },
     "@putout/cli-keypress": {
       "1.0.0": [
-        [ "ci-info", "3.3.2" ],
+        [ "ci-info", "3.4.0" ],
         [ "fullstore", "3.0.0" ]
       ]
     },
@@ -201,7 +201,7 @@
       ]
     },
     "@putout/compare": {
-      "9.2.1": [
+      "9.3.0": [
         [ "@babel/traverse", "7.19.0" ],
         [ "@babel/types", "7.19.0" ],
         [ "@putout/engine-parser", "5.2.0" ],
@@ -228,8 +228,8 @@
         [ "@babel/parser", "7.19.0" ],
         [ "@babel/template", "7.18.10" ],
         [ "@babel/types", "7.19.0" ],
-        [ "@putout/recast", "1.7.1" ],
-        [ "estree-to-babel", "5.0.0" ],
+        [ "@putout/recast", "1.8.1" ],
+        [ "estree-to-babel", "5.0.1" ],
         [ "nano-memoize", "1.3.0" ],
         [ "once", "1.4.0" ],
         [ "try-catch", "3.0.1" ]
@@ -248,7 +248,7 @@
       "14.0.1": [
         [ "@babel/traverse", "7.19.0" ],
         [ "@babel/types", "7.19.0" ],
-        [ "@putout/compare", "9.2.1" ],
+        [ "@putout/compare", "9.3.0" ],
         [ "@putout/engine-parser", "5.2.0" ],
         [ "@putout/operate", "8.4.0" ],
         [ "debug", "4.3.4" ],
@@ -322,13 +322,13 @@
     "@putout/operator-add-args": {
       "3.1.0": [
         [ "@babel/types", "7.19.0" ],
-        [ "@putout/compare", "9.2.1" ],
+        [ "@putout/compare", "9.3.0" ],
         [ "@putout/engine-parser", "5.2.0" ]
       ]
     },
     "@putout/operator-declare": {
       "4.6.1": [
-        [ "@putout/compare", "9.2.1" ],
+        [ "@putout/compare", "9.3.0" ],
         [ "@putout/operate", "8.4.0" ]
       ]
     },
@@ -409,7 +409,7 @@
       ]
     },
     "@putout/recast": {
-      "1.7.1": [
+      "1.8.1": [
         [ "ast-types", "0.15.2" ],
         [ "esprima", "4.0.1" ],
         [ "source-map", "0.6.1" ],
@@ -420,7 +420,7 @@
       "5.0.0": [
         [ "@babel/traverse", "7.19.0" ],
         [ "@babel/types", "7.19.0" ],
-        [ "@putout/compare", "9.2.1" ]
+        [ "@putout/compare", "9.3.0" ]
       ]
     },
     "@types/debug": {
@@ -482,10 +482,10 @@
     },
     "browserslist": {
       "4.21.3": [
-        [ "caniuse-lite", "1.0.30001393" ],
-        [ "electron-to-chromium", "1.4.244" ],
+        [ "caniuse-lite", "1.0.30001399" ],
+        [ "electron-to-chromium", "1.4.249" ],
         [ "node-releases", "2.0.6" ],
-        [ "update-browserslist-db", "1.0.7" ]
+        [ "update-browserslist-db", "1.0.9" ]
       ]
     },
     "camelcase-keys": {
@@ -565,13 +565,13 @@
       ]
     },
     "estree-to-babel": {
-      "5.0.0": [
+      "5.0.1": [
         [ "@babel/traverse", "7.19.0" ],
         [ "@babel/types", "7.19.0" ]
       ]
     },
     "fast-glob": {
-      "3.2.11": [
+      "3.2.12": [
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
         [ "glob-parent", "5.1.2" ],
@@ -657,7 +657,7 @@
       "11.1.0": [
         [ "array-union", "2.1.0" ],
         [ "dir-glob", "3.0.1" ],
-        [ "fast-glob", "3.2.11" ],
+        [ "fast-glob", "3.2.12" ],
         [ "ignore", "5.2.0" ],
         [ "merge2", "1.4.1" ],
         [ "slash", "3.0.0" ]
@@ -746,7 +746,7 @@
         [ "mapsome", "1.0.0" ],
         [ "montag", "1.2.1" ],
         [ "once", "1.4.0" ],
-        [ "putout", "27.7.0" ],
+        [ "putout", "27.8.0" ],
         [ "try-catch", "3.0.1" ],
         [ "try-to-catch", "3.0.1" ],
         [ "yargs-parser", "21.1.1" ]
@@ -1059,7 +1059,7 @@
       ]
     },
     "putout": {
-      "27.7.0": [
+      "27.8.0": [
         [ "@babel/code-frame", "7.18.6" ],
         [ "@babel/traverse", "7.19.0" ],
         [ "@babel/types", "7.19.0" ],
@@ -1068,7 +1068,7 @@
         [ "@putout/cli-match", "1.0.1" ],
         [ "@putout/cli-ruler", "2.0.0" ],
         [ "@putout/cli-validate-args", "1.1.1" ],
-        [ "@putout/compare", "9.2.1" ],
+        [ "@putout/compare", "9.3.0" ],
         [ "@putout/engine-loader", "7.1.1" ],
         [ "@putout/engine-parser", "5.2.0" ],
         [ "@putout/engine-processor", "6.1.0" ],
@@ -1151,7 +1151,7 @@
         [ "@putout/plugin-remove-duplicate-case", "2.0.0" ],
         [ "@putout/plugin-remove-duplicate-keys", "3.0.0" ],
         [ "@putout/plugin-remove-empty", "9.1.0" ],
-        [ "@putout/plugin-remove-iife", "1.1.0" ],
+        [ "@putout/plugin-remove-iife", "2.1.0" ],
         [ "@putout/plugin-remove-nested-blocks", "6.3.0" ],
         [ "@putout/plugin-remove-unreachable-code", "1.2.0" ],
         [ "@putout/plugin-remove-unreferenced-variables", "2.2.0" ],
@@ -1199,11 +1199,11 @@
         [ "@putout/traverse", "5.0.0" ],
         [ "ajv", "8.11.0" ],
         [ "chalk", "4.1.2" ],
-        [ "ci-info", "3.3.2" ],
+        [ "ci-info", "3.4.0" ],
         [ "debug", "4.3.4" ],
         [ "deepmerge", "4.2.2" ],
         [ "escalade", "3.1.1" ],
-        [ "fast-glob", "3.2.11" ],
+        [ "fast-glob", "3.2.12" ],
         [ "find-up", "6.3.0" ],
         [ "fullstore", "3.0.0" ],
         [ "ignore", "5.2.0" ],
@@ -1375,7 +1375,7 @@
         [ "mdast-comment-marker", "2.1.0" ],
         [ "unified", "10.1.2" ],
         [ "unified-message-control", "4.0.0" ],
-        [ "vfile", "5.3.4" ]
+        [ "vfile", "5.3.5" ]
       ]
     },
     "remark-parse": {
@@ -1500,7 +1500,7 @@
         [ "cosmiconfig", "7.0.1" ],
         [ "css-functions-list", "3.1.0" ],
         [ "debug", "4.3.4" ],
-        [ "fast-glob", "3.2.11" ],
+        [ "fast-glob", "3.2.12" ],
         [ "fastest-levenshtein", "1.0.16" ],
         [ "file-entry-cache", "6.0.1" ],
         [ "global-modules", "2.0.0" ],
@@ -1575,7 +1575,7 @@
         [ "is-buffer", "2.0.5" ],
         [ "is-plain-obj", "4.1.0" ],
         [ "trough", "2.1.0" ],
-        [ "vfile", "5.3.4" ]
+        [ "vfile", "5.3.5" ]
       ]
     },
     "unified-lint-rule": {
@@ -1583,7 +1583,7 @@
         [ "@types/unist", "2.0.6" ],
         [ "trough", "2.1.0" ],
         [ "unified", "10.1.2" ],
-        [ "vfile", "5.3.4" ]
+        [ "vfile", "5.3.5" ]
       ]
     },
     "unified-message-control": {
@@ -1591,7 +1591,7 @@
         [ "@types/unist", "2.0.6" ],
         [ "unist-util-is", "5.1.1" ],
         [ "unist-util-visit", "3.1.0" ],
-        [ "vfile", "5.3.4" ],
+        [ "vfile", "5.3.5" ],
         [ "vfile-location", "4.0.1" ],
         [ "vfile-message", "3.1.2" ]
       ]
@@ -1629,7 +1629,7 @@
       ]
     },
     "update-browserslist-db": {
-      "1.0.7": [
+      "1.0.9": [
         [ "escalade", "3.1.1" ],
         [ "picocolors", "1.0.0" ]
       ]
@@ -1654,7 +1654,7 @@
       ]
     },
     "vfile": {
-      "5.3.4": [
+      "5.3.5": [
         [ "@types/unist", "2.0.6" ],
         [ "is-buffer", "2.0.5" ],
         [ "unist-util-stringify-position", "3.0.2" ],
@@ -1664,7 +1664,7 @@
     "vfile-location": {
       "4.0.1": [
         [ "@types/unist", "2.0.6" ],
-        [ "vfile", "5.3.4" ]
+        [ "vfile", "5.3.5" ]
       ]
     },
     "vfile-message": {
@@ -1944,10 +1944,10 @@
       }
     },
     "@putout/compare": {
-      "9.2.1": {
-        "hash": "sha512-1sSSCLqsL9wcX6AQa+0GFpHFLrnOB48iLsyTCJkfHo1pP5kkXoiB3ciuuttFqoGSGFJaDVunmtOX4VJzi1R4gw==",
+      "9.3.0": {
+        "hash": "sha512-Pp23YypQRGtIq7dIfBG1yQI9IjBOQun1xiATOqYR9JAi1brb4HEDdG5LTNlKOQKB94oRYQ9hzu5fh2OFQnhWMA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/compare/-/compare-9.2.1.tgz"
+        "url": "https://registry.npmjs.org/@putout/compare/-/compare-9.3.0.tgz"
       }
     },
     "@putout/engine-loader": {
@@ -2525,10 +2525,10 @@
       }
     },
     "@putout/plugin-remove-iife": {
-      "1.1.0": {
-        "hash": "sha512-c39o/CxBS7KQBEppiGNhtf82HmvCI4jSrZqDMC8XhG34tidcpGf17mOEPv9OSrKLjBqZXEvnEPvlg6gF0F+v7w==",
+      "2.1.0": {
+        "hash": "sha512-Gkggeu/P2bz97fw9wLxNSUL7f/Y1XukwPDSNBsJ2bbYNoPA/bIlDPD3EaokXlTAgQ8tWfhXvNawu47pK5gxcEg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/plugin-remove-iife/-/plugin-remove-iife-1.1.0.tgz"
+        "url": "https://registry.npmjs.org/@putout/plugin-remove-iife/-/plugin-remove-iife-2.1.0.tgz"
       }
     },
     "@putout/plugin-remove-nested-blocks": {
@@ -2840,10 +2840,10 @@
       }
     },
     "@putout/recast": {
-      "1.7.1": {
-        "hash": "sha512-Uo78TtEcJOtl580QPpprCsFbYCrf4T85AnK+gMbPYnllJo6t+b45PqSTe1L5zhJI/d/8O1xwGiGw4H10PntY5g==",
+      "1.8.1": {
+        "hash": "sha512-rauXbNvPQSqzyvg9i/sHNBuLvm67TsJ6ww8kBUHO40GmOj9CP5S3ABN1rs0LNpUKfPk48gN1JErc6+Y76uxUpw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/recast/-/recast-1.7.1.tgz"
+        "url": "https://registry.npmjs.org/@putout/recast/-/recast-1.8.1.tgz"
       }
     },
     "@putout/traverse": {
@@ -3053,10 +3053,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001393": {
-        "hash": "sha512-N/od11RX+Gsk+1qY/jbPa0R6zJupEa0lxeBG598EbrtblxVCTJsQwbRBm6+V+rxpc5lHKdsXb9RY83cZIPLseA==",
+      "1.0.30001399": {
+        "hash": "sha512-4vQ90tMKS+FkvuVWS5/QY1+d805ODxZiKFzsU8o/RsVJz49ZSRR8EjykLJbqhzdPgadbX6wB538wOzle3JniRA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001393.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001399.tgz"
       }
     },
     "chalk": {
@@ -3079,10 +3079,10 @@
       }
     },
     "ci-info": {
-      "3.3.2": {
-        "hash": "sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg==",
+      "3.4.0": {
+        "hash": "sha512-t5QdPT5jq3o262DOQ8zA6E1tlH2upmUc4Hlvrbx1pGYJuiiHl7O7rvVNI+l8HTVhd/q3Qc9vqimkNk5yiXsAug==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ci-info/-/ci-info-3.3.2.tgz"
+        "url": "https://registry.npmjs.org/ci-info/-/ci-info-3.4.0.tgz"
       }
     },
     "clean-git-ref": {
@@ -3264,10 +3264,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.244": {
-        "hash": "sha512-E21saXLt2eTDaTxgUtiJtBUqanF9A32wZasAwDZ8gvrqXoxrBrbwtDCx7c/PQTLp81wj4X0OLDeoGQg7eMo3+w==",
+      "1.4.249": {
+        "hash": "sha512-GMCxR3p2HQvIw47A599crTKYZprqihoBL4lDSAUmr7IYekXFK5t/WgEBrGJDCa2HWIZFQEkGuMqPCi05ceYqPQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.244.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.249.tgz"
       }
     },
     "emoji-regex": {
@@ -3311,10 +3311,10 @@
       }
     },
     "estree-to-babel": {
-      "5.0.0": {
-        "hash": "sha512-YLPzaZZLL2XkWC9SEX/3/yQ+pB95nxwFXhNlTWQxu+fft8/93FQ906WEcNlpoS4D5pu5hFEDX0oMx4kRI5FTrw==",
+      "5.0.1": {
+        "hash": "sha512-jfu4StYV//g/tCGeRKzPEXCxGjg/wC2Vwj+Dnc+QX04fUmLlctW7QaKYUOLTu0NTeJ2pJyWgq/q66tBSP/RyGQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/estree-to-babel/-/estree-to-babel-5.0.0.tgz"
+        "url": "https://registry.npmjs.org/estree-to-babel/-/estree-to-babel-5.0.1.tgz"
       }
     },
     "extend": {
@@ -3332,10 +3332,10 @@
       }
     },
     "fast-glob": {
-      "3.2.11": {
-        "hash": "sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==",
+      "3.2.12": {
+        "hash": "sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz"
+        "url": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz"
       }
     },
     "fastest-levenshtein": {
@@ -4371,10 +4371,10 @@
       }
     },
     "putout": {
-      "27.7.0": {
-        "hash": "sha512-McVqLC81wJX4gOrWAP3gv94Mgwoh6ocuUhTjiByxMq7Zhn9nhdwjvxi0xD+iX/wNQGmuZXMri+obngwPvQcDrA==",
+      "27.8.0": {
+        "hash": "sha512-HfoT/py3wZFTGe2kkHxSCVjtj5/GMeSg4A8GIlfukgR67MPXvcdH7EAIBksMRBkVs7MjRhNzRRtKJrg+AtQhnA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/putout/-/putout-27.7.0.tgz"
+        "url": "https://registry.npmjs.org/putout/-/putout-27.8.0.tgz"
       }
     },
     "queue-microtask": {
@@ -4962,10 +4962,10 @@
       }
     },
     "update-browserslist-db": {
-      "1.0.7": {
-        "hash": "sha512-iN/XYesmZ2RmmWAiI4Z5rq0YqSiv0brj9Ce9CfhNE4xIW2h+MFxcgkxIzZ+ShkFPUkjU3gQ+3oypadD3RAMtrg==",
+      "1.0.9": {
+        "hash": "sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.7.tgz"
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz"
       }
     },
     "uri-js": {
@@ -5004,10 +5004,10 @@
       }
     },
     "vfile": {
-      "5.3.4": {
-        "hash": "sha512-KI+7cnst03KbEyN1+JE504zF5bJBZa+J+CrevLeyIMq0aPU681I2rQ5p4PlnQ6exFtWiUrg26QUdFMnAKR6PIw==",
+      "5.3.5": {
+        "hash": "sha512-U1ho2ga33eZ8y8pkbQLH54uKqGhFJ6GYIHnnG5AhRpAh3OWjkrRHKa/KogbmQn8We+c0KVV3rTOgR9V/WowbXQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/vfile/-/vfile-5.3.4.tgz"
+        "url": "https://registry.npmjs.org/vfile/-/vfile-5.3.5.tgz"
       }
     },
     "vfile-location": {

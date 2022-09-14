@@ -69,10 +69,10 @@
         [ "@ethersproject/bignumber", "5.7.0" ],
         [ "@ethersproject/bytes", "5.7.0" ],
         [ "@ethersproject/logger", "5.7.0" ],
-        [ "@ethersproject/networks", "5.7.0" ],
+        [ "@ethersproject/networks", "5.7.1" ],
         [ "@ethersproject/properties", "5.7.0" ],
         [ "@ethersproject/transactions", "5.7.0" ],
-        [ "@ethersproject/web", "5.7.0" ]
+        [ "@ethersproject/web", "5.7.1" ]
       ]
     },
     "@ethersproject/abstract-signer": {
@@ -135,7 +135,7 @@
       ]
     },
     "@ethersproject/networks": {
-      "5.7.0": [
+      "5.7.1": [
         [ "@ethersproject/logger", "5.7.0" ]
       ]
     },
@@ -181,7 +181,7 @@
       ]
     },
     "@ethersproject/web": {
-      "5.7.0": [
+      "5.7.1": [
         [ "@ethersproject/base64", "5.7.0" ],
         [ "@ethersproject/bytes", "5.7.0" ],
         [ "@ethersproject/logger", "5.7.0" ],
@@ -190,6 +190,9 @@
       ]
     },
     "@szmarczak/http-timer": {
+      "4.0.6": [
+        [ "defer-to-connect", "2.0.1" ]
+      ],
       "5.0.1": [
         [ "defer-to-connect", "2.0.1" ]
       ]
@@ -369,7 +372,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.1.2" ]
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "cids": {
@@ -531,13 +534,13 @@
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
-        [ "get-intrinsic", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
         [ "get-symbol-description", "1.0.0" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.3" ],
-        [ "is-callable", "1.2.4" ],
+        [ "is-callable", "1.2.5" ],
         [ "is-negative-zero", "2.0.2" ],
         [ "is-regex", "1.1.4" ],
         [ "is-shared-array-buffer", "1.0.2" ],
@@ -554,7 +557,7 @@
     },
     "es-to-primitive": {
       "1.2.1": [
-        [ "is-callable", "1.2.4" ],
+        [ "is-callable", "1.2.5" ],
         [ "is-date-object", "1.0.5" ],
         [ "is-symbol", "1.0.4" ]
       ]
@@ -698,7 +701,7 @@
     },
     "for-each": {
       "0.3.3": [
-        [ "is-callable", "1.2.4" ]
+        [ "is-callable", "1.2.5" ]
       ]
     },
     "form-data": {
@@ -729,7 +732,7 @@
       ]
     },
     "get-intrinsic": {
-      "1.1.2": [
+      "1.1.3": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
         [ "has-symbols", "1.0.3" ]
@@ -743,7 +746,7 @@
     "get-symbol-description": {
       "1.0.0": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.1.2" ]
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "getpass": {
@@ -758,6 +761,19 @@
       ]
     },
     "got": {
+      "11.8.5": [
+        [ "@sindresorhus/is", "4.6.0" ],
+        [ "@szmarczak/http-timer", "4.0.6" ],
+        [ "@types/cacheable-request", "6.0.2" ],
+        [ "@types/responselike", "1.0.0" ],
+        [ "cacheable-lookup", "5.0.4" ],
+        [ "cacheable-request", "7.0.2" ],
+        [ "decompress-response", "6.0.0" ],
+        [ "http2-wrapper", "1.0.3" ],
+        [ "lowercase-keys", "2.0.0" ],
+        [ "p-cancelable", "2.1.1" ],
+        [ "responselike", "2.0.1" ]
+      ],
       "12.1.0": [
         [ "@sindresorhus/is", "4.6.0" ],
         [ "@szmarczak/http-timer", "5.0.1" ],
@@ -772,22 +788,6 @@
         [ "lowercase-keys", "3.0.0" ],
         [ "p-cancelable", "3.0.0" ],
         [ "responselike", "2.0.1" ]
-      ],
-      "7.1.0": [
-        [ "decompress-response", "3.3.0" ],
-        [ "duplexer3", "0.1.5" ],
-        [ "get-stream", "3.0.0" ],
-        [ "is-plain-obj", "1.1.0" ],
-        [ "is-retry-allowed", "1.2.0" ],
-        [ "is-stream", "1.1.0" ],
-        [ "isurl", "1.0.0" ],
-        [ "lowercase-keys", "1.0.1" ],
-        [ "p-cancelable", "0.3.0" ],
-        [ "p-timeout", "1.2.1" ],
-        [ "safe-buffer", "5.2.1" ],
-        [ "timed-out", "4.0.1" ],
-        [ "url-parse-lax", "1.0.0" ],
-        [ "url-to-options", "1.0.1" ]
       ]
     },
     "har-validator": {
@@ -803,12 +803,7 @@
     },
     "has-property-descriptors": {
       "1.0.0": [
-        [ "get-intrinsic", "1.1.2" ]
-      ]
-    },
-    "has-to-string-tag-x": {
-      "1.4.1": [
-        [ "has-symbol-support-x", "1.4.2" ]
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "has-tostringtag": {
@@ -853,6 +848,10 @@
       ]
     },
     "http2-wrapper": {
+      "1.0.3": [
+        [ "quick-lru", "5.1.1" ],
+        [ "resolve-alpn", "1.2.1" ]
+      ],
       "2.1.11": [
         [ "quick-lru", "5.1.1" ],
         [ "resolve-alpn", "1.2.1" ]
@@ -870,7 +869,7 @@
     },
     "internal-slot": {
       "1.0.3": [
-        [ "get-intrinsic", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
         [ "has", "1.0.3" ],
         [ "side-channel", "1.0.4" ]
       ]
@@ -940,12 +939,6 @@
     "is-weakref": {
       "1.0.2": [
         [ "call-bind", "1.0.2" ]
-      ]
-    },
-    "isurl": {
-      "1.0.0": [
-        [ "has-to-string-tag-x", "1.4.1" ],
-        [ "is-object", "1.0.2" ]
       ]
     },
     "jsonfile": {
@@ -1075,11 +1068,6 @@
     "once": {
       "1.4.0": [
         [ "wrappy", "1.0.2" ]
-      ]
-    },
-    "p-timeout": {
-      "1.2.1": [
-        [ "p-finally", "1.0.0" ]
       ]
     },
     "parse-asn1": {
@@ -1257,7 +1245,7 @@
     "side-channel": {
       "1.0.4": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
         [ "object-inspect", "1.12.2" ]
       ]
     },
@@ -1306,12 +1294,12 @@
       ]
     },
     "swarm-js": {
-      "0.1.40": [
+      "0.1.42": [
         [ "bluebird", "3.7.2" ],
         [ "buffer", "5.7.1" ],
         [ "eth-lib", "0.1.29" ],
         [ "fs-extra", "4.0.3" ],
-        [ "got", "7.1.0" ],
+        [ "got", "11.8.5" ],
         [ "mime-types", "2.1.35" ],
         [ "mkdirp-promise", "5.0.1" ],
         [ "mock-fs", "4.14.0" ],
@@ -1366,11 +1354,6 @@
         [ "punycode", "2.1.1" ]
       ]
     },
-    "url-parse-lax": {
-      "1.0.0": [
-        [ "prepend-http", "1.0.4" ]
-      ]
-    },
     "utf-8-validate": {
       "5.0.9": [
         [ "node-gyp-build", "4.5.0" ]
@@ -1408,7 +1391,7 @@
       "1.7.5": [
         [ "@types/node", "12.20.55" ],
         [ "got", "12.1.0" ],
-        [ "swarm-js", "0.1.40" ]
+        [ "swarm-js", "0.1.42" ]
       ]
     },
     "web3-core": {
@@ -1741,10 +1724,10 @@
       }
     },
     "@ethersproject/networks": {
-      "5.7.0": {
-        "hash": "sha512-MG6oHSQHd4ebvJrleEQQ4HhVu8Ichr0RDYEfHzsVAVjHNM+w36x9wp9r+hf1JstMXtseXDtkiVoARAG6M959AA==",
+      "5.7.1": {
+        "hash": "sha512-n/MufjFYv3yFcUyfhnXotyDlNdFb7onmkSy8aQERi2PjNcnWQ66xXxa3XlS8nCcA8aJKJjIIMNJTC7tu80GwpQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ethersproject/networks/-/networks-5.7.0.tgz"
+        "url": "https://registry.npmjs.org/@ethersproject/networks/-/networks-5.7.1.tgz"
       }
     },
     "@ethersproject/properties": {
@@ -1783,10 +1766,10 @@
       }
     },
     "@ethersproject/web": {
-      "5.7.0": {
-        "hash": "sha512-ApHcbbj+muRASVDSCl/tgxaH2LBkRMEYfLOLVa0COipx0+nlu0QKet7U2lEg0vdkh8XRSLf2nd1f1Uk9SrVSGA==",
+      "5.7.1": {
+        "hash": "sha512-Gueu8lSvyjBWL4cYsWsjh6MtMwM0+H4HvqFPZfB6dV8ctbP9zFAO73VG1cMWae0FLPCtz0peKPpZY8/ugJJX2w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ethersproject/web/-/web-5.7.0.tgz"
+        "url": "https://registry.npmjs.org/@ethersproject/web/-/web-5.7.1.tgz"
       }
     },
     "@sindresorhus/is": {
@@ -1797,6 +1780,11 @@
       }
     },
     "@szmarczak/http-timer": {
+      "4.0.6": {
+        "hash": "sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-4.0.6.tgz"
+      },
       "5.0.1": {
         "hash": "sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==",
         "type": "http",
@@ -2108,6 +2096,11 @@
       }
     },
     "cacheable-lookup": {
+      "5.0.4": {
+        "hash": "sha512-2/kNscPhpcxrOigMZzbiWF7dz8ilhb/nIHU3EyZiXWXpeq/au8qJ8VhdftMkty3n7Gj6HIGalQG8oiBNB3AJgA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz"
+      },
       "6.1.0": {
         "hash": "sha512-KJ/Dmo1lDDhmW2XDPMo+9oiy/CeqosPguPCrgcVzKyZrL6pM1gU2GmPY/xo6OQPTUaA/c0kwHuywB4E6nmT9ww==",
         "type": "http",
@@ -2362,13 +2355,6 @@
         "hash": "sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==",
         "type": "http",
         "url": "https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.2.tgz"
-      }
-    },
-    "duplexer3": {
-      "0.1.5": {
-        "hash": "sha512-1A8za6ws41LQgv9HrE/66jyC5yuSjQ3L/KOpFtoBilsAK2iA2wuS5rTt1OCzIvtS2V7nVmedsUU+DGRcjBmOYA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.5.tgz"
       }
     },
     "ecc-jsbn": {
@@ -2650,18 +2636,13 @@
       }
     },
     "get-intrinsic": {
-      "1.1.2": {
-        "hash": "sha512-Jfm3OyCxHh9DJyc28qGk+JmfkpO41A4XkneDSujN9MDXrm4oDKdHvndhZ2dN94+ERNfkYJWDclW6k2L/ZGHjXA==",
+      "1.1.3": {
+        "hash": "sha512-QJVz1Tj7MS099PevUG5jvnt9tSkXN8K14dxQlikJuPt4uD9hHAHjLyLBiLR5zELelBdD9QNRAXZzsJx0WaDL9A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.2.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.3.tgz"
       }
     },
     "get-stream": {
-      "3.0.0": {
-        "hash": "sha512-GlhdIUuVakc8SJ6kK0zAFbiGzRFzNnY4jUuEbV9UROo4Y+0Ny4fjvcZFVTeDA4odpFyOQzaw6hXukJSq/f28sQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
-      },
       "5.2.0": {
         "hash": "sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==",
         "type": "http",
@@ -2695,15 +2676,15 @@
       }
     },
     "got": {
+      "11.8.5": {
+        "hash": "sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/got/-/got-11.8.5.tgz"
+      },
       "12.1.0": {
         "hash": "sha512-hBv2ty9QN2RdbJJMK3hesmSkFTjVIHyIDDbssCKnSmq62edGgImJWD10Eb1k77TiV1bxloxqcFAVK8+9pkhOig==",
         "type": "http",
         "url": "https://registry.npmjs.org/got/-/got-12.1.0.tgz"
-      },
-      "7.1.0": {
-        "hash": "sha512-Y5WMo7xKKq1muPsxD+KmrR8DH5auG7fBdDVueZwETwV6VytKyU9OX/ddpq2/1hp1vIPvVb4T81dKQz3BivkNLw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/got/-/got-7.1.0.tgz"
       }
     },
     "graceful-fs": {
@@ -2748,25 +2729,11 @@
         "url": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz"
       }
     },
-    "has-symbol-support-x": {
-      "1.4.2": {
-        "hash": "sha512-3ToOva++HaW+eCpgqZrCfN51IPB+7bJNVT6CUATzueB5Heb8o6Nam0V3HG5dlDvZU1Gn5QLcbahiKw/XVk5JJw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/has-symbol-support-x/-/has-symbol-support-x-1.4.2.tgz"
-      }
-    },
     "has-symbols": {
       "1.0.3": {
         "hash": "sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==",
         "type": "http",
         "url": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz"
-      }
-    },
-    "has-to-string-tag-x": {
-      "1.4.1": {
-        "hash": "sha512-vdbKfmw+3LoOYVr+mtxHaX5a96+0f3DljYd8JOqvOLsf5mw2Otda2qCDT9qRqLAhrjyQ0h7ual5nOiASpsGNFw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/has-to-string-tag-x/-/has-to-string-tag-x-1.4.1.tgz"
       }
     },
     "has-tostringtag": {
@@ -2826,6 +2793,11 @@
       }
     },
     "http2-wrapper": {
+      "1.0.3": {
+        "hash": "sha512-V+23sDMr12Wnz7iTcDeJr3O6AIxlnvT/bmaAAAP/Xda35C90p9599p0F1eHR/N1KILWSoWVAiOMFjBBXaXSMxg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/http2-wrapper/-/http2-wrapper-1.0.3.tgz"
+      },
       "2.1.11": {
         "hash": "sha512-aNAk5JzLturWEUiuhAN73Jcbq96R7rTitAoXV54FYMatvihnpD2+6PUgU4ce3D/m5VDbw+F5CsyKSF176ptitQ==",
         "type": "http",
@@ -2896,10 +2868,10 @@
       }
     },
     "is-callable": {
-      "1.2.4": {
-        "hash": "sha512-nsuwtxZfMX67Oryl9LCQ+upnC0Z0BgpwntpS89m1H/TLF0zNfzfLMV/9Wa/6MZsj0acpEjAO0KF1xT6ZdLl95w==",
+      "1.2.5": {
+        "hash": "sha512-ZIWRujF6MvYGkEuHMYtFRkL2wAtFw89EHfKlXrkPkjQZZRWeh9L1q3SV13NIfHnqxugjLvAOkEHx9mb1zcMnEw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-callable/-/is-callable-1.2.4.tgz"
+        "url": "https://registry.npmjs.org/is-callable/-/is-callable-1.2.5.tgz"
       }
     },
     "is-date-object": {
@@ -2944,20 +2916,6 @@
         "url": "https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.7.tgz"
       }
     },
-    "is-object": {
-      "1.0.2": {
-        "hash": "sha512-2rRIahhZr2UWb45fIOuvZGpFtz0TyOZLf32KxBbSoUCeZR495zCKlWUKKUByk3geS2eAs7ZAABt0Y/Rx0GiQGA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/is-object/-/is-object-1.0.2.tgz"
-      }
-    },
-    "is-plain-obj": {
-      "1.1.0": {
-        "hash": "sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz"
-      }
-    },
     "is-regex": {
       "1.1.4": {
         "hash": "sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==",
@@ -2965,25 +2923,11 @@
         "url": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.4.tgz"
       }
     },
-    "is-retry-allowed": {
-      "1.2.0": {
-        "hash": "sha512-RUbUeKwvm3XG2VYamhJL1xFktgjvPzL0Hq8C+6yrWIswDy3BIXGqCxhxkc30N9jqK311gVU137K8Ei55/zVJRg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/is-retry-allowed/-/is-retry-allowed-1.2.0.tgz"
-      }
-    },
     "is-shared-array-buffer": {
       "1.0.2": {
         "hash": "sha512-sqN2UDu1/0y6uvXyStCOzyhAjCSlHceFoMKJW8W9EU9cvic/QdsZ0kEU93HEy3IUEFZIiH/3w+AH/UQbPHNdhA==",
         "type": "http",
         "url": "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.2.tgz"
-      }
-    },
-    "is-stream": {
-      "1.1.0": {
-        "hash": "sha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN+rqdQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz"
       }
     },
     "is-string": {
@@ -3026,13 +2970,6 @@
         "hash": "sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==",
         "type": "http",
         "url": "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz"
-      }
-    },
-    "isurl": {
-      "1.0.0": {
-        "hash": "sha512-1P/yWsxPlDtn7QeRD+ULKQPaIaN6yF368GZ2vDfv0AL0NwpStafjWCDDdn0k8wgFMWpVAqG7oJhxHnlud42i9w==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/isurl/-/isurl-1.0.0.tgz"
       }
     },
     "js-sha3": {
@@ -3111,11 +3048,6 @@
       }
     },
     "lowercase-keys": {
-      "1.0.1": {
-        "hash": "sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.1.tgz"
-      },
       "2.0.0": {
         "hash": "sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==",
         "type": "http",
@@ -3419,29 +3351,15 @@
       }
     },
     "p-cancelable": {
-      "0.3.0": {
-        "hash": "sha512-RVbZPLso8+jFeq1MfNvgXtCRED2raz/dKpacfTNxsx6pLEpEomM7gah6VeHSYV3+vo0OAi4MkArtQcWWXuQoyw==",
+      "2.1.1": {
+        "hash": "sha512-BZOr3nRQHOntUjTrH8+Lh54smKHoHyur8We1V8DSMVrl5A2malOOwuJRnKRDjSnkoeBh4at6BwEnb5I7Jl31wg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/p-cancelable/-/p-cancelable-0.3.0.tgz"
+        "url": "https://registry.npmjs.org/p-cancelable/-/p-cancelable-2.1.1.tgz"
       },
       "3.0.0": {
         "hash": "sha512-mlVgR3PGuzlo0MmTdk4cXqXWlwQDLnONTAg6sm62XkMJEiRxN3GL3SffkYvqwonbkJBcrI7Uvv5Zh9yjvn2iUw==",
         "type": "http",
         "url": "https://registry.npmjs.org/p-cancelable/-/p-cancelable-3.0.0.tgz"
-      }
-    },
-    "p-finally": {
-      "1.0.0": {
-        "hash": "sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz"
-      }
-    },
-    "p-timeout": {
-      "1.2.1": {
-        "hash": "sha512-gb0ryzr+K2qFqFv6qi3khoeqMZF/+ajxQipEF6NteZVnvz9tzdsfAVj3lYtn1gAXvH5lfLwfxEII799gt/mRIA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/p-timeout/-/p-timeout-1.2.1.tgz"
       }
     },
     "parse-asn1": {
@@ -3484,13 +3402,6 @@
         "hash": "sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==",
         "type": "http",
         "url": "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
-      }
-    },
-    "prepend-http": {
-      "1.0.4": {
-        "hash": "sha512-PhmXi5XmoyKw1Un4E+opM2KcsJInDvKyuOumcjjw3waw86ZNjHwVUOOWLc4bCzLdcKNaWBH9e99sbWzDQsVaYg==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/prepend-http/-/prepend-http-1.0.4.tgz"
       }
     },
     "process": {
@@ -3789,10 +3700,10 @@
       }
     },
     "swarm-js": {
-      "0.1.40": {
-        "hash": "sha512-yqiOCEoA4/IShXkY3WKwP5PvZhmoOOD8clsKA7EEcRILMkTEYHCQ21HDCAcVpmIxZq4LyZvWeRJ6quIyHk1caA==",
+      "0.1.42": {
+        "hash": "sha512-BV7c/dVlA3R6ya1lMlSSNPLYrntt0LUq4YMgy3iwpCIc6rZnS5W2wUoctarZ5pXlpKtxDDf9hNziEkcfrxdhqQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/swarm-js/-/swarm-js-0.1.40.tgz"
+        "url": "https://registry.npmjs.org/swarm-js/-/swarm-js-0.1.42.tgz"
       }
     },
     "tar": {
@@ -3905,25 +3816,11 @@
         "url": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz"
       }
     },
-    "url-parse-lax": {
-      "1.0.0": {
-        "hash": "sha512-BVA4lR5PIviy2PMseNd2jbFQ+jwSwQGdJejf5ctd1rEXt0Ypd7yanUK9+lYechVlN5VaTJGsu2U/3MDDu6KgBA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-1.0.0.tgz"
-      }
-    },
     "url-set-query": {
       "1.0.0": {
         "hash": "sha512-3AChu4NiXquPfeckE5R5cGdiHCMWJx1dwCWOmWIL4KHAziJNOFIYJlpGFeKDvwLPHovZRCxK3cYlwzqI9Vp+Gg==",
         "type": "http",
         "url": "https://registry.npmjs.org/url-set-query/-/url-set-query-1.0.0.tgz"
-      }
-    },
-    "url-to-options": {
-      "1.0.1": {
-        "hash": "sha512-0kQLIzG4fdk/G5NONku64rSH/x32NOA39LVQqlK8Le6lvTF6GGRJpqaQFGgU+CLwySIqBSMdwYM0sYcW9f6P4A==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/url-to-options/-/url-to-options-1.0.1.tgz"
       }
     },
     "utf-8-validate": {

@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-base64-node",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-base64-node": "3.168.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/is-array-buffer": {
+      "3.168.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-base64-node": {
+      "3.168.0": [
+        [ "@aws-sdk/util-buffer-from", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-base64-node", "3.168.0" ]
+      ]
+    },
+    "@aws-sdk/util-buffer-from": {
+      "3.168.0": [
+        [ "@aws-sdk/is-array-buffer", "3.168.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/is-array-buffer": {
+      "3.168.0": {
+        "hash": "sha512-Zvt8a/g1UfvwmhxOnt/hDrFprC3+DQivFQGnzwBpv+ZyM1BfdgAruAkUZF+GtXI22DXZUumBrposCH1CcgjeIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/is-array-buffer/-/is-array-buffer-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-base64-node": {
+      "3.168.0": {
+        "hash": "sha512-NqU7t3Fes0QngHwAZoIKeXyUZOoszEwGuerj1wZk6+Jd6X4L5NdBcBg8AA2VMyRdSFhCP+irgVRZrYSn0Ii66g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-base64-node/-/util-base64-node-3.168.0.tgz"
+      }
+    },
+    "@aws-sdk/util-buffer-from": {
+      "3.168.0": {
+        "hash": "sha512-NDQIBdJfK95N/zewOcEJC9NqNVRXzWHrgKJTdCTW4UuRBADg3YTeDmqmNA2TUaWydQZa0ubpX3JyaKz4l3DDZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-buffer-from/-/util-buffer-from-3.168.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

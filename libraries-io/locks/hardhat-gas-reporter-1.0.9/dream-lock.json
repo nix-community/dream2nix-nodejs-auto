@@ -47,10 +47,10 @@
         [ "@ethersproject/bignumber", "5.7.0" ],
         [ "@ethersproject/bytes", "5.7.0" ],
         [ "@ethersproject/logger", "5.7.0" ],
-        [ "@ethersproject/networks", "5.7.0" ],
+        [ "@ethersproject/networks", "5.7.1" ],
         [ "@ethersproject/properties", "5.7.0" ],
         [ "@ethersproject/transactions", "5.7.0" ],
-        [ "@ethersproject/web", "5.7.0" ]
+        [ "@ethersproject/web", "5.7.1" ]
       ]
     },
     "@ethersproject/abstract-signer": {
@@ -113,7 +113,7 @@
       ]
     },
     "@ethersproject/networks": {
-      "5.7.0": [
+      "5.7.1": [
         [ "@ethersproject/logger", "5.7.0" ]
       ]
     },
@@ -159,7 +159,7 @@
       ]
     },
     "@ethersproject/web": {
-      "5.7.0": [
+      "5.7.1": [
         [ "@ethersproject/base64", "5.7.0" ],
         [ "@ethersproject/bytes", "5.7.0" ],
         [ "@ethersproject/logger", "5.7.0" ],
@@ -177,23 +177,23 @@
       ]
     },
     "@nomicfoundation/ethereumjs-block": {
-      "4.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-trie", "5.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-tx", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "4.0.0": [
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-trie", "5.0.0" ],
+        [ "@nomicfoundation/ethereumjs-tx", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "ethereum-cryptography", "0.1.3" ]
       ]
     },
     "@nomicfoundation/ethereumjs-blockchain": {
-      "6.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-block", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-ethash", "2.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-trie", "5.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "6.0.0": [
+        [ "@nomicfoundation/ethereumjs-block", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-ethash", "2.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-trie", "5.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "abstract-level", "1.0.3" ],
         [ "debug", "4.3.4" ],
         [ "ethereum-cryptography", "0.1.3" ],
@@ -203,25 +203,25 @@
       ]
     },
     "@nomicfoundation/ethereumjs-common": {
-      "3.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "3.0.0": [
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "crc-32", "1.2.2" ]
       ]
     },
     "@nomicfoundation/ethereumjs-ethash": {
-      "2.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-block", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "2.0.0": [
+        [ "@nomicfoundation/ethereumjs-block", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "abstract-level", "1.0.3" ],
-        [ "bigint-crypto-utils", "3.1.4" ],
+        [ "bigint-crypto-utils", "3.1.6" ],
         [ "ethereum-cryptography", "0.1.3" ]
       ]
     },
     "@nomicfoundation/ethereumjs-evm": {
-      "1.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "1.0.0": [
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "@types/async-eventemitter", "0.2.1" ],
         [ "async-eventemitter", "0.2.4" ],
         [ "debug", "4.3.4" ],
@@ -231,49 +231,49 @@
       ]
     },
     "@nomicfoundation/ethereumjs-statemanager": {
-      "1.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-trie", "5.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "1.0.0": [
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-trie", "5.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "debug", "4.3.4" ],
         [ "ethereum-cryptography", "0.1.3" ],
         [ "functional-red-black-tree", "1.0.1" ]
       ]
     },
     "@nomicfoundation/ethereumjs-trie": {
-      "5.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "5.0.0": [
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "ethereum-cryptography", "0.1.3" ],
         [ "readable-stream", "3.6.0" ]
       ]
     },
     "@nomicfoundation/ethereumjs-tx": {
-      "4.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "4.0.0": [
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "ethereum-cryptography", "0.1.3" ]
       ]
     },
     "@nomicfoundation/ethereumjs-util": {
-      "8.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
+      "8.0.0": [
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
         [ "ethereum-cryptography", "0.1.3" ]
       ]
     },
     "@nomicfoundation/ethereumjs-vm": {
-      "6.0.0-rc.3": [
-        [ "@nomicfoundation/ethereumjs-block", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-blockchain", "6.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-evm", "1.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-statemanager", "1.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-trie", "5.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-tx", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
+      "6.0.0": [
+        [ "@nomicfoundation/ethereumjs-block", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-blockchain", "6.0.0" ],
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-evm", "1.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-statemanager", "1.0.0" ],
+        [ "@nomicfoundation/ethereumjs-trie", "5.0.0" ],
+        [ "@nomicfoundation/ethereumjs-tx", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
         [ "@types/async-eventemitter", "0.2.1" ],
         [ "async-eventemitter", "0.2.4" ],
         [ "debug", "4.3.4" ],
@@ -368,30 +368,30 @@
     },
     "@types/bn.js": {
       "4.11.6": [
-        [ "@types/node", "18.7.16" ]
+        [ "@types/node", "18.7.18" ]
       ],
       "5.1.1": [
-        [ "@types/node", "18.7.16" ]
+        [ "@types/node", "18.7.18" ]
       ]
     },
     "@types/concat-stream": {
       "1.6.1": [
-        [ "@types/node", "18.7.16" ]
+        [ "@types/node", "18.7.18" ]
       ]
     },
     "@types/form-data": {
       "0.0.33": [
-        [ "@types/node", "18.7.16" ]
+        [ "@types/node", "18.7.18" ]
       ]
     },
     "@types/pbkdf2": {
       "3.1.0": [
-        [ "@types/node", "18.7.16" ]
+        [ "@types/node", "18.7.18" ]
       ]
     },
     "@types/secp256k1": {
       "4.0.3": [
-        [ "@types/node", "18.7.16" ]
+        [ "@types/node", "18.7.18" ]
       ]
     },
     "abort-controller": {
@@ -488,8 +488,8 @@
       ]
     },
     "bigint-crypto-utils": {
-      "3.1.4": [
-        [ "bigint-mod-arith", "3.1.0" ]
+      "3.1.6": [
+        [ "bigint-mod-arith", "3.1.1" ]
       ]
     },
     "brace-expansion": {
@@ -545,7 +545,7 @@
     "call-bind": {
       "1.0.2": [
         [ "function-bind", "1.1.1" ],
-        [ "get-intrinsic", "1.1.2" ]
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "chalk": {
@@ -702,13 +702,13 @@
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
         [ "function.prototype.name", "1.1.5" ],
-        [ "get-intrinsic", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
         [ "get-symbol-description", "1.0.0" ],
         [ "has", "1.0.3" ],
         [ "has-property-descriptors", "1.0.0" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.3" ],
-        [ "is-callable", "1.2.4" ],
+        [ "is-callable", "1.2.5" ],
         [ "is-negative-zero", "2.0.2" ],
         [ "is-regex", "1.1.4" ],
         [ "is-shared-array-buffer", "1.0.2" ],
@@ -725,7 +725,7 @@
     },
     "es-to-primitive": {
       "1.2.1": [
-        [ "is-callable", "1.2.4" ],
+        [ "is-callable", "1.2.5" ],
         [ "is-date-object", "1.0.5" ],
         [ "is-symbol", "1.0.4" ]
       ]
@@ -868,7 +868,7 @@
       ]
     },
     "get-intrinsic": {
-      "1.1.2": [
+      "1.1.3": [
         [ "function-bind", "1.1.1" ],
         [ "has", "1.0.3" ],
         [ "has-symbols", "1.0.3" ]
@@ -877,7 +877,7 @@
     "get-symbol-description": {
       "1.0.0": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.1.2" ]
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "getpass": {
@@ -918,16 +918,16 @@
       "2.11.1": [
         [ "@ethersproject/abi", "5.7.0" ],
         [ "@metamask/eth-sig-util", "4.0.1" ],
-        [ "@nomicfoundation/ethereumjs-block", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-blockchain", "6.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-common", "3.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-evm", "1.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-statemanager", "1.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-trie", "5.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-tx", "4.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-util", "8.0.0-rc.3" ],
-        [ "@nomicfoundation/ethereumjs-vm", "6.0.0-rc.3" ],
+        [ "@nomicfoundation/ethereumjs-block", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-blockchain", "6.0.0" ],
+        [ "@nomicfoundation/ethereumjs-common", "3.0.0" ],
+        [ "@nomicfoundation/ethereumjs-evm", "1.0.0" ],
+        [ "@nomicfoundation/ethereumjs-rlp", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-statemanager", "1.0.0" ],
+        [ "@nomicfoundation/ethereumjs-trie", "5.0.0" ],
+        [ "@nomicfoundation/ethereumjs-tx", "4.0.0" ],
+        [ "@nomicfoundation/ethereumjs-util", "8.0.0" ],
+        [ "@nomicfoundation/ethereumjs-vm", "6.0.0" ],
         [ "@nomicfoundation/solidity-analyzer", "0.0.3" ],
         [ "@sentry/node", "5.30.0" ],
         [ "@types/bn.js", "5.1.1" ],
@@ -985,7 +985,7 @@
     },
     "has-property-descriptors": {
       "1.0.0": [
-        [ "get-intrinsic", "1.1.2" ]
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "has-tostringtag": {
@@ -1065,7 +1065,7 @@
     },
     "internal-slot": {
       "1.0.3": [
-        [ "get-intrinsic", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
         [ "has", "1.0.3" ],
         [ "side-channel", "1.0.4" ]
       ]
@@ -1522,7 +1522,7 @@
     "side-channel": {
       "1.0.4": [
         [ "call-bind", "1.0.2" ],
-        [ "get-intrinsic", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
         [ "object-inspect", "1.12.2" ]
       ]
     },
@@ -1530,7 +1530,7 @@
       "0.7.3": [
         [ "command-exists", "1.2.9" ],
         [ "commander", "3.0.2" ],
-        [ "follow-redirects", "1.15.1" ],
+        [ "follow-redirects", "1.15.2" ],
         [ "fs-extra", "0.30.0" ],
         [ "js-sha3", "0.8.0" ],
         [ "memorystream", "0.3.1" ],
@@ -1852,10 +1852,10 @@
       }
     },
     "@ethersproject/networks": {
-      "5.7.0": {
-        "hash": "sha512-MG6oHSQHd4ebvJrleEQQ4HhVu8Ichr0RDYEfHzsVAVjHNM+w36x9wp9r+hf1JstMXtseXDtkiVoARAG6M959AA==",
+      "5.7.1": {
+        "hash": "sha512-n/MufjFYv3yFcUyfhnXotyDlNdFb7onmkSy8aQERi2PjNcnWQ66xXxa3XlS8nCcA8aJKJjIIMNJTC7tu80GwpQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ethersproject/networks/-/networks-5.7.0.tgz"
+        "url": "https://registry.npmjs.org/@ethersproject/networks/-/networks-5.7.1.tgz"
       }
     },
     "@ethersproject/properties": {
@@ -1894,10 +1894,10 @@
       }
     },
     "@ethersproject/web": {
-      "5.7.0": {
-        "hash": "sha512-ApHcbbj+muRASVDSCl/tgxaH2LBkRMEYfLOLVa0COipx0+nlu0QKet7U2lEg0vdkh8XRSLf2nd1f1Uk9SrVSGA==",
+      "5.7.1": {
+        "hash": "sha512-Gueu8lSvyjBWL4cYsWsjh6MtMwM0+H4HvqFPZfB6dV8ctbP9zFAO73VG1cMWae0FLPCtz0peKPpZY8/ugJJX2w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ethersproject/web/-/web-5.7.0.tgz"
+        "url": "https://registry.npmjs.org/@ethersproject/web/-/web-5.7.1.tgz"
       }
     },
     "@metamask/eth-sig-util": {
@@ -1922,80 +1922,80 @@
       }
     },
     "@nomicfoundation/ethereumjs-block": {
-      "4.0.0-rc.3": {
-        "hash": "sha512-T+KzsCOEB4iP2Wy0OmjsxARbX8czN8LjF2pfdz9ucx37jAHfVAhWmEZaB+wfh7NZqumsBfgRtYbRJ572+nlTBQ==",
+      "4.0.0": {
+        "hash": "sha512-bk8uP8VuexLgyIZAHExH1QEovqx0Lzhc9Ntm63nCRKLHXIZkobaFaeCVwTESV7YkPKUk7NiK11s8ryed4CS9yA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-block/-/ethereumjs-block-4.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-block/-/ethereumjs-block-4.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-blockchain": {
-      "6.0.0-rc.3": {
-        "hash": "sha512-GxaMYLXcyY/aFFXOiIwYYDVwHFffnddymldOsBGtGHbs0HM/kYLLF+dp3C31Q0+EaFNa6mF1L0NqAbC82CJRNA==",
+      "6.0.0": {
+        "hash": "sha512-pLFEoea6MWd81QQYSReLlLfH7N9v7lH66JC/NMPN848ySPPQA5renWnE7wPByfQFzNrPBuDDRFFULMDmj1C0xw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-blockchain/-/ethereumjs-blockchain-6.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-blockchain/-/ethereumjs-blockchain-6.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-common": {
-      "3.0.0-rc.3": {
-        "hash": "sha512-r7qLtNabVEHNihLZevHV0weNshDpXo/o7i0JD9O10OExdicpgHPsU4qGnAvzO9bby9ANO2ydrOIlrYSm4lBkTg==",
+      "3.0.0": {
+        "hash": "sha512-WS7qSshQfxoZOpHG/XqlHEGRG1zmyjYrvmATvc4c62+gZXgre1ymYP8ZNgx/3FyZY0TWe9OjFlKOfLqmgOeYwA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-common/-/ethereumjs-common-3.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-common/-/ethereumjs-common-3.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-ethash": {
-      "2.0.0-rc.3": {
-        "hash": "sha512-l75FH3KYUXuXjEdVZ3P7iVBbFhsghIMUuOBVfau4vx90SEGUQZnrU6cg9jBTyYvn0w9IIKJ76ZmDV8RDohZktA==",
+      "2.0.0": {
+        "hash": "sha512-WpDvnRncfDUuXdsAXlI4lXbqUDOA+adYRQaEezIkxqDkc+LDyYDbd/xairmY98GnQzo1zIqsIL6GB5MoMSJDew==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-ethash/-/ethereumjs-ethash-2.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-ethash/-/ethereumjs-ethash-2.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-evm": {
-      "1.0.0-rc.3": {
-        "hash": "sha512-FY/SxIazYeJQ2uvx5uXV+MRgThrPjzr0nKMEyrFZPgbZb4KvcZarJuQVaJhQ4a5foqq8aHHRbWLdJQyWn9c2jw==",
+      "1.0.0": {
+        "hash": "sha512-hVS6qRo3V1PLKCO210UfcEQHvlG7GqR8iFzp0yyjTg2TmJQizcChKgWo8KFsdMw6AyoLgLhHGHw4HdlP8a4i+Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-evm/-/ethereumjs-evm-1.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-evm/-/ethereumjs-evm-1.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-rlp": {
-      "4.0.0-rc.3": {
-        "hash": "sha512-4F3fYTdqJhBNDoZ4o7uGzorvcbXuSeRXz46X/Z1TGMri5FjpWFl48qEOse2RpXCFudlAv7n/MpgJSuFzN1vreQ==",
+      "4.0.0": {
+        "hash": "sha512-GaSOGk5QbUk4eBP5qFbpXoZoZUj/NrW7MRa0tKY4Ew4c2HAS0GXArEMAamtFrkazp0BO4K5p2ZCG3b2FmbShmw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-rlp/-/ethereumjs-rlp-4.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-rlp/-/ethereumjs-rlp-4.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-statemanager": {
-      "1.0.0-rc.3": {
-        "hash": "sha512-c69I4eZN9LFXUp1OI8hGwTvQMmcICus+MLgK5HELKLexV1SKs+K0iA4jgTK6VMM4wrzkmljyVxU5pM0Cb82XAQ==",
+      "1.0.0": {
+        "hash": "sha512-jCtqFjcd2QejtuAMjQzbil/4NHf5aAWxUc+CvS0JclQpl+7M0bxMofR2AJdtz+P3u0ke2euhYREDiE7iSO31vQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-statemanager/-/ethereumjs-statemanager-1.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-statemanager/-/ethereumjs-statemanager-1.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-trie": {
-      "5.0.0-rc.3": {
-        "hash": "sha512-hz84rSGiYOs3vANLGxQm12gKtERMQzkgt1fZBu/OJulMCU+kR1CZxptVpmeg7W8n4NCyIcMPpGeshTMhg8zC5A==",
+      "5.0.0": {
+        "hash": "sha512-LIj5XdE+s+t6WSuq/ttegJzZ1vliwg6wlb+Y9f4RlBpuK35B9K02bO7xU+E6Rgg9RGptkWd6TVLdedTI4eNc2A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-trie/-/ethereumjs-trie-5.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-trie/-/ethereumjs-trie-5.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-tx": {
-      "4.0.0-rc.3": {
-        "hash": "sha512-Z3/EYglP+uKyzQj5pc2oMv/vuJ3ZZ2v3qVqRG9k5EsGXNB1lzN1zIh6NCW/vw/AdGoH69MDNGzG5hqGZ9cJJiw==",
+      "4.0.0": {
+        "hash": "sha512-Gg3Lir2lNUck43Kp/3x6TfBNwcWC9Z1wYue9Nz3v4xjdcv6oDW9QSMJxqsKw9QEGoBBZ+gqwpW7+F05/rs/g1w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-tx/-/ethereumjs-tx-4.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-tx/-/ethereumjs-tx-4.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-util": {
-      "8.0.0-rc.3": {
-        "hash": "sha512-Ldd1NVbk+FtP/JKCQTOVrBJzHMXpMnUdqE9oetAqKVnaLszXMEUa/B0fBdJaPIXKU/c9tAba29/pGxRpcQbgKQ==",
+      "8.0.0": {
+        "hash": "sha512-2emi0NJ/HmTG+CGY58fa+DQuAoroFeSH9gKu9O6JnwTtlzJtgfTixuoOqLEgyyzZVvwfIpRueuePb8TonL1y+A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-util/-/ethereumjs-util-8.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-util/-/ethereumjs-util-8.0.0.tgz"
       }
     },
     "@nomicfoundation/ethereumjs-vm": {
-      "6.0.0-rc.3": {
-        "hash": "sha512-MF6WeU0sx+6zM8ustttlZZFZtI6/c/qIWVnxrT6K5VRaiC1Us1ih3S8HBr6xNkl6JgBHj0e0oC1CA9xiowwlUQ==",
+      "6.0.0": {
+        "hash": "sha512-JMPxvPQ3fzD063Sg3Tp+UdwUkVxMoo1uML6KSzFhMH3hoQi/LMuXBoEHAoW83/vyNS9BxEe6jm6LmT5xdeEJ6w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-vm/-/ethereumjs-vm-6.0.0-rc.3.tgz"
+        "url": "https://registry.npmjs.org/@nomicfoundation/ethereumjs-vm/-/ethereumjs-vm-6.0.0.tgz"
       }
     },
     "@nomicfoundation/solidity-analyzer": {
@@ -2198,10 +2198,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@types/node/-/node-10.17.60.tgz"
       },
-      "18.7.16": {
-        "hash": "sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==",
+      "18.7.18": {
+        "hash": "sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.16.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.18.tgz"
       },
       "8.10.66": {
         "hash": "sha512-tktOkFUA4kXx2hhhrB8bIFb5TbwzS4uOhKEmwiD+NoiL0qtP2OQ9mFldbgD4dV1djrlBYP6eBuQZiWjuHUpqFw==",
@@ -2464,17 +2464,17 @@
       }
     },
     "bigint-crypto-utils": {
-      "3.1.4": {
-        "hash": "sha512-niSkvARUEe8MiAiH+zKXPkgXzlvGDbOqXL3JDevWaA1TrPhUGSCgV+iedm8qMEBQwvSlMMn8GpSuoUjvsm2QfQ==",
+      "3.1.6": {
+        "hash": "sha512-k5ljSLHx94jQTW3+18KEfxLJR8/XFBHqhfhEGF48qT8p/jL6EdiG7oNOiiIRGMFh2wEP8kaCXZbVd+5dYkngUg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/bigint-crypto-utils/-/bigint-crypto-utils-3.1.4.tgz"
+        "url": "https://registry.npmjs.org/bigint-crypto-utils/-/bigint-crypto-utils-3.1.6.tgz"
       }
     },
     "bigint-mod-arith": {
-      "3.1.0": {
-        "hash": "sha512-vpiKCiv9B1nK8HhFOU7PMC4k9nrufQxeivgCj5yOH2ZMLD+UPwc/RfNgBCX+v8C6t0sF4q7mEZgZij6k53zpWA==",
+      "3.1.1": {
+        "hash": "sha512-SzFqdncZKXq5uh3oLFZXmzaZEMDsA7ml9l53xKaVGO6/+y26xNwAaTQEg2R+D+d07YduLbKi0dni3YPsR51UDQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/bigint-mod-arith/-/bigint-mod-arith-3.1.0.tgz"
+        "url": "https://registry.npmjs.org/bigint-mod-arith/-/bigint-mod-arith-3.1.1.tgz"
       }
     },
     "binary-extensions": {
@@ -3088,10 +3088,10 @@
       }
     },
     "follow-redirects": {
-      "1.15.1": {
-        "hash": "sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==",
+      "1.15.2": {
+        "hash": "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.1.tgz"
+        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
       }
     },
     "forever-agent": {
@@ -3189,10 +3189,10 @@
       }
     },
     "get-intrinsic": {
-      "1.1.2": {
-        "hash": "sha512-Jfm3OyCxHh9DJyc28qGk+JmfkpO41A4XkneDSujN9MDXrm4oDKdHvndhZ2dN94+ERNfkYJWDclW6k2L/ZGHjXA==",
+      "1.1.3": {
+        "hash": "sha512-QJVz1Tj7MS099PevUG5jvnt9tSkXN8K14dxQlikJuPt4uD9hHAHjLyLBiLR5zELelBdD9QNRAXZzsJx0WaDL9A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.2.tgz"
+        "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.3.tgz"
       }
     },
     "get-port": {
@@ -3477,10 +3477,10 @@
       }
     },
     "is-callable": {
-      "1.2.4": {
-        "hash": "sha512-nsuwtxZfMX67Oryl9LCQ+upnC0Z0BgpwntpS89m1H/TLF0zNfzfLMV/9Wa/6MZsj0acpEjAO0KF1xT6ZdLl95w==",
+      "1.2.5": {
+        "hash": "sha512-ZIWRujF6MvYGkEuHMYtFRkL2wAtFw89EHfKlXrkPkjQZZRWeh9L1q3SV13NIfHnqxugjLvAOkEHx9mb1zcMnEw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-callable/-/is-callable-1.2.4.tgz"
+        "url": "https://registry.npmjs.org/is-callable/-/is-callable-1.2.5.tgz"
       }
     },
     "is-date-object": {
