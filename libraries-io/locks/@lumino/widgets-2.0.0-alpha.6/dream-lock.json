@@ -1,0 +1,171 @@
+{
+  "_generic": {
+    "defaultPackage": "@lumino/widgets",
+    "location": "",
+    "packages": {
+      "@lumino/widgets": "2.0.0-alpha.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@lumino/collections": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/commands": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ],
+        [ "@lumino/coreutils", "2.0.0-alpha.6" ],
+        [ "@lumino/disposable", "2.0.0-alpha.6" ],
+        [ "@lumino/domutils", "2.0.0-alpha.6" ],
+        [ "@lumino/keyboard", "2.0.0-alpha.6" ],
+        [ "@lumino/signaling", "2.0.0-alpha.6" ],
+        [ "@lumino/virtualdom", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/disposable": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/signaling", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/dragdrop": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/coreutils", "2.0.0-alpha.6" ],
+        [ "@lumino/disposable", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/messaging": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ],
+        [ "@lumino/collections", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/signaling": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/virtualdom": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/widgets": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ],
+        [ "@lumino/commands", "2.0.0-alpha.6" ],
+        [ "@lumino/coreutils", "2.0.0-alpha.6" ],
+        [ "@lumino/disposable", "2.0.0-alpha.6" ],
+        [ "@lumino/domutils", "2.0.0-alpha.6" ],
+        [ "@lumino/dragdrop", "2.0.0-alpha.6" ],
+        [ "@lumino/keyboard", "2.0.0-alpha.6" ],
+        [ "@lumino/messaging", "2.0.0-alpha.6" ],
+        [ "@lumino/properties", "2.0.0-alpha.6" ],
+        [ "@lumino/signaling", "2.0.0-alpha.6" ],
+        [ "@lumino/virtualdom", "2.0.0-alpha.6" ]
+      ],
+      "unknown": [
+        [ "@lumino/widgets", "2.0.0-alpha.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "@lumino/algorithm": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-pEU2ESKVp6APuR+H32oJFIpQUDKozhyruwznoKh7P3RnaqnjaMMdCSMWzfKIojgINfDqqWNY3awurPtbToht1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/algorithm/-/algorithm-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/collections": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-/rTBvYH1hZc3kTdoJS4QML+bICXfH/Ecch9nOiGzFmG8rFlCt3FGZlDiNft5TzuRjbs+DFn4r4JPSl8t9HSBXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/collections/-/collections-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/commands": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-y6EIijVEMwxYdWy2vDrD3gjv0d2Z5ZYtekjyjoK58W8I24qoYyxxg/6rlhUNp/fl8MW3/gj9v+qxNnmto6wkdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/commands/-/commands-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/coreutils": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-W0qqJZoPRHscHL5k/DHSOea7LugPVx7DmART925bdrD8PU1Rw4K0mUzKb/Zsin4m1O5IMBoPuGEdEG5Jhq3KyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/coreutils/-/coreutils-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/disposable": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-jh3QbkmIVHJfavXh068J/T/xC+mM9CxItUUApkbYlPBrpc38AzT0Cj1hdnyURsIo1nbOObydgw2H1SD5UssoEw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/disposable/-/disposable-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/domutils": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-hgNIGscYFwXOX3Wr5sbNFVaApCtr8diyrKmEw9l7NE/iT1DvLVUyfig+PG1ROgBIXMv/2DRvd9/S3Tm1rZ0+2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/domutils/-/domutils-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/dragdrop": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-/ZCoIxiyJo0VcPfYQcABmWHuBfG33UlHH1mmxEw+HsC/HKcNqLuSzLb2N1vi/E18H9poeE1uIBQjy8SxVcLK2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/dragdrop/-/dragdrop-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/keyboard": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-p/V3hNrxa3QbEetLDXZOWDFFFQ71PCwEpmMwZohIXgSGR1Z7x/dAIhA6oBlN5YuDpjnTboIDUKKgRZ+SNy9UxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/keyboard/-/keyboard-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/messaging": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-fNoZDBrzag57t+POlUNZLhdHEGrtXImfARbl3VUvufbEi8hrXvkRAa0TS1rU/gRQM1tZApGZTrTwNDwkZa+f5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/messaging/-/messaging-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/properties": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-UeJv3vX9QxfSof6asjJWjw+voDT6VSViCq5EMsbxRtBco4oH/48m1pOyLPRagfNL/ii3pEhsHaqax992OsTVKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/properties/-/properties-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/signaling": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-LEtaxMXmy1yJuej68/6vCOx1FyrH9lA18z11ejvxLKkKuqWh9srFil0yHhljK+Qvd5ZUpg6vyMI+oBYiL2GPtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/signaling/-/signaling-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/virtualdom": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-eSo0OnKK6WLjH8ktZSbBX09+oahd6m7aPWFufFe+U2UMzx6f0O8ZfWMj6qCsj5EqHtk37jSD0XejQhXP8AAjeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/virtualdom/-/virtualdom-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/widgets": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-eGvIJjZSubdTJ/Hl/n4x2fAN357LI9qWlpKNA55LoD11T26Sjz/dR+Gsz5TSXCUKreQaUIElcKtqDMiW+RUM5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/widgets/-/widgets-2.0.0-alpha.6.tgz"
+      }
+    }
+  }
+}

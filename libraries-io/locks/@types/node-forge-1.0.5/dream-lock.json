@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/node-forge",
+    "location": "",
+    "packages": {
+      "@types/node-forge": "1.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/node-forge": {
+      "1.0.5": [
+        [ "@types/node", "18.7.18" ]
+      ],
+      "unknown": [
+        [ "@types/node-forge", "1.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.18": {
+        "hash": "sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.18.tgz"
+      }
+    },
+    "@types/node-forge": {
+      "1.0.5": {
+        "hash": "sha512-+0hlEGaQXc0W3oElRfDVUyoTO0eN2a7xCKJEc+468pwEUSs5wczGpzs2OtI56ppSAggug9kfsqUxUJYTo62nQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node-forge/-/node-forge-1.0.5.tgz"
+      }
+    }
+  }
+}

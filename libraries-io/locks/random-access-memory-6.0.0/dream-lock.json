@@ -1,0 +1,82 @@
+{
+  "_generic": {
+    "defaultPackage": "random-access-memory",
+    "location": "",
+    "packages": {
+      "random-access-memory": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "is-options": {
+      "1.0.2": [
+        [ "b4a", "1.6.0" ]
+      ]
+    },
+    "random-access-memory": {
+      "6.0.0": [
+        [ "b4a", "1.6.0" ],
+        [ "is-options", "1.0.2" ],
+        [ "random-access-storage", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "random-access-memory", "6.0.0" ]
+      ]
+    },
+    "random-access-storage": {
+      "3.0.0": [
+        [ "events", "3.3.0" ],
+        [ "queue-tick", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "b4a": {
+      "1.6.0": {
+        "hash": "sha512-fsTxXxj1081Yq5MOQ06gZ5+e2QcSyP2U6NofdOWyq+lrNI4IjkZ+fLVmoQ6uUCiNg1NWePMMVq93vOTdbJmErw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/b4a/-/b4a-1.6.0.tgz"
+      }
+    },
+    "events": {
+      "3.3.0": {
+        "hash": "sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/events/-/events-3.3.0.tgz"
+      }
+    },
+    "is-options": {
+      "1.0.2": {
+        "hash": "sha512-u+Ai74c8Q74aS8BuHwPdI1jptGOT1FQXgCq8/zv0xRuE+wRgSMEJLj8lVO8Zp9BeGb29BXY6AsNPinfqjkr7Fg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-options/-/is-options-1.0.2.tgz"
+      }
+    },
+    "queue-tick": {
+      "1.0.1": {
+        "hash": "sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz"
+      }
+    },
+    "random-access-memory": {
+      "6.0.0": {
+        "hash": "sha512-A8h47E02xCXoCIk41EAzGCzLLL+RZztHFAiflhz+oAUhBj6kVNZ99wEMcKT0sTb8Nj7Hy2+9Ub52PSJLAKqjOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/random-access-memory/-/random-access-memory-6.0.0.tgz"
+      }
+    },
+    "random-access-storage": {
+      "3.0.0": {
+        "hash": "sha512-f9KeHUMhrqj0hE2d4HbUXk/Cd5vElaVzdA0PuqPTlnxsG3dDvwQaMg8POT5tWK6UxJ80zAONZpHgLPMnnff1RA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/random-access-storage/-/random-access-storage-3.0.0.tgz"
+      }
+    }
+  }
+}

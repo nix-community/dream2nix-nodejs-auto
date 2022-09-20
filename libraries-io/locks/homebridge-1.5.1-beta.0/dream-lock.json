@@ -38,12 +38,12 @@
       ]
     },
     "@homebridge/dbus-native": {
-      "0.4.1": [
+      "0.4.2": [
         [ "@homebridge/long", "5.2.1" ],
+        [ "@homebridge/put", "0.0.8" ],
         [ "event-stream", "4.0.1" ],
         [ "hexy", "0.2.11" ],
-        [ "optimist", "0.6.1" ],
-        [ "put", "0.0.6" ],
+        [ "minimist", "1.2.6" ],
         [ "safe-buffer", "5.2.1" ],
         [ "xml2js", "0.4.23" ]
       ]
@@ -205,9 +205,9 @@
       ]
     },
     "hap-nodejs": {
-      "0.10.3": [
+      "0.10.4": [
         [ "@homebridge/ciao", "1.1.5" ],
-        [ "@homebridge/dbus-native", "0.4.1" ],
+        [ "@homebridge/dbus-native", "0.4.2" ],
         [ "bonjour-hap", "3.6.3" ],
         [ "debug", "4.3.4" ],
         [ "fast-srp-hap", "2.0.4" ],
@@ -238,7 +238,7 @@
         [ "chalk", "4.1.2" ],
         [ "commander", "5.1.0" ],
         [ "fs-extra", "10.1.0" ],
-        [ "hap-nodejs", "0.10.3" ],
+        [ "hap-nodejs", "0.10.4" ],
         [ "qrcode-terminal", "0.12.0" ],
         [ "semver", "7.3.7" ],
         [ "source-map-support", "0.5.21" ]
@@ -364,12 +364,6 @@
         [ "object-keys", "1.1.1" ]
       ]
     },
-    "optimist": {
-      "0.6.1": [
-        [ "minimist", "0.0.10" ],
-        [ "wordwrap", "0.0.3" ]
-      ]
-    },
     "pause-stream": {
       "0.0.11": [
         [ "through", "2.3.8" ]
@@ -481,10 +475,10 @@
       }
     },
     "@homebridge/dbus-native": {
-      "0.4.1": {
-        "hash": "sha512-8h6MkoJykY37THOyRXWCIKpzbhIn4WWKZBunlXTH75Cb6vBcmhyIhZ3SvzqJAjJCEdhLg7wawfn7/Mpko7eREQ==",
+      "0.4.2": {
+        "hash": "sha512-rg6DUg6xOttzn73HA1+3G2o1ezRj0+DzPMEJqasrpq7FcAxMcTyOZ96GfcDN4pLUz62hMuywIeVZ4F6cc/g6Ig==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@homebridge/dbus-native/-/dbus-native-0.4.1.tgz"
+        "url": "https://registry.npmjs.org/@homebridge/dbus-native/-/dbus-native-0.4.2.tgz"
       }
     },
     "@homebridge/long": {
@@ -492,6 +486,13 @@
         "hash": "sha512-i5Df8R63XNPCn+Nj1OgAoRdw9e+jHUQb3CNUbvJneI2iu3j4+OtzQj+5PA1Ce+747NR1SPqZSvyvD483dOT3AA==",
         "type": "http",
         "url": "https://registry.npmjs.org/@homebridge/long/-/long-5.2.1.tgz"
+      }
+    },
+    "@homebridge/put": {
+      "0.0.8": {
+        "hash": "sha512-mwxLHHqKebOmOSU0tsPEWQSBHGApPhuaqtNpCe7U+AMdsduweANiu64E9SXXUtdpyTjsOpgSMLhD1+kbLHD2gA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@homebridge/put/-/put-0.0.8.tgz"
       }
     },
     "@leichtgewicht/ip-codec": {
@@ -719,10 +720,10 @@
       }
     },
     "hap-nodejs": {
-      "0.10.3": {
-        "hash": "sha512-H9sBraZHSaxyDcF8xXmudGzRTxPD65rGQ5HrvMuyDxps4OpEANDZHFcfmF5kQyfai3U7RF08nfHmh6HdrkGHbg==",
+      "0.10.4": {
+        "hash": "sha512-+ydtdh7Mw0Ttjv1ylWoGUMfU1Qhi0CVBAdABco+gdzOOkl9j2V1JKZKOduWvyAdhc73ZpElyREoTTVPQ7H0UoA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/hap-nodejs/-/hap-nodejs-0.10.3.tgz"
+        "url": "https://registry.npmjs.org/hap-nodejs/-/hap-nodejs-0.10.4.tgz"
       }
     },
     "has": {
@@ -943,11 +944,6 @@
       }
     },
     "minimist": {
-      "0.0.10": {
-        "hash": "sha512-iotkTvxc+TwOm5Ieim8VnSNvCDjCK9S8G3scJ50ZthspSxa7jx50jkhYduuAtAjvfDUwSgOwf8+If99AlOEhyw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz"
-      },
       "1.2.6": {
         "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
         "type": "http",
@@ -1017,25 +1013,11 @@
         "url": "https://registry.npmjs.org/object.assign/-/object.assign-4.1.4.tgz"
       }
     },
-    "optimist": {
-      "0.6.1": {
-        "hash": "sha512-snN4O4TkigujZphWLN0E//nQmm7790RYaE53DdL7ZYwee2D8DDo9/EyYiKUfN3rneWUjhJnueija3G9I2i0h3g==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz"
-      }
-    },
     "pause-stream": {
       "0.0.11": {
         "hash": "sha512-e3FBlXLmN/D1S+zHzanP4E/4Z60oFAa3O051qt1pxa7DEJWKAyil6upYVXCWadEnuoqa4Pkc9oUx9zsxYeRv8A==",
         "type": "http",
         "url": "https://registry.npmjs.org/pause-stream/-/pause-stream-0.0.11.tgz"
-      }
-    },
-    "put": {
-      "0.0.6": {
-        "hash": "sha512-w0szIZ2NkqznMFqxYPRETCIi+q/S8UKis9F4yOl6/N9NDCZmbjZZT85aI4FgJf3vIPrzMPX60+odCLOaYxNWWw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/put/-/put-0.0.6.tgz"
       }
     },
     "q": {
@@ -1197,13 +1179,6 @@
         "hash": "sha512-Jn4e5PItbcAHyLoRDwvPj1ypu27DJbtdYXUa5zsinrUx77Uvfb0cXwwnGMTn7cjUfhhqgVQnVJCwF+7cgU7tpw==",
         "type": "http",
         "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.8.tgz"
-      }
-    },
-    "wordwrap": {
-      "0.0.3": {
-        "hash": "sha512-1tMA907+V4QmxV7dbRvb4/8MaRALK6q9Abid3ndMYnbyo8piisCmeONVqVSXqQA3KaP4SLt5b7ud6E2sqP8TFw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
       }
     },
     "xml2js": {

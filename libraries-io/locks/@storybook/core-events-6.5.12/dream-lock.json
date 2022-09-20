@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@storybook/core-events",
+    "location": "",
+    "packages": {
+      "@storybook/core-events": "6.5.12"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@storybook/core-events": {
+      "6.5.12": [
+        [ "core-js", "3.25.2" ]
+      ],
+      "unknown": [
+        [ "@storybook/core-events", "6.5.12" ]
+      ]
+    }
+  },
+  "sources": {
+    "@storybook/core-events": {
+      "6.5.12": {
+        "hash": "sha512-0AMyMM19R/lHsYRfWqM8zZTXthasTAK2ExkSRzYi2GkIaVMxRKtM33YRwxKIpJ6KmIKIs8Ru3QCXu1mfCmGzNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.5.12.tgz"
+      }
+    },
+    "core-js": {
+      "3.25.2": {
+        "hash": "sha512-YB4IAT1bjEfxTJ1XYy11hJAKskO+qmhuDBM8/guIfMz4JvdsAQAqvyb97zXX7JgSrfPLG5mRGFWJwJD39ruq2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-3.25.2.tgz"
+      }
+    }
+  }
+}

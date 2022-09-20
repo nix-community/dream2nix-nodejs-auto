@@ -1,0 +1,129 @@
+{
+  "_generic": {
+    "defaultPackage": "gm",
+    "location": "",
+    "packages": {
+      "gm": "1.24.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cross-spawn": {
+      "4.0.2": [
+        [ "lru-cache", "4.1.5" ],
+        [ "which", "1.3.1" ]
+      ]
+    },
+    "debug": {
+      "3.2.7": [
+        [ "ms", "2.1.3" ]
+      ]
+    },
+    "gm": {
+      "1.24.0": [
+        [ "array-parallel", "0.1.3" ],
+        [ "array-series", "0.1.5" ],
+        [ "cross-spawn", "4.0.2" ],
+        [ "debug", "3.2.7" ]
+      ],
+      "unknown": [
+        [ "gm", "1.24.0" ]
+      ]
+    },
+    "lru-cache": {
+      "4.1.5": [
+        [ "pseudomap", "1.0.2" ],
+        [ "yallist", "2.1.2" ]
+      ]
+    },
+    "which": {
+      "1.3.1": [
+        [ "isexe", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "array-parallel": {
+      "0.1.3": {
+        "hash": "sha512-TDPTwSWW5E4oiFiKmz6RGJ/a80Y91GuLgUYuLd49+XBS75tYo8PNgaT2K/OxuQYqkoI852MDGBorg9OcUSTQ8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz"
+      }
+    },
+    "array-series": {
+      "0.1.5": {
+        "hash": "sha512-L0XlBwfx9QetHOsbLDrE/vh2t018w9462HM3iaFfxRiK83aJjAt/Ja3NMkOW7FICwWTlQBa3ZbL5FKhuQWkDrg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-series/-/array-series-0.1.5.tgz"
+      }
+    },
+    "cross-spawn": {
+      "4.0.2": {
+        "hash": "sha512-yAXz/pA1tD8Gtg2S98Ekf/sewp3Lcp3YoFKJ4Hkp5h5yLWnKVTDU0kwjKJ8NDCYcfTLfyGkzTikst+jWypT1iA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-4.0.2.tgz"
+      }
+    },
+    "debug": {
+      "3.2.7": {
+        "hash": "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
+      }
+    },
+    "gm": {
+      "1.24.0": {
+        "hash": "sha512-HsB94GIi6D4KklPrcRtq85CUuQhgi292N7vOx00pBH95sKuuy9LfenL9UtqXV4XFU8AmP5EaIhYcCxYp9zjiGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gm/-/gm-1.24.0.tgz"
+      }
+    },
+    "isexe": {
+      "2.0.0": {
+        "hash": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+      }
+    },
+    "lru-cache": {
+      "4.1.5": {
+        "hash": "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz"
+      }
+    },
+    "ms": {
+      "2.1.3": {
+        "hash": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
+      }
+    },
+    "pseudomap": {
+      "1.0.2": {
+        "hash": "sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
+      }
+    },
+    "which": {
+      "1.3.1": {
+        "hash": "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which/-/which-1.3.1.tgz"
+      }
+    },
+    "yallist": {
+      "2.1.2": {
+        "hash": "sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz"
+      }
+    }
+  }
+}

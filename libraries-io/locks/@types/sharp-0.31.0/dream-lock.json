@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/sharp",
+    "location": "",
+    "packages": {
+      "@types/sharp": "0.31.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/sharp": {
+      "0.31.0": [
+        [ "@types/node", "18.7.18" ]
+      ],
+      "unknown": [
+        [ "@types/sharp", "0.31.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.18": {
+        "hash": "sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.18.tgz"
+      }
+    },
+    "@types/sharp": {
+      "0.31.0": {
+        "hash": "sha512-nwivOU101fYInCwdDcH/0/Ru6yIRXOpORx25ynEOc6/IakuCmjOAGpaO5VfUl4QkDtUC6hj+Z2eCQvgXOioknw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sharp/-/sharp-0.31.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_generic": {
+    "defaultPackage": "svelte2tsx",
+    "location": "",
+    "packages": {
+      "svelte2tsx": "0.5.18"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lower-case": {
+      "2.0.2": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "no-case": {
+      "3.0.4": [
+        [ "lower-case", "2.0.2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "pascal-case": {
+      "3.1.2": [
+        [ "no-case", "3.0.4" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "svelte2tsx": {
+      "0.5.18": [
+        [ "dedent-js", "1.0.1" ],
+        [ "pascal-case", "3.1.2" ]
+      ],
+      "unknown": [
+        [ "svelte2tsx", "0.5.18" ]
+      ]
+    }
+  },
+  "sources": {
+    "dedent-js": {
+      "1.0.1": {
+        "hash": "sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dedent-js/-/dedent-js-1.0.1.tgz"
+      }
+    },
+    "lower-case": {
+      "2.0.2": {
+        "hash": "sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lower-case/-/lower-case-2.0.2.tgz"
+      }
+    },
+    "no-case": {
+      "3.0.4": {
+        "hash": "sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/no-case/-/no-case-3.0.4.tgz"
+      }
+    },
+    "pascal-case": {
+      "3.1.2": {
+        "hash": "sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pascal-case/-/pascal-case-3.1.2.tgz"
+      }
+    },
+    "svelte": {
+      "3.50.1": {
+        "hash": "sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svelte/-/svelte-3.50.1.tgz"
+      }
+    },
+    "svelte2tsx": {
+      "0.5.18": {
+        "hash": "sha512-yhfEv1xvTYJZR/6Abygw09IH7uhAprKbar6Vk/YsfJyNcz4PQc/EHlG0LJbsm+FW8Us6ihZ9KJC4u+FnNW99lg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svelte2tsx/-/svelte2tsx-0.5.18.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "typescript": {
+      "4.8.3": {
+        "hash": "sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/typescript/-/typescript-4.8.3.tgz"
+      }
+    }
+  }
+}

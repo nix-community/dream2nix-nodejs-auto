@@ -1,0 +1,60 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/gapi.client.discovery",
+    "location": "",
+    "packages": {
+      "@types/gapi.client.discovery": "1.0.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {
+    "@maxim_mazurok/gapi.client.discovery-v1": {
+      "0.0.20200806": [
+        [ "@types/gapi.client.discovery", "1.0.8" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "@maxim_mazurok/gapi.client.discovery-v1": {
+      "0.0.20200806": [
+        [ "@types/gapi.client", "1.0.5" ],
+        [ "@types/gapi.client.discovery", "1.0.8" ]
+      ]
+    },
+    "@types/gapi.client.discovery": {
+      "1.0.8": [
+        [ "@maxim_mazurok/gapi.client.discovery-v1", "0.0.20200806" ]
+      ],
+      "unknown": [
+        [ "@types/gapi.client.discovery", "1.0.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@maxim_mazurok/gapi.client.discovery-v1": {
+      "0.0.20200806": {
+        "hash": "sha512-0pZtrElj8bc0YROIo7nH8VVvks/iww/L68l7r74oC9+ksSVO3Lum1zUR8dXTvJ7TqLGaNYiiNaUZianK6doh/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@maxim_mazurok/gapi.client.discovery-v1/-/gapi.client.discovery-v1-0.0.20200806.tgz"
+      }
+    },
+    "@types/gapi.client": {
+      "1.0.5": {
+        "hash": "sha512-OTpbBMuzfC4lkvaomxqskI/iWRGW3zOZbDXZLNSyiuswTiSSGgILRLkg0POuZ4EgzEdaYaTlXpnXiCp07ri/Yw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/gapi.client/-/gapi.client-1.0.5.tgz"
+      }
+    },
+    "@types/gapi.client.discovery": {
+      "1.0.8": {
+        "hash": "sha512-cYVp7ISY2oqH/cHIfLVjppJo7xmMiY/RhMVN0O/6Z+X3grwojmuDIHcUw/C1F31/zFpFWDSjaPkwNP0aKIbbcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/gapi.client.discovery/-/gapi.client.discovery-1.0.8.tgz"
+      }
+    }
+  }
+}

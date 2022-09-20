@@ -1,0 +1,174 @@
+{
+  "_generic": {
+    "defaultPackage": "jest-matcher-utils",
+    "location": "",
+    "packages": {
+      "jest-matcher-utils": "29.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@jest/schemas": {
+      "29.0.0": [
+        [ "@sinclair/typebox", "0.24.42" ]
+      ]
+    },
+    "ansi-styles": {
+      "4.3.0": [
+        [ "color-convert", "2.0.1" ]
+      ]
+    },
+    "chalk": {
+      "4.1.2": [
+        [ "ansi-styles", "4.3.0" ],
+        [ "supports-color", "7.2.0" ]
+      ]
+    },
+    "color-convert": {
+      "2.0.1": [
+        [ "color-name", "1.1.4" ]
+      ]
+    },
+    "jest-diff": {
+      "29.0.3": [
+        [ "chalk", "4.1.2" ],
+        [ "diff-sequences", "29.0.0" ],
+        [ "jest-get-type", "29.0.0" ],
+        [ "pretty-format", "29.0.3" ]
+      ]
+    },
+    "jest-matcher-utils": {
+      "29.0.3": [
+        [ "chalk", "4.1.2" ],
+        [ "jest-diff", "29.0.3" ],
+        [ "jest-get-type", "29.0.0" ],
+        [ "pretty-format", "29.0.3" ]
+      ],
+      "unknown": [
+        [ "jest-matcher-utils", "29.0.3" ]
+      ]
+    },
+    "pretty-format": {
+      "29.0.3": [
+        [ "@jest/schemas", "29.0.0" ],
+        [ "ansi-styles", "5.2.0" ],
+        [ "react-is", "18.2.0" ]
+      ]
+    },
+    "supports-color": {
+      "7.2.0": [
+        [ "has-flag", "4.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@jest/schemas": {
+      "29.0.0": {
+        "hash": "sha512-3Ab5HgYIIAnS0HjqJHQYZS+zXc4tUmTmBH3z83ajI6afXp8X3ZtdLX+nXx+I7LNkJD7uN9LAVhgnjDgZa2z0kA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jest/schemas/-/schemas-29.0.0.tgz"
+      }
+    },
+    "@sinclair/typebox": {
+      "0.24.42": {
+        "hash": "sha512-d+2AtrHGyWek2u2ITF0lHRIv6Tt7X0dEHW+0rP+5aDCEjC3fiN2RBjrLD0yU0at52BcZbRGxLbAtXiR0hFCjYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.42.tgz"
+      }
+    },
+    "ansi-styles": {
+      "4.3.0": {
+        "hash": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
+      },
+      "5.2.0": {
+        "hash": "sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz"
+      }
+    },
+    "chalk": {
+      "4.1.2": {
+        "hash": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
+      }
+    },
+    "color-convert": {
+      "2.0.1": {
+        "hash": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
+      }
+    },
+    "color-name": {
+      "1.1.4": {
+        "hash": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+      }
+    },
+    "diff-sequences": {
+      "29.0.0": {
+        "hash": "sha512-7Qe/zd1wxSDL4D/X/FPjOMB+ZMDt71W94KYaq05I2l0oQqgXgs7s4ftYYmV38gBSrPz2vcygxfs1xn0FT+rKNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.0.0.tgz"
+      }
+    },
+    "has-flag": {
+      "4.0.0": {
+        "hash": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+      }
+    },
+    "jest-diff": {
+      "29.0.3": {
+        "hash": "sha512-+X/AIF5G/vX9fWK+Db9bi9BQas7M9oBME7egU7psbn4jlszLFCu0dW63UgeE6cs/GANq4fLaT+8sGHQQ0eCUfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-diff/-/jest-diff-29.0.3.tgz"
+      }
+    },
+    "jest-get-type": {
+      "29.0.0": {
+        "hash": "sha512-83X19z/HuLKYXYHskZlBAShO7UfLFXu/vWajw9ZNJASN32li8yHMaVGAQqxFW1RCFOkB7cubaL6FaJVQqqJLSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.0.0.tgz"
+      }
+    },
+    "jest-matcher-utils": {
+      "29.0.3": {
+        "hash": "sha512-RsR1+cZ6p1hDV4GSCQTg+9qjeotQCgkaleIKLK7dm+U4V/H2bWedU3RAtLm8+mANzZ7eDV33dMar4pejd7047w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.0.3.tgz"
+      }
+    },
+    "pretty-format": {
+      "29.0.3": {
+        "hash": "sha512-cHudsvQr1K5vNVLbvYF/nv3Qy/F/BcEKxGuIeMiVMRHxPOO1RxXooP8g/ZrwAp7Dx+KdMZoOc7NxLHhMrP2f9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pretty-format/-/pretty-format-29.0.3.tgz"
+      }
+    },
+    "react-is": {
+      "18.2.0": {
+        "hash": "sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
+      }
+    },
+    "supports-color": {
+      "7.2.0": {
+        "hash": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
+      }
+    }
+  }
+}

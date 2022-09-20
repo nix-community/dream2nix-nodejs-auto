@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "flow-remove-types",
+    "location": "",
+    "packages": {
+      "flow-remove-types": "2.187.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "flow-remove-types": {
+      "2.187.0": [
+        [ "flow-parser", "0.187.1" ],
+        [ "pirates", "3.0.2" ],
+        [ "vlq", "0.2.3" ]
+      ],
+      "unknown": [
+        [ "flow-remove-types", "2.187.0" ]
+      ]
+    },
+    "pirates": {
+      "3.0.2": [
+        [ "node-modules-regexp", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "flow-parser": {
+      "0.187.1": {
+        "hash": "sha512-ZvlTeakTTMmYGukt4EIQtLEp4ie45W+jK325uukGgiqFg2Rl7TdpOJQbOLUN2xMeGS+WvXaK0uIJ3coPGDXFGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/flow-parser/-/flow-parser-0.187.1.tgz"
+      }
+    },
+    "flow-remove-types": {
+      "2.187.0": {
+        "hash": "sha512-T9HCuvTKLPbNykme47Vm6joPi/pAdUh6bStxoar660NiO4+02oXqP99o/llpe1+5aq6jVcQ21JAhkO6oWR6ZZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/flow-remove-types/-/flow-remove-types-2.187.0.tgz"
+      }
+    },
+    "node-modules-regexp": {
+      "1.0.0": {
+        "hash": "sha512-JMaRS9L4wSRIR+6PTVEikTrq/lMGEZR43a48ETeilY0Q0iMwVnccMFrUM1k+tNzmYuIU0Vh710bCUqHX+/+ctQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz"
+      }
+    },
+    "pirates": {
+      "3.0.2": {
+        "hash": "sha512-c5CgUJq6H2k6MJz72Ak1F5sN9n9wlSlJyEnwvpm9/y3WB4E3pHBDT2c6PEiS1vyJvq2bUxUAIu0EGf8Cx4Ic7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pirates/-/pirates-3.0.2.tgz"
+      }
+    },
+    "vlq": {
+      "0.2.3": {
+        "hash": "sha512-DRibZL6DsNhIgYQ+wNdWDL2SL3bKPlVrRiBqV5yuMm++op8W4kGFtaQfCs4KEJn0wBZcHVHJ3eoywX8983k1ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vlq/-/vlq-0.2.3.tgz"
+      }
+    }
+  }
+}
