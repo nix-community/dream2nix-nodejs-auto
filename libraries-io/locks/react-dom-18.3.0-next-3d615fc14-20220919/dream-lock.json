@@ -1,0 +1,78 @@
+{
+  "_generic": {
+    "defaultPackage": "react-dom",
+    "location": "",
+    "packages": {
+      "react-dom": "18.3.0-next-3d615fc14-20220919"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.3.0-next-3d615fc14-20220919": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-dom": {
+      "18.3.0-next-3d615fc14-20220919": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.24.0-next-3d615fc14-20220919" ]
+      ],
+      "unknown": [
+        [ "react-dom", "18.3.0-next-3d615fc14-20220919" ]
+      ]
+    },
+    "scheduler": {
+      "0.24.0-next-3d615fc14-20220919": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.3.0-next-3d615fc14-20220919": {
+        "hash": "sha512-VmRTSixt6BRzSR4fpjgXCprX5rJlOb0dqWeTiKmbfmn1mgg4yaZcXISYaU8JDPP/lKKHImKX55lZl6AxFSosMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.3.0-next-3d615fc14-20220919.tgz"
+      }
+    },
+    "react-dom": {
+      "18.3.0-next-3d615fc14-20220919": {
+        "hash": "sha512-3TpMlVvw6ZohwZsGWerkZTVCF3kALtNh17pePqeaP08hM2tKoeQqEHQ9lkK3ef8nLw6b22wv3z+Qv6TJ6Pi6BQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.0-next-3d615fc14-20220919.tgz"
+      }
+    },
+    "scheduler": {
+      "0.24.0-next-3d615fc14-20220919": {
+        "hash": "sha512-A5brS4QUqe2MmUuuxKljq8mMX6GPFBYiN8DSHYRUJTsxEWRMaF7czfZyo7A0jNigxBEBiCzd8RC2oil6au1DOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.24.0-next-3d615fc14-20220919.tgz"
+      }
+    }
+  }
+}

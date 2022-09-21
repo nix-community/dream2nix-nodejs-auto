@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "@trivikr-test/middleware-retry",
+    "location": "",
+    "packages": {
+      "@trivikr-test/middleware-retry": "3.170.0-es6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@trivikr-test/middleware-retry": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/protocol-http", "3.170.0-es6" ],
+        [ "@trivikr-test/service-error-classification", "3.170.0-es6" ],
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "@trivikr-test/util-middleware", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ],
+        [ "uuid", "8.3.2" ]
+      ],
+      "unknown": [
+        [ "@trivikr-test/middleware-retry", "3.170.0-es6" ]
+      ]
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/util-middleware": {
+      "3.170.0-es6": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trivikr-test/middleware-retry": {
+      "3.170.0-es6": {
+        "hash": "sha512-GGYkhuuErTqEUTYrfd8Kr8IovVLMdZ36oiOZz8xe7wl7kK2COCTQZe1T85QZwn1UbBuxyb3GPWAWNmsE2TMaUg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/middleware-retry/-/middleware-retry-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es6": {
+        "hash": "sha512-mqfqcV6AopmEkI+H2clEFFiM27v5vMXPkc+bjTpyL1+pgalB3Jkw7nNfwQbWF77sINElQoDiEQmqMHwObAIMpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/protocol-http/-/protocol-http-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/service-error-classification": {
+      "3.170.0-es6": {
+        "hash": "sha512-EijT6t/9yRGDGAR6BwpBb3fWf3Iy+QZa7pNINwx5Trf1lk907TrwCcpNdPedR+BqFoe+jic7jPlA1b8ME2YOHQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/service-error-classification/-/service-error-classification-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/types": {
+      "3.170.0-es6": {
+        "hash": "sha512-16390zsWXA/Ptcku5zlqPKV0fatJ785dfljTnEHUBpSNxA1An0Asc2y7+9KRqvwFoSdiRa5hfo4MXgFLr/+7dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/types/-/types-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/util-middleware": {
+      "3.170.0-es6": {
+        "hash": "sha512-cs2L4dp7F9rlytiJgsRLT7ObTmJK9U0Grt1LRzAdhPtxrCg7e7FBVle3sFP8HavM//SEKpAPv1cI7DUyohF0XQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/util-middleware/-/util-middleware-3.170.0-es6.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_generic": {
+    "defaultPackage": "@trivikr-test/node-http-handler",
+    "location": "",
+    "packages": {
+      "@trivikr-test/node-http-handler": "3.170.0-es6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@trivikr-test/abort-controller": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/node-http-handler": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/abort-controller", "3.170.0-es6" ],
+        [ "@trivikr-test/protocol-http", "3.170.0-es6" ],
+        [ "@trivikr-test/querystring-builder", "3.170.0-es6" ],
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@trivikr-test/node-http-handler", "3.170.0-es6" ]
+      ]
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/querystring-builder": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "@trivikr-test/util-uri-escape", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/util-uri-escape": {
+      "3.170.0-es6": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trivikr-test/abort-controller": {
+      "3.170.0-es6": {
+        "hash": "sha512-FWp2PyoI1aim6xP3OfPn7fq1sHlnoRVyuiHwZ6TJpsw9T79zj4OS5eQy9SDa8I8JfunMz9CJXuihZwIxa5CkSQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/abort-controller/-/abort-controller-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/node-http-handler": {
+      "3.170.0-es6": {
+        "hash": "sha512-agXL8XfoR1Vkp+NAQZjzQLa5laxUXg+xHHEqTHkLJMxcjEr4Z+UhRJQEw42Edm5Z4p5Hi2hQu8bVgpNq8uwGiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/node-http-handler/-/node-http-handler-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es6": {
+        "hash": "sha512-mqfqcV6AopmEkI+H2clEFFiM27v5vMXPkc+bjTpyL1+pgalB3Jkw7nNfwQbWF77sINElQoDiEQmqMHwObAIMpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/protocol-http/-/protocol-http-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/querystring-builder": {
+      "3.170.0-es6": {
+        "hash": "sha512-85jdguQwssF59H8jZXcrCrcnx/iKEp6gMa7LVSy+eT5NYw06OrSosHZEqs99H4WLL1ETOTOhVj4k/UsYxro72Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/querystring-builder/-/querystring-builder-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/types": {
+      "3.170.0-es6": {
+        "hash": "sha512-16390zsWXA/Ptcku5zlqPKV0fatJ785dfljTnEHUBpSNxA1An0Asc2y7+9KRqvwFoSdiRa5hfo4MXgFLr/+7dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/types/-/types-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/util-uri-escape": {
+      "3.170.0-es6": {
+        "hash": "sha512-jAHEbqSNKyjn6cHItYcGvALWdaZq6629xkDfHzVWzXnrgz1Bkp8mcJ4Tr1ixwEWRkinFaE+ebRFzBeXzlwweIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/util-uri-escape/-/util-uri-escape-3.170.0-es6.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

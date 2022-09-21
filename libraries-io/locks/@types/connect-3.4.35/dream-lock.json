@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/connect",
+    "location": "",
+    "packages": {
+      "@types/connect": "3.4.35"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/connect": {
+      "3.4.35": [
+        [ "@types/node", "18.7.18" ]
+      ],
+      "unknown": [
+        [ "@types/connect", "3.4.35" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/connect": {
+      "3.4.35": {
+        "hash": "sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/connect/-/connect-3.4.35.tgz"
+      }
+    },
+    "@types/node": {
+      "18.7.18": {
+        "hash": "sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.18.tgz"
+      }
+    }
+  }
+}

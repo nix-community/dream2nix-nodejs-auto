@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "@trivikr-test/util-user-agent-browser",
+    "location": "",
+    "packages": {
+      "@trivikr-test/util-user-agent-browser": "3.170.0-es6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@trivikr-test/util-user-agent-browser": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "bowser", "2.11.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@trivikr-test/util-user-agent-browser", "3.170.0-es6" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trivikr-test/types": {
+      "3.170.0-es6": {
+        "hash": "sha512-16390zsWXA/Ptcku5zlqPKV0fatJ785dfljTnEHUBpSNxA1An0Asc2y7+9KRqvwFoSdiRa5hfo4MXgFLr/+7dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/types/-/types-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/util-user-agent-browser": {
+      "3.170.0-es6": {
+        "hash": "sha512-J/ECqBFQyFu6vGJIIpEvWb0V7SNiXafRu88KyFVbCNmUSGmGasSZtHri8p20Bjv7ofcLqco5WFQX7UihnELhxg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/util-user-agent-browser/-/util-user-agent-browser-3.170.0-es6.tgz"
+      }
+    },
+    "bowser": {
+      "2.11.0": {
+        "hash": "sha512-AlcaJBi/pqqJBIQ8U9Mcpc9i8Aqxn88Skv5d+xBX006BY5u8N3mGLHa5Lgppa7L/HfwgwLgZ6NYs+Ag6uUmJRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bowser/-/bowser-2.11.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

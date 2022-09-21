@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "@trivikr-test/middleware-host-header",
+    "location": "",
+    "packages": {
+      "@trivikr-test/middleware-host-header": "3.170.0-es6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@trivikr-test/middleware-host-header": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/protocol-http", "3.170.0-es6" ],
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@trivikr-test/middleware-host-header", "3.170.0-es6" ]
+      ]
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trivikr-test/middleware-host-header": {
+      "3.170.0-es6": {
+        "hash": "sha512-P2QAtteSTfQWVumeT4avXPzrW1srsLkW29P8NB3Ov4loo+V+ixcBGLAGxazfh3aA2RuBCWlfSfKLmoCgdmf/5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/middleware-host-header/-/middleware-host-header-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es6": {
+        "hash": "sha512-mqfqcV6AopmEkI+H2clEFFiM27v5vMXPkc+bjTpyL1+pgalB3Jkw7nNfwQbWF77sINElQoDiEQmqMHwObAIMpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/protocol-http/-/protocol-http-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/types": {
+      "3.170.0-es6": {
+        "hash": "sha512-16390zsWXA/Ptcku5zlqPKV0fatJ785dfljTnEHUBpSNxA1An0Asc2y7+9KRqvwFoSdiRa5hfo4MXgFLr/+7dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/types/-/types-3.170.0-es6.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

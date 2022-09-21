@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@trivikr-test/middleware-logger",
+    "location": "",
+    "packages": {
+      "@trivikr-test/middleware-logger": "3.170.0-es6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@trivikr-test/middleware-logger": {
+      "3.170.0-es6": [
+        [ "@trivikr-test/types", "3.170.0-es6" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@trivikr-test/middleware-logger", "3.170.0-es6" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trivikr-test/middleware-logger": {
+      "3.170.0-es6": {
+        "hash": "sha512-T/qP8AmkmhO7kx3P4MjUhymMapF5hWDTCTdWjk3WVsPCFRl7tXnYf6DrDNz2X8DEk4lSErUER8gdEA8rcOdp2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/middleware-logger/-/middleware-logger-3.170.0-es6.tgz"
+      }
+    },
+    "@trivikr-test/types": {
+      "3.170.0-es6": {
+        "hash": "sha512-16390zsWXA/Ptcku5zlqPKV0fatJ785dfljTnEHUBpSNxA1An0Asc2y7+9KRqvwFoSdiRa5hfo4MXgFLr/+7dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/types/-/types-3.170.0-es6.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

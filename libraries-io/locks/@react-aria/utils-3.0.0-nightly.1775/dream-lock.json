@@ -1,0 +1,126 @@
+{
+  "_generic": {
+    "defaultPackage": "@react-aria/utils",
+    "location": "",
+    "packages": {
+      "@react-aria/utils": "3.0.0-nightly.1775"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.19.0": [
+        [ "regenerator-runtime", "0.13.9" ]
+      ]
+    },
+    "@react-aria/ssr": {
+      "3.3.1-nightly.3475": [
+        [ "@babel/runtime", "7.19.0" ]
+      ]
+    },
+    "@react-aria/utils": {
+      "3.0.0-nightly.1775": [
+        [ "@babel/runtime", "7.19.0" ],
+        [ "@react-aria/ssr", "3.3.1-nightly.3475" ],
+        [ "@react-stately/utils", "3.0.0-nightly.1775" ],
+        [ "@react-types/shared", "3.0.0-nightly.1775" ],
+        [ "clsx", "1.2.1" ]
+      ],
+      "unknown": [
+        [ "@react-aria/utils", "3.0.0-nightly.1775" ]
+      ]
+    },
+    "@react-stately/utils": {
+      "3.0.0-nightly.1775": [
+        [ "@babel/runtime", "7.19.0" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.19.0": {
+        "hash": "sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.0.tgz"
+      }
+    },
+    "@react-aria/ssr": {
+      "3.3.1-nightly.3475": {
+        "hash": "sha512-Fpg7logMW8JMMe9W420ayZywDxIp1MX5bYe0qh0UUGnzcw9jk4iNh3UquI5CDdNqIegdYzmOkpHNir7IcrZqiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@react-aria/ssr/-/ssr-3.3.1-nightly.3475.tgz"
+      }
+    },
+    "@react-aria/utils": {
+      "3.0.0-nightly.1775": {
+        "hash": "sha512-9weBXVb46KRA8JH4ScVq0HIMYGKEjkRN6Nixa0Tv3wnUOVJKL8zEnxkJq+mKOsFD6wlPu3PoabkH7fA3eNWEVQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@react-aria/utils/-/utils-3.0.0-nightly.1775.tgz"
+      }
+    },
+    "@react-stately/utils": {
+      "3.0.0-nightly.1775": {
+        "hash": "sha512-IaDF365UUrrkfaDUD00dm5u0gFJIHE1LvCqAtuVefYOL5QOp0KpiP6FNxy/RWfBVE3O9sMMeI8t8xJV9v/dp/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@react-stately/utils/-/utils-3.0.0-nightly.1775.tgz"
+      }
+    },
+    "@react-types/shared": {
+      "3.0.0-nightly.1775": {
+        "hash": "sha512-aO+So+5YRf3SBjGHG16KlYMBdE7ZO1zI7zAw8Sa7m3F9R5Oiy+goR2sVzFFzu8ocU1VL6YjX5jouIO3GEq7odQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@react-types/shared/-/shared-3.0.0-nightly.1775.tgz"
+      }
+    },
+    "clsx": {
+      "1.2.1": {
+        "hash": "sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.9": {
+        "hash": "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+      }
+    }
+  }
+}
