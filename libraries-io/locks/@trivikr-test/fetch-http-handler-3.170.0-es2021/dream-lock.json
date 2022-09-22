@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "@trivikr-test/fetch-http-handler",
+    "location": "",
+    "packages": {
+      "@trivikr-test/fetch-http-handler": "3.170.0-es2021"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@trivikr-test/fetch-http-handler": {
+      "3.170.0-es2021": [
+        [ "@trivikr-test/protocol-http", "3.170.0-es2021" ],
+        [ "@trivikr-test/querystring-builder", "3.170.0-es2021" ],
+        [ "@trivikr-test/types", "3.170.0-es2021" ],
+        [ "@trivikr-test/util-base64-browser", "3.170.0-es2021" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@trivikr-test/fetch-http-handler", "3.170.0-es2021" ]
+      ]
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es2021": [
+        [ "@trivikr-test/types", "3.170.0-es2021" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/querystring-builder": {
+      "3.170.0-es2021": [
+        [ "@trivikr-test/types", "3.170.0-es2021" ],
+        [ "@trivikr-test/util-uri-escape", "3.170.0-es2021" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/util-base64-browser": {
+      "3.170.0-es2021": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@trivikr-test/util-uri-escape": {
+      "3.170.0-es2021": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trivikr-test/fetch-http-handler": {
+      "3.170.0-es2021": {
+        "hash": "sha512-COYajpleHIQtUXhs956aF/fZsK27yarzCjiSWC9qeZcoyi87Gt/6h8mFo3JolTYZykxESJP3o1MSDDdm+os7JQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/fetch-http-handler/-/fetch-http-handler-3.170.0-es2021.tgz"
+      }
+    },
+    "@trivikr-test/protocol-http": {
+      "3.170.0-es2021": {
+        "hash": "sha512-NdYrTz55BFIpS/uZjkx/o0+nOy0My1dv/8pMOLhjjxOoRX3muUREEJ7y7bqneJUCTXnhTCF3o4ELtBor0ckeNQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/protocol-http/-/protocol-http-3.170.0-es2021.tgz"
+      }
+    },
+    "@trivikr-test/querystring-builder": {
+      "3.170.0-es2021": {
+        "hash": "sha512-agGbjrSh53f6uOXWd6hvjgoHiIcpYcqt7Lk6g5Z5SpXoSjEieXqDeE8AcYy2vbl2EdqYzdH9i7SKoTwPKsLqpQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/querystring-builder/-/querystring-builder-3.170.0-es2021.tgz"
+      }
+    },
+    "@trivikr-test/types": {
+      "3.170.0-es2021": {
+        "hash": "sha512-A9PaD308OM4ibBgtcQJx/2YudAMKqM+XhX2K95rD/6qtnOnYr04+Mjb+9kFH9bA3wGSmLApysL/eFjr+Ywvubg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/types/-/types-3.170.0-es2021.tgz"
+      }
+    },
+    "@trivikr-test/util-base64-browser": {
+      "3.170.0-es2021": {
+        "hash": "sha512-4CzDT+1VykJbXZOzdjs0bJplCBFHfhT7d6Y3itclLZpq1KjiDy0n9oOFrr+hvbzqdpnPdT5X/2nA66wPXr5ngg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/util-base64-browser/-/util-base64-browser-3.170.0-es2021.tgz"
+      }
+    },
+    "@trivikr-test/util-uri-escape": {
+      "3.170.0-es2021": {
+        "hash": "sha512-APuGdaFycO5vldgHfY4BDGGryGSi7c6S77un9Svmmmv+E/zHq+ocukD6M4WpW4+pfy6FDJDxdi58MNr5P+YlOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trivikr-test/util-uri-escape/-/util-uri-escape-3.170.0-es2021.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

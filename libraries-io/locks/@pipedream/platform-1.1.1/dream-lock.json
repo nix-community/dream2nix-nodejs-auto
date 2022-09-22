@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@pipedream/platform",
+    "location": "",
+    "packages": {
+      "@pipedream/platform": "1.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@pipedream/platform": {
+      "1.1.1": [
+        [ "axios", "0.21.4" ],
+        [ "fp-ts", "2.12.3" ],
+        [ "io-ts", "2.2.18" ],
+        [ "querystring", "0.2.1" ]
+      ],
+      "unknown": [
+        [ "@pipedream/platform", "1.1.1" ]
+      ]
+    },
+    "axios": {
+      "0.21.4": [
+        [ "follow-redirects", "1.15.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@pipedream/platform": {
+      "1.1.1": {
+        "hash": "sha512-1frSYwee2eJbmZxsOfcOVjpxNpdswrY5JQsHmbUZeyk28gLKSfcFHDcmRdWdtI9B/6T44YIiDR5mMc0T6F+qsg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pipedream/platform/-/platform-1.1.1.tgz"
+      }
+    },
+    "axios": {
+      "0.21.4": {
+        "hash": "sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/axios/-/axios-0.21.4.tgz"
+      }
+    },
+    "follow-redirects": {
+      "1.15.2": {
+        "hash": "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
+      }
+    },
+    "fp-ts": {
+      "2.12.3": {
+        "hash": "sha512-8m0XvW8kZbfnJOA4NvSVXu95mLbPf4LQGwQyqVukIYS4KzSNJiyKSmuZUmbVHteUi6MGkAJGPb0goPZqI+Tsqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fp-ts/-/fp-ts-2.12.3.tgz"
+      }
+    },
+    "io-ts": {
+      "2.2.18": {
+        "hash": "sha512-3JxUUzRtPQPs5sOwB7pW0+Xb54nOzqA6M1sRB1hwgsRmkWMeGTjtOrCynGTJhIj+mBLUj2S37DAq2+BrPh9kTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/io-ts/-/io-ts-2.2.18.tgz"
+      }
+    },
+    "querystring": {
+      "0.2.1": {
+        "hash": "sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/querystring/-/querystring-0.2.1.tgz"
+      }
+    }
+  }
+}

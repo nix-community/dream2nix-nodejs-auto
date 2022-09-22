@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@date-io/date-fns",
+    "location": "",
+    "packages": {
+      "@date-io/date-fns": "2.16.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@date-io/date-fns": {
+      "2.16.0": [
+        [ "@date-io/core", "2.16.0" ]
+      ],
+      "unknown": [
+        [ "@date-io/date-fns", "2.16.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@date-io/core": {
+      "2.16.0": {
+        "hash": "sha512-DYmSzkr+jToahwWrsiRA2/pzMEtz9Bq1euJwoOuYwuwIYXnZFtHajY2E6a1VNVDc9jP8YUXK1BvnZH9mmT19Zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@date-io/core/-/core-2.16.0.tgz"
+      }
+    },
+    "@date-io/date-fns": {
+      "2.16.0": {
+        "hash": "sha512-bfm5FJjucqlrnQcXDVU5RD+nlGmL3iWgkHTq3uAZWVIuBu6dDmGa3m8a6zo2VQQpu8ambq9H22UyUpn7590joA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@date-io/date-fns/-/date-fns-2.16.0.tgz"
+      }
+    }
+  }
+}

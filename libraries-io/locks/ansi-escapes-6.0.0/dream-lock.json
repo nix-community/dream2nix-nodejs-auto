@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "ansi-escapes",
+    "location": "",
+    "packages": {
+      "ansi-escapes": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi-escapes": {
+      "6.0.0": [
+        [ "type-fest", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "ansi-escapes", "6.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi-escapes": {
+      "6.0.0": {
+        "hash": "sha512-IG23inYII3dWlU2EyiAiGj6Bwal5GzsgPMwjYGvc1HPE2dgbj4ZB5ToWBKSquKw74nB3TIuOwaI6/jSULzfgrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-6.0.0.tgz"
+      }
+    },
+    "type-fest": {
+      "3.0.0": {
+        "hash": "sha512-MINvUN5ug9u+0hJDzSZNSnuKXI8M4F5Yvb6SQZ2CYqe7SgKXKOosEcU5R7tRgo85I6eAVBbkVF7TCvB4AUK2xQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-3.0.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "bser",
+    "location": "",
+    "packages": {
+      "bser": "2.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bser": {
+      "2.1.1": [
+        [ "node-int64", "0.4.0" ]
+      ],
+      "unknown": [
+        [ "bser", "2.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "bser": {
+      "2.1.1": {
+        "hash": "sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bser/-/bser-2.1.1.tgz"
+      }
+    },
+    "node-int64": {
+      "0.4.0": {
+        "hash": "sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz"
+      }
+    }
+  }
+}
