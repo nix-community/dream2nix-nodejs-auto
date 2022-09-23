@@ -76,7 +76,7 @@
       "3.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ],
+        [ "es-abstract", "1.20.3" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "is-string", "1.0.7" ]
       ]
@@ -85,7 +85,7 @@
       "1.3.0": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ],
+        [ "es-abstract", "1.20.3" ],
         [ "es-shim-unscopables", "1.0.0" ]
       ]
     },
@@ -152,7 +152,7 @@
       ]
     },
     "es-abstract": {
-      "1.20.2": [
+      "1.20.3": [
         [ "call-bind", "1.0.2" ],
         [ "es-to-primitive", "1.2.1" ],
         [ "function-bind", "1.1.1" ],
@@ -173,6 +173,7 @@
         [ "object-keys", "1.1.1" ],
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
+        [ "safe-regex-test", "1.0.0" ],
         [ "string.prototype.trimend", "1.0.5" ],
         [ "string.prototype.trimstart", "1.0.5" ],
         [ "unbox-primitive", "1.0.2" ]
@@ -300,7 +301,7 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ],
+        [ "es-abstract", "1.20.3" ],
         [ "functions-have-names", "1.2.3" ]
       ]
     },
@@ -473,27 +474,27 @@
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ]
+        [ "es-abstract", "1.20.3" ]
       ]
     },
     "object.fromentries": {
       "2.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ]
+        [ "es-abstract", "1.20.3" ]
       ]
     },
     "object.hasown": {
       "1.1.1": [
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ]
+        [ "es-abstract", "1.20.3" ]
       ]
     },
     "object.values": {
       "1.1.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ]
+        [ "es-abstract", "1.20.3" ]
       ]
     },
     "once": {
@@ -542,6 +543,13 @@
         [ "glob", "7.2.3" ]
       ]
     },
+    "safe-regex-test": {
+      "1.0.0": [
+        [ "call-bind", "1.0.2" ],
+        [ "get-intrinsic", "1.1.3" ],
+        [ "is-regex", "1.1.4" ]
+      ]
+    },
     "semver": {
       "7.3.7": [
         [ "lru-cache", "6.0.0" ]
@@ -577,7 +585,7 @@
       "4.0.7": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ],
+        [ "es-abstract", "1.20.3" ],
         [ "get-intrinsic", "1.1.3" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.3" ],
@@ -589,14 +597,14 @@
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ]
+        [ "es-abstract", "1.20.3" ]
       ]
     },
     "string.prototype.trimstart": {
       "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
-        [ "es-abstract", "1.20.2" ]
+        [ "es-abstract", "1.20.3" ]
       ]
     },
     "strip-ansi": {
@@ -903,10 +911,10 @@
       }
     },
     "es-abstract": {
-      "1.20.2": {
-        "hash": "sha512-XxXQuVNrySBNlEkTYJoDNFe5+s2yIOpzq80sUHEdPdQr0S5nTLz4ZPPPswNIpKseDDUS5yghX1gfLIHQZ1iNuQ==",
+      "1.20.3": {
+        "hash": "sha512-AyrnaKVpMzljIdwjzrj+LxGmj8ik2LckwXacHqrJJ/jxz6dDDBcZ7I7nlHM0FvEW8MfbWJwOd+yT2XzYW49Frw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.2.tgz"
+        "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.3.tgz"
       }
     },
     "es-shim-unscopables": {
@@ -1611,6 +1619,13 @@
         "hash": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==",
         "type": "http",
         "url": "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz"
+      }
+    },
+    "safe-regex-test": {
+      "1.0.0": {
+        "hash": "sha512-JBUUzyOgEwXQY1NuPtvcj/qcBDbDmEvWufhlnXZIm75DEHp+afM1r1ujJpJsV/gSM4t59tpDyPi1sd6ZaPFfsA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.0.0.tgz"
       }
     },
     "semver": {
