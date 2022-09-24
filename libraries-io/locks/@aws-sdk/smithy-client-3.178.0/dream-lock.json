@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/smithy-client",
+    "location": "",
+    "packages": {
+      "@aws-sdk/smithy-client": "3.178.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/middleware-stack": {
+      "3.178.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/smithy-client": {
+      "3.178.0": [
+        [ "@aws-sdk/middleware-stack", "3.178.0" ],
+        [ "@aws-sdk/types", "3.178.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/smithy-client", "3.178.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/middleware-stack": {
+      "3.178.0": {
+        "hash": "sha512-ELYM5Imhlcz2zT1Z4OjVZwO564KvI4L9dMBxuUgO0fwommzjWqxR03yaRGhpGwpCP64d0Op5Koc/RKq5V92Wbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-stack/-/middleware-stack-3.178.0.tgz"
+      }
+    },
+    "@aws-sdk/smithy-client": {
+      "3.178.0": {
+        "hash": "sha512-y2uAL3VMKIMZ/6kRAeL/vlIN4qrnmsfYhihm0yYhetdHtaXAN3WRsOpxOEjO3T92KmtQxMvtmRoAN05aVwtgoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/smithy-client/-/smithy-client-3.178.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.178.0": {
+        "hash": "sha512-CrHxHzXSEr/Z3NLFvJgSGHGcD9tYUZ0Rhp8tFCSpD3TpBo3/Y7RIvqaEPvECsL52UEloeBhQf65AO8590YkVmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.178.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}
