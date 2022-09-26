@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@vueuse/core",
+    "location": "",
+    "packages": {
+      "@vueuse/core": "9.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@vueuse/core": {
+      "9.3.0": [
+        [ "@types/web-bluetooth", "0.0.15" ],
+        [ "@vueuse/metadata", "9.3.0" ],
+        [ "@vueuse/shared", "9.3.0" ],
+        [ "vue-demi", "0.13.11" ]
+      ],
+      "unknown": [
+        [ "@vueuse/core", "9.3.0" ]
+      ]
+    },
+    "@vueuse/shared": {
+      "9.3.0": [
+        [ "vue-demi", "0.13.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/web-bluetooth": {
+      "0.0.15": {
+        "hash": "sha512-w7hEHXnPMEZ+4nGKl/KDRVpxkwYxYExuHOYXyzIzCDzEZ9ZCGMAewulr9IqJu2LR4N37fcnb1XVeuZ09qgOxhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/web-bluetooth/-/web-bluetooth-0.0.15.tgz"
+      }
+    },
+    "@vueuse/core": {
+      "9.3.0": {
+        "hash": "sha512-64Rna8IQDWpdrJxgitDg7yv1yTp41ZmvV8zlLEylK4QQLWAhz1OFGZDPZ8bU4lwcGgbEJ2sGi2jrdNh4LttUSQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@vueuse/core/-/core-9.3.0.tgz"
+      }
+    },
+    "@vueuse/metadata": {
+      "9.3.0": {
+        "hash": "sha512-GnnfjbzIPJIh9ngL9s9oGU1+Hx/h5/KFqTfJykzh/1xjaHkedV9g0MASpdmPZIP+ynNhKAcEfA6g5i8KXwtoMA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@vueuse/metadata/-/metadata-9.3.0.tgz"
+      }
+    },
+    "@vueuse/shared": {
+      "9.3.0": {
+        "hash": "sha512-caGUWLY0DpPC6l31KxeUy6vPVNA0yKxx81jFYLoMpyP6cF84FG5Dkf69DfSUqL57wX8JcUkJDMnQaQIZPWFEQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@vueuse/shared/-/shared-9.3.0.tgz"
+      }
+    },
+    "vue": {
+      "2.6.14": {
+        "hash": "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
+      }
+    },
+    "vue-demi": {
+      "0.13.11": {
+        "hash": "sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz"
+      }
+    }
+  }
+}

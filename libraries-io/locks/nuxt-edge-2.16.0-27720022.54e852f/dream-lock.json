@@ -709,7 +709,7 @@
         [ "babel-plugin-polyfill-corejs2", "0.3.3" ],
         [ "babel-plugin-polyfill-corejs3", "0.6.0" ],
         [ "babel-plugin-polyfill-regenerator", "0.4.1" ],
-        [ "core-js-compat", "3.25.2" ],
+        [ "core-js-compat", "3.25.3" ],
         [ "semver", "6.3.0" ]
       ]
     },
@@ -817,8 +817,8 @@
         [ "@babel/preset-env", "7.19.1" ],
         [ "@babel/runtime", "7.19.0" ],
         [ "@vue/babel-preset-jsx", "1.4.0" ],
-        [ "core-js", "3.25.2" ],
-        [ "core-js-compat", "3.25.2" ],
+        [ "core-js", "3.25.3" ],
+        [ "core-js-compat", "3.25.3" ],
         [ "regenerator-runtime", "0.13.9" ]
       ]
     },
@@ -1095,7 +1095,7 @@
     },
     "@types/webpack": {
       "4.41.32": [
-        [ "@types/node", "18.7.20" ],
+        [ "@types/node", "18.7.21" ],
         [ "@types/tapable", "1.0.8" ],
         [ "@types/uglify-js", "3.17.0" ],
         [ "@types/webpack-sources", "3.2.0" ],
@@ -1105,7 +1105,7 @@
     },
     "@types/webpack-sources": {
       "3.2.0": [
-        [ "@types/node", "18.7.20" ],
+        [ "@types/node", "18.7.21" ],
         [ "@types/source-list-map", "0.1.2" ],
         [ "source-map", "0.7.4" ]
       ]
@@ -1406,7 +1406,7 @@
     "babel-plugin-polyfill-corejs3": {
       "0.6.0": [
         [ "@babel/helper-define-polyfill-provider", "0.3.3" ],
-        [ "core-js-compat", "3.25.2" ]
+        [ "core-js-compat", "3.25.3" ]
       ]
     },
     "babel-plugin-polyfill-regenerator": {
@@ -1517,7 +1517,7 @@
     "browserslist": {
       "4.21.4": [
         [ "caniuse-lite", "1.0.30001412" ],
-        [ "electron-to-chromium", "1.4.261" ],
+        [ "electron-to-chromium", "1.4.262" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.9" ]
       ]
@@ -1776,7 +1776,7 @@
       ]
     },
     "core-js-compat": {
-      "3.25.2": [
+      "3.25.3": [
         [ "browserslist", "4.21.4" ]
       ]
     },
@@ -2460,7 +2460,7 @@
         [ "he", "1.2.0" ],
         [ "param-case", "2.1.1" ],
         [ "relateurl", "0.2.7" ],
-        [ "uglify-js", "3.17.1" ]
+        [ "uglify-js", "3.17.2" ]
       ]
     },
     "html-minifier-terser": {
@@ -2693,7 +2693,7 @@
     },
     "jest-worker": {
       "26.6.2": [
-        [ "@types/node", "18.7.20" ],
+        [ "@types/node", "18.7.21" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "7.2.0" ]
       ]
@@ -5540,10 +5540,10 @@
       }
     },
     "@types/node": {
-      "18.7.20": {
-        "hash": "sha512-adzY4vLLr5Uivmx8+zfSJ5fbdgKxX8UMtjtl+17n0B1q1Nz8JEmE151vefMdpD+1gyh+77weN4qEhej/O7budQ==",
+      "18.7.21": {
+        "hash": "sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.20.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.21.tgz"
       }
     },
     "@types/q": {
@@ -6662,17 +6662,17 @@
       }
     },
     "core-js": {
-      "3.25.2": {
-        "hash": "sha512-YB4IAT1bjEfxTJ1XYy11hJAKskO+qmhuDBM8/guIfMz4JvdsAQAqvyb97zXX7JgSrfPLG5mRGFWJwJD39ruq2A==",
+      "3.25.3": {
+        "hash": "sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/core-js/-/core-js-3.25.2.tgz"
+        "url": "https://registry.npmjs.org/core-js/-/core-js-3.25.3.tgz"
       }
     },
     "core-js-compat": {
-      "3.25.2": {
-        "hash": "sha512-TxfyECD4smdn3/CjWxczVtJqVLEEC2up7/82t7vC0AzNogr+4nQ8vyF7abxAuTXWvjTClSbvGhU0RgqA4ToQaQ==",
+      "3.25.3": {
+        "hash": "sha512-xVtYpJQ5grszDHEUU9O7XbjjcZ0ccX3LgQsyqSvTnjX97ZqEgn9F5srmrwwwMtbKzDllyFPL+O+2OFMl1lU4TQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.2.tgz"
+        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.3.tgz"
       }
     },
     "core-util-is": {
@@ -7142,10 +7142,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.261": {
-        "hash": "sha512-fVXliNUGJ7XUVJSAasPseBbVgJIeyw5M1xIkgXdTSRjlmCqBbiSTsEdLOCJS31Fc8B7CaloQ/BFAg8By3ODLdg==",
+      "1.4.262": {
+        "hash": "sha512-Ckn5haqmGh/xS8IbcgK3dnwAVnhDyo/WQnklWn6yaMucYTq7NNxwlGE8ElzEOnonzRLzUCo2Ot3vUb2GYUF2Hw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.261.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.262.tgz"
       }
     },
     "elliptic": {
@@ -11145,10 +11145,10 @@
       }
     },
     "uglify-js": {
-      "3.17.1": {
-        "hash": "sha512-+juFBsLLw7AqMaqJ0GFvlsGZwdQfI2ooKQB39PSBgMnMakcFosi9O8jCwE+2/2nMNcc0z63r9mwjoDG8zr+q0Q==",
+      "3.17.2": {
+        "hash": "sha512-bbxglRjsGQMchfvXZNusUcYgiB9Hx2K4AHYXQy2DITZ9Rd+JzhX7+hoocE5Winr7z2oHvPsekkBwXtigvxevXg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.1.tgz"
+        "url": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.2.tgz"
       }
     },
     "unbox-primitive": {

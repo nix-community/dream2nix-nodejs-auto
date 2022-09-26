@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "assemblyscript",
+    "location": "",
+    "packages": {
+      "assemblyscript": "0.21.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "assemblyscript": {
+      "0.21.4": [
+        [ "binaryen", "110.0.0-nightly.20220924" ],
+        [ "long", "5.2.0" ]
+      ],
+      "unknown": [
+        [ "assemblyscript", "0.21.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "assemblyscript": {
+      "0.21.4": {
+        "hash": "sha512-MGllYvPGFcxYy8R2k6dl7hTuDJ/ZodQBKv1cYwiAh6r4/K+xVVRJ8lzlfN3ajly6uYS4yKnx4X9cQn6DYCYBKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/assemblyscript/-/assemblyscript-0.21.4.tgz"
+      }
+    },
+    "binaryen": {
+      "110.0.0-nightly.20220924": {
+        "hash": "sha512-zXHeJDpmBw4HNRUPTvdXo8p5U47ARb6nWbxmFk/R+HAeWLbd18UxtG1XWf2fQaOJzLYlrI7gURyjdAHz8x8IHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/binaryen/-/binaryen-110.0.0-nightly.20220924.tgz"
+      }
+    },
+    "long": {
+      "5.2.0": {
+        "hash": "sha512-9RTUNjK60eJbx3uz+TEGF7fUr29ZDxR5QzXcyDpeSfeH28S9ycINflOgOlppit5U+4kNTe83KQnMEerw7GmE8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/long/-/long-5.2.0.tgz"
+      }
+    }
+  }
+}
