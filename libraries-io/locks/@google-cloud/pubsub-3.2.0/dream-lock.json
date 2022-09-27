@@ -14,14 +14,14 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@google-cloud/paginator": {
-      "4.0.0": [
+      "4.0.1": [
         [ "arrify", "2.0.1" ],
         [ "extend", "3.0.2" ]
       ]
     },
     "@google-cloud/pubsub": {
       "3.2.0": [
-        [ "@google-cloud/paginator", "4.0.0" ],
+        [ "@google-cloud/paginator", "4.0.1" ],
         [ "@google-cloud/precise-date", "3.0.1" ],
         [ "@google-cloud/projectify", "3.0.0" ],
         [ "@google-cloud/promisify", "2.0.4" ],
@@ -45,7 +45,7 @@
     "@grpc/grpc-js": {
       "1.7.1": [
         [ "@grpc/proto-loader", "0.7.3" ],
-        [ "@types/node", "18.7.21" ]
+        [ "@types/node", "18.7.23" ]
       ]
     },
     "@grpc/proto-loader": {
@@ -65,7 +65,7 @@
     },
     "@types/duplexify": {
       "3.6.1": [
-        [ "@types/node", "18.7.21" ]
+        [ "@types/node", "18.7.23" ]
       ]
     },
     "@types/markdown-it": {
@@ -161,7 +161,7 @@
       ]
     },
     "gaxios": {
-      "5.0.1": [
+      "5.0.2": [
         [ "extend", "3.0.2" ],
         [ "https-proxy-agent", "5.0.1" ],
         [ "is-stream", "2.0.1" ],
@@ -169,8 +169,8 @@
       ]
     },
     "gcp-metadata": {
-      "5.0.0": [
-        [ "gaxios", "5.0.1" ],
+      "5.0.1": [
+        [ "gaxios", "5.0.2" ],
         [ "json-bigint", "1.0.0" ]
       ]
     },
@@ -197,8 +197,8 @@
         [ "base64-js", "1.5.1" ],
         [ "ecdsa-sig-formatter", "1.0.11" ],
         [ "fast-text-encoding", "1.0.6" ],
-        [ "gaxios", "5.0.1" ],
-        [ "gcp-metadata", "5.0.0" ],
+        [ "gaxios", "5.0.2" ],
+        [ "gcp-metadata", "5.0.1" ],
         [ "gtoken", "6.1.2" ],
         [ "jws", "4.0.0" ],
         [ "lru-cache", "6.0.0" ]
@@ -229,7 +229,7 @@
     },
     "gtoken": {
       "6.1.2": [
-        [ "gaxios", "5.0.1" ],
+        [ "gaxios", "5.0.2" ],
         [ "google-p12-pem", "4.0.1" ],
         [ "jws", "4.0.0" ]
       ]
@@ -363,7 +363,7 @@
         [ "@protobufjs/path", "1.1.2" ],
         [ "@protobufjs/pool", "1.1.0" ],
         [ "@protobufjs/utf8", "1.1.0" ],
-        [ "@types/node", "18.7.21" ],
+        [ "@types/node", "18.7.23" ],
         [ "long", "5.2.0" ]
       ]
     },
@@ -475,10 +475,10 @@
       }
     },
     "@google-cloud/paginator": {
-      "4.0.0": {
-        "hash": "sha512-wNmCZl+2G2DmgT/VlF+AROf80SoaC/CwS8trwmjNaq26VRNK8yPbU5F/Vy+R9oDAGKWQU2k8+Op5H4kFJVXFaQ==",
+      "4.0.1": {
+        "hash": "sha512-6G1ui6bWhNyHjmbYwavdN7mpVPRBtyDg/bfqBTAlwr413On2TnFNfDxc9UhTJctkgoCDgQXEKiRPLPR9USlkbQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@google-cloud/paginator/-/paginator-4.0.0.tgz"
+        "url": "https://registry.npmjs.org/@google-cloud/paginator/-/paginator-4.0.1.tgz"
       }
     },
     "@google-cloud/precise-date": {
@@ -643,10 +643,10 @@
       }
     },
     "@types/node": {
-      "18.7.21": {
-        "hash": "sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==",
+      "18.7.23": {
+        "hash": "sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.21.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz"
       }
     },
     "abort-controller": {
@@ -940,17 +940,17 @@
       }
     },
     "gaxios": {
-      "5.0.1": {
-        "hash": "sha512-keK47BGKHyyOVQxgcUaSaFvr3ehZYAlvhvpHXy0YB2itzZef+GqZR8TBsfVRWghdwlKrYsn+8L8i3eblF7Oviw==",
+      "5.0.2": {
+        "hash": "sha512-TjtV2AJOZoMQqRYoy5eM8cCQogYwazWNYLQ72QB0kwa6vHHruYkGmhhyrlzbmgNHK1dNnuP2WSH81urfzyN2Og==",
         "type": "http",
-        "url": "https://registry.npmjs.org/gaxios/-/gaxios-5.0.1.tgz"
+        "url": "https://registry.npmjs.org/gaxios/-/gaxios-5.0.2.tgz"
       }
     },
     "gcp-metadata": {
-      "5.0.0": {
-        "hash": "sha512-gfwuX3yA3nNsHSWUL4KG90UulNiq922Ukj3wLTrcnX33BB7PwB1o0ubR8KVvXu9nJH+P5w1j2SQSNNqto+H0DA==",
+      "5.0.1": {
+        "hash": "sha512-jiRJ+Fk7e8FH68Z6TLaqwea307OktJpDjmYnU7/li6ziwvVvU2RlrCyQo5vkdeP94chm0kcSCOOszvmuaioq3g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-5.0.0.tgz"
+        "url": "https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-5.0.1.tgz"
       }
     },
     "get-caller-file": {

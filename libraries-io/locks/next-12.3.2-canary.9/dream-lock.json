@@ -1,0 +1,281 @@
+{
+  "_generic": {
+    "defaultPackage": "next",
+    "location": "",
+    "packages": {
+      "next": "12.3.2-canary.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@swc/helpers": {
+      "0.4.11": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "next": {
+      "12.3.2-canary.9": [
+        [ "@next/env", "12.3.2-canary.9" ],
+        [ "@next/swc-android-arm-eabi", "12.3.2-canary.9" ],
+        [ "@next/swc-android-arm64", "12.3.2-canary.9" ],
+        [ "@next/swc-darwin-arm64", "12.3.2-canary.9" ],
+        [ "@next/swc-darwin-x64", "12.3.2-canary.9" ],
+        [ "@next/swc-freebsd-x64", "12.3.2-canary.9" ],
+        [ "@next/swc-linux-arm-gnueabihf", "12.3.2-canary.9" ],
+        [ "@next/swc-linux-arm64-gnu", "12.3.2-canary.9" ],
+        [ "@next/swc-linux-arm64-musl", "12.3.2-canary.9" ],
+        [ "@next/swc-linux-x64-gnu", "12.3.2-canary.9" ],
+        [ "@next/swc-linux-x64-musl", "12.3.2-canary.9" ],
+        [ "@next/swc-win32-arm64-msvc", "12.3.2-canary.9" ],
+        [ "@next/swc-win32-ia32-msvc", "12.3.2-canary.9" ],
+        [ "@next/swc-win32-x64-msvc", "12.3.2-canary.9" ],
+        [ "@swc/helpers", "0.4.11" ],
+        [ "caniuse-lite", "1.0.30001412" ],
+        [ "postcss", "8.4.14" ],
+        [ "styled-jsx", "5.0.7" ],
+        [ "use-sync-external-store", "1.2.0" ]
+      ],
+      "unknown": [
+        [ "next", "12.3.2-canary.9" ]
+      ]
+    },
+    "postcss": {
+      "8.4.14": [
+        [ "nanoid", "3.3.4" ],
+        [ "picocolors", "1.0.0" ],
+        [ "source-map-js", "1.0.2" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-dom": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.23.0" ]
+      ]
+    },
+    "scheduler": {
+      "0.23.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@next/env": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-MXifGgY1vFuRx2uuz+Fnq7NLIaQTs5as4ACFPB9fe7GP1pM3fNKaYQS1bslBSms0GGa/y4CBzVIOlpzvBbVp7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/env/-/env-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-android-arm-eabi": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-YmoO76x0Bbhs3GbvyhqR6Bp8P3MB7B5jD7kv+qbAALBD8unrtuwZiczOuoBkSAyi4p3OvXrbQKmf68/LuLsD9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-android-arm64": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-DEQWNdixe2oHhaM0Vz7mC5O9MWOSlp15dFoGkc1+4MLNgF5V1aVAyRMcUs6ueuY+PlbHbn++yP5WLN52w+Rm6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-android-arm64/-/swc-android-arm64-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-darwin-arm64": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-U076D3O0hEZFtvtjMQ3YddScz1SfF54T9jGM6pHmvY1paRPFX+f3hlxi02tmcaUPK9zZbHWrr5aSBgeM0weXPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-darwin-x64": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-54Y0j5lPRBAa46GcBRrngnwiypIFsTYv1OJAPY0bXI4UIjfkeZZwk/BH48xoE/msM0YDn/dJ8YBeSzKI9Dw3fg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-freebsd-x64": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-8ImdQoh2bdzN4raZqRgYehusAqzST10ob/lAwkagAE2Dc68R9LZ+fcH8ZzGmVTmuYEagAze+JK/9CmSqKg4aAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-freebsd-x64/-/swc-freebsd-x64-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-linux-arm-gnueabihf": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-v0T9kHxIEG9W23jqTUbzibarvo1AAQKTMfexRUOK6qur48KekgRyLCm3NaLIBWSjRG5kyresCp4K/OjsPCwQdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-linux-arm64-gnu": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-VudgdZos+8NEoMAPiCo5c7wuNKTVqZrEGyo20iXk2yVpxGQwalscQC0QmtL/qtZcBfuAokDA9sYK6t5wxXkifA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-linux-arm64-musl": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-i/idbS0ftihgg5VVwyTeLQmh98Sozkfq/D/yKns8VXFMG9eyVVqH81l2j7XeYxxIF7lRN6WmOFvdoyWORJfwCw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-linux-x64-gnu": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-uzShVpqrf5Nvws5ynIPdRgbhLpyn/fpfF0DZR41UeKyc+Fm7jy0Ryo1oZtRlsVPF0N+oa/WQck38EFGmsIMxLw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-linux-x64-musl": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-XwyX6FttXK5EPE2f7Z1hmBlrJt/9VhnfZZF6G5BXr7hfSM6oURIaTZxfUrr6ZtesRZ7s0KKFVqzguGsVozwI1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-win32-arm64-msvc": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-C7W/ropqBJAJdmqX7pEcDXj/0z6Gm/eLrVPf9SP63pyISJKf35EgNzQpO/xiERTJB1GYgcvau0aac/rEGPuInQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-win32-ia32-msvc": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-uVnsyEf+oRwMzBq1KnVEGCYL9AyqsDPX5LpSOTY2bmfhvE1F0PQqEiXzGUei+1pZKLU5izyZt2dbdMxED/hxhg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-12.3.2-canary.9.tgz"
+      }
+    },
+    "@next/swc-win32-x64-msvc": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-A2Pz/vuLKn08SILzindjCCHY4o+BLfKhH+938uiMsYRN+E53cpU3CUpF8ZdPW2mfwOO6gFm2aj3+l5KHxVT01g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.3.2-canary.9.tgz"
+      }
+    },
+    "@swc/helpers": {
+      "0.4.11": {
+        "hash": "sha512-rEUrBSGIoSFuYxwBYtlUFMlE2CwGhmW+w9355/5oduSw8e5h2+Tj4UrAGNNgP9915++wj5vkQo0UuOBqOAq4nw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@swc/helpers/-/helpers-0.4.11.tgz"
+      }
+    },
+    "caniuse-lite": {
+      "1.0.30001412": {
+        "hash": "sha512-+TeEIee1gS5bYOiuf+PS/kp2mrXic37Hl66VY6EAfxasIk5fELTktK2oOezYed12H8w7jt3s512PpulQidPjwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001412.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "nanoid": {
+      "3.3.4": {
+        "hash": "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
+      }
+    },
+    "next": {
+      "12.3.2-canary.9": {
+        "hash": "sha512-mmhmXQ3NCSiH6NBxP2u23rha35eZPqTwqPnycgOPFDYAVliB75FBahJCTfGS1OcXfVGaXdUHop0qcXmpjJZ5oQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/next/-/next-12.3.2-canary.9.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    },
+    "postcss": {
+      "8.4.14": {
+        "hash": "sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss/-/postcss-8.4.14.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-dom": {
+      "18.2.0": {
+        "hash": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+      }
+    },
+    "scheduler": {
+      "0.23.0": {
+        "hash": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+      }
+    },
+    "source-map-js": {
+      "1.0.2": {
+        "hash": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+      }
+    },
+    "styled-jsx": {
+      "5.0.7": {
+        "hash": "sha512-b3sUzamS086YLRuvnaDigdAewz1/EFYlHpYBP5mZovKEdQQOIIYq8lApylub3HHZ6xFjV051kkGU7cudJmrXEA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.0.7.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "use-sync-external-store": {
+      "1.2.0": {
+        "hash": "sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
+      }
+    }
+  }
+}

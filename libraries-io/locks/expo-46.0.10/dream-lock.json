@@ -792,7 +792,7 @@
         [ "@expo/code-signing-certificates", "0.0.2" ],
         [ "@expo/config", "7.0.1" ],
         [ "@expo/config-plugins", "5.0.1" ],
-        [ "@expo/dev-server", "0.1.119" ],
+        [ "@expo/dev-server", "0.1.120" ],
         [ "@expo/devcert", "1.0.0" ],
         [ "@expo/json-file", "8.2.36" ],
         [ "@expo/metro-config", "0.3.22" ],
@@ -891,9 +891,9 @@
       ]
     },
     "@expo/dev-server": {
-      "0.1.119": [
+      "0.1.120": [
         [ "@expo/bunyan", "4.0.0" ],
-        [ "@expo/metro-config", "0.3.22" ],
+        [ "@expo/metro-config", "0.4.0" ],
         [ "@expo/osascript", "2.0.33" ],
         [ "body-parser", "1.19.0" ],
         [ "chalk", "4.1.2" ],
@@ -948,6 +948,16 @@
     },
     "@expo/metro-config": {
       "0.3.22": [
+        [ "@expo/config", "7.0.1" ],
+        [ "@expo/json-file", "8.2.36" ],
+        [ "chalk", "4.1.2" ],
+        [ "debug", "4.3.4" ],
+        [ "find-yarn-workspace-root", "2.0.0" ],
+        [ "getenv", "1.0.0" ],
+        [ "resolve-from", "5.0.0" ],
+        [ "sucrase", "3.27.0" ]
+      ],
+      "0.4.0": [
         [ "@expo/config", "7.0.1" ],
         [ "@expo/json-file", "8.2.36" ],
         [ "chalk", "4.1.2" ],
@@ -1027,7 +1037,7 @@
       "26.6.2": [
         [ "@types/istanbul-lib-coverage", "2.0.4" ],
         [ "@types/istanbul-reports", "3.0.1" ],
-        [ "@types/node", "18.7.21" ],
+        [ "@types/node", "18.7.23" ],
         [ "@types/yargs", "15.0.14" ],
         [ "chalk", "4.1.2" ]
       ]
@@ -1224,7 +1234,7 @@
     "browserslist": {
       "4.21.4": [
         [ "caniuse-lite", "1.0.30001412" ],
-        [ "electron-to-chromium", "1.4.262" ],
+        [ "electron-to-chromium", "1.4.264" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.9" ]
       ]
@@ -1397,7 +1407,7 @@
         [ "expo-constants", "13.2.4" ],
         [ "expo-error-recovery", "3.2.0" ],
         [ "expo-file-system", "14.1.0" ],
-        [ "expo-font", "10.2.0" ],
+        [ "expo-font", "10.2.1" ],
         [ "expo-keep-awake", "10.2.0" ],
         [ "expo-modules-autolinking", "0.10.3" ],
         [ "expo-modules-core", "0.11.5" ],
@@ -1437,7 +1447,7 @@
       ]
     },
     "expo-font": {
-      "10.2.0": [
+      "10.2.1": [
         [ "fontfaceobserver", "2.3.0" ]
       ]
     },
@@ -3167,10 +3177,10 @@
       }
     },
     "@expo/dev-server": {
-      "0.1.119": {
-        "hash": "sha512-DcVnj4/YA+b+Ljsz2qffHHN5LbouXFKeE9ER0Yjq5vIb2moV1q3U6LezndFLCf42Uev7C2vSa8YCcP3WOpxuMw==",
+      "0.1.120": {
+        "hash": "sha512-x5/jCv0EOpz6FyehXpI5bgDQTVsGZYvgISkAw7n60RhtG+aid6N2CCR9SDMCH70XaUpFnfTW9qvderpCEj7Puw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@expo/dev-server/-/dev-server-0.1.119.tgz"
+        "url": "https://registry.npmjs.org/@expo/dev-server/-/dev-server-0.1.120.tgz"
       }
     },
     "@expo/devcert": {
@@ -3199,6 +3209,11 @@
         "hash": "sha512-R81sLbaeUBjN8IXcxiVx7GcpSj8z7szILl1b5yJDb38WdIFwxhrseA5wXaTT1yMhI+59w6n99T2qtFV2yD5qYA==",
         "type": "http",
         "url": "https://registry.npmjs.org/@expo/metro-config/-/metro-config-0.3.22.tgz"
+      },
+      "0.4.0": {
+        "hash": "sha512-QhOiotuzklalLbbsTMXJ5v4q4jffQ5xXhy1zsosgc2DL/ZzUr/Yhm3xUcOGnPQ2x7UyeY9Tl3njPHBOJJe7CSA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@expo/metro-config/-/metro-config-0.4.0.tgz"
       }
     },
     "@expo/osascript": {
@@ -3396,10 +3411,10 @@
       }
     },
     "@types/node": {
-      "18.7.21": {
-        "hash": "sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==",
+      "18.7.23": {
+        "hash": "sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.21.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz"
       }
     },
     "@types/yargs": {
@@ -4040,10 +4055,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.262": {
-        "hash": "sha512-Ckn5haqmGh/xS8IbcgK3dnwAVnhDyo/WQnklWn6yaMucYTq7NNxwlGE8ElzEOnonzRLzUCo2Ot3vUb2GYUF2Hw==",
+      "1.4.264": {
+        "hash": "sha512-AZ6ZRkucHOQT8wke50MktxtmcWZr67kE17X/nAXFf62NIdMdgY6xfsaJD5Szoy84lnkuPWH+4tTNE3s2+bPCiw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.262.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.264.tgz"
       }
     },
     "emoji-regex": {
@@ -4180,10 +4195,10 @@
       }
     },
     "expo-font": {
-      "10.2.0": {
-        "hash": "sha512-2V4EcpmhNoppaLn+lPprZVS+3bmV9hxLPKttKh2u8ghjH/oX9bv3u4JVo77SYh0EfrWO4toqVyXn8pXH8GpbIg==",
+      "10.2.1": {
+        "hash": "sha512-sxy5GrdtY+Ka8Wo5wnrcFFeO6MbYC6Dris5wMLqshvVK6BneJNMUsFvwRfvVgg0TzsmMAc3Rlca2xyZ8ettinw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/expo-font/-/expo-font-10.2.0.tgz"
+        "url": "https://registry.npmjs.org/expo-font/-/expo-font-10.2.1.tgz"
       }
     },
     "expo-keep-awake": {

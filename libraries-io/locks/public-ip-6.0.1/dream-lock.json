@@ -25,7 +25,8 @@
       ]
     },
     "cacheable-request": {
-      "10.2.0": [
+      "10.2.1": [
+        [ "@types/http-cache-semantics", "4.0.1" ],
         [ "get-stream", "6.0.1" ],
         [ "http-cache-semantics", "4.1.0" ],
         [ "keyv", "4.5.0" ],
@@ -55,11 +56,11 @@
       ]
     },
     "got": {
-      "12.5.0": [
+      "12.5.1": [
         [ "@sindresorhus/is", "5.3.0" ],
         [ "@szmarczak/http-timer", "5.0.1" ],
-        [ "cacheable-lookup", "6.1.0" ],
-        [ "cacheable-request", "10.2.0" ],
+        [ "cacheable-lookup", "7.0.0" ],
+        [ "cacheable-request", "10.2.1" ],
         [ "decompress-response", "6.0.0" ],
         [ "form-data-encoder", "2.1.2" ],
         [ "get-stream", "6.0.1" ],
@@ -89,7 +90,7 @@
       "6.0.1": [
         [ "aggregate-error", "4.0.1" ],
         [ "dns-socket", "4.2.2" ],
-        [ "got", "12.5.0" ],
+        [ "got", "12.5.1" ],
         [ "is-ip", "4.0.0" ]
       ],
       "unknown": [
@@ -124,6 +125,13 @@
         "url": "https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-5.0.1.tgz"
       }
     },
+    "@types/http-cache-semantics": {
+      "4.0.1": {
+        "hash": "sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz"
+      }
+    },
     "aggregate-error": {
       "4.0.1": {
         "hash": "sha512-0poP0T7el6Vq3rstR8Mn4V/IQrpBLO6POkUSrN7RhyY+GF/InCFShQzsQ39T25gkHhLgSLByyAz+Kjb+c2L98w==",
@@ -132,17 +140,17 @@
       }
     },
     "cacheable-lookup": {
-      "6.1.0": {
-        "hash": "sha512-KJ/Dmo1lDDhmW2XDPMo+9oiy/CeqosPguPCrgcVzKyZrL6pM1gU2GmPY/xo6OQPTUaA/c0kwHuywB4E6nmT9ww==",
+      "7.0.0": {
+        "hash": "sha512-+qJyx4xiKra8mZrcwhjMRMUhD5NR1R8esPkzIYxX96JiecFoxAXFuz/GpR3+ev4PE1WamHip78wV0vcmPQtp8w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cacheable-lookup/-/cacheable-lookup-6.1.0.tgz"
+        "url": "https://registry.npmjs.org/cacheable-lookup/-/cacheable-lookup-7.0.0.tgz"
       }
     },
     "cacheable-request": {
-      "10.2.0": {
-        "hash": "sha512-PLOMmzyOU3L5HECdZC0PTNawPdP/taOhCNrYUmZchrw7gwERMctfx2wZcndb63w5W06PTHC1Poq89J9chMZPLw==",
+      "10.2.1": {
+        "hash": "sha512-3tLJyBjGuXw1s5gpKFSG3iS4kaKT4id04dZi98wzHQp/8cqZNweBnrF9J+rrlvrf4M53OdtDGNctNHFias8BEA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cacheable-request/-/cacheable-request-10.2.0.tgz"
+        "url": "https://registry.npmjs.org/cacheable-request/-/cacheable-request-10.2.1.tgz"
       }
     },
     "clean-stack": {
@@ -202,10 +210,10 @@
       }
     },
     "got": {
-      "12.5.0": {
-        "hash": "sha512-/Bneo/L6bLN1wDyJCeRZ3CLoixvwb9v3rE3IHulFSfTHwP85xSr4QatA8K0c6GlL5+mc4IZ57BzluNZJiXvHIg==",
+      "12.5.1": {
+        "hash": "sha512-sD16AK8cCyUoPtKr/NMvLTFFa+T3i3S+zoiuvhq0HP2YiqBZA9AtlBjAdsQBsLBK7slPuvmfE0OxhGi7N5dD4w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/got/-/got-12.5.0.tgz"
+        "url": "https://registry.npmjs.org/got/-/got-12.5.1.tgz"
       }
     },
     "http-cache-semantics": {
