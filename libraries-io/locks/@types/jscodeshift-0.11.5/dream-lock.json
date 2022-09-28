@@ -1,0 +1,83 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/jscodeshift",
+    "location": "",
+    "packages": {
+      "@types/jscodeshift": "0.11.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/jscodeshift": {
+      "0.11.5": [
+        [ "ast-types", "0.14.2" ],
+        [ "recast", "0.20.5" ]
+      ],
+      "unknown": [
+        [ "@types/jscodeshift", "0.11.5" ]
+      ]
+    },
+    "ast-types": {
+      "0.14.2": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "recast": {
+      "0.20.5": [
+        [ "ast-types", "0.14.2" ],
+        [ "esprima", "4.0.1" ],
+        [ "source-map", "0.6.1" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/jscodeshift": {
+      "0.11.5": {
+        "hash": "sha512-7JV0qdblTeWFigevmwFUgROXX395F+MQx6v0YqPn8Bx0B4Sng6alEejz9PENzgLYpG+zL0O4tGdBzc4gKZH8XA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/jscodeshift/-/jscodeshift-0.11.5.tgz"
+      }
+    },
+    "ast-types": {
+      "0.14.2": {
+        "hash": "sha512-O0yuUDnZeQDL+ncNGlJ78BiO4jnYI3bvMsD5prT0/nsgijG/LpNBIr63gTjVTNsiGkgQhiyCShTgxt8oXOrklA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ast-types/-/ast-types-0.14.2.tgz"
+      }
+    },
+    "esprima": {
+      "4.0.1": {
+        "hash": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
+      }
+    },
+    "recast": {
+      "0.20.5": {
+        "hash": "sha512-E5qICoPoNL4yU0H0NoBDntNB0Q5oMSNh9usFctYniLBluTthi3RsQVBXIJNbApOlvSwW/RGxIuokPcAc59J5fQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/recast/-/recast-0.20.5.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

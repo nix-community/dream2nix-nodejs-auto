@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "recast",
+    "location": "",
+    "packages": {
+      "recast": "0.21.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ast-types": {
+      "0.15.2": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "recast": {
+      "0.21.5": [
+        [ "ast-types", "0.15.2" ],
+        [ "esprima", "4.0.1" ],
+        [ "source-map", "0.6.1" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "recast", "0.21.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "ast-types": {
+      "0.15.2": {
+        "hash": "sha512-c27loCv9QkZinsa5ProX751khO9DJl/AcB5c2KNtA6NRvHKS0PgLfcftz72KVq504vB0Gku5s2kUZzDBvQWvHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ast-types/-/ast-types-0.15.2.tgz"
+      }
+    },
+    "esprima": {
+      "4.0.1": {
+        "hash": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz"
+      }
+    },
+    "recast": {
+      "0.21.5": {
+        "hash": "sha512-hjMmLaUXAm1hIuTqOdeYObMslq/q+Xff6QE3Y2P+uoHAg2nmVlLBps2hzh1UJDdMtDTMXOFewK6ky51JQIeECg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/recast/-/recast-0.21.5.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/secp256k1",
+    "location": "",
+    "packages": {
+      "@types/secp256k1": "4.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/secp256k1": {
+      "4.0.3": [
+        [ "@types/node", "18.7.23" ]
+      ],
+      "unknown": [
+        [ "@types/secp256k1", "4.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.7.23": {
+        "hash": "sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz"
+      }
+    },
+    "@types/secp256k1": {
+      "4.0.3": {
+        "hash": "sha512-Da66lEIFeIz9ltsdMZcpQvmrmmoqrfju8pm1BH8WbYjZSwUgCwXLb9C+9XYogwBITnbsSaMdVPb2ekf7TV+03w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/secp256k1/-/secp256k1-4.0.3.tgz"
+      }
+    }
+  }
+}
