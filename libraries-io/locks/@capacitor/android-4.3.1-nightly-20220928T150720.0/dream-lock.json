@@ -1,0 +1,50 @@
+{
+  "_generic": {
+    "defaultPackage": "@capacitor/android",
+    "location": "",
+    "packages": {
+      "@capacitor/android": "4.3.1-nightly-20220928T150720.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@capacitor/android": {
+      "unknown": [
+        [ "@capacitor/android", "4.3.1-nightly-20220928T150720.0" ]
+      ]
+    },
+    "@capacitor/core": {
+      "4.3.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@capacitor/android": {
+      "4.3.1-nightly-20220928T150720.0": {
+        "hash": "sha512-FQ4HCaaMjf1auoz/hsISuDTnbCJZZcti3UN09avudD9yAn77UgDUmPde1XZLM4PJAg4w3HvLtojmAhDJCVYhjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@capacitor/android/-/android-4.3.1-nightly-20220928T150720.0.tgz"
+      }
+    },
+    "@capacitor/core": {
+      "4.3.0": {
+        "hash": "sha512-zb225feaiHYcttHqw7SnKVj9gjOh3yoM2ol0Efky4kd80qZvqPHt7nRI1XZmGUKid5j3AVggULd5rRke5OEOXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@capacitor/core/-/core-4.3.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

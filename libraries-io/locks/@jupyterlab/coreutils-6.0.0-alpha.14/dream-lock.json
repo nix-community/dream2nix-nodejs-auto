@@ -1,0 +1,126 @@
+{
+  "_generic": {
+    "defaultPackage": "@jupyterlab/coreutils",
+    "location": "",
+    "packages": {
+      "@jupyterlab/coreutils": "6.0.0-alpha.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@jupyterlab/coreutils": {
+      "6.0.0-alpha.14": [
+        [ "@lumino/coreutils", "2.0.0-alpha.6" ],
+        [ "@lumino/disposable", "2.0.0-alpha.6" ],
+        [ "@lumino/signaling", "2.0.0-alpha.6" ],
+        [ "minimist", "1.2.6" ],
+        [ "moment", "2.29.4" ],
+        [ "path-browserify", "1.0.1" ],
+        [ "url-parse", "1.5.10" ]
+      ],
+      "unknown": [
+        [ "@jupyterlab/coreutils", "6.0.0-alpha.14" ]
+      ]
+    },
+    "@lumino/disposable": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/signaling", "2.0.0-alpha.6" ]
+      ]
+    },
+    "@lumino/signaling": {
+      "2.0.0-alpha.6": [
+        [ "@lumino/algorithm", "2.0.0-alpha.6" ]
+      ]
+    },
+    "url-parse": {
+      "1.5.10": [
+        [ "querystringify", "2.2.0" ],
+        [ "requires-port", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@jupyterlab/coreutils": {
+      "6.0.0-alpha.14": {
+        "hash": "sha512-bSiF//TSC8aMb3kCWJmvuUVEgN9p212pqKNy6ueExlhpTRVE3I4Xyil4uBX6z+O//hDkZyTQC4dtFgIsSn9b5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jupyterlab/coreutils/-/coreutils-6.0.0-alpha.14.tgz"
+      }
+    },
+    "@lumino/algorithm": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-pEU2ESKVp6APuR+H32oJFIpQUDKozhyruwznoKh7P3RnaqnjaMMdCSMWzfKIojgINfDqqWNY3awurPtbToht1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/algorithm/-/algorithm-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/coreutils": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-W0qqJZoPRHscHL5k/DHSOea7LugPVx7DmART925bdrD8PU1Rw4K0mUzKb/Zsin4m1O5IMBoPuGEdEG5Jhq3KyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/coreutils/-/coreutils-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/disposable": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-jh3QbkmIVHJfavXh068J/T/xC+mM9CxItUUApkbYlPBrpc38AzT0Cj1hdnyURsIo1nbOObydgw2H1SD5UssoEw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/disposable/-/disposable-2.0.0-alpha.6.tgz"
+      }
+    },
+    "@lumino/signaling": {
+      "2.0.0-alpha.6": {
+        "hash": "sha512-LEtaxMXmy1yJuej68/6vCOx1FyrH9lA18z11ejvxLKkKuqWh9srFil0yHhljK+Qvd5ZUpg6vyMI+oBYiL2GPtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/signaling/-/signaling-2.0.0-alpha.6.tgz"
+      }
+    },
+    "minimist": {
+      "1.2.6": {
+        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+      }
+    },
+    "moment": {
+      "2.29.4": {
+        "hash": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+      }
+    },
+    "path-browserify": {
+      "1.0.1": {
+        "hash": "sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-browserify/-/path-browserify-1.0.1.tgz"
+      }
+    },
+    "querystringify": {
+      "2.2.0": {
+        "hash": "sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz"
+      }
+    },
+    "requires-port": {
+      "1.0.0": {
+        "hash": "sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
+      }
+    },
+    "url-parse": {
+      "1.5.10": {
+        "hash": "sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/url-parse/-/url-parse-1.5.10.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "_generic": {
+    "defaultPackage": "npm-package-arg",
+    "location": "",
+    "packages": {
+      "npm-package-arg": "9.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "builtins": {
+      "5.0.1": [
+        [ "semver", "7.3.7" ]
+      ]
+    },
+    "hosted-git-info": {
+      "5.1.0": [
+        [ "lru-cache", "7.14.0" ]
+      ]
+    },
+    "lru-cache": {
+      "6.0.0": [
+        [ "yallist", "4.0.0" ]
+      ]
+    },
+    "npm-package-arg": {
+      "9.1.2": [
+        [ "hosted-git-info", "5.1.0" ],
+        [ "proc-log", "2.0.1" ],
+        [ "semver", "7.3.7" ],
+        [ "validate-npm-package-name", "4.0.0" ]
+      ],
+      "unknown": [
+        [ "npm-package-arg", "9.1.2" ]
+      ]
+    },
+    "semver": {
+      "7.3.7": [
+        [ "lru-cache", "6.0.0" ]
+      ]
+    },
+    "validate-npm-package-name": {
+      "4.0.0": [
+        [ "builtins", "5.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "builtins": {
+      "5.0.1": {
+        "hash": "sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/builtins/-/builtins-5.0.1.tgz"
+      }
+    },
+    "hosted-git-info": {
+      "5.1.0": {
+        "hash": "sha512-Ek+QmMEqZF8XrbFdwoDjSbm7rT23pCgEMOJmz6GPk/s4yH//RQfNPArhIxbguNxROq/+5lNBwCDHMhA903Kx1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-5.1.0.tgz"
+      }
+    },
+    "lru-cache": {
+      "6.0.0": {
+        "hash": "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
+      },
+      "7.14.0": {
+        "hash": "sha512-EIRtP1GrSJny0dqb50QXRUNBxHJhcpxHC++M5tD7RYbvLLn5KVWKsbyswSSqDuU15UFi3bgTQIY8nhDMeF6aDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-7.14.0.tgz"
+      }
+    },
+    "npm-package-arg": {
+      "9.1.2": {
+        "hash": "sha512-pzd9rLEx4TfNJkovvlBSLGhq31gGu2QDexFPWT19yCDh0JgnRhlBLNo5759N0AJmBk+kQ9Y/hXoLnlgFD+ukmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/npm-package-arg/-/npm-package-arg-9.1.2.tgz"
+      }
+    },
+    "proc-log": {
+      "2.0.1": {
+        "hash": "sha512-Kcmo2FhfDTXdcbfDH76N7uBYHINxc/8GW7UAVuVP9I+Va3uHSerrnKV6dLooga/gh7GlgzuCCr/eoldnL1muGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/proc-log/-/proc-log-2.0.1.tgz"
+      }
+    },
+    "semver": {
+      "7.3.7": {
+        "hash": "sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-7.3.7.tgz"
+      }
+    },
+    "validate-npm-package-name": {
+      "4.0.0": {
+        "hash": "sha512-mzR0L8ZDktZjpX4OB46KT+56MAhl4EIazWP/+G/HPGuvfdaqg4YsCdtOm6U9+LOFyYDoh4dpnpxZRB9MQQns5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/validate-npm-package-name/-/validate-npm-package-name-4.0.0.tgz"
+      }
+    },
+    "yallist": {
+      "4.0.0": {
+        "hash": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
+      }
+    }
+  }
+}
