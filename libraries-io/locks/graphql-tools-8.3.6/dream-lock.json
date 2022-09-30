@@ -14,9 +14,9 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@apollo/client": {
-      "3.6.9": [
+      "3.6.10": [
         [ "@graphql-typed-document-node/core", "3.1.1" ],
-        [ "@wry/context", "0.6.1" ],
+        [ "@wry/context", "0.7.0" ],
         [ "@wry/equality", "0.5.3" ],
         [ "@wry/trie", "0.3.2" ],
         [ "graphql-tag", "2.12.6" ],
@@ -51,6 +51,9 @@
     "@wry/context": {
       "0.6.1": [
         [ "tslib", "2.4.0" ]
+      ],
+      "0.7.0": [
+        [ "tslib", "2.4.0" ]
       ]
     },
     "@wry/equality": {
@@ -70,7 +73,7 @@
     },
     "graphql-tools": {
       "8.3.6": [
-        [ "@apollo/client", "3.6.9" ],
+        [ "@apollo/client", "3.6.10" ],
         [ "@graphql-tools/schema", "9.0.4" ],
         [ "tslib", "2.4.0" ]
       ],
@@ -114,10 +117,10 @@
   },
   "sources": {
     "@apollo/client": {
-      "3.6.9": {
-        "hash": "sha512-Y1yu8qa2YeaCUBVuw08x8NHenFi0sw2I3KCu7Kw9mDSu86HmmtHJkCAifKVrN2iPgDTW/BbP3EpSV8/EQCcxZA==",
+      "3.6.10": {
+        "hash": "sha512-zow8+Z7Wz8OeH+8bhIxqPtqqXY87APoUbXlaXD/rgs3O9ijSyHSbUt3E4DnkLNP9q3+/OsRWY+Mx+WxkQQ4oig==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@apollo/client/-/client-3.6.9.tgz"
+        "url": "https://registry.npmjs.org/@apollo/client/-/client-3.6.10.tgz"
       }
     },
     "@graphql-tools/merge": {
@@ -153,6 +156,11 @@
         "hash": "sha512-LOmVnY1iTU2D8tv4Xf6MVMZZ+juIJ87Kt/plMijjN20NMAXGmH4u8bS1t0uT74cZ5gwpocYueV58YwyI8y+GKw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@wry/context/-/context-0.6.1.tgz"
+      },
+      "0.7.0": {
+        "hash": "sha512-LcDAiYWRtwAoSOArfk7cuYvFXytxfVrdX7yxoUmK7pPITLk5jYh2F8knCwS7LjgYL8u1eidPlKKV6Ikqq0ODqQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@wry/context/-/context-0.7.0.tgz"
       }
     },
     "@wry/equality": {
