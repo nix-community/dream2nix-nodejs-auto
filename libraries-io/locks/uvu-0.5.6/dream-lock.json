@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "uvu",
+    "location": "",
+    "packages": {
+      "uvu": "0.5.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sade": {
+      "1.8.1": [
+        [ "mri", "1.2.0" ]
+      ]
+    },
+    "uvu": {
+      "0.5.6": [
+        [ "dequal", "2.0.3" ],
+        [ "diff", "5.1.0" ],
+        [ "kleur", "4.1.5" ],
+        [ "sade", "1.8.1" ]
+      ],
+      "unknown": [
+        [ "uvu", "0.5.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "dequal": {
+      "2.0.3": {
+        "hash": "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz"
+      }
+    },
+    "diff": {
+      "5.1.0": {
+        "hash": "sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/diff/-/diff-5.1.0.tgz"
+      }
+    },
+    "kleur": {
+      "4.1.5": {
+        "hash": "sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz"
+      }
+    },
+    "mri": {
+      "1.2.0": {
+        "hash": "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz"
+      }
+    },
+    "sade": {
+      "1.8.1": {
+        "hash": "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sade/-/sade-1.8.1.tgz"
+      }
+    },
+    "uvu": {
+      "0.5.6": {
+        "hash": "sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uvu/-/uvu-0.5.6.tgz"
+      }
+    }
+  }
+}
