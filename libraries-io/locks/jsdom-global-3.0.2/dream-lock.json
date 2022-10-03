@@ -14,9 +14,9 @@
   "cyclicDependencies": {},
   "dependencies": {
     "acorn-globals": {
-      "6.0.0": [
-        [ "acorn", "7.4.1" ],
-        [ "acorn-walk", "7.2.0" ]
+      "7.0.1": [
+        [ "acorn", "8.8.0" ],
+        [ "acorn-walk", "8.2.0" ]
       ]
     },
     "agent-base": {
@@ -91,10 +91,10 @@
       ]
     },
     "jsdom": {
-      "20.0.0": [
+      "20.0.1": [
         [ "abab", "2.0.6" ],
         [ "acorn", "8.8.0" ],
-        [ "acorn-globals", "6.0.0" ],
+        [ "acorn-globals", "7.0.1" ],
         [ "cssom", "0.5.0" ],
         [ "cssstyle", "2.3.0" ],
         [ "data-urls", "3.0.2" ],
@@ -111,7 +111,6 @@
         [ "saxes", "6.0.0" ],
         [ "symbol-tree", "3.2.4" ],
         [ "tough-cookie", "4.1.2" ],
-        [ "w3c-hr-time", "1.0.2" ],
         [ "w3c-xmlserializer", "3.0.0" ],
         [ "webidl-conversions", "7.0.0" ],
         [ "whatwg-encoding", "2.0.0" ],
@@ -181,11 +180,6 @@
         [ "requires-port", "1.0.0" ]
       ]
     },
-    "w3c-hr-time": {
-      "1.0.2": [
-        [ "browser-process-hrtime", "1.0.0" ]
-      ]
-    },
     "w3c-xmlserializer": {
       "3.0.0": [
         [ "xml-name-validator", "4.0.0" ]
@@ -219,11 +213,6 @@
       }
     },
     "acorn": {
-      "7.4.1": {
-        "hash": "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
-      },
       "8.8.0": {
         "hash": "sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==",
         "type": "http",
@@ -231,17 +220,17 @@
       }
     },
     "acorn-globals": {
-      "6.0.0": {
-        "hash": "sha512-ZQl7LOWaF5ePqqcX4hLuv/bLXYQNfNWw2c0/yX/TsPRKamzHcTGQnlCjHT3TsmkOUVEPS3crCxiPfdzE/Trlhg==",
+      "7.0.1": {
+        "hash": "sha512-umOSDSDrfHbTNPuNpC2NSnnA3LUrqpevPb4T9jRx4MagXNS0rs+gwiTcAvqCRmsD6utzsrzNt+ebm00SNWiC3Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/acorn-globals/-/acorn-globals-6.0.0.tgz"
+        "url": "https://registry.npmjs.org/acorn-globals/-/acorn-globals-7.0.1.tgz"
       }
     },
     "acorn-walk": {
-      "7.2.0": {
-        "hash": "sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==",
+      "8.2.0": {
+        "hash": "sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz"
+        "url": "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz"
       }
     },
     "agent-base": {
@@ -256,13 +245,6 @@
         "hash": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==",
         "type": "http",
         "url": "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
-      }
-    },
-    "browser-process-hrtime": {
-      "1.0.0": {
-        "hash": "sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz"
       }
     },
     "combined-stream": {
@@ -418,10 +400,10 @@
       }
     },
     "jsdom": {
-      "20.0.0": {
-        "hash": "sha512-x4a6CKCgx00uCmP+QakBDFXwjAJ69IkkIWHmtmjd3wvXPcdOS44hfX2vqkOQrVrq8l9DhNNADZRXaCEWvgXtVA==",
+      "20.0.1": {
+        "hash": "sha512-pksjj7Rqoa+wdpkKcLzQRHhJCEE42qQhl/xLMUKHgoSejaKOdaXEAnqs6uDNwMl/fciHTzKeR8Wm8cw7N+g98A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/jsdom/-/jsdom-20.0.0.tgz"
+        "url": "https://registry.npmjs.org/jsdom/-/jsdom-20.0.1.tgz"
       }
     },
     "jsdom-global": {
@@ -576,13 +558,6 @@
         "hash": "sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/url-parse/-/url-parse-1.5.10.tgz"
-      }
-    },
-    "w3c-hr-time": {
-      "1.0.2": {
-        "hash": "sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz"
       }
     },
     "w3c-xmlserializer": {
