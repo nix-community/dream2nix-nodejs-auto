@@ -28,7 +28,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "5.1.2" ],
-        [ "@types/node", "18.8.0" ]
+        [ "@types/node", "18.8.1" ]
       ]
     },
     "@types/power-assert": {
@@ -40,7 +40,7 @@
     "@types/superagent": {
       "4.1.15": [
         [ "@types/cookiejar", "2.1.2" ],
-        [ "@types/node", "18.8.0" ]
+        [ "@types/node", "18.8.1" ]
       ]
     },
     "@types/supertest": {
@@ -87,6 +87,11 @@
         [ "snapdragon-node", "2.1.1" ],
         [ "split-string", "3.1.0" ],
         [ "to-regex", "3.0.2" ]
+      ]
+    },
+    "busboy": {
+      "1.6.0": [
+        [ "streamsearch", "1.1.0" ]
       ]
     },
     "cache-base": {
@@ -239,7 +244,7 @@
         [ "methods", "1.1.2" ],
         [ "mm", "3.2.0" ],
         [ "power-assert", "1.6.1" ],
-        [ "supertest", "6.2.4" ],
+        [ "supertest", "6.3.0" ],
         [ "urllib", "3.2.3" ]
       ],
       "unknown": [
@@ -808,7 +813,7 @@
       ]
     },
     "supertest": {
-      "6.2.4": [
+      "6.3.0": [
         [ "methods", "1.1.2" ],
         [ "superagent", "8.0.2" ]
       ]
@@ -847,6 +852,11 @@
         [ "repeat-string", "1.6.1" ]
       ]
     },
+    "undici": {
+      "5.11.0": [
+        [ "busboy", "1.6.0" ]
+      ]
+    },
     "unescape": {
       "1.0.1": [
         [ "extend-shallow", "2.0.1" ]
@@ -882,7 +892,7 @@
         [ "mime-types", "2.1.35" ],
         [ "pump", "3.0.0" ],
         [ "tslib", "2.4.0" ],
-        [ "undici", "5.10.0" ]
+        [ "undici", "5.11.0" ]
       ]
     },
     "utility": {
@@ -959,10 +969,10 @@
       }
     },
     "@types/node": {
-      "18.8.0": {
-        "hash": "sha512-u+h43R6U8xXDt2vzUaVP3VwjjLyOJk6uEciZS8OSyziUQGOwmk+l+4drxcsDboHXwyTaqS1INebghmWMRxq3LA==",
+      "18.8.1": {
+        "hash": "sha512-vuYaNuEIbOYLTLUAJh50ezEbvxrD43iby+lpUA2aa148Nh5kX/AVO/9m1Ahmbux2iU5uxJTNF9g2Y+31uml7RQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.0.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.1.tgz"
       }
     },
     "@types/power-assert": {
@@ -1138,6 +1148,13 @@
         "hash": "sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==",
         "type": "http",
         "url": "https://registry.npmjs.org/braces/-/braces-2.3.2.tgz"
+      }
+    },
+    "busboy": {
+      "1.6.0": {
+        "hash": "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz"
       }
     },
     "cache-base": {
@@ -2411,6 +2428,13 @@
         "url": "https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz"
       }
     },
+    "streamsearch": {
+      "1.1.0": {
+        "hash": "sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz"
+      }
+    },
     "stringifier": {
       "1.4.0": {
         "hash": "sha512-cNsMOqqrcbLcHTXEVmkw9y0fwDwkdgtZwlfyolzpQDoAE1xdNGhQhxBUfiDvvZIKl1hnUEgMv66nHwtMz3OjPw==",
@@ -2426,10 +2450,10 @@
       }
     },
     "supertest": {
-      "6.2.4": {
-        "hash": "sha512-M8xVnCNv+q2T2WXVzxDECvL2695Uv2uUj2O0utxsld/HRyJvOU8W9f1gvsYxSNU4wmIe0/L/ItnpU4iKq0emDA==",
+      "6.3.0": {
+        "hash": "sha512-QgWju1cNoacP81Rv88NKkQ4oXTzGg0eNZtOoxp1ROpbS4OHY/eK5b8meShuFtdni161o5X0VQvgo7ErVyKK+Ow==",
         "type": "http",
-        "url": "https://registry.npmjs.org/supertest/-/supertest-6.2.4.tgz"
+        "url": "https://registry.npmjs.org/supertest/-/supertest-6.3.0.tgz"
       }
     },
     "supports-color": {
@@ -2496,10 +2520,10 @@
       }
     },
     "undici": {
-      "5.10.0": {
-        "hash": "sha512-c8HsD3IbwmjjbLvoZuRI26TZic+TSEe8FPMLLOkN1AfYRhdjnKBU6yL+IwcSCbdZiX4e5t0lfMDLDCqj4Sq70g==",
+      "5.11.0": {
+        "hash": "sha512-oWjWJHzFet0Ow4YZBkyiJwiK5vWqEYoH7BINzJAJOLedZ++JpAlCbUktW2GQ2DS2FpKmxD/JMtWUUWl1BtghGw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/undici/-/undici-5.10.0.tgz"
+        "url": "https://registry.npmjs.org/undici/-/undici-5.11.0.tgz"
       }
     },
     "unescape": {

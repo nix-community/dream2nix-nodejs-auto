@@ -1,0 +1,97 @@
+{
+  "_generic": {
+    "defaultPackage": "core-js-compat",
+    "location": "",
+    "packages": {
+      "core-js-compat": "3.25.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "browserslist": {
+      "4.21.4": [
+        [ "caniuse-lite", "1.0.30001415" ],
+        [ "electron-to-chromium", "1.4.271" ],
+        [ "node-releases", "2.0.6" ],
+        [ "update-browserslist-db", "1.0.9" ]
+      ]
+    },
+    "core-js-compat": {
+      "3.25.5": [
+        [ "browserslist", "4.21.4" ]
+      ],
+      "unknown": [
+        [ "core-js-compat", "3.25.5" ]
+      ]
+    },
+    "update-browserslist-db": {
+      "1.0.9": [
+        [ "escalade", "3.1.1" ],
+        [ "picocolors", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "browserslist": {
+      "4.21.4": {
+        "hash": "sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.4.tgz"
+      }
+    },
+    "caniuse-lite": {
+      "1.0.30001415": {
+        "hash": "sha512-ER+PfgCJUe8BqunLGWd/1EY4g8AzQcsDAVzdtMGKVtQEmKAwaFfU6vb7EAVIqTMYsqxBorYZi2+22Iouj/y7GQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001415.tgz"
+      }
+    },
+    "core-js-compat": {
+      "3.25.5": {
+        "hash": "sha512-ovcyhs2DEBUIE0MGEKHP4olCUW/XYte3Vroyxuh38rD1wAO4dHohsovUC4eAOuzFxE6b+RXvBU3UZ9o0YhUTkA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.5.tgz"
+      }
+    },
+    "electron-to-chromium": {
+      "1.4.271": {
+        "hash": "sha512-BCPBtK07xR1/uY2HFDtl3wK2De66AW4MSiPlLrnPNxKC/Qhccxd59W73654S3y6Rb/k3hmuGJOBnhjfoutetXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.271.tgz"
+      }
+    },
+    "escalade": {
+      "3.1.1": {
+        "hash": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
+      }
+    },
+    "node-releases": {
+      "2.0.6": {
+        "hash": "sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.6.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    },
+    "update-browserslist-db": {
+      "1.0.9": {
+        "hash": "sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz"
+      }
+    }
+  }
+}

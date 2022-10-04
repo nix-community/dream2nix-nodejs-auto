@@ -1,0 +1,1313 @@
+{
+  "_generic": {
+    "defaultPackage": "firebase",
+    "location": "",
+    "packages": {
+      "firebase": "9.10.0-canary.34ad43cc2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@firebase/analytics": {
+      "0.8.0-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/installations", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/analytics-compat": {
+      "0.1.13-canary.34ad43cc2": [
+        [ "@firebase/analytics", "0.8.0-canary.34ad43cc2" ],
+        [ "@firebase/analytics-types", "0.7.0-canary.34ad43cc2" ],
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/app": {
+      "0.7.33-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "idb", "7.0.1" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/app-check": {
+      "0.5.12-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/app-check-compat": {
+      "0.2.12-canary.34ad43cc2": [
+        [ "@firebase/app-check", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/app-check-types", "0.4.0-canary.34ad43cc2" ],
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/app-compat": {
+      "0.1.34-canary.34ad43cc2": [
+        [ "@firebase/app", "0.7.33-canary.34ad43cc2" ],
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/auth": {
+      "0.20.7-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "node-fetch", "2.6.7" ],
+        [ "selenium-webdriver", "4.1.2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/auth-compat": {
+      "0.2.20-canary.34ad43cc2": [
+        [ "@firebase/auth", "0.20.7-canary.34ad43cc2" ],
+        [ "@firebase/auth-types", "0.11.0-canary.34ad43cc2" ],
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "node-fetch", "2.6.7" ],
+        [ "selenium-webdriver", "4.1.2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/component": {
+      "0.5.17-canary.34ad43cc2": [
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/database": {
+      "0.13.6-canary.34ad43cc2": [
+        [ "@firebase/auth-interop-types", "0.1.6-canary.34ad43cc2" ],
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "faye-websocket", "0.11.4" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/database-compat": {
+      "0.2.6-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/database", "0.13.6-canary.34ad43cc2" ],
+        [ "@firebase/database-types", "0.9.13-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/database-types": {
+      "0.9.13-canary.34ad43cc2": [
+        [ "@firebase/app-types", "0.7.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ]
+      ]
+    },
+    "@firebase/firestore": {
+      "3.5.0-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "@firebase/webchannel-wrapper", "0.7.0-canary.34ad43cc2" ],
+        [ "@grpc/grpc-js", "1.7.1" ],
+        [ "@grpc/proto-loader", "0.6.13" ],
+        [ "node-fetch", "2.6.7" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/firestore-compat": {
+      "0.1.25-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/firestore", "3.5.0-canary.34ad43cc2" ],
+        [ "@firebase/firestore-types", "2.5.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/functions": {
+      "0.8.4-canary.34ad43cc2": [
+        [ "@firebase/app-check-interop-types", "0.1.0-canary.34ad43cc2" ],
+        [ "@firebase/auth-interop-types", "0.1.6-canary.34ad43cc2" ],
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/messaging-interop-types", "0.1.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "node-fetch", "2.6.7" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/functions-compat": {
+      "0.2.4-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/functions", "0.8.4-canary.34ad43cc2" ],
+        [ "@firebase/functions-types", "0.5.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/installations": {
+      "0.5.12-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "idb", "7.0.1" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/installations-compat": {
+      "0.1.12-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/installations", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/installations-types", "0.4.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/logger": {
+      "0.3.3-canary.34ad43cc2": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/messaging": {
+      "0.9.16-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/installations", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/messaging-interop-types", "0.1.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "idb", "7.0.1" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/messaging-compat": {
+      "0.1.16-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/messaging", "0.9.16-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/performance": {
+      "0.5.12-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/installations", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/performance-compat": {
+      "0.1.12-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/performance", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/performance-types", "0.1.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/remote-config": {
+      "0.3.11-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/installations", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/remote-config-compat": {
+      "0.1.12-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/logger", "0.3.3-canary.34ad43cc2" ],
+        [ "@firebase/remote-config", "0.3.11-canary.34ad43cc2" ],
+        [ "@firebase/remote-config-types", "0.2.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/storage": {
+      "0.9.9-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "node-fetch", "2.6.7" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/storage-compat": {
+      "0.1.17-canary.34ad43cc2": [
+        [ "@firebase/component", "0.5.17-canary.34ad43cc2" ],
+        [ "@firebase/storage", "0.9.9-canary.34ad43cc2" ],
+        [ "@firebase/storage-types", "0.6.0-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@firebase/util": {
+      "1.6.3-canary.34ad43cc2": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@grpc/grpc-js": {
+      "1.7.1": [
+        [ "@grpc/proto-loader", "0.7.3" ],
+        [ "@types/node", "18.8.1" ]
+      ]
+    },
+    "@grpc/proto-loader": {
+      "0.6.13": [
+        [ "@types/long", "4.0.2" ],
+        [ "lodash.camelcase", "4.3.0" ],
+        [ "long", "4.0.0" ],
+        [ "protobufjs", "6.11.3" ],
+        [ "yargs", "16.2.0" ]
+      ],
+      "0.7.3": [
+        [ "@types/long", "4.0.2" ],
+        [ "lodash.camelcase", "4.3.0" ],
+        [ "long", "4.0.0" ],
+        [ "protobufjs", "7.1.2" ],
+        [ "yargs", "16.2.0" ]
+      ]
+    },
+    "@protobufjs/fetch": {
+      "1.1.0": [
+        [ "@protobufjs/aspromise", "1.1.2" ],
+        [ "@protobufjs/inquire", "1.1.0" ]
+      ]
+    },
+    "ansi-styles": {
+      "4.3.0": [
+        [ "color-convert", "2.0.1" ]
+      ]
+    },
+    "brace-expansion": {
+      "1.1.11": [
+        [ "balanced-match", "1.0.2" ],
+        [ "concat-map", "0.0.1" ]
+      ]
+    },
+    "cliui": {
+      "7.0.4": [
+        [ "string-width", "4.2.3" ],
+        [ "strip-ansi", "6.0.1" ],
+        [ "wrap-ansi", "7.0.0" ]
+      ]
+    },
+    "color-convert": {
+      "2.0.1": [
+        [ "color-name", "1.1.4" ]
+      ]
+    },
+    "faye-websocket": {
+      "0.11.4": [
+        [ "websocket-driver", "0.7.4" ]
+      ]
+    },
+    "firebase": {
+      "9.10.0-canary.34ad43cc2": [
+        [ "@firebase/analytics", "0.8.0-canary.34ad43cc2" ],
+        [ "@firebase/analytics-compat", "0.1.13-canary.34ad43cc2" ],
+        [ "@firebase/app", "0.7.33-canary.34ad43cc2" ],
+        [ "@firebase/app-check", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/app-check-compat", "0.2.12-canary.34ad43cc2" ],
+        [ "@firebase/app-compat", "0.1.34-canary.34ad43cc2" ],
+        [ "@firebase/app-types", "0.7.0-canary.34ad43cc2" ],
+        [ "@firebase/auth", "0.20.7-canary.34ad43cc2" ],
+        [ "@firebase/auth-compat", "0.2.20-canary.34ad43cc2" ],
+        [ "@firebase/database", "0.13.6-canary.34ad43cc2" ],
+        [ "@firebase/database-compat", "0.2.6-canary.34ad43cc2" ],
+        [ "@firebase/firestore", "3.5.0-canary.34ad43cc2" ],
+        [ "@firebase/firestore-compat", "0.1.25-canary.34ad43cc2" ],
+        [ "@firebase/functions", "0.8.4-canary.34ad43cc2" ],
+        [ "@firebase/functions-compat", "0.2.4-canary.34ad43cc2" ],
+        [ "@firebase/installations", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/installations-compat", "0.1.12-canary.34ad43cc2" ],
+        [ "@firebase/messaging", "0.9.16-canary.34ad43cc2" ],
+        [ "@firebase/messaging-compat", "0.1.16-canary.34ad43cc2" ],
+        [ "@firebase/performance", "0.5.12-canary.34ad43cc2" ],
+        [ "@firebase/performance-compat", "0.1.12-canary.34ad43cc2" ],
+        [ "@firebase/remote-config", "0.3.11-canary.34ad43cc2" ],
+        [ "@firebase/remote-config-compat", "0.1.12-canary.34ad43cc2" ],
+        [ "@firebase/storage", "0.9.9-canary.34ad43cc2" ],
+        [ "@firebase/storage-compat", "0.1.17-canary.34ad43cc2" ],
+        [ "@firebase/util", "1.6.3-canary.34ad43cc2" ]
+      ],
+      "unknown": [
+        [ "firebase", "9.10.0-canary.34ad43cc2" ]
+      ]
+    },
+    "glob": {
+      "7.2.3": [
+        [ "fs.realpath", "1.0.0" ],
+        [ "inflight", "1.0.6" ],
+        [ "inherits", "2.0.4" ],
+        [ "minimatch", "3.1.2" ],
+        [ "once", "1.4.0" ],
+        [ "path-is-absolute", "1.0.1" ]
+      ]
+    },
+    "inflight": {
+      "1.0.6": [
+        [ "once", "1.4.0" ],
+        [ "wrappy", "1.0.2" ]
+      ]
+    },
+    "jszip": {
+      "3.10.1": [
+        [ "lie", "3.3.0" ],
+        [ "pako", "1.0.11" ],
+        [ "readable-stream", "2.3.7" ],
+        [ "setimmediate", "1.0.5" ]
+      ]
+    },
+    "lie": {
+      "3.3.0": [
+        [ "immediate", "3.0.6" ]
+      ]
+    },
+    "minimatch": {
+      "3.1.2": [
+        [ "brace-expansion", "1.1.11" ]
+      ]
+    },
+    "node-fetch": {
+      "2.6.7": [
+        [ "whatwg-url", "5.0.0" ]
+      ]
+    },
+    "once": {
+      "1.4.0": [
+        [ "wrappy", "1.0.2" ]
+      ]
+    },
+    "protobufjs": {
+      "6.11.3": [
+        [ "@protobufjs/aspromise", "1.1.2" ],
+        [ "@protobufjs/base64", "1.1.2" ],
+        [ "@protobufjs/codegen", "2.0.4" ],
+        [ "@protobufjs/eventemitter", "1.1.0" ],
+        [ "@protobufjs/fetch", "1.1.0" ],
+        [ "@protobufjs/float", "1.0.2" ],
+        [ "@protobufjs/inquire", "1.1.0" ],
+        [ "@protobufjs/path", "1.1.2" ],
+        [ "@protobufjs/pool", "1.1.0" ],
+        [ "@protobufjs/utf8", "1.1.0" ],
+        [ "@types/long", "4.0.2" ],
+        [ "@types/node", "18.8.1" ],
+        [ "long", "4.0.0" ]
+      ],
+      "7.1.2": [
+        [ "@protobufjs/aspromise", "1.1.2" ],
+        [ "@protobufjs/base64", "1.1.2" ],
+        [ "@protobufjs/codegen", "2.0.4" ],
+        [ "@protobufjs/eventemitter", "1.1.0" ],
+        [ "@protobufjs/fetch", "1.1.0" ],
+        [ "@protobufjs/float", "1.0.2" ],
+        [ "@protobufjs/inquire", "1.1.0" ],
+        [ "@protobufjs/path", "1.1.2" ],
+        [ "@protobufjs/pool", "1.1.0" ],
+        [ "@protobufjs/utf8", "1.1.0" ],
+        [ "@types/node", "18.8.1" ],
+        [ "long", "5.2.0" ]
+      ]
+    },
+    "readable-stream": {
+      "2.3.7": [
+        [ "core-util-is", "1.0.3" ],
+        [ "inherits", "2.0.4" ],
+        [ "isarray", "1.0.0" ],
+        [ "process-nextick-args", "2.0.1" ],
+        [ "safe-buffer", "5.1.2" ],
+        [ "string_decoder", "1.1.1" ],
+        [ "util-deprecate", "1.0.2" ]
+      ]
+    },
+    "rimraf": {
+      "3.0.2": [
+        [ "glob", "7.2.3" ]
+      ]
+    },
+    "selenium-webdriver": {
+      "4.1.2": [
+        [ "jszip", "3.10.1" ],
+        [ "tmp", "0.2.1" ],
+        [ "ws", "8.9.0" ]
+      ]
+    },
+    "string-width": {
+      "4.2.3": [
+        [ "emoji-regex", "8.0.0" ],
+        [ "is-fullwidth-code-point", "3.0.0" ],
+        [ "strip-ansi", "6.0.1" ]
+      ]
+    },
+    "string_decoder": {
+      "1.1.1": [
+        [ "safe-buffer", "5.1.2" ]
+      ]
+    },
+    "strip-ansi": {
+      "6.0.1": [
+        [ "ansi-regex", "5.0.1" ]
+      ]
+    },
+    "tmp": {
+      "0.2.1": [
+        [ "rimraf", "3.0.2" ]
+      ]
+    },
+    "websocket-driver": {
+      "0.7.4": [
+        [ "http-parser-js", "0.5.8" ],
+        [ "safe-buffer", "5.1.2" ],
+        [ "websocket-extensions", "0.1.4" ]
+      ]
+    },
+    "whatwg-url": {
+      "5.0.0": [
+        [ "tr46", "0.0.3" ],
+        [ "webidl-conversions", "3.0.1" ]
+      ]
+    },
+    "wrap-ansi": {
+      "7.0.0": [
+        [ "ansi-styles", "4.3.0" ],
+        [ "string-width", "4.2.3" ],
+        [ "strip-ansi", "6.0.1" ]
+      ]
+    },
+    "yargs": {
+      "16.2.0": [
+        [ "cliui", "7.0.4" ],
+        [ "escalade", "3.1.1" ],
+        [ "get-caller-file", "2.0.5" ],
+        [ "require-directory", "2.1.1" ],
+        [ "string-width", "4.2.3" ],
+        [ "y18n", "5.0.8" ],
+        [ "yargs-parser", "20.2.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@firebase/analytics": {
+      "0.8.0-canary.34ad43cc2": {
+        "hash": "sha512-t2sUjKL/byevdlN+yp8DmPBLf1qzlKTAclmy6K29tiNKIJHMLebwjK/GhLRDjy7YXlUcgBFeUS4YqK6S8r3K9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/analytics/-/analytics-0.8.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/analytics-compat": {
+      "0.1.13-canary.34ad43cc2": {
+        "hash": "sha512-z6oJo0mIm2lmo+hLQCH/Hh/YvOI77Zbpv9xvzaaatZt8GNC2rm2u3fns5u9/wqe+70OY7CmETYITMRDjhplpLw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/analytics-compat/-/analytics-compat-0.1.13-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/analytics-types": {
+      "0.7.0-canary.34ad43cc2": {
+        "hash": "sha512-9cu91aZr93RwY/FunbuqjBpIMXYy9LAHtMPnt5y/xPsN8x8IE6mVT+a1Gd8IdnvYfQ9dSnvjH/rgaBRGMX5cNQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/analytics-types/-/analytics-types-0.7.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app": {
+      "0.7.33-canary.34ad43cc2": {
+        "hash": "sha512-aXwCF1ZmgMMtxCB/RTe4F4qybskl2aSm+r6i3TjyiV5/tmyGi+aeP7v8AO7PtJ3GE7logUW6IvkPbH2rbVy05w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app/-/app-0.7.33-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app-check": {
+      "0.5.12-canary.34ad43cc2": {
+        "hash": "sha512-g1N1GUum70BY5xqTFoYl7lO1gYXjm1i5mZNLQmHlnKqVklXSYROLooDAQvCITon0M383on8siW7BLmJRtuKETA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app-check/-/app-check-0.5.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app-check-compat": {
+      "0.2.12-canary.34ad43cc2": {
+        "hash": "sha512-pmbrrNApWt8dEfOh/r3Vd2zsU1Nty3YzZLwAgTU24hDRt0nS9Ioolez2Kw6+7ZUaZGqr32k+Yy646zHxiLv2eQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app-check-compat/-/app-check-compat-0.2.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app-check-interop-types": {
+      "0.1.0-canary.34ad43cc2": {
+        "hash": "sha512-2gDL4OpMgFK3dej7Qw7CnFblvtPB8iECelqerp5zKXExx5I6FSU28hbEJx7RPgZ+BJjjnZy0/vORQs4iXPKhGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app-check-interop-types/-/app-check-interop-types-0.1.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app-check-types": {
+      "0.4.0-canary.34ad43cc2": {
+        "hash": "sha512-6MwoL1NljL0dWQ0VikOwIRqUlXUAspU4O6nfm1pl8TNILA9rvWZoQpEmfRqx+izWKCxwr0bAUVEA8G00hdPayA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app-check-types/-/app-check-types-0.4.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app-compat": {
+      "0.1.34-canary.34ad43cc2": {
+        "hash": "sha512-YT8Z353Cm5H8nRHNoKaiCFRto+NdXjhZg6b+Nad6E1rnHDuTsazA1P6MfyCIiyfwSp9njojm/qRoiafYCRLP1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app-compat/-/app-compat-0.1.34-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/app-types": {
+      "0.7.0-canary.34ad43cc2": {
+        "hash": "sha512-RipOSCgr0fsvyUzoFRVKE1nbyoTpLmqzHor6ErnKeYnYtRHL2zjFF39mHJ/Hk6ijT72sXXTpEg6ttOduJz2d7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/app-types/-/app-types-0.7.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/auth": {
+      "0.20.7-canary.34ad43cc2": {
+        "hash": "sha512-gAhRzyGZge6RfSGnAQOWo0WEHV1k0qGJIS2NxHObp1AgZkRUovGVLwGlozaBzuShUQCUQEt1TY7lGugWeNIwwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/auth/-/auth-0.20.7-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/auth-compat": {
+      "0.2.20-canary.34ad43cc2": {
+        "hash": "sha512-eGEXQCPDS/vY52LRIHTf8xlm2ZAyhB99j4peoBtk4cv6FPZog9XyLfdLbt0B7GDvEMYUx0tBfMOz7AtXcbrhgQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/auth-compat/-/auth-compat-0.2.20-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/auth-interop-types": {
+      "0.1.6-canary.34ad43cc2": {
+        "hash": "sha512-1wB73mJAoCLw/eH9d8XUMduG2loIKWv9Pj2HbxLaOrxy0WH8aNHCVZyk8ptLfhygdXtj9ajff8ypns+uPSF/cg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/auth-interop-types/-/auth-interop-types-0.1.6-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/auth-types": {
+      "0.11.0-canary.34ad43cc2": {
+        "hash": "sha512-ZMxDJb8PQOj3S7DjKtaFrsO7bvGc8fpt5wdRCVez5fhcHMgEYdEKD98PrApfVDovvNSz5N2mIqzXSopfySOWIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/auth-types/-/auth-types-0.11.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/component": {
+      "0.5.17-canary.34ad43cc2": {
+        "hash": "sha512-/VJCFoMpWHxe1yYFZ7vgdEKLKHM+RC2wqo1WBXZ2uxb0Gt3vYhJysR0mmBT8aFJvkiLjGYoyjSSineVK2+e9gw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/component/-/component-0.5.17-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/database": {
+      "0.13.6-canary.34ad43cc2": {
+        "hash": "sha512-Yy8OpuEGalts8zE+Dnr1tv8tT+/WjWUHX3GXTbJkMOXN1iaJoCCk/cR4D6m+BkJAnUWKNZB8M7CC4fhr56kobw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/database/-/database-0.13.6-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/database-compat": {
+      "0.2.6-canary.34ad43cc2": {
+        "hash": "sha512-wC9fadk2iSsHWuVYrq36IGmpaDZx1ASMuFKFObLDHac1cc4hxPaRHLUFKPCWkRajDnQwZwg284Z2aXZ6xzdyVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/database-compat/-/database-compat-0.2.6-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/database-types": {
+      "0.9.13-canary.34ad43cc2": {
+        "hash": "sha512-MARNO/BZa1m1hpidOY23S5lFHdzeIDiY5uidmlKP4i4GDVD15g63LW3h3qm6HAmfwsUG+Q10t0LgK8+K81/xNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/database-types/-/database-types-0.9.13-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/firestore": {
+      "3.5.0-canary.34ad43cc2": {
+        "hash": "sha512-HVBcRkClvXfUvbAXG7lssRTEgGUShGv+RpgMXPVl/P8RSti3xV0tNb2XCtVD+HMpy9A6vk31YOIJR21TJKyw4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/firestore/-/firestore-3.5.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/firestore-compat": {
+      "0.1.25-canary.34ad43cc2": {
+        "hash": "sha512-grKwh/ZXbAKeVnjl3UilFJ6xCLhdAJKY8kainuFVgLO/9MYLHXcKW2Vka743i7mFWQg69Iu4qutYgGrjj6n66g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/firestore-compat/-/firestore-compat-0.1.25-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/firestore-types": {
+      "2.5.0-canary.34ad43cc2": {
+        "hash": "sha512-eFwGjlZzCmt5+ISUXcJicU7KbArxq4GV9KD0warSpD6ouSbFP6COr3rirbZ1O6vqs5mT/4e37ws5xl81Js+Q5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/firestore-types/-/firestore-types-2.5.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/functions": {
+      "0.8.4-canary.34ad43cc2": {
+        "hash": "sha512-/p1AX7MkbucPTz+Tb4KDLSWge4AfvDy0inD31jECxpDPzQqbrcY6vdLMMOmKEnTgm1RqpfbtsUfrG4ogg+zjlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/functions/-/functions-0.8.4-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/functions-compat": {
+      "0.2.4-canary.34ad43cc2": {
+        "hash": "sha512-ANWQB5n3R0Bz2DIFNBs83vRtg+B1lXzyCf65+ww/Bri2ynENVfDs46h6Cmc7aoeMKkweKP1ulWhXOYMkpjKJdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/functions-compat/-/functions-compat-0.2.4-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/functions-types": {
+      "0.5.0-canary.34ad43cc2": {
+        "hash": "sha512-GTTOa6xX+u88x4m7MXi4/4b4RaVDNvbd/kTSuK/h1SvS4Prhz0KRgphpvZ/dj2YjCuEpXfm+kFXLaSFB+wlpWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/functions-types/-/functions-types-0.5.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/installations": {
+      "0.5.12-canary.34ad43cc2": {
+        "hash": "sha512-kvu0qipajkCyHR+F9ytTUa/uLPEe4RsEiXHEiYN8hwIwnD7997D4Hph+pi7guNOteYZTldv8JMNr4A5s8BgcOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/installations/-/installations-0.5.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/installations-compat": {
+      "0.1.12-canary.34ad43cc2": {
+        "hash": "sha512-XJirNzdz9Fg++2vjgS4FmlFnqzt6kQqZ+8ytBzWXxbe44LF8izPQobKdoRGBf4OkFsJWPaLTH8asv9p3SkidrA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/installations-compat/-/installations-compat-0.1.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/installations-types": {
+      "0.4.0-canary.34ad43cc2": {
+        "hash": "sha512-1nw3abFJc+dJlXA1oK3Q+uEoEmBlO8cqSL4jRLZ77334p7TjR6FGhXk+Fp8QCIjZT62Bmh49a60NaHse4pl6LA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/installations-types/-/installations-types-0.4.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/logger": {
+      "0.3.3-canary.34ad43cc2": {
+        "hash": "sha512-65r4b1GfXCuink4wJXysHk9muv/kdA0/LgXNXzK5TcLwToXdYHYJAGYG+0zFX5QPWLa6gksyUF5JJbhF80pwgg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/logger/-/logger-0.3.3-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/messaging": {
+      "0.9.16-canary.34ad43cc2": {
+        "hash": "sha512-nrFcf8RZt4Dl68zCtY7l8c8I+lZQYcdMoArHp93/mEb83l+JvnQCPcD+CPs2cfFRy4OgZAp898Rx8bpPWcldCw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/messaging/-/messaging-0.9.16-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/messaging-compat": {
+      "0.1.16-canary.34ad43cc2": {
+        "hash": "sha512-sk78FOyh4kK961rouTlMUWNNchk+Vd/DBpZjk5Xdw/HJ5nyf3bCaUiGvqwKg2ClubOdaUnMB2jeIy2CrUaGAag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/messaging-compat/-/messaging-compat-0.1.16-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/messaging-interop-types": {
+      "0.1.0-canary.34ad43cc2": {
+        "hash": "sha512-bKFlyima5F2LoUacT6ljaiwqPY+9H0RE7LAF/ncJen4JSn6M9NU5BRBkkBmPMOOrIVCQP1jQISSS51zGf8/l2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/messaging-interop-types/-/messaging-interop-types-0.1.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/performance": {
+      "0.5.12-canary.34ad43cc2": {
+        "hash": "sha512-zElZMy1qly931Yk4oLVaqqafUuXJZvEJZmN+18a13ZNxJV1iAwzs4Ygpf8ceX7i5FIhbb3AbUDaTyrbQUjpl4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/performance/-/performance-0.5.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/performance-compat": {
+      "0.1.12-canary.34ad43cc2": {
+        "hash": "sha512-c3kkmod2nFl/alIejhxni7WsxeDKrf+HGc9Z7IYck221YlOIGFz4mbFztS42y46EWMuADZ9eF4sO3zbOhjHwww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/performance-compat/-/performance-compat-0.1.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/performance-types": {
+      "0.1.0-canary.34ad43cc2": {
+        "hash": "sha512-aGyBuwfWEPtP8RLId1o1Ch1COFvhQNke3EGRCmTkDtI8oTcr0f/i+2HuotBqAWGHHX6RQJPIsmSQ94lnHw/YaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/performance-types/-/performance-types-0.1.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/remote-config": {
+      "0.3.11-canary.34ad43cc2": {
+        "hash": "sha512-zxSwj31Xu4qMCcdm4fnO7YuQpi83Kz4FzXikvygx7xZVT7I0Nf2ilm8lEg4MrHmfZFPcgAqRleEvPRBQMOzA8Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/remote-config/-/remote-config-0.3.11-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/remote-config-compat": {
+      "0.1.12-canary.34ad43cc2": {
+        "hash": "sha512-eizcah/6ODvg0zG9kMD+5FPn2XGmvy3g49mxOs0OH1oLupkLcRl4XyLGjAb9zXi4wIKeN7z7gv2DbMy3GrDvaw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/remote-config-compat/-/remote-config-compat-0.1.12-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/remote-config-types": {
+      "0.2.0-canary.34ad43cc2": {
+        "hash": "sha512-oQB93RHRWnrq4Tt25ST6AxNWUzDPXC57OkABbRd5MzNUi1iHI1YlBaQBCK3lBp4kjOJj54QW+b0PcKhyD+hdRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/remote-config-types/-/remote-config-types-0.2.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/storage": {
+      "0.9.9-canary.34ad43cc2": {
+        "hash": "sha512-ryb7yFZYtBYcxu2Z56fBDxHzYeWlQ4I274i9SexaVvOlGfcV/scPL0IkN38wLI58Xv+vccOJjoYLYgzZHy8f/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/storage/-/storage-0.9.9-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/storage-compat": {
+      "0.1.17-canary.34ad43cc2": {
+        "hash": "sha512-DWTPzQ5Y724tbngyQBZ/ZE7n1r0s5d8fwh2HydpGuRW8iN9uYb+vLpbvn8LKRFu/Sv9v+OZFyg87fQXYFuOq8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/storage-compat/-/storage-compat-0.1.17-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/storage-types": {
+      "0.6.0-canary.34ad43cc2": {
+        "hash": "sha512-712BGO9gOBZ3YIdpzBZWwWv198lMkbzLd1OfV0U9XB2miLnLiY4qIHv/bjn21pAU9qcAbOwJ5uPNVqcqehJ48Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/storage-types/-/storage-types-0.6.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/util": {
+      "1.6.3-canary.34ad43cc2": {
+        "hash": "sha512-OO+94W9NpFP7I2JDXoIdPtB82VHOr2lcKO4qb154PUsG6hj8z7c4Nc639VeV9n4nminDvzZlXPxOX52z3grs5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/util/-/util-1.6.3-canary.34ad43cc2.tgz"
+      }
+    },
+    "@firebase/webchannel-wrapper": {
+      "0.7.0-canary.34ad43cc2": {
+        "hash": "sha512-8pi8HE9i3SAvl+gbbrU/GZ5PM3STNpReUnYCvcabNNBiq5irxbuB4LGc/c05cmW5ifMrZqA4gdZMglPiA8EAdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.7.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "@grpc/grpc-js": {
+      "1.7.1": {
+        "hash": "sha512-GVtMU4oh/TeKkWGzXUEsyZtyvSUIT1z49RtGH1UnEGeL+sLuxKl8QH3KZTlSB329R1sWJmesm5hQ5CxXdYH9dg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.7.1.tgz"
+      }
+    },
+    "@grpc/proto-loader": {
+      "0.6.13": {
+        "hash": "sha512-FjxPYDRTn6Ec3V0arm1FtSpmP6V50wuph2yILpyvTKzjc76oDdoihXqM1DzOW5ubvCC8GivfCnNtfaRE8myJ7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.6.13.tgz"
+      },
+      "0.7.3": {
+        "hash": "sha512-5dAvoZwna2Py3Ef96Ux9jIkp3iZ62TUsV00p3wVBPNX5K178UbNi8Q7gQVqwXT1Yq9RejIGG9G2IPEo93T6RcA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.7.3.tgz"
+      }
+    },
+    "@protobufjs/aspromise": {
+      "1.1.2": {
+        "hash": "sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz"
+      }
+    },
+    "@protobufjs/base64": {
+      "1.1.2": {
+        "hash": "sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/base64/-/base64-1.1.2.tgz"
+      }
+    },
+    "@protobufjs/codegen": {
+      "2.0.4": {
+        "hash": "sha512-YyFaikqM5sH0ziFZCN3xDC7zeGaB/d0IUb9CATugHWbd1FRFwWwt4ld4OYMPWu5a3Xe01mGAULCdqhMlPl29Jg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/codegen/-/codegen-2.0.4.tgz"
+      }
+    },
+    "@protobufjs/eventemitter": {
+      "1.1.0": {
+        "hash": "sha512-j9ednRT81vYJ9OfVuXG6ERSTdEL1xVsNgqpkxMsbIabzSo3goCjDIveeGv5d03om39ML71RdmrGNjG5SReBP/Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/eventemitter/-/eventemitter-1.1.0.tgz"
+      }
+    },
+    "@protobufjs/fetch": {
+      "1.1.0": {
+        "hash": "sha512-lljVXpqXebpsijW71PZaCYeIcE5on1w5DlQy5WH6GLbFryLUrBD4932W/E2BSpfRJWseIL4v/KPgBFxDOIdKpQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/fetch/-/fetch-1.1.0.tgz"
+      }
+    },
+    "@protobufjs/float": {
+      "1.0.2": {
+        "hash": "sha512-Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/float/-/float-1.0.2.tgz"
+      }
+    },
+    "@protobufjs/inquire": {
+      "1.1.0": {
+        "hash": "sha512-kdSefcPdruJiFMVSbn801t4vFK7KB/5gd2fYvrxhuJYg8ILrmn9SKSX2tZdV6V+ksulWqS7aXjBcRXl3wHoD9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/inquire/-/inquire-1.1.0.tgz"
+      }
+    },
+    "@protobufjs/path": {
+      "1.1.2": {
+        "hash": "sha512-6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/path/-/path-1.1.2.tgz"
+      }
+    },
+    "@protobufjs/pool": {
+      "1.1.0": {
+        "hash": "sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/pool/-/pool-1.1.0.tgz"
+      }
+    },
+    "@protobufjs/utf8": {
+      "1.1.0": {
+        "hash": "sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.0.tgz"
+      }
+    },
+    "@types/long": {
+      "4.0.2": {
+        "hash": "sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz"
+      }
+    },
+    "@types/node": {
+      "18.8.1": {
+        "hash": "sha512-vuYaNuEIbOYLTLUAJh50ezEbvxrD43iby+lpUA2aa148Nh5kX/AVO/9m1Ahmbux2iU5uxJTNF9g2Y+31uml7RQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.1.tgz"
+      }
+    },
+    "ansi-regex": {
+      "5.0.1": {
+        "hash": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+      }
+    },
+    "ansi-styles": {
+      "4.3.0": {
+        "hash": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
+      }
+    },
+    "balanced-match": {
+      "1.0.2": {
+        "hash": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+      }
+    },
+    "brace-expansion": {
+      "1.1.11": {
+        "hash": "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
+      }
+    },
+    "cliui": {
+      "7.0.4": {
+        "hash": "sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz"
+      }
+    },
+    "color-convert": {
+      "2.0.1": {
+        "hash": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
+      }
+    },
+    "color-name": {
+      "1.1.4": {
+        "hash": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+      }
+    },
+    "concat-map": {
+      "0.0.1": {
+        "hash": "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+      }
+    },
+    "core-util-is": {
+      "1.0.3": {
+        "hash": "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
+      }
+    },
+    "emoji-regex": {
+      "8.0.0": {
+        "hash": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
+      }
+    },
+    "escalade": {
+      "3.1.1": {
+        "hash": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
+      }
+    },
+    "faye-websocket": {
+      "0.11.4": {
+        "hash": "sha512-CzbClwlXAuiRQAlUyfqPgvPoNKTckTPGfwZV4ZdAhVcP2lh9KUxJg2b5GkE7XbjKQ3YJnQ9z6D9ntLAlB+tP8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.11.4.tgz"
+      }
+    },
+    "firebase": {
+      "9.10.0-canary.34ad43cc2": {
+        "hash": "sha512-5Myy/q0TTfb0RHtH9KxgMVu8x6M07Mbo13igo0hwgpFCLWmz6Tkt50vMVYwjq/MvbxwV1DDxC3H2KdHoWidaYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/firebase/-/firebase-9.10.0-canary.34ad43cc2.tgz"
+      }
+    },
+    "fs.realpath": {
+      "1.0.0": {
+        "hash": "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+      }
+    },
+    "get-caller-file": {
+      "2.0.5": {
+        "hash": "sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz"
+      }
+    },
+    "glob": {
+      "7.2.3": {
+        "hash": "sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
+      }
+    },
+    "http-parser-js": {
+      "0.5.8": {
+        "hash": "sha512-SGeBX54F94Wgu5RH3X5jsDtf4eHyRogWX1XGT3b4HuW3tQPM4AaBzoUji/4AAJNXCEOWZ5O0DgZmJw1947gD5Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/http-parser-js/-/http-parser-js-0.5.8.tgz"
+      }
+    },
+    "idb": {
+      "7.0.1": {
+        "hash": "sha512-UUxlE7vGWK5RfB/fDwEGgRf84DY/ieqNha6msMV99UsEMQhJ1RwbCd8AYBj3QMgnE3VZnfQvm4oKVCJTYlqIgg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/idb/-/idb-7.0.1.tgz"
+      }
+    },
+    "immediate": {
+      "3.0.6": {
+        "hash": "sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz"
+      }
+    },
+    "inflight": {
+      "1.0.6": {
+        "hash": "sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
+      }
+    },
+    "inherits": {
+      "2.0.4": {
+        "hash": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+      }
+    },
+    "is-fullwidth-code-point": {
+      "3.0.0": {
+        "hash": "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz"
+      }
+    },
+    "isarray": {
+      "1.0.0": {
+        "hash": "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+      }
+    },
+    "jszip": {
+      "3.10.1": {
+        "hash": "sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jszip/-/jszip-3.10.1.tgz"
+      }
+    },
+    "lie": {
+      "3.3.0": {
+        "hash": "sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz"
+      }
+    },
+    "lodash.camelcase": {
+      "4.3.0": {
+        "hash": "sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz"
+      }
+    },
+    "long": {
+      "4.0.0": {
+        "hash": "sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/long/-/long-4.0.0.tgz"
+      },
+      "5.2.0": {
+        "hash": "sha512-9RTUNjK60eJbx3uz+TEGF7fUr29ZDxR5QzXcyDpeSfeH28S9ycINflOgOlppit5U+4kNTe83KQnMEerw7GmE8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/long/-/long-5.2.0.tgz"
+      }
+    },
+    "minimatch": {
+      "3.1.2": {
+        "hash": "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
+      }
+    },
+    "node-fetch": {
+      "2.6.7": {
+        "hash": "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
+      }
+    },
+    "once": {
+      "1.4.0": {
+        "hash": "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
+      }
+    },
+    "pako": {
+      "1.0.11": {
+        "hash": "sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz"
+      }
+    },
+    "path-is-absolute": {
+      "1.0.1": {
+        "hash": "sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
+      }
+    },
+    "process-nextick-args": {
+      "2.0.1": {
+        "hash": "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
+      }
+    },
+    "protobufjs": {
+      "6.11.3": {
+        "hash": "sha512-xL96WDdCZYdU7Slin569tFX712BxsxslWwAfAhCYjQKGTq7dAU91Lomy6nLLhh/dyGhk/YH4TwTSRxTzhuHyZg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/protobufjs/-/protobufjs-6.11.3.tgz"
+      },
+      "7.1.2": {
+        "hash": "sha512-4ZPTPkXCdel3+L81yw3dG6+Kq3umdWKh7Dc7GW/CpNk4SX3hK58iPCWeCyhVTDrbkNeKrYNZ7EojM5WDaEWTLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/protobufjs/-/protobufjs-7.1.2.tgz"
+      }
+    },
+    "readable-stream": {
+      "2.3.7": {
+        "hash": "sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz"
+      }
+    },
+    "require-directory": {
+      "2.1.1": {
+        "hash": "sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
+      }
+    },
+    "rimraf": {
+      "3.0.2": {
+        "hash": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz"
+      }
+    },
+    "safe-buffer": {
+      "5.1.2": {
+        "hash": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
+      }
+    },
+    "selenium-webdriver": {
+      "4.1.2": {
+        "hash": "sha512-e4Ap8vQvhipgBB8Ry9zBiKGkU6kHKyNnWiavGGLKkrdW81Zv7NVMtFOL/j3yX0G8QScM7XIXijKssNd4EUxSOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-4.1.2.tgz"
+      }
+    },
+    "setimmediate": {
+      "1.0.5": {
+        "hash": "sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz"
+      }
+    },
+    "string-width": {
+      "4.2.3": {
+        "hash": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
+      }
+    },
+    "string_decoder": {
+      "1.1.1": {
+        "hash": "sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
+      }
+    },
+    "strip-ansi": {
+      "6.0.1": {
+        "hash": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
+      }
+    },
+    "tmp": {
+      "0.2.1": {
+        "hash": "sha512-76SUhtfqR2Ijn+xllcI5P1oyannHNHByD80W1q447gU3mp9G9PSpGdWmjUOHRDPiHYacIk66W7ubDTuPF3BEtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tmp/-/tmp-0.2.1.tgz"
+      }
+    },
+    "tr46": {
+      "0.0.3": {
+        "hash": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "util-deprecate": {
+      "1.0.2": {
+        "hash": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+      }
+    },
+    "webidl-conversions": {
+      "3.0.1": {
+        "hash": "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
+      }
+    },
+    "websocket-driver": {
+      "0.7.4": {
+        "hash": "sha512-b17KeDIQVjvb0ssuSDF2cYXSg2iztliJ4B9WdsuB6J952qCPKmnVq4DyW5motImXHDC1cBT/1UezrJVsKw5zjg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/websocket-driver/-/websocket-driver-0.7.4.tgz"
+      }
+    },
+    "websocket-extensions": {
+      "0.1.4": {
+        "hash": "sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/websocket-extensions/-/websocket-extensions-0.1.4.tgz"
+      }
+    },
+    "whatwg-url": {
+      "5.0.0": {
+        "hash": "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
+      }
+    },
+    "wrap-ansi": {
+      "7.0.0": {
+        "hash": "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
+      }
+    },
+    "wrappy": {
+      "1.0.2": {
+        "hash": "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+      }
+    },
+    "ws": {
+      "8.9.0": {
+        "hash": "sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ws/-/ws-8.9.0.tgz"
+      }
+    },
+    "y18n": {
+      "5.0.8": {
+        "hash": "sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz"
+      }
+    },
+    "yargs": {
+      "16.2.0": {
+        "hash": "sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz"
+      }
+    },
+    "yargs-parser": {
+      "20.2.9": {
+        "hash": "sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz"
+      }
+    }
+  }
+}
