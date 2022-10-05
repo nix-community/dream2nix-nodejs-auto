@@ -1,0 +1,122 @@
+{
+  "_generic": {
+    "defaultPackage": "@material/ripple",
+    "location": "",
+    "packages": {
+      "@material/ripple": "15.0.0-canary.d9cf98e60.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@material/animation": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@material/base": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@material/dom": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "@material/feature-targeting", "15.0.0-canary.d9cf98e60.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@material/feature-targeting": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@material/ripple": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "@material/animation", "15.0.0-canary.d9cf98e60.0" ],
+        [ "@material/base", "15.0.0-canary.d9cf98e60.0" ],
+        [ "@material/dom", "15.0.0-canary.d9cf98e60.0" ],
+        [ "@material/feature-targeting", "15.0.0-canary.d9cf98e60.0" ],
+        [ "@material/rtl", "15.0.0-canary.d9cf98e60.0" ],
+        [ "@material/theme", "15.0.0-canary.d9cf98e60.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@material/ripple", "15.0.0-canary.d9cf98e60.0" ]
+      ]
+    },
+    "@material/rtl": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "@material/theme", "15.0.0-canary.d9cf98e60.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@material/theme": {
+      "15.0.0-canary.d9cf98e60.0": [
+        [ "@material/feature-targeting", "15.0.0-canary.d9cf98e60.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@material/animation": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-f8qjILjLCzjXHxsqucYYa3i7BpTebSxBdFDU7JV/SMNaaPKQwDgVsuT1/Knwh3JGwnF1htVn2IX9JQhDRTOkTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "@material/base": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-JmaCrTHlHvBXWH+bo/98oYx+qR/fIIgsIlDcx+yk0lA3ruVr1Ir+8LH9WCjntKdCjOpwKwyslu7L6UxHYYd4BA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "@material/dom": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-pvkwyLrK4IYCHrbzsdnT0wVz1PIjueaz6AyVW2np8om+XYYRvw24NAprIdSTkLBYKa3HtVg1K5ue2e3hIMOPYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "@material/feature-targeting": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-WnZ7aP/tycc753IqiSsijsLJ8J/tu1hFJ0PBWcfsn3IcGRewZJittlTbPbNh/Tb74xg4Ra65seyOzSfUXAMxDg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "@material/ripple": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-cYJA9DNbJI44VzN84td2S0TzvtPhtrLe8b/0/kHrimZrDd4msnjZsst2HmtZB3QbDSp7+oWIe29tsDSDHf7fAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "@material/rtl": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-uYKYrKOCtDyHPDkJh/US0wPi0rLmyiV1aVIjRgl0CZDw+rAmipwzt9h1frVZL2rJejMXofrHuMvixkLQ4xp0XA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "@material/theme": {
+      "15.0.0-canary.d9cf98e60.0": {
+        "hash": "sha512-TMMpRbtKxoZVBiOlkF4YjPqkKnOwWKd/pyczrEjteSKqz8lPEgiekQS2YQb/zxWfqx7QDET9IVQqhK+q1/AvQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.d9cf98e60.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

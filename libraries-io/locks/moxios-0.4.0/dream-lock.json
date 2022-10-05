@@ -14,9 +14,10 @@
   "cyclicDependencies": {},
   "dependencies": {
     "axios": {
-      "0.27.2": [
+      "1.0.0": [
         [ "follow-redirects", "1.15.2" ],
-        [ "form-data", "4.0.0" ]
+        [ "form-data", "4.0.0" ],
+        [ "proxy-from-env", "1.1.0" ]
       ]
     },
     "combined-stream": {
@@ -51,10 +52,10 @@
       }
     },
     "axios": {
-      "0.27.2": {
-        "hash": "sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==",
+      "1.0.0": {
+        "hash": "sha512-SsHsGFN1qNPFT5QhSoSD37SHDfGyLSW5AESmyLk2JeCMHv5g0I9g0Hz/zQHx2KNe0jGXh2q2hAm7OdkXm360CA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/axios/-/axios-0.27.2.tgz"
+        "url": "https://registry.npmjs.org/axios/-/axios-1.0.0.tgz"
       }
     },
     "combined-stream": {
@@ -104,6 +105,13 @@
         "hash": "sha512-r+7DOsTcoTAwY6TGIDtjeTEBXMW8aGgk74MfASOC1tgYXD8Kq+cnqQHUdMnvfjf/CK7Pg/Wo52ohqy5zlyv9XQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/moxios/-/moxios-0.4.0.tgz"
+      }
+    },
+    "proxy-from-env": {
+      "1.1.0": {
+        "hash": "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz"
       }
     }
   }

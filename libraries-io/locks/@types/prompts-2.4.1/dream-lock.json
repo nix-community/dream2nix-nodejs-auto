@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/prompts",
+    "location": "",
+    "packages": {
+      "@types/prompts": "2.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/prompts": {
+      "2.4.1": [
+        [ "@types/node", "18.8.2" ]
+      ],
+      "unknown": [
+        [ "@types/prompts", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.8.2": {
+        "hash": "sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.2.tgz"
+      }
+    },
+    "@types/prompts": {
+      "2.4.1": {
+        "hash": "sha512-1Mqzhzi9W5KlooNE4o0JwSXGUDeQXKldbGn9NO4tpxwZbHXYd+WcKpCksG2lbhH7U9I9LigfsdVsP2QAY0lNPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/prompts/-/prompts-2.4.1.tgz"
+      }
+    }
+  }
+}
