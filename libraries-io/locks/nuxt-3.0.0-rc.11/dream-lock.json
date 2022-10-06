@@ -243,7 +243,7 @@
       ]
     },
     "@netlify/functions": {
-      "1.2.0": [
+      "1.3.0": [
         [ "is-promise", "4.0.0" ]
       ]
     },
@@ -299,7 +299,7 @@
     "@nuxt/telemetry": {
       "2.1.5": [
         [ "@nuxt/kit", "3.0.0-rc.11" ],
-        [ "chalk", "5.0.1" ],
+        [ "chalk", "5.1.0" ],
         [ "ci-info", "3.4.0" ],
         [ "consola", "2.15.3" ],
         [ "create-require", "1.1.1" ],
@@ -338,7 +338,7 @@
         [ "get-port-please", "2.6.1" ],
         [ "h3", "0.7.21" ],
         [ "knitwork", "0.1.2" ],
-        [ "magic-string", "0.26.5" ],
+        [ "magic-string", "0.26.6" ],
         [ "mlly", "0.5.16" ],
         [ "ohash", "0.1.5" ],
         [ "pathe", "0.3.8" ],
@@ -638,9 +638,9 @@
     "browserslist": {
       "4.21.4": [
         [ "caniuse-lite", "1.0.30001416" ],
-        [ "electron-to-chromium", "1.4.272" ],
+        [ "electron-to-chromium", "1.4.274" ],
         [ "node-releases", "2.0.6" ],
-        [ "update-browserslist-db", "1.0.9" ]
+        [ "update-browserslist-db", "1.0.10" ]
       ]
     },
     "buffer": {
@@ -1095,7 +1095,7 @@
     "inquirer": {
       "9.1.2": [
         [ "ansi-escapes", "5.0.0" ],
-        [ "chalk", "5.0.1" ],
+        [ "chalk", "5.1.0" ],
         [ "cli-cursor", "4.0.0" ],
         [ "cli-width", "4.0.0" ],
         [ "external-editor", "3.1.0" ],
@@ -1211,7 +1211,7 @@
     },
     "log-symbols": {
       "5.1.0": [
-        [ "chalk", "5.0.1" ],
+        [ "chalk", "5.1.0" ],
         [ "is-unicode-supported", "1.3.0" ]
       ]
     },
@@ -1224,7 +1224,7 @@
       "0.25.9": [
         [ "sourcemap-codec", "1.4.8" ]
       ],
-      "0.26.5": [
+      "0.26.6": [
         [ "sourcemap-codec", "1.4.8" ]
       ]
     },
@@ -1290,7 +1290,7 @@
     "nitropack": {
       "0.5.4": [
         [ "@cloudflare/kv-asset-handler", "0.2.0" ],
-        [ "@netlify/functions", "1.2.0" ],
+        [ "@netlify/functions", "1.3.0" ],
         [ "@rollup/plugin-alias", "3.1.9" ],
         [ "@rollup/plugin-commonjs", "22.0.2" ],
         [ "@rollup/plugin-inject", "4.0.4" ],
@@ -1302,7 +1302,7 @@
         [ "@vercel/nft", "0.22.1" ],
         [ "archiver", "5.3.1" ],
         [ "c12", "0.2.13" ],
-        [ "chalk", "5.0.1" ],
+        [ "chalk", "5.1.0" ],
         [ "chokidar", "3.5.3" ],
         [ "consola", "2.15.3" ],
         [ "cookie-es", "0.5.0" ],
@@ -1409,7 +1409,7 @@
         [ "hash-sum", "2.0.0" ],
         [ "hookable", "5.3.0" ],
         [ "knitwork", "0.1.2" ],
-        [ "magic-string", "0.26.5" ],
+        [ "magic-string", "0.26.6" ],
         [ "mlly", "0.5.16" ],
         [ "nitropack", "0.5.4" ],
         [ "nuxi", "3.0.0-rc.11" ],
@@ -1467,7 +1467,7 @@
     "ora": {
       "6.1.2": [
         [ "bl", "5.0.0" ],
-        [ "chalk", "5.0.1" ],
+        [ "chalk", "5.1.0" ],
         [ "cli-cursor", "4.0.0" ],
         [ "cli-spinners", "2.7.0" ],
         [ "is-interactive", "2.0.0" ],
@@ -1740,7 +1740,7 @@
         [ "@babel/code-frame", "7.18.6" ],
         [ "jest-worker", "26.6.2" ],
         [ "serialize-javascript", "4.0.0" ],
-        [ "terser", "5.15.0" ]
+        [ "terser", "5.15.1" ]
       ]
     },
     "rollup-plugin-visualizer": {
@@ -1908,7 +1908,7 @@
       ]
     },
     "terser": {
-      "5.15.0": [
+      "5.15.1": [
         [ "@jridgewell/source-map", "0.3.2" ],
         [ "acorn", "8.8.0" ],
         [ "commander", "2.20.3" ],
@@ -1929,7 +1929,7 @@
       "2.0.2": [
         [ "acorn", "8.8.0" ],
         [ "estree-walker", "3.0.1" ],
-        [ "magic-string", "0.26.5" ],
+        [ "magic-string", "0.26.6" ],
         [ "unplugin", "0.9.6" ]
       ]
     },
@@ -1952,7 +1952,7 @@
         [ "escape-string-regexp", "5.0.0" ],
         [ "fast-glob", "3.2.12" ],
         [ "local-pkg", "0.4.2" ],
-        [ "magic-string", "0.26.5" ],
+        [ "magic-string", "0.26.6" ],
         [ "mlly", "0.5.16" ],
         [ "pathe", "0.3.8" ],
         [ "scule", "0.3.2" ],
@@ -1991,7 +1991,7 @@
       ]
     },
     "update-browserslist-db": {
-      "1.0.9": [
+      "1.0.10": [
         [ "escalade", "3.1.1" ],
         [ "picocolors", "1.0.0" ]
       ]
@@ -2441,10 +2441,10 @@
       }
     },
     "@netlify/functions": {
-      "1.2.0": {
-        "hash": "sha512-zCOJPoZQLv4ISHjyBS7asqzR6Y9NU+Vb0VKYDD0xUwYmReMhLTDchjGMkt5x0Jk1EVnJwUvA29rGyQEj3tIgAA==",
+      "1.3.0": {
+        "hash": "sha512-hN/Fgpz8XIOBfsBPLYUMxVKBlCopgeqGB0popayicnmkFLnvKByTTMYgF01wcF9DBtBQdV0H2h1kPFpMl34I8w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@netlify/functions/-/functions-1.2.0.tgz"
+        "url": "https://registry.npmjs.org/@netlify/functions/-/functions-1.3.0.tgz"
       }
     },
     "@nodelib/fs.scandir": {
@@ -3016,10 +3016,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
       },
-      "5.0.1": {
-        "hash": "sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==",
+      "5.1.0": {
+        "hash": "sha512-56zD4khRTBoIyzUYAFgDDaPhUMN/fC/rySe6aZGqbj/VWiU2eI3l6ZLOtYGFZAV5v02mwPjtpzlrOveJiz5eZQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/chalk/-/chalk-5.0.1.tgz"
+        "url": "https://registry.npmjs.org/chalk/-/chalk-5.1.0.tgz"
       }
     },
     "chardet": {
@@ -3487,10 +3487,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.272": {
-        "hash": "sha512-KS6gPPGNrzpVv9HzFVq+Etd0AjZEPr5pvaTBn2yD6KV4+cKW4I0CJoJNgmTG6gUQPAMZ4wIPtcOuoou3qFAZCA==",
+      "1.4.274": {
+        "hash": "sha512-Fgn7JZQzq85I81FpKUNxVLAzoghy8JZJ4NIue+YfUYBbu1AkpgzFvNwzF/ZNZH9ElkmJD0TSWu1F2gTpw/zZlg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.272.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.274.tgz"
       }
     },
     "emoji-regex": {
@@ -4515,10 +4515,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.25.9.tgz"
       },
-      "0.26.5": {
-        "hash": "sha512-yXUIYOOQnEHKHOftp5shMWpB9ImfgfDJpapa38j/qMtTj5QHWucvxP4lUtuRmHT9vAzvtpHkWKXW9xBwimXeNg==",
+      "0.26.6": {
+        "hash": "sha512-6d+3bFybzyQFJYSoRsl9ZC0wheze8M1LrQC7tNMRqXR4izUTDOLMd9BtSuExK9iAukFh+s5K0WAhc/dlQ+HKYA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.26.5.tgz"
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.26.6.tgz"
       }
     },
     "make-dir": {
@@ -5734,10 +5734,10 @@
       }
     },
     "terser": {
-      "5.15.0": {
-        "hash": "sha512-L1BJiXVmheAQQy+as0oF3Pwtlo4s3Wi1X2zNZ2NxOB4wx9bdS9Vk67XQENLFdLYGCK/Z2di53mTj/hBafR+dTA==",
+      "5.15.1": {
+        "hash": "sha512-K1faMUvpm/FBxjBXud0LWVAGxmvoPbZbfTCYbSgaaYQaIXI3/TdI7a7ZGA73Zrou6Q8Zmz3oeUTsp/dj+ag2Xw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/terser/-/terser-5.15.0.tgz"
+        "url": "https://registry.npmjs.org/terser/-/terser-5.15.1.tgz"
       }
     },
     "through": {
@@ -5877,10 +5877,10 @@
       }
     },
     "update-browserslist-db": {
-      "1.0.9": {
-        "hash": "sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==",
+      "1.0.10": {
+        "hash": "sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz"
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz"
       }
     },
     "util-deprecate": {

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "magic-string",
+    "location": "",
+    "packages": {
+      "magic-string": "0.26.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "magic-string": {
+      "0.26.6": [
+        [ "sourcemap-codec", "1.4.8" ]
+      ],
+      "unknown": [
+        [ "magic-string", "0.26.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "magic-string": {
+      "0.26.6": {
+        "hash": "sha512-6d+3bFybzyQFJYSoRsl9ZC0wheze8M1LrQC7tNMRqXR4izUTDOLMd9BtSuExK9iAukFh+s5K0WAhc/dlQ+HKYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.26.6.tgz"
+      }
+    },
+    "sourcemap-codec": {
+      "1.4.8": {
+        "hash": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
+      }
+    }
+  }
+}

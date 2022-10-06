@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@ckeditor/ckeditor5-utils",
+    "location": "",
+    "packages": {
+      "@ckeditor/ckeditor5-utils": "35.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-utils": {
+      "35.2.0": [
+        [ "lodash-es", "4.17.21" ]
+      ],
+      "unknown": [
+        [ "@ckeditor/ckeditor5-utils", "35.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ckeditor/ckeditor5-utils": {
+      "35.2.0": {
+        "hash": "sha512-SmSjGKklDCArA1xT8ZE16CIPyMk+/Gr5sDkPoKX9ZfOqRXHlhYhEjRJFkppxAGQ3fmn3E2bevFUQpLeM3l1wKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-35.2.0.tgz"
+      }
+    },
+    "lodash-es": {
+      "4.17.21": {
+        "hash": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
+      }
+    }
+  }
+}
