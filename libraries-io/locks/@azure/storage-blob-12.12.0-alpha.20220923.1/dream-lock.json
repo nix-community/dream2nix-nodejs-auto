@@ -29,7 +29,7 @@
         [ "@azure/abort-controller", "1.1.0" ],
         [ "@azure/core-auth", "1.4.0" ],
         [ "@azure/core-tracing", "1.0.0-preview.13" ],
-        [ "@azure/core-util", "1.1.0" ],
+        [ "@azure/core-util", "1.1.1" ],
         [ "@azure/logger", "1.0.3" ],
         [ "@types/node-fetch", "2.6.2" ],
         [ "@types/tunnel", "0.0.3" ],
@@ -62,7 +62,8 @@
       ]
     },
     "@azure/core-util": {
-      "1.1.0": [
+      "1.1.1": [
+        [ "@azure/abort-controller", "1.1.0" ],
         [ "tslib", "2.4.0" ]
       ]
     },
@@ -88,13 +89,13 @@
     },
     "@types/node-fetch": {
       "2.6.2": [
-        [ "@types/node", "18.8.2" ],
+        [ "@types/node", "18.8.3" ],
         [ "form-data", "3.0.1" ]
       ]
     },
     "@types/tunnel": {
       "0.0.3": [
-        [ "@types/node", "18.8.2" ]
+        [ "@types/node", "18.8.3" ]
       ]
     },
     "combined-stream": {
@@ -195,10 +196,10 @@
       }
     },
     "@azure/core-util": {
-      "1.1.0": {
-        "hash": "sha512-+i93lNJNA3Pl3KSuC6xKP2jTL4YFeDfO6VNOaYdk0cppZcLCxt811gS878VsqsCisaltdhl9lhMzK5kbxCiF4w==",
+      "1.1.1": {
+        "hash": "sha512-A4TBYVQCtHOigFb2ETiiKFDocBoI1Zk2Ui1KpI42aJSIDexF7DHQFpnjonltXAIU/ceH+1fsZAWWgvX6/AKzog==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@azure/core-util/-/core-util-1.1.0.tgz"
+        "url": "https://registry.npmjs.org/@azure/core-util/-/core-util-1.1.1.tgz"
       }
     },
     "@azure/logger": {
@@ -223,10 +224,10 @@
       }
     },
     "@types/node": {
-      "18.8.2": {
-        "hash": "sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==",
+      "18.8.3": {
+        "hash": "sha512-0os9vz6BpGwxGe9LOhgP/ncvYN5Tx1fNcd2TM3rD/aCGBkysb+ZWpXEocG24h6ZzOi13+VB8HndAQFezsSOw1w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.2.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.3.tgz"
       }
     },
     "@types/node-fetch": {

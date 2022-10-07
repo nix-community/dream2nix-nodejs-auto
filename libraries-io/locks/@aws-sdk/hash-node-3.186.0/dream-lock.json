@@ -1,0 +1,75 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/hash-node",
+    "location": "",
+    "packages": {
+      "@aws-sdk/hash-node": "3.186.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/hash-node": {
+      "3.186.0": [
+        [ "@aws-sdk/types", "3.186.0" ],
+        [ "@aws-sdk/util-buffer-from", "3.186.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/hash-node", "3.186.0" ]
+      ]
+    },
+    "@aws-sdk/is-array-buffer": {
+      "3.186.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/util-buffer-from": {
+      "3.186.0": [
+        [ "@aws-sdk/is-array-buffer", "3.186.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/hash-node": {
+      "3.186.0": {
+        "hash": "sha512-G3zuK8/3KExDTxqrGqko+opOMLRF0BwcwekV/wm3GKIM/NnLhHblBs2zd/yi7VsEoWmuzibfp6uzxgFpEoJ87w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/hash-node/-/hash-node-3.186.0.tgz"
+      }
+    },
+    "@aws-sdk/is-array-buffer": {
+      "3.186.0": {
+        "hash": "sha512-fObm+P6mjWYzxoFY4y2STHBmSdgKbIAXez0xope563mox62I8I4hhVPUCaDVydXvDpJv8tbedJMk0meJl22+xA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/is-array-buffer/-/is-array-buffer-3.186.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.186.0": {
+        "hash": "sha512-NatmSU37U+XauMFJCdFI6nougC20JUFZar+ump5wVv0i54H+2Refg1YbFDxSs0FY28TSB9jfhWIpfFBmXgL5MQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.186.0.tgz"
+      }
+    },
+    "@aws-sdk/util-buffer-from": {
+      "3.186.0": {
+        "hash": "sha512-be2GCk2lsLWg/2V5Y+S4/9pOMXhOQo4DR4dIqBdR2R+jrMMHN9Xsr5QrkT6chcqLaJ/SBlwiAEEi3StMRmCOXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-buffer-from/-/util-buffer-from-3.186.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

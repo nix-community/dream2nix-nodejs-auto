@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "@material/theme",
+    "location": "",
+    "packages": {
+      "@material/theme": "15.0.0-canary.49c56a25d.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@material/feature-targeting": {
+      "15.0.0-canary.49c56a25d.0": [
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@material/theme": {
+      "15.0.0-canary.49c56a25d.0": [
+        [ "@material/feature-targeting", "15.0.0-canary.49c56a25d.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@material/theme", "15.0.0-canary.49c56a25d.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@material/feature-targeting": {
+      "15.0.0-canary.49c56a25d.0": {
+        "hash": "sha512-HIv838PXJ7uD0H+MWVCpnTPRDd7uDD59rwnQsYx8+wjJx7q4us+0FpBNhJRYl3zcMVVA+K34Qw6JcmwAa5uDBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.49c56a25d.0.tgz"
+      }
+    },
+    "@material/theme": {
+      "15.0.0-canary.49c56a25d.0": {
+        "hash": "sha512-ddypTttEBnxPd0hVkBHGc+usDSeefP5TlVsWjAfxXb0Wr8h94Zp2OGNat/OuGC8idjoSY2iFISlpxdLAVr85mQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.49c56a25d.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

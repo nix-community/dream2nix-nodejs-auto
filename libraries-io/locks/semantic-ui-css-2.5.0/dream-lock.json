@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "semantic-ui-css",
+    "location": "",
+    "packages": {
+      "semantic-ui-css": "2.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "semantic-ui-css": {
+      "2.5.0": [
+        [ "jquery", "3.6.1" ]
+      ],
+      "unknown": [
+        [ "semantic-ui-css", "2.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "jquery": {
+      "3.6.1": {
+        "hash": "sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jquery/-/jquery-3.6.1.tgz"
+      }
+    },
+    "semantic-ui-css": {
+      "2.5.0": {
+        "hash": "sha512-jIWn3WXXE2uSaWCcB+gVJVRG3masIKtTMNEP2X8Aw909H2rHpXGneYOxzO3hT8TpyvB5/dEEo9mBFCitGwoj1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semantic-ui-css/-/semantic-ui-css-2.5.0.tgz"
+      }
+    }
+  }
+}

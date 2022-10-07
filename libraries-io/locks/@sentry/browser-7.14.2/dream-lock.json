@@ -1,0 +1,93 @@
+{
+  "_generic": {
+    "defaultPackage": "@sentry/browser",
+    "location": "",
+    "packages": {
+      "@sentry/browser": "7.14.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@sentry/browser": {
+      "7.14.2": [
+        [ "@sentry/core", "7.14.2" ],
+        [ "@sentry/types", "7.14.2" ],
+        [ "@sentry/utils", "7.14.2" ],
+        [ "tslib", "1.14.1" ]
+      ],
+      "unknown": [
+        [ "@sentry/browser", "7.14.2" ]
+      ]
+    },
+    "@sentry/core": {
+      "7.14.2": [
+        [ "@sentry/hub", "7.14.2" ],
+        [ "@sentry/types", "7.14.2" ],
+        [ "@sentry/utils", "7.14.2" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "@sentry/hub": {
+      "7.14.2": [
+        [ "@sentry/types", "7.14.2" ],
+        [ "@sentry/utils", "7.14.2" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "@sentry/utils": {
+      "7.14.2": [
+        [ "@sentry/types", "7.14.2" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@sentry/browser": {
+      "7.14.2": {
+        "hash": "sha512-KGAZ+5lK7gIO2CM3/MAQGY8JtNVCWXRi807lAxndJ3E1oIQb9A0x7b+AJNr1+6jlwf6QESblr92MCLKPHDpNbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/browser/-/browser-7.14.2.tgz"
+      }
+    },
+    "@sentry/core": {
+      "7.14.2": {
+        "hash": "sha512-AXcH6nROugziO5KsKSQ9TmAXq6HJa8Fn+kDqAL/sNY65w6YYlHifMO2xHkSXVJxGw7vx9DYh/5SF+KnLn6NDNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/core/-/core-7.14.2.tgz"
+      }
+    },
+    "@sentry/hub": {
+      "7.14.2": {
+        "hash": "sha512-18cuSesTn9VAF0JC107flLmtCRt/6DBn38uz0G9cPThKtTSNwjGvGZ/ag4J1iq+IDjVS5MA6iTncXOsSpVP2Wg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/hub/-/hub-7.14.2.tgz"
+      }
+    },
+    "@sentry/types": {
+      "7.14.2": {
+        "hash": "sha512-JzkOtenArOXmJBAk/FBbxKKX7XC650HqkhGL4ugT/f+RyxfiDZ0X1TAYMrvKIe+qpn5Nh7JUBfR+BARKAiu2wQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/types/-/types-7.14.2.tgz"
+      }
+    },
+    "@sentry/utils": {
+      "7.14.2": {
+        "hash": "sha512-vpZolN+k1IoxWXhKyOVcRl7V1bgww+96gHqTJdcMzOB83x/ofels7L0kqxb03WukKTYcnc7Ep+yBiKi/OYX9og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/utils/-/utils-7.14.2.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    }
+  }
+}

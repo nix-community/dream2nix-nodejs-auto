@@ -1,0 +1,132 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-cdk/aws-s3",
+    "location": "",
+    "packages": {
+      "@aws-cdk/aws-s3": "1.176.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-cdk/aws-events": {
+      "1.176.0": [
+        [ "@aws-cdk/aws-iam", "1.176.0" ],
+        [ "@aws-cdk/core", "1.176.0" ],
+        [ "constructs", "3.4.116" ]
+      ]
+    },
+    "@aws-cdk/aws-iam": {
+      "1.176.0": [
+        [ "@aws-cdk/core", "1.176.0" ],
+        [ "@aws-cdk/cx-api", "1.176.0" ],
+        [ "@aws-cdk/region-info", "1.176.0" ],
+        [ "constructs", "3.4.116" ]
+      ]
+    },
+    "@aws-cdk/aws-kms": {
+      "1.176.0": [
+        [ "@aws-cdk/aws-iam", "1.176.0" ],
+        [ "@aws-cdk/cloud-assembly-schema", "1.176.0" ],
+        [ "@aws-cdk/core", "1.176.0" ],
+        [ "@aws-cdk/cx-api", "1.176.0" ],
+        [ "constructs", "3.4.116" ]
+      ]
+    },
+    "@aws-cdk/aws-s3": {
+      "1.176.0": [
+        [ "@aws-cdk/aws-events", "1.176.0" ],
+        [ "@aws-cdk/aws-iam", "1.176.0" ],
+        [ "@aws-cdk/aws-kms", "1.176.0" ],
+        [ "@aws-cdk/core", "1.176.0" ],
+        [ "@aws-cdk/cx-api", "1.176.0" ],
+        [ "constructs", "3.4.116" ]
+      ],
+      "unknown": [
+        [ "@aws-cdk/aws-s3", "1.176.0" ]
+      ]
+    },
+    "@aws-cdk/core": {
+      "1.176.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.176.0" ],
+        [ "@aws-cdk/cx-api", "1.176.0" ],
+        [ "@aws-cdk/region-info", "1.176.0" ],
+        [ "constructs", "3.4.116" ]
+      ]
+    },
+    "@aws-cdk/cx-api": {
+      "1.176.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.176.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-cdk/aws-events": {
+      "1.176.0": {
+        "hash": "sha512-ROhPFkL/4GTnn0m6FsF+lMjlTpj3JWYF2rQ5KlFfPEGGgh2+RZUdcPa7MDKZkQDCXXVvLFqZ038R9eLeXHAl1g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-events/-/aws-events-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-iam": {
+      "1.176.0": {
+        "hash": "sha512-fiOxE2xRYH/HjK6bf/QrLMvguAmYwMhxsnV3gYNEMX1Jz8UD7/soiMVXmUIfR3vx8cBaUkvcnmymXTrU99c4/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-iam/-/aws-iam-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-kms": {
+      "1.176.0": {
+        "hash": "sha512-UmVQNwPYIlV4d1rDLDZZuxDs/YQWZfKAoQ+EyMpTmMq1mSYE2l+TLLe8WLwJB/IRkAgwMT62sc36IgHk7uauQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-kms/-/aws-kms-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-s3": {
+      "1.176.0": {
+        "hash": "sha512-zAIX6nxPJBHh33dVTCUVu43a77wonsdHEQRo3Hice4BFrfqAOTaWwCRsjiU29dD4lIwEGGdXpm6SECFjJih3rw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-s3/-/aws-s3-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/cloud-assembly-schema": {
+      "1.176.0": {
+        "hash": "sha512-luAxm6bZFHwyz/8cviTbLiLzpNdUH4VFeAEruxiHnpyHq33haI7kuXl4J6mcHf3V37AgKsdouhIh8dfyby/GLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/core": {
+      "1.176.0": {
+        "hash": "sha512-5ou6aUqeFihacDREM0VWCN1n0SglNxKY/Xs+bUMPgrOc99vuU8am+XC4VZLaSZbH/MnXWodmJX69YZL8xBfwtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/core/-/core-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/cx-api": {
+      "1.176.0": {
+        "hash": "sha512-oEIy8NRyDabTTgVPEYuklqGaDGUH0xzdY/i4JJzXGD3BcRNbawSe0HeBeCf6dpjj8+caV6yiBJ6tk/dyQjtXaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cx-api/-/cx-api-1.176.0.tgz"
+      }
+    },
+    "@aws-cdk/region-info": {
+      "1.176.0": {
+        "hash": "sha512-pBGFWKxTbEl8X8yViSM2Jw7UVfs5L/N+P63cJU53KXWepVUS0BRUEctGNmUfy5EghiWp+9hIU2ZiP2UhrTW8+w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/region-info/-/region-info-1.176.0.tgz"
+      }
+    },
+    "constructs": {
+      "3.4.116": {
+        "hash": "sha512-544DPh4EmCivxFigTbRfnal4mfEQy+41brYuKE68wYetp+lessTL1gUntR9Ig+G7b7KgVpBV4VVnZzNwmOQNzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/constructs/-/constructs-3.4.116.tgz"
+      }
+    }
+  }
+}
