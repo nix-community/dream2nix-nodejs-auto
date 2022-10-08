@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "consul",
+    "location": "",
+    "packages": {
+      "consul": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "consul": {
+      "1.1.0": [
+        [ "papi", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "consul", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "consul": {
+      "1.1.0": {
+        "hash": "sha512-EvA+gbWe9CWsNthjyOguJ61vfz6Wy1mzAKjMsForXVi/Rq5fTYlE3vtNgQLhgZDLorqea+OJN+LDka3h5S4+oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/consul/-/consul-1.1.0.tgz"
+      }
+    },
+    "papi": {
+      "1.1.0": {
+        "hash": "sha512-w02EYhPtKYAGB8XJz+yi5WJPfSev1Zfo3vZrqqvHN6LvkIIJKfJ+VwAnL9EanBMcg6G8Bbwgxh7cqirfsJn2IQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/papi/-/papi-1.1.0.tgz"
+      }
+    }
+  }
+}
