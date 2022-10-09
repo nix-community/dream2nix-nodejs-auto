@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@swc/helpers",
+    "location": "",
+    "packages": {
+      "@swc/helpers": "0.4.12"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@swc/helpers": {
+      "0.4.12": [
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@swc/helpers", "0.4.12" ]
+      ]
+    }
+  },
+  "sources": {
+    "@swc/helpers": {
+      "0.4.12": {
+        "hash": "sha512-R6RmwS9Dld5lNvwKlPn62+piU+WDG1sMfsnfJioXCciyko/gZ0DQ4Mqglhq1iGU1nQ/RcGkAwfMH+elMSkJH3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@swc/helpers/-/helpers-0.4.12.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

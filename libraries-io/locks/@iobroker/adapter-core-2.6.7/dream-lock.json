@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@iobroker/adapter-core",
+    "location": "",
+    "packages": {
+      "@iobroker/adapter-core": "2.6.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@iobroker/adapter-core": {
+      "2.6.7": [
+        [ "@types/iobroker", "4.0.5" ]
+      ],
+      "unknown": [
+        [ "@iobroker/adapter-core", "2.6.7" ]
+      ]
+    },
+    "@types/iobroker": {
+      "4.0.5": [
+        [ "@types/node", "18.8.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "@iobroker/adapter-core": {
+      "2.6.7": {
+        "hash": "sha512-yDTmWjnsQ+DXRQVnQK97CXXMMs01H3Pl82DSqfx7dYj7RKoUenD75a0xY4QQdHZXG9SIhjNttXVEln0lWvOamA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@iobroker/adapter-core/-/adapter-core-2.6.7.tgz"
+      }
+    },
+    "@types/iobroker": {
+      "4.0.5": {
+        "hash": "sha512-D1tJwuDQEQQQ/cZVFjFjFUhUuMxJbfrz5U2UooiZwhgs69D/t8IowMvBI6Lk4ZR8HnCSxYwWHVRKyQnEMNgJPA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/iobroker/-/iobroker-4.0.5.tgz"
+      }
+    },
+    "@types/node": {
+      "18.8.3": {
+        "hash": "sha512-0os9vz6BpGwxGe9LOhgP/ncvYN5Tx1fNcd2TM3rD/aCGBkysb+ZWpXEocG24h6ZzOi13+VB8HndAQFezsSOw1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.3.tgz"
+      }
+    }
+  }
+}
