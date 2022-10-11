@@ -1,0 +1,78 @@
+{
+  "_generic": {
+    "defaultPackage": "@sentry/browser",
+    "location": "",
+    "packages": {
+      "@sentry/browser": "7.15.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@sentry/browser": {
+      "7.15.0": [
+        [ "@sentry/core", "7.15.0" ],
+        [ "@sentry/types", "7.15.0" ],
+        [ "@sentry/utils", "7.15.0" ],
+        [ "tslib", "1.14.1" ]
+      ],
+      "unknown": [
+        [ "@sentry/browser", "7.15.0" ]
+      ]
+    },
+    "@sentry/core": {
+      "7.15.0": [
+        [ "@sentry/types", "7.15.0" ],
+        [ "@sentry/utils", "7.15.0" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    },
+    "@sentry/utils": {
+      "7.15.0": [
+        [ "@sentry/types", "7.15.0" ],
+        [ "tslib", "1.14.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@sentry/browser": {
+      "7.15.0": {
+        "hash": "sha512-vZYr8L2JmniV8cns4yGOpX32moazz6tsllB1uv7XmmELW98sIuuugVFX0k6cBi89R8pyhdqULFCf9CL8CRguRg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/browser/-/browser-7.15.0.tgz"
+      }
+    },
+    "@sentry/core": {
+      "7.15.0": {
+        "hash": "sha512-W8d44g04GShBn4Z9VBTUhf1T9LTMfzUnETEx237zzUucv0kkyj3LsWQsJapWchMbmwr1V/CdnNDN+lGDm8iXQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/core/-/core-7.15.0.tgz"
+      }
+    },
+    "@sentry/types": {
+      "7.15.0": {
+        "hash": "sha512-MN9haDRh9ZOsTotoDTHu2BT3sT8Vs1F0alhizUpDyjN2YgBCqR6JV+AbAE1XNHwS2+5zbppch1PwJUVeE58URQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/types/-/types-7.15.0.tgz"
+      }
+    },
+    "@sentry/utils": {
+      "7.15.0": {
+        "hash": "sha512-akic22/6xa/RG5Mj7UN6pLc23VnX9zQlKM53L/q3yIr0juckSVthJiiFNdgdqrX03S1tHYlBgPeShKFFTHpkjA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sentry/utils/-/utils-7.15.0.tgz"
+      }
+    },
+    "tslib": {
+      "1.14.1": {
+        "hash": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+      }
+    }
+  }
+}

@@ -13,15 +13,10 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "convert-source-map": {
-      "1.8.0": [
-        [ "safe-buffer", "5.1.2" ]
-      ]
-    },
     "exorcist": {
       "2.0.0": [
         [ "is-stream", "2.0.1" ],
-        [ "minimist", "1.2.6" ],
+        [ "minimist", "1.2.7" ],
         [ "mkdirp", "1.0.4" ],
         [ "mold-source-map", "0.4.0" ]
       ],
@@ -31,17 +26,17 @@
     },
     "mold-source-map": {
       "0.4.0": [
-        [ "convert-source-map", "1.8.0" ],
+        [ "convert-source-map", "1.9.0" ],
         [ "through", "2.2.7" ]
       ]
     }
   },
   "sources": {
     "convert-source-map": {
-      "1.8.0": {
-        "hash": "sha512-+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==",
+      "1.9.0": {
+        "hash": "sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.8.0.tgz"
+        "url": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.9.0.tgz"
       }
     },
     "exorcist": {
@@ -59,10 +54,10 @@
       }
     },
     "minimist": {
-      "1.2.6": {
-        "hash": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+      "1.2.7": {
+        "hash": "sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+        "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.7.tgz"
       }
     },
     "mkdirp": {
@@ -77,13 +72,6 @@
         "hash": "sha512-Y0uA/sDKVuPgLd7BmaJOai+fqzjrOlR6vZgx5cJIvturI/xOPQPgbf3X7ZbzJd6MvqQ6ucIfK8dSteFyc2Mw2w==",
         "type": "http",
         "url": "https://registry.npmjs.org/mold-source-map/-/mold-source-map-0.4.0.tgz"
-      }
-    },
-    "safe-buffer": {
-      "5.1.2": {
-        "hash": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
       }
     },
     "through": {

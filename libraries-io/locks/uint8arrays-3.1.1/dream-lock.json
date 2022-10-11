@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "uint8arrays",
+    "location": "",
+    "packages": {
+      "uint8arrays": "3.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "uint8arrays": {
+      "3.1.1": [
+        [ "multiformats", "9.9.0" ]
+      ],
+      "unknown": [
+        [ "uint8arrays", "3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "multiformats": {
+      "9.9.0": {
+        "hash": "sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/multiformats/-/multiformats-9.9.0.tgz"
+      }
+    },
+    "uint8arrays": {
+      "3.1.1": {
+        "hash": "sha512-+QJa8QRnbdXVpHYjLoTpJIdCTiw9Ir62nocClWuXIq2JIh4Uta0cQsTSpFL678p2CN8B+XSApwcU+pQEqVpKWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uint8arrays/-/uint8arrays-3.1.1.tgz"
+      }
+    }
+  }
+}
