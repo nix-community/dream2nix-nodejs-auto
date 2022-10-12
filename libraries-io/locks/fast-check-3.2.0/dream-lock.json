@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "fast-check",
+    "location": "",
+    "packages": {
+      "fast-check": "3.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fast-check": {
+      "3.2.0": [
+        [ "pure-rand", "5.0.3" ]
+      ],
+      "unknown": [
+        [ "fast-check", "3.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "fast-check": {
+      "3.2.0": {
+        "hash": "sha512-RH1GMdVeN6Le0B4gI7fz5VZnCgrkREqt4SFMGyFe8v9n06ZuFdR2npxJDl8GUvZQZCq0/mo92JYUZInZnUm0nw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fast-check/-/fast-check-3.2.0.tgz"
+      }
+    },
+    "pure-rand": {
+      "5.0.3": {
+        "hash": "sha512-9N8x1h8dptBQpHyC7aZMS+iNOAm97WMGY0AFrguU1cpfW3I5jINkWe5BIY5md0ofy+1TCIELsVcm/GJXZSaPbw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pure-rand/-/pure-rand-5.0.3.tgz"
+      }
+    }
+  }
+}

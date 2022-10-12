@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "prisma",
+    "location": "",
+    "packages": {
+      "prisma": "4.5.0-dev.22"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prisma": {
+      "4.5.0-dev.22": [
+        [ "@prisma/engines", "4.5.0-dev.22" ]
+      ],
+      "unknown": [
+        [ "prisma", "4.5.0-dev.22" ]
+      ]
+    }
+  },
+  "sources": {
+    "@prisma/engines": {
+      "4.5.0-dev.22": {
+        "hash": "sha512-weG7DuhkbFU5fzCLUtMMiHh+JN5oCQNAnAV6F7yJleDt3mCyIgj0Y8dWFzDv+9nhl8sFRfRxXeuC53gT4sLTLw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@prisma/engines/-/engines-4.5.0-dev.22.tgz"
+      }
+    },
+    "prisma": {
+      "4.5.0-dev.22": {
+        "hash": "sha512-0/ApkRQUeRbyYDqbQPJXD3IRjcKPHiPJzmdWAqNTjNED5UWcyyveZ1+lL0+qxKSUMXtKHSPAesbWGWD00j2hwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prisma/-/prisma-4.5.0-dev.22.tgz"
+      }
+    }
+  }
+}
