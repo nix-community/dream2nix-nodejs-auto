@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "nanospinner",
+    "location": "",
+    "packages": {
+      "nanospinner": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nanospinner": {
+      "1.1.0": [
+        [ "picocolors", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "nanospinner", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "nanospinner": {
+      "1.1.0": {
+        "hash": "sha512-yFvNYMig4AthKYfHFl1sLj7B2nkHL4lzdig4osvl9/LdGbXwrdFRoqBS98gsEsOakr0yH+r5NZ/1Y9gdVB8trA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanospinner/-/nanospinner-1.1.0.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    }
+  }
+}

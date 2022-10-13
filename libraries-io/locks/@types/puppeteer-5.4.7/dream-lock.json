@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/puppeteer",
+    "location": "",
+    "packages": {
+      "@types/puppeteer": "5.4.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/puppeteer": {
+      "5.4.7": [
+        [ "@types/node", "18.8.5" ]
+      ],
+      "unknown": [
+        [ "@types/puppeteer", "5.4.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.8.5": {
+        "hash": "sha512-Bq7G3AErwe5A/Zki5fdD3O6+0zDChhg671NfPjtIcbtzDNZTv4NPKMRFr7gtYPG7y+B8uTiNK4Ngd9T0FTar6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.5.tgz"
+      }
+    },
+    "@types/puppeteer": {
+      "5.4.7": {
+        "hash": "sha512-JdGWZZYL0vKapXF4oQTC5hLVNfOgdPrqeZ1BiQnGk5cB7HeE91EWUiTdVSdQPobRN8rIcdffjiOgCYJ/S8QrnQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/puppeteer/-/puppeteer-5.4.7.tgz"
+      }
+    }
+  }
+}

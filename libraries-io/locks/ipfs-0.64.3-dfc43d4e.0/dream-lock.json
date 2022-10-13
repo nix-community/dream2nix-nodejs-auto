@@ -22,7 +22,7 @@
     "@achingbrain/nat-port-mapper": {
       "1.0.7": [
         [ "@achingbrain/ssdp", "4.0.1" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "default-gateway", "6.0.3" ],
         [ "err-code", "3.0.1" ],
         [ "it-first", "1.0.7" ],
@@ -46,24 +46,24 @@
         [ "@libp2p/crypto", "1.0.4" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
         [ "@libp2p/interface-registrar", "2.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@libp2p/peer-record", "4.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@libp2p/peer-record", "4.0.4" ],
         [ "@libp2p/pubsub", "3.1.3" ],
         [ "@libp2p/topology", "3.0.1" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "denque", "1.5.1" ],
         [ "err-code", "3.0.1" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-pipe", "2.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "multiformats", "9.9.0" ],
         [ "protobufjs", "6.11.3" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
@@ -72,27 +72,27 @@
         [ "@libp2p/crypto", "1.0.4" ],
         [ "@libp2p/interface-connection-encrypter", "2.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "@stablelib/chacha20poly1305", "1.0.1" ],
         [ "@stablelib/hkdf", "1.0.1" ],
         [ "@stablelib/sha256", "1.0.1" ],
         [ "@stablelib/x25519", "1.0.3" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-pair", "2.0.3" ],
         [ "it-pb-stream", "2.0.2" ],
         [ "it-pipe", "2.0.4" ],
         [ "it-stream-types", "1.0.4" ],
         [ "protons-runtime", "3.1.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
     "@grpc/grpc-js": {
       "1.7.1": [
         [ "@grpc/proto-loader", "0.7.3" ],
-        [ "@types/node", "18.8.4" ]
+        [ "@types/node", "18.8.5" ]
       ]
     },
     "@grpc/proto-loader": {
@@ -285,7 +285,7 @@
       ]
     },
     "@ipld/car": {
-      "4.1.5": [
+      "4.1.6": [
         [ "@ipld/dag-cbor", "7.0.3" ],
         [ "cborg", "1.9.5" ],
         [ "multiformats", "9.9.0" ],
@@ -314,10 +314,10 @@
         [ "@libp2p/interface-peer-discovery", "1.0.1" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@libp2p/components": {
@@ -325,10 +325,10 @@
         [ "@libp2p/interface-address-manager", "1.0.3" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-manager", "1.3.0" ],
-        [ "@libp2p/interface-content-routing", "1.0.2" ],
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-content-routing", "1.0.3" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-metrics", "3.0.0" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-routing", "1.0.1" ],
         [ "@libp2p/interface-peer-store", "1.2.2" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
@@ -336,16 +336,16 @@
         [ "@libp2p/interface-transport", "1.0.4" ],
         [ "@libp2p/interfaces", "3.0.3" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-datastore", "7.0.0" ]
+        [ "interface-datastore", "7.0.1" ]
       ]
     },
     "@libp2p/connection": {
       "4.0.2": [
         [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "err-code", "3.0.1" ]
       ]
     },
@@ -363,11 +363,11 @@
     },
     "@libp2p/delegated-content-routing": {
       "2.0.2": [
-        [ "@libp2p/interface-content-routing", "1.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-content-routing", "1.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "any-signal", "3.0.1" ],
         [ "err-code", "3.0.1" ],
         [ "it-drain", "1.0.5" ],
@@ -377,12 +377,12 @@
     },
     "@libp2p/delegated-peer-routing": {
       "2.0.2": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-peer-routing", "1.0.1" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "any-signal", "3.0.1" ],
         [ "err-code", "3.0.1" ],
         [ "multiformats", "9.9.0" ],
@@ -392,69 +392,69 @@
     },
     "@libp2p/floodsub": {
       "3.0.7": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/pubsub", "3.1.3" ],
         [ "protons-runtime", "3.1.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
     "@libp2p/interface-address-manager": {
       "1.0.3": [
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@libp2p/interface-connection": {
       "3.0.2": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-connection-encrypter": {
       "2.0.2": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-connection-manager": {
       "1.3.0": [
         [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@libp2p/interface-content-routing": {
-      "1.0.2": [
+      "1.0.3": [
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "multiformats", "9.9.0" ]
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "@libp2p/interface-dht": {
-      "1.0.1": [
+      "1.0.2": [
         [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "multiformats", "9.9.0" ]
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "@libp2p/interface-keychain": {
-      "1.0.3": [
-        [ "multiformats", "9.9.0" ]
+      "1.0.4": [
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "@libp2p/interface-metrics": {
       "3.0.0": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "it-stream-types", "1.0.4" ]
       ]
     },
@@ -465,51 +465,51 @@
       ]
     },
     "@libp2p/interface-peer-id": {
-      "1.0.4": [
-        [ "multiformats", "9.9.0" ]
+      "1.0.5": [
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "@libp2p/interface-peer-info": {
       "1.0.3": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@libp2p/interface-peer-routing": {
       "1.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ]
       ]
     },
     "@libp2p/interface-peer-store": {
       "1.2.2": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-record", "2.0.1" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@libp2p/interface-pubsub": {
       "2.1.0": [
         [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interfaces", "3.0.3" ],
         [ "it-pushable", "3.1.0" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-record": {
       "2.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-registrar": {
       "2.0.3": [
         [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ]
+        [ "@libp2p/interface-peer-id", "1.0.5" ]
       ]
     },
     "@libp2p/interface-stream-muxer": {
@@ -523,7 +523,7 @@
       "1.0.4": [
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "it-stream-types", "1.0.4" ]
       ]
     },
@@ -534,30 +534,30 @@
         [ "@libp2p/interface-address-manager", "1.0.3" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-manager", "1.3.0" ],
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-peer-store", "1.2.2" ],
         [ "@libp2p/interface-registrar", "2.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@libp2p/record", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@libp2p/record", "2.0.3" ],
         [ "@libp2p/topology", "3.0.1" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "any-signal", "3.0.1" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "hashlru", "2.3.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-all", "1.0.6" ],
         [ "it-drain", "1.0.5" ],
         [ "it-first", "1.0.7" ],
         [ "it-length", "1.0.4" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-map", "1.0.6" ],
         [ "it-merge", "1.0.4" ],
         [ "it-parallel", "2.0.2" ],
@@ -571,29 +571,29 @@
         [ "private-ip", "2.3.4" ],
         [ "protons-runtime", "3.1.0" ],
         [ "timeout-abort-controller", "3.0.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ],
         [ "varint", "6.0.0" ]
       ]
     },
     "@libp2p/logger": {
-      "2.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+      "2.0.2": [
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "debug", "4.3.4" ],
-        [ "interface-datastore", "7.0.0" ],
-        [ "multiformats", "9.9.0" ]
+        [ "interface-datastore", "7.0.1" ],
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "@libp2p/mdns": {
       "3.0.1": [
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@types/multicast-dns", "7.2.1" ],
         [ "multicast-dns", "7.2.5" ],
         [ "multiformats", "9.9.0" ]
@@ -604,7 +604,7 @@
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-stream-muxer", "2.0.2" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "any-signal", "3.0.1" ],
         [ "benchmark", "2.1.4" ],
@@ -613,93 +613,94 @@
         [ "it-pushable", "3.1.0" ],
         [ "it-stream-types", "1.0.4" ],
         [ "rate-limiter-flexible", "2.3.11" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ],
         [ "varint", "6.0.0" ]
       ]
     },
     "@libp2p/multistream-select": {
-      "3.0.0": [
+      "3.1.0": [
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "it-first", "1.0.7" ],
         [ "it-handshake", "4.1.2" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
+        [ "it-merge", "1.0.4" ],
         [ "it-pipe", "2.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "it-reader", "6.0.1" ],
         [ "it-stream-types", "1.0.4" ],
         [ "p-defer", "4.0.0" ],
-        [ "uint8arraylist", "2.3.2" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "uint8arraylist", "2.3.3" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "@libp2p/peer-collections": {
       "2.2.0": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
-        [ "@libp2p/peer-id", "1.1.15" ]
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/peer-id", "1.1.16" ]
       ]
     },
     "@libp2p/peer-id": {
-      "1.1.15": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+      "1.1.16": [
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "err-code", "3.0.1" ],
-        [ "multiformats", "9.9.0" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "multiformats", "10.0.0" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "@libp2p/peer-id-factory": {
-      "1.0.18": [
+      "1.0.19": [
         [ "@libp2p/crypto", "1.0.4" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "multiformats", "9.9.0" ],
-        [ "protons-runtime", "3.1.0" ],
-        [ "uint8arraylist", "2.3.2" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "multiformats", "10.0.0" ],
+        [ "protons-runtime", "4.0.1" ],
+        [ "uint8arraylist", "2.3.3" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "@libp2p/peer-record": {
-      "4.0.3": [
+      "4.0.4": [
         [ "@libp2p/crypto", "1.0.4" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-record", "2.0.1" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/utils", "3.0.2" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-all", "1.0.6" ],
         [ "it-filter", "1.0.3" ],
         [ "it-foreach", "0.1.1" ],
         [ "it-map", "1.0.6" ],
         [ "it-pipe", "2.0.4" ],
-        [ "multiformats", "9.9.0" ],
-        [ "protons-runtime", "3.1.0" ],
-        [ "uint8-varint", "1.0.3" ],
-        [ "uint8arraylist", "2.3.2" ],
-        [ "uint8arrays", "3.1.1" ],
+        [ "multiformats", "10.0.0" ],
+        [ "protons-runtime", "4.0.1" ],
+        [ "uint8-varint", "1.0.4" ],
+        [ "uint8arraylist", "2.3.3" ],
+        [ "uint8arrays", "4.0.2" ],
         [ "varint", "6.0.0" ]
       ]
     },
     "@libp2p/peer-store": {
       "3.1.5": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-peer-store", "1.2.2" ],
         [ "@libp2p/interface-record", "2.0.1" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@libp2p/peer-record", "4.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@libp2p/peer-record", "4.0.4" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-all", "1.0.6" ],
         [ "it-filter", "1.0.3" ],
         [ "it-foreach", "0.1.1" ],
@@ -708,7 +709,7 @@
         [ "mortice", "3.0.1" ],
         [ "multiformats", "9.9.0" ],
         [ "protons-runtime", "3.1.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
@@ -717,34 +718,34 @@
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/crypto", "1.0.4" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
         [ "@libp2p/interface-registrar", "2.0.3" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/topology", "3.0.1" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-pipe", "2.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "multiformats", "9.9.0" ],
         [ "p-queue", "7.3.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
     "@libp2p/record": {
-      "2.0.2": [
-        [ "@libp2p/interface-dht", "1.0.1" ],
+      "2.0.3": [
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "err-code", "3.0.1" ],
-        [ "multiformats", "9.9.0" ],
-        [ "protons-runtime", "3.1.0" ],
-        [ "uint8arraylist", "2.3.2" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "multiformats", "10.0.0" ],
+        [ "protons-runtime", "4.0.1" ],
+        [ "uint8arraylist", "2.3.3" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "@libp2p/tcp": {
@@ -752,10 +753,10 @@
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-transport", "1.0.4" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/utils", "3.0.2" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "stream-to-it", "0.2.4" ]
@@ -763,9 +764,9 @@
     },
     "@libp2p/topology": {
       "3.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-registrar", "2.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "it-all", "1.0.6" ]
       ]
@@ -780,20 +781,20 @@
         [ "@achingbrain/ip-address", "8.1.0" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-peer-store", "1.2.2" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "is-loopback-addr", "2.0.1" ],
         [ "it-stream-types", "1.0.4" ],
         [ "private-ip", "2.3.4" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/webrtc-peer": {
       "2.0.0": [
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "delay", "5.0.0" ],
         [ "err-code", "3.0.1" ],
         [ "iso-random-stream", "2.0.2" ],
@@ -809,16 +810,16 @@
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-transport", "1.0.4" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/utils", "3.0.2" ],
         [ "@libp2p/webrtc-peer", "2.0.0" ],
         [ "@libp2p/webrtc-star-protocol", "2.0.1" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "delay", "5.0.0" ],
         [ "err-code", "3.0.1" ],
@@ -831,7 +832,7 @@
     },
     "@libp2p/webrtc-star-protocol": {
       "2.0.1": [
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "socket.io-client", "4.5.2" ]
       ]
     },
@@ -840,10 +841,10 @@
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-transport", "1.0.4" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/utils", "3.0.2" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@multiformats/multiaddr-to-uri", "9.0.2" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
@@ -868,22 +869,22 @@
     },
     "@multiformats/mafmt": {
       "11.0.3": [
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@multiformats/multiaddr": {
-      "11.0.3": [
+      "11.0.5": [
         [ "dns-over-http-resolver", "2.1.0" ],
         [ "err-code", "3.0.1" ],
         [ "is-ip", "5.0.0" ],
-        [ "multiformats", "9.9.0" ],
-        [ "uint8arrays", "3.1.1" ],
+        [ "multiformats", "10.0.0" ],
+        [ "uint8arrays", "4.0.2" ],
         [ "varint", "6.0.0" ]
       ]
     },
     "@multiformats/multiaddr-to-uri": {
       "9.0.2": [
-        [ "@multiformats/multiaddr", "11.0.3" ]
+        [ "@multiformats/multiaddr", "11.0.5" ]
       ]
     },
     "@multiformats/murmur3": {
@@ -894,7 +895,7 @@
     },
     "@multiformats/uri-to-multiaddr": {
       "7.0.0": [
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "is-ip", "5.0.0" ]
       ]
     },
@@ -993,13 +994,13 @@
     },
     "@types/dns-packet": {
       "5.2.4": [
-        [ "@types/node", "18.8.4" ]
+        [ "@types/node", "18.8.5" ]
       ]
     },
     "@types/multicast-dns": {
       "7.2.1": [
         [ "@types/dns-packet", "5.2.4" ],
-        [ "@types/node", "18.8.4" ]
+        [ "@types/node", "18.8.5" ]
       ]
     },
     "abort-controller": {
@@ -1095,8 +1096,8 @@
     "blockstore-core": {
       "2.0.1": [
         [ "err-code", "3.0.1" ],
-        [ "interface-blockstore", "3.0.0" ],
-        [ "interface-store", "3.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
+        [ "interface-store", "3.0.1" ],
         [ "it-all", "1.0.6" ],
         [ "it-drain", "1.0.5" ],
         [ "it-filter", "1.0.3" ],
@@ -1108,8 +1109,8 @@
       "3.0.1": [
         [ "blockstore-core", "2.0.1" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-blockstore", "3.0.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-drain", "1.0.5" ],
         [ "it-pushable", "3.1.0" ],
         [ "multiformats", "9.9.0" ]
@@ -1119,7 +1120,7 @@
       "7.0.0": [
         [ "ansi-align", "3.0.1" ],
         [ "camelcase", "7.0.0" ],
-        [ "chalk", "5.1.0" ],
+        [ "chalk", "5.1.2" ],
         [ "cli-boxes", "3.0.0" ],
         [ "string-width", "5.1.2" ],
         [ "type-fest", "2.19.0" ],
@@ -1157,7 +1158,7 @@
     },
     "byte-access": {
       "1.0.1": [
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "cacheable-request": {
@@ -1309,10 +1310,10 @@
       ]
     },
     "datastore-core": {
-      "8.0.1": [
-        [ "@libp2p/logger", "2.0.1" ],
+      "8.0.2": [
+        [ "@libp2p/logger", "2.0.2" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-all", "1.0.6" ],
         [ "it-drain", "1.0.5" ],
         [ "it-filter", "1.0.3" ],
@@ -1321,14 +1322,14 @@
         [ "it-pipe", "2.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "it-take", "1.0.2" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "datastore-fs": {
       "8.0.0": [
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "fast-write-atomic", "0.2.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-glob", "1.0.2" ],
         [ "it-map", "1.0.6" ],
         [ "it-parallel-batch", "1.0.11" ],
@@ -1338,8 +1339,8 @@
     "datastore-level": {
       "9.0.1": [
         [ "abstract-level", "1.0.3" ],
-        [ "datastore-core", "8.0.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "datastore-core", "8.0.2" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-filter", "1.0.3" ],
         [ "it-map", "1.0.6" ],
         [ "it-sort", "1.0.1" ],
@@ -1349,14 +1350,14 @@
     },
     "datastore-pubsub": {
       "4.0.2": [
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "datastore-core", "8.0.2" ],
         [ "debug", "4.3.4" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
@@ -1657,21 +1658,21 @@
       ]
     },
     "interface-blockstore": {
-      "3.0.0": [
-        [ "interface-store", "3.0.0" ],
-        [ "multiformats", "9.9.0" ]
+      "3.0.1": [
+        [ "interface-store", "3.0.1" ],
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "interface-datastore": {
-      "7.0.0": [
-        [ "interface-store", "3.0.0" ],
-        [ "nanoid", "3.3.4" ],
-        [ "uint8arrays", "3.1.1" ]
+      "7.0.1": [
+        [ "interface-store", "3.0.1" ],
+        [ "nanoid", "4.0.0" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "ipfs": {
       "0.64.3-dfc43d4e.0": [
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "ipfs-cli", "0.14.3-dfc43d4e.0" ],
         [ "ipfs-core", "0.16.2-dfc43d4e.0" ],
         [ "semver", "7.3.8" ],
@@ -1684,19 +1685,19 @@
     "ipfs-bitswap": {
       "12.0.6": [
         [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-store", "1.2.2" ],
         [ "@libp2p/topology", "3.0.1" ],
         [ "@libp2p/tracked-map", "2.0.2" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@vascosantos/moving-average", "1.1.0" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "any-signal", "3.0.1" ],
         [ "blockstore-core", "2.0.1" ],
         [ "debug", "4.3.4" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-blockstore", "3.0.0" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "interface-blockstore", "3.0.1" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-pipe", "2.0.4" ],
         [ "just-debounce-it", "3.1.1" ],
         [ "multiformats", "9.9.0" ],
@@ -1713,10 +1714,10 @@
         [ "@ipld/dag-cbor", "7.0.3" ],
         [ "@ipld/dag-json", "8.0.11" ],
         [ "@ipld/dag-pb", "2.1.18" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@multiformats/multiaddr-to-uri", "9.0.2" ],
         [ "byteman", "1.3.5" ],
         [ "execa", "6.1.0" ],
@@ -1745,7 +1746,7 @@
     "ipfs-core": {
       "0.16.2-dfc43d4e.0": [
         [ "@chainsafe/libp2p-noise", "8.0.2" ],
-        [ "@ipld/car", "4.1.5" ],
+        [ "@ipld/car", "4.1.6" ],
         [ "@ipld/dag-cbor", "7.0.3" ],
         [ "@ipld/dag-json", "8.0.11" ],
         [ "@ipld/dag-pb", "2.1.18" ],
@@ -1753,34 +1754,34 @@
         [ "@libp2p/crypto", "1.0.4" ],
         [ "@libp2p/delegated-content-routing", "2.0.2" ],
         [ "@libp2p/delegated-peer-routing", "2.0.2" ],
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-transport", "1.0.4" ],
         [ "@libp2p/interfaces", "3.0.3" ],
         [ "@libp2p/kad-dht", "3.1.0" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/mplex", "5.2.4" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@libp2p/peer-id-factory", "1.0.18" ],
-        [ "@libp2p/record", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@libp2p/peer-id-factory", "1.0.19" ],
+        [ "@libp2p/record", "2.0.3" ],
         [ "@libp2p/websockets", "3.0.4" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@multiformats/multiaddr-to-uri", "9.0.2" ],
         [ "@multiformats/murmur3", "1.1.3" ],
         [ "any-signal", "3.0.1" ],
         [ "array-shuffle", "3.0.0" ],
         [ "blockstore-core", "2.0.1" ],
         [ "dag-jose", "2.0.1" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "datastore-pubsub", "4.0.2" ],
         [ "dlv", "1.1.3" ],
         [ "err-code", "3.0.1" ],
         [ "hamt-sharding", "3.0.1" ],
         [ "hashlru", "2.3.0" ],
-        [ "interface-blockstore", "3.0.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "ipfs-bitswap", "12.0.6" ],
         [ "ipfs-core-config", "0.5.2-dfc43d4e.0" ],
         [ "ipfs-core-types", "0.12.2-dfc43d4e.0" ],
@@ -1821,17 +1822,17 @@
       "0.5.2-dfc43d4e.0": [
         [ "@chainsafe/libp2p-gossipsub", "4.1.1" ],
         [ "@libp2p/floodsub", "3.0.7" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/mdns", "3.0.1" ],
         [ "@libp2p/tcp", "3.1.2" ],
         [ "@libp2p/webrtc-star", "3.0.3" ],
         [ "blockstore-datastore-adapter", "3.0.1" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "datastore-fs", "8.0.0" ],
         [ "datastore-level", "9.0.1" ],
         [ "err-code", "3.0.1" ],
         [ "hashlru", "2.3.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "ipfs-repo", "15.0.3" ],
         [ "ipfs-utils", "9.0.7" ],
         [ "is-ipfs", "7.0.2" ],
@@ -1845,21 +1846,21 @@
     "ipfs-core-types": {
       "0.12.2-dfc43d4e.0": [
         [ "@ipld/dag-pb", "2.1.18" ],
-        [ "@libp2p/interface-keychain", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-keychain", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
-        [ "@types/node", "18.8.4" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
+        [ "@types/node", "18.8.5" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "ipfs-unixfs", "7.0.0" ],
         [ "multiformats", "9.9.0" ]
       ]
     },
     "ipfs-core-utils": {
       "0.16.2-dfc43d4e.0": [
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@multiformats/multiaddr-to-uri", "9.0.2" ],
         [ "any-signal", "3.0.1" ],
         [ "blob-to-it", "1.0.4" ],
@@ -1882,7 +1883,7 @@
     },
     "ipfs-daemon": {
       "0.14.3-dfc43d4e.0": [
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/webrtc-star", "3.0.3" ],
         [ "@mapbox/node-pre-gyp", "1.0.10" ],
         [ "electron-webrtc", "0.3.0" ],
@@ -1900,9 +1901,9 @@
     "ipfs-grpc-server": {
       "0.10.2-dfc43d4e.0": [
         [ "@grpc/grpc-js", "1.7.1" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "change-case", "4.1.2" ],
         [ "coercer", "1.1.2" ],
         [ "ipfs-core-types", "0.12.2-dfc43d4e.0" ],
@@ -1923,9 +1924,9 @@
         [ "@ipld/dag-cbor", "7.0.3" ],
         [ "@ipld/dag-json", "8.0.11" ],
         [ "@ipld/dag-pb", "2.1.18" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "any-signal", "3.0.1" ],
         [ "dag-jose", "2.0.1" ],
         [ "err-code", "3.0.1" ],
@@ -1946,7 +1947,7 @@
         [ "@hapi/ammo", "5.0.1" ],
         [ "@hapi/boom", "9.1.4" ],
         [ "@hapi/hapi", "20.2.2" ],
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "@multiformats/uri-to-multiaddr", "7.0.0" ],
         [ "hapi-pino", "8.5.0" ],
         [ "ipfs-core-types", "0.12.2-dfc43d4e.0" ],
@@ -1961,7 +1962,7 @@
     },
     "ipfs-http-response": {
       "4.0.2-dfc43d4e.0": [
-        [ "@libp2p/logger", "2.0.1" ],
+        [ "@libp2p/logger", "2.0.2" ],
         [ "ejs", "3.1.8" ],
         [ "file-type", "17.1.6" ],
         [ "filesize", "9.0.11" ],
@@ -1980,11 +1981,11 @@
         [ "@hapi/content", "5.0.2" ],
         [ "@hapi/hapi", "20.2.2" ],
         [ "@ipld/dag-pb", "2.1.18" ],
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "@multiformats/uri-to-multiaddr", "7.0.0" ],
         [ "any-signal", "3.0.1" ],
         [ "dlv", "1.1.3" ],
@@ -2018,11 +2019,11 @@
         [ "@ipld/dag-pb", "2.1.18" ],
         [ "bytes", "3.1.2" ],
         [ "cborg", "1.9.5" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "debug", "4.3.4" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-blockstore", "3.0.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "ipfs-repo-migrations", "13.0.3" ],
         [ "it-drain", "1.0.5" ],
         [ "it-filter", "1.0.3" ],
@@ -2047,13 +2048,13 @@
     "ipfs-repo-migrations": {
       "13.0.3": [
         [ "@ipld/dag-pb", "2.1.18" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "cborg", "1.9.5" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "debug", "4.3.4" ],
         [ "fnv1a", "1.1.1" ],
-        [ "interface-blockstore", "3.0.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-length", "1.0.4" ],
         [ "multiformats", "9.9.0" ],
         [ "protobufjs", "7.1.2" ],
@@ -2074,7 +2075,7 @@
         [ "@multiformats/murmur3", "1.1.3" ],
         [ "err-code", "3.0.1" ],
         [ "hamt-sharding", "3.0.1" ],
-        [ "interface-blockstore", "3.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
         [ "ipfs-unixfs", "7.0.0" ],
         [ "it-last", "1.0.6" ],
         [ "it-map", "1.0.6" ],
@@ -2093,7 +2094,7 @@
         [ "bl", "5.0.0" ],
         [ "err-code", "3.0.1" ],
         [ "hamt-sharding", "3.0.1" ],
-        [ "interface-blockstore", "3.0.0" ],
+        [ "interface-blockstore", "3.0.1" ],
         [ "ipfs-unixfs", "7.0.0" ],
         [ "it-all", "1.0.6" ],
         [ "it-batch", "1.0.9" ],
@@ -2126,14 +2127,14 @@
     "ipns": {
       "3.0.0": [
         [ "@libp2p/crypto", "1.0.4" ],
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
         [ "cborg", "1.9.5" ],
         [ "err-code", "3.0.1" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "multiformats", "9.9.0" ],
         [ "protons-runtime", "3.1.0" ],
         [ "timestamp-nano", "1.0.0" ],
@@ -2168,7 +2169,7 @@
     "is-ipfs": {
       "7.0.2": [
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "iso-url", "1.2.1" ],
         [ "multiformats", "9.9.0" ],
         [ "uint8arrays", "3.1.1" ]
@@ -2203,16 +2204,16 @@
         [ "it-reader", "6.0.1" ],
         [ "it-stream-types", "1.0.4" ],
         [ "p-defer", "4.0.0" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "it-length-prefixed": {
-      "8.0.2": [
+      "8.0.3": [
         [ "err-code", "3.0.1" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "uint8-varint", "1.0.3" ],
-        [ "uint8arraylist", "2.3.2" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "uint8-varint", "1.0.4" ],
+        [ "uint8arraylist", "2.3.3" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "it-merge": {
@@ -2245,9 +2246,9 @@
     "it-pb-stream": {
       "2.0.2": [
         [ "it-handshake", "4.1.2" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "it-pipe": {
@@ -2265,7 +2266,7 @@
     "it-reader": {
       "6.0.1": [
         [ "it-stream-types", "1.0.4" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "it-sort": {
@@ -2285,7 +2286,7 @@
         [ "it-stream-types", "1.0.4" ],
         [ "it-to-buffer", "2.0.2" ],
         [ "p-defer", "4.0.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
@@ -2391,11 +2392,11 @@
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-encrypter", "2.0.2" ],
         [ "@libp2p/interface-connection-manager", "1.3.0" ],
-        [ "@libp2p/interface-content-routing", "1.0.2" ],
-        [ "@libp2p/interface-dht", "1.0.1" ],
+        [ "@libp2p/interface-content-routing", "1.0.3" ],
+        [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-metrics", "3.0.0" ],
         [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-peer-routing", "1.0.1" ],
         [ "@libp2p/interface-peer-store", "1.2.2" ],
@@ -2404,31 +2405,31 @@
         [ "@libp2p/interface-stream-muxer", "2.0.2" ],
         [ "@libp2p/interface-transport", "1.0.4" ],
         [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/logger", "2.0.1" ],
-        [ "@libp2p/multistream-select", "3.0.0" ],
+        [ "@libp2p/logger", "2.0.2" ],
+        [ "@libp2p/multistream-select", "3.1.0" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
-        [ "@libp2p/peer-id", "1.1.15" ],
-        [ "@libp2p/peer-id-factory", "1.0.18" ],
-        [ "@libp2p/peer-record", "4.0.3" ],
+        [ "@libp2p/peer-id", "1.1.16" ],
+        [ "@libp2p/peer-id-factory", "1.0.19" ],
+        [ "@libp2p/peer-record", "4.0.4" ],
         [ "@libp2p/peer-store", "3.1.5" ],
         [ "@libp2p/tracked-map", "2.0.2" ],
         [ "@libp2p/utils", "3.0.2" ],
         [ "@multiformats/mafmt", "11.0.3" ],
-        [ "@multiformats/multiaddr", "11.0.3" ],
+        [ "@multiformats/multiaddr", "11.0.5" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "any-signal", "3.0.1" ],
-        [ "datastore-core", "8.0.1" ],
+        [ "datastore-core", "8.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "events", "3.3.0" ],
         [ "hashlru", "2.3.0" ],
-        [ "interface-datastore", "7.0.0" ],
+        [ "interface-datastore", "7.0.1" ],
         [ "it-all", "1.0.6" ],
         [ "it-drain", "1.0.5" ],
         [ "it-filter", "1.0.3" ],
         [ "it-first", "1.0.7" ],
         [ "it-foreach", "0.1.1" ],
         [ "it-handshake", "4.1.2" ],
-        [ "it-length-prefixed", "8.0.2" ],
+        [ "it-length-prefixed", "8.0.3" ],
         [ "it-map", "1.0.6" ],
         [ "it-merge", "1.0.4" ],
         [ "it-pair", "2.0.3" ],
@@ -2448,7 +2449,7 @@
         [ "sanitize-filename", "1.6.3" ],
         [ "set-delayed-interval", "1.0.0" ],
         [ "timeout-abort-controller", "3.0.0" ],
-        [ "uint8arraylist", "2.3.2" ],
+        [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ],
         [ "wherearewe", "2.0.1" ],
         [ "xsalsa20", "1.2.0" ]
@@ -2457,7 +2458,7 @@
     "longbits": {
       "1.1.0": [
         [ "byte-access", "1.0.1" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "lower-case": {
@@ -2727,7 +2728,7 @@
         [ "@protobufjs/pool", "1.1.0" ],
         [ "@protobufjs/utf8", "1.1.0" ],
         [ "@types/long", "4.0.2" ],
-        [ "@types/node", "18.8.4" ],
+        [ "@types/node", "18.8.5" ],
         [ "long", "4.0.0" ]
       ],
       "7.1.2": [
@@ -2741,14 +2742,18 @@
         [ "@protobufjs/path", "1.1.2" ],
         [ "@protobufjs/pool", "1.1.0" ],
         [ "@protobufjs/utf8", "1.1.0" ],
-        [ "@types/node", "18.8.4" ],
+        [ "@types/node", "18.8.5" ],
         [ "long", "5.2.0" ]
       ]
     },
     "protons-runtime": {
       "3.1.0": [
         [ "protobufjs", "7.1.2" ],
-        [ "uint8arraylist", "2.3.2" ]
+        [ "uint8arraylist", "2.3.3" ]
+      ],
+      "4.0.1": [
+        [ "protobufjs", "7.1.2" ],
+        [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "pump": {
@@ -3098,21 +3103,24 @@
       ]
     },
     "uint8-varint": {
-      "1.0.3": [
+      "1.0.4": [
         [ "byte-access", "1.0.1" ],
         [ "longbits", "1.1.0" ],
-        [ "uint8arraylist", "2.3.2" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "uint8arraylist", "2.3.3" ],
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "uint8arraylist": {
-      "2.3.2": [
-        [ "uint8arrays", "3.1.1" ]
+      "2.3.3": [
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "uint8arrays": {
       "3.1.1": [
         [ "multiformats", "9.9.0" ]
+      ],
+      "4.0.2": [
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "undici": {
@@ -3128,7 +3136,7 @@
     "update-notifier": {
       "6.0.2": [
         [ "boxen", "7.0.0" ],
-        [ "chalk", "5.1.0" ],
+        [ "chalk", "5.1.2" ],
         [ "configstore", "6.0.0" ],
         [ "has-yarn", "3.0.0" ],
         [ "import-lazy", "4.0.0" ],
@@ -3206,7 +3214,7 @@
         [ "strip-ansi", "6.0.1" ]
       ],
       "8.0.1": [
-        [ "ansi-styles", "6.2.0" ],
+        [ "ansi-styles", "6.2.1" ],
         [ "string-width", "5.1.2" ],
         [ "strip-ansi", "7.0.1" ]
       ]
@@ -3523,10 +3531,10 @@
       }
     },
     "@ipld/car": {
-      "4.1.5": {
-        "hash": "sha512-PFj4XsKOsxu5h12JUoBJ+mrAVqeA8YYq2bZbcE2sAIopJTwJIB5sBVTmc8ylkUsFXEysZQ4xQD+rZb3Ct0lbjQ==",
+      "4.1.6": {
+        "hash": "sha512-qs3Sco7rm1PRhhuGSWpCeayhqcB/0DOyIgBiqsfjV0mT0JbWs68Z+BTxksONlfindRXsM5llJOvZfAcuEJUqxw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@ipld/car/-/car-4.1.5.tgz"
+        "url": "https://registry.npmjs.org/@ipld/car/-/car-4.1.6.tgz"
       }
     },
     "@ipld/dag-cbor": {
@@ -3635,24 +3643,24 @@
       }
     },
     "@libp2p/interface-content-routing": {
-      "1.0.2": {
-        "hash": "sha512-Ue1X8XrZ4ymTMQk/GWom/EKfPB5Lu7zy33ohjSix26Da/HbBvkXBdnYGDj485vxSOZGZRqeBhh21nCVjD/yLyg==",
+      "1.0.3": {
+        "hash": "sha512-8oARfHOkf3NAMaDQWBM3nbVNg+Skj1hjGAjomakZ/jZPjOjbQ9BfPZAsrnDRrV0snnnJNrxiYz6w58y8ehg+cA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-content-routing/-/interface-content-routing-1.0.2.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-content-routing/-/interface-content-routing-1.0.3.tgz"
       }
     },
     "@libp2p/interface-dht": {
-      "1.0.1": {
-        "hash": "sha512-EToxQznHUnD9frWoHwq8DUaOa7RZ2qoo6beb1aWdQrEJsEdUBi62FHh9qrLkrL+E4W3rkl2+WrhSP6/iHxZZwQ==",
+      "1.0.2": {
+        "hash": "sha512-vBMR90VFQbNwUdgf7yYO6buDP8K6srb+Z0KdoHMklZd9UIx6k/SVUANkHWw/tGAX4C2EZ0qMdSiivkJg2dcPjg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-dht/-/interface-dht-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-dht/-/interface-dht-1.0.2.tgz"
       }
     },
     "@libp2p/interface-keychain": {
-      "1.0.3": {
-        "hash": "sha512-JCqe43LNwfgkZgT9bzUlrvaLzJmgIbY1MtsTxdJD/D9I7YyknTSGR3YII9BG0kRzex568/yiqlKxkYboxfh+BQ==",
+      "1.0.4": {
+        "hash": "sha512-ZJb/+j719ydZBoH0VX2ex9yjBw67dpc+2QGFU9IlkMVIzWH2CNL4pLdYalQgqT8x+zqTsv3GHmF/hxKJs/KG1g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-keychain/-/interface-keychain-1.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-keychain/-/interface-keychain-1.0.4.tgz"
       }
     },
     "@libp2p/interface-keys": {
@@ -3677,10 +3685,10 @@
       }
     },
     "@libp2p/interface-peer-id": {
-      "1.0.4": {
-        "hash": "sha512-VRnE0MqmS1kN43hyKCEdkhz0gciuDML7hpL3p8zDm0LnveNMLJsR+/VSUaugCi/muOzLaLk26WffKWbMYfnGfA==",
+      "1.0.5": {
+        "hash": "sha512-K7TJTmtPWfIrH4NS5y+dvAwQltoga+ScGgjs+ZGKz07uHzoPUeE/OpXxs5Msdela6hp+dP1Ha7bZmA/Njbq5bg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-peer-id/-/interface-peer-id-1.0.4.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-peer-id/-/interface-peer-id-1.0.5.tgz"
       }
     },
     "@libp2p/interface-peer-info": {
@@ -3754,10 +3762,10 @@
       }
     },
     "@libp2p/logger": {
-      "2.0.1": {
-        "hash": "sha512-Mtj7ImjRYbaANuT53QRqc7ooBYpWieLo7KbqYYGas5O2AWQeOu/zyGBMM35WbWIo7sMuhCas9XBPJdFOR7A05w==",
+      "2.0.2": {
+        "hash": "sha512-7XuYoKuce7wTUkVSpll3A/BVlnCVV2kQEfgHtNe8fK8miXCDJFKYm/DhCP1/ZOFs/TrkVt7F/TFJwQ9tlOj3rw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/logger/-/logger-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/logger/-/logger-2.0.2.tgz"
       }
     },
     "@libp2p/mdns": {
@@ -3775,10 +3783,10 @@
       }
     },
     "@libp2p/multistream-select": {
-      "3.0.0": {
-        "hash": "sha512-l7NFJfq6J86wyM/F0agf45CX/4BLgm9Ork5pfHuz8E+z0F7s+i+gWZH8Pk1CIrIfOpMVJvEtJCnRcjJnDAcv2A==",
+      "3.1.0": {
+        "hash": "sha512-Uj2IS6a+PFYxMGHJ74Nk7nnhAwQ9kHAJKdhA95PgmFhH71zshep9B3cG9Bp/nQXeBcwYkxsAt8uYD7iw1KSOaw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/multistream-select/-/multistream-select-3.0.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/multistream-select/-/multistream-select-3.1.0.tgz"
       }
     },
     "@libp2p/peer-collections": {
@@ -3789,24 +3797,24 @@
       }
     },
     "@libp2p/peer-id": {
-      "1.1.15": {
-        "hash": "sha512-Y33JLEfsLmLUjuC2nhQ2lBXP6PIsR892gSsNy4Vd7oILkuRhjPouIojP9BbME0m9bhVbAws+Zh9NBKtp7UH7wA==",
+      "1.1.16": {
+        "hash": "sha512-frt4wRNme5fR8sFl6LLL22brfEIDR09ewE4ICaRzYC32wvI9LK4oXfMOytpW7YUX1nH/r5mOcJgmZaDW0y6nZQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/peer-id/-/peer-id-1.1.15.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/peer-id/-/peer-id-1.1.16.tgz"
       }
     },
     "@libp2p/peer-id-factory": {
-      "1.0.18": {
-        "hash": "sha512-x7lyPrfF4kkMj6az+h1sq5L6ifTvZt2exKi8yS6/Gi/hT8rfqXROdBDtanMjJivIFlzVKJyZdfW5f5RK9Av3iQ==",
+      "1.0.19": {
+        "hash": "sha512-L38Ee6r32A+AlfnEd9mO+OZgVamN7oQXS7DQ3GudY0twXBf5QslggJo2jRFZ0hoo2FiT+SUXhiOnqItrTLoD4g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/peer-id-factory/-/peer-id-factory-1.0.18.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/peer-id-factory/-/peer-id-factory-1.0.19.tgz"
       }
     },
     "@libp2p/peer-record": {
-      "4.0.3": {
-        "hash": "sha512-0GqcZ2LU/RfIZk7SA2g9ZI8t+jh5p0lkmrhD4VefqhBkIc2fpAthUo+2O94gz9UpFn0LDJMqmgQgrKImL2VJTQ==",
+      "4.0.4": {
+        "hash": "sha512-HV4cp8vQHt06gmhoXHf1aVbwE/145DCqRmtURkd+C75t3y+RNxDf/tlxMo/bwse3HxWNpjN8uUYP48Z++GWmqA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/peer-record/-/peer-record-4.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/peer-record/-/peer-record-4.0.4.tgz"
       }
     },
     "@libp2p/peer-store": {
@@ -3824,10 +3832,10 @@
       }
     },
     "@libp2p/record": {
-      "2.0.2": {
-        "hash": "sha512-JmkV8uqn7BFQ1Ic7nVZOWHJJqo/JMDhTOJiMU94Ypsc3TwHnpmYXRiWpCoGkGlj8kmZkMtSiydl/OpfVXdR10g==",
+      "2.0.3": {
+        "hash": "sha512-VvHBHQcUJkeo0maRBoly6eHUhZq5cASTKuXkHsUL5fWKj61W+12g2IYVExdj64ohpitoDDUPBndS+yAGI/hKhQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/record/-/record-2.0.2.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/record/-/record-2.0.3.tgz"
       }
     },
     "@libp2p/tcp": {
@@ -3901,10 +3909,10 @@
       }
     },
     "@multiformats/multiaddr": {
-      "11.0.3": {
-        "hash": "sha512-B8DOUTNTLczXztLZDjG2vlViVu/2du7dRV5cX7hww5UOwykWypN7xdmxrlwCOp1nFlx2JpCLaCwewdxFrP+8KA==",
+      "11.0.5": {
+        "hash": "sha512-vzn/Aw3vxwoRdZ8QWY9mVEiqRF0MxRhJ7s5pRC0rzc1jIwyUw8YEjMcs++jGKsTvfkju8dpvaj1bwDR/UuZ0Ow==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@multiformats/multiaddr/-/multiaddr-11.0.3.tgz"
+        "url": "https://registry.npmjs.org/@multiformats/multiaddr/-/multiaddr-11.0.5.tgz"
       }
     },
     "@multiformats/multiaddr-to-uri": {
@@ -4223,10 +4231,10 @@
       }
     },
     "@types/node": {
-      "18.8.4": {
-        "hash": "sha512-WdlVphvfR/GJCLEMbNA8lJ0lhFNBj4SW3O+O5/cEGw9oYrv0al9zTwuQsq+myDUXgNx2jgBynoVgZ2MMJ6pbow==",
+      "18.8.5": {
+        "hash": "sha512-Bq7G3AErwe5A/Zki5fdD3O6+0zDChhg671NfPjtIcbtzDNZTv4NPKMRFr7gtYPG7y+B8uTiNK4Ngd9T0FTar6Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.4.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.5.tgz"
       },
       "8.10.66": {
         "hash": "sha512-tktOkFUA4kXx2hhhrB8bIFb5TbwzS4uOhKEmwiD+NoiL0qtP2OQ9mFldbgD4dV1djrlBYP6eBuQZiWjuHUpqFw==",
@@ -4332,10 +4340,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
       },
-      "6.2.0": {
-        "hash": "sha512-3MWBO/XxbkDtc/qpECaUwDM0DQ++ujBjdjs0ElZvChUoPv/P7GOnl3x+R2RF2My5UJHEW5R87q556MiR8U3PLw==",
+      "6.2.1": {
+        "hash": "sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.0.tgz"
+        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.1.tgz"
       }
     },
     "any-signal": {
@@ -4639,10 +4647,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
       },
-      "5.1.0": {
-        "hash": "sha512-56zD4khRTBoIyzUYAFgDDaPhUMN/fC/rySe6aZGqbj/VWiU2eI3l6ZLOtYGFZAV5v02mwPjtpzlrOveJiz5eZQ==",
+      "5.1.2": {
+        "hash": "sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/chalk/-/chalk-5.1.0.tgz"
+        "url": "https://registry.npmjs.org/chalk/-/chalk-5.1.2.tgz"
       }
     },
     "change-case": {
@@ -4841,10 +4849,10 @@
       }
     },
     "datastore-core": {
-      "8.0.1": {
-        "hash": "sha512-FSzrX8fsYUfbA1dq2DvVr9+CYMRAVDKSVe+wGY+Ipiv7ikUDpZZI0htC/o6Fbg0yDxiGDXGOmEIsS5RBb5NchQ==",
+      "8.0.2": {
+        "hash": "sha512-BJe0kXbGFxdgBe6eTWtiGk8z9933CREosiZp7JdBBxdqNud0A3eXR/DA5/0vTarOzD/XTcJMLXzDn84EFbTreA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/datastore-core/-/datastore-core-8.0.1.tgz"
+        "url": "https://registry.npmjs.org/datastore-core/-/datastore-core-8.0.2.tgz"
       }
     },
     "datastore-fs": {
@@ -5611,24 +5619,24 @@
       }
     },
     "interface-blockstore": {
-      "3.0.0": {
-        "hash": "sha512-D2f0/J4EK/if130XC5diOJLYBpz6PnEmHweQt8UxvSl3Ajf8WBuWZ6bN306GytQXoVNnYHd9PmSVKZTN3NXGWQ==",
+      "3.0.1": {
+        "hash": "sha512-yZcLm+ewUbWhvAhvqd+Xbt+w5Sm5SeG0s1HTb0gkGESZVM7MEc1cC5uDRUe6i+X4hEzWO10HCqENbpTgHuWerQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/interface-blockstore/-/interface-blockstore-3.0.0.tgz"
+        "url": "https://registry.npmjs.org/interface-blockstore/-/interface-blockstore-3.0.1.tgz"
       }
     },
     "interface-datastore": {
-      "7.0.0": {
-        "hash": "sha512-q9OveOhexQ3Fx8h4YbuR4mZtUHwvlOynKnIwTm6x8oBTWfIyAKtlYtrOYdlHfqQztbYpdzRFcapopNJBMx36NQ==",
+      "7.0.1": {
+        "hash": "sha512-Arm3PyEdL9kvzUXVPSE8x6YPK5N0MAP9b7au6D9Y91dgWVVLFMGt/W3oiR1mhgT+U82Qc7FcVgW8FBpivOBDAg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/interface-datastore/-/interface-datastore-7.0.0.tgz"
+        "url": "https://registry.npmjs.org/interface-datastore/-/interface-datastore-7.0.1.tgz"
       }
     },
     "interface-store": {
-      "3.0.0": {
-        "hash": "sha512-IBJn3hE6hYutwdDcStR76mcwfV98vZc49LkEN9ANHHpsxcm6YbGMJxowO2G3FITU4U5ZH4KJPlHOT6Oe2vzTWA==",
+      "3.0.1": {
+        "hash": "sha512-S5JcwBV+cJorsD0zGKHcBa8A2e578gw9vhZX0QhkV4Xyl4lAMAg5N2GJceUnjCfj/FOKzxTdABzJKPOF2Id8Ig==",
         "type": "http",
-        "url": "https://registry.npmjs.org/interface-store/-/interface-store-3.0.0.tgz"
+        "url": "https://registry.npmjs.org/interface-store/-/interface-store-3.0.1.tgz"
       }
     },
     "ip-regex": {
@@ -6068,10 +6076,10 @@
       }
     },
     "it-length-prefixed": {
-      "8.0.2": {
-        "hash": "sha512-qYCGZ6lTaI6lcuTXUrJmVpE6clq63ULrkq1FGTxHrzexjB2cCrS/CZ5HCRDZ5IRPw33tSDUDK91S7X5S64dPyQ==",
+      "8.0.3": {
+        "hash": "sha512-qAMDAZHd9zuDH8UDjG9ISyF/L1BJfUmdqgOAo/15a7LE1EsZgDntV5/2ARlqaGSa1fzeEL0qdg6JDaUk0L//LA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/it-length-prefixed/-/it-length-prefixed-8.0.2.tgz"
+        "url": "https://registry.npmjs.org/it-length-prefixed/-/it-length-prefixed-8.0.3.tgz"
       }
     },
     "it-map": {
@@ -6596,6 +6604,11 @@
       }
     },
     "multiformats": {
+      "10.0.0": {
+        "hash": "sha512-qEj/ansAK86ufzupmp8B/JbiNSLJhNFcqW2Aa1dWxQc0OfoorpknwKkJeXAbtZ62AJlA6qKsGrCY3OjdFWZOrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/multiformats/-/multiformats-10.0.0.tgz"
+      },
       "9.9.0": {
         "hash": "sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==",
         "type": "http",
@@ -7098,6 +7111,11 @@
         "hash": "sha512-S1iSPQC0McdHKJRi0XcATBkWgwWPx46UDfrnshYDXBvGHSYqkFtn4MQ8Gatf67w7FzFtHivA+Hb0ZPq56upG8w==",
         "type": "http",
         "url": "https://registry.npmjs.org/protons-runtime/-/protons-runtime-3.1.0.tgz"
+      },
+      "4.0.1": {
+        "hash": "sha512-SPeV+8TzJAp5UJYPV7vJkLRi08CP0DksxpKK60rcNaZSPkMBQwc0jQrmkHqwc5P0cYbZzKsdYrUBwRrDLrzTfQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/protons-runtime/-/protons-runtime-4.0.1.tgz"
       }
     },
     "pseudomap": {
@@ -7776,17 +7794,17 @@
       }
     },
     "uint8-varint": {
-      "1.0.3": {
-        "hash": "sha512-ESs/P/AYPy2wWZCT2V6Tg7RPqA6jzlhJbdsNPFvbDeIrDxj12dwTcm0rD9yFlnmgEf6vRBCZrP3d0SiRTcPwSQ==",
+      "1.0.4": {
+        "hash": "sha512-FHnaReHRIM7kHe/Ms0I2KGkuSY4o7ouhUJGJeiFEuYWGvBt4Y64+BJ3mV6DqmyYtYTZj4Pz8K/BmViSNFLRrVw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/uint8-varint/-/uint8-varint-1.0.3.tgz"
+        "url": "https://registry.npmjs.org/uint8-varint/-/uint8-varint-1.0.4.tgz"
       }
     },
     "uint8arraylist": {
-      "2.3.2": {
-        "hash": "sha512-4ybc/jixmtGhUrebJ0bzB95TjEbskWxBKBRrAozw7P6WcAcZdPMYSLdDuNoEEGo/Cwe+0TNic9CXzWUWzy1quw==",
+      "2.3.3": {
+        "hash": "sha512-5uM6jtxAEnkRSTQewKCwX5IvaQb1gTadNSQLTZexNh9j8e10+0o208VP81VGmfkMUud2ApMxT5O6P4BRu1J/jA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/uint8arraylist/-/uint8arraylist-2.3.2.tgz"
+        "url": "https://registry.npmjs.org/uint8arraylist/-/uint8arraylist-2.3.3.tgz"
       }
     },
     "uint8arrays": {
@@ -7794,6 +7812,11 @@
         "hash": "sha512-+QJa8QRnbdXVpHYjLoTpJIdCTiw9Ir62nocClWuXIq2JIh4Uta0cQsTSpFL678p2CN8B+XSApwcU+pQEqVpKWg==",
         "type": "http",
         "url": "https://registry.npmjs.org/uint8arrays/-/uint8arrays-3.1.1.tgz"
+      },
+      "4.0.2": {
+        "hash": "sha512-8CWXXZdOvVrIL4SeY/Gnp+idxxiGK4XFkP4FY26Sx/fpTz/b6vv4BVWELMDzQweSyyhdcuAcU14H6izzB6k1Cw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uint8arrays/-/uint8arrays-4.0.2.tgz"
       }
     },
     "undici": {

@@ -194,6 +194,11 @@
         [ "csstype", "3.1.1" ]
       ]
     },
+    "@floating-ui/dom": {
+      "1.0.2": [
+        [ "@floating-ui/core", "1.0.1" ]
+      ]
+    },
     "@jridgewell/gen-mapping": {
       "0.1.1": [
         [ "@jridgewell/set-array", "1.1.2" ],
@@ -220,7 +225,7 @@
     },
     "@types/react-select": {
       "5.0.1": [
-        [ "react-select", "5.4.0" ]
+        [ "react-select", "5.5.0" ]
       ],
       "unknown": [
         [ "@types/react-select", "5.0.1" ]
@@ -245,8 +250,8 @@
     },
     "browserslist": {
       "4.21.4": [
-        [ "caniuse-lite", "1.0.30001418" ],
-        [ "electron-to-chromium", "1.4.279" ],
+        [ "caniuse-lite", "1.0.30001419" ],
+        [ "electron-to-chromium", "1.4.281" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.10" ]
       ]
@@ -346,14 +351,16 @@
       ]
     },
     "react-select": {
-      "5.4.0": [
+      "5.5.0": [
         [ "@babel/runtime", "7.19.4" ],
         [ "@emotion/cache", "11.10.3" ],
         [ "@emotion/react", "11.10.4" ],
+        [ "@floating-ui/dom", "1.0.2" ],
         [ "@types/react-transition-group", "4.4.5" ],
         [ "memoize-one", "5.2.1" ],
         [ "prop-types", "15.8.1" ],
-        [ "react-transition-group", "4.4.5" ]
+        [ "react-transition-group", "4.4.5" ],
+        [ "use-isomorphic-layout-effect", "1.1.2" ]
       ]
     },
     "react-transition-group": {
@@ -641,6 +648,20 @@
         "url": "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz"
       }
     },
+    "@floating-ui/core": {
+      "1.0.1": {
+        "hash": "sha512-bO37brCPfteXQfFY0DyNDGB3+IMe4j150KFQcgJ5aBP295p9nBGeHEs/p0czrRbtlHq4Px/yoPXO/+dOCcF4uA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@floating-ui/core/-/core-1.0.1.tgz"
+      }
+    },
+    "@floating-ui/dom": {
+      "1.0.2": {
+        "hash": "sha512-5X9WSvZ8/fjy3gDu8yx9HAA4KG1lazUN2P4/VnaXLxTO9Dz53HI1oYoh1OlhqFNlHgGDiwFX5WhFCc2ljbW3yA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.0.2.tgz"
+      }
+    },
     "@jridgewell/gen-mapping": {
       "0.1.1": {
         "hash": "sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==",
@@ -752,10 +773,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001418": {
-        "hash": "sha512-oIs7+JL3K9JRQ3jPZjlH6qyYDp+nBTCais7hjh0s+fuBwufc7uZ7hPYMXrDOJhV360KGMTcczMRObk0/iMqZRg==",
+      "1.0.30001419": {
+        "hash": "sha512-aFO1r+g6R7TW+PNQxKzjITwLOyDhVRLjW0LcwS/HCZGUUKTGNp9+IwLC4xyDSZBygVL/mxaFR3HIV6wEKQuSzw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001418.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001419.tgz"
       }
     },
     "chalk": {
@@ -815,10 +836,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.279": {
-        "hash": "sha512-xs7vEuSZ84+JsHSTFqqG0TE3i8EAivHomRQZhhcRvsmnjsh5C2KdhwNKf4ZRYtzq75wojpFyqb62m32Oam57wA==",
+      "1.4.281": {
+        "hash": "sha512-yer0w5wCYdFoZytfmbNhwiGI/3cW06+RV7E23ln4490DVMxs7PvYpbsrSmAiBn/V6gode8wvJlST2YfWgvzWIg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.279.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.281.tgz"
       }
     },
     "error-ex": {
@@ -1051,10 +1072,10 @@
       }
     },
     "react-select": {
-      "5.4.0": {
-        "hash": "sha512-CjE9RFLUvChd5SdlfG4vqxZd55AZJRrLrHzkQyTYeHlpOztqcgnyftYAolJ0SGsBev6zAs6qFrjm6KU3eo2hzg==",
+      "5.5.0": {
+        "hash": "sha512-yzA+eavdxpF5Onf0u9KZ84qxr8r/CwPPn777bRkslbDtEUYx2+m13OrhP3WVa30+aWYxwkO/pkLcZ7q7r/6OhQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/react-select/-/react-select-5.4.0.tgz"
+        "url": "https://registry.npmjs.org/react-select/-/react-select-5.5.0.tgz"
       }
     },
     "react-transition-group": {
@@ -1139,6 +1160,13 @@
         "hash": "sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz"
+      }
+    },
+    "use-isomorphic-layout-effect": {
+      "1.1.2": {
+        "hash": "sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz"
       }
     },
     "yaml": {

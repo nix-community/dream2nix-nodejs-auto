@@ -1,0 +1,59 @@
+{
+  "_generic": {
+    "defaultPackage": "escope",
+    "location": "",
+    "packages": {
+      "escope": "4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "escope": {
+      "4.0.0": [
+        [ "esrecurse", "4.3.0" ],
+        [ "estraverse", "4.3.0" ]
+      ],
+      "unknown": [
+        [ "escope", "4.0.0" ]
+      ]
+    },
+    "esrecurse": {
+      "4.3.0": [
+        [ "estraverse", "5.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "escope": {
+      "4.0.0": {
+        "hash": "sha512-E36qlD/r6RJHVpPKArgMoMlNJzoRJFH8z/cAZlI9lbc45zB3+S7i9k6e/MNb+7bZQzNEa6r8WKN3BovpeIBwgA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escope/-/escope-4.0.0.tgz"
+      }
+    },
+    "esrecurse": {
+      "4.3.0": {
+        "hash": "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz"
+      }
+    },
+    "estraverse": {
+      "4.3.0": {
+        "hash": "sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estraverse/-/estraverse-4.3.0.tgz"
+      },
+      "5.3.0": {
+        "hash": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz"
+      }
+    }
+  }
+}
