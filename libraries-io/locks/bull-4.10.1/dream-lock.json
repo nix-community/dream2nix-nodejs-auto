@@ -1,0 +1,334 @@
+{
+  "_generic": {
+    "defaultPackage": "bull",
+    "location": "",
+    "packages": {
+      "bull": "4.10.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bull": {
+      "4.10.1": [
+        [ "cron-parser", "4.6.0" ],
+        [ "debuglog", "1.0.1" ],
+        [ "get-port", "5.1.1" ],
+        [ "ioredis", "4.28.5" ],
+        [ "lodash", "4.17.21" ],
+        [ "msgpackr", "1.7.2" ],
+        [ "p-timeout", "3.2.0" ],
+        [ "semver", "7.3.8" ],
+        [ "uuid", "8.3.2" ]
+      ],
+      "unknown": [
+        [ "bull", "4.10.1" ]
+      ]
+    },
+    "cron-parser": {
+      "4.6.0": [
+        [ "luxon", "3.0.4" ]
+      ]
+    },
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "ioredis": {
+      "4.28.5": [
+        [ "cluster-key-slot", "1.1.1" ],
+        [ "debug", "4.3.4" ],
+        [ "denque", "1.5.1" ],
+        [ "lodash.defaults", "4.2.0" ],
+        [ "lodash.flatten", "4.4.0" ],
+        [ "lodash.isarguments", "3.1.0" ],
+        [ "p-map", "2.1.0" ],
+        [ "redis-commands", "1.7.0" ],
+        [ "redis-errors", "1.2.0" ],
+        [ "redis-parser", "3.0.0" ],
+        [ "standard-as-callback", "2.1.0" ]
+      ]
+    },
+    "lru-cache": {
+      "6.0.0": [
+        [ "yallist", "4.0.0" ]
+      ]
+    },
+    "msgpackr": {
+      "1.7.2": [
+        [ "msgpackr-extract", "2.1.2" ]
+      ]
+    },
+    "msgpackr-extract": {
+      "2.1.2": [
+        [ "@msgpackr-extract/msgpackr-extract-darwin-arm64", "2.1.2" ],
+        [ "@msgpackr-extract/msgpackr-extract-darwin-x64", "2.1.2" ],
+        [ "@msgpackr-extract/msgpackr-extract-linux-arm", "2.1.2" ],
+        [ "@msgpackr-extract/msgpackr-extract-linux-arm64", "2.1.2" ],
+        [ "@msgpackr-extract/msgpackr-extract-linux-x64", "2.1.2" ],
+        [ "@msgpackr-extract/msgpackr-extract-win32-x64", "2.1.2" ],
+        [ "node-gyp-build-optional-packages", "5.0.3" ]
+      ]
+    },
+    "p-timeout": {
+      "3.2.0": [
+        [ "p-finally", "1.0.0" ]
+      ]
+    },
+    "redis-parser": {
+      "3.0.0": [
+        [ "redis-errors", "1.2.0" ]
+      ]
+    },
+    "semver": {
+      "7.3.8": [
+        [ "lru-cache", "6.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@msgpackr-extract/msgpackr-extract-darwin-arm64": {
+      "2.1.2": {
+        "hash": "sha512-TyVLn3S/+ikMDsh0gbKv2YydKClN8HaJDDpONlaZR+LVJmsxLFUgA+O7zu59h9+f9gX1aj/ahw9wqa6rosmrYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-2.1.2.tgz"
+      }
+    },
+    "@msgpackr-extract/msgpackr-extract-darwin-x64": {
+      "2.1.2": {
+        "hash": "sha512-YPXtcVkhmVNoMGlqp81ZHW4dMxK09msWgnxtsDpSiZwTzUBG2N+No2bsr7WMtBKCVJMSD6mbAl7YhKUqkp/Few==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-x64/-/msgpackr-extract-darwin-x64-2.1.2.tgz"
+      }
+    },
+    "@msgpackr-extract/msgpackr-extract-linux-arm": {
+      "2.1.2": {
+        "hash": "sha512-42R4MAFeIeNn+L98qwxAt360bwzX2Kf0ZQkBBucJ2Ircza3asoY4CDbgiu9VWklq8gWJVSJSJBwDI+c/THiWkA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-linux-arm/-/msgpackr-extract-linux-arm-2.1.2.tgz"
+      }
+    },
+    "@msgpackr-extract/msgpackr-extract-linux-arm64": {
+      "2.1.2": {
+        "hash": "sha512-vHZ2JiOWF2+DN9lzltGbhtQNzDo8fKFGrf37UJrgqxU0yvtERrzUugnfnX1wmVfFhSsF8OxrfqiNOUc5hko1Zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-linux-arm64/-/msgpackr-extract-linux-arm64-2.1.2.tgz"
+      }
+    },
+    "@msgpackr-extract/msgpackr-extract-linux-x64": {
+      "2.1.2": {
+        "hash": "sha512-RjRoRxg7Q3kPAdUSC5EUUPlwfMkIVhmaRTIe+cqHbKrGZ4M6TyCA/b5qMaukQ/1CHWrqYY2FbKOAU8Hg0pQFzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-linux-x64/-/msgpackr-extract-linux-x64-2.1.2.tgz"
+      }
+    },
+    "@msgpackr-extract/msgpackr-extract-win32-x64": {
+      "2.1.2": {
+        "hash": "sha512-rIZVR48zA8hGkHIK7ED6+ZiXsjRCcAVBJbm8o89OKAMTmEAQ2QvoOxoiu3w2isAaWwzgtQIOFIqHwvZDyLKCvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-win32-x64/-/msgpackr-extract-win32-x64-2.1.2.tgz"
+      }
+    },
+    "bull": {
+      "4.10.1": {
+        "hash": "sha512-Fp21tRPb2EaZPVfmM+ONZKVz2RA+to+zGgaTLyCKt3JMSU8OOBqK8143OQrnGuGpsyE5G+9FevFAGhdZZfQP2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bull/-/bull-4.10.1.tgz"
+      }
+    },
+    "cluster-key-slot": {
+      "1.1.1": {
+        "hash": "sha512-rwHwUfXL40Chm1r08yrhU3qpUvdVlgkKNeyeGPOxnW8/SyVDvgRaed/Uz54AqWNaTCAThlj6QAs3TZcKI0xDEw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cluster-key-slot/-/cluster-key-slot-1.1.1.tgz"
+      }
+    },
+    "cron-parser": {
+      "4.6.0": {
+        "hash": "sha512-guZNLMGUgg6z4+eGhmHGw7ft+v6OQeuHzd1gcLxCo9Yg/qoxmG3nindp2/uwGCLizEisf2H0ptqeVXeoCpP6FA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cron-parser/-/cron-parser-4.6.0.tgz"
+      }
+    },
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "debuglog": {
+      "1.0.1": {
+        "hash": "sha512-syBZ+rnAK3EgMsH2aYEOLUW7mZSY9Gb+0wUMCFsZvcmiz+HigA0LOcq/HoQqVuGG+EKykunc7QG2bzrponfaSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debuglog/-/debuglog-1.0.1.tgz"
+      }
+    },
+    "denque": {
+      "1.5.1": {
+        "hash": "sha512-XwE+iZ4D6ZUB7mfYRMb5wByE8L74HCn30FBN7sWnXksWc1LO1bPDl67pBR9o/kC4z/xSNAwkMYcGgqDV3BE3Hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/denque/-/denque-1.5.1.tgz"
+      }
+    },
+    "get-port": {
+      "5.1.1": {
+        "hash": "sha512-g/Q1aTSDOxFpchXC4i8ZWvxA1lnPqx/JHqcpIw0/LX9T8x/GBbi6YnlN5nhaKIFkT8oFsscUKgDJYxfwfS6QsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-port/-/get-port-5.1.1.tgz"
+      }
+    },
+    "ioredis": {
+      "4.28.5": {
+        "hash": "sha512-3GYo0GJtLqgNXj4YhrisLaNNvWSNwSS2wS4OELGfGxH8I69+XfNdnmV1AyN+ZqMh0i7eX+SWjrwFKDBDgfBC1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ioredis/-/ioredis-4.28.5.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "lodash.defaults": {
+      "4.2.0": {
+        "hash": "sha512-qjxPLHd3r5DnsdGacqOMU6pb/avJzdh9tFX2ymgoZE27BmjXrNy/y4LoaiTeAb+O3gL8AfpJGtqfX/ae2leYYQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.defaults/-/lodash.defaults-4.2.0.tgz"
+      }
+    },
+    "lodash.flatten": {
+      "4.4.0": {
+        "hash": "sha512-C5N2Z3DgnnKr0LOpv/hKCgKdb7ZZwafIrsesve6lmzvZIRZRGaZ/l6Q8+2W7NaT+ZwO3fFlSCzCzrDCFdJfZ4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.flatten/-/lodash.flatten-4.4.0.tgz"
+      }
+    },
+    "lodash.isarguments": {
+      "3.1.0": {
+        "hash": "sha512-chi4NHZlZqZD18a0imDHnZPrDeBbTtVN7GXMwuGdRH9qotxAjYs3aVLKc7zNOG9eddR5Ksd8rvFEBc9SsggPpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz"
+      }
+    },
+    "lru-cache": {
+      "6.0.0": {
+        "hash": "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
+      }
+    },
+    "luxon": {
+      "3.0.4": {
+        "hash": "sha512-aV48rGUwP/Vydn8HT+5cdr26YYQiUZ42NM6ToMoaGKwYfWbfLeRkEu1wXWMHBZT6+KyLfcbbtVcoQFCbbPjKlw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/luxon/-/luxon-3.0.4.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    },
+    "msgpackr": {
+      "1.7.2": {
+        "hash": "sha512-mWScyHTtG6TjivXX9vfIy2nBtRupaiAj0HQ2mtmpmYujAmqZmaaEVPaSZ1NKLMvicaMLFzEaMk0ManxMRg8rMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/msgpackr/-/msgpackr-1.7.2.tgz"
+      }
+    },
+    "msgpackr-extract": {
+      "2.1.2": {
+        "hash": "sha512-cmrmERQFb19NX2JABOGtrKdHMyI6RUyceaPBQ2iRz9GnDkjBWFjNJC0jyyoOfZl2U/LZE3tQCCQc4dlRyA8mcA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/msgpackr-extract/-/msgpackr-extract-2.1.2.tgz"
+      }
+    },
+    "node-gyp-build-optional-packages": {
+      "5.0.3": {
+        "hash": "sha512-k75jcVzk5wnnc/FMxsf4udAoTEUv2jY3ycfdSd3yWu6Cnd1oee6/CfZJApyscA4FJOmdoixWwiwOyf16RzD5JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.0.3.tgz"
+      }
+    },
+    "p-finally": {
+      "1.0.0": {
+        "hash": "sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz"
+      }
+    },
+    "p-map": {
+      "2.1.0": {
+        "hash": "sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz"
+      }
+    },
+    "p-timeout": {
+      "3.2.0": {
+        "hash": "sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz"
+      }
+    },
+    "redis-commands": {
+      "1.7.0": {
+        "hash": "sha512-nJWqw3bTFy21hX/CPKHth6sfhZbdiHP6bTawSgQBlKOVRG7EZkfHbbHwQJnrE4vsQf0CMNE+3gJ4Fmm16vdVlQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redis-commands/-/redis-commands-1.7.0.tgz"
+      }
+    },
+    "redis-errors": {
+      "1.2.0": {
+        "hash": "sha512-1qny3OExCf0UvUV/5wpYKf2YwPcOqXzkwKKSmKHiE6ZMQs5heeE/c8eXK+PNllPvmjgAbfnsbpkGZWy8cBpn9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redis-errors/-/redis-errors-1.2.0.tgz"
+      }
+    },
+    "redis-parser": {
+      "3.0.0": {
+        "hash": "sha512-DJnGAeenTdpMEH6uAJRK/uiyEIH9WVsUmoLwzudwGJUwZPp80PDBWPHXSAGNPwNvIXAbe7MSUB1zQFugFml66A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/redis-parser/-/redis-parser-3.0.0.tgz"
+      }
+    },
+    "semver": {
+      "7.3.8": {
+        "hash": "sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-7.3.8.tgz"
+      }
+    },
+    "standard-as-callback": {
+      "2.1.0": {
+        "hash": "sha512-qoRRSyROncaz1z0mvYqIE4lCd9p2R90i6GxW3uZv5ucSu8tU7B5HXUP1gG8pVZsYNVaXjk8ClXHPttLyxAL48A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/standard-as-callback/-/standard-as-callback-2.1.0.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      }
+    },
+    "yallist": {
+      "4.0.0": {
+        "hash": "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
+      }
+    }
+  }
+}

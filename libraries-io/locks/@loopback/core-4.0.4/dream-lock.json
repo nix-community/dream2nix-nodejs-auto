@@ -1,0 +1,191 @@
+{
+  "_generic": {
+    "defaultPackage": "@loopback/core",
+    "location": "",
+    "packages": {
+      "@loopback/core": "4.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@loopback/context": {
+      "5.0.4": [
+        [ "@loopback/metadata", "5.0.4" ],
+        [ "@types/debug", "4.1.7" ],
+        [ "debug", "4.3.4" ],
+        [ "hyperid", "3.0.1" ],
+        [ "p-event", "4.2.0" ],
+        [ "tslib", "2.4.0" ],
+        [ "uuid", "9.0.0" ]
+      ]
+    },
+    "@loopback/core": {
+      "4.0.4": [
+        [ "@loopback/context", "5.0.4" ],
+        [ "debug", "4.3.4" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@loopback/core", "4.0.4" ]
+      ]
+    },
+    "@loopback/metadata": {
+      "5.0.4": [
+        [ "debug", "4.3.4" ],
+        [ "lodash", "4.17.21" ],
+        [ "reflect-metadata", "0.1.13" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@types/debug": {
+      "4.1.7": [
+        [ "@types/ms", "0.7.31" ]
+      ]
+    },
+    "debug": {
+      "4.3.4": [
+        [ "ms", "2.1.2" ]
+      ]
+    },
+    "hyperid": {
+      "3.0.1": [
+        [ "uuid", "8.3.2" ],
+        [ "uuid-parse", "1.1.0" ]
+      ]
+    },
+    "p-event": {
+      "4.2.0": [
+        [ "p-timeout", "3.2.0" ]
+      ]
+    },
+    "p-timeout": {
+      "3.2.0": [
+        [ "p-finally", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@loopback/context": {
+      "5.0.4": {
+        "hash": "sha512-YQ8vHeVRpEjkVQnb8yQUlRgmzUuySGDCuCeACH/tFm/SfZOu74h1t7ih0GRWs2NVPJ7uhwapCOW7JQzM829r+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@loopback/context/-/context-5.0.4.tgz"
+      }
+    },
+    "@loopback/core": {
+      "4.0.4": {
+        "hash": "sha512-SCmMvFvaFwitDsKBDLaTbwFKR8XK6itS1YA3BUEemfMXSLW7VMYmfUoSq0vFB5HIHxAdSMZQLBYydhg5hxUikQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@loopback/core/-/core-4.0.4.tgz"
+      }
+    },
+    "@loopback/metadata": {
+      "5.0.4": {
+        "hash": "sha512-TcxVyJEPzwOPML4fD9mlgy4CbO57PLdl0Wh6IIIpObOkPTDeilqtHu6SiuHBq8MIisKJeiCqJxwz9vMosqZ5CA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@loopback/metadata/-/metadata-5.0.4.tgz"
+      }
+    },
+    "@types/debug": {
+      "4.1.7": {
+        "hash": "sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/debug/-/debug-4.1.7.tgz"
+      }
+    },
+    "@types/ms": {
+      "0.7.31": {
+        "hash": "sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz"
+      }
+    },
+    "debug": {
+      "4.3.4": {
+        "hash": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+      }
+    },
+    "hyperid": {
+      "3.0.1": {
+        "hash": "sha512-I+tl7TS5nsoVhkxqX1rS3Qmqlq44eoPUcgPthW8v3IW8CvWL7lwtd6HQbkDUMrBKJTG0vgEaRsjT35imW/D+9Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/hyperid/-/hyperid-3.0.1.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "ms": {
+      "2.1.2": {
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+      }
+    },
+    "p-event": {
+      "4.2.0": {
+        "hash": "sha512-KXatOjCRXXkSePPb1Nbi0p0m+gQAwdlbhi4wQKJPI1HsMQS9g+Sqp2o+QHziPr7eYJyOZet836KoHEVM1mwOrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-event/-/p-event-4.2.0.tgz"
+      }
+    },
+    "p-finally": {
+      "1.0.0": {
+        "hash": "sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz"
+      }
+    },
+    "p-timeout": {
+      "3.2.0": {
+        "hash": "sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz"
+      }
+    },
+    "reflect-metadata": {
+      "0.1.13": {
+        "hash": "sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.13.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      },
+      "9.0.0": {
+        "hash": "sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz"
+      }
+    },
+    "uuid-parse": {
+      "1.1.0": {
+        "hash": "sha512-OdmXxA8rDsQ7YpNVbKSJkNzTw2I+S5WsbMDnCtIWSQaosNAcWtFuI/YK1TjzUI6nbkgiqEyh8gWngfcv8Asd9A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid-parse/-/uuid-parse-1.1.0.tgz"
+      }
+    }
+  }
+}

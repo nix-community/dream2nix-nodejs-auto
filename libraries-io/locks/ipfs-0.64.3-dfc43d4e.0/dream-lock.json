@@ -43,7 +43,7 @@
     "@chainsafe/libp2p-gossipsub": {
       "4.1.1": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
@@ -69,7 +69,7 @@
     },
     "@chainsafe/libp2p-noise": {
       "8.0.2": [
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-connection-encrypter", "2.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
@@ -350,15 +350,15 @@
       ]
     },
     "@libp2p/crypto": {
-      "1.0.4": [
+      "1.0.6": [
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@noble/ed25519", "1.7.1" ],
         [ "@noble/secp256k1", "1.7.0" ],
         [ "err-code", "3.0.1" ],
-        [ "multiformats", "9.9.0" ],
+        [ "multiformats", "10.0.0" ],
         [ "node-forge", "1.3.1" ],
         [ "protons-runtime", "3.1.0" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "@libp2p/delegated-content-routing": {
@@ -530,7 +530,7 @@
     "@libp2p/kad-dht": {
       "3.1.0": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-address-manager", "1.0.3" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-manager", "1.3.0" ],
@@ -612,7 +612,7 @@
         [ "it-pipe", "2.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "rate-limiter-flexible", "2.3.11" ],
+        [ "rate-limiter-flexible", "2.3.12" ],
         [ "uint8arraylist", "2.3.3" ],
         [ "uint8arrays", "3.1.1" ],
         [ "varint", "6.0.0" ]
@@ -653,7 +653,7 @@
     },
     "@libp2p/peer-id-factory": {
       "1.0.19": [
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/peer-id", "1.1.16" ],
@@ -665,7 +665,7 @@
     },
     "@libp2p/peer-record": {
       "4.0.4": [
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-record", "2.0.1" ],
         [ "@libp2p/logger", "2.0.2" ],
@@ -716,7 +716,7 @@
     "@libp2p/pubsub": {
       "3.1.3": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
@@ -792,7 +792,7 @@
       ]
     },
     "@libp2p/webrtc-peer": {
-      "2.0.0": [
+      "2.0.1": [
         [ "@libp2p/interfaces", "3.0.3" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "delay", "5.0.0" ],
@@ -802,7 +802,7 @@
         [ "it-stream-types", "1.0.4" ],
         [ "p-defer", "4.0.0" ],
         [ "p-event", "5.0.1" ],
-        [ "uint8arrays", "3.1.1" ]
+        [ "uint8arrays", "4.0.2" ]
       ]
     },
     "@libp2p/webrtc-star": {
@@ -816,7 +816,7 @@
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/utils", "3.0.2" ],
-        [ "@libp2p/webrtc-peer", "2.0.0" ],
+        [ "@libp2p/webrtc-peer", "2.0.1" ],
         [ "@libp2p/webrtc-star-protocol", "2.0.1" ],
         [ "@multiformats/mafmt", "11.0.3" ],
         [ "@multiformats/multiaddr", "11.0.5" ],
@@ -848,7 +848,7 @@
         [ "@multiformats/multiaddr-to-uri", "9.0.2" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
-        [ "it-ws", "5.0.2" ],
+        [ "it-ws", "5.0.3" ],
         [ "p-defer", "4.0.0" ],
         [ "p-timeout", "6.0.0" ],
         [ "wherearewe", "2.0.1" ]
@@ -1470,7 +1470,7 @@
       ]
     },
     "engine.io-client": {
-      "6.2.2": [
+      "6.2.3": [
         [ "@socket.io/component-emitter", "3.1.0" ],
         [ "debug", "4.3.4" ],
         [ "engine.io-parser", "5.0.4" ],
@@ -1751,7 +1751,7 @@
         [ "@ipld/dag-json", "8.0.11" ],
         [ "@ipld/dag-pb", "2.1.18" ],
         [ "@libp2p/bootstrap", "2.0.1" ],
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/delegated-content-routing", "2.0.2" ],
         [ "@libp2p/delegated-peer-routing", "2.0.2" ],
         [ "@libp2p/interface-dht", "1.0.2" ],
@@ -2126,7 +2126,7 @@
     },
     "ipns": {
       "3.0.0": [
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
@@ -2306,11 +2306,11 @@
       ]
     },
     "it-ws": {
-      "5.0.2": [
+      "5.0.3": [
         [ "event-iterator", "2.0.0" ],
         [ "iso-url", "1.2.1" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "uint8arrays", "3.1.1" ],
+        [ "uint8arrays", "4.0.2" ],
         [ "ws", "8.9.0" ]
       ]
     },
@@ -2387,7 +2387,7 @@
         [ "@achingbrain/nat-port-mapper", "1.0.7" ],
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/connection", "4.0.2" ],
-        [ "@libp2p/crypto", "1.0.4" ],
+        [ "@libp2p/crypto", "1.0.6" ],
         [ "@libp2p/interface-address-manager", "1.0.3" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-encrypter", "2.0.2" ],
@@ -2930,7 +2930,7 @@
       "4.5.2": [
         [ "@socket.io/component-emitter", "3.1.0" ],
         [ "debug", "4.3.4" ],
-        [ "engine.io-client", "6.2.2" ],
+        [ "engine.io-client", "6.2.3" ],
         [ "socket.io-parser", "4.2.1" ]
       ]
     },
@@ -3587,10 +3587,10 @@
       }
     },
     "@libp2p/crypto": {
-      "1.0.4": {
-        "hash": "sha512-3hHZvqi+vI8YoTHE+0u8nA5SYGPLZRLMvbgXQoAn0IyPjez66Taaxym/3p3Duf9QkFlvJu95nzpNzv0OdHs9Yw==",
+      "1.0.6": {
+        "hash": "sha512-EeuyG6WxT6twPi0Of+PJDNH9vI0FSKLoodQvB3zx2NuqYSdiOIrOxQR8QsyXGFs7bCXBA51emiqjt9NoD1+3rw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/crypto/-/crypto-1.0.4.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/crypto/-/crypto-1.0.6.tgz"
       }
     },
     "@libp2p/delegated-content-routing": {
@@ -3867,10 +3867,10 @@
       }
     },
     "@libp2p/webrtc-peer": {
-      "2.0.0": {
-        "hash": "sha512-HmU3BVkG1U1FlZTZk9vQO31U5L8N90/NIwo4rZv4og1YyBzdF9TzXFkB8BdZD2pwGB1mwDYF7Q+zKwDw6efxgw==",
+      "2.0.1": {
+        "hash": "sha512-849wf/CrqFZiILdtdeMghHJS3qn+e2Xz96tRB/nqNnMyeO7hIKjbD1ujtgsAoXVbH/Jt6a4gDuCnAGJXWFwcUw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/webrtc-peer/-/webrtc-peer-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/webrtc-peer/-/webrtc-peer-2.0.1.tgz"
       }
     },
     "@libp2p/webrtc-star": {
@@ -5090,10 +5090,10 @@
       }
     },
     "engine.io-client": {
-      "6.2.2": {
-        "hash": "sha512-8ZQmx0LQGRTYkHuogVZuGSpDqYZtCM/nv8zQ68VZ+JkOpazJ7ICdsSpaO6iXwvaU30oFg5QJOJWj8zWqhbKjkQ==",
+      "6.2.3": {
+        "hash": "sha512-aXPtgF1JS3RuuKcpSrBtimSjYvrbhKW9froICH4s0F3XQWLxsKNxqzG39nnvQZQnva4CMvUK63T7shevxRyYHw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/engine.io-client/-/engine.io-client-6.2.2.tgz"
+        "url": "https://registry.npmjs.org/engine.io-client/-/engine.io-client-6.2.3.tgz"
       }
     },
     "engine.io-parser": {
@@ -6221,10 +6221,10 @@
       }
     },
     "it-ws": {
-      "5.0.2": {
-        "hash": "sha512-beq/nBWuKm2Ds4nYSfPuZRF0USVZJhsIvuUH3kRE5QdaCzivDK7zyeewDgsNBSPr6hPgF5dyPP5NXcXhUcb9QQ==",
+      "5.0.3": {
+        "hash": "sha512-xdkVWNOY41Qfw3zggqQX+JoQxtb6AHmt/ns26nJfBZaDFnYno6KAeU7E+hiHyvtheuE2IXRxVaF+w63Jmfhl5g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/it-ws/-/it-ws-5.0.2.tgz"
+        "url": "https://registry.npmjs.org/it-ws/-/it-ws-5.0.3.tgz"
       }
     },
     "jake": {
@@ -7201,10 +7201,10 @@
       }
     },
     "rate-limiter-flexible": {
-      "2.3.11": {
-        "hash": "sha512-MFLtfs1llUNBkJxeTkSZD7oAxVg1nZ79bevE2TmqQMbmKGoi8DBua3VAZFz5bsjEr0A6Mbr9AJuf5lvYSCok2Q==",
+      "2.3.12": {
+        "hash": "sha512-L8gGX+R7mUmyP7Cu0DjcRabGwkOwvS7IHdVptOPyOV5TAdUsvRgdDhzlk9eVt+S/B16m6DUWWMDwcAuFKElCfg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/rate-limiter-flexible/-/rate-limiter-flexible-2.3.11.tgz"
+        "url": "https://registry.npmjs.org/rate-limiter-flexible/-/rate-limiter-flexible-2.3.12.tgz"
       }
     },
     "rc": {

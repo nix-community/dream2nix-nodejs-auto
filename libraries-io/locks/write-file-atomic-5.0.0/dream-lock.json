@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "write-file-atomic",
+    "location": "",
+    "packages": {
+      "write-file-atomic": "5.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "write-file-atomic": {
+      "5.0.0": [
+        [ "imurmurhash", "0.1.4" ],
+        [ "signal-exit", "3.0.7" ]
+      ],
+      "unknown": [
+        [ "write-file-atomic", "5.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "imurmurhash": {
+      "0.1.4": {
+        "hash": "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz"
+      }
+    },
+    "signal-exit": {
+      "3.0.7": {
+        "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
+      }
+    },
+    "write-file-atomic": {
+      "5.0.0": {
+        "hash": "sha512-R7NYMnHSlV42K54lwY9lvW6MnSm1HSJqZL3xiSgi9E7//FYaI74r2G0rd+/X6VAMkHEdzxQaU5HUOXWUz5kA/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-5.0.0.tgz"
+      }
+    }
+  }
+}
