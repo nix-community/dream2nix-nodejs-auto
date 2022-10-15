@@ -43,7 +43,7 @@
     "@chainsafe/libp2p-gossipsub": {
       "4.1.1": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
@@ -69,7 +69,7 @@
     },
     "@chainsafe/libp2p-noise": {
       "8.0.2": [
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-connection-encrypter", "2.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
@@ -90,9 +90,9 @@
       ]
     },
     "@grpc/grpc-js": {
-      "1.7.1": [
+      "1.7.2": [
         [ "@grpc/proto-loader", "0.7.3" ],
-        [ "@types/node", "18.8.5" ]
+        [ "@types/node", "18.11.0" ]
       ]
     },
     "@grpc/proto-loader": {
@@ -350,14 +350,14 @@
       ]
     },
     "@libp2p/crypto": {
-      "1.0.6": [
+      "1.0.7": [
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@noble/ed25519", "1.7.1" ],
         [ "@noble/secp256k1", "1.7.0" ],
         [ "err-code", "3.0.1" ],
         [ "multiformats", "10.0.0" ],
         [ "node-forge", "1.3.1" ],
-        [ "protons-runtime", "3.1.0" ],
+        [ "protons-runtime", "4.0.1" ],
         [ "uint8arrays", "4.0.2" ]
       ]
     },
@@ -530,7 +530,7 @@
     "@libp2p/kad-dht": {
       "3.1.0": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-address-manager", "1.0.3" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-manager", "1.3.0" ],
@@ -653,7 +653,7 @@
     },
     "@libp2p/peer-id-factory": {
       "1.0.19": [
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/peer-id", "1.1.16" ],
@@ -665,7 +665,7 @@
     },
     "@libp2p/peer-record": {
       "4.0.4": [
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-record", "2.0.1" ],
         [ "@libp2p/logger", "2.0.2" ],
@@ -716,7 +716,7 @@
     "@libp2p/pubsub": {
       "3.1.3": [
         [ "@libp2p/components", "2.1.1" ],
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
@@ -826,14 +826,14 @@
         [ "iso-random-stream", "2.0.2" ],
         [ "multiformats", "9.9.0" ],
         [ "p-defer", "4.0.0" ],
-        [ "socket.io-client", "4.5.2" ],
+        [ "socket.io-client", "4.5.3" ],
         [ "uint8arrays", "3.1.1" ]
       ]
     },
     "@libp2p/webrtc-star-protocol": {
       "2.0.1": [
         [ "@multiformats/multiaddr", "11.0.5" ],
-        [ "socket.io-client", "4.5.2" ]
+        [ "socket.io-client", "4.5.3" ]
       ]
     },
     "@libp2p/websockets": {
@@ -994,13 +994,13 @@
     },
     "@types/dns-packet": {
       "5.2.4": [
-        [ "@types/node", "18.8.5" ]
+        [ "@types/node", "18.11.0" ]
       ]
     },
     "@types/multicast-dns": {
       "7.2.1": [
         [ "@types/dns-packet", "5.2.4" ],
-        [ "@types/node", "18.8.5" ]
+        [ "@types/node", "18.11.0" ]
       ]
     },
     "abort-controller": {
@@ -1094,7 +1094,7 @@
       ]
     },
     "blockstore-core": {
-      "2.0.1": [
+      "2.0.2": [
         [ "err-code", "3.0.1" ],
         [ "interface-blockstore", "3.0.1" ],
         [ "interface-store", "3.0.1" ],
@@ -1102,12 +1102,12 @@
         [ "it-drain", "1.0.5" ],
         [ "it-filter", "1.0.3" ],
         [ "it-take", "1.0.2" ],
-        [ "multiformats", "9.9.0" ]
+        [ "multiformats", "10.0.0" ]
       ]
     },
     "blockstore-datastore-adapter": {
       "3.0.1": [
-        [ "blockstore-core", "2.0.1" ],
+        [ "blockstore-core", "2.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "interface-blockstore", "3.0.1" ],
         [ "interface-datastore", "7.0.1" ],
@@ -1693,7 +1693,7 @@
         [ "@vascosantos/moving-average", "1.1.0" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "any-signal", "3.0.1" ],
-        [ "blockstore-core", "2.0.1" ],
+        [ "blockstore-core", "2.0.2" ],
         [ "debug", "4.3.4" ],
         [ "err-code", "3.0.1" ],
         [ "interface-blockstore", "3.0.1" ],
@@ -1751,7 +1751,7 @@
         [ "@ipld/dag-json", "8.0.11" ],
         [ "@ipld/dag-pb", "2.1.18" ],
         [ "@libp2p/bootstrap", "2.0.1" ],
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/delegated-content-routing", "2.0.2" ],
         [ "@libp2p/delegated-peer-routing", "2.0.2" ],
         [ "@libp2p/interface-dht", "1.0.2" ],
@@ -1772,7 +1772,7 @@
         [ "@multiformats/murmur3", "1.1.3" ],
         [ "any-signal", "3.0.1" ],
         [ "array-shuffle", "3.0.0" ],
-        [ "blockstore-core", "2.0.1" ],
+        [ "blockstore-core", "2.0.2" ],
         [ "dag-jose", "2.0.1" ],
         [ "datastore-core", "8.0.2" ],
         [ "datastore-pubsub", "4.0.2" ],
@@ -1851,7 +1851,7 @@
         [ "@libp2p/interface-peer-info", "1.0.3" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
         [ "@multiformats/multiaddr", "11.0.5" ],
-        [ "@types/node", "18.8.5" ],
+        [ "@types/node", "18.11.0" ],
         [ "interface-datastore", "7.0.1" ],
         [ "ipfs-unixfs", "7.0.0" ],
         [ "multiformats", "9.9.0" ]
@@ -1900,7 +1900,7 @@
     },
     "ipfs-grpc-server": {
       "0.10.2-dfc43d4e.0": [
-        [ "@grpc/grpc-js", "1.7.1" ],
+        [ "@grpc/grpc-js", "1.7.2" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@multiformats/multiaddr", "11.0.5" ],
@@ -2126,7 +2126,7 @@
     },
     "ipns": {
       "3.0.0": [
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-dht", "1.0.2" ],
         [ "@libp2p/interface-keys", "1.0.3" ],
         [ "@libp2p/interface-peer-id", "1.0.5" ],
@@ -2387,7 +2387,7 @@
         [ "@achingbrain/nat-port-mapper", "1.0.7" ],
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/connection", "4.0.2" ],
-        [ "@libp2p/crypto", "1.0.6" ],
+        [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/interface-address-manager", "1.0.3" ],
         [ "@libp2p/interface-connection", "3.0.2" ],
         [ "@libp2p/interface-connection-encrypter", "2.0.2" ],
@@ -2728,7 +2728,7 @@
         [ "@protobufjs/pool", "1.1.0" ],
         [ "@protobufjs/utf8", "1.1.0" ],
         [ "@types/long", "4.0.2" ],
-        [ "@types/node", "18.8.5" ],
+        [ "@types/node", "18.11.0" ],
         [ "long", "4.0.0" ]
       ],
       "7.1.2": [
@@ -2742,7 +2742,7 @@
         [ "@protobufjs/path", "1.1.2" ],
         [ "@protobufjs/pool", "1.1.0" ],
         [ "@protobufjs/utf8", "1.1.0" ],
-        [ "@types/node", "18.8.5" ],
+        [ "@types/node", "18.11.0" ],
         [ "long", "5.2.0" ]
       ]
     },
@@ -2927,7 +2927,7 @@
       ]
     },
     "socket.io-client": {
-      "4.5.2": [
+      "4.5.3": [
         [ "@socket.io/component-emitter", "3.1.0" ],
         [ "debug", "4.3.4" ],
         [ "engine.io-client", "6.2.3" ],
@@ -3314,10 +3314,10 @@
       }
     },
     "@grpc/grpc-js": {
-      "1.7.1": {
-        "hash": "sha512-GVtMU4oh/TeKkWGzXUEsyZtyvSUIT1z49RtGH1UnEGeL+sLuxKl8QH3KZTlSB329R1sWJmesm5hQ5CxXdYH9dg==",
+      "1.7.2": {
+        "hash": "sha512-MqqbVynbe3VUSnApFW/dpkDaa9T1ASqRnMWeSPGFO/Ro98R7XUDLacfeBa7RaSI1iFu9GYk5gBKARf0zipFe4w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.7.1.tgz"
+        "url": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.7.2.tgz"
       }
     },
     "@grpc/proto-loader": {
@@ -3587,10 +3587,10 @@
       }
     },
     "@libp2p/crypto": {
-      "1.0.6": {
-        "hash": "sha512-EeuyG6WxT6twPi0Of+PJDNH9vI0FSKLoodQvB3zx2NuqYSdiOIrOxQR8QsyXGFs7bCXBA51emiqjt9NoD1+3rw==",
+      "1.0.7": {
+        "hash": "sha512-rJdM0cfoN+DYurcCjiz4LnOkH1fbMHXlC/UggRYvRlQP6c6U/Pd0qbtpZ1blrjQ3lmDnXeh9AM+4Ys0DMU88cw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/crypto/-/crypto-1.0.6.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/crypto/-/crypto-1.0.7.tgz"
       }
     },
     "@libp2p/delegated-content-routing": {
@@ -4231,10 +4231,10 @@
       }
     },
     "@types/node": {
-      "18.8.5": {
-        "hash": "sha512-Bq7G3AErwe5A/Zki5fdD3O6+0zDChhg671NfPjtIcbtzDNZTv4NPKMRFr7gtYPG7y+B8uTiNK4Ngd9T0FTar6Q==",
+      "18.11.0": {
+        "hash": "sha512-IOXCvVRToe7e0ny7HpT/X9Rb2RYtElG1a+VshjwT00HxrM2dWBApHQoqsI6WiY7Q03vdf2bCrIGzVrkF/5t10w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.8.5.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.0.tgz"
       },
       "8.10.66": {
         "hash": "sha512-tktOkFUA4kXx2hhhrB8bIFb5TbwzS4uOhKEmwiD+NoiL0qtP2OQ9mFldbgD4dV1djrlBYP6eBuQZiWjuHUpqFw==",
@@ -4480,10 +4480,10 @@
       }
     },
     "blockstore-core": {
-      "2.0.1": {
-        "hash": "sha512-YRT0Y6Qh4ebt3GFFbHn4rQS1VGjT0gEZX6w7ZCQjnX+iZdrVXob4/IoSCVfYxGePs7hi7xsov10Yh9sLvxBeFA==",
+      "2.0.2": {
+        "hash": "sha512-ALry3rBp2pTEi4F/usjCJGRluAKYFWI9Np7uE0pZHfDeScMJSj/fDkHEWvY80tPYu4kj03sLKRDGJlZH+V7VzQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/blockstore-core/-/blockstore-core-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/blockstore-core/-/blockstore-core-2.0.2.tgz"
       }
     },
     "blockstore-datastore-adapter": {
@@ -7468,10 +7468,10 @@
       }
     },
     "socket.io-client": {
-      "4.5.2": {
-        "hash": "sha512-naqYfFu7CLDiQ1B7AlLhRXKX3gdeaIMfgigwavDzgJoIUYulc1qHH5+2XflTsXTPY7BlPH5rppJyUjhjrKQKLg==",
+      "4.5.3": {
+        "hash": "sha512-I/hqDYpQ6JKwtJOf5ikM+Qz+YujZPMEl6qBLhxiP0nX+TfXKhW4KZZG8lamrD6Y5ngjmYHreESVasVCgi5Kl3A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.5.2.tgz"
+        "url": "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.5.3.tgz"
       }
     },
     "socket.io-parser": {

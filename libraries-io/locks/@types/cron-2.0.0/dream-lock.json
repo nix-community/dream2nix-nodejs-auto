@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/cron",
+    "location": "",
+    "packages": {
+      "@types/cron": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/cron": {
+      "2.0.0": [
+        [ "@types/luxon", "3.0.1" ],
+        [ "@types/node", "18.11.0" ]
+      ],
+      "unknown": [
+        [ "@types/cron", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/cron": {
+      "2.0.0": {
+        "hash": "sha512-xZM08fqvwIXgghtPVkSPKNgC+JoMQ2OHazEvyTKnNf7aWu1aB6/4lBbQFrb03Td2cUGG7ITzMv3mFYnMu6xRaQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/cron/-/cron-2.0.0.tgz"
+      }
+    },
+    "@types/luxon": {
+      "3.0.1": {
+        "hash": "sha512-/LAvk1cMOJt0ghzMFrZEvByUhsiEfeeT2IF53Le+Ki3A538yEL9pRZ7a6MuCxdrYK+YNqNIDmrKU/r2nnw04zQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/luxon/-/luxon-3.0.1.tgz"
+      }
+    },
+    "@types/node": {
+      "18.11.0": {
+        "hash": "sha512-IOXCvVRToe7e0ny7HpT/X9Rb2RYtElG1a+VshjwT00HxrM2dWBApHQoqsI6WiY7Q03vdf2bCrIGzVrkF/5t10w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.0.tgz"
+      }
+    }
+  }
+}
