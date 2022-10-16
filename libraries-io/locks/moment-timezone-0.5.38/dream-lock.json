@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "moment-timezone",
+    "location": "",
+    "packages": {
+      "moment-timezone": "0.5.38"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "moment-timezone": {
+      "0.5.38": [
+        [ "moment", "2.29.4" ]
+      ],
+      "unknown": [
+        [ "moment-timezone", "0.5.38" ]
+      ]
+    }
+  },
+  "sources": {
+    "moment": {
+      "2.29.4": {
+        "hash": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+      }
+    },
+    "moment-timezone": {
+      "0.5.38": {
+        "hash": "sha512-nMIrzGah4+oYZPflDvLZUgoVUO4fvAqHstvG3xAUnMolWncuAiLDWNnJZj6EwJGMGfb1ZcuTFE6GI3hNOVWI/Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.38.tgz"
+      }
+    }
+  }
+}

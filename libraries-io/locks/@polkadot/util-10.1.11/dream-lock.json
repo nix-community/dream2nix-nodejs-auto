@@ -1,0 +1,136 @@
+{
+  "_generic": {
+    "defaultPackage": "@polkadot/util",
+    "location": "",
+    "packages": {
+      "@polkadot/util": "10.1.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.19.4": [
+        [ "regenerator-runtime", "0.13.10" ]
+      ]
+    },
+    "@polkadot/util": {
+      "10.1.11": [
+        [ "@babel/runtime", "7.19.4" ],
+        [ "@polkadot/x-bigint", "10.1.11" ],
+        [ "@polkadot/x-global", "10.1.11" ],
+        [ "@polkadot/x-textdecoder", "10.1.11" ],
+        [ "@polkadot/x-textencoder", "10.1.11" ],
+        [ "@types/bn.js", "5.1.1" ],
+        [ "bn.js", "5.2.1" ]
+      ],
+      "unknown": [
+        [ "@polkadot/util", "10.1.11" ]
+      ]
+    },
+    "@polkadot/x-bigint": {
+      "10.1.11": [
+        [ "@babel/runtime", "7.19.4" ],
+        [ "@polkadot/x-global", "10.1.11" ]
+      ]
+    },
+    "@polkadot/x-global": {
+      "10.1.11": [
+        [ "@babel/runtime", "7.19.4" ]
+      ]
+    },
+    "@polkadot/x-textdecoder": {
+      "10.1.11": [
+        [ "@babel/runtime", "7.19.4" ],
+        [ "@polkadot/x-global", "10.1.11" ]
+      ]
+    },
+    "@polkadot/x-textencoder": {
+      "10.1.11": [
+        [ "@babel/runtime", "7.19.4" ],
+        [ "@polkadot/x-global", "10.1.11" ]
+      ]
+    },
+    "@types/bn.js": {
+      "5.1.1": [
+        [ "@types/node", "18.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.19.4": {
+        "hash": "sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.4.tgz"
+      }
+    },
+    "@polkadot/util": {
+      "10.1.11": {
+        "hash": "sha512-6m51lw6g6ilqO/k4BQY7rD0lYM9NCnC4FiM7CEEUc7j8q86qxdcZ88zdNldkhNsTIQnfmCtkK3GRzZW6VYrbUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polkadot/util/-/util-10.1.11.tgz"
+      }
+    },
+    "@polkadot/x-bigint": {
+      "10.1.11": {
+        "hash": "sha512-TC4KZ+ni/SJhcf/LIwD49C/kwvACu0nCchETNO+sAfJ7COXZwHDUJXVXmwN5PgkQxwsWsKKuJmzR/Fi1bgMWnQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polkadot/x-bigint/-/x-bigint-10.1.11.tgz"
+      }
+    },
+    "@polkadot/x-global": {
+      "10.1.11": {
+        "hash": "sha512-bWz5gdcELy6+xfr27R1GE5MPX4nfVlchzHQH+DR6OBbSi9g/PeycQAvFB6IkTmP+YEbNNtIpxnSP37zoUaG3xw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polkadot/x-global/-/x-global-10.1.11.tgz"
+      }
+    },
+    "@polkadot/x-textdecoder": {
+      "10.1.11": {
+        "hash": "sha512-QZqie04SR6pAj260PaLBfZUGXWKI357t4ROVJhpaj06qc1zrk1V8Mwkr49+WzjAPFEOqo70HWnzXmPNCH4dQiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polkadot/x-textdecoder/-/x-textdecoder-10.1.11.tgz"
+      }
+    },
+    "@polkadot/x-textencoder": {
+      "10.1.11": {
+        "hash": "sha512-UX+uV9AbDID81waaG/NvTkkf7ZNVW7HSHaddgbWjQEVW2Ex4ByccBarY5jEi6cErEPKfzCamKhgXflu0aV9LWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@polkadot/x-textencoder/-/x-textencoder-10.1.11.tgz"
+      }
+    },
+    "@types/bn.js": {
+      "5.1.1": {
+        "hash": "sha512-qNrYbZqMx0uJAfKnKclPh+dTwK33KfLHYqtyODwd5HnXOjnkhc4qgn3BrK6RWyGZm5+sIFE7Q7Vz6QQtJB7w7g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bn.js/-/bn.js-5.1.1.tgz"
+      }
+    },
+    "@types/node": {
+      "18.11.0": {
+        "hash": "sha512-IOXCvVRToe7e0ny7HpT/X9Rb2RYtElG1a+VshjwT00HxrM2dWBApHQoqsI6WiY7Q03vdf2bCrIGzVrkF/5t10w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.0.tgz"
+      }
+    },
+    "bn.js": {
+      "5.2.1": {
+        "hash": "sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bn.js/-/bn.js-5.2.1.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    }
+  }
+}
