@@ -14,11 +14,11 @@
   "cyclicDependencies": {},
   "dependencies": {
     "@hyperswarm/secret-stream": {
-      "6.0.0": [
+      "6.1.0": [
         [ "b4a", "1.6.0" ],
         [ "hypercore-crypto", "3.3.0" ],
-        [ "noise-curve-ed", "1.0.4" ],
-        [ "noise-handshake", "2.2.0" ],
+        [ "noise-curve-ed", "2.0.0" ],
+        [ "noise-handshake", "3.0.0" ],
         [ "sodium-secretstream", "1.0.2" ],
         [ "sodium-universal", "3.1.0" ],
         [ "streamx", "2.12.5" ],
@@ -72,7 +72,7 @@
     },
     "hypercore": {
       "10.4.1": [
-        [ "@hyperswarm/secret-stream", "6.0.0" ],
+        [ "@hyperswarm/secret-stream", "6.1.0" ],
         [ "b4a", "1.6.0" ],
         [ "big-sparse-array", "1.0.2" ],
         [ "compact-encoding", "2.11.0" ],
@@ -113,14 +113,14 @@
       ]
     },
     "noise-curve-ed": {
-      "1.0.4": [
+      "2.0.0": [
         [ "b4a", "1.6.0" ],
         [ "nanoassert", "2.0.0" ],
         [ "sodium-universal", "3.1.0" ]
       ]
     },
     "noise-handshake": {
-      "2.2.0": [
+      "3.0.0": [
         [ "b4a", "1.6.0" ],
         [ "hmac-blake2b", "2.0.0" ],
         [ "nanoassert", "2.0.0" ],
@@ -246,10 +246,10 @@
   },
   "sources": {
     "@hyperswarm/secret-stream": {
-      "6.0.0": {
-        "hash": "sha512-0xuyJIJDe8JYk4uWUx25qJvWqybdjKU2ZIfP1GTqd7dQxwdR0bpYrQKdLkrn5txWSK4a28ySC2AjH0G3I0gXTA==",
+      "6.1.0": {
+        "hash": "sha512-6GjmdrYxZgJYGi8Ji7AZoqmmwQXSR9ByERkMPatcC5FMYgx9n5lDkwgKRK7faPQHpgtwjg2oLCrFveyGRLHV5g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@hyperswarm/secret-stream/-/secret-stream-6.0.0.tgz"
+        "url": "https://registry.npmjs.org/@hyperswarm/secret-stream/-/secret-stream-6.1.0.tgz"
       }
     },
     "b4a": {
@@ -405,17 +405,17 @@
       }
     },
     "noise-curve-ed": {
-      "1.0.4": {
-        "hash": "sha512-plUUSEOU66FZ9TaBKpk4+fgQeeS+OLlThS2o8a1TxVpMWV2v1izvEnjSpFV9gEPZl4/1yN+S5KqLubFjogqQOw==",
+      "2.0.0": {
+        "hash": "sha512-DRMv6ciwQVDpDMMcNWyt20kLuAmXVYVJoPUhmvmIZkgSALA6a+OeNTrX35gt5vQ6LgE36DSOFMpGfdmWpBmjDg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/noise-curve-ed/-/noise-curve-ed-1.0.4.tgz"
+        "url": "https://registry.npmjs.org/noise-curve-ed/-/noise-curve-ed-2.0.0.tgz"
       }
     },
     "noise-handshake": {
-      "2.2.0": {
-        "hash": "sha512-+0mFUc5YSnOPI+4K/7nr6XDGduITaUasPVurzrH03sk6yW+udKxP/qjEwEekRwIpnvcCKYnjiZ9HJenJv9ljZg==",
+      "3.0.0": {
+        "hash": "sha512-/EQq+TbCZpOFDg0bD3jtxKYqwgSBCFU1tfGxUzHHy94kBKMwVY8GHNxtWR+gekwkhXCu7TyBXqNPY3qdaxe+fQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/noise-handshake/-/noise-handshake-2.2.0.tgz"
+        "url": "https://registry.npmjs.org/noise-handshake/-/noise-handshake-3.0.0.tgz"
       }
     },
     "path-parse": {

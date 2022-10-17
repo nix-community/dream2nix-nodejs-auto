@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "qunit",
+    "location": "",
+    "packages": {
+      "qunit": "2.19.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "qunit": {
+      "2.19.2": [
+        [ "commander", "7.2.0" ],
+        [ "node-watch", "0.7.3" ],
+        [ "tiny-glob", "0.2.9" ]
+      ],
+      "unknown": [
+        [ "qunit", "2.19.2" ]
+      ]
+    },
+    "tiny-glob": {
+      "0.2.9": [
+        [ "globalyzer", "0.1.0" ],
+        [ "globrex", "0.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "commander": {
+      "7.2.0": {
+        "hash": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
+      }
+    },
+    "globalyzer": {
+      "0.1.0": {
+        "hash": "sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/globalyzer/-/globalyzer-0.1.0.tgz"
+      }
+    },
+    "globrex": {
+      "0.1.2": {
+        "hash": "sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/globrex/-/globrex-0.1.2.tgz"
+      }
+    },
+    "node-watch": {
+      "0.7.3": {
+        "hash": "sha512-3l4E8uMPY1HdMMryPRUAl+oIHtXtyiTlIiESNSVSNxcPfzAFzeTbXFQkZfAwBbo0B1qMSG8nUABx+Gd+YrbKrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/node-watch/-/node-watch-0.7.3.tgz"
+      }
+    },
+    "qunit": {
+      "2.19.2": {
+        "hash": "sha512-D575YwUeTFvYu9OrCitmnZ24QkcuwwLj3vtMRLHGUvme4oVljna4Qttm19BBDC4w/7wAZr2/QvbvWN6I4inJYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/qunit/-/qunit-2.19.2.tgz"
+      }
+    },
+    "tiny-glob": {
+      "0.2.9": {
+        "hash": "sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tiny-glob/-/tiny-glob-0.2.9.tgz"
+      }
+    }
+  }
+}

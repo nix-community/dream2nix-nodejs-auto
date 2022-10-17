@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "webrtc-adapter",
+    "location": "",
+    "packages": {
+      "webrtc-adapter": "8.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "webrtc-adapter": {
+      "8.2.0": [
+        [ "sdp", "3.0.3" ]
+      ],
+      "unknown": [
+        [ "webrtc-adapter", "8.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "sdp": {
+      "3.0.3": {
+        "hash": "sha512-8EkfckS+XZQaPLyChu4ey7PghrdcraCVNpJe2Gfdi2ON1ylQ7OasuKX+b37R9slnRChwIAiQgt+oj8xXGD8x+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sdp/-/sdp-3.0.3.tgz"
+      }
+    },
+    "webrtc-adapter": {
+      "8.2.0": {
+        "hash": "sha512-umxCMgedPAVq4Pe/jl3xmelLXLn4XZWFEMR5Iipb5wJ+k1xMX0yC4ZY9CueZUU1MjapFxai1tFGE7R/kotH6Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/webrtc-adapter/-/webrtc-adapter-8.2.0.tgz"
+      }
+    }
+  }
+}
