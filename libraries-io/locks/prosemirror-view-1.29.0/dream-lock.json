@@ -11,7 +11,13 @@
   "_subsystem": {
     "nodejsVersion": "14"
   },
-  "cyclicDependencies": {},
+  "cyclicDependencies": {
+    "prosemirror-state": {
+      "1.4.2": [
+        [ "prosemirror-view", "1.29.0" ]
+      ]
+    }
+  },
   "dependencies": {
     "prosemirror-model": {
       "1.18.1": [
@@ -19,9 +25,10 @@
       ]
     },
     "prosemirror-state": {
-      "1.4.1": [
+      "1.4.2": [
         [ "prosemirror-model", "1.18.1" ],
-        [ "prosemirror-transform", "1.7.0" ]
+        [ "prosemirror-transform", "1.7.0" ],
+        [ "prosemirror-view", "1.29.0" ]
       ]
     },
     "prosemirror-transform": {
@@ -32,7 +39,7 @@
     "prosemirror-view": {
       "1.29.0": [
         [ "prosemirror-model", "1.18.1" ],
-        [ "prosemirror-state", "1.4.1" ],
+        [ "prosemirror-state", "1.4.2" ],
         [ "prosemirror-transform", "1.7.0" ]
       ],
       "unknown": [
@@ -56,10 +63,10 @@
       }
     },
     "prosemirror-state": {
-      "1.4.1": {
-        "hash": "sha512-U/LBDW2gNmVa07sz/D229XigSdDQ5CLFwVB1Vb32MJbAHHhWe/6pOc721faI17tqw4pZ49i1xfY/jEZ9tbIhPg==",
+      "1.4.2": {
+        "hash": "sha512-puuzLD2mz/oTdfgd8msFbe0A42j5eNudKAAPDB0+QJRw8cO1ygjLmhLrg9RvDpf87Dkd6D4t93qdef00KKNacQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/prosemirror-state/-/prosemirror-state-1.4.1.tgz"
+        "url": "https://registry.npmjs.org/prosemirror-state/-/prosemirror-state-1.4.2.tgz"
       }
     },
     "prosemirror-transform": {

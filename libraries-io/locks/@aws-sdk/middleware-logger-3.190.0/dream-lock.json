@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/middleware-logger",
+    "location": "",
+    "packages": {
+      "@aws-sdk/middleware-logger": "3.190.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/middleware-logger": {
+      "3.190.0": [
+        [ "@aws-sdk/types", "3.190.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/middleware-logger", "3.190.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/middleware-logger": {
+      "3.190.0": {
+        "hash": "sha512-rrfLGYSZCBtiXNrIa8pJ2uwUoUMyj6Q82E8zmduTvqKWviCr6ZKes0lttGIkWhjvhql2m4CbjG5MPBnY7RXL4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-logger/-/middleware-logger-3.190.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.190.0": {
+        "hash": "sha512-mkeZ+vJZzElP6OdRXvuLKWHSlDQxZP9u8BjQB9N0Rw0pCXTzYS0vzIhN1pL0uddWp5fMrIE68snto9xNR6BQuA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.190.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

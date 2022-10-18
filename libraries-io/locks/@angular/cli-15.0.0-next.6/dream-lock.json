@@ -94,6 +94,10 @@
       "2.0.1": [
         [ "mkdirp", "1.0.4" ],
         [ "rimraf", "3.0.2" ]
+      ],
+      "3.0.0": [
+        [ "mkdirp", "1.0.4" ],
+        [ "rimraf", "3.0.2" ]
       ]
     },
     "@npmcli/promise-spawn": {
@@ -212,9 +216,9 @@
         [ "tar", "6.1.11" ],
         [ "unique-filename", "2.0.1" ]
       ],
-      "17.0.0": [
+      "17.0.1": [
         [ "@npmcli/fs", "3.0.0" ],
-        [ "@npmcli/move-file", "2.0.1" ],
+        [ "@npmcli/move-file", "3.0.0" ],
         [ "fs-minipass", "2.1.0" ],
         [ "glob", "8.0.3" ],
         [ "lru-cache", "7.14.0" ],
@@ -224,9 +228,9 @@
         [ "minipass-pipeline", "1.2.4" ],
         [ "p-map", "4.0.0" ],
         [ "promise-inflight", "1.0.1" ],
-        [ "ssri", "9.0.1" ],
+        [ "ssri", "10.0.0" ],
         [ "tar", "6.1.11" ],
-        [ "unique-filename", "2.0.1" ]
+        [ "unique-filename", "3.0.0" ]
       ]
     },
     "chalk": {
@@ -350,7 +354,7 @@
       ]
     },
     "ignore-walk": {
-      "5.0.1": [
+      "6.0.0": [
         [ "minimatch", "5.1.0" ]
       ]
     },
@@ -524,8 +528,8 @@
       ]
     },
     "npm-packlist": {
-      "7.0.0": [
-        [ "ignore-walk", "5.0.1" ]
+      "7.0.1": [
+        [ "ignore-walk", "6.0.0" ]
       ]
     },
     "npm-pick-manifest": {
@@ -596,17 +600,17 @@
         [ "@npmcli/installed-package-contents", "1.0.7" ],
         [ "@npmcli/promise-spawn", "3.0.0" ],
         [ "@npmcli/run-script", "4.2.1" ],
-        [ "cacache", "17.0.0" ],
+        [ "cacache", "17.0.1" ],
         [ "fs-minipass", "2.1.0" ],
         [ "minipass", "3.3.4" ],
         [ "npm-package-arg", "9.1.2" ],
-        [ "npm-packlist", "7.0.0" ],
+        [ "npm-packlist", "7.0.1" ],
         [ "npm-pick-manifest", "7.0.2" ],
         [ "npm-registry-fetch", "13.3.1" ],
         [ "proc-log", "2.0.1" ],
         [ "promise-retry", "2.0.1" ],
         [ "read-package-json", "5.0.2" ],
-        [ "read-package-json-fast", "3.0.0" ],
+        [ "read-package-json-fast", "3.0.1" ],
         [ "ssri", "9.0.1" ],
         [ "tar", "6.1.11" ]
       ]
@@ -630,9 +634,9 @@
         [ "json-parse-even-better-errors", "2.3.1" ],
         [ "npm-normalize-package-bin", "1.0.1" ]
       ],
-      "3.0.0": [
+      "3.0.1": [
         [ "json-parse-even-better-errors", "3.0.0" ],
-        [ "npm-normalize-package-bin", "2.0.0" ]
+        [ "npm-normalize-package-bin", "3.0.0" ]
       ]
     },
     "readable-stream": {
@@ -699,6 +703,9 @@
       ]
     },
     "ssri": {
+      "10.0.0": [
+        [ "minipass", "3.3.4" ]
+      ],
       "9.0.1": [
         [ "minipass", "3.3.4" ]
       ]
@@ -743,10 +750,16 @@
     "unique-filename": {
       "2.0.1": [
         [ "unique-slug", "3.0.0" ]
+      ],
+      "3.0.0": [
+        [ "unique-slug", "4.0.0" ]
       ]
     },
     "unique-slug": {
       "3.0.0": [
+        [ "imurmurhash", "0.1.4" ]
+      ],
+      "4.0.0": [
         [ "imurmurhash", "0.1.4" ]
       ]
     },
@@ -867,6 +880,11 @@
         "hash": "sha512-mJd2Z5TjYWq/ttPLLGqArdtnC74J6bOzg4rMDnN+p1xTacZ2yPRCk2y0oSWQtygLR9YVQXgOcONrwtnk3JupxQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/@npmcli/move-file/-/move-file-2.0.1.tgz"
+      },
+      "3.0.0": {
+        "hash": "sha512-mOUBUIXsqAQBfn87vGIjBAve6JmD9PkP9Vdq2SayDqQh2Ol60hnXaBSvT4V6IQiho1otw6SipnVV1fulvOiyKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@npmcli/move-file/-/move-file-3.0.0.tgz"
       }
     },
     "@npmcli/node-gyp": {
@@ -1048,10 +1066,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/cacache/-/cacache-16.1.3.tgz"
       },
-      "17.0.0": {
-        "hash": "sha512-5hYD+c8Ytmymo9b8tPgYWrWfHOzaO8M8jMUkyiEYfeLTwo70MUaD/yA1pNONi3upx02JIn3mtpDuSCXoQgtlHw==",
+      "17.0.1": {
+        "hash": "sha512-HRnDSZUXB5hdCQc2wuB8eBQPe1a9PVU2Ow8zMTi82NGJZmBGNTSjEGzetlndKlqpVYBa4esdaJ2LH6/uOB4sFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cacache/-/cacache-17.0.0.tgz"
+        "url": "https://registry.npmjs.org/cacache/-/cacache-17.0.1.tgz"
       }
     },
     "chalk": {
@@ -1380,10 +1398,10 @@
       }
     },
     "ignore-walk": {
-      "5.0.1": {
-        "hash": "sha512-yemi4pMf51WKT7khInJqAvsIGzoqYXblnsz0ql8tM+yi1EKYTY1evX4NAbJrLL/Aanr2HyZeluqU+Oi7MGHokw==",
+      "6.0.0": {
+        "hash": "sha512-bTf9UWe/UP1yxG3QUrj/KOvEhTAUWPcv+WvbFZ28LcqznXabp7Xu6o9y1JEC18+oqODuS7VhTpekV5XvFwsxJg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ignore-walk/-/ignore-walk-5.0.1.tgz"
+        "url": "https://registry.npmjs.org/ignore-walk/-/ignore-walk-6.0.0.tgz"
       }
     },
     "imurmurhash": {
@@ -1719,6 +1737,11 @@
         "hash": "sha512-awzfKUO7v0FscrSpRoogyNm0sajikhBWpU0QMrW09AMi9n1PoKU6WaIqUzuJSQnpciZZmJ/jMZ2Egfmb/9LiWQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/npm-normalize-package-bin/-/npm-normalize-package-bin-2.0.0.tgz"
+      },
+      "3.0.0": {
+        "hash": "sha512-g+DPQSkusnk7HYXr75NtzkIP4+N81i3RPsGFidF3DzHd9MT9wWngmqoeg/fnHFz5MNdtG4w03s+QnhewSLTT2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/npm-normalize-package-bin/-/npm-normalize-package-bin-3.0.0.tgz"
       }
     },
     "npm-package-arg": {
@@ -1729,10 +1752,10 @@
       }
     },
     "npm-packlist": {
-      "7.0.0": {
-        "hash": "sha512-8GRMzWQmFdUrRmc6tPPCd9Umm9g2qDR6X6Rik+9nYvoDQTLs/0IcCKv6iUdAmgr9sgJCm24QovwozCHWMDriOg==",
+      "7.0.1": {
+        "hash": "sha512-XddbYutimy7hdmP7S1tHMjFwghn64lvgdnhYG0KLGFBWjEvMt1/jg95OR3vPNNCjkakHS+k4a//3XOO8JOGI2A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/npm-packlist/-/npm-packlist-7.0.0.tgz"
+        "url": "https://registry.npmjs.org/npm-packlist/-/npm-packlist-7.0.1.tgz"
       }
     },
     "npm-pick-manifest": {
@@ -1860,10 +1883,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/read-package-json-fast/-/read-package-json-fast-2.0.3.tgz"
       },
-      "3.0.0": {
-        "hash": "sha512-dVZMRA86XfZYNxQu18el+HG18L92Rn9CyOhOiQRPFR6ygigZwnmPg1DEVPNFBesp8JeISYYLvvD8DaEkUSTFkQ==",
+      "3.0.1": {
+        "hash": "sha512-8+HW7Yo+cjfF+md8DqsZHgats2mxf7gGYow/+2JjxrftoHFZz9v4dzd0EubzYbkNaLxrTVcnllHwklXN2+7aTQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/read-package-json-fast/-/read-package-json-fast-3.0.0.tgz"
+        "url": "https://registry.npmjs.org/read-package-json-fast/-/read-package-json-fast-3.0.1.tgz"
       }
     },
     "readable-stream": {
@@ -2033,6 +2056,11 @@
       }
     },
     "ssri": {
+      "10.0.0": {
+        "hash": "sha512-64ghGOpqW0k+jh7m5jndBGdVEoPikWwGQmBNN5ks6jyUSMymzHDTlnNHOvzp+6MmHOljr2MokUzvRksnTwG0Iw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ssri/-/ssri-10.0.0.tgz"
+      },
       "9.0.1": {
         "hash": "sha512-o57Wcn66jMQvfHG1FlYbWeZWW/dHZhJXjpIcTfXldXEk5nz5lStPo3mK0OJQfGR3RbZUlbISexbljkJzuEj/8Q==",
         "type": "http",
@@ -2126,6 +2154,11 @@
         "hash": "sha512-ODWHtkkdx3IAR+veKxFV+VBkUMcN+FaqzUUd7IZzt+0zhDZFPFxhlqwPF3YQvMHx1TD0tdgYl+kuPnJ8E6ql7A==",
         "type": "http",
         "url": "https://registry.npmjs.org/unique-filename/-/unique-filename-2.0.1.tgz"
+      },
+      "3.0.0": {
+        "hash": "sha512-afXhuC55wkAmZ0P18QsVE6kp8JaxrEokN2HGIoIVv2ijHQd419H0+6EigAFcIzXeMIkcIkNBpB3L/DXB3cTS/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unique-filename/-/unique-filename-3.0.0.tgz"
       }
     },
     "unique-slug": {
@@ -2133,6 +2166,11 @@
         "hash": "sha512-8EyMynh679x/0gqE9fT9oilG+qEt+ibFyqjuVTsZn1+CMxH+XLlpvr2UZx4nVcCwTpx81nICr2JQFkM+HPLq4w==",
         "type": "http",
         "url": "https://registry.npmjs.org/unique-slug/-/unique-slug-3.0.0.tgz"
+      },
+      "4.0.0": {
+        "hash": "sha512-WrcA6AyEfqDX5bWige/4NQfPZMtASNVxdmWR76WESYQVAACSgWcR6e9i0mofqqBxYFtL4oAxPIptY73/0YE1DQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unique-slug/-/unique-slug-4.0.0.tgz"
       }
     },
     "uri-js": {
