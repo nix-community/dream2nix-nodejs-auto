@@ -178,24 +178,24 @@
     "@types/cacheable-request": {
       "6.0.2": [
         [ "@types/http-cache-semantics", "4.0.1" ],
-        [ "@types/keyv", "3.1.4" ],
-        [ "@types/node", "18.11.0" ],
+        [ "@types/keyv", "4.2.0" ],
+        [ "@types/node", "18.11.2" ],
         [ "@types/responselike", "1.0.0" ]
       ]
     },
     "@types/keyv": {
-      "3.1.4": [
-        [ "@types/node", "18.11.0" ]
+      "4.2.0": [
+        [ "keyv", "4.5.0" ]
       ]
     },
     "@types/resolve": {
       "1.17.1": [
-        [ "@types/node", "18.11.0" ]
+        [ "@types/node", "18.11.2" ]
       ]
     },
     "@types/responselike": {
       "1.0.0": [
-        [ "@types/node", "18.11.0" ]
+        [ "@types/node", "18.11.2" ]
       ]
     },
     "agent-base": {
@@ -284,7 +284,7 @@
       ]
     },
     "bufferutil": {
-      "4.0.6": [
+      "4.0.7": [
         [ "node-gyp-build", "4.5.0" ]
       ]
     },
@@ -695,7 +695,7 @@
       ]
     },
     "is-core-module": {
-      "2.10.0": [
+      "2.11.0": [
         [ "has", "1.0.3" ]
       ]
     },
@@ -1140,7 +1140,7 @@
     },
     "resolve": {
       "1.22.1": [
-        [ "is-core-module", "2.10.0" ],
+        [ "is-core-module", "2.11.0" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
       ]
@@ -1194,7 +1194,7 @@
     "snowpack": {
       "3.8.8": [
         [ "@npmcli/arborist", "2.10.0" ],
-        [ "bufferutil", "4.0.6" ],
+        [ "bufferutil", "4.0.7" ],
         [ "cachedir", "2.3.0" ],
         [ "cheerio", "1.0.0-rc.10" ],
         [ "chokidar", "3.5.3" ],
@@ -1210,7 +1210,7 @@
         [ "estree-walker", "2.0.2" ],
         [ "etag", "1.8.1" ],
         [ "execa", "5.1.1" ],
-        [ "fdir", "5.2.1" ],
+        [ "fdir", "5.3.0" ],
         [ "find-cache-dir", "3.3.2" ],
         [ "find-up", "5.0.0" ],
         [ "fsevents", "2.3.2" ],
@@ -1242,7 +1242,7 @@
         [ "source-map", "0.7.4" ],
         [ "strip-ansi", "6.0.1" ],
         [ "strip-comments", "2.0.1" ],
-        [ "utf-8-validate", "5.0.9" ],
+        [ "utf-8-validate", "5.0.10" ],
         [ "ws", "7.5.9" ],
         [ "yargs-parser", "20.2.9" ]
       ],
@@ -1358,7 +1358,7 @@
       ]
     },
     "utf-8-validate": {
-      "5.0.9": [
+      "5.0.10": [
         [ "node-gyp-build", "4.5.0" ]
       ]
     },
@@ -1609,17 +1609,17 @@
       }
     },
     "@types/keyv": {
-      "3.1.4": {
-        "hash": "sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==",
+      "4.2.0": {
+        "hash": "sha512-xoBtGl5R9jeKUhc8ZqeYaRDx04qqJ10yhhXYGmJ4Jr8qKpvMsDQQrNUvF/wUJ4klOtmJeJM+p2Xo3zp9uaC3tw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/keyv/-/keyv-3.1.4.tgz"
+        "url": "https://registry.npmjs.org/@types/keyv/-/keyv-4.2.0.tgz"
       }
     },
     "@types/node": {
-      "18.11.0": {
-        "hash": "sha512-IOXCvVRToe7e0ny7HpT/X9Rb2RYtElG1a+VshjwT00HxrM2dWBApHQoqsI6WiY7Q03vdf2bCrIGzVrkF/5t10w==",
+      "18.11.2": {
+        "hash": "sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.0.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.2.tgz"
       }
     },
     "@types/parse-json": {
@@ -1852,10 +1852,10 @@
       }
     },
     "bufferutil": {
-      "4.0.6": {
-        "hash": "sha512-jduaYOYtnio4aIAyc6UbvPCVcgq7nYpVnucyxr6eCYg/Woad9Hf/oxxBRDnGGjPfjUm6j5O/uBWhIu4iLebFaw==",
+      "4.0.7": {
+        "hash": "sha512-kukuqc39WOHtdxtw4UScxF/WVnMFVSQVKhtx3AjZJzhd0RGZZldcrfSEbVsWWe6KNH253574cq5F+wpv0G9pJw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.6.tgz"
+        "url": "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.7.tgz"
       }
     },
     "builtin-modules": {
@@ -2357,10 +2357,10 @@
       }
     },
     "fdir": {
-      "5.2.1": {
-        "hash": "sha512-YtT6MYUmSreefWXhX8XE2tmK7cI8+nRyi5VgOI0CE6AQZE7UyFWwjTbitLCq1mn6vRdYc5zyjWnUHeb0lN//9g==",
+      "5.3.0": {
+        "hash": "sha512-BtE53+jaa7nNHT+gPdfU6cFAXOJUWDs2b5GFox8dtl6zLXmfNf/N6im69b9nqNNwDyl27mpIWX8qR7AafWzSdQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/fdir/-/fdir-5.2.1.tgz"
+        "url": "https://registry.npmjs.org/fdir/-/fdir-5.3.0.tgz"
       }
     },
     "fill-range": {
@@ -2699,10 +2699,10 @@
       }
     },
     "is-core-module": {
-      "2.10.0": {
-        "hash": "sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==",
+      "2.11.0": {
+        "hash": "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz"
       }
     },
     "is-docker": {
@@ -3994,10 +3994,10 @@
       }
     },
     "utf-8-validate": {
-      "5.0.9": {
-        "hash": "sha512-Yek7dAy0v3Kl0orwMlvi7TPtiCNrdfHNd7Gcc/pLq4BLXqfAmd0J7OWMizUQnTTJsyjKn02mU7anqwfmUP4J8Q==",
+      "5.0.10": {
+        "hash": "sha512-Z6czzLq4u8fPOyx7TU6X3dvUZVvoJmxSQ+IcrlmagKhilxlhZgxPK6C5Jqbkw1IDUmFTM+cz9QDnnLTwDz/2gQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-5.0.9.tgz"
+        "url": "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-5.0.10.tgz"
       }
     },
     "util": {

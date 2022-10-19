@@ -39,7 +39,7 @@
         [ "@npmcli/promise-spawn", "4.0.0" ],
         [ "lru-cache", "7.14.0" ],
         [ "mkdirp", "1.0.4" ],
-        [ "npm-pick-manifest", "8.0.0" ],
+        [ "npm-pick-manifest", "8.0.1" ],
         [ "proc-log", "3.0.0" ],
         [ "promise-inflight", "1.0.1" ],
         [ "promise-retry", "2.0.1" ],
@@ -405,7 +405,7 @@
       ]
     },
     "is-core-module": {
-      "2.10.0": [
+      "2.11.0": [
         [ "has", "1.0.3" ]
       ]
     },
@@ -575,7 +575,7 @@
     "normalize-package-data": {
       "5.0.0": [
         [ "hosted-git-info", "6.0.0" ],
-        [ "is-core-module", "2.10.0" ],
+        [ "is-core-module", "2.11.0" ],
         [ "semver", "7.3.8" ],
         [ "validate-npm-package-license", "3.0.4" ]
       ]
@@ -601,7 +601,7 @@
         [ "lodash", "4.17.21" ],
         [ "minimatch", "5.1.0" ],
         [ "p-map", "4.0.0" ],
-        [ "pacote", "15.0.1" ],
+        [ "pacote", "15.0.2" ],
         [ "parse-github-url", "1.0.2" ],
         [ "progress", "2.0.3" ],
         [ "prompts-ncu", "2.5.1" ],
@@ -626,11 +626,11 @@
       ]
     },
     "npm-package-arg": {
-      "9.1.2": [
-        [ "hosted-git-info", "5.1.0" ],
-        [ "proc-log", "2.0.1" ],
+      "10.0.0": [
+        [ "hosted-git-info", "6.0.0" ],
+        [ "proc-log", "3.0.0" ],
         [ "semver", "7.3.8" ],
-        [ "validate-npm-package-name", "4.0.0" ]
+        [ "validate-npm-package-name", "5.0.0" ]
       ]
     },
     "npm-packlist": {
@@ -639,21 +639,21 @@
       ]
     },
     "npm-pick-manifest": {
-      "8.0.0": [
+      "8.0.1": [
         [ "npm-install-checks", "6.0.0" ],
         [ "npm-normalize-package-bin", "3.0.0" ],
-        [ "npm-package-arg", "9.1.2" ],
+        [ "npm-package-arg", "10.0.0" ],
         [ "semver", "7.3.8" ]
       ]
     },
     "npm-registry-fetch": {
-      "14.0.1": [
+      "14.0.2": [
         [ "make-fetch-happen", "11.0.1" ],
         [ "minipass", "3.3.4" ],
         [ "minipass-fetch", "3.0.0" ],
         [ "minipass-json-stream", "1.0.1" ],
         [ "minizlib", "2.1.2" ],
-        [ "npm-package-arg", "9.1.2" ],
+        [ "npm-package-arg", "10.0.0" ],
         [ "proc-log", "3.0.0" ]
       ]
     },
@@ -694,7 +694,7 @@
       ]
     },
     "pacote": {
-      "15.0.1": [
+      "15.0.2": [
         [ "@npmcli/git", "4.0.1" ],
         [ "@npmcli/installed-package-contents", "2.0.0" ],
         [ "@npmcli/promise-spawn", "4.0.0" ],
@@ -702,10 +702,10 @@
         [ "cacache", "17.0.1" ],
         [ "fs-minipass", "2.1.0" ],
         [ "minipass", "3.3.4" ],
-        [ "npm-package-arg", "9.1.2" ],
+        [ "npm-package-arg", "10.0.0" ],
         [ "npm-packlist", "7.0.1" ],
-        [ "npm-pick-manifest", "8.0.0" ],
-        [ "npm-registry-fetch", "14.0.1" ],
+        [ "npm-pick-manifest", "8.0.1" ],
+        [ "npm-registry-fetch", "14.0.2" ],
         [ "proc-log", "3.0.0" ],
         [ "promise-retry", "2.0.1" ],
         [ "read-package-json", "6.0.0" ],
@@ -933,7 +933,7 @@
       ]
     },
     "validate-npm-package-name": {
-      "4.0.0": [
+      "5.0.0": [
         [ "builtins", "5.0.1" ]
       ]
     },
@@ -1757,10 +1757,10 @@
       }
     },
     "is-core-module": {
-      "2.10.0": {
-        "hash": "sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==",
+      "2.11.0": {
+        "hash": "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz"
       }
     },
     "is-extglob": {
@@ -2153,10 +2153,10 @@
       }
     },
     "npm-package-arg": {
-      "9.1.2": {
-        "hash": "sha512-pzd9rLEx4TfNJkovvlBSLGhq31gGu2QDexFPWT19yCDh0JgnRhlBLNo5759N0AJmBk+kQ9Y/hXoLnlgFD+ukmg==",
+      "10.0.0": {
+        "hash": "sha512-7dkh8mRp7s0KwVHKIVJnFCJQ2B34gOGnzgBjDGyprycmARq/82SX/lhilQ95ZuacP/G/1gsS345iAkKmxWBQ2Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/npm-package-arg/-/npm-package-arg-9.1.2.tgz"
+        "url": "https://registry.npmjs.org/npm-package-arg/-/npm-package-arg-10.0.0.tgz"
       }
     },
     "npm-packlist": {
@@ -2167,17 +2167,17 @@
       }
     },
     "npm-pick-manifest": {
-      "8.0.0": {
-        "hash": "sha512-Tcy/Mdf9L5f09vaBZo/z9+eb+ZTDeXWZFuPD5PZ6grobO9E3tjaPH+jQOFXZNn3EcqaiRcROzKU1UU7mLTtC2w==",
+      "8.0.1": {
+        "hash": "sha512-mRtvlBjTsJvfCCdmPtiu2bdlx8d/KXtF7yNXNWe7G0Z36qWA9Ny5zXsI2PfBZEv7SXgoxTmNaTzGSbbzDZChoA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/npm-pick-manifest/-/npm-pick-manifest-8.0.0.tgz"
+        "url": "https://registry.npmjs.org/npm-pick-manifest/-/npm-pick-manifest-8.0.1.tgz"
       }
     },
     "npm-registry-fetch": {
-      "14.0.1": {
-        "hash": "sha512-B7/9SiukduNqDfrsNbMRWFg+ML7V/Ho0Yd1hT7TgGGb6/ARclkFvzCNTFcSM/NBO/hGmijumA6JRMiB4DlJ98Q==",
+      "14.0.2": {
+        "hash": "sha512-TMenrMagFA9KF81E2bkS5XRyzERK4KXu70vgXt5+i8FcrFeLNgNsc6e5hekTqjDwPDkL3HGn/holWcXDMfnFgw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-14.0.1.tgz"
+        "url": "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-14.0.2.tgz"
       }
     },
     "npmlog": {
@@ -2230,10 +2230,10 @@
       }
     },
     "pacote": {
-      "15.0.1": {
-        "hash": "sha512-91Po/ZZE5fIEkbesHwsZPNae7SczIN8pSD2od96NMCfA2gGzdeEVY4CAFfXZKi+lfSEOlFIsKadRrYPj7nR/PA==",
+      "15.0.2": {
+        "hash": "sha512-Gj4w436jiM9/0574JGI8nxpsuXssp5OhyBhnWijvzUVJdU5GvNvnYUgd5WA6mr6ImOQ7JqWqdA44ixBqqMfyZQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/pacote/-/pacote-15.0.1.tgz"
+        "url": "https://registry.npmjs.org/pacote/-/pacote-15.0.2.tgz"
       }
     },
     "parse-github-url": {
@@ -2272,11 +2272,6 @@
       }
     },
     "proc-log": {
-      "2.0.1": {
-        "hash": "sha512-Kcmo2FhfDTXdcbfDH76N7uBYHINxc/8GW7UAVuVP9I+Va3uHSerrnKV6dLooga/gh7GlgzuCCr/eoldnL1muGw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/proc-log/-/proc-log-2.0.1.tgz"
-      },
       "3.0.0": {
         "hash": "sha512-++Vn7NS4Xf9NacaU9Xq3URUuqZETPsf8L4j5/ckhaRYsfPeRyzGw+iDjFhV/Jr3uNmTvvddEJFWh5R1gRgUH8A==",
         "type": "http",
@@ -2720,10 +2715,10 @@
       }
     },
     "validate-npm-package-name": {
-      "4.0.0": {
-        "hash": "sha512-mzR0L8ZDktZjpX4OB46KT+56MAhl4EIazWP/+G/HPGuvfdaqg4YsCdtOm6U9+LOFyYDoh4dpnpxZRB9MQQns5Q==",
+      "5.0.0": {
+        "hash": "sha512-YuKoXDAhBYxY7SfOKxHBDoSyENFeW5VvIIQp2TGQuit8gpK6MnWaQelBKxso72DoxTZfZdcP3W90LqpSkgPzLQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/validate-npm-package-name/-/validate-npm-package-name-4.0.0.tgz"
+        "url": "https://registry.npmjs.org/validate-npm-package-name/-/validate-npm-package-name-5.0.0.tgz"
       }
     },
     "which": {
