@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "cache-manager",
+    "location": "",
+    "packages": {
+      "cache-manager": "5.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cache-manager": {
+      "5.1.1": [
+        [ "lodash.clonedeep", "4.5.0" ],
+        [ "lru-cache", "7.14.0" ]
+      ],
+      "unknown": [
+        [ "cache-manager", "5.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "cache-manager": {
+      "5.1.1": {
+        "hash": "sha512-xvbv24xOimcGNIna+LOoX0IV8ng6JrEhocYOpfaxPRx4fzyB9B91WYTj/kHcgt8ZPuDq8nt3T9XFh6NlWtA2Ew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cache-manager/-/cache-manager-5.1.1.tgz"
+      }
+    },
+    "lodash.clonedeep": {
+      "4.5.0": {
+        "hash": "sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz"
+      }
+    },
+    "lru-cache": {
+      "7.14.0": {
+        "hash": "sha512-EIRtP1GrSJny0dqb50QXRUNBxHJhcpxHC++M5tD7RYbvLLn5KVWKsbyswSSqDuU15UFi3bgTQIY8nhDMeF6aDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-7.14.0.tgz"
+      }
+    }
+  }
+}
