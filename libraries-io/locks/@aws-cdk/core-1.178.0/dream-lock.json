@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-cdk/core",
+    "location": "",
+    "packages": {
+      "@aws-cdk/core": "1.178.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-cdk/core": {
+      "1.178.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.178.0" ],
+        [ "@aws-cdk/cx-api", "1.178.0" ],
+        [ "@aws-cdk/region-info", "1.178.0" ],
+        [ "constructs", "3.4.130" ]
+      ],
+      "unknown": [
+        [ "@aws-cdk/core", "1.178.0" ]
+      ]
+    },
+    "@aws-cdk/cx-api": {
+      "1.178.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.178.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-cdk/cloud-assembly-schema": {
+      "1.178.0": {
+        "hash": "sha512-15j1u+3/b4PCzKtHTCs1NRqvSN3w2qUZ4k/9Iid7tzBzgBd50aBEL8+50mRPIlY2sNzSFPL2XoxKB3ufz7YmmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.178.0.tgz"
+      }
+    },
+    "@aws-cdk/core": {
+      "1.178.0": {
+        "hash": "sha512-Hb22Fa5OOQZh6KOEc1xgeS14bIZUknI0vpnxpHMzoCsyTbsNgGL21cLVlftXIfXGOmr7Q6FKVmmOJllN2Ipo4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/core/-/core-1.178.0.tgz"
+      }
+    },
+    "@aws-cdk/cx-api": {
+      "1.178.0": {
+        "hash": "sha512-ECXUzx00Or0+u/wSWGe5AMUDbP89ZeMK/Gr0ZQAgPDnrGT83SZqBmfNjhbyPYdanVn5LeSYsQCnZfS8PIw19PA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cx-api/-/cx-api-1.178.0.tgz"
+      }
+    },
+    "@aws-cdk/region-info": {
+      "1.178.0": {
+        "hash": "sha512-hRjmyoWgUmYwcLEaOl+ZZHCTzn+K3Y4bpJela8TJHwWnpcuH6MbM8EgvO+ZjXV/WYaxamBClMSg+B318qMl3ew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/region-info/-/region-info-1.178.0.tgz"
+      }
+    },
+    "constructs": {
+      "3.4.130": {
+        "hash": "sha512-5uxrJWkCWn350JA9R3j816TtOKMK6hSjkfAwcVHK5XBWFucrHmMsbdkXZw8kNfEuf1FMKmNvovIVJFpyjiWRiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/constructs/-/constructs-3.4.130.tgz"
+      }
+    }
+  }
+}

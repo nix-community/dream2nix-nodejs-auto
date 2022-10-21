@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/node-config-provider",
+    "location": "",
+    "packages": {
+      "@aws-sdk/node-config-provider": "3.193.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/node-config-provider": {
+      "3.193.0": [
+        [ "@aws-sdk/property-provider", "3.193.0" ],
+        [ "@aws-sdk/shared-ini-file-loader", "3.193.0" ],
+        [ "@aws-sdk/types", "3.193.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/node-config-provider", "3.193.0" ]
+      ]
+    },
+    "@aws-sdk/property-provider": {
+      "3.193.0": [
+        [ "@aws-sdk/types", "3.193.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    },
+    "@aws-sdk/shared-ini-file-loader": {
+      "3.193.0": [
+        [ "@aws-sdk/types", "3.193.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/node-config-provider": {
+      "3.193.0": {
+        "hash": "sha512-5RLdjQLH69ISRG8TX9klSLOpEySXxj+z9E9Em39HRvw0/rDcd8poCTADvjYIOqRVvMka0z/hm+elvUTIVn/DRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/node-config-provider/-/node-config-provider-3.193.0.tgz"
+      }
+    },
+    "@aws-sdk/property-provider": {
+      "3.193.0": {
+        "hash": "sha512-IaDR/PdZjKlAeSq2E/6u6nkPsZF9wvhHZckwH7uumq4ocWsWXFzaT+hKpV4YZPHx9n+K2YV4Gn/bDedpz99W1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/property-provider/-/property-provider-3.193.0.tgz"
+      }
+    },
+    "@aws-sdk/shared-ini-file-loader": {
+      "3.193.0": {
+        "hash": "sha512-hnvZup8RSpFXfah7Rrn6+lQJnAOCO+OiDJ2R/iMgZQh475GRQpLbu3cPhCOkjB14vVLygJtW8trK/0+zKq93bQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/shared-ini-file-loader/-/shared-ini-file-loader-3.193.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.193.0": {
+        "hash": "sha512-LV/wcPolRZKORrcHwkH59QMCkiDR5sM+9ZtuTxvyUGG2QFW/kjoxs08fUF10OWNJMrotBI+czDc5QJRgN8BlAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.193.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

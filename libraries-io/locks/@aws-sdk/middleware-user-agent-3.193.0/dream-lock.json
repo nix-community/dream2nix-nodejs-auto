@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/middleware-user-agent",
+    "location": "",
+    "packages": {
+      "@aws-sdk/middleware-user-agent": "3.193.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/middleware-user-agent": {
+      "3.193.0": [
+        [ "@aws-sdk/protocol-http", "3.193.0" ],
+        [ "@aws-sdk/types", "3.193.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/middleware-user-agent", "3.193.0" ]
+      ]
+    },
+    "@aws-sdk/protocol-http": {
+      "3.193.0": [
+        [ "@aws-sdk/types", "3.193.0" ],
+        [ "tslib", "2.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/middleware-user-agent": {
+      "3.193.0": {
+        "hash": "sha512-0vT6F9NwYQK7ARUUJeHTUIUPnupsO3IbmjHSi1+clkssFlJm2UfmSGeafiWe4AYH3anATTvZEtcxX5DZT/ExbA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-user-agent/-/middleware-user-agent-3.193.0.tgz"
+      }
+    },
+    "@aws-sdk/protocol-http": {
+      "3.193.0": {
+        "hash": "sha512-r0wbTwFJyXq0uiImI6giqG3g/RO1N/y4wwPA7qr7OC+KXJ0NkyVxIf6e7Vx8h06aM1ATtngbwJaMP59kVCp85A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/protocol-http/-/protocol-http-3.193.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.193.0": {
+        "hash": "sha512-LV/wcPolRZKORrcHwkH59QMCkiDR5sM+9ZtuTxvyUGG2QFW/kjoxs08fUF10OWNJMrotBI+czDc5QJRgN8BlAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.193.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

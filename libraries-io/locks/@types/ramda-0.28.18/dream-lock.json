@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/ramda",
+    "location": "",
+    "packages": {
+      "@types/ramda": "0.28.18"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/ramda": {
+      "0.28.18": [
+        [ "ts-toolbelt", "6.15.5" ]
+      ],
+      "unknown": [
+        [ "@types/ramda", "0.28.18" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/ramda": {
+      "0.28.18": {
+        "hash": "sha512-DlhIC80d1ArfB1jz8C5OzavJfIj6hmEOQzCzy7Nt0FRqXJbmWTt05vI+f3rfC+3AR1VQwvyCMaCyZv++HGk+6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/ramda/-/ramda-0.28.18.tgz"
+      }
+    },
+    "ts-toolbelt": {
+      "6.15.5": {
+        "hash": "sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "_generic": {
+    "defaultPackage": "pixi.js",
+    "location": "",
+    "packages": {
+      "pixi.js": "7.0.0-beta.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@pixi/assets": {
+      "7.0.0-beta.4": [
+        [ "@types/css-font-loading-module", "0.0.7" ]
+      ]
+    },
+    "@pixi/core": {
+      "7.0.0-beta.4": [
+        [ "@pixi/constants", "7.0.0-beta.4" ],
+        [ "@pixi/extensions", "7.0.0-beta.4" ],
+        [ "@pixi/math", "7.0.0-beta.4" ],
+        [ "@pixi/runner", "7.0.0-beta.4" ],
+        [ "@pixi/settings", "7.0.0-beta.4" ],
+        [ "@pixi/ticker", "7.0.0-beta.4" ],
+        [ "@pixi/utils", "7.0.0-beta.4" ],
+        [ "@types/offscreencanvas", "2019.7.0" ]
+      ]
+    },
+    "@pixi/settings": {
+      "7.0.0-beta.4": [
+        [ "@pixi/constants", "7.0.0-beta.4" ],
+        [ "@types/css-font-loading-module", "0.0.7" ]
+      ]
+    },
+    "@pixi/ticker": {
+      "7.0.0-beta.4": [
+        [ "@pixi/extensions", "7.0.0-beta.4" ],
+        [ "@pixi/settings", "7.0.0-beta.4" ]
+      ]
+    },
+    "@pixi/utils": {
+      "7.0.0-beta.4": [
+        [ "@pixi/constants", "7.0.0-beta.4" ],
+        [ "@pixi/settings", "7.0.0-beta.4" ],
+        [ "@types/earcut", "2.1.1" ],
+        [ "earcut", "2.2.4" ],
+        [ "eventemitter3", "4.0.7" ],
+        [ "url", "0.11.0" ]
+      ]
+    },
+    "pixi.js": {
+      "7.0.0-beta.4": [
+        [ "@pixi/accessibility", "7.0.0-beta.4" ],
+        [ "@pixi/app", "7.0.0-beta.4" ],
+        [ "@pixi/assets", "7.0.0-beta.4" ],
+        [ "@pixi/compressed-textures", "7.0.0-beta.4" ],
+        [ "@pixi/core", "7.0.0-beta.4" ],
+        [ "@pixi/display", "7.0.0-beta.4" ],
+        [ "@pixi/events", "7.0.0-beta.4" ],
+        [ "@pixi/extensions", "7.0.0-beta.4" ],
+        [ "@pixi/extract", "7.0.0-beta.4" ],
+        [ "@pixi/filter-alpha", "7.0.0-beta.4" ],
+        [ "@pixi/filter-blur", "7.0.0-beta.4" ],
+        [ "@pixi/filter-color-matrix", "7.0.0-beta.4" ],
+        [ "@pixi/filter-displacement", "7.0.0-beta.4" ],
+        [ "@pixi/filter-fxaa", "7.0.0-beta.4" ],
+        [ "@pixi/filter-noise", "7.0.0-beta.4" ],
+        [ "@pixi/graphics", "7.0.0-beta.4" ],
+        [ "@pixi/mesh", "7.0.0-beta.4" ],
+        [ "@pixi/mesh-extras", "7.0.0-beta.4" ],
+        [ "@pixi/mixin-cache-as-bitmap", "7.0.0-beta.4" ],
+        [ "@pixi/mixin-get-child-by-name", "7.0.0-beta.4" ],
+        [ "@pixi/mixin-get-global-position", "7.0.0-beta.4" ],
+        [ "@pixi/particle-container", "7.0.0-beta.4" ],
+        [ "@pixi/prepare", "7.0.0-beta.4" ],
+        [ "@pixi/sprite", "7.0.0-beta.4" ],
+        [ "@pixi/sprite-animated", "7.0.0-beta.4" ],
+        [ "@pixi/sprite-tiling", "7.0.0-beta.4" ],
+        [ "@pixi/spritesheet", "7.0.0-beta.4" ],
+        [ "@pixi/text", "7.0.0-beta.4" ],
+        [ "@pixi/text-bitmap", "7.0.0-beta.4" ]
+      ],
+      "unknown": [
+        [ "pixi.js", "7.0.0-beta.4" ]
+      ]
+    },
+    "url": {
+      "0.11.0": [
+        [ "punycode", "1.3.2" ],
+        [ "querystring", "0.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@pixi/accessibility": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-gcjkZDGxiLjeimBqkFAH4RUH+7r0jN1hAi9c8+cSnxHaLwcN1gMkdJRZe4Dpxw/R00T61nK5F/+nsArRFCuriQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/accessibility/-/accessibility-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/app": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-suj1xD5/SQn+o1uTa7ueFOiyZDeCliJLc6L0gV3Dgep8mgT0SxD+zkPkBaEdEu/f7QlLfjSXI7s7xYGAtyxDaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/app/-/app-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/assets": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-PndwY9mm66GTJYj7OinoSZ/H+fAr2qUw8R9fY90H/eExq8Cj15gedeIbAagtstTjvDpHQzPHmpTITBRGJF9AmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/assets/-/assets-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/compressed-textures": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-Z5FZgDPJPWFoiU7kxuWaFVXLI3Z7ZgDuDAWudlv+26MXb8649NmpK+ONVRcrwiK4+oNLjRL/zf2Z+soachj3Xw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/compressed-textures/-/compressed-textures-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/constants": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-HEAXNeFoq6H+bvFs9ucXF9SQ+heLJXJyogAuYTHD1VYAntSp6lg2wOXTx1aMRBeu7FwgrP4dU7FUtfkOYGufpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/constants/-/constants-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/core": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-1p+9sTfTlu+h5Umratwoa+3fSjGwDe6J4oM3psGspQFAFunHFz13x18BFh6CbfTc++DMmlOqhAU0GISDDLXMXA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/core/-/core-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/display": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-hJK6a2IPAPYdERu8cfN1GNs+2zC3Z0h0IPLNfziVTFjxjMOnA9P28HRmSXJIat/fauP/9Mn42xGUQ6z9SF/uTg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/display/-/display-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/events": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-thLN+usrfl15El1HSVngAHCX3JopFBohDBfwGIK3BHzRj1QrrMGhcqX93mHk6LmP1I5BANxdIe+kWYzvjYiVSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/events/-/events-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/extensions": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-yszu7BT1yQR23o5yG6hcZM8kNiCobdVWOoBVguOv1hAh6YUJIe9QW8cTMZp+kShI3QXE0YXJmQewGOTayAsH2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/extensions/-/extensions-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/extract": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-oFitQSEkq8/dci1sdceOLR/NUXuteJz3m9ZBZw/nHUgyxbKZ1EHYE6vf0g42obhGbapU+9s5E2dNnHVix845ng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/extract/-/extract-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/filter-alpha": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-PKgTN/6ExYcSIWpR2JnkgygXw1ygHkol77WTgca7uZVyjCpBWq/Eg5Sux2IqRWBoc8TkFvifvlQmAGcKrLexwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/filter-alpha/-/filter-alpha-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/filter-blur": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-25oET39koZCPKfudg8otmh3fnRx+Ok/X3ZJPNYb5+mV5gxnU59uoFhxJx4MOluNqDbtu6OiFsyHxh5cPGVHryg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/filter-blur/-/filter-blur-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/filter-color-matrix": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-qtNCSUiH101smrr3g9VNlsEvyZuUDXxbHPClCHZJCj93jmSUr6O0pvhGT9XLsVyFmIqw/1NX2o77mGSePxqznQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/filter-color-matrix/-/filter-color-matrix-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/filter-displacement": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-SFSXOY7cPYMxnaGzF5IDsB6NKyHwXWbyJ1zYieEd72/QLYCDYx1dxUCJlqhIh2xZtH2fYYcW0RSbeyKHbjhTKg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/filter-displacement/-/filter-displacement-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/filter-fxaa": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-yQPU/H/wUzhMr8wplUNuhTTcm93tZEm1CZ/zORJ8VRsyANb8qoTAZ6N3wEeZztE79yXw/jq+O4akALyivhoA+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/filter-fxaa/-/filter-fxaa-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/filter-noise": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-yRBpkY2Ks9JX9//NKiE/DNbGkOer5nN1M3OXLBrQn0DYPHGQORxr8zNAXUusfxKDNhmRZ5mDSc/t+LZ/4wWPgw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/filter-noise/-/filter-noise-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/graphics": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-MYydYQha9oLtyeMpGHRPmhOMvSTSXGvoqb3YffVQnS8OyBnvBaErY4Nrly8uK+duif4XmE2C1AGJ1AnSVZ/+dQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/graphics/-/graphics-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/math": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-AXNggCUMKDpgIIDPy7SCbKi2KIHDoIivnFEarqVIBgtoj6rwXhXKYYf6B4XX0uOh1Mysz2oxeIowhnMMHQ7LVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/math/-/math-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/mesh": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-wKKcf3JK3FNFMrLPQtVTNQ6mY+ces/PZ777hNZLavDJ5dLMqlCBLLXii1tF6T/ceiE9u7Z+LzTv5OWX5omz3Vw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/mesh/-/mesh-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/mesh-extras": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-8/Tf18huUOgp2zSRFYTKYfr20Ho3pJ/78ZZl4MqNJrO0mWqw7e/VdWNBLhO6mdO41palOl4qsTwsYidS/6CT/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/mesh-extras/-/mesh-extras-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/mixin-cache-as-bitmap": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-a/NCuB7mqw7owAkt+kHzG1HsaxNU32KGFC0uvNsnAZgxK+cNQJUgukTce05fV2F8JWbJ4vvbkPfucR4v+Kespg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/mixin-cache-as-bitmap/-/mixin-cache-as-bitmap-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/mixin-get-child-by-name": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-0iEZDph+5JE84KdmzmDnaUCBIYthUnHTVGC+klUaSaEXBwyevppBopzoBb1WCVgASe2a10Ni3ymNPctrCtyeqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/mixin-get-child-by-name/-/mixin-get-child-by-name-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/mixin-get-global-position": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-3pAswqxCcX+jOazNYf6HEIkFys8oh+YWeYW7v042VABSg7WjCeCp+PZ7S36wY4Qy4kyvcpRVwhFeBzW+/Jh6PA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/mixin-get-global-position/-/mixin-get-global-position-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/particle-container": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-OwtwdsUfC6f5eom7CimDMoCbvpobHLM2qAp12MEpOEC5TvU/sAn6w9HDHnGAS+hyCrehKAFFtefqH054DWWoLw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/particle-container/-/particle-container-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/prepare": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-Dzd3H/nF+XUmlx3WibkD5n5icdOJozPdVqORuZNiODA5pvhKQj+aVWmxR7xDBbeNZYozz6nIXMmyQhwkY79Kew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/prepare/-/prepare-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/runner": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-x8hhEzA7MuUzWprEmgnT1q/9hBgh8AQfl7UpIRca81Q9skfbDavgXWMC4bV2apU5DZT3wgn8e/Tvz8aN5+BKSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/runner/-/runner-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/settings": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-TEPrKBsj28mhX4qoR32w4x4OK1Mk29CUeWCbVeRgsk05XFKO4bSD8sKleI7nPwmS7uF/O0Xf7pPpEWxFTgGGBQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/settings/-/settings-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/sprite": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-0jy/CwGAiDzgb2G7fsyIrLzjFGb2TexGNni5hhoT2joMZSdqZQWZufcvs/o2ERWgVr7tYa7zdlNndF13IkqI0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/sprite/-/sprite-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/sprite-animated": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-FA5Y3LNVnvyUs9mx3Dj1cAc4PcOagYoCgCdxhXxnACCi4xAZEj1hANbHulaZ/lnzFZaq5ym/sZH1EiZ9+c4jng==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/sprite-animated/-/sprite-animated-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/sprite-tiling": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-K0AnFs935IAiyq+gPgpBUOAtAWje8NzZNoSEQdz/2o49yliJalvOZqJ6yDe2THfeBXWWBduutVMfGVteVgU39g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/sprite-tiling/-/sprite-tiling-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/spritesheet": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-vA1FS1j5nc1HkeNkdOq31K6FBY4BoisFDwlsGYBcSvPKzU5Vuu33ohY3GFklVrQtEH3+vDHmo7Kl3d0DLeoNrw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/spritesheet/-/spritesheet-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/text": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-LAVjAYGhapoRmf5FgzlxaDZSmCt5aMoxwQvOhZVI/I1EWS2f0cE7RG1xjOCuM9qTLQPJf1gvq+vb4XtcBmQK2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/text/-/text-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/text-bitmap": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-+38W4JG0MOzR//GvzIZEEWXFU73gZFmk8dOeU86UqqGg3vsWJkW6XgLT52lfHN0gBW7RlRdEhuWd+GY7ViFsdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/text-bitmap/-/text-bitmap-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/ticker": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-jfi+HxX5qDhLGVfrl5vdXUfyidbDSOmZYUkaVO+yEBAO7Ze2ggN41ss++Py5UF738h3eLkEZQlURVumElXTkvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/ticker/-/ticker-7.0.0-beta.4.tgz"
+      }
+    },
+    "@pixi/utils": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-F/D352VI8Z9FOEClrLfeSOXB61MVNI53jTGwDXXhFJ9H83eVdOdABRYzyV90GLKinfPnPzs+JMsvEe772S2hLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@pixi/utils/-/utils-7.0.0-beta.4.tgz"
+      }
+    },
+    "@types/css-font-loading-module": {
+      "0.0.7": {
+        "hash": "sha512-nl09VhutdjINdWyXxHWN/w9zlNCfr60JUqJbd24YXUuCwgeL0TpFSdElCwb6cxfB6ybE19Gjj4g0jsgkXxKv1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/css-font-loading-module/-/css-font-loading-module-0.0.7.tgz"
+      }
+    },
+    "@types/earcut": {
+      "2.1.1": {
+        "hash": "sha512-w8oigUCDjElRHRRrMvn/spybSMyX8MTkKA5Dv+tS1IE/TgmNZPqUYtvYBXGY8cieSE66gm+szeK+bnbxC2xHTQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/earcut/-/earcut-2.1.1.tgz"
+      }
+    },
+    "@types/offscreencanvas": {
+      "2019.7.0": {
+        "hash": "sha512-PGcyveRIpL1XIqK8eBsmRBt76eFgtzuPiSTyKHZxnGemp2yzGzWpjYKAfK3wIMiU7eH+851yEpiuP8JZerTmWg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.7.0.tgz"
+      }
+    },
+    "earcut": {
+      "2.2.4": {
+        "hash": "sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/earcut/-/earcut-2.2.4.tgz"
+      }
+    },
+    "eventemitter3": {
+      "4.0.7": {
+        "hash": "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz"
+      }
+    },
+    "pixi.js": {
+      "7.0.0-beta.4": {
+        "hash": "sha512-fP7wV5J8GMU33KjJYqneQaaHgiL+joBi6r1y7cOYsFbb44VkHYtdUFviB/+V9OiPVdvF5Mn46bhB7eJuOc5DOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pixi.js/-/pixi.js-7.0.0-beta.4.tgz"
+      }
+    },
+    "punycode": {
+      "1.3.2": {
+        "hash": "sha512-RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz"
+      }
+    },
+    "querystring": {
+      "0.2.0": {
+        "hash": "sha512-X/xY82scca2tau62i9mDyU9K+I+djTMUsvwf7xnUX5GLvVzgJybOJf4Y6o9Zx3oJK/LSXg5tTZBjwzqVPaPO2g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz"
+      }
+    },
+    "url": {
+      "0.11.0": {
+        "hash": "sha512-kbailJa29QrtXnxgq+DdCEGlbTeYM2eJUxsz6vjZavrCYPMIFHMKQmSKYAIuUK2i7hgPm28a8piX5NTUtM/LKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/url/-/url-0.11.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/chrome",
+    "location": "",
+    "packages": {
+      "@types/chrome": "0.0.199"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/chrome": {
+      "0.0.199": [
+        [ "@types/filesystem", "0.0.32" ],
+        [ "@types/har-format", "1.2.9" ]
+      ],
+      "unknown": [
+        [ "@types/chrome", "0.0.199" ]
+      ]
+    },
+    "@types/filesystem": {
+      "0.0.32": [
+        [ "@types/filewriter", "0.0.29" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/chrome": {
+      "0.0.199": {
+        "hash": "sha512-BDuKiS8iZONsvTFSjbJlmHAwkYpkcWtG7Z7ESDJ/vf0QlcaXX6q4Xzi7euDNjIS4ZMA4kSODPGBHGVdC2lAHzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/chrome/-/chrome-0.0.199.tgz"
+      }
+    },
+    "@types/filesystem": {
+      "0.0.32": {
+        "hash": "sha512-Yuf4jR5YYMR2DVgwuCiP11s0xuVRyPKmz8vo6HBY3CGdeMj8af93CFZX+T82+VD1+UqHOxTq31lO7MI7lepBtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/filesystem/-/filesystem-0.0.32.tgz"
+      }
+    },
+    "@types/filewriter": {
+      "0.0.29": {
+        "hash": "sha512-BsPXH/irW0ht0Ji6iw/jJaK8Lj3FJemon2gvEqHKpCdDCeemHa+rI3WBGq5z7cDMZgoLjY40oninGxqk+8NzNQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/filewriter/-/filewriter-0.0.29.tgz"
+      }
+    },
+    "@types/har-format": {
+      "1.2.9": {
+        "hash": "sha512-rffW6MhQ9yoa75bdNi+rjZBAvu2HhehWJXlhuWXnWdENeuKe82wUgAwxYOb7KRKKmxYN+D/iRKd2NDQMLqlUmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/har-format/-/har-format-1.2.9.tgz"
+      }
+    }
+  }
+}

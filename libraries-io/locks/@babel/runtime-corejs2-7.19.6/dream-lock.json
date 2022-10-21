@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@babel/runtime-corejs2",
+    "location": "",
+    "packages": {
+      "@babel/runtime-corejs2": "7.19.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime-corejs2": {
+      "7.19.6": [
+        [ "core-js", "2.6.12" ],
+        [ "regenerator-runtime", "0.13.10" ]
+      ],
+      "unknown": [
+        [ "@babel/runtime-corejs2", "7.19.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime-corejs2": {
+      "7.19.6": {
+        "hash": "sha512-zJ/98/w+4VkP4bGqSO+cKVnhF/096OQIWQQhdWHxsXpHN23KVXJciElWgXA82VWLNMtPvlWdiPA6hoqNCx7R2A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime-corejs2/-/runtime-corejs2-7.19.6.tgz"
+      }
+    },
+    "core-js": {
+      "2.6.12": {
+        "hash": "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    }
+  }
+}
