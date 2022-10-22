@@ -1,0 +1,90 @@
+{
+  "_generic": {
+    "defaultPackage": "@rollup/plugin-strip",
+    "location": "",
+    "packages": {
+      "@rollup/plugin-strip": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@rollup/plugin-strip": {
+      "3.0.1": [
+        [ "@rollup/pluginutils", "5.0.2" ],
+        [ "estree-walker", "2.0.2" ],
+        [ "magic-string", "0.26.7" ]
+      ],
+      "unknown": [
+        [ "@rollup/plugin-strip", "3.0.1" ]
+      ]
+    },
+    "@rollup/pluginutils": {
+      "5.0.2": [
+        [ "@types/estree", "1.0.0" ],
+        [ "estree-walker", "2.0.2" ],
+        [ "picomatch", "2.3.1" ]
+      ]
+    },
+    "magic-string": {
+      "0.26.7": [
+        [ "sourcemap-codec", "1.4.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "@rollup/plugin-strip": {
+      "3.0.1": {
+        "hash": "sha512-mG6dHXVhNzU2i5qsS7RNtKuXf4zfDyel4G/RoT1wxaLblHeNSssjgSjWPfkp6ZhXYxFPdZQfkyZ5IpXlfTL8yQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/plugin-strip/-/plugin-strip-3.0.1.tgz"
+      }
+    },
+    "@rollup/pluginutils": {
+      "5.0.2": {
+        "hash": "sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.0.2.tgz"
+      }
+    },
+    "@types/estree": {
+      "1.0.0": {
+        "hash": "sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/estree/-/estree-1.0.0.tgz"
+      }
+    },
+    "estree-walker": {
+      "2.0.2": {
+        "hash": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
+      }
+    },
+    "magic-string": {
+      "0.26.7": {
+        "hash": "sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/magic-string/-/magic-string-0.26.7.tgz"
+      }
+    },
+    "picomatch": {
+      "2.3.1": {
+        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+      }
+    },
+    "sourcemap-codec": {
+      "1.4.8": {
+        "hash": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
+      }
+    }
+  }
+}

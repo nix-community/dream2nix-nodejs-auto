@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@rollup/plugin-image",
+    "location": "",
+    "packages": {
+      "@rollup/plugin-image": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@rollup/plugin-image": {
+      "3.0.1": [
+        [ "@rollup/pluginutils", "5.0.2" ],
+        [ "mini-svg-data-uri", "1.4.4" ]
+      ],
+      "unknown": [
+        [ "@rollup/plugin-image", "3.0.1" ]
+      ]
+    },
+    "@rollup/pluginutils": {
+      "5.0.2": [
+        [ "@types/estree", "1.0.0" ],
+        [ "estree-walker", "2.0.2" ],
+        [ "picomatch", "2.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@rollup/plugin-image": {
+      "3.0.1": {
+        "hash": "sha512-F50Sko4Xcc576x7HG9f3MvJKKnBfSmqfVFWJkJgyIEkI8YxZxux28lDbuy0+GsAK6BFl9Gn+TRXOUgHHJbFh3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/plugin-image/-/plugin-image-3.0.1.tgz"
+      }
+    },
+    "@rollup/pluginutils": {
+      "5.0.2": {
+        "hash": "sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.0.2.tgz"
+      }
+    },
+    "@types/estree": {
+      "1.0.0": {
+        "hash": "sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/estree/-/estree-1.0.0.tgz"
+      }
+    },
+    "estree-walker": {
+      "2.0.2": {
+        "hash": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
+      }
+    },
+    "mini-svg-data-uri": {
+      "1.4.4": {
+        "hash": "sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz"
+      }
+    },
+    "picomatch": {
+      "2.3.1": {
+        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+      }
+    }
+  }
+}

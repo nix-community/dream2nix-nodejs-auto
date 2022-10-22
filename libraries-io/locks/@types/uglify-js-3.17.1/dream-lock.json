@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/uglify-js",
+    "location": "",
+    "packages": {
+      "@types/uglify-js": "3.17.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/uglify-js": {
+      "3.17.1": [
+        [ "source-map", "0.6.1" ]
+      ],
+      "unknown": [
+        [ "@types/uglify-js", "3.17.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/uglify-js": {
+      "3.17.1": {
+        "hash": "sha512-GkewRA4i5oXacU/n4MA9+bLgt5/L3F1mKrYvFGm7r2ouLXhRKjuWwo9XHNnbx6WF3vlGW21S3fCvgqxvxXXc5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/uglify-js/-/uglify-js-3.17.1.tgz"
+      }
+    },
+    "source-map": {
+      "0.6.1": {
+        "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+      }
+    }
+  }
+}
