@@ -106,6 +106,11 @@
         [ "color-convert", "2.0.1" ]
       ]
     },
+    "aria-query": {
+      "5.1.1": [
+        [ "deep-equal", "2.0.5" ]
+      ]
+    },
     "async": {
       "2.6.4": [
         [ "lodash", "4.17.21" ]
@@ -351,6 +356,25 @@
         [ "ms", "2.1.2" ]
       ]
     },
+    "deep-equal": {
+      "2.0.5": [
+        [ "call-bind", "1.0.2" ],
+        [ "es-get-iterator", "1.1.2" ],
+        [ "get-intrinsic", "1.1.3" ],
+        [ "is-arguments", "1.1.1" ],
+        [ "is-date-object", "1.0.5" ],
+        [ "is-regex", "1.1.4" ],
+        [ "isarray", "2.0.5" ],
+        [ "object-is", "1.1.5" ],
+        [ "object-keys", "1.1.1" ],
+        [ "object.assign", "4.1.4" ],
+        [ "regexp.prototype.flags", "1.4.3" ],
+        [ "side-channel", "1.0.4" ],
+        [ "which-boxed-primitive", "1.0.2" ],
+        [ "which-collection", "1.0.1" ],
+        [ "which-typed-array", "1.1.8" ]
+      ]
+    },
     "defaults": {
       "1.0.4": [
         [ "clone", "1.0.4" ]
@@ -414,7 +438,7 @@
     "ember-template-lint": {
       "4.16.1": [
         [ "@lint-todo/utils", "13.0.3" ],
-        [ "aria-query", "5.0.2" ],
+        [ "aria-query", "5.1.1" ],
         [ "chalk", "4.1.2" ],
         [ "ci-info", "3.5.0" ],
         [ "date-fns", "2.29.3" ],
@@ -478,6 +502,18 @@
         [ "unbox-primitive", "1.0.2" ]
       ]
     },
+    "es-get-iterator": {
+      "1.1.2": [
+        [ "call-bind", "1.0.2" ],
+        [ "get-intrinsic", "1.1.3" ],
+        [ "has-symbols", "1.0.3" ],
+        [ "is-arguments", "1.1.1" ],
+        [ "is-map", "2.0.2" ],
+        [ "is-set", "2.0.2" ],
+        [ "is-string", "1.0.7" ],
+        [ "isarray", "2.0.5" ]
+      ]
+    },
     "es-to-primitive": {
       "1.2.1": [
         [ "is-callable", "1.2.7" ],
@@ -517,6 +553,11 @@
       "6.3.0": [
         [ "locate-path", "7.1.1" ],
         [ "path-exists", "5.0.0" ]
+      ]
+    },
+    "for-each": {
+      "0.3.3": [
+        [ "is-callable", "1.2.7" ]
       ]
     },
     "fs-extra": {
@@ -674,6 +715,12 @@
         [ "side-channel", "1.0.4" ]
       ]
     },
+    "is-arguments": {
+      "1.1.1": [
+        [ "call-bind", "1.0.2" ],
+        [ "has-tostringtag", "1.0.0" ]
+      ]
+    },
     "is-bigint": {
       "1.0.4": [
         [ "has-bigints", "1.0.2" ]
@@ -726,9 +773,24 @@
         [ "has-symbols", "1.0.3" ]
       ]
     },
+    "is-typed-array": {
+      "1.1.9": [
+        [ "available-typed-arrays", "1.0.5" ],
+        [ "call-bind", "1.0.2" ],
+        [ "es-abstract", "1.20.4" ],
+        [ "for-each", "0.3.3" ],
+        [ "has-tostringtag", "1.0.0" ]
+      ]
+    },
     "is-weakref": {
       "1.0.2": [
         [ "call-bind", "1.0.2" ]
+      ]
+    },
+    "is-weakset": {
+      "2.0.2": [
+        [ "call-bind", "1.0.2" ],
+        [ "get-intrinsic", "1.1.3" ]
       ]
     },
     "isobject": {
@@ -824,6 +886,12 @@
     "mkdirp": {
       "0.5.6": [
         [ "minimist", "1.2.7" ]
+      ]
+    },
+    "object-is": {
+      "1.1.5": [
+        [ "call-bind", "1.0.2" ],
+        [ "define-properties", "1.1.4" ]
       ]
     },
     "object.assign": {
@@ -1111,6 +1179,24 @@
         [ "is-symbol", "1.0.4" ]
       ]
     },
+    "which-collection": {
+      "1.0.1": [
+        [ "is-map", "2.0.2" ],
+        [ "is-set", "2.0.2" ],
+        [ "is-weakmap", "2.0.1" ],
+        [ "is-weakset", "2.0.2" ]
+      ]
+    },
+    "which-typed-array": {
+      "1.1.8": [
+        [ "available-typed-arrays", "1.0.5" ],
+        [ "call-bind", "1.0.2" ],
+        [ "es-abstract", "1.20.4" ],
+        [ "for-each", "0.3.3" ],
+        [ "has-tostringtag", "1.0.0" ],
+        [ "is-typed-array", "1.1.9" ]
+      ]
+    },
     "wrap-ansi": {
       "7.0.0": [
         [ "ansi-styles", "4.3.0" ],
@@ -1284,10 +1370,10 @@
       }
     },
     "aria-query": {
-      "5.0.2": {
-        "hash": "sha512-eigU3vhqSO+Z8BKDnVLN/ompjhf3pYzecKXz8+whRy+9gZu8n1TCGfwzQUUPnqdHl9ax1Hr9031orZ+UOEYr7Q==",
+      "5.1.1": {
+        "hash": "sha512-4cPQjOYM2mqq7mZG8CSxkUvL2Yv/x29VhGq5LKehTsxRnoVQps1YGt9NyjcNQsznEsD4rr8a6zGxqeNTqJWjpA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/aria-query/-/aria-query-5.0.2.tgz"
+        "url": "https://registry.npmjs.org/aria-query/-/aria-query-5.1.1.tgz"
       }
     },
     "array-equal": {
@@ -1335,6 +1421,13 @@
         "hash": "sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==",
         "type": "http",
         "url": "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
+      }
+    },
+    "available-typed-arrays": {
+      "1.0.5": {
+        "hash": "sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz"
       }
     },
     "babel-import-util": {
@@ -1643,6 +1736,13 @@
         "url": "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
       }
     },
+    "deep-equal": {
+      "2.0.5": {
+        "hash": "sha512-nPiRgmbAtm1a3JsnLCf6/SLfXcjyN5v8L1TXzdCmHrXJ4hx+gW/w1YCcn7z8gJtSiDArZCgYtbao3QqLm/N1Sw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.5.tgz"
+      }
+    },
     "defaults": {
       "1.0.4": {
         "hash": "sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==",
@@ -1753,6 +1853,13 @@
         "url": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.4.tgz"
       }
     },
+    "es-get-iterator": {
+      "1.1.2": {
+        "hash": "sha512-+DTO8GYwbMCwbywjimwZMHp8AuYXOS2JZFWoi2AlPOS3ebnII9w/NLpNZtA7A0YLaVDw+O7KFCeoIV7OPvM7hQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/es-get-iterator/-/es-get-iterator-1.1.2.tgz"
+      }
+    },
     "es-to-primitive": {
       "1.2.1": {
         "hash": "sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==",
@@ -1812,6 +1919,13 @@
         "hash": "sha512-v2ZsoEuVHYy8ZIlYqwPe/39Cy+cFDzp4dXPaxNvkEuouymu+2Jbz0PxpKarJHYJTmv2HWT3O382qY8l4jMWthw==",
         "type": "http",
         "url": "https://registry.npmjs.org/find-up/-/find-up-6.3.0.tgz"
+      }
+    },
+    "for-each": {
+      "0.3.3": {
+        "hash": "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/for-each/-/for-each-0.3.3.tgz"
       }
     },
     "fs-extra": {
@@ -2056,6 +2170,13 @@
         "url": "https://registry.npmjs.org/internal-slot/-/internal-slot-1.0.3.tgz"
       }
     },
+    "is-arguments": {
+      "1.1.1": {
+        "hash": "sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-arguments/-/is-arguments-1.1.1.tgz"
+      }
+    },
     "is-bigint": {
       "1.0.4": {
         "hash": "sha512-zB9CruMamjym81i2JZ3UMn54PKGsQzsJeo6xvN3HJJ4CAsQNB6iRutp2To77OfCNuoxspsIhzaPoO1zyCEhFOg==",
@@ -2119,6 +2240,13 @@
         "url": "https://registry.npmjs.org/is-interactive/-/is-interactive-1.0.0.tgz"
       }
     },
+    "is-map": {
+      "2.0.2": {
+        "hash": "sha512-cOZFQQozTha1f4MxLFzlgKYPTyj26picdZTx82hbc/Xf4K/tZOOXSCkMvU4pKioRXGDLJRn0GM7Upe7kR721yg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-map/-/is-map-2.0.2.tgz"
+      }
+    },
     "is-negative-zero": {
       "2.0.2": {
         "hash": "sha512-dqJvarLawXsFbNDeJW7zAz8ItJ9cd28YufuuFzh0G8pNHjJMnY08Dv7sYX2uF5UpQOwieAeOExEYAWWfu7ZZUA==",
@@ -2147,6 +2275,13 @@
         "url": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.4.tgz"
       }
     },
+    "is-set": {
+      "2.0.2": {
+        "hash": "sha512-+2cnTEZeY5z/iXGbLhPrOAaK/Mau5k5eXq9j14CpRTftq0pAJu2MwVRSZhyZWBzx3o6X795Lz6Bpb6R0GKf37g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-set/-/is-set-2.0.2.tgz"
+      }
+    },
     "is-shared-array-buffer": {
       "1.0.2": {
         "hash": "sha512-sqN2UDu1/0y6uvXyStCOzyhAjCSlHceFoMKJW8W9EU9cvic/QdsZ0kEU93HEy3IUEFZIiH/3w+AH/UQbPHNdhA==",
@@ -2168,11 +2303,25 @@
         "url": "https://registry.npmjs.org/is-symbol/-/is-symbol-1.0.4.tgz"
       }
     },
+    "is-typed-array": {
+      "1.1.9": {
+        "hash": "sha512-kfrlnTTn8pZkfpJMUgYD7YZ3qzeJgWUn8XfVYBARc4wnmNOmLbmuuaAs3q5fvB0UJOn6yHAKaGTPM7d6ezoD/A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.9.tgz"
+      }
+    },
     "is-unicode-supported": {
       "0.1.0": {
         "hash": "sha512-knxG2q4UC3u8stRGyAVJCOdxFmv5DZiRcdlIaAQXAbSfJya+OhopNotLQrstBhququ4ZpuKbDc/8S6mgXgPFPw==",
         "type": "http",
         "url": "https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz"
+      }
+    },
+    "is-weakmap": {
+      "2.0.1": {
+        "hash": "sha512-NSBR4kH5oVj1Uwvv970ruUkCV7O1mzgVFO4/rev2cLRda9Tm9HrL70ZPut4rOHgY0FNrUu9BCbXA2sdQ+x0chA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-weakmap/-/is-weakmap-2.0.1.tgz"
       }
     },
     "is-weakref": {
@@ -2182,11 +2331,23 @@
         "url": "https://registry.npmjs.org/is-weakref/-/is-weakref-1.0.2.tgz"
       }
     },
+    "is-weakset": {
+      "2.0.2": {
+        "hash": "sha512-t2yVvttHkQktwnNNmBQ98AhENLdPUTDTE21uPqAQ0ARwQfGeQKRVS0NNurH7bTf7RrvcVn1OOge45CnBeHCSmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.2.tgz"
+      }
+    },
     "isarray": {
       "1.0.0": {
         "hash": "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+      },
+      "2.0.5": {
+        "hash": "sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz"
       }
     },
     "isobject": {
@@ -2385,6 +2546,13 @@
         "hash": "sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.2.tgz"
+      }
+    },
+    "object-is": {
+      "1.1.5": {
+        "hash": "sha512-3cyDsyHgtmi7I7DfSSI2LDp6SK2lwvtbg0p0R1e0RvTqF5ceGx+K2dfSjm1bKDMVCFEDAQvy+o8c6a7VujOddw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/object-is/-/object-is-1.1.5.tgz"
       }
     },
     "object-keys": {
@@ -2941,6 +3109,20 @@
         "hash": "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==",
         "type": "http",
         "url": "https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz"
+      }
+    },
+    "which-collection": {
+      "1.0.1": {
+        "hash": "sha512-W8xeTUwaln8i3K/cY1nGXzdnVZlidBcagyNFtBdD5kxnb4TvGKR7FfSIS3mYpwWS1QUCutfKz8IY8RjftB0+1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which-collection/-/which-collection-1.0.1.tgz"
+      }
+    },
+    "which-typed-array": {
+      "1.1.8": {
+        "hash": "sha512-Jn4e5PItbcAHyLoRDwvPj1ypu27DJbtdYXUa5zsinrUx77Uvfb0cXwwnGMTn7cjUfhhqgVQnVJCwF+7cgU7tpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.8.tgz"
       }
     },
     "workerpool": {
