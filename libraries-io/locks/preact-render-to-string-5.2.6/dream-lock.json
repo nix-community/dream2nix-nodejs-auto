@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "preact-render-to-string",
+    "location": "",
+    "packages": {
+      "preact-render-to-string": "5.2.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "preact-render-to-string": {
+      "5.2.6": [
+        [ "pretty-format", "3.8.0" ]
+      ],
+      "unknown": [
+        [ "preact-render-to-string", "5.2.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "preact": {
+      "10.11.2": {
+        "hash": "sha512-skAwGDFmgxhq1DCBHke/9e12ewkhc7WYwjuhHB8HHS8zkdtITXLRmUMTeol2ldxvLwYtwbFeifZ9uDDWuyL4Iw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/preact/-/preact-10.11.2.tgz"
+      }
+    },
+    "preact-render-to-string": {
+      "5.2.6": {
+        "hash": "sha512-JyhErpYOvBV1hEPwIxc/fHWXPfnEGdRKxc8gFdAZ7XV4tlzyzG847XAyEZqoDnynP88akM4eaHcSOzNcLWFguw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/preact-render-to-string/-/preact-render-to-string-5.2.6.tgz"
+      }
+    },
+    "pretty-format": {
+      "3.8.0": {
+        "hash": "sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pretty-format/-/pretty-format-3.8.0.tgz"
+      }
+    }
+  }
+}

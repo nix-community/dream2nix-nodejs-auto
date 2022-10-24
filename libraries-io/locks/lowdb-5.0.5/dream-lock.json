@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "lowdb",
+    "location": "",
+    "packages": {
+      "lowdb": "5.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lowdb": {
+      "5.0.5": [
+        [ "steno", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "lowdb", "5.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "lowdb": {
+      "5.0.5": {
+        "hash": "sha512-7EWKmIMhNKA8TXFhL8t0p6N2LC53l3ZqsWQGSksGhhjrcms9rbKlyrAh2PzSGK5v0KPJ2W5VItBnC3NDRzOnzQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lowdb/-/lowdb-5.0.5.tgz"
+      }
+    },
+    "steno": {
+      "3.0.0": {
+        "hash": "sha512-uZtn7Ht9yXLiYgOsmo8btj4+f7VxyYheMt8g6F1ANjyqByQXEE2Gygjgenp3otHH1TlHsS4JAaRGv5wJ1wvMNw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/steno/-/steno-3.0.0.tgz"
+      }
+    }
+  }
+}
