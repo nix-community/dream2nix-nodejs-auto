@@ -1,0 +1,78 @@
+{
+  "_generic": {
+    "defaultPackage": "react-reconciler",
+    "location": "",
+    "packages": {
+      "react-reconciler": "0.0.0-experimental-d925a8d0b-20221024"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "0.0.0-experimental-d925a8d0b-20221024": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-reconciler": {
+      "0.0.0-experimental-d925a8d0b-20221024": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.0.0-experimental-d925a8d0b-20221024" ]
+      ],
+      "unknown": [
+        [ "react-reconciler", "0.0.0-experimental-d925a8d0b-20221024" ]
+      ]
+    },
+    "scheduler": {
+      "0.0.0-experimental-d925a8d0b-20221024": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "0.0.0-experimental-d925a8d0b-20221024": {
+        "hash": "sha512-/C/+TxAMFLZnCrXRkg6EHfterdvEwzabwUBICLlJobprvSglljU+ylfOKdbyDLiTjgdHtJHqMZk0Asv2+KA4YQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-0.0.0-experimental-d925a8d0b-20221024.tgz"
+      }
+    },
+    "react-reconciler": {
+      "0.0.0-experimental-d925a8d0b-20221024": {
+        "hash": "sha512-bml5EBJUHTxD/s+ln4IGM5DgeUc0cysSIvRVSbztETtyTwOKDHkYs77zX+teW6I67Iy0L6elAZyOZyZwFvz3zA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-reconciler/-/react-reconciler-0.0.0-experimental-d925a8d0b-20221024.tgz"
+      }
+    },
+    "scheduler": {
+      "0.0.0-experimental-d925a8d0b-20221024": {
+        "hash": "sha512-SOvo0b+4hWITO289aeYe5BNb1OHyIv40684A1xc2IsKpr2piahNKYR9QIlRb80iejbsfIJwlugylALUNUtKsBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.0.0-experimental-d925a8d0b-20221024.tgz"
+      }
+    }
+  }
+}

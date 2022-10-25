@@ -415,7 +415,7 @@
     "@vercel/nft": {
       "0.22.1": [
         [ "@mapbox/node-pre-gyp", "1.0.10" ],
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "async-sema", "3.1.1" ],
         [ "bindings", "1.5.0" ],
         [ "estree-walker", "2.0.2" ],
@@ -516,7 +516,7 @@
       ]
     },
     "@vueuse/head": {
-      "1.0.0-rc.12": [
+      "1.0.0-rc.14": [
         [ "@vueuse/shared", "9.3.1" ],
         [ "@zhead/schema", "0.9.9" ],
         [ "@zhead/schema-vue", "0.9.9" ]
@@ -594,7 +594,7 @@
     "autoprefixer": {
       "10.4.12": [
         [ "browserslist", "4.21.4" ],
-        [ "caniuse-lite", "1.0.30001423" ],
+        [ "caniuse-lite", "1.0.30001425" ],
         [ "fraction.js", "4.2.0" ],
         [ "normalize-range", "0.1.2" ],
         [ "picocolors", "1.0.0" ],
@@ -634,7 +634,7 @@
     },
     "browserslist": {
       "4.21.4": [
-        [ "caniuse-lite", "1.0.30001423" ],
+        [ "caniuse-lite", "1.0.30001425" ],
         [ "electron-to-chromium", "1.4.284" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.10" ]
@@ -670,7 +670,7 @@
     "caniuse-api": {
       "3.0.0": [
         [ "browserslist", "4.21.4" ],
-        [ "caniuse-lite", "1.0.30001423" ],
+        [ "caniuse-lite", "1.0.30001425" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -1160,7 +1160,7 @@
     },
     "jest-worker": {
       "26.6.2": [
-        [ "@types/node", "18.11.4" ],
+        [ "@types/node", "18.11.5" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "7.2.0" ]
       ]
@@ -1271,7 +1271,7 @@
     },
     "mlly": {
       "0.5.16": [
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "pathe", "0.3.9" ],
         [ "pkg-types", "0.3.5" ],
         [ "ufo", "0.8.6" ]
@@ -1387,7 +1387,7 @@
         [ "@nuxt/vite-builder", "3.0.0-rc.12" ],
         [ "@vue/reactivity", "3.2.41" ],
         [ "@vue/shared", "3.2.41" ],
-        [ "@vueuse/head", "1.0.0-rc.12" ],
+        [ "@vueuse/head", "1.0.0-rc.14" ],
         [ "chokidar", "3.5.3" ],
         [ "cookie-es", "0.5.0" ],
         [ "defu", "6.1.0" ],
@@ -1419,7 +1419,7 @@
         [ "vue", "3.2.41" ],
         [ "vue-bundle-renderer", "0.4.4" ],
         [ "vue-devtools-stub", "0.1.0" ],
-        [ "vue-router", "4.1.5" ]
+        [ "vue-router", "4.1.6" ]
       ],
       "unknown": [
         [ "nuxt", "3.0.0-rc.12" ]
@@ -1837,7 +1837,7 @@
     },
     "strip-literal": {
       "0.4.2": [
-        [ "acorn", "8.8.0" ]
+        [ "acorn", "8.8.1" ]
       ]
     },
     "stylehacks": {
@@ -1896,7 +1896,7 @@
     "terser": {
       "5.15.1": [
         [ "@jridgewell/source-map", "0.3.2" ],
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "commander", "2.20.3" ],
         [ "source-map-support", "0.5.21" ]
       ]
@@ -1913,7 +1913,7 @@
     },
     "unctx": {
       "2.0.2": [
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "estree-walker", "3.0.1" ],
         [ "magic-string", "0.26.7" ],
         [ "unplugin", "0.9.6" ]
@@ -1948,13 +1948,13 @@
     },
     "unplugin": {
       "0.10.1": [
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "chokidar", "3.5.3" ],
         [ "webpack-sources", "3.2.3" ],
         [ "webpack-virtual-modules", "0.4.5" ]
       ],
       "0.9.6": [
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "chokidar", "3.5.3" ],
         [ "webpack-sources", "3.2.3" ],
         [ "webpack-virtual-modules", "0.4.5" ]
@@ -1972,7 +1972,7 @@
         [ "mri", "1.2.0" ],
         [ "ohmyfetch", "0.4.20" ],
         [ "ufo", "0.8.6" ],
-        [ "ws", "8.9.0" ]
+        [ "ws", "8.10.0" ]
       ]
     },
     "untyped": {
@@ -2058,7 +2058,7 @@
       ]
     },
     "vue-router": {
-      "4.1.5": [
+      "4.1.6": [
         [ "@vue/devtools-api", "6.4.5" ]
       ]
     },
@@ -2579,10 +2579,10 @@
       }
     },
     "@types/node": {
-      "18.11.4": {
-        "hash": "sha512-BxcJpBu8D3kv/GZkx/gSMz6VnTJREBj/4lbzYOQueUOELkt8WrO6zAcSPmp9uRPEW/d+lUO8QK0W2xnS1hEU0A==",
+      "18.11.5": {
+        "hash": "sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.4.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.5.tgz"
       }
     },
     "@types/resolve": {
@@ -2705,10 +2705,10 @@
       }
     },
     "@vueuse/head": {
-      "1.0.0-rc.12": {
-        "hash": "sha512-J1U54lKeelgM123G7SojcOu002muUp58H2wMjI6WNgb5wag6Tt+CiSp7cFO+ZSG5bJFdsgoc1pwZPVazGbnimQ==",
+      "1.0.0-rc.14": {
+        "hash": "sha512-3DtOfSE1141IKPIq4AR5UXQZPWQFSd7E5f3M+HkBRyxWsyxbNBBmK5hqkSYc2ENoFXa3xPhLYZXJPKuxqfJmiA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@vueuse/head/-/head-1.0.0-rc.12.tgz"
+        "url": "https://registry.npmjs.org/@vueuse/head/-/head-1.0.0-rc.14.tgz"
       }
     },
     "@vueuse/shared": {
@@ -2740,10 +2740,10 @@
       }
     },
     "acorn": {
-      "8.8.0": {
-        "hash": "sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==",
+      "8.8.1": {
+        "hash": "sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/acorn/-/acorn-8.8.0.tgz"
+        "url": "https://registry.npmjs.org/acorn/-/acorn-8.8.1.tgz"
       }
     },
     "agent-base": {
@@ -2992,10 +2992,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001423": {
-        "hash": "sha512-09iwWGOlifvE1XuHokFMP7eR38a0JnajoyL3/i87c8ZjRWRrdKo1fqjNfugfBD0UDBIOz0U+jtNhJ0EPm1VleQ==",
+      "1.0.30001425": {
+        "hash": "sha512-/pzFv0OmNG6W0ym80P3NtapU0QEiDS3VuYAZMGoLLqiC7f6FJFe1MjpQDREGApeenD9wloeytmVDj+JLXPC6qw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001423.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001425.tgz"
       }
     },
     "chalk": {
@@ -5984,10 +5984,10 @@
       }
     },
     "vue-router": {
-      "4.1.5": {
-        "hash": "sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==",
+      "4.1.6": {
+        "hash": "sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/vue-router/-/vue-router-4.1.5.tgz"
+        "url": "https://registry.npmjs.org/vue-router/-/vue-router-4.1.6.tgz"
       }
     },
     "wcwidth": {
@@ -6066,10 +6066,10 @@
       }
     },
     "ws": {
-      "8.9.0": {
-        "hash": "sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==",
+      "8.10.0": {
+        "hash": "sha512-+s49uSmZpvtAsd2h37vIPy1RBusaLawVe8of+GyEPsaJTCMpj/2v8NpeK1SHXjBlQ95lQTmQofOJnFiLoaN3yw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ws/-/ws-8.9.0.tgz"
+        "url": "https://registry.npmjs.org/ws/-/ws-8.10.0.tgz"
       }
     },
     "xxhashjs": {
