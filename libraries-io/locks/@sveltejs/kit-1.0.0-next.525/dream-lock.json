@@ -13,15 +13,9 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "@rollup/pluginutils": {
-      "4.2.1": [
-        [ "estree-walker", "2.0.2" ],
-        [ "picomatch", "2.3.1" ]
-      ]
-    },
     "@sveltejs/kit": {
       "1.0.0-next.525": [
-        [ "@sveltejs/vite-plugin-svelte", "1.0.9" ],
+        [ "@sveltejs/vite-plugin-svelte", "1.1.0" ],
         [ "@types/cookie", "0.5.1" ],
         [ "cookie", "0.5.0" ],
         [ "devalue", "4.0.1" ],
@@ -39,8 +33,7 @@
       ]
     },
     "@sveltejs/vite-plugin-svelte": {
-      "1.0.9": [
-        [ "@rollup/pluginutils", "4.2.1" ],
+      "1.1.0": [
         [ "debug", "4.3.4" ],
         [ "deepmerge", "4.2.2" ],
         [ "kleur", "4.1.5" ],
@@ -173,13 +166,6 @@
         "url": "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
       }
     },
-    "@rollup/pluginutils": {
-      "4.2.1": {
-        "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
-      }
-    },
     "@sveltejs/kit": {
       "1.0.0-next.525": {
         "hash": "sha512-a8ivaONZhnRe+5fkyQxhOFgPja6iGwprhubN0Jqfa8AdjAzSBntHAuGqAxPnIGpLpXroXB9eN0tLhvK8xElS9A==",
@@ -188,10 +174,10 @@
       }
     },
     "@sveltejs/vite-plugin-svelte": {
-      "1.0.9": {
-        "hash": "sha512-+SDrAnT7TDi8sdj4OfD2SC4s9DNrpNVBrue8fT2PmKks9Ddu0JIfSeX91wXZb/1xHz4EkGb+rli8GTRI0yGOjg==",
+      "1.1.0": {
+        "hash": "sha512-cFRfEdztubtj1c/rYh7ArK7XCfFJn6wG6+J8/e9amFsKtEJILovoBrK0/mxt1AjPQg0vaX+fHPKvhx+q8mTPaQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.9.tgz"
+        "url": "https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.1.0.tgz"
       }
     },
     "@types/cookie": {
@@ -383,13 +369,6 @@
         "url": "https://registry.npmjs.org/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.12.tgz"
       }
     },
-    "estree-walker": {
-      "2.0.2": {
-        "hash": "sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
-      }
-    },
     "fsevents": {
       "2.3.2": {
         "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
@@ -493,13 +472,6 @@
         "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
-      }
-    },
-    "picomatch": {
-      "2.3.1": {
-        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
       }
     },
     "postcss": {

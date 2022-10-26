@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/async-retry",
+    "location": "",
+    "packages": {
+      "@types/async-retry": "1.4.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/async-retry": {
+      "1.4.5": [
+        [ "@types/retry", "0.12.2" ]
+      ],
+      "unknown": [
+        [ "@types/async-retry", "1.4.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/async-retry": {
+      "1.4.5": {
+        "hash": "sha512-YrdjSD+yQv7h6d5Ip+PMxh3H6ZxKyQk0Ts+PvaNRInxneG9PFVZjFg77ILAN+N6qYf7g4giSJ1l+ZjQ1zeegvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/async-retry/-/async-retry-1.4.5.tgz"
+      }
+    },
+    "@types/retry": {
+      "0.12.2": {
+        "hash": "sha512-XISRgDJ2Tc5q4TRqvgJtzsRkFYNJzZrhTdtMoGVBttwzzQJkPnS3WWTFc7kuDRoPtPakl+T+OfdEUjYJj7Jbow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/retry/-/retry-0.12.2.tgz"
+      }
+    }
+  }
+}

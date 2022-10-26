@@ -56,12 +56,12 @@
       ]
     },
     "@aws-sdk/client-cognito-identity": {
-      "3.195.0": [
+      "3.196.0": [
         [ "@aws-crypto/sha256-browser", "2.0.0" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
-        [ "@aws-sdk/client-sts", "3.194.0" ],
+        [ "@aws-sdk/client-sts", "3.196.0" ],
         [ "@aws-sdk/config-resolver", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-node", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-node", "3.196.0" ],
         [ "@aws-sdk/fetch-http-handler", "3.193.0" ],
         [ "@aws-sdk/hash-node", "3.193.0" ],
         [ "@aws-sdk/invalid-dependency", "3.193.0" ],
@@ -87,7 +87,7 @@
         [ "@aws-sdk/util-body-length-node", "3.188.0" ],
         [ "@aws-sdk/util-defaults-mode-browser", "3.193.0" ],
         [ "@aws-sdk/util-defaults-mode-node", "3.193.0" ],
-        [ "@aws-sdk/util-endpoints", "3.194.0" ],
+        [ "@aws-sdk/util-endpoints", "3.196.0" ],
         [ "@aws-sdk/util-user-agent-browser", "3.193.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.193.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.188.0" ],
@@ -96,7 +96,7 @@
       ]
     },
     "@aws-sdk/client-sso": {
-      "3.193.0": [
+      "3.196.0": [
         [ "@aws-crypto/sha256-browser", "2.0.0" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
         [ "@aws-sdk/config-resolver", "3.193.0" ],
@@ -104,6 +104,7 @@
         [ "@aws-sdk/hash-node", "3.193.0" ],
         [ "@aws-sdk/invalid-dependency", "3.193.0" ],
         [ "@aws-sdk/middleware-content-length", "3.193.0" ],
+        [ "@aws-sdk/middleware-endpoint", "3.193.0" ],
         [ "@aws-sdk/middleware-host-header", "3.193.0" ],
         [ "@aws-sdk/middleware-logger", "3.193.0" ],
         [ "@aws-sdk/middleware-recursion-detection", "3.193.0" ],
@@ -123,6 +124,7 @@
         [ "@aws-sdk/util-body-length-node", "3.188.0" ],
         [ "@aws-sdk/util-defaults-mode-browser", "3.193.0" ],
         [ "@aws-sdk/util-defaults-mode-node", "3.193.0" ],
+        [ "@aws-sdk/util-endpoints", "3.196.0" ],
         [ "@aws-sdk/util-user-agent-browser", "3.193.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.193.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.188.0" ],
@@ -131,11 +133,11 @@
       ]
     },
     "@aws-sdk/client-sts": {
-      "3.194.0": [
+      "3.196.0": [
         [ "@aws-crypto/sha256-browser", "2.0.0" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
         [ "@aws-sdk/config-resolver", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-node", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-node", "3.196.0" ],
         [ "@aws-sdk/fetch-http-handler", "3.193.0" ],
         [ "@aws-sdk/hash-node", "3.193.0" ],
         [ "@aws-sdk/invalid-dependency", "3.193.0" ],
@@ -162,7 +164,7 @@
         [ "@aws-sdk/util-body-length-node", "3.188.0" ],
         [ "@aws-sdk/util-defaults-mode-browser", "3.193.0" ],
         [ "@aws-sdk/util-defaults-mode-node", "3.193.0" ],
-        [ "@aws-sdk/util-endpoints", "3.194.0" ],
+        [ "@aws-sdk/util-endpoints", "3.196.0" ],
         [ "@aws-sdk/util-user-agent-browser", "3.193.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.193.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.188.0" ],
@@ -181,8 +183,8 @@
       ]
     },
     "@aws-sdk/credential-provider-cognito-identity": {
-      "3.195.0": [
-        [ "@aws-sdk/client-cognito-identity", "3.195.0" ],
+      "3.196.0": [
+        [ "@aws-sdk/client-cognito-identity", "3.196.0" ],
         [ "@aws-sdk/property-provider", "3.193.0" ],
         [ "@aws-sdk/types", "3.193.0" ],
         [ "tslib", "2.4.0" ]
@@ -205,10 +207,10 @@
       ]
     },
     "@aws-sdk/credential-provider-ini": {
-      "3.193.0": [
+      "3.196.0": [
         [ "@aws-sdk/credential-provider-env", "3.193.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-sso", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-sso", "3.196.0" ],
         [ "@aws-sdk/credential-provider-web-identity", "3.193.0" ],
         [ "@aws-sdk/property-provider", "3.193.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.193.0" ],
@@ -217,12 +219,12 @@
       ]
     },
     "@aws-sdk/credential-provider-node": {
-      "3.193.0": [
+      "3.196.0": [
         [ "@aws-sdk/credential-provider-env", "3.193.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-ini", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-ini", "3.196.0" ],
         [ "@aws-sdk/credential-provider-process", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-sso", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-sso", "3.196.0" ],
         [ "@aws-sdk/credential-provider-web-identity", "3.193.0" ],
         [ "@aws-sdk/property-provider", "3.193.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.193.0" ],
@@ -239,8 +241,8 @@
       ]
     },
     "@aws-sdk/credential-provider-sso": {
-      "3.193.0": [
-        [ "@aws-sdk/client-sso", "3.193.0" ],
+      "3.196.0": [
+        [ "@aws-sdk/client-sso", "3.196.0" ],
         [ "@aws-sdk/property-provider", "3.193.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.193.0" ],
         [ "@aws-sdk/types", "3.193.0" ],
@@ -255,17 +257,17 @@
       ]
     },
     "@aws-sdk/credential-providers": {
-      "3.195.0": [
-        [ "@aws-sdk/client-cognito-identity", "3.195.0" ],
-        [ "@aws-sdk/client-sso", "3.193.0" ],
-        [ "@aws-sdk/client-sts", "3.194.0" ],
-        [ "@aws-sdk/credential-provider-cognito-identity", "3.195.0" ],
+      "3.196.0": [
+        [ "@aws-sdk/client-cognito-identity", "3.196.0" ],
+        [ "@aws-sdk/client-sso", "3.196.0" ],
+        [ "@aws-sdk/client-sts", "3.196.0" ],
+        [ "@aws-sdk/credential-provider-cognito-identity", "3.196.0" ],
         [ "@aws-sdk/credential-provider-env", "3.193.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-ini", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-node", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-ini", "3.196.0" ],
+        [ "@aws-sdk/credential-provider-node", "3.196.0" ],
         [ "@aws-sdk/credential-provider-process", "3.193.0" ],
-        [ "@aws-sdk/credential-provider-sso", "3.193.0" ],
+        [ "@aws-sdk/credential-provider-sso", "3.196.0" ],
         [ "@aws-sdk/credential-provider-web-identity", "3.193.0" ],
         [ "@aws-sdk/property-provider", "3.193.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.193.0" ],
@@ -510,7 +512,7 @@
       ]
     },
     "@aws-sdk/util-endpoints": {
-      "3.194.0": [
+      "3.196.0": [
         [ "@aws-sdk/types", "3.193.0" ],
         [ "tslib", "2.4.0" ]
       ]
@@ -597,7 +599,7 @@
     },
     "mongodb": {
       "4.11.0": [
-        [ "@aws-sdk/credential-providers", "3.195.0" ],
+        [ "@aws-sdk/credential-providers", "3.196.0" ],
         [ "bson", "4.7.0" ],
         [ "denque", "2.1.0" ],
         [ "mongodb-connection-string-url", "2.5.4" ],
@@ -699,24 +701,24 @@
       }
     },
     "@aws-sdk/client-cognito-identity": {
-      "3.195.0": {
-        "hash": "sha512-yQFCoGqGcHvyeS3rL5H5L2I6m9XFWMLaK1/iALgYsITfmig0JzlzGH/ubStEiZMsQ8lhdWmUcOyhCK4+Bx9l0w==",
+      "3.196.0": {
+        "hash": "sha512-EwO3G3YPQuT1nkzaVByfoyV1Jyx1WVmbt3HH5nIQDP2bgKCPkq8mytiSS14H0VyejGHmc8/1wZ7Q/MRPosdgEg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.195.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.196.0.tgz"
       }
     },
     "@aws-sdk/client-sso": {
-      "3.193.0": {
-        "hash": "sha512-NxDckym95mtimYp9uWRA1lcyJHDyS8OZEaDC+dZ/tt5wGyPoc3ftHZNWDLzZM1PUjzgo+XzjMBVkWMvk/SRSYw==",
+      "3.196.0": {
+        "hash": "sha512-u+UnxrVHLjLDdfCZft1AuyIhyv+77/inCHR4LcKsGASRA+jAg3z+OY+B7Q9hWHNcVt5ECMw7rxe4jA9BLf42sw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-sso/-/client-sso-3.193.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sso/-/client-sso-3.196.0.tgz"
       }
     },
     "@aws-sdk/client-sts": {
-      "3.194.0": {
-        "hash": "sha512-duolI7KLvRLMrL0ZpiVvmhaC5stKcNp5tfJ7gUW24tyf+7ImAmk2odSMIgcq54EWQ3XppTKBhEGCjOJ9th7+Qg==",
+      "3.196.0": {
+        "hash": "sha512-ChzK8606CugwnRLm7iwerXzeMqOsjGLe3j1j1HtQShzXZu4/ysQ3mUBBPAt2Lltx+1ep8MoI9vaQVyfw5h35ww==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.194.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.196.0.tgz"
       }
     },
     "@aws-sdk/config-resolver": {
@@ -727,10 +729,10 @@
       }
     },
     "@aws-sdk/credential-provider-cognito-identity": {
-      "3.195.0": {
-        "hash": "sha512-nlIk6kx7745gnKybvu6yck+OHrmtqFxaxob6zLelofDEHJGbAkN+CAeTy3FnN7qVNtz9hC42+HOqz9eCRjyZVQ==",
+      "3.196.0": {
+        "hash": "sha512-yXpb8kx1RpHRJty6MNX3ssTu0h3SYZVpUinQtBXPdHoVZ5/DyF/KGd2jr0LWYrgTx8G42GHTltz3Ss4nYjosnQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.195.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.196.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-env": {
@@ -748,17 +750,17 @@
       }
     },
     "@aws-sdk/credential-provider-ini": {
-      "3.193.0": {
-        "hash": "sha512-JQ4tyeLjwsa9Jo95yTrLgFFspAP5GwaZDqDJArG98waKDzxhl7FeBs+N32+oux6WB7RKRB0svOK02nnoWnrjVg==",
+      "3.196.0": {
+        "hash": "sha512-3lL+YLBQ9KwQxG4AdRm4u2cvBNZeBmS/i3BWnCPomg96lNGPMrTEloVaVEpnrzOff6sgFxRtjkbLkVxmdipIrw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.193.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.196.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-node": {
-      "3.193.0": {
-        "hash": "sha512-2E8yWVw1vLb6IumZxA0w4mes759YSCTHLdfp5nMBpn+d+Otz26mczKSe7xr7AaVONq+/sVPUl2GfTFTWM4B0eA==",
+      "3.196.0": {
+        "hash": "sha512-PGY7pkmqgfEwTHsuUH6fGrXWri93jqKkMbhq/QJafMGtsVupfvXvE37Rl+qgjsZjRfROrEaeLw2DGrPPmVh2cg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.193.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.196.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-process": {
@@ -769,10 +771,10 @@
       }
     },
     "@aws-sdk/credential-provider-sso": {
-      "3.193.0": {
-        "hash": "sha512-jBFWreNFZUgnGyCkpxDGf+LrXTuzEfjYkJYti1HnnsUF4vF0PsVZS6/FQi1mDl3pqorrtgknI59ENnAhKVxtBg==",
+      "3.196.0": {
+        "hash": "sha512-hJV4LDVfvPfj5zC0ysHx3zkwwJOyF+BaMGaMzaScrHyijv5e3qZzdoBLbOQFmrqVnt7DjCU02NvRSS8amLpmSw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.193.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.196.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-web-identity": {
@@ -783,10 +785,10 @@
       }
     },
     "@aws-sdk/credential-providers": {
-      "3.195.0": {
-        "hash": "sha512-Fu8k8tUz+Z14+2ozC+lrDZDIOHOlhcKREpvSHfZYD9JLczivq2KuZrZsIVCCPbIxS1Wo1QhzkvYEYNN7ELm+Ig==",
+      "3.196.0": {
+        "hash": "sha512-IE2Lq0EMCkPqvh0on6Dfg5Nofcm2hbsDH8etQNKRpvZ/K8elz1aArh2gcL9F01smrJChAHWwD8uZbk/eQ/Zf2w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-providers/-/credential-providers-3.195.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-providers/-/credential-providers-3.196.0.tgz"
       }
     },
     "@aws-sdk/fetch-http-handler": {
@@ -1035,10 +1037,10 @@
       }
     },
     "@aws-sdk/util-endpoints": {
-      "3.194.0": {
-        "hash": "sha512-G+DGC3Zx0GnQpt4DpRmVcCfliNxf3nwBtZ3JIdCptkUZgDEpLYzOfjbf3bUyPTQh+oGHeqfnVAF+rFjTnYql3A==",
+      "3.196.0": {
+        "hash": "sha512-X+DOpRUy/ij49a0GQtggk09oyIQGn0mhER6PbMT69IufZPIg3D5fC5FPEp8bfsPkb70fTEYQEsj/X/rgMQJKsA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.194.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.196.0.tgz"
       }
     },
     "@aws-sdk/util-hex-encoding": {

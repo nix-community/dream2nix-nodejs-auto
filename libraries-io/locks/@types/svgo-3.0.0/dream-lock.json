@@ -1,0 +1,207 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/svgo",
+    "location": "",
+    "packages": {
+      "@types/svgo": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/svgo": {
+      "3.0.0": [
+        [ "svgo", "3.0.0" ]
+      ],
+      "unknown": [
+        [ "@types/svgo", "3.0.0" ]
+      ]
+    },
+    "css-select": {
+      "5.1.0": [
+        [ "boolbase", "1.0.0" ],
+        [ "css-what", "6.1.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "domutils", "3.0.1" ],
+        [ "nth-check", "2.1.1" ]
+      ]
+    },
+    "css-tree": {
+      "2.2.1": [
+        [ "mdn-data", "2.0.28" ],
+        [ "source-map-js", "1.0.2" ]
+      ]
+    },
+    "csso": {
+      "5.0.5": [
+        [ "css-tree", "2.2.1" ]
+      ]
+    },
+    "dom-serializer": {
+      "2.0.0": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "domhandler": {
+      "5.0.3": [
+        [ "domelementtype", "2.3.0" ]
+      ]
+    },
+    "domutils": {
+      "3.0.1": [
+        [ "dom-serializer", "2.0.0" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ]
+      ]
+    },
+    "nth-check": {
+      "2.1.1": [
+        [ "boolbase", "1.0.0" ]
+      ]
+    },
+    "svgo": {
+      "3.0.0": [
+        [ "@trysound/sax", "0.2.0" ],
+        [ "commander", "7.2.0" ],
+        [ "css-select", "5.1.0" ],
+        [ "css-tree", "2.2.1" ],
+        [ "csso", "5.0.5" ],
+        [ "picocolors", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@trysound/sax": {
+      "0.2.0": {
+        "hash": "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
+      }
+    },
+    "@types/svgo": {
+      "3.0.0": {
+        "hash": "sha512-G5qLWNq/rMvSM1EyY4E2iEd+s9km/PxLkzPkA2lghrgWJ2jrVMuB1ZsGOzL4YAWCy5sAoUw7SEQseHE2qypF2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/svgo/-/svgo-3.0.0.tgz"
+      }
+    },
+    "boolbase": {
+      "1.0.0": {
+        "hash": "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz"
+      }
+    },
+    "commander": {
+      "7.2.0": {
+        "hash": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
+      }
+    },
+    "css-select": {
+      "5.1.0": {
+        "hash": "sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz"
+      }
+    },
+    "css-tree": {
+      "2.2.1": {
+        "hash": "sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-tree/-/css-tree-2.2.1.tgz"
+      }
+    },
+    "css-what": {
+      "6.1.0": {
+        "hash": "sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
+      }
+    },
+    "csso": {
+      "5.0.5": {
+        "hash": "sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csso/-/csso-5.0.5.tgz"
+      }
+    },
+    "dom-serializer": {
+      "2.0.0": {
+        "hash": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
+      }
+    },
+    "domelementtype": {
+      "2.3.0": {
+        "hash": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+      }
+    },
+    "domhandler": {
+      "5.0.3": {
+        "hash": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz"
+      }
+    },
+    "domutils": {
+      "3.0.1": {
+        "hash": "sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domutils/-/domutils-3.0.1.tgz"
+      }
+    },
+    "entities": {
+      "4.4.0": {
+        "hash": "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
+      }
+    },
+    "mdn-data": {
+      "2.0.28": {
+        "hash": "sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.28.tgz"
+      }
+    },
+    "nth-check": {
+      "2.1.1": {
+        "hash": "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    },
+    "source-map-js": {
+      "1.0.2": {
+        "hash": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+      }
+    },
+    "svgo": {
+      "3.0.0": {
+        "hash": "sha512-mSqPn6RDeNqJvCeqHERlfWJjd4crP/2PgFelil9WpTwC4D3okAUopPsH3lnEyl7ONXfDVyISOihDjO0uK8YVAA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svgo/-/svgo-3.0.0.tgz"
+      }
+    }
+  }
+}

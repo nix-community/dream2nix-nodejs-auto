@@ -1,0 +1,142 @@
+{
+  "_generic": {
+    "defaultPackage": "@storybook/source-loader",
+    "location": "",
+    "packages": {
+      "@storybook/source-loader": "7.0.0-alpha.43"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@storybook/csf": {
+      "0.0.2-next.0": [
+        [ "expect-type", "0.14.2" ],
+        [ "lodash", "4.17.21" ],
+        [ "type-fest", "2.19.0" ]
+      ]
+    },
+    "@storybook/source-loader": {
+      "7.0.0-alpha.43": [
+        [ "@storybook/csf", "0.0.2-next.0" ],
+        [ "estraverse", "5.3.0" ],
+        [ "lodash", "4.17.21" ],
+        [ "prettier", "2.3.0" ]
+      ],
+      "unknown": [
+        [ "@storybook/source-loader", "7.0.0-alpha.43" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-dom": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.23.0" ]
+      ]
+    },
+    "scheduler": {
+      "0.23.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@storybook/csf": {
+      "0.0.2-next.0": {
+        "hash": "sha512-1LG7EvTVOuU7g4sgKB3UWbs3WrxiQNlGTIZ9tz65CKLu7OumJUG8lyS6mkwRtGEyTi5PI8hfYxeCu79yzyv8rg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2-next.0.tgz"
+      }
+    },
+    "@storybook/source-loader": {
+      "7.0.0-alpha.43": {
+        "hash": "sha512-Q0K4WgTnanI5Fv/ELr0DJKCjZ8ZrA9VmCHL8I45eZsuLXu5BQ3L/gJpnaRPo1+nM1ALppiGYi6htyskU3vSsjw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@storybook/source-loader/-/source-loader-7.0.0-alpha.43.tgz"
+      }
+    },
+    "estraverse": {
+      "5.3.0": {
+        "hash": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz"
+      }
+    },
+    "expect-type": {
+      "0.14.2": {
+        "hash": "sha512-ed3+tr5ujbIYXZ8Pl/VgIphwJQ0q5tBLGGdn7Zvwt1WyPBRX83xjT5pT77P/GkuQbctx0K2ZNSSan7eruJqTCQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/expect-type/-/expect-type-0.14.2.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "prettier": {
+      "2.3.0": {
+        "hash": "sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prettier/-/prettier-2.3.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-dom": {
+      "18.2.0": {
+        "hash": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+      }
+    },
+    "scheduler": {
+      "0.23.0": {
+        "hash": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+      }
+    },
+    "type-fest": {
+      "2.19.0": {
+        "hash": "sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/type-fest/-/type-fest-2.19.0.tgz"
+      }
+    }
+  }
+}
