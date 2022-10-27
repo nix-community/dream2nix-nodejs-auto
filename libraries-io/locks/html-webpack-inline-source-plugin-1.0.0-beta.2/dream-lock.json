@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "html-webpack-inline-source-plugin",
+    "location": "",
+    "packages": {
+      "html-webpack-inline-source-plugin": "1.0.0-beta.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "html-webpack-inline-source-plugin": {
+      "1.0.0-beta.2": [
+        [ "escape-string-regexp", "1.0.5" ],
+        [ "slash", "1.0.0" ],
+        [ "source-map-url", "0.4.1" ]
+      ],
+      "unknown": [
+        [ "html-webpack-inline-source-plugin", "1.0.0-beta.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "escape-string-regexp": {
+      "1.0.5": {
+        "hash": "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+      }
+    },
+    "html-webpack-inline-source-plugin": {
+      "1.0.0-beta.2": {
+        "hash": "sha512-ydsEKdp0tnbmnqRAH2WSSMXerCNYhjes5b79uvP2BU3p6cyk+6ucNMsw5b5xD1QxphgvBBA3QqVmdcpu8QLlRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-webpack-inline-source-plugin/-/html-webpack-inline-source-plugin-1.0.0-beta.2.tgz"
+      }
+    },
+    "slash": {
+      "1.0.0": {
+        "hash": "sha512-3TYDR7xWt4dIqV2JauJr+EJeW356RXijHeUlO+8djJ+uBXPn8/2dpzBc8yQhh583sVvc9CvFAeQVgijsH+PNNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz"
+      }
+    },
+    "source-map-url": {
+      "0.4.1": {
+        "hash": "sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-url/-/source-map-url-0.4.1.tgz"
+      }
+    }
+  }
+}

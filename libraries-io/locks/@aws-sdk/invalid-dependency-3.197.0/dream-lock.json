@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/invalid-dependency",
+    "location": "",
+    "packages": {
+      "@aws-sdk/invalid-dependency": "3.197.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/invalid-dependency": {
+      "3.197.0": [
+        [ "@aws-sdk/types", "3.197.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/invalid-dependency", "3.197.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/invalid-dependency": {
+      "3.197.0": {
+        "hash": "sha512-C5yz97yskupjLkj1zKefPzLjPuhV3Ci27zNfQkI1XcjnYyrOJm5bNuR6DUuMEd7flgjOvWL//5L0hmW/sF7vNg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/invalid-dependency/-/invalid-dependency-3.197.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.197.0": {
+        "hash": "sha512-ZM6s4AIWLWeKiuigPCSbSSBn9i7s1o+/U/dRpLax3bSpH7E6PU5hEnIXEzWsIXWU1/8bmTttY8qmYEx3RCmbpw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.197.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

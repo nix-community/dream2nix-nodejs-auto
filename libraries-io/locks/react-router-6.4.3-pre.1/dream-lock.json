@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "react-router",
+    "location": "",
+    "packages": {
+      "react-router": "6.4.3-pre.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-router": {
+      "6.4.3-pre.1": [
+        [ "@remix-run/router", "1.0.3-pre.1" ]
+      ],
+      "unknown": [
+        [ "react-router", "6.4.3-pre.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@remix-run/router": {
+      "1.0.3-pre.1": {
+        "hash": "sha512-2spqZ2wNOjUxaAprJPS1gMVgy1QMASUJx6qp093OEi7GZbXi00zKi5qckqD2n/NULeR97eVySlgD1LU4//ruEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@remix-run/router/-/router-1.0.3-pre.1.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-router": {
+      "6.4.3-pre.1": {
+        "hash": "sha512-KYT8KZM+S/KXD58gVA9+Yo0ewXFljD4rZGdoaG+dnjrGK4y5TJZxY2FZ+nkKvU8pPkGCBZN6opYWSjM8eeEcVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-router/-/react-router-6.4.3-pre.1.tgz"
+      }
+    }
+  }
+}

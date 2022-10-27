@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "i18next-browser-languagedetector",
+    "location": "",
+    "packages": {
+      "i18next-browser-languagedetector": "7.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.19.4": [
+        [ "regenerator-runtime", "0.13.10" ]
+      ]
+    },
+    "i18next-browser-languagedetector": {
+      "7.0.0": [
+        [ "@babel/runtime", "7.19.4" ]
+      ],
+      "unknown": [
+        [ "i18next-browser-languagedetector", "7.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.19.4": {
+        "hash": "sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.4.tgz"
+      }
+    },
+    "i18next-browser-languagedetector": {
+      "7.0.0": {
+        "hash": "sha512-RrH7z5/DbhzhgCLDFIKXBTZlb2aXi38ZHa5e5oZaPt9zGLWmgAX49mzkQL/E7R6Y9fTE8QbZFuyMV0ronu4H/Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/i18next-browser-languagedetector/-/i18next-browser-languagedetector-7.0.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    }
+  }
+}

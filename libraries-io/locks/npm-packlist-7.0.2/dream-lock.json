@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "npm-packlist",
+    "location": "",
+    "packages": {
+      "npm-packlist": "7.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "brace-expansion": {
+      "2.0.1": [
+        [ "balanced-match", "1.0.2" ]
+      ]
+    },
+    "ignore-walk": {
+      "6.0.0": [
+        [ "minimatch", "5.1.0" ]
+      ]
+    },
+    "minimatch": {
+      "5.1.0": [
+        [ "brace-expansion", "2.0.1" ]
+      ]
+    },
+    "npm-packlist": {
+      "7.0.2": [
+        [ "ignore-walk", "6.0.0" ]
+      ],
+      "unknown": [
+        [ "npm-packlist", "7.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "balanced-match": {
+      "1.0.2": {
+        "hash": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+      }
+    },
+    "brace-expansion": {
+      "2.0.1": {
+        "hash": "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz"
+      }
+    },
+    "ignore-walk": {
+      "6.0.0": {
+        "hash": "sha512-bTf9UWe/UP1yxG3QUrj/KOvEhTAUWPcv+WvbFZ28LcqznXabp7Xu6o9y1JEC18+oqODuS7VhTpekV5XvFwsxJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ignore-walk/-/ignore-walk-6.0.0.tgz"
+      }
+    },
+    "minimatch": {
+      "5.1.0": {
+        "hash": "sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/minimatch/-/minimatch-5.1.0.tgz"
+      }
+    },
+    "npm-packlist": {
+      "7.0.2": {
+        "hash": "sha512-d2+7RMySjVXssww23rV5NuIq1NzGvM04OlI5kwnvtYKfFTAPVs6Zxmxns2HRtJEA1oNj7D/BbFXeVAOLmW3N3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/npm-packlist/-/npm-packlist-7.0.2.tgz"
+      }
+    }
+  }
+}

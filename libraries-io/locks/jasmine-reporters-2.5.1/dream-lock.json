@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "jasmine-reporters",
+    "location": "",
+    "packages": {
+      "jasmine-reporters": "2.5.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jasmine-reporters": {
+      "2.5.1": [
+        [ "@xmldom/xmldom", "0.8.3" ],
+        [ "mkdirp", "1.0.4" ]
+      ],
+      "unknown": [
+        [ "jasmine-reporters", "2.5.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@xmldom/xmldom": {
+      "0.8.3": {
+        "hash": "sha512-Lv2vySXypg4nfa51LY1nU8yDAGo/5YwF+EY/rUZgIbfvwVARcd67ttCM8SMsTeJy51YhHYavEq+FS6R0hW9PFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.8.3.tgz"
+      }
+    },
+    "jasmine-reporters": {
+      "2.5.1": {
+        "hash": "sha512-vFVTOveMTXTVh3yssjHZYhoHtqoz+Ch1JhIJNAcbUiZIBZprKuskbxtOIpJORCFlYKq5KhnTEzwI8Ts6Qcwuwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.5.1.tgz"
+      }
+    },
+    "mkdirp": {
+      "1.0.4": {
+        "hash": "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+      }
+    }
+  }
+}
