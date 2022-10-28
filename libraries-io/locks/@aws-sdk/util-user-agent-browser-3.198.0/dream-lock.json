@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-user-agent-browser",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-user-agent-browser": "3.198.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/util-user-agent-browser": {
+      "3.198.0": [
+        [ "@aws-sdk/types", "3.198.0" ],
+        [ "bowser", "2.11.0" ],
+        [ "tslib", "2.4.0" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-user-agent-browser", "3.198.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/types": {
+      "3.198.0": {
+        "hash": "sha512-ljgY9Pgb2CSRrf4IeaNy5gkhTsBae9STKc/mqfScSzvZOvRHu+BOIAGM33fDoCwxD1viKNVJvU1KemiI57Gbvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.198.0.tgz"
+      }
+    },
+    "@aws-sdk/util-user-agent-browser": {
+      "3.198.0": {
+        "hash": "sha512-XIwaaKtrEsxsayk1yUNjx15AZenP6YRaRDa3f6dhGO+D6OOXP+0S38O5lakyDDGW7nkwkmXa2NIv/OPHPYJ+jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-user-agent-browser/-/util-user-agent-browser-3.198.0.tgz"
+      }
+    },
+    "bowser": {
+      "2.11.0": {
+        "hash": "sha512-AlcaJBi/pqqJBIQ8U9Mcpc9i8Aqxn88Skv5d+xBX006BY5u8N3mGLHa5Lgppa7L/HfwgwLgZ6NYs+Ag6uUmJRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bowser/-/bowser-2.11.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.0": {
+        "hash": "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+      }
+    }
+  }
+}

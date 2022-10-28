@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@date-io/moment",
+    "location": "",
+    "packages": {
+      "@date-io/moment": "2.16.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@date-io/moment": {
+      "2.16.1": [
+        [ "@date-io/core", "2.16.0" ]
+      ],
+      "unknown": [
+        [ "@date-io/moment", "2.16.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@date-io/core": {
+      "2.16.0": {
+        "hash": "sha512-DYmSzkr+jToahwWrsiRA2/pzMEtz9Bq1euJwoOuYwuwIYXnZFtHajY2E6a1VNVDc9jP8YUXK1BvnZH9mmT19Zg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@date-io/core/-/core-2.16.0.tgz"
+      }
+    },
+    "@date-io/moment": {
+      "2.16.1": {
+        "hash": "sha512-JkxldQxUqZBfZtsaCcCMkm/dmytdyq5pS1RxshCQ4fHhsvP5A7gSqPD22QbVXMcJydi3d3v1Y8BQdUKEuGACZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@date-io/moment/-/moment-2.16.1.tgz"
+      }
+    }
+  }
+}

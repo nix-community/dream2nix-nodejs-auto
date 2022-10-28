@@ -1,0 +1,423 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-cdk/aws-lambda",
+    "location": "",
+    "packages": {
+      "@aws-cdk/aws-lambda": "1.179.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-cdk/assets": {
+      "1.179.0": [
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-applicationautoscaling": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-autoscaling-common", "1.179.0" ],
+        [ "@aws-cdk/aws-cloudwatch", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-autoscaling-common": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-cloudwatch": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-codeguruprofiler": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-codestarnotifications": {
+      "1.179.0": [
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-ec2": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-cloudwatch", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/aws-logs", "1.179.0" ],
+        [ "@aws-cdk/aws-s3", "1.179.0" ],
+        [ "@aws-cdk/aws-s3-assets", "1.179.0" ],
+        [ "@aws-cdk/aws-ssm", "1.179.0" ],
+        [ "@aws-cdk/cloud-assembly-schema", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "@aws-cdk/region-info", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-ecr": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-events", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-ecr-assets": {
+      "1.179.0": [
+        [ "@aws-cdk/assets", "1.179.0" ],
+        [ "@aws-cdk/aws-ecr", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-s3", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-efs": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-ec2", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/cloud-assembly-schema", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-events": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-iam": {
+      "1.179.0": [
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "@aws-cdk/region-info", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-kms": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/cloud-assembly-schema", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-lambda": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-applicationautoscaling", "1.179.0" ],
+        [ "@aws-cdk/aws-cloudwatch", "1.179.0" ],
+        [ "@aws-cdk/aws-codeguruprofiler", "1.179.0" ],
+        [ "@aws-cdk/aws-ec2", "1.179.0" ],
+        [ "@aws-cdk/aws-ecr", "1.179.0" ],
+        [ "@aws-cdk/aws-ecr-assets", "1.179.0" ],
+        [ "@aws-cdk/aws-efs", "1.179.0" ],
+        [ "@aws-cdk/aws-events", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/aws-logs", "1.179.0" ],
+        [ "@aws-cdk/aws-s3", "1.179.0" ],
+        [ "@aws-cdk/aws-s3-assets", "1.179.0" ],
+        [ "@aws-cdk/aws-signer", "1.179.0" ],
+        [ "@aws-cdk/aws-sns", "1.179.0" ],
+        [ "@aws-cdk/aws-sqs", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "@aws-cdk/region-info", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ],
+      "unknown": [
+        [ "@aws-cdk/aws-lambda", "1.179.0" ]
+      ]
+    },
+    "@aws-cdk/aws-logs": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-cloudwatch", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/aws-s3-assets", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-s3": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-events", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-s3-assets": {
+      "1.179.0": [
+        [ "@aws-cdk/assets", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/aws-s3", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-signer": {
+      "1.179.0": [
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-sns": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-cloudwatch", "1.179.0" ],
+        [ "@aws-cdk/aws-codestarnotifications", "1.179.0" ],
+        [ "@aws-cdk/aws-events", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/aws-sqs", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-sqs": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-cloudwatch", "1.179.0" ],
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/aws-ssm": {
+      "1.179.0": [
+        [ "@aws-cdk/aws-iam", "1.179.0" ],
+        [ "@aws-cdk/aws-kms", "1.179.0" ],
+        [ "@aws-cdk/cloud-assembly-schema", "1.179.0" ],
+        [ "@aws-cdk/core", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/core": {
+      "1.179.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.179.0" ],
+        [ "@aws-cdk/cx-api", "1.179.0" ],
+        [ "@aws-cdk/region-info", "1.179.0" ],
+        [ "constructs", "3.4.137" ]
+      ]
+    },
+    "@aws-cdk/cx-api": {
+      "1.179.0": [
+        [ "@aws-cdk/cloud-assembly-schema", "1.179.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-cdk/assets": {
+      "1.179.0": {
+        "hash": "sha512-dCYXoLHvN7wz3fzwOXGGTuus635WNKaOZvb1IE/R8P/YwQ0fXDPml0dvtFMus0Nf1q1qb9FdfArqaHjbRCSGVw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/assets/-/assets-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-applicationautoscaling": {
+      "1.179.0": {
+        "hash": "sha512-tO6zcuWiTFUvwGfY203iR6D3gmVGKoyuE+nV8YKsTdsU2xeWRXrcMoamUhgmuaLnXiTbN6S3Cs5B+Tbnv06hgQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-applicationautoscaling/-/aws-applicationautoscaling-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-autoscaling-common": {
+      "1.179.0": {
+        "hash": "sha512-fElKSsuk4Pk4srrooc45CHo908hC9QnjqepNobqqW+FVg3B5ADIkiZNE5z4Jn0kyyMYwenACoKFriNJzJWzUZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-autoscaling-common/-/aws-autoscaling-common-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-cloudwatch": {
+      "1.179.0": {
+        "hash": "sha512-Bw3QP+eeydXqWYTDc8RuUEPIe+TUeuCgno/WNP8iA7YGy8w6305rx+7UOSvLCOp6h5KkEdN//B9zwxIJuieLoA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-cloudwatch/-/aws-cloudwatch-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-codeguruprofiler": {
+      "1.179.0": {
+        "hash": "sha512-cgJKztwEX+TxzgqlcOU3sMEZl6FPDq1NMyPBuh4mtyc3IvVnGrNmNHpz1U7NQI+Ug46arpkBUeJdosv5E1pSdw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-codeguruprofiler/-/aws-codeguruprofiler-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-codestarnotifications": {
+      "1.179.0": {
+        "hash": "sha512-6WnTqcQYy48mMHr23SAj2nF6cP1HGNHkoQcbQrKQ2GMFoa5P/dD6f1byDKoBgwno5CqILzjWAhwtAKs91RnuHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-codestarnotifications/-/aws-codestarnotifications-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-ec2": {
+      "1.179.0": {
+        "hash": "sha512-j7rmQBFUH5v9XhygwnyCaadzl64BGhMKd01T9HJhFvY9Ef3o4ASAyHER+e5FFE8XI85JtSemValjuqPh8WudWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-ec2/-/aws-ec2-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-ecr": {
+      "1.179.0": {
+        "hash": "sha512-F/DbIxF1puZozLK8cvlgDPttWfY9g48dsYvGBInpiONWqMTeDTJI6UrZcobpLFRQUnEC3v4+gzPqlmMucsyV0g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-ecr/-/aws-ecr-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-ecr-assets": {
+      "1.179.0": {
+        "hash": "sha512-z1xZdrTU08TD/J4VMNXaC3keFUyEhRkCVMUdqrc+Kqa2VNg5jqjxmOcvFTJLsjwR/GQYT3sFWCMJnCHBlLntvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-ecr-assets/-/aws-ecr-assets-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-efs": {
+      "1.179.0": {
+        "hash": "sha512-i+A7sbwzLFlDmBVtPpUGnYvj7ihYGNXy0nJKyG5OE/6xSwSLp0P6DgkZC7T/5qVMGLzs0kjA8KKBV93+ZiG/qg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-efs/-/aws-efs-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-events": {
+      "1.179.0": {
+        "hash": "sha512-2bP6Izu5Dq5xX/W5PDbEmhct6xW/ZKz2/jX1DjzIhGJtHEKMNFG6xKUDl2SeKP+b1jo5/0I89hsirrKnvyH4xA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-events/-/aws-events-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-iam": {
+      "1.179.0": {
+        "hash": "sha512-8d0EIZXdq8MAWqnoeHlnk8d7uCsPo6XpYlq9CPf+Y2V4Shva3BFw6jjHWE/9mIfT0UyEKBTsf93jFjnXL3JrLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-iam/-/aws-iam-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-kms": {
+      "1.179.0": {
+        "hash": "sha512-rkZfCZY9yNd2VfCna/vJsN2EhwfwVfTuocLLDaxNOfqvea/DldsLLs8QJrjcJHG3DufsaInsCjcvLbnevfsQKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-kms/-/aws-kms-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-lambda": {
+      "1.179.0": {
+        "hash": "sha512-MUDV9gUSYryfcZLPR7wyuViO5p5+o/kTZaG1uZ2LU1d26ehOZNga8BrGQf3VA5rOqn1n9+9BaDikPrb1ZTEFXg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-lambda/-/aws-lambda-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-logs": {
+      "1.179.0": {
+        "hash": "sha512-Muszx+UeT8Ap2Z07fAZYV/viQ62tmMjSGkFRGvjYLR2wLB4WRwy0ZIELu9QmJtQm/YEzaxG44CYVtTZ/C54+HQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-logs/-/aws-logs-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-s3": {
+      "1.179.0": {
+        "hash": "sha512-/xss4+8y1umu9RIx56TH34KkOyrIbnpEwUBplWII13Ic/qU5Vx4EKv9TlMF08uIKWv5JDGSHTA8GNqfruC+kHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-s3/-/aws-s3-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-s3-assets": {
+      "1.179.0": {
+        "hash": "sha512-Pju9As1pt93tWUbymmIoaaBORf8DeQ676fE/Ky4lNmOeMIC4mCqkptCnkZ9agfIe6Lsx9zI7hLIT4QjS5Ea2JQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-s3-assets/-/aws-s3-assets-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-signer": {
+      "1.179.0": {
+        "hash": "sha512-7q1IyifdctO0PeXtB/LTu8dCo5Xfcs3Q+/yBjxLvP3RznqNpoMmLVBMDX/PXi4XtRawj7ne+enDrg53DrXyMXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-signer/-/aws-signer-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-sns": {
+      "1.179.0": {
+        "hash": "sha512-dA8rCRta6E2SqfGj2taNnu0KrDjGq8rPzaXlP2xaSKcrg7kJLwCjqX/xuTyUaHom2v+2IQlyR6QDdc7Dd4n6jg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-sns/-/aws-sns-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-sqs": {
+      "1.179.0": {
+        "hash": "sha512-cM9ep0Ygij5cZeFFJ++vMjIPye6Kcfb7l9F0cNQ1bYgGp3XsVEHwpkoKG/ElikXYF0hiQd7f5mvpCzX+P6PWhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-sqs/-/aws-sqs-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/aws-ssm": {
+      "1.179.0": {
+        "hash": "sha512-oaFgPzltALIjZENgsfsmZ88YgHigPcWuxI6fUeV6PjPU02/QO5op+US05umXRzH9yxvc9npHRt4tV6F+asCiJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/aws-ssm/-/aws-ssm-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/cloud-assembly-schema": {
+      "1.179.0": {
+        "hash": "sha512-UE/4RXmO2T+lYO07R3B5+vTUNDn/wVU+nFWADNiDpQmwJpde1lxhpwPb8CXCwxob9/eK4FjsVNRyzXConY6aQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/core": {
+      "1.179.0": {
+        "hash": "sha512-iD8j7iwwsxyHNx5Env1pIb49xpLdr6CH9ubgNiE391d+NBLdXR9GamPaMrwIIGcJGCwrYte7NHR2jFoZcjoIqQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/core/-/core-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/cx-api": {
+      "1.179.0": {
+        "hash": "sha512-HXU8jKOxMmejKHtZ/eZVH0Ax7OpQkUN1mVkOR6EhZgv1wVPVByOhUv6d3dkGUyJO9wLhYdGSxrWZkszt7QMAjg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/cx-api/-/cx-api-1.179.0.tgz"
+      }
+    },
+    "@aws-cdk/region-info": {
+      "1.179.0": {
+        "hash": "sha512-AJlukzLKqYZDaBhFJT8NAOCB48LDCrpV3FAgS79KDm4OwoqjJOcF+jYCxh8PPaw6O2ZwabzlJ5XN88FA3Ak/HA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-cdk/region-info/-/region-info-1.179.0.tgz"
+      }
+    },
+    "constructs": {
+      "3.4.137": {
+        "hash": "sha512-wZtiaa4Cfu97nYMTb5GLpCmF1wwHVov6IoC2epylReb8E9+kF5YDxjR/CvQ/urkF2KennFBIE85xgEjlqAXCgA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/constructs/-/constructs-3.4.137.tgz"
+      }
+    }
+  }
+}
