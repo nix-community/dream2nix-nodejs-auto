@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "memfs",
+    "location": "",
+    "packages": {
+      "memfs": "3.4.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "memfs": {
+      "3.4.9": [
+        [ "fs-monkey", "1.0.3" ]
+      ],
+      "unknown": [
+        [ "memfs", "3.4.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "fs-monkey": {
+      "1.0.3": {
+        "hash": "sha512-cybjIfiiE+pTWicSCLFHSrXZ6EilF30oh91FDP9S2B051prEa7QWfrVTQm10/dDpswBDXZugPa1Ogu8Yh+HV0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fs-monkey/-/fs-monkey-1.0.3.tgz"
+      }
+    },
+    "memfs": {
+      "3.4.9": {
+        "hash": "sha512-3rm8kbrzpUGRyPKSGuk387NZOwQ90O4rI9tsWQkzNW7BLSnKGp23RsEsKK8N8QVCrtJoAMqy3spxHC4os4G6PQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/memfs/-/memfs-3.4.9.tgz"
+      }
+    }
+  }
+}
