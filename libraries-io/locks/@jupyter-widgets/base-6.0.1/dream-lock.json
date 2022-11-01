@@ -18,9 +18,9 @@
         [ "@jupyterlab/services", "6.5.0" ],
         [ "@lumino/coreutils", "1.12.1" ],
         [ "@lumino/messaging", "1.10.3" ],
-        [ "@lumino/widgets", "1.34.1" ],
+        [ "@lumino/widgets", "1.35.0" ],
         [ "@types/backbone", "1.4.14" ],
-        [ "@types/lodash", "4.14.186" ],
+        [ "@types/lodash", "4.14.187" ],
         [ "backbone", "1.4.0" ],
         [ "jquery", "3.6.1" ],
         [ "lodash", "4.17.21" ]
@@ -32,8 +32,8 @@
     "@jupyterlab/coreutils": {
       "5.5.0": [
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
-        [ "@lumino/signaling", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
+        [ "@lumino/signaling", "1.11.0" ],
         [ "minimist", "1.2.7" ],
         [ "moment", "2.29.4" ],
         [ "path-browserify", "1.0.1" ],
@@ -49,9 +49,9 @@
       "4.5.0": [
         [ "@lumino/algorithm", "1.9.2" ],
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
         [ "@lumino/messaging", "1.10.3" ],
-        [ "@lumino/signaling", "1.10.2" ]
+        [ "@lumino/signaling", "1.11.0" ]
       ]
     },
     "@jupyterlab/services": {
@@ -63,9 +63,9 @@
         [ "@jupyterlab/statedb", "3.5.0" ],
         [ "@lumino/algorithm", "1.9.2" ],
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
-        [ "@lumino/polling", "1.11.2" ],
-        [ "@lumino/signaling", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
+        [ "@lumino/polling", "1.11.3" ],
+        [ "@lumino/signaling", "1.11.0" ],
         [ "node-fetch", "2.6.7" ],
         [ "ws", "7.5.9" ]
       ]
@@ -73,21 +73,21 @@
     "@jupyterlab/settingregistry": {
       "3.5.0": [
         [ "@jupyterlab/statedb", "3.5.0" ],
-        [ "@lumino/commands", "1.20.1" ],
+        [ "@lumino/commands", "1.21.0" ],
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
-        [ "@lumino/signaling", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
+        [ "@lumino/signaling", "1.11.0" ],
         [ "ajv", "6.12.6" ],
         [ "json5", "2.2.1" ]
       ]
     },
     "@jupyterlab/statedb": {
       "3.5.0": [
-        [ "@lumino/commands", "1.20.1" ],
+        [ "@lumino/commands", "1.21.0" ],
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
         [ "@lumino/properties", "1.8.2" ],
-        [ "@lumino/signaling", "1.10.2" ]
+        [ "@lumino/signaling", "1.11.0" ]
       ]
     },
     "@lumino/collections": {
@@ -96,26 +96,26 @@
       ]
     },
     "@lumino/commands": {
-      "1.20.1": [
+      "1.21.0": [
         [ "@lumino/algorithm", "1.9.2" ],
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
         [ "@lumino/domutils", "1.8.2" ],
         [ "@lumino/keyboard", "1.8.2" ],
-        [ "@lumino/signaling", "1.10.2" ],
-        [ "@lumino/virtualdom", "1.14.2" ]
+        [ "@lumino/signaling", "1.11.0" ],
+        [ "@lumino/virtualdom", "1.14.3" ]
       ]
     },
     "@lumino/disposable": {
-      "1.10.2": [
+      "1.10.3": [
         [ "@lumino/algorithm", "1.9.2" ],
-        [ "@lumino/signaling", "1.10.2" ]
+        [ "@lumino/signaling", "1.11.0" ]
       ]
     },
     "@lumino/dragdrop": {
-      "1.14.2": [
+      "1.14.3": [
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ]
+        [ "@lumino/disposable", "1.10.3" ]
       ]
     },
     "@lumino/messaging": {
@@ -125,35 +125,36 @@
       ]
     },
     "@lumino/polling": {
-      "1.11.2": [
+      "1.11.3": [
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
-        [ "@lumino/signaling", "1.10.2" ]
+        [ "@lumino/disposable", "1.10.3" ],
+        [ "@lumino/signaling", "1.11.0" ]
       ]
     },
     "@lumino/signaling": {
-      "1.10.2": [
-        [ "@lumino/algorithm", "1.9.2" ]
+      "1.11.0": [
+        [ "@lumino/algorithm", "1.9.2" ],
+        [ "@lumino/properties", "1.8.2" ]
       ]
     },
     "@lumino/virtualdom": {
-      "1.14.2": [
+      "1.14.3": [
         [ "@lumino/algorithm", "1.9.2" ]
       ]
     },
     "@lumino/widgets": {
-      "1.34.1": [
+      "1.35.0": [
         [ "@lumino/algorithm", "1.9.2" ],
-        [ "@lumino/commands", "1.20.1" ],
+        [ "@lumino/commands", "1.21.0" ],
         [ "@lumino/coreutils", "1.12.1" ],
-        [ "@lumino/disposable", "1.10.2" ],
+        [ "@lumino/disposable", "1.10.3" ],
         [ "@lumino/domutils", "1.8.2" ],
-        [ "@lumino/dragdrop", "1.14.2" ],
+        [ "@lumino/dragdrop", "1.14.3" ],
         [ "@lumino/keyboard", "1.8.2" ],
         [ "@lumino/messaging", "1.10.3" ],
         [ "@lumino/properties", "1.8.2" ],
-        [ "@lumino/signaling", "1.10.2" ],
-        [ "@lumino/virtualdom", "1.14.2" ]
+        [ "@lumino/signaling", "1.11.0" ],
+        [ "@lumino/virtualdom", "1.14.3" ]
       ]
     },
     "@types/backbone": {
@@ -268,10 +269,10 @@
       }
     },
     "@lumino/commands": {
-      "1.20.1": {
-        "hash": "sha512-7u0vc3qWVAyI3CHGmQ+MXP5bvmj5dtnU5J4u2aRrodtlysU3nLjGhD57bbTq2VUqpmS1bkfBqNFhO1e4PFKSaQ==",
+      "1.21.0": {
+        "hash": "sha512-N2LNL5fVNLdD48WEa7yyUtVRc2kIf4YpBojxygzZcMGVaoemLnCnUlw7espB5DTDl+WRO/pi5fkWTnoNvp+8Bg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/commands/-/commands-1.20.1.tgz"
+        "url": "https://registry.npmjs.org/@lumino/commands/-/commands-1.21.0.tgz"
       }
     },
     "@lumino/coreutils": {
@@ -282,10 +283,10 @@
       }
     },
     "@lumino/disposable": {
-      "1.10.2": {
-        "hash": "sha512-jwt8bCw3OU65wJMOCJUZAfVVUdxZdEufRDrDkoG91aSW+/R/VBzt33AqZX81/B0KxddL6R3PdNWI+0fRJBaeYw==",
+      "1.10.3": {
+        "hash": "sha512-a+LplaVGuubmM0KcgAK5NCcJxo0vuw020p3r5AaM/uvAtvLHM+po0wqD0Lcz633ERunf+bDdQ+8BcOhrQLPofQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/disposable/-/disposable-1.10.2.tgz"
+        "url": "https://registry.npmjs.org/@lumino/disposable/-/disposable-1.10.3.tgz"
       }
     },
     "@lumino/domutils": {
@@ -296,10 +297,10 @@
       }
     },
     "@lumino/dragdrop": {
-      "1.14.2": {
-        "hash": "sha512-wXsungIpgNSLmV23f61UPhDlxr0VUBX4xQY2gHq0ps1dDL9BNQnec9q0dbeYRa0n27gKEJ81efAgCV4a/+xJ3A==",
+      "1.14.3": {
+        "hash": "sha512-e3/lnc7bSqtdbDyamx+yeLuAECY1XGcczh8Wu66p6nkkohiajLqeNXicvWQd5G+T2xGce6QFkUnqWUcO5KNHOw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/dragdrop/-/dragdrop-1.14.2.tgz"
+        "url": "https://registry.npmjs.org/@lumino/dragdrop/-/dragdrop-1.14.3.tgz"
       }
     },
     "@lumino/keyboard": {
@@ -317,10 +318,10 @@
       }
     },
     "@lumino/polling": {
-      "1.11.2": {
-        "hash": "sha512-/1neRyLdRt62teEwi/wKmyaqaU+H8e4SvvFzrIXITX0shb72um+kv2vOAkj7wSImsIo21PWweRsTbzJ97f6J3w==",
+      "1.11.3": {
+        "hash": "sha512-NPda40R/PFwzufuhfEx41g/L3I1K8TEM75QbooL22U+bFRBY9bChOLh+xKXyT2yO30SRLg7F7jaWcwZ01hCVwQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/polling/-/polling-1.11.2.tgz"
+        "url": "https://registry.npmjs.org/@lumino/polling/-/polling-1.11.3.tgz"
       }
     },
     "@lumino/properties": {
@@ -331,24 +332,24 @@
       }
     },
     "@lumino/signaling": {
-      "1.10.2": {
-        "hash": "sha512-LvnLRb2ngOZbRtFHRcKkMdPSXm0bzfVv/5mbx/hpT1DWHihMtBpGQ+bIfFvnARmFJoI11Wt+DMX77MWPw6tpig==",
+      "1.11.0": {
+        "hash": "sha512-c4mfkmwr9RDh/cUF7BFoPj8KdSsmJRfGLt0e2ez4sgnbSX2afeMNQBIi/gKsD4mMmhI5bXa17tVDYQn6ICBXAw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/signaling/-/signaling-1.10.2.tgz"
+        "url": "https://registry.npmjs.org/@lumino/signaling/-/signaling-1.11.0.tgz"
       }
     },
     "@lumino/virtualdom": {
-      "1.14.2": {
-        "hash": "sha512-iF20v6s4gP/hAH4VjmBtv2dexr18W4vL/Y5Rx4+U3kS/ZIFU7987NsM+0Yr6W9kdBQ1w6+pJjRBS9sWYnohdoQ==",
+      "1.14.3": {
+        "hash": "sha512-5joUC1yuxeXbpfbSBm/OR8Mu9HoTo6PDX0RKqzlJ9o97iml7zayFN/ynzcxScKGQAo9iaXOY8uVIvGUT8FnsGw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/virtualdom/-/virtualdom-1.14.2.tgz"
+        "url": "https://registry.npmjs.org/@lumino/virtualdom/-/virtualdom-1.14.3.tgz"
       }
     },
     "@lumino/widgets": {
-      "1.34.1": {
-        "hash": "sha512-DNpqg7TgAQROOVytGNgFs8oBET/UrTjXYEls/S/GSzr0qcoiDHfrX+LOyaXxOO08ijvq9NhqYfYvmM5AFGTNuA==",
+      "1.35.0": {
+        "hash": "sha512-AFwCCt/4g6+3YwnrxRqjLusuLUidnldkQ+Dims3ZSm8keRtyjhr6ltnhj4KPZ5Nexxb0jmzWYcHHTceYTgU10w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@lumino/widgets/-/widgets-1.34.1.tgz"
+        "url": "https://registry.npmjs.org/@lumino/widgets/-/widgets-1.35.0.tgz"
       }
     },
     "@types/backbone": {
@@ -366,10 +367,10 @@
       }
     },
     "@types/lodash": {
-      "4.14.186": {
-        "hash": "sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==",
+      "4.14.187": {
+        "hash": "sha512-MrO/xLXCaUgZy3y96C/iOsaIqZSeupyTImKClHunL5GrmaiII2VwvWmLBu2hwa0Kp0sV19CsyjtrTc/Fx8rg/A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.186.tgz"
+        "url": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.187.tgz"
       }
     },
     "@types/sizzle": {

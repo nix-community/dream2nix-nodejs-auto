@@ -1,0 +1,180 @@
+{
+  "_generic": {
+    "defaultPackage": "@lumino/widgets",
+    "location": "",
+    "packages": {
+      "@lumino/widgets": "1.35.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@lumino/collections": {
+      "1.9.3": [
+        [ "@lumino/algorithm", "1.9.2" ]
+      ]
+    },
+    "@lumino/commands": {
+      "1.21.0": [
+        [ "@lumino/algorithm", "1.9.2" ],
+        [ "@lumino/coreutils", "1.12.1" ],
+        [ "@lumino/disposable", "1.10.3" ],
+        [ "@lumino/domutils", "1.8.2" ],
+        [ "@lumino/keyboard", "1.8.2" ],
+        [ "@lumino/signaling", "1.11.0" ],
+        [ "@lumino/virtualdom", "1.14.3" ]
+      ]
+    },
+    "@lumino/disposable": {
+      "1.10.3": [
+        [ "@lumino/algorithm", "1.9.2" ],
+        [ "@lumino/signaling", "1.11.0" ]
+      ]
+    },
+    "@lumino/dragdrop": {
+      "1.14.3": [
+        [ "@lumino/coreutils", "1.12.1" ],
+        [ "@lumino/disposable", "1.10.3" ]
+      ]
+    },
+    "@lumino/messaging": {
+      "1.10.3": [
+        [ "@lumino/algorithm", "1.9.2" ],
+        [ "@lumino/collections", "1.9.3" ]
+      ]
+    },
+    "@lumino/signaling": {
+      "1.11.0": [
+        [ "@lumino/algorithm", "1.9.2" ],
+        [ "@lumino/properties", "1.8.2" ]
+      ]
+    },
+    "@lumino/virtualdom": {
+      "1.14.3": [
+        [ "@lumino/algorithm", "1.9.2" ]
+      ]
+    },
+    "@lumino/widgets": {
+      "1.35.0": [
+        [ "@lumino/algorithm", "1.9.2" ],
+        [ "@lumino/commands", "1.21.0" ],
+        [ "@lumino/coreutils", "1.12.1" ],
+        [ "@lumino/disposable", "1.10.3" ],
+        [ "@lumino/domutils", "1.8.2" ],
+        [ "@lumino/dragdrop", "1.14.3" ],
+        [ "@lumino/keyboard", "1.8.2" ],
+        [ "@lumino/messaging", "1.10.3" ],
+        [ "@lumino/properties", "1.8.2" ],
+        [ "@lumino/signaling", "1.11.0" ],
+        [ "@lumino/virtualdom", "1.14.3" ]
+      ],
+      "unknown": [
+        [ "@lumino/widgets", "1.35.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@lumino/algorithm": {
+      "1.9.2": {
+        "hash": "sha512-Z06lp/yuhz8CtIir3PNTGnuk7909eXt4ukJsCzChsGuot2l5Fbs96RJ/FOHgwCedaX74CtxPjXHXoszFbUA+4A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/algorithm/-/algorithm-1.9.2.tgz"
+      }
+    },
+    "@lumino/collections": {
+      "1.9.3": {
+        "hash": "sha512-2i2Wf1xnfTgEgdyKEpqM16bcYRIhUOGCDzaVCEZACVG9R1CgYwOe3zfn71slBQOVSjjRgwYrgLXu4MBpt6YK+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/collections/-/collections-1.9.3.tgz"
+      }
+    },
+    "@lumino/commands": {
+      "1.21.0": {
+        "hash": "sha512-N2LNL5fVNLdD48WEa7yyUtVRc2kIf4YpBojxygzZcMGVaoemLnCnUlw7espB5DTDl+WRO/pi5fkWTnoNvp+8Bg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/commands/-/commands-1.21.0.tgz"
+      }
+    },
+    "@lumino/coreutils": {
+      "1.12.1": {
+        "hash": "sha512-JLu3nTHzJk9N8ohZ85u75YxemMrmDzJdNgZztfP7F7T7mxND3YVNCkJG35a6aJ7edu1sIgCjBxOvV+hv27iYvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/coreutils/-/coreutils-1.12.1.tgz"
+      }
+    },
+    "@lumino/disposable": {
+      "1.10.3": {
+        "hash": "sha512-a+LplaVGuubmM0KcgAK5NCcJxo0vuw020p3r5AaM/uvAtvLHM+po0wqD0Lcz633ERunf+bDdQ+8BcOhrQLPofQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/disposable/-/disposable-1.10.3.tgz"
+      }
+    },
+    "@lumino/domutils": {
+      "1.8.2": {
+        "hash": "sha512-QIpMfkPJrs4GrWBuJf2Sn1fpyVPmvqUUAeD8xAQo8+4V5JAT0vUDLxZ9HijefMgNCi3+Bs8Z3lQwRCrz+cFP1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/domutils/-/domutils-1.8.2.tgz"
+      }
+    },
+    "@lumino/dragdrop": {
+      "1.14.3": {
+        "hash": "sha512-e3/lnc7bSqtdbDyamx+yeLuAECY1XGcczh8Wu66p6nkkohiajLqeNXicvWQd5G+T2xGce6QFkUnqWUcO5KNHOw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/dragdrop/-/dragdrop-1.14.3.tgz"
+      }
+    },
+    "@lumino/keyboard": {
+      "1.8.2": {
+        "hash": "sha512-Dy+XqQ1wXbcnuYtjys5A0pAqf4SpAFl9NY6owyIhXAo0Va7w3LYp3jgiP1xAaBAwMuUppiUAfrbjrysZuZ625g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/keyboard/-/keyboard-1.8.2.tgz"
+      }
+    },
+    "@lumino/messaging": {
+      "1.10.3": {
+        "hash": "sha512-F/KOwMCdqvdEG8CYAJcBSadzp6aI7a47Fr60zAKGqZATSRRRV41q53iXU7HjFPqQqQIvdn9Z7J32rBEAyQAzww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/messaging/-/messaging-1.10.3.tgz"
+      }
+    },
+    "@lumino/properties": {
+      "1.8.2": {
+        "hash": "sha512-EkjI9Cw8R0U+xC9HxdFSu7X1tz1H1vKu20cGvJ2gU+CXlMB1DvoYJCYxCThByHZ+kURTAap4SE5x8HvKwNPbig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/properties/-/properties-1.8.2.tgz"
+      }
+    },
+    "@lumino/signaling": {
+      "1.11.0": {
+        "hash": "sha512-c4mfkmwr9RDh/cUF7BFoPj8KdSsmJRfGLt0e2ez4sgnbSX2afeMNQBIi/gKsD4mMmhI5bXa17tVDYQn6ICBXAw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/signaling/-/signaling-1.11.0.tgz"
+      }
+    },
+    "@lumino/virtualdom": {
+      "1.14.3": {
+        "hash": "sha512-5joUC1yuxeXbpfbSBm/OR8Mu9HoTo6PDX0RKqzlJ9o97iml7zayFN/ynzcxScKGQAo9iaXOY8uVIvGUT8FnsGw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/virtualdom/-/virtualdom-1.14.3.tgz"
+      }
+    },
+    "@lumino/widgets": {
+      "1.35.0": {
+        "hash": "sha512-AFwCCt/4g6+3YwnrxRqjLusuLUidnldkQ+Dims3ZSm8keRtyjhr6ltnhj4KPZ5Nexxb0jmzWYcHHTceYTgU10w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@lumino/widgets/-/widgets-1.35.0.tgz"
+      }
+    },
+    "crypto": {
+      "1.0.1": {
+        "hash": "sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/crypto/-/crypto-1.0.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@commitlint/config-angular",
+    "location": "",
+    "packages": {
+      "@commitlint/config-angular": "17.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@commitlint/config-angular": {
+      "17.2.0": [
+        [ "@commitlint/config-angular-type-enum", "17.0.0" ]
+      ],
+      "unknown": [
+        [ "@commitlint/config-angular", "17.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@commitlint/config-angular": {
+      "17.2.0": {
+        "hash": "sha512-IlS1DYlLpl2M8d7HY7VLCFv30lYrGG0Rxkbw9ZwwL++cNbJZqxu+QW7goxD197+WUsyrQdY9Zdrj4U/RZJQTDQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@commitlint/config-angular/-/config-angular-17.2.0.tgz"
+      }
+    },
+    "@commitlint/config-angular-type-enum": {
+      "17.0.0": {
+        "hash": "sha512-OJrxpzszJ+jF0RvqLjsM/iZ94IfJ33NVCFFGVmkzuHjKxPt/i/+yJKJ5lzGhlsp5YV2F2Ui5ECIf5Sor2/OZvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@commitlint/config-angular-type-enum/-/config-angular-type-enum-17.0.0.tgz"
+      }
+    }
+  }
+}

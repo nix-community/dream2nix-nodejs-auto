@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/middleware-serde",
+    "location": "",
+    "packages": {
+      "@aws-sdk/middleware-serde": "3.200.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/middleware-serde": {
+      "3.200.0": [
+        [ "@aws-sdk/types", "3.200.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/middleware-serde", "3.200.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/middleware-serde": {
+      "3.200.0": {
+        "hash": "sha512-NDYLVC7UxIDvu906itssEJE5yobPdVhMuE3Ef3MEMk3UTawd8f7lmo40kzFDBS3cW/c4jluGiTsN8r+8fPc3oA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-serde/-/middleware-serde-3.200.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.200.0": {
+        "hash": "sha512-4BfspYfvSwscstd5kUPAABu2rs6OfPZLKKq17frsNt6k3ax2WeHBsp3KIaOmqr0WDQnEBPjJginTB4uVsiSkdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.200.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}
