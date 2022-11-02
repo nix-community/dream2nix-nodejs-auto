@@ -72,8 +72,8 @@
       ]
     },
     "@npmcli/git": {
-      "4.0.2": [
-        [ "@npmcli/promise-spawn", "5.0.0" ],
+      "4.0.3": [
+        [ "@npmcli/promise-spawn", "6.0.1" ],
         [ "lru-cache", "7.14.0" ],
         [ "mkdirp", "1.0.4" ],
         [ "npm-pick-manifest", "8.0.1" ],
@@ -81,7 +81,7 @@
         [ "promise-inflight", "1.0.1" ],
         [ "promise-retry", "2.0.1" ],
         [ "semver", "7.3.8" ],
-        [ "which", "2.0.2" ]
+        [ "which", "3.0.0" ]
       ]
     },
     "@npmcli/installed-package-contents": {
@@ -103,15 +103,18 @@
     "@npmcli/promise-spawn": {
       "4.0.0": [
         [ "infer-owner", "1.0.4" ]
+      ],
+      "6.0.1": [
+        [ "which", "3.0.0" ]
       ]
     },
     "@npmcli/run-script": {
-      "5.0.1": [
+      "5.1.1": [
         [ "@npmcli/node-gyp", "3.0.0" ],
-        [ "@npmcli/promise-spawn", "5.0.0" ],
+        [ "@npmcli/promise-spawn", "6.0.1" ],
         [ "node-gyp", "9.3.0" ],
         [ "read-package-json-fast", "3.0.1" ],
-        [ "which", "2.0.2" ]
+        [ "which", "3.0.0" ]
       ]
     },
     "@schematics/angular": {
@@ -213,7 +216,7 @@
         [ "promise-inflight", "1.0.1" ],
         [ "rimraf", "3.0.2" ],
         [ "ssri", "9.0.1" ],
-        [ "tar", "6.1.11" ],
+        [ "tar", "6.1.12" ],
         [ "unique-filename", "2.0.1" ]
       ],
       "17.0.1": [
@@ -229,7 +232,7 @@
         [ "p-map", "4.0.0" ],
         [ "promise-inflight", "1.0.1" ],
         [ "ssri", "10.0.0" ],
-        [ "tar", "6.1.11" ],
+        [ "tar", "6.1.12" ],
         [ "unique-filename", "3.0.0" ]
       ]
     },
@@ -519,7 +522,7 @@
         [ "npmlog", "6.0.2" ],
         [ "rimraf", "3.0.2" ],
         [ "semver", "7.3.8" ],
-        [ "tar", "6.1.11" ],
+        [ "tar", "6.1.12" ],
         [ "which", "2.0.2" ]
       ]
     },
@@ -629,10 +632,10 @@
     },
     "pacote": {
       "15.0.3": [
-        [ "@npmcli/git", "4.0.2" ],
+        [ "@npmcli/git", "4.0.3" ],
         [ "@npmcli/installed-package-contents", "2.0.1" ],
         [ "@npmcli/promise-spawn", "4.0.0" ],
-        [ "@npmcli/run-script", "5.0.1" ],
+        [ "@npmcli/run-script", "5.1.1" ],
         [ "cacache", "17.0.1" ],
         [ "fs-minipass", "2.1.0" ],
         [ "minipass", "3.3.4" ],
@@ -645,7 +648,7 @@
         [ "read-package-json", "6.0.0" ],
         [ "read-package-json-fast", "3.0.1" ],
         [ "ssri", "10.0.0" ],
-        [ "tar", "6.1.11" ]
+        [ "tar", "6.1.12" ]
       ]
     },
     "promise-retry": {
@@ -762,7 +765,7 @@
       ]
     },
     "tar": {
-      "6.1.11": [
+      "6.1.12": [
         [ "chownr", "2.0.0" ],
         [ "fs-minipass", "2.1.0" ],
         [ "minipass", "3.3.4" ],
@@ -818,6 +821,9 @@
     },
     "which": {
       "2.0.2": [
+        [ "isexe", "2.0.0" ]
+      ],
+      "3.0.0": [
         [ "isexe", "2.0.0" ]
       ]
     },
@@ -894,10 +900,10 @@
       }
     },
     "@npmcli/git": {
-      "4.0.2": {
-        "hash": "sha512-jBSmCI3F6KTZrWwez6mH6lJPWg3llZlQiHR05/sOw83H1vMc9nnL39ceP8x3SEkDJkaluXG/w4drdYS4FDONgA==",
+      "4.0.3": {
+        "hash": "sha512-8cXNkDIbnXPVbhXMmQ7/bklCAjtmPaXfI9aEM4iH+xSuEHINLMHhlfESvVwdqmHJRJkR48vNJTSUvoF6GRPSFA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@npmcli/git/-/git-4.0.2.tgz"
+        "url": "https://registry.npmjs.org/@npmcli/git/-/git-4.0.3.tgz"
       }
     },
     "@npmcli/installed-package-contents": {
@@ -932,17 +938,17 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@npmcli/promise-spawn/-/promise-spawn-4.0.0.tgz"
       },
-      "5.0.0": {
-        "hash": "sha512-q+Le2urM3NdxSFHj+VZXLTHKgmWxqHXUSqM5m9bjnV3EtThtJor64f5inmBkO9uEGZnhpjW0wL67Qf5qcgZkxw==",
+      "6.0.1": {
+        "hash": "sha512-+hcUpxgx0vEpDJI9Cn+lkTdKLoqKBXFCVps5H7FujEU2vLOp6KwqjLlxbnz8Wzgm8oEqW/u5FeNAXSFjLdCD0A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@npmcli/promise-spawn/-/promise-spawn-5.0.0.tgz"
+        "url": "https://registry.npmjs.org/@npmcli/promise-spawn/-/promise-spawn-6.0.1.tgz"
       }
     },
     "@npmcli/run-script": {
-      "5.0.1": {
-        "hash": "sha512-co/A+5LzdHQVLukfYT71x5e8+6HtIk2W9Jk5c8mE8LaGrkHazzRuZeyUmb6Ciaak7MRXRVOSoTaZ0zYEFVA/Gw==",
+      "5.1.1": {
+        "hash": "sha512-mqj/KPVhahTNvmzk5+YsKuqYnPPh1kOJ4/rA2FR5VhPgfJtCbPuBZrlkYUI0A+z5DKzpE5TITCdlgPllpKcd/Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@npmcli/run-script/-/run-script-5.0.1.tgz"
+        "url": "https://registry.npmjs.org/@npmcli/run-script/-/run-script-5.1.1.tgz"
       }
     },
     "@schematics/angular": {
@@ -2152,10 +2158,10 @@
       }
     },
     "tar": {
-      "6.1.11": {
-        "hash": "sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==",
+      "6.1.12": {
+        "hash": "sha512-jU4TdemS31uABHd+Lt5WEYJuzn+TJTCBLljvIAHZOz6M9Os5pJ4dD+vRFLxPa/n3T0iEFzpi+0x1UfuDZYbRMw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/tar/-/tar-6.1.11.tgz"
+        "url": "https://registry.npmjs.org/tar/-/tar-6.1.12.tgz"
       }
     },
     "through": {
@@ -2260,6 +2266,11 @@
         "hash": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
         "type": "http",
         "url": "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+      },
+      "3.0.0": {
+        "hash": "sha512-nla//68K9NU6yRiwDY/Q8aU6siKlSs64aEC7+IV56QoAuyQT2ovsJcgGYGyqMOmI/CGN1BOR6mM5EN0FBO+zyQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which/-/which-3.0.0.tgz"
       }
     },
     "wide-align": {

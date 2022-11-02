@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/middleware-retry",
+    "location": "",
+    "packages": {
+      "@aws-sdk/middleware-retry": "3.201.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/middleware-retry": {
+      "3.201.0": [
+        [ "@aws-sdk/protocol-http", "3.201.0" ],
+        [ "@aws-sdk/service-error-classification", "3.201.0" ],
+        [ "@aws-sdk/types", "3.201.0" ],
+        [ "@aws-sdk/util-middleware", "3.201.0" ],
+        [ "tslib", "2.4.1" ],
+        [ "uuid", "8.3.2" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/middleware-retry", "3.201.0" ]
+      ]
+    },
+    "@aws-sdk/protocol-http": {
+      "3.201.0": [
+        [ "@aws-sdk/types", "3.201.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@aws-sdk/util-middleware": {
+      "3.201.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/middleware-retry": {
+      "3.201.0": {
+        "hash": "sha512-4jQjSKCpSc4oB1X9nNq4FbIAwQrr+mvmUSmg/oe2Llf42Ak1G9gg3rNTtQdfzA/wNMlL4ZFfF5Br+uz06e1hnQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-retry/-/middleware-retry-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/protocol-http": {
+      "3.201.0": {
+        "hash": "sha512-RdOc1elWFpj8MogxG87nkhtylw0a+OD7W8WFM+Gw4yJMkl7cwW42VIBFfb0+KCGZfIQltIeSLRvfe3WvVPyo7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/protocol-http/-/protocol-http-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/service-error-classification": {
+      "3.201.0": {
+        "hash": "sha512-Pfcfmurgq8UpM0rXco6FVblcruqN4Mo3TW8/yaXrbctWpmdNT/8v19fffQIIgk94TU8Vf/nPJ7E5DXL7MZr4Fw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/service-error-classification/-/service-error-classification-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.201.0": {
+        "hash": "sha512-RCQj2pQyHD330Jd4c5CHJ87k2ZqC3Mmtl6nhwH1dy3vbnGUpc3q+3yinOKoTAY934kIa7ia32Y/2EjuyHxaj1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/util-middleware": {
+      "3.201.0": {
+        "hash": "sha512-iAitcEZo17IyKn4ku1IBgtomr25esu5OuSRjw5Or4bNOeqXB0w50cItf/9qft8LIhbvBEAUtNAYXvqNzvhTZdQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-middleware/-/util-middleware-3.201.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    },
+    "uuid": {
+      "8.3.2": {
+        "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+      }
+    }
+  }
+}

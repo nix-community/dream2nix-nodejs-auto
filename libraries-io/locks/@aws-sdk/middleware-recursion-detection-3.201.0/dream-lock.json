@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/middleware-recursion-detection",
+    "location": "",
+    "packages": {
+      "@aws-sdk/middleware-recursion-detection": "3.201.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/middleware-recursion-detection": {
+      "3.201.0": [
+        [ "@aws-sdk/protocol-http", "3.201.0" ],
+        [ "@aws-sdk/types", "3.201.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/middleware-recursion-detection", "3.201.0" ]
+      ]
+    },
+    "@aws-sdk/protocol-http": {
+      "3.201.0": [
+        [ "@aws-sdk/types", "3.201.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/middleware-recursion-detection": {
+      "3.201.0": {
+        "hash": "sha512-NGOr+n559ZcJLdFoJR8LNGdrOJFIp2BTuWEDYeicNdNb0bETTXrkzcfT1BRhV9CWqCDmjFvjdrzbhS0cw/UUGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/middleware-recursion-detection/-/middleware-recursion-detection-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/protocol-http": {
+      "3.201.0": {
+        "hash": "sha512-RdOc1elWFpj8MogxG87nkhtylw0a+OD7W8WFM+Gw4yJMkl7cwW42VIBFfb0+KCGZfIQltIeSLRvfe3WvVPyo7Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/protocol-http/-/protocol-http-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.201.0": {
+        "hash": "sha512-RCQj2pQyHD330Jd4c5CHJ87k2ZqC3Mmtl6nhwH1dy3vbnGUpc3q+3yinOKoTAY934kIa7ia32Y/2EjuyHxaj1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.201.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "aws-cdk",
+    "location": "",
+    "packages": {
+      "aws-cdk": "1.180.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aws-cdk": {
+      "1.180.0": [
+        [ "fsevents", "2.3.2" ]
+      ],
+      "unknown": [
+        [ "aws-cdk", "1.180.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "aws-cdk": {
+      "1.180.0": {
+        "hash": "sha512-Oxgfu82Zn3cSQNY5wedr3bIcIEKwFlmf8/KdJhihPxyTGE9ZzcKEg2sFHl0FM5/mZgTmH5B/0dOA1CM+cfXUIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/aws-cdk/-/aws-cdk-1.180.0.tgz"
+      }
+    },
+    "fsevents": {
+      "2.3.2": {
+        "hash": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+      }
+    }
+  }
+}

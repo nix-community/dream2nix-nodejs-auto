@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "chromatic",
+    "location": "",
+    "packages": {
+      "chromatic": "6.11.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "chromatic": {
+      "6.11.4": [
+        [ "@discoveryjs/json-ext", "0.5.7" ],
+        [ "@types/webpack-env", "1.18.0" ]
+      ],
+      "unknown": [
+        [ "chromatic", "6.11.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@discoveryjs/json-ext": {
+      "0.5.7": {
+        "hash": "sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz"
+      }
+    },
+    "@types/webpack-env": {
+      "1.18.0": {
+        "hash": "sha512-56/MAlX5WMsPVbOg7tAxnYvNYMMWr/QJiIp6BxVSW3JJXUVzzOn64qW8TzQyMSqSUFM2+PVI4aUHcHOzIz/1tg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.18.0.tgz"
+      }
+    },
+    "chromatic": {
+      "6.11.4": {
+        "hash": "sha512-f1TcuIXKjGUuOjPuwFF44kzbuEcESFcDxHzrzWPLmHuC90dV8HLxbufqYaTOBYMO/rJ32Zftb7S9pXuF/Rhfog==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/chromatic/-/chromatic-6.11.4.tgz"
+      }
+    }
+  }
+}
