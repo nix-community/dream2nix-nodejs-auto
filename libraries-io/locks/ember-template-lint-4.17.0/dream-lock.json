@@ -108,7 +108,7 @@
     },
     "aria-query": {
       "5.1.3": [
-        [ "deep-equal", "2.0.5" ]
+        [ "deep-equal", "2.1.0" ]
       ]
     },
     "async": {
@@ -357,7 +357,7 @@
       ]
     },
     "deep-equal": {
-      "2.0.5": [
+      "2.1.0": [
         [ "call-bind", "1.0.2" ],
         [ "es-get-iterator", "1.1.2" ],
         [ "get-intrinsic", "1.1.3" ],
@@ -372,7 +372,7 @@
         [ "side-channel", "1.0.4" ],
         [ "which-boxed-primitive", "1.0.2" ],
         [ "which-collection", "1.0.1" ],
-        [ "which-typed-array", "1.1.8" ]
+        [ "which-typed-array", "1.1.9" ]
       ]
     },
     "defaults": {
@@ -453,7 +453,7 @@
         [ "micromatch", "4.0.5" ],
         [ "resolve", "1.22.1" ],
         [ "v8-compile-cache", "2.3.0" ],
-        [ "yargs", "17.6.0" ]
+        [ "yargs", "17.6.1" ]
       ],
       "unknown": [
         [ "ember-template-lint", "4.17.0" ]
@@ -666,6 +666,11 @@
         [ "slash", "4.0.0" ]
       ]
     },
+    "gopd": {
+      "1.0.1": [
+        [ "get-intrinsic", "1.1.3" ]
+      ]
+    },
     "has": {
       "1.0.3": [
         [ "function-bind", "1.1.1" ]
@@ -774,11 +779,11 @@
       ]
     },
     "is-typed-array": {
-      "1.1.9": [
+      "1.1.10": [
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
-        [ "es-abstract", "1.20.4" ],
         [ "for-each", "0.3.3" ],
+        [ "gopd", "1.0.1" ],
         [ "has-tostringtag", "1.0.0" ]
       ]
     },
@@ -1188,13 +1193,13 @@
       ]
     },
     "which-typed-array": {
-      "1.1.8": [
+      "1.1.9": [
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
-        [ "es-abstract", "1.20.4" ],
         [ "for-each", "0.3.3" ],
+        [ "gopd", "1.0.1" ],
         [ "has-tostringtag", "1.0.0" ],
-        [ "is-typed-array", "1.1.9" ]
+        [ "is-typed-array", "1.1.10" ]
       ]
     },
     "wrap-ansi": {
@@ -1205,7 +1210,7 @@
       ]
     },
     "yargs": {
-      "17.6.0": [
+      "17.6.1": [
         [ "cliui", "8.0.1" ],
         [ "escalade", "3.1.1" ],
         [ "get-caller-file", "2.0.5" ],
@@ -1737,10 +1742,10 @@
       }
     },
     "deep-equal": {
-      "2.0.5": {
-        "hash": "sha512-nPiRgmbAtm1a3JsnLCf6/SLfXcjyN5v8L1TXzdCmHrXJ4hx+gW/w1YCcn7z8gJtSiDArZCgYtbao3QqLm/N1Sw==",
+      "2.1.0": {
+        "hash": "sha512-2pxgvWu3Alv1PoWEyVg7HS8YhGlUFUV7N5oOvfL6d+7xAmLSemMwv/c8Zv/i9KFzxV5Kt5CAvQc70fLwVuf4UA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.5.tgz"
+        "url": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.1.0.tgz"
       }
     },
     "defaults": {
@@ -2060,6 +2065,13 @@
         "url": "https://registry.npmjs.org/globby/-/globby-13.1.2.tgz"
       }
     },
+    "gopd": {
+      "1.0.1": {
+        "hash": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz"
+      }
+    },
     "graceful-fs": {
       "4.2.10": {
         "hash": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
@@ -2304,10 +2316,10 @@
       }
     },
     "is-typed-array": {
-      "1.1.9": {
-        "hash": "sha512-kfrlnTTn8pZkfpJMUgYD7YZ3qzeJgWUn8XfVYBARc4wnmNOmLbmuuaAs3q5fvB0UJOn6yHAKaGTPM7d6ezoD/A==",
+      "1.1.10": {
+        "hash": "sha512-PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.9.tgz"
+        "url": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz"
       }
     },
     "is-unicode-supported": {
@@ -3119,10 +3131,10 @@
       }
     },
     "which-typed-array": {
-      "1.1.8": {
-        "hash": "sha512-Jn4e5PItbcAHyLoRDwvPj1ypu27DJbtdYXUa5zsinrUx77Uvfb0cXwwnGMTn7cjUfhhqgVQnVJCwF+7cgU7tpw==",
+      "1.1.9": {
+        "hash": "sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.8.tgz"
+        "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.9.tgz"
       }
     },
     "workerpool": {
@@ -3161,10 +3173,10 @@
       }
     },
     "yargs": {
-      "17.6.0": {
-        "hash": "sha512-8H/wTDqlSwoSnScvV2N/JHfLWOKuh5MVla9hqLjK3nsfyy6Y4kDSYSvkU5YCUEPOSnRXfIyx3Sq+B/IWudTo4g==",
+      "17.6.1": {
+        "hash": "sha512-leBuCGrL4dAd6ispNOGsJlhd0uZ6Qehkbu/B9KCR+Pxa/NVdNwi+i31lo0buCm6XxhJQFshXCD0/evfV4xfoUg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/yargs/-/yargs-17.6.0.tgz"
+        "url": "https://registry.npmjs.org/yargs/-/yargs-17.6.1.tgz"
       }
     },
     "yargs-parser": {

@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "perspective.js",
+    "location": "",
+    "packages": {
+      "perspective.js": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "color-convert": {
+      "1.9.3": [
+        [ "color-name", "1.1.3" ]
+      ]
+    },
+    "perspective.js": {
+      "1.0.0": [
+        [ "color-convert", "1.9.3" ],
+        [ "dom-walk", "0.1.2" ],
+        [ "throttle-debounce", "1.1.0" ]
+      ],
+      "unknown": [
+        [ "perspective.js", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "color-convert": {
+      "1.9.3": {
+        "hash": "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
+      }
+    },
+    "color-name": {
+      "1.1.3": {
+        "hash": "sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
+      }
+    },
+    "dom-walk": {
+      "0.1.2": {
+        "hash": "sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.2.tgz"
+      }
+    },
+    "perspective.js": {
+      "1.0.0": {
+        "hash": "sha512-8M+0CNrkqS9YOHBBhTogEnAZu0oB+2jDaIuZ2Yubbv11s5kY5I3koY9s1UiHUg4bX0evv+NUw853giVgU/Y2+A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/perspective.js/-/perspective.js-1.0.0.tgz"
+      }
+    },
+    "throttle-debounce": {
+      "1.1.0": {
+        "hash": "sha512-XH8UiPCQcWNuk2LYePibW/4qL97+ZQ1AN3FNXwZRBNPPowo/NRU5fAlDCSNBJIYCKbioZfuYtMhG4quqoJhVzg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-1.1.0.tgz"
+      }
+    }
+  }
+}

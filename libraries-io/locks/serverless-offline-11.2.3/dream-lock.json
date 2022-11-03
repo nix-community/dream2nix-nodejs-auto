@@ -100,12 +100,12 @@
       ]
     },
     "@aws-sdk/client-lambda": {
-      "3.201.0": [
+      "3.202.0": [
         [ "@aws-crypto/sha256-browser", "2.0.0" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
-        [ "@aws-sdk/client-sts", "3.201.0" ],
+        [ "@aws-sdk/client-sts", "3.202.0" ],
         [ "@aws-sdk/config-resolver", "3.201.0" ],
-        [ "@aws-sdk/credential-provider-node", "3.201.0" ],
+        [ "@aws-sdk/credential-provider-node", "3.202.0" ],
         [ "@aws-sdk/fetch-http-handler", "3.201.0" ],
         [ "@aws-sdk/hash-node", "3.201.0" ],
         [ "@aws-sdk/invalid-dependency", "3.201.0" ],
@@ -131,7 +131,7 @@
         [ "@aws-sdk/util-body-length-node", "3.201.0" ],
         [ "@aws-sdk/util-defaults-mode-browser", "3.201.0" ],
         [ "@aws-sdk/util-defaults-mode-node", "3.201.0" ],
-        [ "@aws-sdk/util-endpoints", "3.201.0" ],
+        [ "@aws-sdk/util-endpoints", "3.202.0" ],
         [ "@aws-sdk/util-user-agent-browser", "3.201.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.201.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.188.0" ],
@@ -141,7 +141,7 @@
       ]
     },
     "@aws-sdk/client-sso": {
-      "3.201.0": [
+      "3.202.0": [
         [ "@aws-crypto/sha256-browser", "2.0.0" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
         [ "@aws-sdk/config-resolver", "3.201.0" ],
@@ -169,7 +169,7 @@
         [ "@aws-sdk/util-body-length-node", "3.201.0" ],
         [ "@aws-sdk/util-defaults-mode-browser", "3.201.0" ],
         [ "@aws-sdk/util-defaults-mode-node", "3.201.0" ],
-        [ "@aws-sdk/util-endpoints", "3.201.0" ],
+        [ "@aws-sdk/util-endpoints", "3.202.0" ],
         [ "@aws-sdk/util-user-agent-browser", "3.201.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.201.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.188.0" ],
@@ -178,11 +178,11 @@
       ]
     },
     "@aws-sdk/client-sts": {
-      "3.201.0": [
+      "3.202.0": [
         [ "@aws-crypto/sha256-browser", "2.0.0" ],
         [ "@aws-crypto/sha256-js", "2.0.0" ],
         [ "@aws-sdk/config-resolver", "3.201.0" ],
-        [ "@aws-sdk/credential-provider-node", "3.201.0" ],
+        [ "@aws-sdk/credential-provider-node", "3.202.0" ],
         [ "@aws-sdk/fetch-http-handler", "3.201.0" ],
         [ "@aws-sdk/hash-node", "3.201.0" ],
         [ "@aws-sdk/invalid-dependency", "3.201.0" ],
@@ -209,7 +209,7 @@
         [ "@aws-sdk/util-body-length-node", "3.201.0" ],
         [ "@aws-sdk/util-defaults-mode-browser", "3.201.0" ],
         [ "@aws-sdk/util-defaults-mode-node", "3.201.0" ],
-        [ "@aws-sdk/util-endpoints", "3.201.0" ],
+        [ "@aws-sdk/util-endpoints", "3.202.0" ],
         [ "@aws-sdk/util-user-agent-browser", "3.201.0" ],
         [ "@aws-sdk/util-user-agent-node", "3.201.0" ],
         [ "@aws-sdk/util-utf8-browser", "3.188.0" ],
@@ -244,10 +244,10 @@
       ]
     },
     "@aws-sdk/credential-provider-ini": {
-      "3.201.0": [
+      "3.202.0": [
         [ "@aws-sdk/credential-provider-env", "3.201.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.201.0" ],
-        [ "@aws-sdk/credential-provider-sso", "3.201.0" ],
+        [ "@aws-sdk/credential-provider-sso", "3.202.0" ],
         [ "@aws-sdk/credential-provider-web-identity", "3.201.0" ],
         [ "@aws-sdk/property-provider", "3.201.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.201.0" ],
@@ -256,12 +256,12 @@
       ]
     },
     "@aws-sdk/credential-provider-node": {
-      "3.201.0": [
+      "3.202.0": [
         [ "@aws-sdk/credential-provider-env", "3.201.0" ],
         [ "@aws-sdk/credential-provider-imds", "3.201.0" ],
-        [ "@aws-sdk/credential-provider-ini", "3.201.0" ],
+        [ "@aws-sdk/credential-provider-ini", "3.202.0" ],
         [ "@aws-sdk/credential-provider-process", "3.201.0" ],
-        [ "@aws-sdk/credential-provider-sso", "3.201.0" ],
+        [ "@aws-sdk/credential-provider-sso", "3.202.0" ],
         [ "@aws-sdk/credential-provider-web-identity", "3.201.0" ],
         [ "@aws-sdk/property-provider", "3.201.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.201.0" ],
@@ -278,8 +278,8 @@
       ]
     },
     "@aws-sdk/credential-provider-sso": {
-      "3.201.0": [
-        [ "@aws-sdk/client-sso", "3.201.0" ],
+      "3.202.0": [
+        [ "@aws-sdk/client-sso", "3.202.0" ],
         [ "@aws-sdk/property-provider", "3.201.0" ],
         [ "@aws-sdk/shared-ini-file-loader", "3.201.0" ],
         [ "@aws-sdk/types", "3.201.0" ],
@@ -530,7 +530,7 @@
       ]
     },
     "@aws-sdk/util-endpoints": {
-      "3.201.0": [
+      "3.202.0": [
         [ "@aws-sdk/types", "3.201.0" ],
         [ "tslib", "2.4.1" ]
       ]
@@ -811,7 +811,7 @@
       "6.2.2": [
         [ "@serverless/event-mocks", "1.1.1" ],
         [ "@serverless/platform-client", "4.3.2" ],
-        [ "@serverless/utils", "6.8.1" ],
+        [ "@serverless/utils", "6.8.2" ],
         [ "child-process-ext", "2.1.1" ],
         [ "chokidar", "3.5.3" ],
         [ "flat", "5.0.2" ],
@@ -857,7 +857,7 @@
       ]
     },
     "@serverless/utils": {
-      "6.8.1": [
+      "6.8.2": [
         [ "archive-type", "4.0.0" ],
         [ "chalk", "4.1.2" ],
         [ "ci-info", "3.5.0" ],
@@ -990,7 +990,7 @@
       ]
     },
     "aws-sdk": {
-      "2.1245.0": [
+      "2.1246.0": [
         [ "buffer", "4.9.2" ],
         [ "events", "1.1.1" ],
         [ "ieee754", "1.1.13" ],
@@ -1589,6 +1589,11 @@
         [ "slash", "3.0.0" ]
       ]
     },
+    "gopd": {
+      "1.0.1": [
+        [ "get-intrinsic", "1.1.3" ]
+      ]
+    },
     "got": {
       "11.8.5": [
         [ "@sindresorhus/is", "4.6.0" ],
@@ -1743,11 +1748,11 @@
       ]
     },
     "is-typed-array": {
-      "1.1.9": [
+      "1.1.10": [
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
-        [ "es-abstract", "1.20.4" ],
         [ "for-each", "0.3.3" ],
+        [ "gopd", "1.0.1" ],
         [ "has-tostringtag", "1.0.0" ]
       ]
     },
@@ -2138,11 +2143,11 @@
       "3.23.0": [
         [ "@serverless/dashboard-plugin", "6.2.2" ],
         [ "@serverless/platform-client", "4.3.2" ],
-        [ "@serverless/utils", "6.8.1" ],
+        [ "@serverless/utils", "6.8.2" ],
         [ "ajv", "8.11.0" ],
         [ "ajv-formats", "2.1.1" ],
         [ "archiver", "5.3.1" ],
-        [ "aws-sdk", "2.1245.0" ],
+        [ "aws-sdk", "2.1246.0" ],
         [ "bluebird", "3.7.2" ],
         [ "cachedir", "2.3.0" ],
         [ "chalk", "4.1.2" ],
@@ -2193,11 +2198,11 @@
     },
     "serverless-offline": {
       "11.2.3": [
-        [ "@aws-sdk/client-lambda", "3.201.0" ],
+        [ "@aws-sdk/client-lambda", "3.202.0" ],
         [ "@hapi/boom", "10.0.0" ],
         [ "@hapi/h2o2", "10.0.0" ],
         [ "@hapi/hapi", "20.2.2" ],
-        [ "@serverless/utils", "6.8.1" ],
+        [ "@serverless/utils", "6.8.2" ],
         [ "boxen", "7.0.0" ],
         [ "chalk", "5.1.2" ],
         [ "execa", "6.1.0" ],
@@ -2445,8 +2450,8 @@
         [ "inherits", "2.0.4" ],
         [ "is-arguments", "1.1.1" ],
         [ "is-generator-function", "1.0.10" ],
-        [ "is-typed-array", "1.1.9" ],
-        [ "which-typed-array", "1.1.8" ]
+        [ "is-typed-array", "1.1.10" ],
+        [ "which-typed-array", "1.1.9" ]
       ]
     },
     "validate-npm-package-name": {
@@ -2488,13 +2493,13 @@
       ]
     },
     "which-typed-array": {
-      "1.1.8": [
+      "1.1.9": [
         [ "available-typed-arrays", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
-        [ "es-abstract", "1.20.4" ],
         [ "for-each", "0.3.3" ],
+        [ "gopd", "1.0.1" ],
         [ "has-tostringtag", "1.0.0" ],
-        [ "is-typed-array", "1.1.9" ]
+        [ "is-typed-array", "1.1.10" ]
       ]
     },
     "widest-line": {
@@ -2597,24 +2602,24 @@
       }
     },
     "@aws-sdk/client-lambda": {
-      "3.201.0": {
-        "hash": "sha512-EU2xi2ViZQEc6+8QPxG0HuCOyqtF/rTyLc2BbwLmmIHuF6DG8S9ukYexAjv/kjK3KePprp/OvsQ+UsbQPy66Eg==",
+      "3.202.0": {
+        "hash": "sha512-OU0BLkiaeekOScfApQhufwLRS83N1UXFdLjRJU51mcVNQc5tKOwViEl3lWXUSGyXCodwaKxQcMvUtIhV6cdjeA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-lambda/-/client-lambda-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-lambda/-/client-lambda-3.202.0.tgz"
       }
     },
     "@aws-sdk/client-sso": {
-      "3.201.0": {
-        "hash": "sha512-pX9pM4W1unYNsuYFqCE1Ngbfr32iSg2DIGt9+2kBGpVcYa6gY99xRXgv8lM21u+sWttnuBAy7zQ0uM//KFWPKQ==",
+      "3.202.0": {
+        "hash": "sha512-c0impiZUbJeB5AdyZyER81tsqF9bxxaEz6p2LYkTn62NWVXPWEUo/1CHQRj36MUzorz1xiWKIN0NPgK6GBJkPQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-sso/-/client-sso-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sso/-/client-sso-3.202.0.tgz"
       }
     },
     "@aws-sdk/client-sts": {
-      "3.201.0": {
-        "hash": "sha512-FLxLB8yZZh1adHeipg12vnUenQkN1OJx2O+tlbapRFR09X8nLqkFJnD81jITfxM/JIazigX5DI1iU5OeJAqY7w==",
+      "3.202.0": {
+        "hash": "sha512-WGRFzODig8+cZR903q3fa7OAzGigSuzD9AoK+ybefQa7bxSuhT2ous4GNPOJz9WYWvugEPyrJu8vbG35IoF1ZQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.202.0.tgz"
       }
     },
     "@aws-sdk/config-resolver": {
@@ -2639,17 +2644,17 @@
       }
     },
     "@aws-sdk/credential-provider-ini": {
-      "3.201.0": {
-        "hash": "sha512-86hfDnmIJqDVBu0rbPr0sKhmh+2oiRoIyYnwiwe9E3sallPEb2sRwfb8ivcSkMbbg0kH7pzQsdbcz7D9fXCffw==",
+      "3.202.0": {
+        "hash": "sha512-d0kiYMpGzAq3EBXgEJ1SdeoMXVf3lk6NKHDi/Gy8LB03sZqgc5cY4XFCnY3cqE3DNWWZNR26M4j/KiA0LIjAVA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.202.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-node": {
-      "3.201.0": {
-        "hash": "sha512-5+1iFRZWgkFc2hr4+C1A6BHStXxKQ907lSaRzP0KcrKf42vIPcisP+GLQEM1Yhj21VxtoPQUyK7fgVpGwlqwPA==",
+      "3.202.0": {
+        "hash": "sha512-/uHNs3c1O3oFpH7z9nnpjyg8NKNyRbNxUDIHkuHkNSUUKXpfBisDX6TMbD4VcflGuNdkbT+8spkw5vsE8ox3ig==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.202.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-process": {
@@ -2660,10 +2665,10 @@
       }
     },
     "@aws-sdk/credential-provider-sso": {
-      "3.201.0": {
-        "hash": "sha512-j+uzSEioHz+4JKtlhU1qBSU9TnaQ2pdjvFHffRmixsrfHuIIvJB+u17Bx7KIOM5ayGobMVAB4mvSsmVRyNQvow==",
+      "3.202.0": {
+        "hash": "sha512-EBUY/qKboJwy3qxPHiD/LAnhzga4xR1p++QMoxg2BKgkgwlvGb23lYGr5DSCNhdtJj5o165YZDbGYH+PKn2NVw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.202.0.tgz"
       }
     },
     "@aws-sdk/credential-provider-web-identity": {
@@ -2919,10 +2924,10 @@
       }
     },
     "@aws-sdk/util-endpoints": {
-      "3.201.0": {
-        "hash": "sha512-EbXtjhdHfyEgDHrfduEmukMLls0cEamJ5VlUX5u1gPXHuT7Ju78+t6ig3BnMnmhaePIO5voNC+gZU5J29g+6cg==",
+      "3.202.0": {
+        "hash": "sha512-sNees5uDp7nfEbvzaA1DAHqoEvEb9ZOkdNH5gcj/FMBETbr00YtsuXsTZogTHQsX/otRTiudZBE3iH7R4SLSAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.201.0.tgz"
+        "url": "https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.202.0.tgz"
       }
     },
     "@aws-sdk/util-hex-encoding": {
@@ -3285,10 +3290,10 @@
       }
     },
     "@serverless/utils": {
-      "6.8.1": {
-        "hash": "sha512-vMftT3N/aqGdYyUc6T5xotyZTXZMaxchlzFvEXqTIVzJ1nVcNNIlbndCUA5+KCIipX+p60Uoj8d0pW5mtllS2Q==",
+      "6.8.2": {
+        "hash": "sha512-FW8zdG8OPoF6qgyutiMhz4m/5SxbQjoQdbaGcW3wU6xe3QzQh41Hif7I3Xuu4J62CvxiWuz19sxNDJz2mTcskw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@serverless/utils/-/utils-6.8.1.tgz"
+        "url": "https://registry.npmjs.org/@serverless/utils/-/utils-6.8.2.tgz"
       }
     },
     "@sindresorhus/is": {
@@ -3510,10 +3515,10 @@
       }
     },
     "aws-sdk": {
-      "2.1245.0": {
-        "hash": "sha512-LXNmuT33+k4ymWijm6dhLRm0OX14ki9OOK1BYn8AUWWPuh+GMlFIuIFH+sWORVdhZqaQNsvF72cB6CeMBqaJWg==",
+      "2.1246.0": {
+        "hash": "sha512-knOW3OsR5G67vc7RsGG7NJiukW2IKBQM5WiQo5SpWCO6PgNcpqnjqbfBEphFIzcwE5WYutHB6Ic1zW0yx27feQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1245.0.tgz"
+        "url": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1246.0.tgz"
       }
     },
     "axios": {
@@ -4496,6 +4501,13 @@
         "url": "https://registry.npmjs.org/globby/-/globby-11.1.0.tgz"
       }
     },
+    "gopd": {
+      "1.0.1": {
+        "hash": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz"
+      }
+    },
     "got": {
       "11.8.5": {
         "hash": "sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==",
@@ -4841,10 +4853,10 @@
       }
     },
     "is-typed-array": {
-      "1.1.9": {
-        "hash": "sha512-kfrlnTTn8pZkfpJMUgYD7YZ3qzeJgWUn8XfVYBARc4wnmNOmLbmuuaAs3q5fvB0UJOn6yHAKaGTPM7d6ezoD/A==",
+      "1.1.10": {
+        "hash": "sha512-PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.9.tgz"
+        "url": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz"
       }
     },
     "is-unicode-supported": {
@@ -6325,10 +6337,10 @@
       }
     },
     "which-typed-array": {
-      "1.1.8": {
-        "hash": "sha512-Jn4e5PItbcAHyLoRDwvPj1ypu27DJbtdYXUa5zsinrUx77Uvfb0cXwwnGMTn7cjUfhhqgVQnVJCwF+7cgU7tpw==",
+      "1.1.9": {
+        "hash": "sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.8.tgz"
+        "url": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.9.tgz"
       }
     },
     "widest-line": {

@@ -1,0 +1,173 @@
+{
+  "_generic": {
+    "defaultPackage": "html-to-text",
+    "location": "",
+    "packages": {
+      "html-to-text": "9.0.0-preview2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@selderee/plugin-htmlparser2": {
+      "0.9.0": [
+        [ "domhandler", "4.3.1" ],
+        [ "selderee", "0.9.0" ]
+      ]
+    },
+    "dom-serializer": {
+      "2.0.0": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "domhandler": {
+      "4.3.1": [
+        [ "domelementtype", "2.3.0" ]
+      ],
+      "5.0.3": [
+        [ "domelementtype", "2.3.0" ]
+      ]
+    },
+    "domutils": {
+      "3.0.1": [
+        [ "dom-serializer", "2.0.0" ],
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ]
+      ]
+    },
+    "html-to-text": {
+      "9.0.0-preview2": [
+        [ "@selderee/plugin-htmlparser2", "0.9.0" ],
+        [ "deepmerge", "4.2.2" ],
+        [ "htmlparser2", "8.0.1" ],
+        [ "selderee", "0.9.0" ]
+      ],
+      "unknown": [
+        [ "html-to-text", "9.0.0-preview2" ]
+      ]
+    },
+    "htmlparser2": {
+      "8.0.1": [
+        [ "domelementtype", "2.3.0" ],
+        [ "domhandler", "5.0.3" ],
+        [ "domutils", "3.0.1" ],
+        [ "entities", "4.4.0" ]
+      ]
+    },
+    "parseley": {
+      "0.10.0": [
+        [ "leac", "0.5.1" ],
+        [ "peberminta", "0.6.0" ]
+      ]
+    },
+    "selderee": {
+      "0.9.0": [
+        [ "parseley", "0.10.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@selderee/plugin-htmlparser2": {
+      "0.9.0": {
+        "hash": "sha512-d4zFHnTLNEjLRJxSxjsRSmLUIT5+EEG42rEs/F/LF6EoIE+KLTMqeyfJa+N3ngmehCyZj3cUA53kZda9c8dILw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@selderee/plugin-htmlparser2/-/plugin-htmlparser2-0.9.0.tgz"
+      }
+    },
+    "deepmerge": {
+      "4.2.2": {
+        "hash": "sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
+      }
+    },
+    "dom-serializer": {
+      "2.0.0": {
+        "hash": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
+      }
+    },
+    "domelementtype": {
+      "2.3.0": {
+        "hash": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+      }
+    },
+    "domhandler": {
+      "4.3.1": {
+        "hash": "sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-4.3.1.tgz"
+      },
+      "5.0.3": {
+        "hash": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz"
+      }
+    },
+    "domutils": {
+      "3.0.1": {
+        "hash": "sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/domutils/-/domutils-3.0.1.tgz"
+      }
+    },
+    "entities": {
+      "4.4.0": {
+        "hash": "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
+      }
+    },
+    "html-to-text": {
+      "9.0.0-preview2": {
+        "hash": "sha512-V+A/PHNZDifI0u0mm+mgG9vWUqbcG/kOjJQbFblZxxZvLciL/kiswZMSoCI/Jn5pc3nFW/iwtccqo+9liB4vOg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/html-to-text/-/html-to-text-9.0.0-preview2.tgz"
+      }
+    },
+    "htmlparser2": {
+      "8.0.1": {
+        "hash": "sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.1.tgz"
+      }
+    },
+    "leac": {
+      "0.5.1": {
+        "hash": "sha512-ItrUZwFdQSJT5sHceYI8qQif98Sc1XV0kLhn0aWpE4f82B+FICsF4egayLMS1iCHxNKWLbvK6DQNaRSTAbjnYA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/leac/-/leac-0.5.1.tgz"
+      }
+    },
+    "parseley": {
+      "0.10.0": {
+        "hash": "sha512-8r4sZD2bNjTxACVk9Sqkzc0pXO9G0KznjPnd+UbHs+ZkvFr5irw4P5HwMVoixanPFP5ZlZKsuf1QP+e47SYZAQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/parseley/-/parseley-0.10.0.tgz"
+      }
+    },
+    "peberminta": {
+      "0.6.0": {
+        "hash": "sha512-qeJGsC0f6dIWtpIN6t9MhpbIviMJ7wNosu+RtzXCyoxlEUlFJWVaMd3KvYO6ciNPi5XF6TvsVpSVq+a8iBtUBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/peberminta/-/peberminta-0.6.0.tgz"
+      }
+    },
+    "selderee": {
+      "0.9.0": {
+        "hash": "sha512-Zsg9YrMit8Z2u4L/f4oGuVjreT3KRml2Ak2aUKr4S+an3vy6ntGv7MLUs4i2hN6bz9b9DcDMl2fS4r1obhDMJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/selderee/-/selderee-0.9.0.tgz"
+      }
+    }
+  }
+}
