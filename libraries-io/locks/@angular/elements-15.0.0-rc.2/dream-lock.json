@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "@angular/elements",
+    "location": "",
+    "packages": {
+      "@angular/elements": "15.0.0-rc.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@angular/core": {
+      "15.0.0-rc.2": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@angular/elements": {
+      "15.0.0-rc.2": [
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@angular/elements", "15.0.0-rc.2" ]
+      ]
+    },
+    "rxjs": {
+      "7.5.7": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "zone.js": {
+      "0.11.8": [
+        [ "tslib", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@angular/core": {
+      "15.0.0-rc.2": {
+        "hash": "sha512-xiHbN0HP4TI0dQOeMpuGlcYYxxFGrnAcvIjl3w0VC9miBvuQW9x/VsE3esR7Z/H9LXwWn7qO7OLH8FWtCKQh3A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/core/-/core-15.0.0-rc.2.tgz"
+      }
+    },
+    "@angular/elements": {
+      "15.0.0-rc.2": {
+        "hash": "sha512-44oLwWop3cad5S3jJkQe3VRnuBRRHPyw5cz05Ww7tfe0urIxBJbTi7Ifp4oZ/qXAONwVVXMXoKahiDLNQCySxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@angular/elements/-/elements-15.0.0-rc.2.tgz"
+      }
+    },
+    "rxjs": {
+      "7.5.7": {
+        "hash": "sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/rxjs/-/rxjs-7.5.7.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    },
+    "zone.js": {
+      "0.11.8": {
+        "hash": "sha512-82bctBg2hKcEJ21humWIkXRlLBBmrc3nN7DFh5LGGhcyycO2S7FN8NmdvlcKaGFDNVL4/9kFLmwmInTavdJERA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/zone.js/-/zone.js-0.11.8.tgz"
+      }
+    }
+  }
+}

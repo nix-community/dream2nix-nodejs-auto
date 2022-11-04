@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "prisma",
+    "location": "",
+    "packages": {
+      "prisma": "4.6.0-integration-itx-pdp.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prisma": {
+      "4.6.0-integration-itx-pdp.11": [
+        [ "@prisma/engines", "4.6.0-integration-itx-pdp.11" ]
+      ],
+      "unknown": [
+        [ "prisma", "4.6.0-integration-itx-pdp.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "@prisma/engines": {
+      "4.6.0-integration-itx-pdp.11": {
+        "hash": "sha512-P+kmwbooYDlCi6mg+CBrhBqFtbCSleetBhXmjlYZut5KR6TTBjUsbXv4B+16h6TIsayUdn+EiKQA1nAfDBbwtg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@prisma/engines/-/engines-4.6.0-integration-itx-pdp.11.tgz"
+      }
+    },
+    "prisma": {
+      "4.6.0-integration-itx-pdp.11": {
+        "hash": "sha512-FD0U2bZDj/QoEtwK6g9fTUmxXxyPFBxqIDF8K3XcFEdJsIhtBeR3iStmENZxUSU3wVThlR9b5obUGd5Bwr1/oQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prisma/-/prisma-4.6.0-integration-itx-pdp.11.tgz"
+      }
+    }
+  }
+}

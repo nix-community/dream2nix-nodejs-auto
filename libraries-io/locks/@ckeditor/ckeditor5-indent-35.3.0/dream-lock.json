@@ -1,0 +1,242 @@
+{
+  "_generic": {
+    "defaultPackage": "@ckeditor/ckeditor5-indent",
+    "location": "",
+    "packages": {
+      "@ckeditor/ckeditor5-indent": "35.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {
+    "@ckeditor/ckeditor5-ui": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-clipboard": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-widget", "35.3.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-core": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-engine": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-enter": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-indent": {
+      "35.3.0": [
+        [ "ckeditor5", "35.3.0" ]
+      ],
+      "unknown": [
+        [ "@ckeditor/ckeditor5-indent", "35.3.0" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-paragraph": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-select-all": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-typing": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-ui": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-undo": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-upload": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-utils": {
+      "35.3.0": [
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@ckeditor/ckeditor5-widget": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-enter", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-typing", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "ckeditor5": {
+      "35.3.0": [
+        [ "@ckeditor/ckeditor5-clipboard", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-core", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-engine", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-enter", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-paragraph", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-select-all", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-typing", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-ui", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-undo", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-upload", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-utils", "35.3.0" ],
+        [ "@ckeditor/ckeditor5-widget", "35.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ckeditor/ckeditor5-clipboard": {
+      "35.3.0": {
+        "hash": "sha512-4bdMY4FvFSVe3LduZw2nPyoD40tTUl4MxX/iumtuvzt1Vk6fp2CTswbsv7VJaKVmTE79G7a4giI3ijI+SLyDmg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-clipboard/-/ckeditor5-clipboard-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-core": {
+      "35.3.0": {
+        "hash": "sha512-LK6G9tZkGXFeb21fXZTgu1Usq3ICOACPeSW9L7EfDA1hUroXjkTwsq7aPAvi9+0kZfYWO11sG2nxGdRX5gg2XA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-core/-/ckeditor5-core-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-engine": {
+      "35.3.0": {
+        "hash": "sha512-7vQLl66k0mv0UIjwXKmqidyIt5FDabKTOzwES+8hYVvYTW+pVkM5Y72ZHmo0OIVLj1oaQo15sLxlquSjUTbPWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-enter": {
+      "35.3.0": {
+        "hash": "sha512-bPikoNAoFhN2Nh/NHTq46VQu0n7+pFnYSgRcR/Vlp/1DoXi7L5z1Qrcm/W5WUvwMXEFT2C0llJoaFA0OJv1a1w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-enter/-/ckeditor5-enter-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-indent": {
+      "35.3.0": {
+        "hash": "sha512-rMPD/z4nbfTd4oL07/2D1wVF4GI+maOmgHmVzeqcxCL8w3/7cz4/ShA883YINnVF5yE82TbH+8FE7P2Ok2U0QQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-indent/-/ckeditor5-indent-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-paragraph": {
+      "35.3.0": {
+        "hash": "sha512-7NRQTbEZvXLOtHRZ+xo3NRm9OCJ50BkhgIw6O4HlvQqlvwu82vx5F/ROmhvFLiCJZX8FdDP9MdBmzgEqRIpmPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-paragraph/-/ckeditor5-paragraph-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-select-all": {
+      "35.3.0": {
+        "hash": "sha512-1cjvI1BQ7g8n5TGtMKpcA1TGASxPnIT77BRYuZ89eDIWjxOevrsVtNo1H4dpQYY4cjNnLwtfNY3AprW8aYZQJQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-select-all/-/ckeditor5-select-all-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-typing": {
+      "35.3.0": {
+        "hash": "sha512-ZY3UHVVq92Z2lVdgKuWbWC0blg+k3i+Np/DE44gDCFPiXPk0Fl2JK0wmtc3HYAvcn1IAgaMYwsEglFO4SHSnNQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-typing/-/ckeditor5-typing-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-ui": {
+      "35.3.0": {
+        "hash": "sha512-8RQJUSdVJTx8/PxHRHU8mbnJCZJ4BblWVDirtvLfzqGn+ECnM8wa1mQM2OvFTjS+rkvhVL2FkdXTw8Qy7oltKA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-undo": {
+      "35.3.0": {
+        "hash": "sha512-Ma423T/zZxlOVLDzKgti+Lfuc+l64UkahAarn2Hph85d4oV+u94NRcLQkwQczk9iQ1fUyC6SL/KpELo1kQWZsA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-undo/-/ckeditor5-undo-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-upload": {
+      "35.3.0": {
+        "hash": "sha512-AniyS3PtO0e47CjLFOlSL97ddxVdM40xgDZ/3QWQfZkUn5oPJeuBu6tRhCDEJHQFk3cPY7mK0TC4ozUu/KSR6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-upload/-/ckeditor5-upload-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-utils": {
+      "35.3.0": {
+        "hash": "sha512-kS6CsTbyDlSnWRUytH7c8rCkVRmO5ZXCX+uJIOYpa+CvKoVCECdfHKx3w5PmsYgRvbbnX+kVtaI5e5ujRCknfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-35.3.0.tgz"
+      }
+    },
+    "@ckeditor/ckeditor5-widget": {
+      "35.3.0": {
+        "hash": "sha512-KBqEHtrCgb9QOirCJKLUjnMVSiYMq8yGFbczKyZd/XdPFTWo8HuBm0i+A1eONrhIP8pFiTsBgsSizsoII0h5Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-35.3.0.tgz"
+      }
+    },
+    "ckeditor5": {
+      "35.3.0": {
+        "hash": "sha512-37/BmyZbBG29PZuZIhnQ6ju6LEPuD0ptNjXQzxTwkcUBS9cSaDN4r3p+xVdXrOYIF5mKUZrSGKA0/wyo0j6p0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ckeditor5/-/ckeditor5-35.3.0.tgz"
+      }
+    },
+    "lodash-es": {
+      "4.17.21": {
+        "hash": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "_generic": {
+    "defaultPackage": "@tarojs/router",
+    "location": "",
+    "packages": {
+      "@tarojs/router": "3.6.0-canary.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.20.1": [
+        [ "regenerator-runtime", "0.13.10" ]
+      ]
+    },
+    "@tarojs/api": {
+      "3.6.0-canary.0": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@tarojs/runtime", "3.6.0-canary.0" ]
+      ]
+    },
+    "@tarojs/router": {
+      "3.6.0-canary.0": [
+        [ "@tarojs/runtime", "3.6.0-canary.0" ],
+        [ "@tarojs/taro", "3.6.0-canary.0" ],
+        [ "dingtalk-jsapi", "2.15.4" ],
+        [ "history", "5.3.0" ],
+        [ "mobile-detect", "1.4.5" ],
+        [ "query-string", "7.1.1" ],
+        [ "universal-router", "8.3.0" ]
+      ],
+      "unknown": [
+        [ "@tarojs/router", "3.6.0-canary.0" ]
+      ]
+    },
+    "@tarojs/runtime": {
+      "3.6.0-canary.0": [
+        [ "@tarojs/shared", "3.6.0-canary.0" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@tarojs/taro": {
+      "3.6.0-canary.0": [
+        [ "@tarojs/api", "3.6.0-canary.0" ],
+        [ "@tarojs/runtime", "3.6.0-canary.0" ]
+      ]
+    },
+    "dingtalk-jsapi": {
+      "2.15.4": [
+        [ "promise-polyfill", "7.1.2" ]
+      ]
+    },
+    "history": {
+      "5.3.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "query-string": {
+      "7.1.1": [
+        [ "decode-uri-component", "0.2.0" ],
+        [ "filter-obj", "1.1.0" ],
+        [ "split-on-first", "1.1.0" ],
+        [ "strict-uri-encode", "2.0.0" ]
+      ]
+    },
+    "universal-router": {
+      "8.3.0": [
+        [ "path-to-regexp", "3.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.20.1": {
+        "hash": "sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
+      }
+    },
+    "@tarojs/api": {
+      "3.6.0-canary.0": {
+        "hash": "sha512-RYDTscmVjWj1/Z6s2R1G7yrYWUuied0Q0CQAXvno4UhgOgu6jycYVEMq/TIAUyXoIxxNl3KyO8n0GlT/BdxgeA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/api/-/api-3.6.0-canary.0.tgz"
+      }
+    },
+    "@tarojs/router": {
+      "3.6.0-canary.0": {
+        "hash": "sha512-gbziMWqYQDJLl6NM5FXP/W2lS/xj99fAamo3p9/gHynsydFY/qfK4pjroRAD3u/9VrRXNID6daMYZBUthoNvwA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/router/-/router-3.6.0-canary.0.tgz"
+      }
+    },
+    "@tarojs/runtime": {
+      "3.6.0-canary.0": {
+        "hash": "sha512-SgwvwGKA4JOaJU17/YVgXPJNlGYxf/31lbVoNLQAeDI56NN2b1r8HXjKa9quc8Mi8BCfwDNF1mxNytfVg1qGUA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/runtime/-/runtime-3.6.0-canary.0.tgz"
+      }
+    },
+    "@tarojs/shared": {
+      "3.6.0-canary.0": {
+        "hash": "sha512-QnvtIbQZLwWqPq8J73ajpUve4XL1YxXvC0rpuLsLvqNKV2JWX8SwCz/oxC/1lMsUNrvSZ+Mp0zpMjL3t7T+Lug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/shared/-/shared-3.6.0-canary.0.tgz"
+      }
+    },
+    "@tarojs/taro": {
+      "3.6.0-canary.0": {
+        "hash": "sha512-lurnB4xYqgR8e+9tPwEDHSduRkfJvrzQOE9aLiZZ2zuUkrwR2X2bRzURW+C3UOpoThOdWrCKNMw2sQk8FfcozA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/taro/-/taro-3.6.0-canary.0.tgz"
+      }
+    },
+    "decode-uri-component": {
+      "0.2.0": {
+        "hash": "sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+      }
+    },
+    "dingtalk-jsapi": {
+      "2.15.4": {
+        "hash": "sha512-pPETqUhLJYKNZIewnS9hU1/QqcdRbP2Q9sHySimko0C2nm/n9NoakVLtcKwdqgORq1dkPIP/jqv7RnESxhA2bA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dingtalk-jsapi/-/dingtalk-jsapi-2.15.4.tgz"
+      }
+    },
+    "filter-obj": {
+      "1.1.0": {
+        "hash": "sha512-8rXg1ZnX7xzy2NGDVkBVaAy+lSlPNwad13BtgSlLuxfIslyt5Vg64U7tFcCt4WS1R0hvtnQybT/IyCkGZ3DpXQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.1.0.tgz"
+      }
+    },
+    "history": {
+      "5.3.0": {
+        "hash": "sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/history/-/history-5.3.0.tgz"
+      }
+    },
+    "lodash-es": {
+      "4.17.21": {
+        "hash": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
+      }
+    },
+    "mobile-detect": {
+      "1.4.5": {
+        "hash": "sha512-yc0LhH6tItlvfLBugVUEtgawwFU2sIe+cSdmRJJCTMZ5GEJyLxNyC/NIOAOGk67Fa8GNpOttO3Xz/1bHpXFD/g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mobile-detect/-/mobile-detect-1.4.5.tgz"
+      }
+    },
+    "path-to-regexp": {
+      "3.2.0": {
+        "hash": "sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-3.2.0.tgz"
+      }
+    },
+    "promise-polyfill": {
+      "7.1.2": {
+        "hash": "sha512-FuEc12/eKqqoRYIGBrUptCBRhobL19PS2U31vMNTfyck1FxPyMfgsXyW4Mav85y/ZN1hop3hOwRlUDok23oYfQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-7.1.2.tgz"
+      }
+    },
+    "query-string": {
+      "7.1.1": {
+        "hash": "sha512-MplouLRDHBZSG9z7fpuAAcI7aAYjDLhtsiVZsevsfaHWDS2IDdORKbSd1kWUA+V4zyva/HZoSfpwnYMMQDhb0w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/query-string/-/query-string-7.1.1.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    },
+    "split-on-first": {
+      "1.1.0": {
+        "hash": "sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/split-on-first/-/split-on-first-1.1.0.tgz"
+      }
+    },
+    "strict-uri-encode": {
+      "2.0.0": {
+        "hash": "sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz"
+      }
+    },
+    "universal-router": {
+      "8.3.0": {
+        "hash": "sha512-cBkihRoHvRQAjdUnDE1GGuuw/TPAIi8z2pEsSmUVAWLeZdgjHzzAb1+0VOO6NvBOvySItOTQikzaGlRxRdJBnA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/universal-router/-/universal-router-8.3.0.tgz"
+      }
+    }
+  }
+}
