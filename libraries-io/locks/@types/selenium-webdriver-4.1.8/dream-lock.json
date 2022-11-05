@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/selenium-webdriver",
+    "location": "",
+    "packages": {
+      "@types/selenium-webdriver": "4.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/selenium-webdriver": {
+      "4.1.8": [
+        [ "@types/ws", "8.5.3" ]
+      ],
+      "unknown": [
+        [ "@types/selenium-webdriver", "4.1.8" ]
+      ]
+    },
+    "@types/ws": {
+      "8.5.3": [
+        [ "@types/node", "18.11.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.11.9": {
+        "hash": "sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.9.tgz"
+      }
+    },
+    "@types/selenium-webdriver": {
+      "4.1.8": {
+        "hash": "sha512-k5F++V1mGDxRVxVsZauiBwIMDR9rt1LSOa+nN/1ZghSDED2L6c7EWtzo9jnJDet73LVsOyW6CtCAmZBgMNnnuQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-4.1.8.tgz"
+      }
+    },
+    "@types/ws": {
+      "8.5.3": {
+        "hash": "sha512-6YOoWjruKj1uLf3INHH7D3qTXwFfEsg1kf3c0uDdSBJwfa/llkwIjrAGV7j7mVgGNbzTQ3HiHKKDXl6bJPD97w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/ws/-/ws-8.5.3.tgz"
+      }
+    }
+  }
+}

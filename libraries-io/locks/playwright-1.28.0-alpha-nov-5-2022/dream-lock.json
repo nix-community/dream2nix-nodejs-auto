@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "playwright",
+    "location": "",
+    "packages": {
+      "playwright": "1.28.0-alpha-nov-5-2022"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "playwright": {
+      "1.28.0-alpha-nov-5-2022": [
+        [ "playwright-core", "1.28.0-alpha-nov-5-2022" ]
+      ],
+      "unknown": [
+        [ "playwright", "1.28.0-alpha-nov-5-2022" ]
+      ]
+    }
+  },
+  "sources": {
+    "playwright": {
+      "1.28.0-alpha-nov-5-2022": {
+        "hash": "sha512-+CYfRkfik4usKRlOIAEXXsIgAnFMgSfO0OJpnC210Dk+Yv0VsTYzq7Ih/AFif0WyFT+keaVIQwPEMa+CwGNVRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/playwright/-/playwright-1.28.0-alpha-nov-5-2022.tgz"
+      }
+    },
+    "playwright-core": {
+      "1.28.0-alpha-nov-5-2022": {
+        "hash": "sha512-7ZXOYeHSJV8HLta1+bZALeWqb3C6p7E3L/djxLZMHDAp/xoPQ5EX2bBGLJ8JI2NC37ENZroWlTKchSIyoA0t1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.28.0-alpha-nov-5-2022.tgz"
+      }
+    }
+  }
+}

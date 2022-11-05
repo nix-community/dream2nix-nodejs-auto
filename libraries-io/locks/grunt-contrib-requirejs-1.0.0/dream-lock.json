@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "grunt-contrib-requirejs",
+    "location": "",
+    "packages": {
+      "grunt-contrib-requirejs": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "grunt-contrib-requirejs": {
+      "1.0.0": [
+        [ "requirejs", "2.3.6" ]
+      ],
+      "unknown": [
+        [ "grunt-contrib-requirejs", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "grunt-contrib-requirejs": {
+      "1.0.0": {
+        "hash": "sha512-lmwR0y8roG4Xr31B9atSuiCh++OZYCUXz2zQ6KaEtkR3l4htmD4iCkdJjJ5QmK/h4XctemNckjwJ0STwLzjSxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/grunt-contrib-requirejs/-/grunt-contrib-requirejs-1.0.0.tgz"
+      }
+    },
+    "requirejs": {
+      "2.3.6": {
+        "hash": "sha512-ipEzlWQe6RK3jkzikgCupiTbTvm4S0/CAU5GlgptkN5SO6F3u0UD0K18wy6ErDqiCyP4J4YYe1HuAShvsxePLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/requirejs/-/requirejs-2.3.6.tgz"
+      }
+    }
+  }
+}
