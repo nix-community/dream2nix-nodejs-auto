@@ -44,12 +44,12 @@
       "4.1.1": [
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-keys", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/peer-record", "4.0.4" ],
@@ -70,9 +70,9 @@
     "@chainsafe/libp2p-noise": {
       "10.0.1": [
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-connection-encrypter", "3.0.1" ],
-        [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-connection-encrypter", "3.0.2" ],
+        [ "@libp2p/interface-keys", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@stablelib/chacha20poly1305", "1.0.1" ],
@@ -311,10 +311,10 @@
     },
     "@libp2p/bootstrap": {
       "5.0.0": [
-        [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-peer-discovery", "1.0.2" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@multiformats/mafmt", "11.0.3" ],
@@ -324,27 +324,27 @@
     "@libp2p/components": {
       "2.1.1": [
         [ "@libp2p/interface-address-manager", "1.0.3" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-connection-manager", "1.3.0" ],
-        [ "@libp2p/interface-content-routing", "1.0.3" ],
-        [ "@libp2p/interface-dht", "1.0.2" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-connection-manager", "1.3.1" ],
+        [ "@libp2p/interface-content-routing", "1.0.4" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
         [ "@libp2p/interface-metrics", "3.0.0" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-routing", "1.0.1" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-routing", "1.0.2" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
         [ "@libp2p/interface-transport", "1.0.4" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "err-code", "3.0.1" ],
         [ "interface-datastore", "7.0.1" ]
       ]
     },
     "@libp2p/connection": {
       "4.0.2": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
         [ "err-code", "3.0.1" ]
@@ -352,7 +352,7 @@
     },
     "@libp2p/crypto": {
       "1.0.7": [
-        [ "@libp2p/interface-keys", "1.0.3" ],
+        [ "@libp2p/interface-keys", "1.0.4" ],
         [ "@noble/ed25519", "1.7.1" ],
         [ "@noble/secp256k1", "1.7.0" ],
         [ "err-code", "3.0.1" ],
@@ -364,10 +364,10 @@
     },
     "@libp2p/delegated-content-routing": {
       "3.0.0": [
-        [ "@libp2p/interface-content-routing", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-content-routing", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "any-signal", "3.0.1" ],
         [ "err-code", "3.0.1" ],
@@ -379,10 +379,10 @@
     },
     "@libp2p/delegated-peer-routing": {
       "3.0.0": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-peer-routing", "1.0.1" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-peer-routing", "1.0.2" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "any-signal", "3.0.1" ],
@@ -394,8 +394,8 @@
     },
     "@libp2p/floodsub": {
       "5.0.0": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-pubsub", "3.0.0" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-pubsub", "3.0.1" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/pubsub", "5.0.0" ],
         [ "protons-runtime", "4.0.1" ],
@@ -405,162 +405,162 @@
     },
     "@libp2p/interface-address-manager": {
       "1.0.3": [
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ]
       ],
-      "2.0.0": [
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "2.0.1": [
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ]
       ]
     },
     "@libp2p/interface-connection": {
-      "3.0.2": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "3.0.3": [
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
         [ "it-stream-types", "1.0.4" ],
         [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-connection-encrypter": {
-      "3.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+      "3.0.2": [
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "it-stream-types", "1.0.4" ],
         [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-connection-manager": {
-      "1.3.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "1.3.1": [
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ]
       ]
     },
     "@libp2p/interface-content-routing": {
-      "1.0.3": [
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "1.0.4": [
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "multiformats", "10.0.2" ]
       ]
     },
     "@libp2p/interface-dht": {
-      "1.0.2": [
-        [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "1.0.3": [
+        [ "@libp2p/interface-peer-discovery", "1.0.2" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "multiformats", "10.0.2" ]
       ]
     },
     "@libp2p/interface-keychain": {
-      "1.0.4": [
+      "1.0.5": [
         [ "multiformats", "10.0.2" ]
       ]
     },
     "@libp2p/interface-metrics": {
       "3.0.0": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "it-stream-types", "1.0.4" ]
       ]
     },
     "@libp2p/interface-peer-discovery": {
-      "1.0.1": [
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ]
+      "1.0.2": [
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ]
       ]
     },
     "@libp2p/interface-peer-id": {
-      "1.0.5": [
+      "1.0.6": [
         [ "multiformats", "10.0.2" ]
       ]
     },
     "@libp2p/interface-peer-info": {
-      "1.0.3": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+      "1.0.4": [
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@multiformats/multiaddr", "11.0.7" ]
       ]
     },
     "@libp2p/interface-peer-routing": {
-      "1.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ]
+      "1.0.2": [
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ]
       ]
     },
     "@libp2p/interface-peer-store": {
-      "1.2.2": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-record", "2.0.1" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "1.2.3": [
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-record", "2.0.2" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ]
       ]
     },
     "@libp2p/interface-pubsub": {
       "2.1.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "uint8arraylist", "2.3.3" ]
       ],
-      "3.0.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "3.0.1": [
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "it-pushable", "3.1.0" ],
         [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-record": {
-      "2.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+      "2.0.2": [
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "uint8arraylist", "2.3.3" ]
       ]
     },
     "@libp2p/interface-registrar": {
-      "2.0.3": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ]
+      "2.0.4": [
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ]
       ]
     },
     "@libp2p/interface-stream-muxer": {
-      "3.0.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "3.0.1": [
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "it-stream-types", "1.0.4" ]
       ]
     },
     "@libp2p/interface-transport": {
       "1.0.4": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
         [ "it-stream-types", "1.0.4" ]
       ],
-      "2.0.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-stream-muxer", "3.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "2.0.1": [
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-stream-muxer", "3.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
         [ "it-stream-types", "1.0.4" ]
       ]
     },
     "@libp2p/kad-dht": {
-      "5.0.1": [
+      "5.0.2": [
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-address-manager", "2.0.0" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-connection-manager", "1.3.0" ],
-        [ "@libp2p/interface-dht", "1.0.2" ],
+        [ "@libp2p/interface-address-manager", "2.0.1" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-connection-manager", "1.3.1" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
         [ "@libp2p/interface-metrics", "3.0.0" ],
-        [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-peer-discovery", "1.0.2" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
         [ "@libp2p/peer-id", "1.1.16" ],
@@ -573,17 +573,17 @@
         [ "err-code", "3.0.1" ],
         [ "hashlru", "2.3.0" ],
         [ "interface-datastore", "7.0.1" ],
-        [ "it-all", "1.0.6" ],
-        [ "it-drain", "1.0.5" ],
-        [ "it-first", "1.0.7" ],
-        [ "it-length", "1.0.4" ],
+        [ "it-all", "2.0.0" ],
+        [ "it-drain", "2.0.0" ],
+        [ "it-first", "2.0.0" ],
+        [ "it-length", "2.0.0" ],
         [ "it-length-prefixed", "8.0.3" ],
-        [ "it-map", "1.0.6" ],
-        [ "it-merge", "1.0.4" ],
-        [ "it-parallel", "2.0.2" ],
+        [ "it-map", "2.0.0" ],
+        [ "it-merge", "2.0.0" ],
+        [ "it-parallel", "3.0.0" ],
         [ "it-pipe", "2.0.4" ],
         [ "it-stream-types", "1.0.4" ],
-        [ "it-take", "1.0.2" ],
+        [ "it-take", "2.0.0" ],
         [ "k-bucket", "5.1.0" ],
         [ "multiformats", "10.0.2" ],
         [ "p-defer", "4.0.0" ],
@@ -598,7 +598,7 @@
     },
     "@libp2p/logger": {
       "2.0.2": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "debug", "4.3.4" ],
         [ "interface-datastore", "7.0.1" ],
         [ "multiformats", "10.0.2" ]
@@ -606,10 +606,10 @@
     },
     "@libp2p/mdns": {
       "5.1.0": [
-        [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-peer-discovery", "1.0.2" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
@@ -620,8 +620,8 @@
     },
     "@libp2p/mplex": {
       "7.0.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-stream-muxer", "3.0.0" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-stream-muxer", "3.0.1" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "any-signal", "3.0.1" ],
@@ -638,7 +638,7 @@
     },
     "@libp2p/multistream-select": {
       "3.1.1": [
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "abortable-iterator", "4.0.2" ],
         [ "err-code", "3.0.1" ],
@@ -657,13 +657,13 @@
     },
     "@libp2p/peer-collections": {
       "2.2.0": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@libp2p/peer-id", "1.1.16" ]
       ]
     },
     "@libp2p/peer-id": {
       "1.1.16": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "err-code", "3.0.1" ],
         [ "multiformats", "10.0.2" ],
         [ "uint8arrays", "4.0.2" ]
@@ -672,8 +672,8 @@
     "@libp2p/peer-id-factory": {
       "1.0.19": [
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-keys", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "multiformats", "10.0.2" ],
         [ "protons-runtime", "4.0.1" ],
@@ -684,8 +684,8 @@
     "@libp2p/peer-record": {
       "4.0.4": [
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-record", "2.0.1" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-record", "2.0.2" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/utils", "3.0.2" ],
@@ -707,11 +707,11 @@
     },
     "@libp2p/peer-store": {
       "5.0.0": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
-        [ "@libp2p/interface-record", "2.0.1" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
+        [ "@libp2p/interface-record", "2.0.2" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/peer-record", "4.0.4" ],
@@ -734,11 +734,11 @@
       "3.1.3": [
         [ "@libp2p/components", "2.1.1" ],
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@libp2p/interface-pubsub", "2.1.0" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
         [ "@libp2p/peer-id", "1.1.16" ],
@@ -756,11 +756,11 @@
       ],
       "5.0.0": [
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-pubsub", "3.0.0" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-pubsub", "3.0.1" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
         [ "@libp2p/peer-id", "1.1.16" ],
@@ -779,7 +779,7 @@
     },
     "@libp2p/record": {
       "2.0.3": [
-        [ "@libp2p/interface-dht", "1.0.2" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
         [ "err-code", "3.0.1" ],
         [ "multiformats", "10.0.2" ],
         [ "protons-runtime", "4.0.1" ],
@@ -788,10 +788,10 @@
       ]
     },
     "@libp2p/tcp": {
-      "5.0.1": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-transport", "2.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+      "5.0.2": [
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-transport", "2.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/utils", "3.0.2" ],
         [ "@multiformats/mafmt", "11.0.3" ],
@@ -803,8 +803,8 @@
     },
     "@libp2p/topology": {
       "3.0.1": [
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "err-code", "3.0.1" ],
         [ "it-all", "1.0.6" ]
@@ -818,8 +818,8 @@
     "@libp2p/utils": {
       "3.0.2": [
         [ "@achingbrain/ip-address", "8.1.0" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
         [ "abortable-iterator", "4.0.2" ],
@@ -832,7 +832,7 @@
     },
     "@libp2p/webrtc-peer": {
       "2.0.2": [
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "delay", "5.0.0" ],
         [ "err-code", "3.0.1" ],
@@ -846,11 +846,11 @@
     },
     "@libp2p/webrtc-star": {
       "5.0.3": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-transport", "2.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-discovery", "1.0.2" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-transport", "2.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@libp2p/utils", "3.0.2" ],
@@ -876,9 +876,9 @@
     },
     "@libp2p/websockets": {
       "5.0.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-transport", "2.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-transport", "2.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/utils", "3.0.2" ],
         [ "@multiformats/mafmt", "11.0.3" ],
@@ -1388,9 +1388,9 @@
     },
     "datastore-pubsub": {
       "6.0.0": [
-        [ "@libp2p/interface-dht", "1.0.2" ],
-        [ "@libp2p/interface-pubsub", "3.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
+        [ "@libp2p/interface-pubsub", "3.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "datastore-core", "8.0.2" ],
         [ "debug", "4.3.4" ],
@@ -1736,9 +1736,9 @@
     },
     "ipfs-bitswap": {
       "13.0.0": [
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
         [ "@libp2p/topology", "3.0.1" ],
         [ "@libp2p/tracked-map", "2.0.2" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
@@ -1806,12 +1806,12 @@
         [ "@libp2p/crypto", "1.0.7" ],
         [ "@libp2p/delegated-content-routing", "3.0.0" ],
         [ "@libp2p/delegated-peer-routing", "3.0.0" ],
-        [ "@libp2p/interface-dht", "1.0.2" ],
-        [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-transport", "2.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
-        [ "@libp2p/kad-dht", "5.0.1" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
+        [ "@libp2p/interface-keys", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-transport", "2.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
+        [ "@libp2p/kad-dht", "5.0.2" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/mplex", "7.0.0" ],
         [ "@libp2p/peer-id", "1.1.16" ],
@@ -1876,7 +1876,7 @@
         [ "@libp2p/floodsub", "5.0.0" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/mdns", "5.1.0" ],
-        [ "@libp2p/tcp", "5.0.1" ],
+        [ "@libp2p/tcp", "5.0.2" ],
         [ "@libp2p/webrtc-star", "5.0.3" ],
         [ "blockstore-datastore-adapter", "4.0.0" ],
         [ "datastore-core", "8.0.2" ],
@@ -1898,10 +1898,10 @@
     "ipfs-core-types": {
       "0.13.1-a77e40cc.0": [
         [ "@ipld/dag-pb", "3.0.0" ],
-        [ "@libp2p/interface-keychain", "1.0.4" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-pubsub", "3.0.0" ],
+        [ "@libp2p/interface-keychain", "1.0.5" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-pubsub", "3.0.1" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
         [ "@types/node", "18.11.9" ],
         [ "interface-datastore", "7.0.1" ],
@@ -2032,8 +2032,8 @@
         [ "@hapi/content", "5.0.2" ],
         [ "@hapi/hapi", "20.2.2" ],
         [ "@ipld/dag-pb", "3.0.0" ],
-        [ "@libp2p/interface-dht", "1.0.2" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "@multiformats/multiaddr", "11.0.7" ],
@@ -2178,9 +2178,9 @@
     "ipns": {
       "4.0.0": [
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-dht", "1.0.2" ],
-        [ "@libp2p/interface-keys", "1.0.3" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
+        [ "@libp2p/interface-keys", "1.0.4" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/peer-id", "1.1.16" ],
         [ "cborg", "1.9.5" ],
@@ -2283,9 +2283,6 @@
       ]
     },
     "it-parallel": {
-      "2.0.2": [
-        [ "p-defer", "3.0.0" ]
-      ],
       "3.0.0": [
         [ "p-defer", "4.0.0" ]
       ]
@@ -2442,23 +2439,23 @@
         [ "@achingbrain/nat-port-mapper", "1.0.7" ],
         [ "@libp2p/connection", "4.0.2" ],
         [ "@libp2p/crypto", "1.0.7" ],
-        [ "@libp2p/interface-address-manager", "2.0.0" ],
-        [ "@libp2p/interface-connection", "3.0.2" ],
-        [ "@libp2p/interface-connection-encrypter", "3.0.1" ],
-        [ "@libp2p/interface-connection-manager", "1.3.0" ],
-        [ "@libp2p/interface-content-routing", "1.0.3" ],
-        [ "@libp2p/interface-dht", "1.0.2" ],
+        [ "@libp2p/interface-address-manager", "2.0.1" ],
+        [ "@libp2p/interface-connection", "3.0.3" ],
+        [ "@libp2p/interface-connection-encrypter", "3.0.2" ],
+        [ "@libp2p/interface-connection-manager", "1.3.1" ],
+        [ "@libp2p/interface-content-routing", "1.0.4" ],
+        [ "@libp2p/interface-dht", "1.0.3" ],
         [ "@libp2p/interface-metrics", "3.0.0" ],
-        [ "@libp2p/interface-peer-discovery", "1.0.1" ],
-        [ "@libp2p/interface-peer-id", "1.0.5" ],
-        [ "@libp2p/interface-peer-info", "1.0.3" ],
-        [ "@libp2p/interface-peer-routing", "1.0.1" ],
-        [ "@libp2p/interface-peer-store", "1.2.2" ],
-        [ "@libp2p/interface-pubsub", "3.0.0" ],
-        [ "@libp2p/interface-registrar", "2.0.3" ],
-        [ "@libp2p/interface-stream-muxer", "3.0.0" ],
-        [ "@libp2p/interface-transport", "2.0.0" ],
-        [ "@libp2p/interfaces", "3.0.3" ],
+        [ "@libp2p/interface-peer-discovery", "1.0.2" ],
+        [ "@libp2p/interface-peer-id", "1.0.6" ],
+        [ "@libp2p/interface-peer-info", "1.0.4" ],
+        [ "@libp2p/interface-peer-routing", "1.0.2" ],
+        [ "@libp2p/interface-peer-store", "1.2.3" ],
+        [ "@libp2p/interface-pubsub", "3.0.1" ],
+        [ "@libp2p/interface-registrar", "2.0.4" ],
+        [ "@libp2p/interface-stream-muxer", "3.0.1" ],
+        [ "@libp2p/interface-transport", "2.0.1" ],
+        [ "@libp2p/interfaces", "3.0.4" ],
         [ "@libp2p/logger", "2.0.2" ],
         [ "@libp2p/multistream-select", "3.1.1" ],
         [ "@libp2p/peer-collections", "2.2.0" ],
@@ -3678,59 +3675,59 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@libp2p/interface-address-manager/-/interface-address-manager-1.0.3.tgz"
       },
-      "2.0.0": {
-        "hash": "sha512-cEzZMxgy71geUcNMZtbF/gNNZbtc8Gx6MI/bj2sPT7ZVqMR7XhSCrpzm3kBkWpSHdWMYImfXCwU0oLg4UtI9Ow==",
+      "2.0.1": {
+        "hash": "sha512-JjlQUJ0cF1h0wsOS22PNRQiiiMLwftd5QttjJK2jDsou5FkZETeQ9eYL05I0ykQKZvEJqwH8G5WLwxWtwsj7Ag==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-address-manager/-/interface-address-manager-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-address-manager/-/interface-address-manager-2.0.1.tgz"
       }
     },
     "@libp2p/interface-connection": {
-      "3.0.2": {
-        "hash": "sha512-38R2GQ6BCOtwMi5uWU5MLr+xfEpRmVK9gqOp7jNx+6T7TVn8ji4725XLXNfpzprbOrzZkqf2iER84s8+yX4pMA==",
+      "3.0.3": {
+        "hash": "sha512-bJRTu/e+sTl3XPApYXEq+SlnYZ6e5CnHah+sBGv2XHU20n+t3CKCkfGFtAyLSHasTZoHSaRLGHVpuV6Uovobtg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-connection/-/interface-connection-3.0.2.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-connection/-/interface-connection-3.0.3.tgz"
       }
     },
     "@libp2p/interface-connection-encrypter": {
-      "3.0.1": {
-        "hash": "sha512-KZ/4vuLokv2fNCnEAM5S91t8v5lMWXdYa26v/iGLqLgiH5MXmIGOgLLGdboXNMYM2ZYYCBgEpSHv+ZRbfO524Q==",
+      "3.0.2": {
+        "hash": "sha512-7b4t1aW3xbPcq3ORBi/nplIia8X7mdHlUg4SRWs92fDNciFwm1NUr63aVVs9WMwXmN3XB9UNbxKrrrXAWHRuHw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-connection-encrypter/-/interface-connection-encrypter-3.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-connection-encrypter/-/interface-connection-encrypter-3.0.2.tgz"
       }
     },
     "@libp2p/interface-connection-manager": {
-      "1.3.0": {
-        "hash": "sha512-25tlCE8ECX/ARP+yV+j2+MQeZ9+HfzvwYEU2TymywP83Q5v6oKZM8pmS51yiNwcKPZMMZiHQk1eFmaOrJB25zQ==",
+      "1.3.1": {
+        "hash": "sha512-aaRFzpIU6f2DKo6q9fx7W3xPfT2iW/J5mnGTHvvndCtPGmoziCY90cFYJiZ4nJJfX5YKs+v/kDTztXVWgPA9Nw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-connection-manager/-/interface-connection-manager-1.3.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-connection-manager/-/interface-connection-manager-1.3.1.tgz"
       }
     },
     "@libp2p/interface-content-routing": {
-      "1.0.3": {
-        "hash": "sha512-8oARfHOkf3NAMaDQWBM3nbVNg+Skj1hjGAjomakZ/jZPjOjbQ9BfPZAsrnDRrV0snnnJNrxiYz6w58y8ehg+cA==",
+      "1.0.4": {
+        "hash": "sha512-zJn7wH8KWaAdlc6kNUMsq9cYx1bEdTj0yAEhzIsrfdXX/XTlBqCeWmMBuFMwj4vBp0pKI0nlt3fUHON1cIGX1w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-content-routing/-/interface-content-routing-1.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-content-routing/-/interface-content-routing-1.0.4.tgz"
       }
     },
     "@libp2p/interface-dht": {
-      "1.0.2": {
-        "hash": "sha512-vBMR90VFQbNwUdgf7yYO6buDP8K6srb+Z0KdoHMklZd9UIx6k/SVUANkHWw/tGAX4C2EZ0qMdSiivkJg2dcPjg==",
+      "1.0.3": {
+        "hash": "sha512-8SuGn2QIztqHjMPZLNKAZ+UlWc4EDB9rIt53KfjWZnQrRJzkyqFYXvT9VhnqtFX7iblf4N4I3Z42OFAM8ezCvg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-dht/-/interface-dht-1.0.2.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-dht/-/interface-dht-1.0.3.tgz"
       }
     },
     "@libp2p/interface-keychain": {
-      "1.0.4": {
-        "hash": "sha512-ZJb/+j719ydZBoH0VX2ex9yjBw67dpc+2QGFU9IlkMVIzWH2CNL4pLdYalQgqT8x+zqTsv3GHmF/hxKJs/KG1g==",
+      "1.0.5": {
+        "hash": "sha512-t6Fh6kA5kPfYDSJpJsEb4V/Ue9dwJmZuteEq5Xh/UjgRqGJSIS669+gZsp5Uo0Z9BMQnKji5Zw+klkJZ6oZh5Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-keychain/-/interface-keychain-1.0.4.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-keychain/-/interface-keychain-1.0.5.tgz"
       }
     },
     "@libp2p/interface-keys": {
-      "1.0.3": {
-        "hash": "sha512-K8/HlRl/swbVTWuGHNHF28EytszYfUhKgUHfv8CdbMk9ZA/bgO4uU+d9rcrg/Dhw3511U3aRz2bwl2psn6rJfg==",
+      "1.0.4": {
+        "hash": "sha512-XNyN237PmEuyQK/7G/7L1sC6NkppPoEsVgX8phBt1eUTCE+HgDphW2Kt/uO3oUi9i7sdScRM221pdNmoW/LPvQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-keys/-/interface-keys-1.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-keys/-/interface-keys-1.0.4.tgz"
       }
     },
     "@libp2p/interface-metrics": {
@@ -3741,38 +3738,38 @@
       }
     },
     "@libp2p/interface-peer-discovery": {
-      "1.0.1": {
-        "hash": "sha512-ZqBhpX7fR3ROYQaGYV47YhyTJJzFDzyyEIsQ7NnDuG3KhcQb2PtocnN0sy1Ozm784M0oYveM/HjfuNxxcOwdYg==",
+      "1.0.2": {
+        "hash": "sha512-Zgjw0bVd8DDwL5qkh/GA1JCQiEGD16wRQ7nhlGe+tXHdZb8LCP/1/P6ry0v0W6MgxAnO90SegC4T3TGYlsj6hw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-peer-discovery/-/interface-peer-discovery-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-peer-discovery/-/interface-peer-discovery-1.0.2.tgz"
       }
     },
     "@libp2p/interface-peer-id": {
-      "1.0.5": {
-        "hash": "sha512-K7TJTmtPWfIrH4NS5y+dvAwQltoga+ScGgjs+ZGKz07uHzoPUeE/OpXxs5Msdela6hp+dP1Ha7bZmA/Njbq5bg==",
+      "1.0.6": {
+        "hash": "sha512-3iMoAnXq/F+t/JWbNPb9UePvwgmm5rFUCEwNgAiDOUtXUZsXZO0Ko3eF9O1gpLe1KNH5wK7g2Wf46YW1vRAS8A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-peer-id/-/interface-peer-id-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-peer-id/-/interface-peer-id-1.0.6.tgz"
       }
     },
     "@libp2p/interface-peer-info": {
-      "1.0.3": {
-        "hash": "sha512-QKybxfp/NmDGDMkgf/CTt4fU03ajZnldHr9TYg5wMkJrnVaaHbhDTYBg5YWt+iOH1mgR89/dpKv/Na0ZE5sPIA==",
+      "1.0.4": {
+        "hash": "sha512-ILW2j7NMD1jZwWdJyxXY8fv/aiaJf2rOjgQkXgidy1GdaZ7UtNiiyvZmksqfEVlWH6opfd/GbuwrMemzM2E7Xg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-peer-info/-/interface-peer-info-1.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-peer-info/-/interface-peer-info-1.0.4.tgz"
       }
     },
     "@libp2p/interface-peer-routing": {
-      "1.0.1": {
-        "hash": "sha512-MKx2g0mIUI6qNuLv3xApKXR2ZrO9CUTT9ZPL0gvRlhpFCXovEkdWJ1h8KnmkR7tGPxKHt2bsCCJ8gqUaFeNstA==",
+      "1.0.2": {
+        "hash": "sha512-TPv9ALS3FUG+q95jyvT0jOQd2k17bdzn0jw0nGwTo7beoeRMVehTHAXPn2Hh5tRjc2eH/Y+SSmb0gR3eAQpn6w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-peer-routing/-/interface-peer-routing-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-peer-routing/-/interface-peer-routing-1.0.2.tgz"
       }
     },
     "@libp2p/interface-peer-store": {
-      "1.2.2": {
-        "hash": "sha512-ZjE9AkDtjz4R+SppCgZ66oko7Z9pDsdFk1lbba0hTPA2i0uuWdTYep7bZ3RvKot0Q2UrWg8ySL/30pW+Wp70sA==",
+      "1.2.3": {
+        "hash": "sha512-nSSaOO2zvZa9ZGoDbLsjPDEVC1OFWY5/FoQPkxokaPTz0AFJ5jDTAgii8iQ+6XRo2WvV7ZYcEd+AusSYeE3w6Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-peer-store/-/interface-peer-store-1.2.2.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-peer-store/-/interface-peer-store-1.2.3.tgz"
       }
     },
     "@libp2p/interface-pubsub": {
@@ -3781,31 +3778,31 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@libp2p/interface-pubsub/-/interface-pubsub-2.1.0.tgz"
       },
-      "3.0.0": {
-        "hash": "sha512-3ziZ/mNdCRlfdzSetu38nNbQU6u/rtpQtgI4S4iaSW7MTyivKscWDEPCo5DkF9Uck25hNCbYHhOyKDBoIMdr6Q==",
+      "3.0.1": {
+        "hash": "sha512-VLMr6Mn8e2m2moda3dGNbsAkWjPoENBebJIzFV7QDd9NOKwNiAs59vIoNi2n+y5XzUBmgBeKeFB8G03/m0NOdA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-pubsub/-/interface-pubsub-3.0.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-pubsub/-/interface-pubsub-3.0.1.tgz"
       }
     },
     "@libp2p/interface-record": {
-      "2.0.1": {
-        "hash": "sha512-RqF5jKukI8v3Q8MZb4d8/UVjg0OXbl0R8ErWi/LKf+uklA8kTA7rT4FQXFUBycxrkFmEu/tJnW+R1/4fwRwZVg==",
+      "2.0.2": {
+        "hash": "sha512-Xq/FJPFo5YiUY13oJ8rZyppF1F31vbVrCYjFxB/YksmoQ0O3cK8bEPLynP580lilD2mK1pAlVd5CUKVPfXs5Xg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-record/-/interface-record-2.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-record/-/interface-record-2.0.2.tgz"
       }
     },
     "@libp2p/interface-registrar": {
-      "2.0.3": {
-        "hash": "sha512-YA/A+o+166/+noXxMFXvZdg9soZSZX2EPOlUwnGXZWR7J5B2sxyP76QxHWXL5npsEMj7suP+Rjb/GJYGz7rDyg==",
+      "2.0.4": {
+        "hash": "sha512-GD5EY+LrtV4v4Mvm/L/ObeMWb96VPZppi7Vl1b1HU5dMzWSnPdOylJZ/N0/Ppryg30CO6yayq9g+/CQN8YEk4g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-registrar/-/interface-registrar-2.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-registrar/-/interface-registrar-2.0.4.tgz"
       }
     },
     "@libp2p/interface-stream-muxer": {
-      "3.0.0": {
-        "hash": "sha512-qv7Z4KJC2SLu/GhwDzT71VBHhtu2fpSL/DGh0iFmkxicQsMmdpiqmXv9EGKw3+jdQL57uKIUm98OpOi2Hge0kg==",
+      "3.0.1": {
+        "hash": "sha512-HlIZFMMSYTKOKn5VBw8UHQ5qya6oWSqpP2ygtSoB/nbBcC/3mv/4cbvozJUAGrOrDz01YY3QOB2LJ6R1b0EWCQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-stream-muxer/-/interface-stream-muxer-3.0.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-stream-muxer/-/interface-stream-muxer-3.0.1.tgz"
       }
     },
     "@libp2p/interface-transport": {
@@ -3814,24 +3811,24 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@libp2p/interface-transport/-/interface-transport-1.0.4.tgz"
       },
-      "2.0.0": {
-        "hash": "sha512-aK33gpkEzfEtoSPlS7z624Tubf49CD2x4DUbXOmQCXDP/rhh3gAQq5XU5dcincM3QXlx6RRSO1PWRqM8EnLE0Q==",
+      "2.0.1": {
+        "hash": "sha512-yrL6YZmPQX4JT/E/60XgNgNSCu9tNPjjq2HuWZs1n1k8cstV0/WvViUE8aoOlJlKZSVjQNcpRAy9LgVxznK7/g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interface-transport/-/interface-transport-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interface-transport/-/interface-transport-2.0.1.tgz"
       }
     },
     "@libp2p/interfaces": {
-      "3.0.3": {
-        "hash": "sha512-8IIxw7TKpaYTtVfZN3jePLlm/E/VzqPpqerN+jhA+1s86akRSeyxVBYi3W9SWDSf0oIauHJSDE8KNxLceAfeag==",
+      "3.0.4": {
+        "hash": "sha512-e8GZAgr72bT2qfDsIVb9lKDA2itLLGfXnaC18VXsToFUd4kCAe6ggUsRFpCBjrX3aWZ16pRiGy4afprOCfgyIg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/interfaces/-/interfaces-3.0.3.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/interfaces/-/interfaces-3.0.4.tgz"
       }
     },
     "@libp2p/kad-dht": {
-      "5.0.1": {
-        "hash": "sha512-j9+tzVQEniP+RdDYBjD949lyqJNlZeHMGQr5Vn+o9/yBQBj5Ro2XTcWLbXz/4GrqXevr1ZDfQLQ+LJkHJEizaA==",
+      "5.0.2": {
+        "hash": "sha512-Z9f1d3DlYnt3tfF6EBSqPvsB9pnm0qs7zvIk2CdRX5vdLy//IOenepcYfgaC4nDnD/ambELq7VSdGQizGG8S5w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/kad-dht/-/kad-dht-5.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/kad-dht/-/kad-dht-5.0.2.tgz"
       }
     },
     "@libp2p/logger": {
@@ -3917,10 +3914,10 @@
       }
     },
     "@libp2p/tcp": {
-      "5.0.1": {
-        "hash": "sha512-MPHFHiyrua2Rkj5tmzIqRwW3GkPZnhEY4ozzoW1sNUSSMGZdHfYL9epOK1fX8VXpLknnf56xIkGlNJOAkOAEeQ==",
+      "5.0.2": {
+        "hash": "sha512-Lm8RhqfvqJ7SffeausXNHeRT8QC5HXWWI6X9HuLVgl/jZDGKhI0FUWv3J48lUhpvmH4wQyMFLVuZrTukS4F/6g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@libp2p/tcp/-/tcp-5.0.1.tgz"
+        "url": "https://registry.npmjs.org/@libp2p/tcp/-/tcp-5.0.2.tgz"
       }
     },
     "@libp2p/topology": {
@@ -6191,11 +6188,6 @@
       }
     },
     "it-length": {
-      "1.0.4": {
-        "hash": "sha512-KN4jXzp77/GQ4fxUGMbsJx3ALUZ6SP3E79tzs2weGghtImDLFZzua/l3fOK0LN/hMH0M330HJRZWwYZfDNuCIA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/it-length/-/it-length-1.0.4.tgz"
-      },
       "2.0.0": {
         "hash": "sha512-YFe6AW6RKkSTburcbyBChf6+HnyWumKZH9KRVfUSVXYkVqJxaJh/8aM8pnaFHm26lKQxYo57YW6RP+wL4CMx0Q==",
         "type": "http",
@@ -6248,11 +6240,6 @@
       }
     },
     "it-parallel": {
-      "2.0.2": {
-        "hash": "sha512-Q1mC3UJC65jbAmThUH6vNn6vGwIV3equrmhVNdYbzgf+mNcu+BjrR9ILc1kjCkRu2aa5TNUre/AxOXS8fXltxw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/it-parallel/-/it-parallel-2.0.2.tgz"
-      },
       "3.0.0": {
         "hash": "sha512-/y70cY7VoZ7natLbWrPxoRaKWMD67RvtWx21cyLJr6kkuHrUWOrHNr8CPMBqzDRh73aig/uUT82hzTTmTTkDUg==",
         "type": "http",
