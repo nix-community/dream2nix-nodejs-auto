@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "@feathersjs/feathers",
+    "location": "",
+    "packages": {
+      "@feathersjs/feathers": "5.0.0-pre.33"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@feathersjs/feathers": {
+      "5.0.0-pre.33": [
+        [ "@feathersjs/commons", "5.0.0-pre.33" ],
+        [ "@feathersjs/hooks", "0.7.5" ],
+        [ "events", "3.3.0" ]
+      ],
+      "unknown": [
+        [ "@feathersjs/feathers", "5.0.0-pre.33" ]
+      ]
+    }
+  },
+  "sources": {
+    "@feathersjs/commons": {
+      "5.0.0-pre.33": {
+        "hash": "sha512-F0T94zN7/hWVejGOYrXd0WCNrudeA1saGhRxmTFJVXRyclRMjM+5lohxeX14h3IxF+eYnrTa5V8I5/UHWcwtLA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@feathersjs/commons/-/commons-5.0.0-pre.33.tgz"
+      }
+    },
+    "@feathersjs/feathers": {
+      "5.0.0-pre.33": {
+        "hash": "sha512-nGTQBd/QgWLCnQTyErS180Up0m9znX9vqmJzLfnKWOrr9Zao7/wfpPxK+2/p/pKxjt1iJVV02xPwGk9bXZ9Qtw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@feathersjs/feathers/-/feathers-5.0.0-pre.33.tgz"
+      }
+    },
+    "@feathersjs/hooks": {
+      "0.7.5": {
+        "hash": "sha512-xHbWPCJ5upr9eDdRSuJgWSKgCLN07YLvVjS7PdDqWrEz/iz5YBqoIQOzHhNPsWXOA6T7v+ArifrTUitG+ZzIRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@feathersjs/hooks/-/hooks-0.7.5.tgz"
+      }
+    },
+    "events": {
+      "3.3.0": {
+        "hash": "sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/events/-/events-3.3.0.tgz"
+      }
+    }
+  }
+}

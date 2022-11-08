@@ -18,12 +18,12 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     }
@@ -104,9 +104,9 @@
         [ "@azure/core-tracing", "1.0.1" ],
         [ "@azure/core-util", "1.1.1" ],
         [ "@azure/logger", "1.0.3" ],
-        [ "@azure/msal-browser", "2.30.0" ],
+        [ "@azure/msal-browser", "2.31.0" ],
         [ "@azure/msal-common", "7.6.0" ],
-        [ "@azure/msal-node", "1.14.2" ],
+        [ "@azure/msal-node", "1.14.3" ],
         [ "events", "3.3.0" ],
         [ "jws", "4.0.0" ],
         [ "open", "8.4.0" ],
@@ -136,13 +136,13 @@
       ]
     },
     "@azure/msal-browser": {
-      "2.30.0": [
-        [ "@azure/msal-common", "7.6.0" ]
+      "2.31.0": [
+        [ "@azure/msal-common", "8.0.0" ]
       ]
     },
     "@azure/msal-node": {
-      "1.14.2": [
-        [ "@azure/msal-common", "7.6.0" ],
+      "1.14.3": [
+        [ "@azure/msal-common", "8.0.0" ],
         [ "jsonwebtoken", "8.5.1" ],
         [ "uuid", "8.3.2" ]
       ]
@@ -220,8 +220,8 @@
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
-        [ "string.prototype.trimend", "1.0.5" ],
-        [ "string.prototype.trimstart", "1.0.5" ],
+        [ "string.prototype.trimend", "1.0.6" ],
+        [ "string.prototype.trimstart", "1.0.6" ],
         [ "unbox-primitive", "1.0.2" ]
       ]
     },
@@ -453,14 +453,14 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -595,10 +595,10 @@
       }
     },
     "@azure/msal-browser": {
-      "2.30.0": {
-        "hash": "sha512-4Y9+rjJiTFP7KEmuq1btmIrBgk0ImNyKsXj6A6NHZALd1X0M6W7L7kxpH6F+d1tEkMv8bYnZdn7IcauXbL8Llw==",
+      "2.31.0": {
+        "hash": "sha512-PaGA7VjjUH9LCL7tbHO3lDW5rH7VQdbe3A6roYEJ7ieWP/0HNwzqKQCNrI/4rCyXO501ABhE9clSx8/mHbmVYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@azure/msal-browser/-/msal-browser-2.30.0.tgz"
+        "url": "https://registry.npmjs.org/@azure/msal-browser/-/msal-browser-2.31.0.tgz"
       }
     },
     "@azure/msal-common": {
@@ -606,13 +606,18 @@
         "hash": "sha512-XqfbglUTVLdkHQ8F9UQJtKseRr3sSnr9ysboxtoswvaMVaEfvyLtMoHv9XdKUfOc0qKGzNgRFd9yRjIWVepl6Q==",
         "type": "http",
         "url": "https://registry.npmjs.org/@azure/msal-common/-/msal-common-7.6.0.tgz"
+      },
+      "8.0.0": {
+        "hash": "sha512-KLGVmWoDcpWl/SKb4TZUjWm+l3lim4tUwAAvCM8N8rSHu8r0NtMTySMWBv7d3G8as1SvC4nr3eTae1+9hTp4wg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@azure/msal-common/-/msal-common-8.0.0.tgz"
       }
     },
     "@azure/msal-node": {
-      "1.14.2": {
-        "hash": "sha512-t3whVhhLdZVVeDEtUPD2Wqfa8BDi3EDMnpWp8dbuRW0GhUpikBfs4AQU0Fe6P9zS87n9LpmUTLrIcPEEuzkvfA==",
+      "1.14.3": {
+        "hash": "sha512-95fuxbSq/5PNlxWybQID8ShFBMjYSN0XvHUPmelwgsgJiO3F+TN5SpIvjgLGa+aMVAxEYq6TvKXK+I3qm1EMqQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@azure/msal-node/-/msal-node-1.14.2.tgz"
+        "url": "https://registry.npmjs.org/@azure/msal-node/-/msal-node-1.14.3.tgz"
       }
     },
     "@js-joda/core": {
@@ -1207,17 +1212,17 @@
       }
     },
     "string.prototype.trimend": {
-      "1.0.5": {
-        "hash": "sha512-I7RGvmjV4pJ7O3kdf+LXFpVfdNOxtCW/2C8f6jNiW4+PQchwxkCDzlk1/7p+Wl4bqFIZeF47qAHXLuHHWKAxog==",
+      "1.0.6": {
+        "hash": "sha512-JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.6.tgz"
       }
     },
     "string.prototype.trimstart": {
-      "1.0.5": {
-        "hash": "sha512-THx16TJCGlsN0o6dl2o6ncWUsdgnLRSA23rRE5pyGBw/mLr3Ej/R2LaqCtgP8VNMGZsvMWnf9ooZPyY2bHvUFg==",
+      "1.0.6": {
+        "hash": "sha512-omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz"
       }
     },
     "string_decoder": {

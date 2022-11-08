@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/three",
+    "location": "",
+    "packages": {
+      "@types/three": "0.146.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/three": {
+      "0.146.0": [
+        [ "@types/webxr", "0.5.0" ]
+      ],
+      "unknown": [
+        [ "@types/three", "0.146.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/three": {
+      "0.146.0": {
+        "hash": "sha512-75AgysUrIvTCB054eQa2pDVFurfeFW8CrMQjpzjt3yHBfuuknoSvvsESd/3EhQxPrz9si3+P0wiDUVsWUlljfA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/three/-/three-0.146.0.tgz"
+      }
+    },
+    "@types/webxr": {
+      "0.5.0": {
+        "hash": "sha512-IUMDPSXnYIbEO2IereEFcgcqfDREOgmbGqtrMpVPpACTU6pltYLwHgVkrnYv0XhWEcjio9sYEfIEzgn3c7nDqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.0.tgz"
+      }
+    }
+  }
+}

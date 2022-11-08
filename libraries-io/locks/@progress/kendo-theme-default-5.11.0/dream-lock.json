@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "@progress/kendo-theme-default",
+    "location": "",
+    "packages": {
+      "@progress/kendo-theme-default": "5.11.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@progress/kendo-theme-default": {
+      "5.11.0": [
+        [ "@progress/kendo-font-icons", "0.6.0" ],
+        [ "@progress/kendo-theme-core", "5.11.0" ],
+        [ "@progress/kendo-theme-utils", "5.11.0" ]
+      ],
+      "unknown": [
+        [ "@progress/kendo-theme-default", "5.11.0" ]
+      ]
+    },
+    "@progress/kendo-theme-utils": {
+      "5.11.0": [
+        [ "@progress/kendo-theme-core", "5.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@progress/kendo-font-icons": {
+      "0.6.0": {
+        "hash": "sha512-GRel8CUm2pnBFmjo2OzY+phqP7bMrt4K4VV7IVcqmMXfge0qYwIt8WPjm5GsqpcYNjCQDUsCCmcJdQ+hnudG5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-font-icons/-/kendo-font-icons-0.6.0.tgz"
+      }
+    },
+    "@progress/kendo-theme-core": {
+      "5.11.0": {
+        "hash": "sha512-TONkyAik9thg8filoClp/FwZD5t2noA7Kht57yBhHjkkheG6gGftIW39F2wzGCPZzDsxKSuusNEtuxSgL9EW4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-theme-core/-/kendo-theme-core-5.11.0.tgz"
+      }
+    },
+    "@progress/kendo-theme-default": {
+      "5.11.0": {
+        "hash": "sha512-fyIbgNUu3qw7w+3/2T/ipWo1bMcwUF0xxkiX6XIzoC8FAytij/Vv+Fn1MtV2TtftEELAMLw1oibE/UV/tGcF2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-theme-default/-/kendo-theme-default-5.11.0.tgz"
+      }
+    },
+    "@progress/kendo-theme-utils": {
+      "5.11.0": {
+        "hash": "sha512-LXJiKW7olwswyOEnEuPXYUYO/kNr7nZl4uSqNX1PEzsbmqh5e2cSodGYcQd6Ih6MN5AhSeIuXNbB0el5DV+AAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-theme-utils/-/kendo-theme-utils-5.11.0.tgz"
+      }
+    }
+  }
+}

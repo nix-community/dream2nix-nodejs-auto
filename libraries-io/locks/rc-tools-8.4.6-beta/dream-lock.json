@@ -50,12 +50,12 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     }
@@ -79,11 +79,11 @@
       "7.20.2": [
         [ "@ampproject/remapping", "2.2.0" ],
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.2" ],
+        [ "@babel/generator", "7.20.3" ],
         [ "@babel/helper-compilation-targets", "7.20.0" ],
         [ "@babel/helper-module-transforms", "7.20.2" ],
         [ "@babel/helpers", "7.20.1" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/template", "7.18.10" ],
         [ "@babel/traverse", "7.20.1" ],
         [ "@babel/types", "7.20.2" ],
@@ -102,7 +102,7 @@
         [ "source-map", "0.5.7" ],
         [ "trim-right", "1.0.1" ]
       ],
-      "7.20.2": [
+      "7.20.3": [
         [ "@babel/types", "7.20.2" ],
         [ "@jridgewell/gen-mapping", "0.3.2" ],
         [ "jsesc", "2.5.2" ]
@@ -206,7 +206,7 @@
       ],
       "7.18.10": [
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/types", "7.20.2" ]
       ]
     },
@@ -225,12 +225,12 @@
       ],
       "7.20.1": [
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.2" ],
+        [ "@babel/generator", "7.20.3" ],
         [ "@babel/helper-environment-visitor", "7.18.9" ],
         [ "@babel/helper-function-name", "7.19.0" ],
         [ "@babel/helper-hoist-variables", "7.18.6" ],
         [ "@babel/helper-split-export-declaration", "7.18.6" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/types", "7.20.2" ],
         [ "debug", "4.3.4" ],
         [ "globals", "11.12.0" ]
@@ -408,7 +408,7 @@
       ]
     },
     "array-includes": {
-      "3.1.5": [
+      "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ],
@@ -663,7 +663,7 @@
     "babel-loader": {
       "7.1.5": [
         [ "find-cache-dir", "1.0.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "mkdirp", "0.5.6" ]
       ]
     },
@@ -1647,7 +1647,7 @@
         [ "babel-code-frame", "6.26.0" ],
         [ "css-selector-tokenizer", "0.7.3" ],
         [ "cssnano", "3.10.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "lodash.camelcase", "4.3.0" ],
         [ "object-assign", "4.1.1" ],
         [ "postcss", "5.2.18" ],
@@ -1886,8 +1886,8 @@
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
-        [ "string.prototype.trimend", "1.0.5" ],
-        [ "string.prototype.trimstart", "1.0.5" ],
+        [ "string.prototype.trimend", "1.0.6" ],
+        [ "string.prototype.trimstart", "1.0.6" ],
         [ "unbox-primitive", "1.0.2" ]
       ]
     },
@@ -2029,7 +2029,7 @@
     },
     "eslint-plugin-import": {
       "2.26.0": [
-        [ "array-includes", "3.1.5" ],
+        [ "array-includes", "3.1.6" ],
         [ "array.prototype.flat", "1.3.1" ],
         [ "debug", "2.6.9" ],
         [ "doctrine", "2.1.0" ],
@@ -2048,7 +2048,7 @@
       "6.6.1": [
         [ "@babel/runtime", "7.20.1" ],
         [ "aria-query", "4.2.2" ],
-        [ "array-includes", "3.1.5" ],
+        [ "array-includes", "3.1.6" ],
         [ "ast-types-flow", "0.0.7" ],
         [ "axe-core", "4.5.1" ],
         [ "axobject-query", "2.2.0" ],
@@ -2063,7 +2063,7 @@
     },
     "eslint-plugin-react": {
       "7.31.10": [
-        [ "array-includes", "3.1.5" ],
+        [ "array-includes", "3.1.6" ],
         [ "array.prototype.flatmap", "1.3.1" ],
         [ "doctrine", "2.1.0" ],
         [ "estraverse", "5.3.0" ],
@@ -2071,12 +2071,12 @@
         [ "minimatch", "3.1.2" ],
         [ "object.entries", "1.1.6" ],
         [ "object.fromentries", "2.0.6" ],
-        [ "object.hasown", "1.1.1" ],
+        [ "object.hasown", "1.1.2" ],
         [ "object.values", "1.1.6" ],
         [ "prop-types", "15.8.1" ],
         [ "resolve", "2.0.0-next.4" ],
         [ "semver", "6.3.0" ],
-        [ "string.prototype.matchall", "4.0.7" ]
+        [ "string.prototype.matchall", "4.0.8" ]
       ]
     },
     "eslint-scope": {
@@ -2190,7 +2190,7 @@
     "extract-text-webpack-plugin": {
       "3.0.2": [
         [ "async", "2.6.4" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "schema-utils", "0.3.0" ],
         [ "webpack-sources", "1.4.3" ]
       ]
@@ -2221,7 +2221,7 @@
     },
     "file-loader": {
       "0.10.1": [
-        [ "loader-utils", "1.4.0" ]
+        [ "loader-utils", "1.4.1" ]
       ]
     },
     "fill-range": {
@@ -3061,7 +3061,7 @@
     },
     "jsx-ast-utils": {
       "3.3.3": [
-        [ "array-includes", "3.1.5" ],
+        [ "array-includes", "3.1.6" ],
         [ "object.assign", "4.1.4" ]
       ]
     },
@@ -3222,7 +3222,7 @@
     "less-loader": {
       "4.1.0": [
         [ "clone", "2.1.2" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "pify", "3.0.0" ]
       ]
     },
@@ -3260,7 +3260,7 @@
       ]
     },
     "loader-utils": {
-      "1.4.0": [
+      "1.4.1": [
         [ "big.js", "5.2.2" ],
         [ "emojis-list", "3.0.0" ],
         [ "json5", "1.0.1" ]
@@ -3639,7 +3639,7 @@
       ]
     },
     "object.hasown": {
-      "1.1.1": [
+      "1.1.2": [
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
@@ -3924,7 +3924,7 @@
     },
     "postcss-loader": {
       "1.3.3": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "object-assign", "4.1.1" ],
         [ "postcss", "5.2.18" ],
         [ "postcss-load-config", "1.2.0" ]
@@ -4721,7 +4721,7 @@
       ]
     },
     "string.prototype.matchall": {
-      "4.0.7": [
+      "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ],
@@ -4733,14 +4733,14 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -4777,7 +4777,7 @@
     },
     "style-loader": {
       "0.18.2": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "schema-utils", "0.3.0" ]
       ]
     },
@@ -4804,7 +4804,7 @@
         [ "clone", "2.1.2" ],
         [ "he", "1.2.0" ],
         [ "image-size", "0.5.5" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "merge-options", "1.0.1" ],
         [ "micromatch", "3.1.0" ],
         [ "postcss", "5.2.18" ],
@@ -4828,7 +4828,7 @@
         [ "deepmerge", "1.3.2" ],
         [ "domready", "1.0.8" ],
         [ "escape-string-regexp", "1.0.5" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "svg-baker", "1.7.0" ],
         [ "svg-baker-runtime", "1.4.7" ],
         [ "url-slug", "2.0.0" ]
@@ -4962,7 +4962,7 @@
       "3.5.0": [
         [ "chalk", "2.4.2" ],
         [ "enhanced-resolve", "3.4.1" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "micromatch", "3.1.10" ],
         [ "semver", "5.7.1" ]
       ]
@@ -5123,7 +5123,7 @@
     },
     "url-loader": {
       "0.5.9": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "mime", "1.3.6" ]
       ]
     },
@@ -5256,7 +5256,7 @@
         [ "json-loader", "0.5.7" ],
         [ "json5", "0.5.1" ],
         [ "loader-runner", "2.4.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "memory-fs", "0.4.1" ],
         [ "mkdirp", "0.5.6" ],
         [ "node-libs-browser", "2.2.1" ],
@@ -5414,10 +5414,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.0.0-beta.44.tgz"
       },
-      "7.20.2": {
-        "hash": "sha512-SD75PMIK6i9H8G/tfGvB4KKl4Nw6Ssos9nGgYwxbgyTP0iX/Z55DveoH86rmUB/YHTQQ+ZC0F7xxaY8l2OF44Q==",
+      "7.20.3": {
+        "hash": "sha512-Wl5ilw2UD1+ZYprHVprxHZJCFeBWlzZYOovE4SDYLZnqCOD11j+0QzNeEWKLLTWM7nixrZEh7vNIyb76MyJg3A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.20.2.tgz"
+        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.20.3.tgz"
       }
     },
     "@babel/helper-compilation-targets": {
@@ -5534,10 +5534,10 @@
       }
     },
     "@babel/parser": {
-      "7.20.2": {
-        "hash": "sha512-afk318kh2uKbo7BEj2QtEi8HVCGrwHUffrYDy7dgVcSa2j9lY3LDjPzcyGdpX7xgm35aWqvciZJ4WKmdF/SxYg==",
+      "7.20.3": {
+        "hash": "sha512-OP/s5a94frIPXwjzEcv5S/tpQfc6XhxYUnmWpgdqMWGgYCuErA3SzozaRAMQgSZWKeTJxht9aWAkUY+0UzvOFg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.2.tgz"
+        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.3.tgz"
       }
     },
     "@babel/runtime": {
@@ -5932,10 +5932,10 @@
       }
     },
     "array-includes": {
-      "3.1.5": {
-        "hash": "sha512-iSDYZMMyTPkiFasVqfuAQnWAYcvO/SeBSCGKePoEthjp4LEMTe4uLc7b025o4jAZpHhihh8xPo99TNWUWWkGDQ==",
+      "3.1.6": {
+        "hash": "sha512-sgTbLvL6cNnw24FnbaDyjmvddQ2ML8arZsgaJhoABMoplz/4QRhtrYS+alr1BUM1Bwp6dhx8vVCBSLG+StwOFw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/array-includes/-/array-includes-3.1.5.tgz"
+        "url": "https://registry.npmjs.org/array-includes/-/array-includes-3.1.6.tgz"
       }
     },
     "array-initial": {
@@ -10558,10 +10558,10 @@
       }
     },
     "loader-utils": {
-      "1.4.0": {
-        "hash": "sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==",
+      "1.4.1": {
+        "hash": "sha512-1Qo97Y2oKaU+Ro2xnDMR26g1BwMT29jNbem1EvcujW2jqt+j5COXyscjM7bLQkM9HaxI7pkWeW7gnI072yMI9Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.0.tgz"
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.1.tgz"
       }
     },
     "locate-path": {
@@ -11425,10 +11425,10 @@
       }
     },
     "object.hasown": {
-      "1.1.1": {
-        "hash": "sha512-LYLe4tivNQzq4JdaWW6WO3HMZZJWzkkH8fnI6EebWl0VZth2wL2Lovm74ep2/gZzlaTdV62JZHEqHQ2yVn8Q/A==",
+      "1.1.2": {
+        "hash": "sha512-B5UIT3J1W+WuWIU55h0mjlwaqxiE5vYENJXIXZ4VFe05pNYrkKuK0U/6aFcb0pKywYJh7IhfoqUfKVmrJJHZHw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.1.tgz"
+        "url": "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.2.tgz"
       }
     },
     "object.map": {
@@ -13209,24 +13209,24 @@
       }
     },
     "string.prototype.matchall": {
-      "4.0.7": {
-        "hash": "sha512-f48okCX7JiwVi1NXCVWcFnZgADDC/n2vePlQ/KUCNqCikLLilQvwjMO8+BHVKvgzH0JB0J9LEPgxOGT02RoETg==",
+      "4.0.8": {
+        "hash": "sha512-6zOCOcJ+RJAQshcTvXPHoxoQGONa3e/Lqx90wUA+wEzX78sg5Bo+1tQo4N0pohS0erG9qtCqJDjNCQBjeWVxyg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.7.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.8.tgz"
       }
     },
     "string.prototype.trimend": {
-      "1.0.5": {
-        "hash": "sha512-I7RGvmjV4pJ7O3kdf+LXFpVfdNOxtCW/2C8f6jNiW4+PQchwxkCDzlk1/7p+Wl4bqFIZeF47qAHXLuHHWKAxog==",
+      "1.0.6": {
+        "hash": "sha512-JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.6.tgz"
       }
     },
     "string.prototype.trimstart": {
-      "1.0.5": {
-        "hash": "sha512-THx16TJCGlsN0o6dl2o6ncWUsdgnLRSA23rRE5pyGBw/mLr3Ej/R2LaqCtgP8VNMGZsvMWnf9ooZPyY2bHvUFg==",
+      "1.0.6": {
+        "hash": "sha512-omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz"
       }
     },
     "string_decoder": {

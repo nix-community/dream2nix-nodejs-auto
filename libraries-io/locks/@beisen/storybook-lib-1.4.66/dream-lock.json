@@ -60,12 +60,12 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     },
@@ -93,9 +93,9 @@
     "@babel/core": {
       "7.1.0": [
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.2" ],
+        [ "@babel/generator", "7.20.3" ],
         [ "@babel/helpers", "7.20.1" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/template", "7.18.10" ],
         [ "@babel/traverse", "7.20.1" ],
         [ "@babel/types", "7.20.2" ],
@@ -110,11 +110,11 @@
       "7.20.2": [
         [ "@ampproject/remapping", "2.2.0" ],
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.2" ],
+        [ "@babel/generator", "7.20.3" ],
         [ "@babel/helper-compilation-targets", "7.20.0" ],
         [ "@babel/helper-module-transforms", "7.20.2" ],
         [ "@babel/helpers", "7.20.1" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/template", "7.18.10" ],
         [ "@babel/traverse", "7.20.1" ],
         [ "@babel/types", "7.20.2" ],
@@ -126,7 +126,7 @@
       ]
     },
     "@babel/generator": {
-      "7.20.2": [
+      "7.20.3": [
         [ "@babel/types", "7.20.2" ],
         [ "@jridgewell/gen-mapping", "0.3.2" ],
         [ "jsesc", "2.5.2" ]
@@ -383,7 +383,7 @@
         [ "@babel/helper-compilation-targets", "7.20.0" ],
         [ "@babel/helper-plugin-utils", "7.20.2" ],
         [ "@babel/plugin-syntax-object-rest-spread", "7.8.3" ],
-        [ "@babel/plugin-transform-parameters", "7.20.1" ]
+        [ "@babel/plugin-transform-parameters", "7.20.3" ]
       ]
     },
     "@babel/plugin-proposal-optional-catch-binding": {
@@ -669,7 +669,7 @@
       ]
     },
     "@babel/plugin-transform-parameters": {
-      "7.20.1": [
+      "7.20.3": [
         [ "@babel/helper-plugin-utils", "7.20.2" ]
       ]
     },
@@ -827,7 +827,7 @@
         [ "@babel/plugin-transform-modules-umd", "7.18.6" ],
         [ "@babel/plugin-transform-new-target", "7.18.6" ],
         [ "@babel/plugin-transform-object-super", "7.18.6" ],
-        [ "@babel/plugin-transform-parameters", "7.20.1" ],
+        [ "@babel/plugin-transform-parameters", "7.20.3" ],
         [ "@babel/plugin-transform-regenerator", "7.18.6" ],
         [ "@babel/plugin-transform-shorthand-properties", "7.18.6" ],
         [ "@babel/plugin-transform-spread", "7.19.0" ],
@@ -898,7 +898,7 @@
         [ "@babel/plugin-transform-named-capturing-groups-regex", "7.19.1" ],
         [ "@babel/plugin-transform-new-target", "7.18.6" ],
         [ "@babel/plugin-transform-object-super", "7.18.6" ],
-        [ "@babel/plugin-transform-parameters", "7.20.1" ],
+        [ "@babel/plugin-transform-parameters", "7.20.3" ],
         [ "@babel/plugin-transform-property-literals", "7.18.6" ],
         [ "@babel/plugin-transform-regenerator", "7.18.6" ],
         [ "@babel/plugin-transform-reserved-words", "7.18.6" ],
@@ -968,19 +968,19 @@
     "@babel/template": {
       "7.18.10": [
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/types", "7.20.2" ]
       ]
     },
     "@babel/traverse": {
       "7.20.1": [
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.2" ],
+        [ "@babel/generator", "7.20.3" ],
         [ "@babel/helper-environment-visitor", "7.18.9" ],
         [ "@babel/helper-function-name", "7.19.0" ],
         [ "@babel/helper-hoist-variables", "7.18.6" ],
         [ "@babel/helper-split-export-declaration", "7.18.6" ],
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/types", "7.20.2" ],
         [ "debug", "4.3.4" ],
         [ "globals", "11.12.0" ]
@@ -1447,7 +1447,7 @@
         [ "@svgr/core", "4.3.3" ],
         [ "@svgr/plugin-jsx", "4.3.3" ],
         [ "@svgr/plugin-svgo", "4.3.1" ],
-        [ "loader-utils", "1.4.0" ]
+        [ "loader-utils", "1.4.1" ]
       ]
     },
     "@types/glob": {
@@ -1583,7 +1583,7 @@
     },
     "airbnb-js-shims": {
       "2.2.1": [
-        [ "array-includes", "3.1.5" ],
+        [ "array-includes", "3.1.6" ],
         [ "array.prototype.flat", "1.3.1" ],
         [ "array.prototype.flatmap", "1.3.1" ],
         [ "es5-shim", "4.6.7" ],
@@ -1594,11 +1594,11 @@
         [ "object.fromentries", "2.0.6" ],
         [ "object.getownpropertydescriptors", "2.1.5" ],
         [ "object.values", "1.1.6" ],
-        [ "promise.allsettled", "1.0.5" ],
-        [ "promise.prototype.finally", "3.1.3" ],
-        [ "string.prototype.matchall", "4.0.7" ],
-        [ "string.prototype.padend", "3.1.3" ],
-        [ "string.prototype.padstart", "3.1.3" ],
+        [ "promise.allsettled", "1.0.6" ],
+        [ "promise.prototype.finally", "3.1.4" ],
+        [ "string.prototype.matchall", "4.0.8" ],
+        [ "string.prototype.padend", "3.1.4" ],
+        [ "string.prototype.padstart", "3.1.4" ],
         [ "symbol.prototype.description", "1.0.5" ]
       ]
     },
@@ -1665,7 +1665,7 @@
       ]
     },
     "array-includes": {
-      "3.1.5": [
+      "3.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ],
@@ -1762,7 +1762,7 @@
     "babel-loader": {
       "8.0.4": [
         [ "find-cache-dir", "1.0.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "mkdirp", "0.5.6" ],
         [ "util.promisify", "1.0.0" ]
       ],
@@ -2471,7 +2471,7 @@
         [ "babel-code-frame", "6.26.0" ],
         [ "css-selector-tokenizer", "0.7.3" ],
         [ "icss-utils", "2.1.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "lodash", "4.17.21" ],
         [ "postcss", "6.0.23" ],
         [ "postcss-modules-extract-imports", "1.2.1" ],
@@ -2786,8 +2786,8 @@
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
-        [ "string.prototype.trimend", "1.0.5" ],
-        [ "string.prototype.trimstart", "1.0.5" ],
+        [ "string.prototype.trimend", "1.0.6" ],
+        [ "string.prototype.trimstart", "1.0.6" ],
         [ "unbox-primitive", "1.0.2" ]
       ]
     },
@@ -3026,7 +3026,7 @@
     },
     "file-loader": {
       "2.0.0": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "schema-utils", "1.0.0" ]
       ],
       "4.0.0": [
@@ -3612,7 +3612,7 @@
         [ "@types/tapable", "1.0.8" ],
         [ "@types/webpack", "4.41.33" ],
         [ "html-minifier-terser", "5.1.1" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "lodash", "4.17.21" ],
         [ "pretty-error", "2.1.2" ],
         [ "tapable", "1.1.3" ],
@@ -4018,7 +4018,7 @@
     "less-loader": {
       "4.1.0": [
         [ "clone", "2.1.2" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "pify", "3.0.0" ]
       ]
     },
@@ -4067,7 +4067,7 @@
         [ "emojis-list", "2.1.0" ],
         [ "json5", "1.0.1" ]
       ],
-      "1.4.0": [
+      "1.4.1": [
         [ "big.js", "5.2.2" ],
         [ "emojis-list", "3.0.0" ],
         [ "json5", "1.0.1" ]
@@ -4298,7 +4298,7 @@
     },
     "mini-css-extract-plugin": {
       "0.4.5": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "schema-utils", "1.0.0" ],
         [ "webpack-sources", "1.4.3" ]
       ]
@@ -4837,13 +4837,13 @@
     },
     "postcss-loader": {
       "2.1.6": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "postcss", "6.0.23" ],
         [ "postcss-load-config", "2.1.2" ],
         [ "schema-utils", "0.4.7" ]
       ],
       "3.0.0": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "postcss", "7.0.39" ],
         [ "postcss-load-config", "2.1.2" ],
         [ "schema-utils", "1.0.0" ]
@@ -4879,7 +4879,7 @@
       ]
     },
     "promise.allsettled": {
-      "1.0.5": [
+      "1.0.6": [
         [ "array.prototype.map", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
@@ -4889,7 +4889,7 @@
       ]
     },
     "promise.prototype.finally": {
-      "3.1.3": [
+      "3.1.4": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -4996,7 +4996,7 @@
     },
     "react-docgen": {
       "3.0.0": [
-        [ "@babel/parser", "7.20.2" ],
+        [ "@babel/parser", "7.20.3" ],
         [ "@babel/runtime", "7.20.1" ],
         [ "async", "2.6.4" ],
         [ "commander", "2.20.3" ],
@@ -5361,7 +5361,7 @@
     "sass-loader": {
       "6.0.7": [
         [ "clone-deep", "2.0.2" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "lodash.tail", "4.1.1" ],
         [ "neo-async", "2.6.2" ],
         [ "pify", "3.0.0" ]
@@ -5665,7 +5665,7 @@
       ]
     },
     "string.prototype.matchall": {
-      "4.0.7": [
+      "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ],
@@ -5677,28 +5677,28 @@
       ]
     },
     "string.prototype.padend": {
-      "3.1.3": [
+      "3.1.4": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.padstart": {
-      "3.1.3": [
+      "3.1.4": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -5760,7 +5760,7 @@
     },
     "style-loader": {
       "0.23.1": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "schema-utils", "1.0.0" ]
       ]
     },
@@ -5918,7 +5918,7 @@
       "5.4.5": [
         [ "chalk", "2.4.2" ],
         [ "enhanced-resolve", "4.5.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "micromatch", "3.1.10" ],
         [ "semver", "5.7.1" ]
       ]
@@ -5997,7 +5997,7 @@
     },
     "url-loader": {
       "1.1.2": [
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "mime", "2.6.0" ],
         [ "schema-utils", "1.0.0" ]
       ]
@@ -6165,7 +6165,7 @@
         [ "eslint-scope", "4.0.3" ],
         [ "json-parse-better-errors", "1.0.2" ],
         [ "loader-runner", "2.4.0" ],
-        [ "loader-utils", "1.4.0" ],
+        [ "loader-utils", "1.4.1" ],
         [ "memory-fs", "0.4.1" ],
         [ "micromatch", "3.1.10" ],
         [ "mkdirp", "0.5.6" ],
@@ -6430,10 +6430,10 @@
       }
     },
     "@babel/generator": {
-      "7.20.2": {
-        "hash": "sha512-SD75PMIK6i9H8G/tfGvB4KKl4Nw6Ssos9nGgYwxbgyTP0iX/Z55DveoH86rmUB/YHTQQ+ZC0F7xxaY8l2OF44Q==",
+      "7.20.3": {
+        "hash": "sha512-Wl5ilw2UD1+ZYprHVprxHZJCFeBWlzZYOovE4SDYLZnqCOD11j+0QzNeEWKLLTWM7nixrZEh7vNIyb76MyJg3A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.20.2.tgz"
+        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.20.3.tgz"
       }
     },
     "@babel/helper-annotate-as-pure": {
@@ -6626,10 +6626,10 @@
       }
     },
     "@babel/parser": {
-      "7.20.2": {
-        "hash": "sha512-afk318kh2uKbo7BEj2QtEi8HVCGrwHUffrYDy7dgVcSa2j9lY3LDjPzcyGdpX7xgm35aWqvciZJ4WKmdF/SxYg==",
+      "7.20.3": {
+        "hash": "sha512-OP/s5a94frIPXwjzEcv5S/tpQfc6XhxYUnmWpgdqMWGgYCuErA3SzozaRAMQgSZWKeTJxht9aWAkUY+0UzvOFg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.2.tgz"
+        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.20.3.tgz"
       }
     },
     "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": {
@@ -7081,10 +7081,10 @@
       }
     },
     "@babel/plugin-transform-parameters": {
-      "7.20.1": {
-        "hash": "sha512-nDvKLrAvl+kf6BOy1UJ3MGwzzfTMgppxwiD2Jb4LO3xjYyZq30oQzDNJbCQpMdG9+j2IXHoiMrw5Cm/L6ZoxXQ==",
+      "7.20.3": {
+        "hash": "sha512-oZg/Fpx0YDrj13KsLyO8I/CX3Zdw7z0O9qOd95SqcoIzuqy/WTGWvePeHAnZCN54SfdyjHcb1S30gc8zlzlHcA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.20.1.tgz"
+        "url": "https://registry.npmjs.org/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.20.3.tgz"
       }
     },
     "@babel/plugin-transform-property-literals": {
@@ -8284,10 +8284,10 @@
       }
     },
     "array-includes": {
-      "3.1.5": {
-        "hash": "sha512-iSDYZMMyTPkiFasVqfuAQnWAYcvO/SeBSCGKePoEthjp4LEMTe4uLc7b025o4jAZpHhihh8xPo99TNWUWWkGDQ==",
+      "3.1.6": {
+        "hash": "sha512-sgTbLvL6cNnw24FnbaDyjmvddQ2ML8arZsgaJhoABMoplz/4QRhtrYS+alr1BUM1Bwp6dhx8vVCBSLG+StwOFw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/array-includes/-/array-includes-3.1.5.tgz"
+        "url": "https://registry.npmjs.org/array-includes/-/array-includes-3.1.6.tgz"
       }
     },
     "array-map": {
@@ -12531,10 +12531,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.2.3.tgz"
       },
-      "1.4.0": {
-        "hash": "sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==",
+      "1.4.1": {
+        "hash": "sha512-1Qo97Y2oKaU+Ro2xnDMR26g1BwMT29jNbem1EvcujW2jqt+j5COXyscjM7bLQkM9HaxI7pkWeW7gnI072yMI9Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.0.tgz"
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.1.tgz"
       },
       "2.0.3": {
         "hash": "sha512-THWqIsn8QRnvLl0shHYVBN9syumU8pYWEHPTmkiVGd+7K5eFNVSY6AJhRvgGF70gg1Dz+l/k8WicvFCxdEs60A==",
@@ -14075,17 +14075,17 @@
       }
     },
     "promise.allsettled": {
-      "1.0.5": {
-        "hash": "sha512-tVDqeZPoBC0SlzJHzWGZ2NKAguVq2oiYj7gbggbiTvH2itHohijTp7njOUA0aQ/nl+0lr/r6egmhoYu63UZ/pQ==",
+      "1.0.6": {
+        "hash": "sha512-22wJUOD3zswWFqgwjNHa1965LvqTX87WPu/lreY2KSd7SVcERfuZ4GfUaOnJNnvtoIv2yXT/W00YIGMetXtFXg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/promise.allsettled/-/promise.allsettled-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/promise.allsettled/-/promise.allsettled-1.0.6.tgz"
       }
     },
     "promise.prototype.finally": {
-      "3.1.3": {
-        "hash": "sha512-EXRF3fC9/0gz4qkt/f5EP5iW4kj9oFpBICNpCNOb/52+8nlHIX07FPLbi/q4qYBQ1xZqivMzTpNQSnArVASolQ==",
+      "3.1.4": {
+        "hash": "sha512-nNc3YbgMfLzqtqvO/q5DP6RR0SiHI9pUPGzyDf1q+usTwCN2kjvAnJkBb7bHe3o+fFSBPpsGMoYtaSi+LTNqng==",
         "type": "http",
-        "url": "https://registry.npmjs.org/promise.prototype.finally/-/promise.prototype.finally-3.1.3.tgz"
+        "url": "https://registry.npmjs.org/promise.prototype.finally/-/promise.prototype.finally-3.1.4.tgz"
       }
     },
     "prop-types": {
@@ -15322,38 +15322,38 @@
       }
     },
     "string.prototype.matchall": {
-      "4.0.7": {
-        "hash": "sha512-f48okCX7JiwVi1NXCVWcFnZgADDC/n2vePlQ/KUCNqCikLLilQvwjMO8+BHVKvgzH0JB0J9LEPgxOGT02RoETg==",
+      "4.0.8": {
+        "hash": "sha512-6zOCOcJ+RJAQshcTvXPHoxoQGONa3e/Lqx90wUA+wEzX78sg5Bo+1tQo4N0pohS0erG9qtCqJDjNCQBjeWVxyg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.7.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.8.tgz"
       }
     },
     "string.prototype.padend": {
-      "3.1.3": {
-        "hash": "sha512-jNIIeokznm8SD/TZISQsZKYu7RJyheFNt84DUPrh482GC8RVp2MKqm2O5oBRdGxbDQoXrhhWtPIWQOiy20svUg==",
+      "3.1.4": {
+        "hash": "sha512-67otBXoksdjsnXXRUq+KMVTdlVRZ2af422Y0aTyTjVaoQkGr3mxl2Bc5emi7dOQ3OGVVQQskmLEWwFXwommpNw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.padend/-/string.prototype.padend-3.1.3.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.padend/-/string.prototype.padend-3.1.4.tgz"
       }
     },
     "string.prototype.padstart": {
-      "3.1.3": {
-        "hash": "sha512-NZydyOMtYxpTjGqp0VN5PYUF/tsU15yDMZnUdj16qRUIUiMJkHHSDElYyQFrMu+/WloTpA7MQSiADhBicDfaoA==",
+      "3.1.4": {
+        "hash": "sha512-XqOHj8horGsF+zwxraBvMTkBFM28sS/jHBJajh17JtJKA92qazidiQbLosV4UA18azvLOVKYo/E3g3T9Y5826w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.padstart/-/string.prototype.padstart-3.1.3.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.padstart/-/string.prototype.padstart-3.1.4.tgz"
       }
     },
     "string.prototype.trimend": {
-      "1.0.5": {
-        "hash": "sha512-I7RGvmjV4pJ7O3kdf+LXFpVfdNOxtCW/2C8f6jNiW4+PQchwxkCDzlk1/7p+Wl4bqFIZeF47qAHXLuHHWKAxog==",
+      "1.0.6": {
+        "hash": "sha512-JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.6.tgz"
       }
     },
     "string.prototype.trimstart": {
-      "1.0.5": {
-        "hash": "sha512-THx16TJCGlsN0o6dl2o6ncWUsdgnLRSA23rRE5pyGBw/mLr3Ej/R2LaqCtgP8VNMGZsvMWnf9ooZPyY2bHvUFg==",
+      "1.0.6": {
+        "hash": "sha512-omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz"
       }
     },
     "string_decoder": {

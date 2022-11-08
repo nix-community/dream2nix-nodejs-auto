@@ -1,0 +1,417 @@
+{
+  "_generic": {
+    "defaultPackage": "@hapi/hapi",
+    "location": "",
+    "packages": {
+      "@hapi/hapi": "21.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@hapi/accept": {
+      "6.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/ammo": {
+      "6.0.0": [
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/b64": {
+      "6.0.0": [
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/boom": {
+      "10.0.0": [
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/bounce": {
+      "3.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/call": {
+      "9.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/catbox": {
+      "12.0.1": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/podium", "5.0.0" ],
+        [ "@hapi/validate", "2.0.0" ]
+      ]
+    },
+    "@hapi/catbox-memory": {
+      "6.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/content": {
+      "6.0.0": [
+        [ "@hapi/boom", "10.0.0" ]
+      ]
+    },
+    "@hapi/cryptiles": {
+      "6.0.0": [
+        [ "@hapi/boom", "10.0.0" ]
+      ]
+    },
+    "@hapi/hapi": {
+      "21.0.0": [
+        [ "@hapi/accept", "6.0.0" ],
+        [ "@hapi/ammo", "6.0.0" ],
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/bounce", "3.0.0" ],
+        [ "@hapi/call", "9.0.0" ],
+        [ "@hapi/catbox", "12.0.1" ],
+        [ "@hapi/catbox-memory", "6.0.0" ],
+        [ "@hapi/heavy", "8.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/mimos", "7.0.0" ],
+        [ "@hapi/podium", "5.0.0" ],
+        [ "@hapi/shot", "6.0.0" ],
+        [ "@hapi/somever", "4.1.0" ],
+        [ "@hapi/statehood", "8.0.0" ],
+        [ "@hapi/subtext", "8.0.0" ],
+        [ "@hapi/teamwork", "6.0.0" ],
+        [ "@hapi/topo", "6.0.0" ],
+        [ "@hapi/validate", "2.0.0" ]
+      ],
+      "unknown": [
+        [ "@hapi/hapi", "21.0.0" ]
+      ]
+    },
+    "@hapi/heavy": {
+      "8.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/validate", "2.0.0" ]
+      ]
+    },
+    "@hapi/iron": {
+      "7.0.0": [
+        [ "@hapi/b64", "6.0.0" ],
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/bourne", "3.0.0" ],
+        [ "@hapi/cryptiles", "6.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/mimos": {
+      "7.0.0": [
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "mime-db", "1.52.0" ]
+      ]
+    },
+    "@hapi/nigel": {
+      "5.0.0": [
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/vise", "5.0.0" ]
+      ]
+    },
+    "@hapi/pez": {
+      "6.0.0": [
+        [ "@hapi/b64", "6.0.0" ],
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/content", "6.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/nigel", "5.0.0" ]
+      ]
+    },
+    "@hapi/podium": {
+      "5.0.0": [
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/teamwork", "6.0.0" ],
+        [ "@hapi/validate", "2.0.0" ]
+      ]
+    },
+    "@hapi/shot": {
+      "6.0.0": [
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/validate", "2.0.0" ]
+      ]
+    },
+    "@hapi/somever": {
+      "4.1.0": [
+        [ "@hapi/bounce", "3.0.0" ],
+        [ "@hapi/hoek", "9.3.0" ]
+      ]
+    },
+    "@hapi/statehood": {
+      "8.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/bounce", "3.0.0" ],
+        [ "@hapi/bourne", "3.0.0" ],
+        [ "@hapi/cryptiles", "6.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/iron", "7.0.0" ],
+        [ "@hapi/validate", "2.0.0" ]
+      ]
+    },
+    "@hapi/subtext": {
+      "8.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/bourne", "3.0.0" ],
+        [ "@hapi/content", "6.0.0" ],
+        [ "@hapi/file", "3.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/pez", "6.0.0" ],
+        [ "@hapi/wreck", "18.0.0" ]
+      ]
+    },
+    "@hapi/topo": {
+      "6.0.0": [
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/validate": {
+      "2.0.0": [
+        [ "@hapi/hoek", "10.0.1" ],
+        [ "@hapi/topo", "6.0.0" ]
+      ]
+    },
+    "@hapi/vise": {
+      "5.0.0": [
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    },
+    "@hapi/wreck": {
+      "18.0.0": [
+        [ "@hapi/boom", "10.0.0" ],
+        [ "@hapi/bourne", "3.0.0" ],
+        [ "@hapi/hoek", "10.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@hapi/accept": {
+      "6.0.0": {
+        "hash": "sha512-aG/Ml4kSBWCVmWvR8N8ULRuB385D8K/3OI7lquZQruH11eM7sHR5Nha30BbDzijJHtyV7Vwc6MlMwNfwb70ISg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/accept/-/accept-6.0.0.tgz"
+      }
+    },
+    "@hapi/ammo": {
+      "6.0.0": {
+        "hash": "sha512-lhX7SYtWScQaeAIL5XnE54WzyDgS5RXVeEtFEovyZcTdVzTYbo0nem56Bwko1PBcRxRUIw1v2tMb6sjFs6vEwg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/ammo/-/ammo-6.0.0.tgz"
+      }
+    },
+    "@hapi/b64": {
+      "6.0.0": {
+        "hash": "sha512-Es6o4BtzvMmNF28KJGuwUzUtMjF6ToZ1hQt3UOjaXc6TNkRefel+NyQSjc9b5q3Re7xwv23r0xK3Vo3yreaJHQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/b64/-/b64-6.0.0.tgz"
+      }
+    },
+    "@hapi/boom": {
+      "10.0.0": {
+        "hash": "sha512-1YVs9tLHhypBqqinKQRqh7FUERIolarQApO37OWkzD+z6y6USi871Sv746zBPKcIOBuI6g6y4FrwX87mmJ90Gg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/boom/-/boom-10.0.0.tgz"
+      }
+    },
+    "@hapi/bounce": {
+      "3.0.0": {
+        "hash": "sha512-L0G4NcwwOYRhpcXeL76hNrLTUcObqtZMB3z4kcRVUZcR/w3v6C5Q1cTElV4/V7og1fG+wOyDR55UMFA+tWfhtA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/bounce/-/bounce-3.0.0.tgz"
+      }
+    },
+    "@hapi/bourne": {
+      "3.0.0": {
+        "hash": "sha512-Waj1cwPXJDucOib4a3bAISsKJVb15MKi9IvmTI/7ssVEm6sywXGjVJDhl6/umt1pK1ZS7PacXU3A1PmFKHEZ2w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/bourne/-/bourne-3.0.0.tgz"
+      }
+    },
+    "@hapi/call": {
+      "9.0.0": {
+        "hash": "sha512-Z6byqbEtKF3RIH2kWG6cX64RwEqHBWYEVkNoEx6oKvkPaTrC6WTPRgr+ANo9Xa8G1GXyvs/NCMTnn3Mdj12TSA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/call/-/call-9.0.0.tgz"
+      }
+    },
+    "@hapi/catbox": {
+      "12.0.1": {
+        "hash": "sha512-EJnj0KJt9LZ/c+mo6NB7mesFhy+s+CDX3AT7de5VRCOHkzOm4ENxN/rgNd0HyI/AfT8FqyUKt1Gccd1DVg8tQA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/catbox/-/catbox-12.0.1.tgz"
+      }
+    },
+    "@hapi/catbox-memory": {
+      "6.0.0": {
+        "hash": "sha512-A1O30g8GdaODx/GinytF6jFm772pdTPVWJe0cF2RiTOfhgIAAagzCcpBqRgQ8olLui0F5bzUF/SAi4BmkZ4yxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/catbox-memory/-/catbox-memory-6.0.0.tgz"
+      }
+    },
+    "@hapi/content": {
+      "6.0.0": {
+        "hash": "sha512-CEhs7j+H0iQffKfe5Htdak5LBOz/Qc8TRh51cF+BFv0qnuph3Em4pjGVzJMkI2gfTDdlJKWJISGWS1rK34POGA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/content/-/content-6.0.0.tgz"
+      }
+    },
+    "@hapi/cryptiles": {
+      "6.0.0": {
+        "hash": "sha512-CUypQJI2F3HaKZjwlky3KyLu7p0O4WJXNJj+2AZ0czqwkwQIz8j+btOkzA3OMar8WTntnCrDx0f92PzxEK+JlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/cryptiles/-/cryptiles-6.0.0.tgz"
+      }
+    },
+    "@hapi/file": {
+      "3.0.0": {
+        "hash": "sha512-w+lKW+yRrLhJu620jT3y+5g2mHqnKfepreykvdOcl9/6up8GrQQn+l3FRTsjHTKbkbfQFkuksHpdv2EcpKcJ4Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/file/-/file-3.0.0.tgz"
+      }
+    },
+    "@hapi/hapi": {
+      "21.0.0": {
+        "hash": "sha512-gqGifa4X4nskhsmsgp3AwBq4LPIl7XOlnzpdWSogdc46Z4Hfy/WDjCcaO2yK84tQRmGSlg0nZowOfSCyeT0hRw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/hapi/-/hapi-21.0.0.tgz"
+      }
+    },
+    "@hapi/heavy": {
+      "8.0.0": {
+        "hash": "sha512-NpKo74mF66GSwYu31IZwp11/6NmaUYxHeMTKSky09XBs8fVbzQDP83856+l+Ji6wxGmUeg75itCu1ujvEF6mdA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/heavy/-/heavy-8.0.0.tgz"
+      }
+    },
+    "@hapi/hoek": {
+      "10.0.1": {
+        "hash": "sha512-CvlW7jmOhWzuqOqiJQ3rQVLMcREh0eel4IBnxDx2FAcK8g7qoJRQK4L1CPBASoCY6y8e6zuCy3f2g+HWdkzcMw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-10.0.1.tgz"
+      },
+      "9.3.0": {
+        "hash": "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz"
+      }
+    },
+    "@hapi/iron": {
+      "7.0.0": {
+        "hash": "sha512-NNXJP5fpeiTCPj/4OJG2PWBjWC0/V5D8YggS9RZeuBbfUUuTYE6TbdGqLUsCzIpPI54I8W5dhwEGbRv1CnWQtw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/iron/-/iron-7.0.0.tgz"
+      }
+    },
+    "@hapi/mimos": {
+      "7.0.0": {
+        "hash": "sha512-ALORTrZrrBPOUX05rW4htNajoekEjQtUi1PB+17/3xs/hkdQ+gSEFbs5GdJihA49qWf7td3v4PgnvOe8mcf/jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/mimos/-/mimos-7.0.0.tgz"
+      }
+    },
+    "@hapi/nigel": {
+      "5.0.0": {
+        "hash": "sha512-I9eq43BnSdz1BkvMpG7mFL7J+SIfn6DLNThuxFpIOAMUnkWbPgtcFP+HHrBAeoFkowfgQrr02vsIAkAPml4hvw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/nigel/-/nigel-5.0.0.tgz"
+      }
+    },
+    "@hapi/pez": {
+      "6.0.0": {
+        "hash": "sha512-3bMmsvlqrVNqaNEe4JWLZVpJ40jXuQ3vDy1+fbhyJmuAdMCMCkWexsKc7fT+mu18pFIwJzlenjc4/VE3weTq7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/pez/-/pez-6.0.0.tgz"
+      }
+    },
+    "@hapi/podium": {
+      "5.0.0": {
+        "hash": "sha512-SbhFdu8LOIscMS82Zsoj9abcllAqbK4qBgznzJ9yr+vS2j1EomJTukkhxb76Lml0BHCd4Hn79F+3EQg06kcf8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/podium/-/podium-5.0.0.tgz"
+      }
+    },
+    "@hapi/shot": {
+      "6.0.0": {
+        "hash": "sha512-RLGgzXy9GciJDunhY40NbVnLgYqp5gfBooZ2fOkAr4KbCEav/SJtYQS1N+knR7WFGzy8aooCR3XBUPI4ghHAkQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/shot/-/shot-6.0.0.tgz"
+      }
+    },
+    "@hapi/somever": {
+      "4.1.0": {
+        "hash": "sha512-koNBYu7Jdcb7gaC4VcnU78rFxSlsYwuElm6NMznE0EEeznzJtvLLmDZX0SPX8kXWC/E7ONlE29HF/yiSOgWG1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/somever/-/somever-4.1.0.tgz"
+      }
+    },
+    "@hapi/statehood": {
+      "8.0.0": {
+        "hash": "sha512-umQTPID7BwmqAv9Rx7yLtbTNzsYg4va96aLqKneb3mlBQG32uq4iOQZ6luwBVACDFhqU3C3ewhznhukN09ZkZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/statehood/-/statehood-8.0.0.tgz"
+      }
+    },
+    "@hapi/subtext": {
+      "8.0.0": {
+        "hash": "sha512-fD+LY1U1SIUNHZJrNMIbuGl3CAd9JN8slljarFO4b8RrifkzjqbvdlZu/6iT6zlNM35GtDExf7hIepbUFUkT7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/subtext/-/subtext-8.0.0.tgz"
+      }
+    },
+    "@hapi/teamwork": {
+      "6.0.0": {
+        "hash": "sha512-05HumSy3LWfXpmJ9cr6HzwhAavrHkJ1ZRCmNE2qJMihdM5YcWreWPfyN0yKT2ZjCM92au3ZkuodjBxOibxM67A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/teamwork/-/teamwork-6.0.0.tgz"
+      }
+    },
+    "@hapi/topo": {
+      "6.0.0": {
+        "hash": "sha512-aorJvN1Q1n5xrZuA50Z4X6adI6VAM2NalIVm46ALL9LUvdoqhof3JPY69jdJH8asM3PsWr2SUVYzp57EqUP41A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/topo/-/topo-6.0.0.tgz"
+      }
+    },
+    "@hapi/validate": {
+      "2.0.0": {
+        "hash": "sha512-w5m8MvBgqGndbMIB+AWmXTb8CLtF1DlIxbnbAHNAo7aFuNQuI1Ywc2e0zDLK5fbFXDoqRzNrHnC7JjNJ+hDigw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/validate/-/validate-2.0.0.tgz"
+      }
+    },
+    "@hapi/vise": {
+      "5.0.0": {
+        "hash": "sha512-bz/PA7DHIvsd/2eoW7t9WpU8+k9pofZHppYEn1mCTOVnC/cGN3hCEYaoAe6BpoeJM72iJDKZEOWvQvfgCrmzxA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/vise/-/vise-5.0.0.tgz"
+      }
+    },
+    "@hapi/wreck": {
+      "18.0.0": {
+        "hash": "sha512-Yk9STxoM06Hjjq58cH0KFG91u9F2h9eVE72o8vUr3AfK80qt7I2POG5+cDGTEntbnvvzm0ERow2sjG3QsqCWUA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@hapi/wreck/-/wreck-18.0.0.tgz"
+      }
+    },
+    "mime-db": {
+      "1.52.0": {
+        "hash": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+      }
+    }
+  }
+}

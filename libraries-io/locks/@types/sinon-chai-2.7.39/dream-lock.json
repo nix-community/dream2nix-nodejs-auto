@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/sinon-chai",
+    "location": "",
+    "packages": {
+      "@types/sinon-chai": "2.7.39"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/sinon": {
+      "10.0.13": [
+        [ "@types/sinonjs__fake-timers", "8.1.2" ]
+      ]
+    },
+    "@types/sinon-chai": {
+      "2.7.39": [
+        [ "@types/chai", "4.3.4" ],
+        [ "@types/sinon", "10.0.13" ]
+      ],
+      "unknown": [
+        [ "@types/sinon-chai", "2.7.39" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/chai": {
+      "4.3.4": {
+        "hash": "sha512-KnRanxnpfpjUTqTCXslZSEdLfXExwgNxYPdiO2WGUj8+HDjFi8R3k5RVKPeSCzLjCcshCAtVO2QBbVuAV4kTnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/chai/-/chai-4.3.4.tgz"
+      }
+    },
+    "@types/sinon": {
+      "10.0.13": {
+        "hash": "sha512-UVjDqJblVNQYvVNUsj0PuYYw0ELRmgt1Nt5Vk0pT5f16ROGfcKJY8o1HVuMOJOpD727RrGB9EGvoaTQE5tgxZQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sinon/-/sinon-10.0.13.tgz"
+      }
+    },
+    "@types/sinon-chai": {
+      "2.7.39": {
+        "hash": "sha512-QvWCwKVVePw9aaJoY/yZBwgWSVV/eJdBhBbJsxMbPIFPuw6z3VZRtIpFxI6j63ekjY/TYSTSBSqCTMipzQoW4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sinon-chai/-/sinon-chai-2.7.39.tgz"
+      }
+    },
+    "@types/sinonjs__fake-timers": {
+      "8.1.2": {
+        "hash": "sha512-9GcLXF0/v3t80caGs5p2rRfkB+a8VBGLJZVih6CNFkx8IZ994wiKKLSRs9nuFwk1HevWs/1mnUmkApGrSGsShA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.2.tgz"
+      }
+    }
+  }
+}
