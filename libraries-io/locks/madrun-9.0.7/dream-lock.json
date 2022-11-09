@@ -28,7 +28,7 @@
       "7.20.2": [
         [ "@ampproject/remapping", "2.2.0" ],
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.3" ],
+        [ "@babel/generator", "7.20.4" ],
         [ "@babel/helper-compilation-targets", "7.20.0" ],
         [ "@babel/helper-module-transforms", "7.20.2" ],
         [ "@babel/helpers", "7.20.1" ],
@@ -44,7 +44,7 @@
       ]
     },
     "@babel/generator": {
-      "7.20.3": [
+      "7.20.4": [
         [ "@babel/types", "7.20.2" ],
         [ "@jridgewell/gen-mapping", "0.3.2" ],
         [ "jsesc", "2.5.2" ]
@@ -120,7 +120,7 @@
     "@babel/traverse": {
       "7.20.1": [
         [ "@babel/code-frame", "7.18.6" ],
-        [ "@babel/generator", "7.20.3" ],
+        [ "@babel/generator", "7.20.4" ],
         [ "@babel/helper-environment-visitor", "7.18.9" ],
         [ "@babel/helper-function-name", "7.19.0" ],
         [ "@babel/helper-hoist-variables", "7.18.6" ],
@@ -201,11 +201,11 @@
       ]
     },
     "@putout/compare": {
-      "9.4.1": [
+      "9.7.0": [
         [ "@babel/traverse", "7.20.1" ],
         [ "@babel/types", "7.20.2" ],
-        [ "@putout/engine-parser", "5.2.0" ],
-        [ "@putout/operate", "8.4.0" ],
+        [ "@putout/engine-parser", "5.3.0" ],
+        [ "@putout/operate", "8.5.0" ],
         [ "debug", "4.3.4" ],
         [ "jessy", "3.1.1" ],
         [ "nessy", "4.0.0" ]
@@ -214,7 +214,7 @@
     "@putout/engine-loader": {
       "7.1.1": [
         [ "@babel/core", "7.20.2" ],
-        [ "@putout/engine-parser", "5.2.0" ],
+        [ "@putout/engine-parser", "5.3.0" ],
         [ "diff-match-patch", "1.0.5" ],
         [ "nano-memoize", "1.3.1" ],
         [ "once", "1.4.0" ],
@@ -223,8 +223,8 @@
       ]
     },
     "@putout/engine-parser": {
-      "5.2.0": [
-        [ "@babel/generator", "7.20.3" ],
+      "5.3.0": [
+        [ "@babel/generator", "7.20.4" ],
         [ "@babel/parser", "7.20.3" ],
         [ "@babel/template", "7.18.10" ],
         [ "@babel/types", "7.20.2" ],
@@ -245,12 +245,12 @@
       ]
     },
     "@putout/engine-runner": {
-      "14.0.2": [
+      "14.1.0": [
         [ "@babel/traverse", "7.20.1" ],
         [ "@babel/types", "7.20.2" ],
-        [ "@putout/compare", "9.4.1" ],
-        [ "@putout/engine-parser", "5.2.0" ],
-        [ "@putout/operate", "8.4.0" ],
+        [ "@putout/compare", "9.7.0" ],
+        [ "@putout/engine-parser", "5.3.0" ],
+        [ "@putout/operate", "8.5.0" ],
         [ "debug", "4.3.4" ],
         [ "jessy", "3.1.1" ],
         [ "nessy", "4.0.0" ],
@@ -315,21 +315,21 @@
       ]
     },
     "@putout/operate": {
-      "8.4.0": [
+      "8.5.0": [
         [ "@babel/types", "7.20.2" ]
       ]
     },
     "@putout/operator-add-args": {
       "3.1.0": [
         [ "@babel/types", "7.20.2" ],
-        [ "@putout/compare", "9.4.1" ],
-        [ "@putout/engine-parser", "5.2.0" ]
+        [ "@putout/compare", "9.7.0" ],
+        [ "@putout/engine-parser", "5.3.0" ]
       ]
     },
     "@putout/operator-declare": {
       "4.6.4": [
-        [ "@putout/compare", "9.4.1" ],
-        [ "@putout/operate", "8.4.0" ]
+        [ "@putout/compare", "9.7.0" ],
+        [ "@putout/operate", "8.5.0" ]
       ]
     },
     "@putout/operator-regexp": {
@@ -420,7 +420,7 @@
       "5.0.0": [
         [ "@babel/traverse", "7.20.1" ],
         [ "@babel/types", "7.20.2" ],
-        [ "@putout/compare", "9.4.1" ]
+        [ "@putout/compare", "9.7.0" ]
       ]
     },
     "@types/debug": {
@@ -1063,11 +1063,11 @@
         [ "@putout/cli-match", "1.0.1" ],
         [ "@putout/cli-ruler", "2.0.0" ],
         [ "@putout/cli-validate-args", "1.1.1" ],
-        [ "@putout/compare", "9.4.1" ],
+        [ "@putout/compare", "9.7.0" ],
         [ "@putout/engine-loader", "7.1.1" ],
-        [ "@putout/engine-parser", "5.2.0" ],
+        [ "@putout/engine-parser", "5.3.0" ],
         [ "@putout/engine-processor", "6.4.1" ],
-        [ "@putout/engine-runner", "14.0.2" ],
+        [ "@putout/engine-runner", "14.1.0" ],
         [ "@putout/eslint", "1.5.0" ],
         [ "@putout/formatter-codeframe", "4.0.1" ],
         [ "@putout/formatter-dump", "4.0.1" ],
@@ -1078,7 +1078,7 @@
         [ "@putout/formatter-progress", "4.0.0" ],
         [ "@putout/formatter-progress-bar", "3.0.2" ],
         [ "@putout/formatter-stream", "4.0.1" ],
-        [ "@putout/operate", "8.4.0" ],
+        [ "@putout/operate", "8.5.0" ],
         [ "@putout/operator-add-args", "3.1.0" ],
         [ "@putout/operator-declare", "4.6.4" ],
         [ "@putout/operator-regexp", "1.0.0" ],
@@ -1707,10 +1707,10 @@
       }
     },
     "@babel/generator": {
-      "7.20.3": {
-        "hash": "sha512-Wl5ilw2UD1+ZYprHVprxHZJCFeBWlzZYOovE4SDYLZnqCOD11j+0QzNeEWKLLTWM7nixrZEh7vNIyb76MyJg3A==",
+      "7.20.4": {
+        "hash": "sha512-luCf7yk/cm7yab6CAW1aiFnmEfBJplb/JojV56MYEK7ziWfGmFlTfmL9Ehwfy4gFhbjBfWO1wj7/TuSbVNEEtA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.20.3.tgz"
+        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.20.4.tgz"
       }
     },
     "@babel/helper-compilation-targets": {
@@ -1936,10 +1936,10 @@
       }
     },
     "@putout/compare": {
-      "9.4.1": {
-        "hash": "sha512-wbF7aaXKJ0kfoiAcfcrOwZirWtm3Ni+8YKNGDCb/U46y5QkPn3x/L3semLR++xUwb/xuDcOZ2C9S8elFFH+P3Q==",
+      "9.7.0": {
+        "hash": "sha512-+DgliJjJWM4oXu3At/JIfLyC6pEwN/t2NrPJzFslE7gDk87Q5nRHBDdKqIrcLqNo3A1dpqs4t7JdRsCVnBodXA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/compare/-/compare-9.4.1.tgz"
+        "url": "https://registry.npmjs.org/@putout/compare/-/compare-9.7.0.tgz"
       }
     },
     "@putout/engine-loader": {
@@ -1950,10 +1950,10 @@
       }
     },
     "@putout/engine-parser": {
-      "5.2.0": {
-        "hash": "sha512-8iMEco+4bMfgZtURaG47kRfTHR427ZwDbMS4bKonU6YyF6dLADamgWMgUcub8v0bObnv/Q8B5vf46dv7djgk4g==",
+      "5.3.0": {
+        "hash": "sha512-C9wwmzyVYaPQ6hWR5knYLiPOGwqKGXGpZys7WRRMAonkPKrocvhSlcAyAYGLmpvCJ+JPF1iRTukwTRvFEB5nMg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/engine-parser/-/engine-parser-5.2.0.tgz"
+        "url": "https://registry.npmjs.org/@putout/engine-parser/-/engine-parser-5.3.0.tgz"
       }
     },
     "@putout/engine-processor": {
@@ -1964,10 +1964,10 @@
       }
     },
     "@putout/engine-runner": {
-      "14.0.2": {
-        "hash": "sha512-AWjQSFOec7GC1g4fWMIy43gc6m+aHQiIchUV0RB69bd2MqA8q27VPJNIFePZIMGNZDwbRG485/UbaNagNZushg==",
+      "14.1.0": {
+        "hash": "sha512-3EqkQ2Uc9CfCMbpf0cRK9kivHqA1JYwaD6dyl3ELqvUq5vJ6zhJ7hhFcKquXq4dPmiIbxF8a3p7PR9ipUiO9tQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/engine-runner/-/engine-runner-14.0.2.tgz"
+        "url": "https://registry.npmjs.org/@putout/engine-runner/-/engine-runner-14.1.0.tgz"
       }
     },
     "@putout/eslint": {
@@ -2041,10 +2041,10 @@
       }
     },
     "@putout/operate": {
-      "8.4.0": {
-        "hash": "sha512-JOsQjZgWx7xo69n/4u9rg82otMB5sFH7i5g07lFxpTcX258zHX+QOoy6mPO5MlAwxE4XvQpjXV7P3Iemz28Lzg==",
+      "8.5.0": {
+        "hash": "sha512-CPdyBlo8zRr4r0bavPG9mkHbjDxJeohtRUTsTlzF20RInR21wY+u5NXvaY06UnWCQBcoon6ELV9+stj4mrUgLw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@putout/operate/-/operate-8.4.0.tgz"
+        "url": "https://registry.npmjs.org/@putout/operate/-/operate-8.5.0.tgz"
       }
     },
     "@putout/operator-add-args": {

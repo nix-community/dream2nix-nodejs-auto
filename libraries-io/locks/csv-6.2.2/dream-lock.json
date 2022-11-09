@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "csv",
+    "location": "",
+    "packages": {
+      "csv": "6.2.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "csv": {
+      "6.2.2": [
+        [ "csv-generate", "4.2.1" ],
+        [ "csv-parse", "5.3.2" ],
+        [ "csv-stringify", "6.2.1" ],
+        [ "stream-transform", "3.2.1" ]
+      ],
+      "unknown": [
+        [ "csv", "6.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "csv": {
+      "6.2.2": {
+        "hash": "sha512-flTUz/J1VZ6n5+PJmxO7EImbt+tmk2aVgYxeo5UkC/f/beo9OQ7uFMVm53xOsS+/8+5gFN+MQwCdYtYzRXhrRg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csv/-/csv-6.2.2.tgz"
+      }
+    },
+    "csv-generate": {
+      "4.2.1": {
+        "hash": "sha512-w6GFHjvApv6bcJ2xdi9JGsH6ZvUBfC+vUdfefnEzurXG6hMRwzkBLnhztU2H7v7+zfCk1I/knnQ+tGbgpxWrBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csv-generate/-/csv-generate-4.2.1.tgz"
+      }
+    },
+    "csv-parse": {
+      "5.3.2": {
+        "hash": "sha512-3jQ/JMs+voKxr4vwpmElS1d37J0o6rQdQyEKoPyA9HG8fYczpLaBJnmp5ykvkXL8ZeEGVP0qwLU645BZVykXKw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csv-parse/-/csv-parse-5.3.2.tgz"
+      }
+    },
+    "csv-stringify": {
+      "6.2.1": {
+        "hash": "sha512-+DT/YEgqRy82aMPMA7yUUpFJPx9X8iZy7UhfyTE2bHmFJcjDiz1j29wzTFkYTtuNVceNgz8efsjICch+O1WcLQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/csv-stringify/-/csv-stringify-6.2.1.tgz"
+      }
+    },
+    "stream-transform": {
+      "3.2.1": {
+        "hash": "sha512-ApK+WTJ5bCOf0A2tlec1qhvr8bGEBM/sgXXB7mysdCYgZJO5DZeaV3h3G+g0HnAQ372P5IhiGqnW29zoLOfTzQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/stream-transform/-/stream-transform-3.2.1.tgz"
+      }
+    }
+  }
+}

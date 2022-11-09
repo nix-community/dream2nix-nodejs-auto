@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "pretty-format",
+    "location": "",
+    "packages": {
+      "pretty-format": "29.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@jest/schemas": {
+      "29.0.0": [
+        [ "@sinclair/typebox", "0.24.51" ]
+      ]
+    },
+    "pretty-format": {
+      "29.3.1": [
+        [ "@jest/schemas", "29.0.0" ],
+        [ "ansi-styles", "5.2.0" ],
+        [ "react-is", "18.2.0" ]
+      ],
+      "unknown": [
+        [ "pretty-format", "29.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@jest/schemas": {
+      "29.0.0": {
+        "hash": "sha512-3Ab5HgYIIAnS0HjqJHQYZS+zXc4tUmTmBH3z83ajI6afXp8X3ZtdLX+nXx+I7LNkJD7uN9LAVhgnjDgZa2z0kA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jest/schemas/-/schemas-29.0.0.tgz"
+      }
+    },
+    "@sinclair/typebox": {
+      "0.24.51": {
+        "hash": "sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.51.tgz"
+      }
+    },
+    "ansi-styles": {
+      "5.2.0": {
+        "hash": "sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz"
+      }
+    },
+    "pretty-format": {
+      "29.3.1": {
+        "hash": "sha512-FyLnmb1cYJV8biEIiRyzRFvs2lry7PPIvOqKVe1GCUEYg4YGmlx1qG9EJNMxArYm7piII4qb8UV1Pncq5dxmcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pretty-format/-/pretty-format-29.3.1.tgz"
+      }
+    },
+    "react-is": {
+      "18.2.0": {
+        "hash": "sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
+      }
+    }
+  }
+}

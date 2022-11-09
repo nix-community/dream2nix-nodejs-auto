@@ -1,0 +1,255 @@
+{
+  "_generic": {
+    "defaultPackage": "@radix-ui/react-checkbox",
+    "location": "",
+    "packages": {
+      "@radix-ui/react-checkbox": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.20.1": [
+        [ "regenerator-runtime", "0.13.10" ]
+      ]
+    },
+    "@radix-ui/primitive": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "@radix-ui/react-checkbox": {
+      "1.0.1": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@radix-ui/primitive", "1.0.0" ],
+        [ "@radix-ui/react-compose-refs", "1.0.0" ],
+        [ "@radix-ui/react-context", "1.0.0" ],
+        [ "@radix-ui/react-presence", "1.0.0" ],
+        [ "@radix-ui/react-primitive", "1.0.1" ],
+        [ "@radix-ui/react-use-controllable-state", "1.0.0" ],
+        [ "@radix-ui/react-use-previous", "1.0.0" ],
+        [ "@radix-ui/react-use-size", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "@radix-ui/react-checkbox", "1.0.1" ]
+      ]
+    },
+    "@radix-ui/react-compose-refs": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "@radix-ui/react-context": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "@radix-ui/react-presence": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@radix-ui/react-compose-refs", "1.0.0" ],
+        [ "@radix-ui/react-use-layout-effect", "1.0.0" ]
+      ]
+    },
+    "@radix-ui/react-primitive": {
+      "1.0.1": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@radix-ui/react-slot", "1.0.1" ]
+      ]
+    },
+    "@radix-ui/react-slot": {
+      "1.0.1": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@radix-ui/react-compose-refs", "1.0.0" ]
+      ]
+    },
+    "@radix-ui/react-use-callback-ref": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "@radix-ui/react-use-controllable-state": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@radix-ui/react-use-callback-ref", "1.0.0" ]
+      ]
+    },
+    "@radix-ui/react-use-layout-effect": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "@radix-ui/react-use-previous": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ]
+      ]
+    },
+    "@radix-ui/react-use-size": {
+      "1.0.0": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@radix-ui/react-use-layout-effect", "1.0.0" ]
+      ]
+    },
+    "loose-envify": {
+      "1.4.0": [
+        [ "js-tokens", "4.0.0" ]
+      ]
+    },
+    "react": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    },
+    "react-dom": {
+      "18.2.0": [
+        [ "loose-envify", "1.4.0" ],
+        [ "scheduler", "0.23.0" ]
+      ]
+    },
+    "scheduler": {
+      "0.23.0": [
+        [ "loose-envify", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.20.1": {
+        "hash": "sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
+      }
+    },
+    "@radix-ui/primitive": {
+      "1.0.0": {
+        "hash": "sha512-3e7rn8FDMin4CgeL7Z/49smCA3rFYY3Ha2rUQ7HRWFadS5iCRw08ZgVT1LaNTCNqgvrUiyczLflrVrF0SRQtNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-checkbox": {
+      "1.0.1": {
+        "hash": "sha512-TisH0B8hWmYP3ONRduYCyN04rR9yLPIw/Rwyn1RoC1suSoGCa8Wn+YPdSSSarSszeIbcg3p2lBkDp2XXit4sZw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.0.1.tgz"
+      }
+    },
+    "@radix-ui/react-compose-refs": {
+      "1.0.0": {
+        "hash": "sha512-0KaSv6sx787/hK3eF53iOkiSLwAGlFMx5lotrqD2pTjB18KbybKoEIgkNZTKC60YECDQTKGTRcDBILwZVqVKvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-context": {
+      "1.0.0": {
+        "hash": "sha512-1pVM9RfOQ+n/N5PJK33kRSKsr1glNxomxONs5c49MliinBY6Yw2Q995qfBUUo0/Mbg05B/sGA0gkgPI7kmSHBg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-presence": {
+      "1.0.0": {
+        "hash": "sha512-A+6XEvN01NfVWiKu38ybawfHsBjWum42MRPnEuqPsBZ4eV7e/7K321B5VgYMPv3Xx5An6o1/l9ZuDBgmcmWK3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-primitive": {
+      "1.0.1": {
+        "hash": "sha512-fHbmislWVkZaIdeF6GZxF0A/NH/3BjrGIYj+Ae6eTmTCr7EB0RQAAVEiqsXK6p3/JcRqVSBQoceZroj30Jj3XA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-1.0.1.tgz"
+      }
+    },
+    "@radix-ui/react-slot": {
+      "1.0.1": {
+        "hash": "sha512-avutXAFL1ehGvAXtPquu0YK5oz6ctS474iM3vNGQIkswrVhdrS52e3uoMQBzZhNRAIE0jBnUyXWNmSjGHhCFcw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.0.1.tgz"
+      }
+    },
+    "@radix-ui/react-use-callback-ref": {
+      "1.0.0": {
+        "hash": "sha512-GZtyzoHz95Rhs6S63D2t/eqvdFCm7I+yHMLVQheKM7nBD8mbZIt+ct1jz4536MDnaOGKIxynJ8eHTkVGVVkoTg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-use-controllable-state": {
+      "1.0.0": {
+        "hash": "sha512-FohDoZvk3mEXh9AWAVyRTYR4Sq7/gavuofglmiXB2g1aKyboUD4YtgWxKj8O5n+Uak52gXQ4wKz5IFST4vtJHg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-use-layout-effect": {
+      "1.0.0": {
+        "hash": "sha512-6Tpkq+R6LOlmQb1R5NNETLG0B4YP0wc+klfXafpUCj6JGyaUc8il7/kUZ7m59rGbXGczE9Bs+iz2qloqsZBduQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-use-previous": {
+      "1.0.0": {
+        "hash": "sha512-RG2K8z/K7InnOKpq6YLDmT49HGjNmrK+fr82UCVKT2sW0GYfVnYp4wZWBooT/EYfQ5faA9uIjvsuMMhH61rheg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.0.0.tgz"
+      }
+    },
+    "@radix-ui/react-use-size": {
+      "1.0.0": {
+        "hash": "sha512-imZ3aYcoYCKhhgNpkNDh/aTiU05qw9hX+HHI1QDBTyIlcFjgeFlKKySNGMwTp7nYFLQg/j0VA2FmCY4WPDDHMg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.0.0.tgz"
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {
+        "hash": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+      }
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+      }
+    },
+    "react": {
+      "18.2.0": {
+        "hash": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+      }
+    },
+    "react-dom": {
+      "18.2.0": {
+        "hash": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    },
+    "scheduler": {
+      "0.23.0": {
+        "hash": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+      }
+    }
+  }
+}
