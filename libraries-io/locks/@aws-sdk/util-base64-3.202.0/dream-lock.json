@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-base64",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-base64": "3.202.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/is-array-buffer": {
+      "3.201.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@aws-sdk/util-base64": {
+      "3.202.0": [
+        [ "@aws-sdk/util-buffer-from", "3.201.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-base64", "3.202.0" ]
+      ]
+    },
+    "@aws-sdk/util-buffer-from": {
+      "3.201.0": [
+        [ "@aws-sdk/is-array-buffer", "3.201.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/is-array-buffer": {
+      "3.201.0": {
+        "hash": "sha512-UPez5qLh3dNgt0DYnPD/q0mVJY84rA17QE26hVNOW3fAji8W2wrwrxdacWOxyXvlxWsVRcKmr+lay1MDqpAMfg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/is-array-buffer/-/is-array-buffer-3.201.0.tgz"
+      }
+    },
+    "@aws-sdk/util-base64": {
+      "3.202.0": {
+        "hash": "sha512-0QlvxCSU2CITeR/x87zls9ma+CkN3EXRGM3M5XnHWaneDI9K+O2uPpAbDfLh0SBJyO0AfIMn7Vh/BvnNNPEDpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-base64/-/util-base64-3.202.0.tgz"
+      }
+    },
+    "@aws-sdk/util-buffer-from": {
+      "3.201.0": {
+        "hash": "sha512-s6Wjltd9vU+vR3n0pqSPmNDcrrkrVTdV4t7x2zz3nDsFKTI77iVNafDmuaUlOA/bIlpjCJqaWecoVrZmEKeR7A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-buffer-from/-/util-buffer-from-3.201.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

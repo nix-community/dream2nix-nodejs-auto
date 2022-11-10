@@ -688,7 +688,7 @@
     },
     "@cypress/code-coverage": {
       "3.10.0": [
-        [ "@cypress/webpack-preprocessor", "5.15.4" ],
+        [ "@cypress/webpack-preprocessor", "5.15.5" ],
         [ "chalk", "4.1.2" ],
         [ "dayjs", "1.10.7" ],
         [ "debug", "4.3.4" ],
@@ -725,7 +725,8 @@
       ]
     },
     "@cypress/webpack-preprocessor": {
-      "5.15.4": [
+      "5.15.5": [
+        [ "@babel/parser", "7.13.0" ],
         [ "bluebird", "3.7.1" ],
         [ "debug", "4.3.4" ],
         [ "fs-extra", "10.1.0" ],
@@ -1046,7 +1047,7 @@
       ]
     },
     "cypress": {
-      "11.0.0": [
+      "11.0.1": [
         [ "@cypress/request", "2.88.10" ],
         [ "@cypress/xvfb", "1.2.4" ],
         [ "@types/node", "14.18.33" ],
@@ -1805,7 +1806,7 @@
       ]
     },
     "webpack": {
-      "5.74.0": [
+      "5.75.0": [
         [ "@types/eslint-scope", "3.7.4" ],
         [ "@types/estree", "0.0.51" ],
         [ "@webassemblyjs/ast", "1.11.1" ],
@@ -2104,6 +2105,11 @@
       }
     },
     "@babel/parser": {
+      "7.13.0": {
+        "hash": "sha512-w80kxEMFhE3wjMOQkfdTvv0CSdRSJZptIlLhU4eU/coNJeWjduspUFz+IRnBbAq6m5XYBFMoT1TNkk9K9yf10g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.13.0.tgz"
+      },
       "7.20.3": {
         "hash": "sha512-OP/s5a94frIPXwjzEcv5S/tpQfc6XhxYUnmWpgdqMWGgYCuErA3SzozaRAMQgSZWKeTJxht9aWAkUY+0UzvOFg==",
         "type": "http",
@@ -2622,10 +2628,10 @@
       }
     },
     "@cypress/webpack-preprocessor": {
-      "5.15.4": {
-        "hash": "sha512-spqrTlso5AC4tGET/bsgpC5aUiyZkPVi+aZnmg0xEvTdD/5QXRe3Tyh8t92en6rcJVzlc4PqLkZqDZEYySYyZQ==",
+      "5.15.5": {
+        "hash": "sha512-ZV2ZylabogNDK3+xwDIWswudCJMFDT9XU6tTGni2xWow/brBvI55sEqcjvb6+9x8skMSPM6vLxdvf/FAOmNEFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.15.4.tgz"
+        "url": "https://registry.npmjs.org/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.15.5.tgz"
       }
     },
     "@cypress/xvfb": {
@@ -3385,10 +3391,10 @@
       }
     },
     "cypress": {
-      "11.0.0": {
-        "hash": "sha512-mYXGi2Wjmy9shRjAUDugSMOr4uuzE2nl7hXQi3oQkIQsnwwBx2HNB8Vbfsix3A0zyPXlL5jTcbb6rCVWKRaXbg==",
+      "11.0.1": {
+        "hash": "sha512-NuEfd0Vim492RJ3m/+bbTZ3OZrqXgfAfuLaZfIQ9D5lKocS3EDr2tyAarZdAhKwLyoh7OJ33jwMeMFIDbzYqog==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cypress/-/cypress-11.0.0.tgz"
+        "url": "https://registry.npmjs.org/cypress/-/cypress-11.0.1.tgz"
       }
     },
     "dashdash": {
@@ -5060,10 +5066,10 @@
       }
     },
     "webpack": {
-      "5.74.0": {
-        "hash": "sha512-A2InDwnhhGN4LYctJj6M1JEaGL7Luj6LOmyBHjcI8529cm5p6VXiTIW2sn6ffvEAKmveLzvu4jrihwXtPojlAA==",
+      "5.75.0": {
+        "hash": "sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/webpack/-/webpack-5.74.0.tgz"
+        "url": "https://registry.npmjs.org/webpack/-/webpack-5.75.0.tgz"
       }
     },
     "webpack-sources": {

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@prisma/client",
+    "location": "",
+    "packages": {
+      "@prisma/client": "4.7.0-dev.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@prisma/client": {
+      "4.7.0-dev.10": [
+        [ "@prisma/engines-version", "4.7.0-7.8b67711d15549e23304b0bae4b75e170e77f4848" ]
+      ],
+      "unknown": [
+        [ "@prisma/client", "4.7.0-dev.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "@prisma/client": {
+      "4.7.0-dev.10": {
+        "hash": "sha512-0e9wgirINoJfb2qofTpM0u16m7c6UhJ6J4649QX8/PUWDqv0kaiOaZTv6cf0pPAeJVDVmlY3IFrGUkS4dS3QjA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@prisma/client/-/client-4.7.0-dev.10.tgz"
+      }
+    },
+    "@prisma/engines-version": {
+      "4.7.0-7.8b67711d15549e23304b0bae4b75e170e77f4848": {
+        "hash": "sha512-8041DEMD5eaLwUqWL8B9N4QeGZD74DWkLJSGLr8K23dD2PUA82Wlw1gqL7ajdmzjPHBkkwDfEa1v4UqoChkYUQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-4.7.0-7.8b67711d15549e23304b0bae4b75e170e77f4848.tgz"
+      }
+    }
+  }
+}

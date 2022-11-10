@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "@ionic/core",
+    "location": "",
+    "packages": {
+      "@ionic/core": "6.3.6-nightly.20221110"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@ionic/core": {
+      "6.3.6-nightly.20221110": [
+        [ "@stencil/core", "2.19.2" ],
+        [ "ionicons", "6.0.4" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@ionic/core", "6.3.6-nightly.20221110" ]
+      ]
+    },
+    "ionicons": {
+      "6.0.4": [
+        [ "@stencil/core", "2.19.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@ionic/core": {
+      "6.3.6-nightly.20221110": {
+        "hash": "sha512-EJDfWoeXmtUovPrgpzP08knB5EPwt9LtjYvCKklxtqfADI8/Z9RLLbQnQ8tr0OKV+kSkmwQGbfRP1BQWObm+Sg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@ionic/core/-/core-6.3.6-nightly.20221110.tgz"
+      }
+    },
+    "@stencil/core": {
+      "2.19.2": {
+        "hash": "sha512-TK3sHqyQAACwcac4fWntypFtN9c/y+y9ioZojeCnNDY3dxF33Ax70lL9ZLDyQnWWR+aTh1WFoqB5sYOnZIUKMA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@stencil/core/-/core-2.19.2.tgz"
+      }
+    },
+    "ionicons": {
+      "6.0.4": {
+        "hash": "sha512-uDNOkBo0OVYV+kIhb51g9mb7r3Z0b+78GPZQBsjXuaetNmrB/mNTqN/uFtO+vxL/rQySKjzk8qeKJI5NWL9Ueg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ionicons/-/ionicons-6.0.4.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

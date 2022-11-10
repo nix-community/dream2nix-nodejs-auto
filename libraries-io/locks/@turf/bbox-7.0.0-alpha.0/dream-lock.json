@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "@turf/bbox",
+    "location": "",
+    "packages": {
+      "@turf/bbox": "7.0.0-alpha.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@turf/bbox": {
+      "7.0.0-alpha.0": [
+        [ "@turf/helpers", "7.0.0-alpha.0" ],
+        [ "@turf/meta", "7.0.0-alpha.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@turf/bbox", "7.0.0-alpha.0" ]
+      ]
+    },
+    "@turf/helpers": {
+      "7.0.0-alpha.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@turf/meta": {
+      "7.0.0-alpha.0": [
+        [ "@turf/helpers", "7.0.0-alpha.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@turf/bbox": {
+      "7.0.0-alpha.0": {
+        "hash": "sha512-UAPAXhFfYTouXK0txckKhJZh5pA2EgDMp5LvmECAz9U/5s0wIaV1ZJA+gA0VH097D1J9iHfLBAg/rSO2LVD31g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@turf/bbox/-/bbox-7.0.0-alpha.0.tgz"
+      }
+    },
+    "@turf/helpers": {
+      "7.0.0-alpha.0": {
+        "hash": "sha512-+TL5Lv7J12+/JZ8DkKmbia5w/wJFONESTVOHYGzqo2UiutM6wofqlfRZxw3sa36yggosDQ56PEF+sbQhTEazwQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@turf/helpers/-/helpers-7.0.0-alpha.0.tgz"
+      }
+    },
+    "@turf/meta": {
+      "7.0.0-alpha.0": {
+        "hash": "sha512-BGn9d5GIk25CXkgU5P0YcW4eOAL04zFpVwFIRreHNU28baI0s+bM8WUtC+DcYTs75hSvJo4gbvb1FiRFj9Viow==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@turf/meta/-/meta-7.0.0-alpha.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

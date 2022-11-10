@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/signale",
+    "location": "",
+    "packages": {
+      "@types/signale": "1.4.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/signale": {
+      "1.4.4": [
+        [ "@types/node", "18.11.9" ]
+      ],
+      "unknown": [
+        [ "@types/signale", "1.4.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "@types/node": {
+      "18.11.9": {
+        "hash": "sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.9.tgz"
+      }
+    },
+    "@types/signale": {
+      "1.4.4": {
+        "hash": "sha512-VYy4VL64gA4uyUIYVj4tiGFF0VpdnRbJeqNENKGX42toNiTvt83rRzxdr0XK4DR3V01zPM0JQNIsL+IwWWfhsQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/signale/-/signale-1.4.4.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@types/bootstrap",
+    "location": "",
+    "packages": {
+      "@types/bootstrap": "5.2.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@types/bootstrap": {
+      "5.2.6": [
+        [ "@popperjs/core", "2.11.6" ]
+      ],
+      "unknown": [
+        [ "@types/bootstrap", "5.2.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "@popperjs/core": {
+      "2.11.6": {
+        "hash": "sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
+      }
+    },
+    "@types/bootstrap": {
+      "5.2.6": {
+        "hash": "sha512-BlAc3YATdasbHoxMoBWODrSF6qwQO/E9X8wVxCCSa6rWjnaZfpkr2N6pUMCY6jj2+wf0muUtLySbvU9etX6YqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/bootstrap/-/bootstrap-5.2.6.tgz"
+      }
+    }
+  }
+}
