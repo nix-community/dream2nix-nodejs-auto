@@ -1,0 +1,191 @@
+{
+  "_generic": {
+    "defaultPackage": "editorconfig-tools",
+    "location": "",
+    "packages": {
+      "editorconfig-tools": "0.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "argparse": {
+      "0.1.16": [
+        [ "underscore", "1.7.0" ],
+        [ "underscore.string", "2.4.0" ]
+      ]
+    },
+    "commander": {
+      "1.1.1": [
+        [ "keypress", "0.1.0" ]
+      ]
+    },
+    "editorconfig": {
+      "0.12.2": [
+        [ "bluebird", "2.11.0" ],
+        [ "commander", "1.1.1" ],
+        [ "lru-cache", "2.0.4" ],
+        [ "sigmund", "1.0.1" ]
+      ]
+    },
+    "editorconfig-tools": {
+      "0.1.1": [
+        [ "argparse", "0.1.16" ],
+        [ "detect-indent", "0.1.4" ],
+        [ "editorconfig", "0.12.2" ],
+        [ "fobject", "0.0.3" ],
+        [ "graceful-fs", "3.0.12" ],
+        [ "lodash", "2.4.2" ],
+        [ "require-tree", "0.3.3" ],
+        [ "when", "3.7.8" ]
+      ],
+      "unknown": [
+        [ "editorconfig-tools", "0.1.1" ]
+      ]
+    },
+    "fobject": {
+      "0.0.3": [
+        [ "graceful-fs", "3.0.12" ],
+        [ "semver", "4.3.6" ],
+        [ "when", "3.7.8" ]
+      ]
+    },
+    "graceful-fs": {
+      "3.0.12": [
+        [ "natives", "1.1.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "argparse": {
+      "0.1.16": {
+        "hash": "sha512-LjmC2dNpdn2L4UzyoaIr11ELYoLn37ZFy9zObrQFHsSuOepeUEMKnM8w5KL4Tnrp2gy88rRuQt6Ky8Bjml+Baw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/argparse/-/argparse-0.1.16.tgz"
+      }
+    },
+    "bluebird": {
+      "2.11.0": {
+        "hash": "sha512-UfFSr22dmHPQqPP9XWHRhq+gWnHCYguQGkXQlbyPtW5qTnhFWA8/iXg765tH0cAjy7l/zPJ1aBTO0g5XgA7kvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bluebird/-/bluebird-2.11.0.tgz"
+      }
+    },
+    "commander": {
+      "1.1.1": {
+        "hash": "sha512-71Rod2AhcH3JhkBikVpNd0pA+fWsmAaVoti6OR38T76chA7vE3pSerS0Jor4wDw+tOueD2zLVvFOw5H0Rcj7rA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/commander/-/commander-1.1.1.tgz"
+      }
+    },
+    "detect-indent": {
+      "0.1.4": {
+        "hash": "sha512-l4ITFkcAEpUpmp40XheF+Epbp2tcResjhXYEJG2cuTNBk/JeN4gAdPPI8PgRj80Hc19l8SUPehfw30moSJXiug==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/detect-indent/-/detect-indent-0.1.4.tgz"
+      }
+    },
+    "editorconfig": {
+      "0.12.2": {
+        "hash": "sha512-4ED5PCW4UJNYyins8x8MB3C/Rt56W655Jug0uc9h2f4D1F1lWy31o3b2kpcPyhu/bxwDpWmBdOD6qGnWClzlyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/editorconfig/-/editorconfig-0.12.2.tgz"
+      }
+    },
+    "editorconfig-tools": {
+      "0.1.1": {
+        "hash": "sha512-damS/0It5JEpc/H8CR8pw7q93xTbWg6GgVoTrMulyrAVTwr6rH5eLogvZa/KfRxaxOJN1TnLELuHCmmNRn4G1Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/editorconfig-tools/-/editorconfig-tools-0.1.1.tgz"
+      }
+    },
+    "fobject": {
+      "0.0.3": {
+        "hash": "sha512-zUjvZBrhH5VIjea4U7/wf9QwaMsTG+nQbSMUnJh0BqXQ+74fiCZrPDcG8wpi97TtFsfxPAsBgbq3WRxBr5dc0Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/fobject/-/fobject-0.0.3.tgz"
+      }
+    },
+    "graceful-fs": {
+      "3.0.12": {
+        "hash": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz"
+      }
+    },
+    "keypress": {
+      "0.1.0": {
+        "hash": "sha512-x0yf9PL/nx9Nw9oLL8ZVErFAk85/lslwEP7Vz7s5SI1ODXZIgit3C5qyWjw4DxOuO/3Hb4866SQh28a1V1d+WA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz"
+      }
+    },
+    "lodash": {
+      "2.4.2": {
+        "hash": "sha512-Kak1hi6/hYHGVPmdyiZijoQyz5x2iGVzs6w9GYB/HiXEtylY7tIoYEROMjvM1d9nXJqPOrG2MNPMn01bJ+S0Rw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz"
+      }
+    },
+    "lru-cache": {
+      "2.0.4": {
+        "hash": "sha512-p6+W5xtxxT2y2bKbZuGSz3Rr2mkq+Mq4kXt7FRntJNTeu0BkaNN9AwGvygEz3G90d08JwfgLK9Ho6jbh0SwPQg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.0.4.tgz"
+      }
+    },
+    "natives": {
+      "1.1.6": {
+        "hash": "sha512-6+TDFewD4yxY14ptjKaS63GVdtKiES1pTPyxn9Jb0rBqPMZ7VcCiooEhPNsr+mqHtMGxa/5c/HhcC4uPEUw/nA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/natives/-/natives-1.1.6.tgz"
+      }
+    },
+    "require-tree": {
+      "0.3.3": {
+        "hash": "sha512-LjmJaymxJ8E6b9dk3nONQ+forCpoc2qiGe1piu70xx0i4bmhtzMmkKy3HZTeGEngnHdQJgWKmQmPcZD7SvWPvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/require-tree/-/require-tree-0.3.3.tgz"
+      }
+    },
+    "semver": {
+      "4.3.6": {
+        "hash": "sha512-IrpJ+yoG4EOH8DFWuVg+8H1kW1Oaof0Wxe7cPcXW3x9BjkN/eVo54F15LyqemnDIUYskQWr9qvl/RihmSy6+xQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/semver/-/semver-4.3.6.tgz"
+      }
+    },
+    "sigmund": {
+      "1.0.1": {
+        "hash": "sha512-fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz"
+      }
+    },
+    "underscore": {
+      "1.7.0": {
+        "hash": "sha512-cp0oQQyZhUM1kpJDLdGO1jPZHgS/MpzoWYfe9+CM2h/QGDZlqwT2T3YGukuBdaNJ/CAPoeyAZRRHz8JFo176vA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz"
+      }
+    },
+    "underscore.string": {
+      "2.4.0": {
+        "hash": "sha512-yxkabuCaIBnzfIvX3kBxQqCs0ar/bfJwDnFEHJUm/ZrRVhT3IItdRF5cZjARLzEnyQYtIUhsZ2LG2j3HidFOFQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/underscore.string/-/underscore.string-2.4.0.tgz"
+      }
+    },
+    "when": {
+      "3.7.8": {
+        "hash": "sha512-5cZ7mecD3eYcMiCH4wtRPA5iFJZ50BJYDfckI5RRpQiktMiYTcn0ccLTZOvcbBume+1304fQztxeNzNS9Gvrnw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/when/-/when-3.7.8.tgz"
+      }
+    }
+  }
+}

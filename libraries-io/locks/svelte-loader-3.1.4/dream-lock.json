@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "svelte-loader",
+    "location": "",
+    "packages": {
+      "svelte-loader": "3.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "loader-utils": {
+      "2.0.4": [
+        [ "big.js", "5.2.2" ],
+        [ "emojis-list", "3.0.0" ],
+        [ "json5", "2.2.1" ]
+      ]
+    },
+    "svelte-loader": {
+      "3.1.4": [
+        [ "loader-utils", "2.0.4" ],
+        [ "svelte-dev-helper", "1.1.9" ],
+        [ "svelte-hmr", "0.14.12" ]
+      ],
+      "unknown": [
+        [ "svelte-loader", "3.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "big.js": {
+      "5.2.2": {
+        "hash": "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+      }
+    },
+    "emojis-list": {
+      "3.0.0": {
+        "hash": "sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+      }
+    },
+    "json5": {
+      "2.2.1": {
+        "hash": "sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
+      }
+    },
+    "loader-utils": {
+      "2.0.4": {
+        "hash": "sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.4.tgz"
+      }
+    },
+    "svelte": {
+      "3.53.1": {
+        "hash": "sha512-Q4/hHkktZogGhN5iqxqSi9sjEVoe/NbIxX4hXEHoasTxj+TxEQVAq66LnDMdAZxjmsodkoI5F3slqsS68U7FNw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svelte/-/svelte-3.53.1.tgz"
+      }
+    },
+    "svelte-dev-helper": {
+      "1.1.9": {
+        "hash": "sha512-oU+Xv7Dl4kRU2kdFjsoPLfJfnt5hUhsFUZtuzI3Ku/f2iAFZqBoEuXOqK3N9ngD4dxQOmN4OKWPHVi3NeAeAfQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz"
+      }
+    },
+    "svelte-hmr": {
+      "0.14.12": {
+        "hash": "sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.14.12.tgz"
+      }
+    },
+    "svelte-loader": {
+      "3.1.4": {
+        "hash": "sha512-DtgVPb03UWhPW0GGlWx+1w6+LeCSnFijpX+4NCUNlRQjuzy8fcjBWaC+Q5cMCrk8JDB8YBqHt+SijDmAz1A/Ww==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/svelte-loader/-/svelte-loader-3.1.4.tgz"
+      }
+    }
+  }
+}

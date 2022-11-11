@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-endpoints",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-endpoints": "3.208.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/util-endpoints": {
+      "3.208.0": [
+        [ "@aws-sdk/types", "3.208.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-endpoints", "3.208.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/types": {
+      "3.208.0": {
+        "hash": "sha512-5AuOPtY1Hdf4xoEo+voRijl3OnFm8IB+oITXl+SN2iASJv+XPnRNw/QVbIxfGeWgWhmK31F+XdjTYsjT2rx8Qw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.208.0.tgz"
+      }
+    },
+    "@aws-sdk/util-endpoints": {
+      "3.208.0": {
+        "hash": "sha512-FGJA07iEbC883bAaw0qtDrly5Y+1nR3ic+OOzGX2AsSgaeVAc1j8Lgg3br7ofBbr8p81ec6zN4syy4v7V0Wb0A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.208.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

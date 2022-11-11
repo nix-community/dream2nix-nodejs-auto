@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "has-values",
+    "location": "",
+    "packages": {
+      "has-values": "2.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "has-values": {
+      "2.0.1": [
+        [ "kind-of", "6.0.3" ]
+      ],
+      "unknown": [
+        [ "has-values", "2.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "has-values": {
+      "2.0.1": {
+        "hash": "sha512-+QdH3jOmq9P8GfdjFg0eJudqx1FqU62NQJ4P16rOEHeRdl7ckgwn6uqQjzYE0ZoHVV/e5E2esuJ5Gl5+HUW19w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/has-values/-/has-values-2.0.1.tgz"
+      }
+    },
+    "kind-of": {
+      "6.0.3": {
+        "hash": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+      }
+    }
+  }
+}

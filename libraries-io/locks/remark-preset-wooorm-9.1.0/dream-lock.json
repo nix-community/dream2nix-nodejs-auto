@@ -550,7 +550,7 @@
     "parse-english": {
       "5.0.0": [
         [ "nlcst-to-string", "2.0.4" ],
-        [ "parse-latin", "5.0.0" ],
+        [ "parse-latin", "5.0.1" ],
         [ "unist-util-modify-children", "2.0.0" ],
         [ "unist-util-visit-children", "1.1.4" ]
       ]
@@ -564,10 +564,10 @@
       ]
     },
     "parse-latin": {
-      "5.0.0": [
-        [ "nlcst-to-string", "2.0.4" ],
-        [ "unist-util-modify-children", "2.0.0" ],
-        [ "unist-util-visit-children", "1.1.4" ]
+      "5.0.1": [
+        [ "nlcst-to-string", "3.1.0" ],
+        [ "unist-util-modify-children", "3.1.0" ],
+        [ "unist-util-visit-children", "2.0.1" ]
       ]
     },
     "propose": {
@@ -1513,6 +1513,10 @@
     "unist-util-modify-children": {
       "2.0.0": [
         [ "array-iterate", "1.1.4" ]
+      ],
+      "3.1.0": [
+        [ "@types/unist", "2.0.6" ],
+        [ "array-iterate", "2.0.1" ]
       ]
     },
     "unist-util-position": {
@@ -1535,6 +1539,11 @@
         [ "@types/unist", "2.0.6" ],
         [ "unist-util-is", "5.1.1" ],
         [ "unist-util-visit-parents", "5.1.1" ]
+      ]
+    },
+    "unist-util-visit-children": {
+      "2.0.1": [
+        [ "@types/unist", "2.0.6" ]
       ]
     },
     "unist-util-visit-parents": {
@@ -1756,6 +1765,11 @@
         "hash": "sha512-sNRaPGh9nnmdC8Zf+pT3UqP8rnWj5Hf9wiFGsX3wUQ2yVSIhO2ShFwCoceIPpB41QF6i2OEmrHmCo36xronCVA==",
         "type": "http",
         "url": "https://registry.npmjs.org/array-iterate/-/array-iterate-1.1.4.tgz"
+      },
+      "2.0.1": {
+        "hash": "sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/array-iterate/-/array-iterate-2.0.1.tgz"
       }
     },
     "bail": {
@@ -2532,10 +2546,10 @@
       }
     },
     "parse-latin": {
-      "5.0.0": {
-        "hash": "sha512-Ht+4/+AUySMS5HKGAiQpBmkFsHSoGrj6Y83flLCa5OIBdtsVkO3UD4OtboJ0O0vZiOznH02x8qlwg9KLUVXuNg==",
+      "5.0.1": {
+        "hash": "sha512-b/K8ExXaWC9t34kKeDV8kGXBkXZ1HCSAZRYE7HR14eA1GlXX5L8iWhs8USJNhQU9q5ci413jCKF0gOyovvyRBg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/parse-latin/-/parse-latin-5.0.0.tgz"
+        "url": "https://registry.npmjs.org/parse-latin/-/parse-latin-5.0.1.tgz"
       }
     },
     "path-exists": {
@@ -3276,6 +3290,11 @@
         "hash": "sha512-HGrj7JQo9DwZt8XFsX8UD4gGqOsIlCih9opG6Y+N11XqkBGKzHo8cvDi+MfQQgiZ7zXRUiQREYHhjOBHERTMdg==",
         "type": "http",
         "url": "https://registry.npmjs.org/unist-util-modify-children/-/unist-util-modify-children-2.0.0.tgz"
+      },
+      "3.1.0": {
+        "hash": "sha512-L0UizdncPZ1NIwpmkwFdLo2NaK2Eb5LU/vaQ7lZGkAaOBZfsHp+8T/gVWPVmmMO1hj6gc+XeMoytut8jr7fdyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-modify-children/-/unist-util-modify-children-3.1.0.tgz"
       }
     },
     "unist-util-position": {
@@ -3309,6 +3328,11 @@
         "hash": "sha512-sA/nXwYRCQVRwZU2/tQWUqJ9JSFM1X3x7JIOsIgSzrFHcfVt6NkzDtKzyxg2cZWkCwGF9CO8x4QNZRJRMK8FeQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/unist-util-visit-children/-/unist-util-visit-children-1.1.4.tgz"
+      },
+      "2.0.1": {
+        "hash": "sha512-2cEU3dhV1hMfO9ajwb8rJsDedMfsahsm6fCfR8LxDR/w7KcB5lzHQ9dBTQIXsWGNWBFH5MPmaFP3Xh0dWLqClQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unist-util-visit-children/-/unist-util-visit-children-2.0.1.tgz"
       }
     },
     "unist-util-visit-parents": {
