@@ -1,0 +1,71 @@
+{
+  "_generic": {
+    "defaultPackage": "@aws-sdk/util-defaults-mode-browser",
+    "location": "",
+    "packages": {
+      "@aws-sdk/util-defaults-mode-browser": "3.209.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@aws-sdk/property-provider": {
+      "3.208.0": [
+        [ "@aws-sdk/types", "3.208.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@aws-sdk/util-defaults-mode-browser": {
+      "3.209.0": [
+        [ "@aws-sdk/property-provider", "3.208.0" ],
+        [ "@aws-sdk/types", "3.208.0" ],
+        [ "bowser", "2.11.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@aws-sdk/util-defaults-mode-browser", "3.209.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@aws-sdk/property-provider": {
+      "3.208.0": {
+        "hash": "sha512-aUhfuwXjZ5TGzLhBstuAMmbnxHXeSGhzoIS8yy465ifgc95p6cHFZf+ZibgwgCMaGrKlTDCia2zwwpKQHN+4cw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/property-provider/-/property-provider-3.208.0.tgz"
+      }
+    },
+    "@aws-sdk/types": {
+      "3.208.0": {
+        "hash": "sha512-5AuOPtY1Hdf4xoEo+voRijl3OnFm8IB+oITXl+SN2iASJv+XPnRNw/QVbIxfGeWgWhmK31F+XdjTYsjT2rx8Qw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/types/-/types-3.208.0.tgz"
+      }
+    },
+    "@aws-sdk/util-defaults-mode-browser": {
+      "3.209.0": {
+        "hash": "sha512-c+AlHqsgeDr9+87fS1wfnyVzEH3myt56GvNt0puzIv0QQqfpobMnfN8/Fy0cqMpf1eQNYY4a6lFlkComsXi5dw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@aws-sdk/util-defaults-mode-browser/-/util-defaults-mode-browser-3.209.0.tgz"
+      }
+    },
+    "bowser": {
+      "2.11.0": {
+        "hash": "sha512-AlcaJBi/pqqJBIQ8U9Mcpc9i8Aqxn88Skv5d+xBX006BY5u8N3mGLHa5Lgppa7L/HfwgwLgZ6NYs+Ag6uUmJRA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/bowser/-/bowser-2.11.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

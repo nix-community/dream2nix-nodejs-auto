@@ -100,8 +100,8 @@
         [ "@graphql-tools/graphql-file-loader", "7.5.10" ],
         [ "@graphql-tools/json-file-loader", "7.4.11" ],
         [ "@graphql-tools/load", "7.8.0" ],
-        [ "@graphql-tools/prisma-loader", "7.2.34" ],
-        [ "@graphql-tools/url-loader", "7.16.14" ],
+        [ "@graphql-tools/prisma-loader", "7.2.35" ],
+        [ "@graphql-tools/url-loader", "7.16.15" ],
         [ "@graphql-tools/utils", "8.13.1" ],
         [ "@whatwg-node/fetch", "0.3.2" ],
         [ "ansi-escapes", "4.3.2" ],
@@ -151,7 +151,7 @@
       "7.3.18": [
         [ "@ardatan/sync-fetch", "0.0.1" ],
         [ "@graphql-tools/utils", "9.1.0" ],
-        [ "@whatwg-node/fetch", "0.5.1" ],
+        [ "@whatwg-node/fetch", "0.5.3" ],
         [ "tslib", "2.4.1" ]
       ]
     },
@@ -173,9 +173,9 @@
       ]
     },
     "@graphql-tools/delegate": {
-      "9.0.15": [
+      "9.0.16": [
         [ "@graphql-tools/batch-execute", "8.5.11" ],
-        [ "@graphql-tools/executor", "0.0.7" ],
+        [ "@graphql-tools/executor", "0.0.8" ],
         [ "@graphql-tools/schema", "9.0.9" ],
         [ "@graphql-tools/utils", "9.1.0" ],
         [ "dataloader", "2.1.0" ],
@@ -184,7 +184,7 @@
       ]
     },
     "@graphql-tools/executor": {
-      "0.0.7": [
+      "0.0.8": [
         [ "@graphql-tools/utils", "9.1.0" ],
         [ "@graphql-typed-document-node/core", "3.1.1" ],
         [ "@repeaterjs/repeater", "3.0.4" ],
@@ -239,7 +239,7 @@
         [ "@ardatan/sync-fetch", "0.0.1" ],
         [ "@graphql-tools/graphql-tag-pluck", "7.3.11" ],
         [ "@graphql-tools/utils", "9.1.0" ],
-        [ "@whatwg-node/fetch", "0.5.1" ],
+        [ "@whatwg-node/fetch", "0.5.3" ],
         [ "tslib", "2.4.1" ]
       ]
     },
@@ -295,8 +295,8 @@
       ]
     },
     "@graphql-tools/prisma-loader": {
-      "7.2.34": [
-        [ "@graphql-tools/url-loader", "7.16.14" ],
+      "7.2.35": [
+        [ "@graphql-tools/url-loader", "7.16.15" ],
         [ "@graphql-tools/utils", "9.1.0" ],
         [ "@types/js-yaml", "4.0.5" ],
         [ "@types/json-stable-stringify", "1.0.34" ],
@@ -332,16 +332,16 @@
       ]
     },
     "@graphql-tools/url-loader": {
-      "7.16.14": [
+      "7.16.15": [
         [ "@ardatan/sync-fetch", "0.0.1" ],
-        [ "@graphql-tools/delegate", "9.0.15" ],
+        [ "@graphql-tools/delegate", "9.0.16" ],
         [ "@graphql-tools/executor-graphql-ws", "0.0.2" ],
         [ "@graphql-tools/executor-http", "0.0.2" ],
         [ "@graphql-tools/executor-legacy-ws", "0.0.2" ],
         [ "@graphql-tools/utils", "9.1.0" ],
-        [ "@graphql-tools/wrap", "9.2.11" ],
+        [ "@graphql-tools/wrap", "9.2.12" ],
         [ "@types/ws", "8.5.3" ],
-        [ "@whatwg-node/fetch", "0.5.1" ],
+        [ "@whatwg-node/fetch", "0.5.3" ],
         [ "isomorphic-ws", "5.0.0" ],
         [ "tslib", "2.4.1" ],
         [ "value-or-promise", "1.0.11" ],
@@ -363,8 +363,8 @@
       ]
     },
     "@graphql-tools/wrap": {
-      "9.2.11": [
-        [ "@graphql-tools/delegate", "9.0.15" ],
+      "9.2.12": [
+        [ "@graphql-tools/delegate", "9.0.16" ],
         [ "@graphql-tools/schema", "9.0.9" ],
         [ "@graphql-tools/utils", "9.1.0" ],
         [ "tslib", "2.4.1" ],
@@ -444,6 +444,16 @@
         [ "web-streams-polyfill", "3.2.1" ]
       ],
       "0.5.1": [
+        [ "@peculiar/webcrypto", "1.4.1" ],
+        [ "abort-controller", "3.0.0" ],
+        [ "busboy", "1.6.0" ],
+        [ "form-data-encoder", "1.7.2" ],
+        [ "formdata-node", "4.4.1" ],
+        [ "node-fetch", "2.6.7" ],
+        [ "undici", "5.12.0" ],
+        [ "web-streams-polyfill", "3.2.1" ]
+      ],
+      "0.5.3": [
         [ "@peculiar/webcrypto", "1.4.1" ],
         [ "abort-controller", "3.0.0" ],
         [ "busboy", "1.6.0" ],
@@ -744,7 +754,7 @@
         [ "@graphql-tools/json-file-loader", "7.4.11" ],
         [ "@graphql-tools/load", "7.8.0" ],
         [ "@graphql-tools/merge", "8.3.11" ],
-        [ "@graphql-tools/url-loader", "7.16.14" ],
+        [ "@graphql-tools/url-loader", "7.16.15" ],
         [ "@graphql-tools/utils", "8.13.1" ],
         [ "cosmiconfig", "7.0.1" ],
         [ "cosmiconfig-toml-loader", "1.0.0" ],
@@ -1346,17 +1356,17 @@
       }
     },
     "@graphql-tools/delegate": {
-      "9.0.15": {
-        "hash": "sha512-55BTS/EDr/tt+fifY5pM8HwF9fYZo0ukv90Udan1mWnyQTZpBTRhg0MUKnWRl9vcaPkDZIkfJaG2sraFM5gZyw==",
+      "9.0.16": {
+        "hash": "sha512-zYNiKjryPFcQVwNWHop4r07EqAbv9UqB/jmEh7ZD1iz6GSQfM0pYeF0xHr1VmaM1KQxZW4Y+7moVWYZ2VG3wlw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/delegate/-/delegate-9.0.15.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/delegate/-/delegate-9.0.16.tgz"
       }
     },
     "@graphql-tools/executor": {
-      "0.0.7": {
-        "hash": "sha512-NfTru2DjgvuRF1PlYBHFhfsUwNiNBsby8LPlvPtB5duizbw0rQW14h1RM2IfBowR0wH42NRAJZWEW8Nbvlf0Dg==",
+      "0.0.8": {
+        "hash": "sha512-3I9LnwapdMRPlMQolR/GM+5M0qtSSzWy+5v5dxmhVX/hxda4LCKVNvjqW1sQWKGTGpXxCmSpjsmX/sB8aQsJIA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/executor/-/executor-0.0.7.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/executor/-/executor-0.0.8.tgz"
       }
     },
     "@graphql-tools/executor-graphql-ws": {
@@ -1442,10 +1452,10 @@
       }
     },
     "@graphql-tools/prisma-loader": {
-      "7.2.34": {
-        "hash": "sha512-0yPFnGKF0qdql4IgUKpAKedQ7ou803oZdjJoopeL2IHiE8nV/rlskp+r/zb+7W6awtwNuvPR5joqM2L0HZa5mQ==",
+      "7.2.35": {
+        "hash": "sha512-sGfb0C+LFE4lRR08BdOV4cLYOcMzXjv8mjtWn4m2ImgOg06/39Csw6x6sghXNXXmME06CzYW0VcRtSRT8maUxA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/prisma-loader/-/prisma-loader-7.2.34.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/prisma-loader/-/prisma-loader-7.2.35.tgz"
       }
     },
     "@graphql-tools/schema": {
@@ -1461,10 +1471,10 @@
       }
     },
     "@graphql-tools/url-loader": {
-      "7.16.14": {
-        "hash": "sha512-nrjOz1ya1Qu6oETBPJSF0kKxo3UGT+qyi9TqMCnSQ/2R67ADicK7McSWfLdEUneADWhCx26b3XsOrQTKiG1KFg==",
+      "7.16.15": {
+        "hash": "sha512-UHxbRS2/BJ/zTKhnPQxRCA1KOJ8KJAJv9X+C9dpX79QQd0k8oea0IozpWQUVlGtfUrWpgZBivYH7Qzd80WOYcg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/url-loader/-/url-loader-7.16.14.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/url-loader/-/url-loader-7.16.15.tgz"
       }
     },
     "@graphql-tools/utils": {
@@ -1490,10 +1500,10 @@
       }
     },
     "@graphql-tools/wrap": {
-      "9.2.11": {
-        "hash": "sha512-QzzyfUQ/roXh7F7Bk0xDOaX9Wp6yafIg3S+rkcSrWrGmxPckCp95YqAtoZLp5HE/XcoZNvw2vD110n0F9nOg6g==",
+      "9.2.12": {
+        "hash": "sha512-hrtEtLdX0rByuTROt0wCmcXiTt6+vYrBov4Z45SsfmuDkB9KUyt6MXguYYRfPjp2AM/uBaz3a+kRcMb0onFXiA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/wrap/-/wrap-9.2.11.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/wrap/-/wrap-9.2.12.tgz"
       }
     },
     "@graphql-typed-document-node/core": {
@@ -1686,6 +1696,11 @@
         "hash": "sha512-RBZS60EU6CbRJ370BVVKW4F9csZuGh0OQNrUDhJ0IaIFLsXsJorFCM2iwaDWZTAPMqxW1TmuVcVKJ3d/H1dV1g==",
         "type": "http",
         "url": "https://registry.npmjs.org/@whatwg-node/fetch/-/fetch-0.5.1.tgz"
+      },
+      "0.5.3": {
+        "hash": "sha512-cuAKL3Z7lrJJuUrfF1wxkQTb24Qd1QO/lsjJpM5ZSZZzUMms5TPnbGeGUKWA3hVKNHh30lVfr2MyRCT5Jfkucw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@whatwg-node/fetch/-/fetch-0.5.3.tgz"
       }
     },
     "abort-controller": {
