@@ -403,6 +403,30 @@
         [ "picomatch", "2.3.1" ]
       ]
     },
+    "@unhead/dom": {
+      "0.6.2": [
+        [ "@unhead/schema", "0.6.2" ]
+      ]
+    },
+    "@unhead/schema": {
+      "0.6.2": [
+        [ "@zhead/schema", "1.0.0-beta.13" ],
+        [ "hookable", "5.4.1" ]
+      ]
+    },
+    "@unhead/ssr": {
+      "0.6.2": [
+        [ "@unhead/schema", "0.6.2" ]
+      ]
+    },
+    "@unhead/vue": {
+      "0.6.2": [
+        [ "@unhead/dom", "0.6.2" ],
+        [ "@unhead/schema", "0.6.2" ],
+        [ "@vueuse/shared", "9.5.0" ],
+        [ "unhead", "0.6.2" ]
+      ]
+    },
     "@vercel/nft": {
       "0.22.1": [
         [ "@mapbox/node-pre-gyp", "1.0.10" ],
@@ -506,21 +530,15 @@
       ]
     },
     "@vueuse/head": {
-      "1.0.0-rc.14": [
-        [ "@vueuse/shared", "9.5.0" ],
-        [ "@zhead/schema", "0.9.9" ],
-        [ "@zhead/schema-vue", "0.9.9" ]
+      "1.0.5": [
+        [ "@unhead/schema", "0.6.2" ],
+        [ "@unhead/ssr", "0.6.2" ],
+        [ "@unhead/vue", "0.6.2" ]
       ]
     },
     "@vueuse/shared": {
       "9.5.0": [
         [ "vue-demi", "0.13.11" ]
-      ]
-    },
-    "@zhead/schema-vue": {
-      "0.9.9": [
-        [ "@vueuse/shared", "9.5.0" ],
-        [ "@zhead/schema", "0.9.9" ]
       ]
     },
     "agent-base": {
@@ -1377,7 +1395,7 @@
         [ "@nuxt/vite-builder", "3.0.0-rc.13" ],
         [ "@vue/reactivity", "3.2.45" ],
         [ "@vue/shared", "3.2.45" ],
-        [ "@vueuse/head", "1.0.0-rc.14" ],
+        [ "@vueuse/head", "1.0.5" ],
         [ "chokidar", "3.5.3" ],
         [ "cookie-es", "0.5.0" ],
         [ "defu", "6.1.0" ],
@@ -1918,6 +1936,13 @@
         [ "mime", "3.0.0" ],
         [ "node-fetch-native", "0.1.8" ],
         [ "pathe", "0.3.9" ]
+      ]
+    },
+    "unhead": {
+      "0.6.2": [
+        [ "@unhead/dom", "0.6.2" ],
+        [ "@unhead/schema", "0.6.2" ],
+        [ "hookable", "5.4.1" ]
       ]
     },
     "unimport": {
@@ -2569,6 +2594,34 @@
         "url": "https://registry.npmjs.org/@types/resolve/-/resolve-1.20.2.tgz"
       }
     },
+    "@unhead/dom": {
+      "0.6.2": {
+        "hash": "sha512-v1uC/RMvXFQggCPoIreZW/dxNb1w+S8Aqt4nVaCkNFox9Hpz9pyEJx6bbCkpHbDjclrvX1BOENor8QjX3En4jQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@unhead/dom/-/dom-0.6.2.tgz"
+      }
+    },
+    "@unhead/schema": {
+      "0.6.2": {
+        "hash": "sha512-B8DPw5h780rIrX1GNC7a8B8l7WbxBN2Gx1QQM/y6aM8GNVdvmaQ18/3MR7K88bpYs1ZMrupujHUBXjgJRnPL7w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@unhead/schema/-/schema-0.6.2.tgz"
+      }
+    },
+    "@unhead/ssr": {
+      "0.6.2": {
+        "hash": "sha512-gk84r23WOmdIwDbNnq/BSMmUhhe+477HUXuK1iutPDLHeNQMgSGN5B2aNpkm6dboNFTP3W8r5IrAfCXhSZi3Kw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@unhead/ssr/-/ssr-0.6.2.tgz"
+      }
+    },
+    "@unhead/vue": {
+      "0.6.2": {
+        "hash": "sha512-re3i1QdShxMLEYecBhztmScUTz1yUqJyb6Ka8+PxcxNAwz9qQtPXO0+u3LIjRsbk9eWRIUsVj+hJL3WFfcK3WQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@unhead/vue/-/vue-0.6.2.tgz"
+      }
+    },
     "@vercel/nft": {
       "0.22.1": {
         "hash": "sha512-lYYZIoxRurqDOSoVIdBicGnpUIpfyaS5qVjdPq+EfI285WqtZK3NK/dyCkiyBul+X2U2OEhRyeMdXPCHGJbohw==",
@@ -2682,10 +2735,10 @@
       }
     },
     "@vueuse/head": {
-      "1.0.0-rc.14": {
-        "hash": "sha512-3DtOfSE1141IKPIq4AR5UXQZPWQFSd7E5f3M+HkBRyxWsyxbNBBmK5hqkSYc2ENoFXa3xPhLYZXJPKuxqfJmiA==",
+      "1.0.5": {
+        "hash": "sha512-uAaTFwDQChhErwNyzAWOSUQZPigFBq4YIR2/hjle7BAqDcGAYJeD2t6yH1w1t+V2WkWoMdKgOt8bhvDX+PrOJg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@vueuse/head/-/head-1.0.0-rc.14.tgz"
+        "url": "https://registry.npmjs.org/@vueuse/head/-/head-1.0.5.tgz"
       }
     },
     "@vueuse/shared": {
@@ -2696,17 +2749,10 @@
       }
     },
     "@zhead/schema": {
-      "0.9.9": {
-        "hash": "sha512-B/No5zsZB1gz6BT7OKcD0rbyZCGoF6ImeQm2ffupQrgUpYAIv/LGtn3RVNSOcX2R2DB4g79UtuIwK0OxugFjJQ==",
+      "1.0.0-beta.13": {
+        "hash": "sha512-P1A1vRGFBhITco8Iw4/hvnDYoE/SoVrd71dW1pBFdXJb3vP+pBtoOuhbEKy0ROJGOyzQuqvFibcwzyLlWMqNiQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@zhead/schema/-/schema-0.9.9.tgz"
-      }
-    },
-    "@zhead/schema-vue": {
-      "0.9.9": {
-        "hash": "sha512-f7sOPMc1zQJ+tDDWWaksNsGoGGuRv5aHvOdZvsL3dIxbiHVlGVhDi/HZbUUupCtlYAPv2D8E/tUmwWKh/UrbXw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@zhead/schema-vue/-/schema-vue-0.9.9.tgz"
+        "url": "https://registry.npmjs.org/@zhead/schema/-/schema-1.0.0-beta.13.tgz"
       }
     },
     "abbrev": {
@@ -5801,6 +5847,13 @@
         "hash": "sha512-IdQfYsHsGKDkiBdeOmtU4MjWvPYfMDOC63cvFqZPodAc5aVezvfD9Bwr7FL/G78cAMMCaDm5Jux3vYo+Z8c/Dg==",
         "type": "http",
         "url": "https://registry.npmjs.org/unenv/-/unenv-0.6.2.tgz"
+      }
+    },
+    "unhead": {
+      "0.6.2": {
+        "hash": "sha512-+ZaLD6/PIpX12TorTJFfhiouB6IimMX1LxgRZ0Rx0mqXnOac/DVtZOi8AEO311FmF9LjRWMfl7U31f1rbub1Qw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/unhead/-/unhead-0.6.2.tgz"
       }
     },
     "unimport": {

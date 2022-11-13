@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "i18next",
+    "location": "",
+    "packages": {
+      "i18next": "22.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.20.1": [
+        [ "regenerator-runtime", "0.13.10" ]
+      ]
+    },
+    "i18next": {
+      "22.0.5": [
+        [ "@babel/runtime", "7.20.1" ]
+      ],
+      "unknown": [
+        [ "i18next", "22.0.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.20.1": {
+        "hash": "sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
+      }
+    },
+    "i18next": {
+      "22.0.5": {
+        "hash": "sha512-N2AXKCLHzv1ClfLqiwbAPJHClovfRv9iplySiZ/S3LfQ7PNjkVEkVpFbhCXDsPhQd6kLp6DKjbzpowniE8Mdiw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/i18next/-/i18next-22.0.5.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    }
+  }
+}
