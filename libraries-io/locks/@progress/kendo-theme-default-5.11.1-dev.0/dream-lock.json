@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "@progress/kendo-theme-default",
+    "location": "",
+    "packages": {
+      "@progress/kendo-theme-default": "5.11.1-dev.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@progress/kendo-theme-default": {
+      "5.11.1-dev.0": [
+        [ "@progress/kendo-font-icons", "0.6.0" ],
+        [ "@progress/kendo-theme-core", "5.11.1-dev.0" ],
+        [ "@progress/kendo-theme-utils", "5.11.1-dev.0" ]
+      ],
+      "unknown": [
+        [ "@progress/kendo-theme-default", "5.11.1-dev.0" ]
+      ]
+    },
+    "@progress/kendo-theme-utils": {
+      "5.11.1-dev.0": [
+        [ "@progress/kendo-theme-core", "5.11.1-dev.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@progress/kendo-font-icons": {
+      "0.6.0": {
+        "hash": "sha512-GRel8CUm2pnBFmjo2OzY+phqP7bMrt4K4VV7IVcqmMXfge0qYwIt8WPjm5GsqpcYNjCQDUsCCmcJdQ+hnudG5g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-font-icons/-/kendo-font-icons-0.6.0.tgz"
+      }
+    },
+    "@progress/kendo-theme-core": {
+      "5.11.1-dev.0": {
+        "hash": "sha512-1pgH9CrSvzyWo6uUiTWz6FOEybnmqeIW6zpizIvPiSvaB+Eic7ZKxOhhF51ucytSWS+hC9F9OsEFpPOKpYARVQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-theme-core/-/kendo-theme-core-5.11.1-dev.0.tgz"
+      }
+    },
+    "@progress/kendo-theme-default": {
+      "5.11.1-dev.0": {
+        "hash": "sha512-mahogIUuY59lmkv74fSpqXRVpH1eWxvfCTFKYd63e2HnrYuq7jC1CzFjklKsGD/vmWBqnqg986Jeuymg+g7BFA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-theme-default/-/kendo-theme-default-5.11.1-dev.0.tgz"
+      }
+    },
+    "@progress/kendo-theme-utils": {
+      "5.11.1-dev.0": {
+        "hash": "sha512-I/mruWCBMNIGMsQU/ynMd7fwqgAS1wtDifhHezW2K8nHGuSdDnzmci/aG1u1291jCcPeUPOV6VG0hMfwN86mIg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@progress/kendo-theme-utils/-/kendo-theme-utils-5.11.1-dev.0.tgz"
+      }
+    }
+  }
+}

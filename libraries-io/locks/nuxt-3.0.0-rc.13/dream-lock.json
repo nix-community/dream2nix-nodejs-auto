@@ -296,7 +296,7 @@
       "2.1.6": [
         [ "@nuxt/kit", "3.0.0-rc.13" ],
         [ "chalk", "5.1.2" ],
-        [ "ci-info", "3.5.0" ],
+        [ "ci-info", "3.6.1" ],
         [ "consola", "2.15.3" ],
         [ "create-require", "1.1.1" ],
         [ "defu", "6.1.0" ],
@@ -404,27 +404,25 @@
       ]
     },
     "@unhead/dom": {
-      "0.6.2": [
-        [ "@unhead/schema", "0.6.2" ]
+      "0.6.4": [
+        [ "@unhead/schema", "0.6.4" ]
       ]
     },
     "@unhead/schema": {
-      "0.6.2": [
+      "0.6.4": [
         [ "@zhead/schema", "1.0.0-beta.13" ],
         [ "hookable", "5.4.1" ]
       ]
     },
     "@unhead/ssr": {
-      "0.6.2": [
-        [ "@unhead/schema", "0.6.2" ]
+      "0.6.4": [
+        [ "@unhead/schema", "0.6.4" ]
       ]
     },
     "@unhead/vue": {
-      "0.6.2": [
-        [ "@unhead/dom", "0.6.2" ],
-        [ "@unhead/schema", "0.6.2" ],
-        [ "@vueuse/shared", "9.5.0" ],
-        [ "unhead", "0.6.2" ]
+      "0.6.4": [
+        [ "@unhead/schema", "0.6.4" ],
+        [ "hookable", "5.4.1" ]
       ]
     },
     "@vercel/nft": {
@@ -530,15 +528,11 @@
       ]
     },
     "@vueuse/head": {
-      "1.0.5": [
-        [ "@unhead/schema", "0.6.2" ],
-        [ "@unhead/ssr", "0.6.2" ],
-        [ "@unhead/vue", "0.6.2" ]
-      ]
-    },
-    "@vueuse/shared": {
-      "9.5.0": [
-        [ "vue-demi", "0.13.11" ]
+      "1.0.7": [
+        [ "@unhead/dom", "0.6.4" ],
+        [ "@unhead/schema", "0.6.4" ],
+        [ "@unhead/ssr", "0.6.4" ],
+        [ "@unhead/vue", "0.6.4" ]
       ]
     },
     "agent-base": {
@@ -1395,7 +1389,7 @@
         [ "@nuxt/vite-builder", "3.0.0-rc.13" ],
         [ "@vue/reactivity", "3.2.45" ],
         [ "@vue/shared", "3.2.45" ],
-        [ "@vueuse/head", "1.0.5" ],
+        [ "@vueuse/head", "1.0.7" ],
         [ "chokidar", "3.5.3" ],
         [ "cookie-es", "0.5.0" ],
         [ "defu", "6.1.0" ],
@@ -1936,13 +1930,6 @@
         [ "mime", "3.0.0" ],
         [ "node-fetch-native", "0.1.8" ],
         [ "pathe", "0.3.9" ]
-      ]
-    },
-    "unhead": {
-      "0.6.2": [
-        [ "@unhead/dom", "0.6.2" ],
-        [ "@unhead/schema", "0.6.2" ],
-        [ "hookable", "5.4.1" ]
       ]
     },
     "unimport": {
@@ -2595,31 +2582,31 @@
       }
     },
     "@unhead/dom": {
-      "0.6.2": {
-        "hash": "sha512-v1uC/RMvXFQggCPoIreZW/dxNb1w+S8Aqt4nVaCkNFox9Hpz9pyEJx6bbCkpHbDjclrvX1BOENor8QjX3En4jQ==",
+      "0.6.4": {
+        "hash": "sha512-GBvVDwOdQqcBE181eZJCjo66P25GENWld2jeah0TlDBF8HMUd77nJtlATwhAxhmpwrJyu4ydVrIeO7TUHXf95w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@unhead/dom/-/dom-0.6.2.tgz"
+        "url": "https://registry.npmjs.org/@unhead/dom/-/dom-0.6.4.tgz"
       }
     },
     "@unhead/schema": {
-      "0.6.2": {
-        "hash": "sha512-B8DPw5h780rIrX1GNC7a8B8l7WbxBN2Gx1QQM/y6aM8GNVdvmaQ18/3MR7K88bpYs1ZMrupujHUBXjgJRnPL7w==",
+      "0.6.4": {
+        "hash": "sha512-PqsqIzxFPXFzsTWU9Rkl3JXJt6yY3V0xKVvUwVM3XhxaiIceb8nKon6MwZAG4tU5dFMrITZlIoaEV4vH8avhiQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@unhead/schema/-/schema-0.6.2.tgz"
+        "url": "https://registry.npmjs.org/@unhead/schema/-/schema-0.6.4.tgz"
       }
     },
     "@unhead/ssr": {
-      "0.6.2": {
-        "hash": "sha512-gk84r23WOmdIwDbNnq/BSMmUhhe+477HUXuK1iutPDLHeNQMgSGN5B2aNpkm6dboNFTP3W8r5IrAfCXhSZi3Kw==",
+      "0.6.4": {
+        "hash": "sha512-+vmCCFj2hKLtwmSw1rc4BvKR29VWwUMBLlF7+EgugS0EFYyuT/ad0YopVVoaNaMP2VmKF3/wmg6oXQs8/bLozg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@unhead/ssr/-/ssr-0.6.2.tgz"
+        "url": "https://registry.npmjs.org/@unhead/ssr/-/ssr-0.6.4.tgz"
       }
     },
     "@unhead/vue": {
-      "0.6.2": {
-        "hash": "sha512-re3i1QdShxMLEYecBhztmScUTz1yUqJyb6Ka8+PxcxNAwz9qQtPXO0+u3LIjRsbk9eWRIUsVj+hJL3WFfcK3WQ==",
+      "0.6.4": {
+        "hash": "sha512-lIKH2LV8hPywKprYbjYwbSwhIaPa+ATBGmfI2wtVj4vApmifVkDyEr+TAzFEOCDuEUtnSpXzIiMFupbiHZ/+OA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@unhead/vue/-/vue-0.6.2.tgz"
+        "url": "https://registry.npmjs.org/@unhead/vue/-/vue-0.6.4.tgz"
       }
     },
     "@vercel/nft": {
@@ -2735,17 +2722,10 @@
       }
     },
     "@vueuse/head": {
-      "1.0.5": {
-        "hash": "sha512-uAaTFwDQChhErwNyzAWOSUQZPigFBq4YIR2/hjle7BAqDcGAYJeD2t6yH1w1t+V2WkWoMdKgOt8bhvDX+PrOJg==",
+      "1.0.7": {
+        "hash": "sha512-sa0s1yoFbj5NTZdjHeBsh5kmKO94PjyQCUN0mxvCrSuSZIRDHOVdxG7g3+e149Q+EXZI9WJkkaYiHQlpRlqEag==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@vueuse/head/-/head-1.0.5.tgz"
-      }
-    },
-    "@vueuse/shared": {
-      "9.5.0": {
-        "hash": "sha512-HnnCWU1Vg9CVWRCcI8ohDKDRB2Sc4bTgT1XAIaoLSfVHHn+TKbrox6pd3klCSw4UDxkhDfOk8cAdcK+Z5KleCA==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/@vueuse/shared/-/shared-9.5.0.tgz"
+        "url": "https://registry.npmjs.org/@vueuse/head/-/head-1.0.7.tgz"
       }
     },
     "@zhead/schema": {
@@ -3065,10 +3045,10 @@
       }
     },
     "ci-info": {
-      "3.5.0": {
-        "hash": "sha512-yH4RezKOGlOhxkmhbeNuC4eYZKAUsEaGtBuBzDDP1eFUKiccDWzBABxBfOx31IDwDIXMTxWuwAxUGModvkbuVw==",
+      "3.6.1": {
+        "hash": "sha512-up5ggbaDqOqJ4UqLKZ2naVkyqSJQgJi5lwD6b6mM748ysrghDBX0bx/qJTUHzw7zu6Mq4gycviSF5hJnwceD8w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ci-info/-/ci-info-3.5.0.tgz"
+        "url": "https://registry.npmjs.org/ci-info/-/ci-info-3.6.1.tgz"
       }
     },
     "cli-cursor": {
@@ -5849,13 +5829,6 @@
         "url": "https://registry.npmjs.org/unenv/-/unenv-0.6.2.tgz"
       }
     },
-    "unhead": {
-      "0.6.2": {
-        "hash": "sha512-+ZaLD6/PIpX12TorTJFfhiouB6IimMX1LxgRZ0Rx0mqXnOac/DVtZOi8AEO311FmF9LjRWMfl7U31f1rbub1Qw==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/unhead/-/unhead-0.6.2.tgz"
-      }
-    },
     "unimport": {
       "0.7.0": {
         "hash": "sha512-Cr0whz4toYVid3JHlni/uThwavDVVCk6Zw0Gxnol1c7DprTA+Isr4T+asO6rDGkhkgV7r3vSdSs5Ym8F15JA+w==",
@@ -5992,13 +5965,6 @@
         "hash": "sha512-EZBp4TZ5oamgg+JL7kih5xO/qLCPlC6Dz4BH9ymoNP6xM2urZazql3PCAdztgnzBkOgmoOegEw4kp7Hgp8qaaA==",
         "type": "http",
         "url": "https://registry.npmjs.org/vue-bundle-renderer/-/vue-bundle-renderer-0.5.0.tgz"
-      }
-    },
-    "vue-demi": {
-      "0.13.11": {
-        "hash": "sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==",
-        "type": "http",
-        "url": "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz"
       }
     },
     "vue-devtools-stub": {
