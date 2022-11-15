@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "@graphql-tools/utils",
+    "location": "",
+    "packages": {
+      "@graphql-tools/utils": "9.1.2-alpha-20221114133606-dae9ff99"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@graphql-tools/utils": {
+      "9.1.2-alpha-20221114133606-dae9ff99": [
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@graphql-tools/utils", "9.1.2-alpha-20221114133606-dae9ff99" ]
+      ]
+    }
+  },
+  "sources": {
+    "@graphql-tools/utils": {
+      "9.1.2-alpha-20221114133606-dae9ff99": {
+        "hash": "sha512-FCSj2DZLn9KLNju4macIG6cFuwKMwxz9OVNMBhCdU83ANslCaD5mfOa5pQ9Vz3HZHbng3ho9BQ7SkO3uIg4W4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@graphql-tools/utils/-/utils-9.1.2-alpha-20221114133606-dae9ff99.tgz"
+      }
+    },
+    "graphql": {
+      "16.6.0": {
+        "hash": "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

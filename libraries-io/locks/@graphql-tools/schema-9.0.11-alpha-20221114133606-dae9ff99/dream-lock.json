@@ -1,0 +1,83 @@
+{
+  "_generic": {
+    "defaultPackage": "@graphql-tools/schema",
+    "location": "",
+    "packages": {
+      "@graphql-tools/schema": "9.0.11-alpha-20221114133606-dae9ff99"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@graphql-tools/merge": {
+      "8.3.13-alpha-20221114133606-dae9ff99": [
+        [ "@graphql-tools/utils", "9.1.2-alpha-20221114133606-dae9ff99" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@graphql-tools/schema": {
+      "9.0.11-alpha-20221114133606-dae9ff99": [
+        [ "@graphql-tools/merge", "8.3.13-alpha-20221114133606-dae9ff99" ],
+        [ "@graphql-tools/utils", "9.1.2-alpha-20221114133606-dae9ff99" ],
+        [ "tslib", "2.4.1" ],
+        [ "value-or-promise", "1.0.11" ]
+      ],
+      "unknown": [
+        [ "@graphql-tools/schema", "9.0.11-alpha-20221114133606-dae9ff99" ]
+      ]
+    },
+    "@graphql-tools/utils": {
+      "9.1.2-alpha-20221114133606-dae9ff99": [
+        [ "tslib", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@graphql-tools/merge": {
+      "8.3.13-alpha-20221114133606-dae9ff99": {
+        "hash": "sha512-W/hagGLyviswPb8jcE2qVzCEbwm++oDEcnR+Ot9b9F6n/gIRhgXTo+smI6IKJHXdUKgcZ/GSv8/7/fXXd8Ey/w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@graphql-tools/merge/-/merge-8.3.13-alpha-20221114133606-dae9ff99.tgz"
+      }
+    },
+    "@graphql-tools/schema": {
+      "9.0.11-alpha-20221114133606-dae9ff99": {
+        "hash": "sha512-VVCavLgi8uR29mYRkmYzxzBQ4E/oxGflIyzYqJM4s1wA+ZRCc65HbX7qZ5IdbTaJt6xE9xm4TbPYcIUffVz+hw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@graphql-tools/schema/-/schema-9.0.11-alpha-20221114133606-dae9ff99.tgz"
+      }
+    },
+    "@graphql-tools/utils": {
+      "9.1.2-alpha-20221114133606-dae9ff99": {
+        "hash": "sha512-FCSj2DZLn9KLNju4macIG6cFuwKMwxz9OVNMBhCdU83ANslCaD5mfOa5pQ9Vz3HZHbng3ho9BQ7SkO3uIg4W4g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@graphql-tools/utils/-/utils-9.1.2-alpha-20221114133606-dae9ff99.tgz"
+      }
+    },
+    "graphql": {
+      "16.6.0": {
+        "hash": "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    },
+    "value-or-promise": {
+      "1.0.11": {
+        "hash": "sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/value-or-promise/-/value-or-promise-1.0.11.tgz"
+      }
+    }
+  }
+}

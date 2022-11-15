@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "swiper",
+    "location": "",
+    "packages": {
+      "swiper": "9.0.0-beta.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dom7": {
+      "4.0.4": [
+        [ "ssr-window", "4.0.2" ]
+      ]
+    },
+    "swiper": {
+      "9.0.0-beta.2": [
+        [ "dom7", "4.0.4" ],
+        [ "ssr-window", "4.0.2" ]
+      ],
+      "unknown": [
+        [ "swiper", "9.0.0-beta.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "dom7": {
+      "4.0.4": {
+        "hash": "sha512-DSSgBzQ4rJWQp1u6o+3FVwMNnT5bzQbMb+o31TjYYeRi05uAcpF8koxdfzeoe5ElzPmua7W7N28YJhF7iEKqIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/dom7/-/dom7-4.0.4.tgz"
+      }
+    },
+    "ssr-window": {
+      "4.0.2": {
+        "hash": "sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/ssr-window/-/ssr-window-4.0.2.tgz"
+      }
+    },
+    "swiper": {
+      "9.0.0-beta.2": {
+        "hash": "sha512-M4kf2fBHgKI52Qw/K3a5eory+Rid3OhkcELkgK5pNiLRb5Lfm4MSEOOwqupGipIaZlIr/5M8EIyRRTZcVx0wNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/swiper/-/swiper-9.0.0-beta.2.tgz"
+      }
+    }
+  }
+}

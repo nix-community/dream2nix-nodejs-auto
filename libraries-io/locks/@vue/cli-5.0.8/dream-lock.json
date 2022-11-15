@@ -138,7 +138,7 @@
     "@babel/helper-create-regexp-features-plugin": {
       "7.19.0": [
         [ "@babel/helper-annotate-as-pure", "7.18.6" ],
-        [ "regexpu-core", "5.2.1" ]
+        [ "regexpu-core", "5.2.2" ]
       ]
     },
     "@babel/helper-define-polyfill-provider": {
@@ -792,15 +792,15 @@
         [ "@graphql-tools/utils", "8.9.0" ],
         [ "tslib", "2.4.1" ]
       ],
-      "8.3.11": [
-        [ "@graphql-tools/utils", "9.1.0" ],
+      "8.3.12": [
+        [ "@graphql-tools/utils", "9.1.1" ],
         [ "tslib", "2.4.1" ]
       ]
     },
     "@graphql-tools/mock": {
-      "8.7.11": [
-        [ "@graphql-tools/schema", "9.0.9" ],
-        [ "@graphql-tools/utils", "9.1.0" ],
+      "8.7.12": [
+        [ "@graphql-tools/schema", "9.0.10" ],
+        [ "@graphql-tools/utils", "9.1.1" ],
         [ "fast-json-stable-stringify", "2.1.0" ],
         [ "tslib", "2.4.1" ]
       ]
@@ -812,9 +812,9 @@
         [ "tslib", "2.4.1" ],
         [ "value-or-promise", "1.0.11" ]
       ],
-      "9.0.9": [
-        [ "@graphql-tools/merge", "8.3.11" ],
-        [ "@graphql-tools/utils", "9.1.0" ],
+      "9.0.10": [
+        [ "@graphql-tools/merge", "8.3.12" ],
+        [ "@graphql-tools/utils", "9.1.1" ],
         [ "tslib", "2.4.1" ],
         [ "value-or-promise", "1.0.11" ]
       ]
@@ -823,7 +823,7 @@
       "8.9.0": [
         [ "tslib", "2.4.1" ]
       ],
-      "9.1.0": [
+      "9.1.1": [
         [ "tslib", "2.4.1" ]
       ]
     },
@@ -1090,7 +1090,7 @@
         [ "@apollo/utils.usagereporting", "1.0.0" ],
         [ "@apollographql/apollo-tools", "0.5.4" ],
         [ "@apollographql/graphql-playground-html", "1.6.29" ],
-        [ "@graphql-tools/mock", "8.7.11" ],
+        [ "@graphql-tools/mock", "8.7.12" ],
         [ "@graphql-tools/schema", "8.5.1" ],
         [ "@josephg/resolvable", "1.0.1" ],
         [ "apollo-datasource", "3.3.2" ],
@@ -2444,13 +2444,13 @@
       ]
     },
     "regexpu-core": {
-      "5.2.1": [
+      "5.2.2": [
         [ "regenerate", "1.4.2" ],
         [ "regenerate-unicode-properties", "10.1.0" ],
         [ "regjsgen", "0.7.1" ],
         [ "regjsparser", "0.9.1" ],
         [ "unicode-match-property-ecmascript", "2.0.0" ],
-        [ "unicode-match-property-value-ecmascript", "2.0.0" ]
+        [ "unicode-match-property-value-ecmascript", "2.1.0" ]
       ]
     },
     "regjsparser": {
@@ -3777,17 +3777,17 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@graphql-tools/merge/-/merge-8.3.1.tgz"
       },
-      "8.3.11": {
-        "hash": "sha512-IpZh8r8e8FycXaUv04xe5HQH9siD1tkS8MvaO8Wb2FaPXv15XSYP+Wsb2MUStpIqGfQxa6xY/+eEuxv+VqwXyg==",
+      "8.3.12": {
+        "hash": "sha512-BFL8r4+FrqecPnIW0H8UJCBRQ4Y8Ep60aujw9c/sQuFmQTiqgWgpphswMGfaosP2zUinDE3ojU5wwcS2IJnumA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/merge/-/merge-8.3.11.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/merge/-/merge-8.3.12.tgz"
       }
     },
     "@graphql-tools/mock": {
-      "8.7.11": {
-        "hash": "sha512-4AAQvqRo6xglcBNOS52UQVaP8J4FAu8WPekB4s7zMp5PDHmx8wYVKYfXQ5fLVGxhBt740bL3IMykMFocsP/4EA==",
+      "8.7.12": {
+        "hash": "sha512-bEjj52T5idjzqFXfDZPFfPZDPFEjVmayYA6RYqMxM3Qdv5JJ8pSMEGDBcXhinbQudPKdRkLmR17usNmRMpUQEg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/mock/-/mock-8.7.11.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/mock/-/mock-8.7.12.tgz"
       }
     },
     "@graphql-tools/schema": {
@@ -3796,10 +3796,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@graphql-tools/schema/-/schema-8.5.1.tgz"
       },
-      "9.0.9": {
-        "hash": "sha512-hwg8trUytO5ayQ8bzL3+sAyXcu2rhKt5pLXpLO0/TMTN2nXd3DBO4mqx+Ra4Er2mE/msInGQ5EmZbxVBPv+hSg==",
+      "9.0.10": {
+        "hash": "sha512-lV0o4df9SpPiaeeDAzgdCJ2o2N9Wvsp0SMHlF2qDbh9aFCFQRsXuksgiDm2yTgT3TG5OtUes/t0D6uPjPZFUbQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/schema/-/schema-9.0.9.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/schema/-/schema-9.0.10.tgz"
       }
     },
     "@graphql-tools/utils": {
@@ -3808,10 +3808,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/@graphql-tools/utils/-/utils-8.9.0.tgz"
       },
-      "9.1.0": {
-        "hash": "sha512-4Ketxo98IwKA/56LP6cI6PgQBwUCujszQcTNkzjq7liJPa2mLjKnmVOJ0bauMwKcEazeYuZagceljb0POmEGvQ==",
+      "9.1.1": {
+        "hash": "sha512-DXKLIEDbihK24fktR2hwp/BNIVwULIHaSTNTNhXS+19vgT50eX9wndx1bPxGwHnVBOONcwjXy0roQac49vdt/w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@graphql-tools/utils/-/utils-9.1.0.tgz"
+        "url": "https://registry.npmjs.org/@graphql-tools/utils/-/utils-9.1.1.tgz"
       }
     },
     "@hapi/hoek": {
@@ -7052,10 +7052,10 @@
       }
     },
     "regexpu-core": {
-      "5.2.1": {
-        "hash": "sha512-HrnlNtpvqP1Xkb28tMhBUO2EbyUHdQlsnlAhzWcwHy8WJR53UWr7/MAvqrsQKMbV4qdpv03oTMG8iIhfsPFktQ==",
+      "5.2.2": {
+        "hash": "sha512-T0+1Zp2wjF/juXMrMxHxidqGYn8U4R+zleSJhX9tQ1PUsS8a9UtYfbsF9LdiVgNX3kiX8RNaKM42nfSgvFJjmw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.2.1.tgz"
+        "url": "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.2.2.tgz"
       }
     },
     "regjsgen": {
@@ -7759,10 +7759,10 @@
       }
     },
     "unicode-match-property-value-ecmascript": {
-      "2.0.0": {
-        "hash": "sha512-7Yhkc0Ye+t4PNYzOGKedDhXbYIBe1XEQYQxOPyhcXNMJ0WCABqqj6ckydd6pWRZTHV4GuCPKdBAUiMc60tsKVw==",
+      "2.1.0": {
+        "hash": "sha512-qxkjQt6qjg/mYscYMC0XKRn3Rh0wFPlfxB0xkt9CfyTvpX1Ra0+rAmdX2QyAobptSEvuy4RtpPRui6XkV+8wjA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.1.0.tgz"
       }
     },
     "unicode-property-aliases-ecmascript": {

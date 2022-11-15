@@ -12,9 +12,9 @@
     "nodejsVersion": "14"
   },
   "cyclicDependencies": {
-    "pkg-types": {
-      "0.3.6": [
-        [ "mlly", "0.5.16" ]
+    "mlly": {
+      "1.0.0": [
+        [ "pkg-types", "1.0.1" ]
       ]
     }
   },
@@ -107,18 +107,29 @@
       ]
     },
     "mlly": {
-      "0.5.16": [
+      "0.5.17": [
         [ "acorn", "8.8.1" ],
-        [ "pathe", "0.3.9" ],
-        [ "pkg-types", "0.3.6" ],
-        [ "ufo", "0.8.6" ]
+        [ "pathe", "1.0.0" ],
+        [ "pkg-types", "1.0.1" ],
+        [ "ufo", "1.0.0" ]
+      ],
+      "1.0.0": [
+        [ "acorn", "8.8.1" ],
+        [ "pathe", "1.0.0" ],
+        [ "pkg-types", "1.0.1" ],
+        [ "ufo", "1.0.0" ]
       ]
     },
     "pkg-types": {
       "0.3.6": [
         [ "jsonc-parser", "3.2.0" ],
-        [ "mlly", "0.5.16" ],
+        [ "mlly", "0.5.17" ],
         [ "pathe", "0.3.9" ]
+      ],
+      "1.0.1": [
+        [ "jsonc-parser", "3.2.0" ],
+        [ "mlly", "1.0.0" ],
+        [ "pathe", "1.0.0" ]
       ]
     },
     "readdirp": {
@@ -148,7 +159,7 @@
         [ "fast-glob", "3.2.12" ],
         [ "local-pkg", "0.4.2" ],
         [ "magic-string", "0.26.7" ],
-        [ "mlly", "0.5.16" ],
+        [ "mlly", "0.5.17" ],
         [ "pathe", "0.3.9" ],
         [ "pkg-types", "0.3.6" ],
         [ "scule", "0.3.2" ],
@@ -369,10 +380,15 @@
       }
     },
     "mlly": {
-      "0.5.16": {
-        "hash": "sha512-LaJ8yuh4v0zEmge/g3c7jjFlhoCPfQn6RCjXgm9A0Qiuochq4BcuOxVfWmdnCoLTlg2MV+hqhOek+W2OhG0Lwg==",
+      "0.5.17": {
+        "hash": "sha512-Rn+ai4G+CQXptDFSRNnChEgNr+xAEauYhwRvpPl/UHStTlgkIftplgJRsA2OXPuoUn86K4XAjB26+x5CEvVb6A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/mlly/-/mlly-0.5.16.tgz"
+        "url": "https://registry.npmjs.org/mlly/-/mlly-0.5.17.tgz"
+      },
+      "1.0.0": {
+        "hash": "sha512-QL108Hwt+u9bXdWgOI0dhzZfACovn5Aen4Xvc8Jasd9ouRH4NjnrXEiyP3nVvJo91zPlYjVRckta0Nt2zfoR6g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mlly/-/mlly-1.0.0.tgz"
       }
     },
     "normalize-path": {
@@ -387,6 +403,11 @@
         "hash": "sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==",
         "type": "http",
         "url": "https://registry.npmjs.org/pathe/-/pathe-0.3.9.tgz"
+      },
+      "1.0.0": {
+        "hash": "sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pathe/-/pathe-1.0.0.tgz"
       }
     },
     "picomatch": {
@@ -401,6 +422,11 @@
         "hash": "sha512-uQZutkkh6axl1GxDm5/+8ivVdwuJ5pyDGqJeSiIWIUWIqYiK3p9QKozN/Rv6eVvFoeSWkN1uoYeSDBwwBJBtbg==",
         "type": "http",
         "url": "https://registry.npmjs.org/pkg-types/-/pkg-types-0.3.6.tgz"
+      },
+      "1.0.1": {
+        "hash": "sha512-jHv9HB+Ho7dj6ItwppRDDl0iZRYBD0jsakHXtFgoLr+cHSF6xC+QL54sJmWxyGxOLYSHm0afhXhXcQDQqH9z8g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/pkg-types/-/pkg-types-1.0.1.tgz"
       }
     },
     "queue-microtask": {
@@ -460,10 +486,10 @@
       }
     },
     "ufo": {
-      "0.8.6": {
-        "hash": "sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==",
+      "1.0.0": {
+        "hash": "sha512-DRty0ZBNlJ2R59y4mEupJRKLbkLQsc4qtxjpQv78AwEDuBkaUogMc2LkeqW3HddFlw6NwnXYfdThEZOiNgkmmQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ufo/-/ufo-0.8.6.tgz"
+        "url": "https://registry.npmjs.org/ufo/-/ufo-1.0.0.tgz"
       }
     },
     "unimport": {

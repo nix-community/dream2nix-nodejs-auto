@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "postcss-custom-media",
+    "location": "",
+    "packages": {
+      "postcss-custom-media": "9.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "postcss": {
+      "8.4.19": [
+        [ "nanoid", "3.3.4" ],
+        [ "picocolors", "1.0.0" ],
+        [ "source-map-js", "1.0.2" ]
+      ]
+    },
+    "postcss-custom-media": {
+      "9.0.0": [
+        [ "@csstools/css-parser-algorithms", "1.0.0" ],
+        [ "@csstools/css-tokenizer", "1.0.0" ],
+        [ "@csstools/media-query-list-parser", "1.0.0" ]
+      ],
+      "unknown": [
+        [ "postcss-custom-media", "9.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@csstools/css-parser-algorithms": {
+      "1.0.0": {
+        "hash": "sha512-lPphY34yfV15tEXiz/SYaU8hwqAhbAwqiTExv5tOfc7QZxT70VVYrsiPBaX1osdWZFowrDEAhHe4H3JnyzbjhA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-1.0.0.tgz"
+      }
+    },
+    "@csstools/css-tokenizer": {
+      "1.0.0": {
+        "hash": "sha512-xdFjdQ+zqqkOsmee+kYRieZD9Cqh4hr01YBQ2/8NtTkMMxbtRX18MC50LX6cMrtaLryqmIdZHN9e16/l0QqnQw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-1.0.0.tgz"
+      }
+    },
+    "@csstools/media-query-list-parser": {
+      "1.0.0": {
+        "hash": "sha512-HsTj5ejI8NKKZ4IEd6kK2kQZA/JmIVlUV8+XvO/YS9ntrlYPnbmFT3rkqtbxOVfEafblYCNOpeNw1c+fKGkAqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@csstools/media-query-list-parser/-/media-query-list-parser-1.0.0.tgz"
+      }
+    },
+    "nanoid": {
+      "3.3.4": {
+        "hash": "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
+      }
+    },
+    "picocolors": {
+      "1.0.0": {
+        "hash": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+      }
+    },
+    "postcss": {
+      "8.4.19": {
+        "hash": "sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss/-/postcss-8.4.19.tgz"
+      }
+    },
+    "postcss-custom-media": {
+      "9.0.0": {
+        "hash": "sha512-HZvWFVMRRkJ92N2Typx8AV9ecQKjkLALd3uHJvVoq41GWdKqiB3GHWrzSmPiGtNWdrPbZIXs5RkNjkSHmCIfqA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/postcss-custom-media/-/postcss-custom-media-9.0.0.tgz"
+      }
+    },
+    "source-map-js": {
+      "1.0.2": {
+        "hash": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+      }
+    }
+  }
+}
