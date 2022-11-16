@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "docdash",
+    "location": "",
+    "packages": {
+      "docdash": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@jsdoc/salty": {
+      "0.2.1": [
+        [ "lodash", "4.17.21" ]
+      ]
+    },
+    "docdash": {
+      "2.0.0": [
+        [ "@jsdoc/salty", "0.2.1" ]
+      ],
+      "unknown": [
+        [ "docdash", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@jsdoc/salty": {
+      "0.2.1": {
+        "hash": "sha512-JXwylDNSHa549N9uceDYu8D4GMXwSo3H8CCPYEQqxhhHpxD28+lRl2b3bS/caaPj5w1YD3SWtrficJNTnUjGpg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@jsdoc/salty/-/salty-0.2.1.tgz"
+      }
+    },
+    "docdash": {
+      "2.0.0": {
+        "hash": "sha512-AxxZwrMLmiArEHJirdyZmW6YTBKxkd/Z5V9U2EU1crIMtpgoU/cH7Hnc9n1E0lzB1ZSam+VVMSnvlc+9+GUGVg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/docdash/-/docdash-2.0.0.tgz"
+      }
+    },
+    "lodash": {
+      "4.17.21": {
+        "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+      }
+    }
+  }
+}

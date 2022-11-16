@@ -1,0 +1,49 @@
+{
+  "_generic": {
+    "defaultPackage": "@playwright/test",
+    "location": "",
+    "packages": {
+      "@playwright/test": "1.28.0-beta-1668558158000"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@playwright/test": {
+      "1.28.0-beta-1668558158000": [
+        [ "@types/node", "18.11.9" ],
+        [ "playwright-core", "1.28.0-beta-1668558158000" ]
+      ],
+      "unknown": [
+        [ "@playwright/test", "1.28.0-beta-1668558158000" ]
+      ]
+    }
+  },
+  "sources": {
+    "@playwright/test": {
+      "1.28.0-beta-1668558158000": {
+        "hash": "sha512-227/7020sif28wPR7rZIu1mFQ8Dnc11waiMSjbXNXD8GCCuvqwR+t+BINZMSP9KjneQFhremJGk6C/o02x+2zw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@playwright/test/-/test-1.28.0-beta-1668558158000.tgz"
+      }
+    },
+    "@types/node": {
+      "18.11.9": {
+        "hash": "sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.11.9.tgz"
+      }
+    },
+    "playwright-core": {
+      "1.28.0-beta-1668558158000": {
+        "hash": "sha512-6aeK3QeR3+BKuFLL2GYKrAB0Otor4xaGS1VcDz3+CFhH43cSe2/ndxs6eHg/0PzG/NjeJY/LrvJNc0aO1fXMvA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.28.0-beta-1668558158000.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "@fortawesome/free-solid-svg-icons",
+    "location": "",
+    "packages": {
+      "@fortawesome/free-solid-svg-icons": "6.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": {
+      "6.2.1": [
+        [ "@fortawesome/fontawesome-common-types", "6.2.1" ]
+      ],
+      "unknown": [
+        [ "@fortawesome/free-solid-svg-icons", "6.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@fortawesome/fontawesome-common-types": {
+      "6.2.1": {
+        "hash": "sha512-Sz07mnQrTekFWLz5BMjOzHl/+NooTdW8F8kDQxjWwbpOJcnoSg4vUDng8d/WR1wOxM0O+CY9Zw0nR054riNYtQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.2.1.tgz"
+      }
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "6.2.1": {
+        "hash": "sha512-oKuqrP5jbfEPJWTij4sM+/RvgX+RMFwx3QZCZcK9PrBDgxC35zuc7AOFsyMjMd/PIFPeB2JxyqDr5zs/DZFPPw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.2.1.tgz"
+      }
+    }
+  }
+}

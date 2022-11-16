@@ -1,0 +1,94 @@
+{
+  "_generic": {
+    "defaultPackage": "@tarojs/taro",
+    "location": "",
+    "packages": {
+      "@tarojs/taro": "3.6.0-canary.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@babel/runtime": {
+      "7.20.1": [
+        [ "regenerator-runtime", "0.13.10" ]
+      ]
+    },
+    "@tarojs/api": {
+      "3.6.0-canary.2": [
+        [ "@babel/runtime", "7.20.1" ],
+        [ "@tarojs/runtime", "3.6.0-canary.2" ]
+      ]
+    },
+    "@tarojs/runtime": {
+      "3.6.0-canary.2": [
+        [ "@tarojs/shared", "3.6.0-canary.2" ],
+        [ "lodash-es", "4.17.21" ]
+      ]
+    },
+    "@tarojs/taro": {
+      "3.6.0-canary.2": [
+        [ "@tarojs/api", "3.6.0-canary.2" ],
+        [ "@tarojs/runtime", "3.6.0-canary.2" ]
+      ],
+      "unknown": [
+        [ "@tarojs/taro", "3.6.0-canary.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "@babel/runtime": {
+      "7.20.1": {
+        "hash": "sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
+      }
+    },
+    "@tarojs/api": {
+      "3.6.0-canary.2": {
+        "hash": "sha512-/coQIAcs4nMD1ditNqLwOZjYZHh+VSlt0tFOSKaky/KJB/4/JaOryidDoMZ3D5fOlLGOmcGnj2t+UQNhusKjLg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/api/-/api-3.6.0-canary.2.tgz"
+      }
+    },
+    "@tarojs/runtime": {
+      "3.6.0-canary.2": {
+        "hash": "sha512-3c3DzPaplM0fs/F8XSuYsOiaClx6SVLBNUalv6a1z2PdT2qUeowteaEi9GGjcB4fI6fzOBV0k12Am6uOr5nvmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/runtime/-/runtime-3.6.0-canary.2.tgz"
+      }
+    },
+    "@tarojs/shared": {
+      "3.6.0-canary.2": {
+        "hash": "sha512-gt7jJdQoIEFrKl0wwQurRv+MjQJNnSRG8lVHcPMuMrOgLG+/HGH8R6dvO23i+01a3cMeDy5SrLrb8rb5VgkOxQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/shared/-/shared-3.6.0-canary.2.tgz"
+      }
+    },
+    "@tarojs/taro": {
+      "3.6.0-canary.2": {
+        "hash": "sha512-iOzapvadYs2BmktohHuDh+e2Ur5VVVg26FnKBwc12S/aRIZHg0JnZdNYRaQZ5WDsL+kQu7G+emH8I/Qfrc73iA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@tarojs/taro/-/taro-3.6.0-canary.2.tgz"
+      }
+    },
+    "lodash-es": {
+      "4.17.21": {
+        "hash": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
+      }
+    },
+    "regenerator-runtime": {
+      "0.13.10": {
+        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+      }
+    }
+  }
+}

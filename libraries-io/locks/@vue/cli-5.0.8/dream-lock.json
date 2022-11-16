@@ -46,6 +46,25 @@
         [ "@types/long", "4.0.2" ],
         [ "@types/node", "10.17.60" ],
         [ "long", "4.0.0" ]
+      ],
+      "1.2.7": [
+        [ "@protobufjs/aspromise", "1.1.2" ],
+        [ "@protobufjs/base64", "1.1.2" ],
+        [ "@protobufjs/codegen", "2.0.4" ],
+        [ "@protobufjs/eventemitter", "1.1.0" ],
+        [ "@protobufjs/fetch", "1.1.0" ],
+        [ "@protobufjs/float", "1.0.2" ],
+        [ "@protobufjs/inquire", "1.1.0" ],
+        [ "@protobufjs/path", "1.1.2" ],
+        [ "@protobufjs/pool", "1.1.0" ],
+        [ "@protobufjs/utf8", "1.1.0" ],
+        [ "@types/long", "4.0.2" ],
+        [ "long", "4.0.0" ]
+      ]
+    },
+    "@apollo/usage-reporting-protobuf": {
+      "4.0.2": [
+        [ "@apollo/protobufjs", "1.2.7" ]
       ]
     },
     "@apollo/utils.keyvaluecache": {
@@ -60,13 +79,13 @@
       ]
     },
     "@apollo/utils.usagereporting": {
-      "1.0.0": [
+      "1.0.1": [
+        [ "@apollo/usage-reporting-protobuf", "4.0.2" ],
         [ "@apollo/utils.dropunuseddefinitions", "1.1.0" ],
         [ "@apollo/utils.printwithreducedwhitespace", "1.1.0" ],
         [ "@apollo/utils.removealiases", "1.0.0" ],
         [ "@apollo/utils.sortast", "1.1.0" ],
-        [ "@apollo/utils.stripsensitiveliterals", "1.2.0" ],
-        [ "apollo-reporting-protobuf", "3.3.3" ]
+        [ "@apollo/utils.stripsensitiveliterals", "1.2.0" ]
       ]
     },
     "@apollographql/graphql-playground-html": {
@@ -1087,7 +1106,7 @@
       "3.11.1": [
         [ "@apollo/utils.keyvaluecache", "1.0.1" ],
         [ "@apollo/utils.logger", "1.0.1" ],
-        [ "@apollo/utils.usagereporting", "1.0.0" ],
+        [ "@apollo/utils.usagereporting", "1.0.1" ],
         [ "@apollographql/apollo-tools", "0.5.4" ],
         [ "@apollographql/graphql-playground-html", "1.6.29" ],
         [ "@graphql-tools/mock", "8.7.12" ],
@@ -2943,6 +2962,18 @@
         "hash": "sha512-Wqo1oSHNUj/jxmsVp4iR3I480p6qdqHikn38lKrFhfzcDJ7lwd7Ck7cHRl4JE81tWNArl77xhnG/OkZhxKBYOw==",
         "type": "http",
         "url": "https://registry.npmjs.org/@apollo/protobufjs/-/protobufjs-1.2.6.tgz"
+      },
+      "1.2.7": {
+        "hash": "sha512-Lahx5zntHPZia35myYDBRuF58tlwPskwHc5CWBZC/4bMKB6siTBWwtMrkqXcsNwQiFSzSx5hKdRPUmemrEp3Gg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@apollo/protobufjs/-/protobufjs-1.2.7.tgz"
+      }
+    },
+    "@apollo/usage-reporting-protobuf": {
+      "4.0.2": {
+        "hash": "sha512-GfE8aDqi/lAFut95pjH9IRvH0zGsQ5G/2lYL0ZLZfML7ArX+A4UVHFANQcPCcUYGE6bI6OPhLekg4Vsjf6B1cw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@apollo/usage-reporting-protobuf/-/usage-reporting-protobuf-4.0.2.tgz"
       }
     },
     "@apollo/utils.dropunuseddefinitions": {
@@ -2995,10 +3026,10 @@
       }
     },
     "@apollo/utils.usagereporting": {
-      "1.0.0": {
-        "hash": "sha512-5PL7hJMkTPmdo3oxPtigRrIyPxDk/ddrUryHPDaezL1lSFExpNzsDd2f1j0XJoHOg350GRd3LyD64caLA2PU1w==",
+      "1.0.1": {
+        "hash": "sha512-6dk+0hZlnDbahDBB2mP/PZ5ybrtCJdLMbeNJD+TJpKyZmSY6bA3SjI8Cr2EM9QA+AdziywuWg+SgbWUF3/zQqQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@apollo/utils.usagereporting/-/utils.usagereporting-1.0.0.tgz"
+        "url": "https://registry.npmjs.org/@apollo/utils.usagereporting/-/utils.usagereporting-1.0.1.tgz"
       }
     },
     "@apollographql/apollo-tools": {
