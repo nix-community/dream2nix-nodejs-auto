@@ -1,0 +1,41 @@
+{
+  "_generic": {
+    "defaultPackage": "prisma",
+    "location": "",
+    "packages": {
+      "prisma": "4.7.0-dev.29"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "prisma": {
+      "4.7.0-dev.29": [
+        [ "@prisma/engines", "4.7.0-dev.29" ]
+      ],
+      "unknown": [
+        [ "prisma", "4.7.0-dev.29" ]
+      ]
+    }
+  },
+  "sources": {
+    "@prisma/engines": {
+      "4.7.0-dev.29": {
+        "hash": "sha512-16QxASfIAewNDLWhJvA/unR/kPSTVLjT5+hsCMM93tLLdyzLTiVhic0K7aWitvq4Zdtzv9+jDnhqahlU5VnZOA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@prisma/engines/-/engines-4.7.0-dev.29.tgz"
+      }
+    },
+    "prisma": {
+      "4.7.0-dev.29": {
+        "hash": "sha512-qDmglU+oAEM6+ecHfP2xCtiuJS/Tvb/PoL2j2DTHcVKwOjf1aKw/l+HxZE9DWCKXOVSdpvpopI8rwG53zhUWUw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/prisma/-/prisma-4.7.0-dev.29.tgz"
+      }
+    }
+  }
+}

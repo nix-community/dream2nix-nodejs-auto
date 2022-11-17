@@ -1,0 +1,50 @@
+{
+  "_generic": {
+    "defaultPackage": "@capacitor/ios",
+    "location": "",
+    "packages": {
+      "@capacitor/ios": "4.5.1-dev-20221117T024619.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@capacitor/core": {
+      "4.5.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@capacitor/ios": {
+      "unknown": [
+        [ "@capacitor/ios", "4.5.1-dev-20221117T024619.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "@capacitor/core": {
+      "4.5.0": {
+        "hash": "sha512-afx+hvQIrPcHbTdsBIryE96JlfSt1Rw8cWhb1J34v6Exje6zQZQa3fQZ6gcgkON+zkDIK8u3yRcIps0xMUdsMQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@capacitor/core/-/core-4.5.0.tgz"
+      }
+    },
+    "@capacitor/ios": {
+      "4.5.1-dev-20221117T024619.0": {
+        "hash": "sha512-UVto185T9ANpNakbx6dTa+paBdCiU1QyCc5E2WBOigGTtsk/a0Yl/fC3v3iz1/UcwBN1rE+WItZHvhUI6ShKWA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@capacitor/ios/-/ios-4.5.1-dev-20221117T024619.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}

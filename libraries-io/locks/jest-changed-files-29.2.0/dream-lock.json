@@ -1,0 +1,206 @@
+{
+  "_generic": {
+    "defaultPackage": "jest-changed-files",
+    "location": "",
+    "packages": {
+      "jest-changed-files": "29.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cross-spawn": {
+      "7.0.3": [
+        [ "path-key", "3.1.1" ],
+        [ "shebang-command", "2.0.0" ],
+        [ "which", "2.0.2" ]
+      ]
+    },
+    "execa": {
+      "5.1.1": [
+        [ "cross-spawn", "7.0.3" ],
+        [ "get-stream", "6.0.1" ],
+        [ "human-signals", "2.1.0" ],
+        [ "is-stream", "2.0.1" ],
+        [ "merge-stream", "2.0.0" ],
+        [ "npm-run-path", "4.0.1" ],
+        [ "onetime", "5.1.2" ],
+        [ "signal-exit", "3.0.7" ],
+        [ "strip-final-newline", "2.0.0" ]
+      ]
+    },
+    "jest-changed-files": {
+      "29.2.0": [
+        [ "execa", "5.1.1" ],
+        [ "p-limit", "3.1.0" ]
+      ],
+      "unknown": [
+        [ "jest-changed-files", "29.2.0" ]
+      ]
+    },
+    "npm-run-path": {
+      "4.0.1": [
+        [ "path-key", "3.1.1" ]
+      ]
+    },
+    "onetime": {
+      "5.1.2": [
+        [ "mimic-fn", "2.1.0" ]
+      ]
+    },
+    "p-limit": {
+      "3.1.0": [
+        [ "yocto-queue", "0.1.0" ]
+      ]
+    },
+    "shebang-command": {
+      "2.0.0": [
+        [ "shebang-regex", "3.0.0" ]
+      ]
+    },
+    "which": {
+      "2.0.2": [
+        [ "isexe", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cross-spawn": {
+      "7.0.3": {
+        "hash": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
+      }
+    },
+    "execa": {
+      "5.1.1": {
+        "hash": "sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/execa/-/execa-5.1.1.tgz"
+      }
+    },
+    "get-stream": {
+      "6.0.1": {
+        "hash": "sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
+      }
+    },
+    "human-signals": {
+      "2.1.0": {
+        "hash": "sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz"
+      }
+    },
+    "is-stream": {
+      "2.0.1": {
+        "hash": "sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz"
+      }
+    },
+    "isexe": {
+      "2.0.0": {
+        "hash": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+      }
+    },
+    "jest-changed-files": {
+      "29.2.0": {
+        "hash": "sha512-qPVmLLyBmvF5HJrY7krDisx6Voi8DmlV3GZYX0aFNbaQsZeoz1hfxcCMbqDGuQCxU1dJy9eYc2xscE8QrCCYaA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/jest-changed-files/-/jest-changed-files-29.2.0.tgz"
+      }
+    },
+    "merge-stream": {
+      "2.0.0": {
+        "hash": "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
+      }
+    },
+    "mimic-fn": {
+      "2.1.0": {
+        "hash": "sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
+      }
+    },
+    "npm-run-path": {
+      "4.0.1": {
+        "hash": "sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz"
+      }
+    },
+    "onetime": {
+      "5.1.2": {
+        "hash": "sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz"
+      }
+    },
+    "p-limit": {
+      "3.1.0": {
+        "hash": "sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz"
+      }
+    },
+    "path-key": {
+      "3.1.1": {
+        "hash": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
+      }
+    },
+    "shebang-command": {
+      "2.0.0": {
+        "hash": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz"
+      }
+    },
+    "shebang-regex": {
+      "3.0.0": {
+        "hash": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
+      }
+    },
+    "signal-exit": {
+      "3.0.7": {
+        "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
+      }
+    },
+    "strip-final-newline": {
+      "2.0.0": {
+        "hash": "sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
+      }
+    },
+    "which": {
+      "2.0.2": {
+        "hash": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+      }
+    },
+    "yocto-queue": {
+      "0.1.0": {
+        "hash": "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "_generic": {
+    "defaultPackage": "@material/ripple",
+    "location": "",
+    "packages": {
+      "@material/ripple": "15.0.0-canary.bb7751002.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "nodejs"
+  },
+  "_subsystem": {
+    "nodejsVersion": "14"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "@material/animation": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@material/base": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@material/dom": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "@material/feature-targeting", "15.0.0-canary.bb7751002.0" ],
+        [ "@material/rtl", "15.0.0-canary.bb7751002.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@material/feature-targeting": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@material/ripple": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "@material/animation", "15.0.0-canary.bb7751002.0" ],
+        [ "@material/base", "15.0.0-canary.bb7751002.0" ],
+        [ "@material/dom", "15.0.0-canary.bb7751002.0" ],
+        [ "@material/feature-targeting", "15.0.0-canary.bb7751002.0" ],
+        [ "@material/rtl", "15.0.0-canary.bb7751002.0" ],
+        [ "@material/theme", "15.0.0-canary.bb7751002.0" ],
+        [ "tslib", "2.4.1" ]
+      ],
+      "unknown": [
+        [ "@material/ripple", "15.0.0-canary.bb7751002.0" ]
+      ]
+    },
+    "@material/rtl": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "@material/theme", "15.0.0-canary.bb7751002.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    },
+    "@material/theme": {
+      "15.0.0-canary.bb7751002.0": [
+        [ "@material/feature-targeting", "15.0.0-canary.bb7751002.0" ],
+        [ "tslib", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "@material/animation": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-q6IxoRaqSfbHBhCn7Mdf78Dj5zds6Mtb1YK7/3zfc91keY7b3O/XaTV0tUS1gIFl+TrSXO/ZCO8/DyZ6FqBy+g==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "@material/base": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-Vg/JFJIs61UMWKP+nRhlE2y3Nn1yl3cZVDW5w4OG8fvOLVSDA/8x1WehsJlf4ZMnoM4EjHhzHSmBTrplIVr0Eg==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "@material/dom": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-S6O+jjZiiQTHSltF9THPyIgFesb0tMA+LyrBN8Tgr2ydBqyoDjMgDAxggiuKJVt30rPyTY3dGk6dx98acaWXyA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "@material/feature-targeting": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-nb32qokDbflW8uWZ1a0UG/U8fUAUDHkov0xbjWxNo0UHOgiNgzWvxQrmK4YWtlyk5Y7JdY9wEh+JaMmWCX2JmQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "@material/ripple": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-T7TrF4VEuK+p8EjX5wlV4SpqEPeflCvVD9nDOhZfS377n21CY1YWQl7HAntmS5bC5NiJ5+nZp5Dw9Mi+Db+u9w==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "@material/rtl": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-y7aipCIxqh7JAxfl8nxlmLgL/yEtR1CqY41oU1m7LlkVPU6SK7tV6XZ+L1EV8ulPZOdtLGvBR0qb3YBJ9rjWyQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "@material/theme": {
+      "15.0.0-canary.bb7751002.0": {
+        "hash": "sha512-TaFfyPIvi5ZW102pMzFFYvrri8Fla6aYOyhLBFk9tJYvEdVxj/jgNKfaP4fUTIIJ+3NoBn5No3aLE+h/WHXcvQ==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.bb7751002.0.tgz"
+      }
+    },
+    "tslib": {
+      "2.4.1": {
+        "hash": "sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==",
+        "type": "http",
+        "url": "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz"
+      }
+    }
+  }
+}
